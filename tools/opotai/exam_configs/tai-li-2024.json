@@ -1,0 +1,229 @@
+{
+  "bank_id": "tai-li-2024",
+  "title": "TAI · Ingreso libre · Convocatoria 2024 (examen 14/12/2024)",
+  "description": "Ejercicio único del proceso selectivo de ingreso libre en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2023-2024). Primera parte: cuestionario de 80 preguntas (+5 de reserva). Segunda parte: un supuesto práctico a elegir entre dos (bloques III y IV), de 20 preguntas (+5 de reserva) cada uno. Cuadernillo modelo A.",
+  "access": "libre",
+  "year": 2024,
+  "convocatoria": "li-2024",
+  "exam_date": "2024-12-14",
+  "model": "A",
+  "duration_minutes": 120,
+  "scoring_scheme": "tai-li-2024",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 9 de julio de 2024 de la Secretaría de Estado de Función Pública (BOE 10/07/2024). Transcripción del cuadernillo modelo A con la plantilla definitiva modelo A. El bloque de cada supuesto se asigna por su contenido (bloque III: desarrollo de sistemas; bloque IV: sistemas y comunicaciones), de acuerdo con las normas de la convocatoria (se ofrecen dos supuestos, uno de cada bloque). Verificado contra el modelo B (mismas preguntas en otro orden) con su plantilla definitiva.",
+    "documents": [
+      "cuadernillo-A.pdf",
+      "plantilla-definitiva-A.pdf",
+      "plantilla-provisional-A.pdf",
+      "criterios.pdf",
+      "cuadernillo-B.pdf",
+      "plantilla-definitiva-B.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Cuestionario",
+      "block": null,
+      "questions": 80,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto I",
+      "block": "III",
+      "questions": 20,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto II",
+      "block": "IV",
+      "questions": 20,
+      "reserve": 5
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo-A.pdf",
+      "bottom": 793,
+      "ignore": [
+        "^\\d{4} - TAI-L – MODELO A$",
+        "^Página \\d+ de \\d+$"
+      ],
+      "markers": [
+        {
+          "pattern": "^PRIMERA PARTE$",
+          "section": "p1"
+        },
+        {
+          "pattern": "^SUPUESTO I$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "^SUPUESTO II$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "^Preguntas de reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "spot_checks": {
+    "p1-008": "A",
+    "p1-020": "C",
+    "p1-021": "D",
+    "p1-049": "B",
+    "p1-059": "A",
+    "p1-066": "A",
+    "p1-078": "C",
+    "p1-079": "D",
+    "p2-s1-001": "C",
+    "p2-s1-002": "C",
+    "p2-s1-003": "D",
+    "p2-s1-011": "A",
+    "p2-s2-001": "A",
+    "p2-s2-002": "B",
+    "p2-s2-010": "B",
+    "p2-s2-019": "C"
+  },
+  "figures": {
+    "p2-s1-statement-1": {
+      "alt": "Modelo de datos del sistema de becas: tablas Interesado, SolicitudBeca, FicheroAdjunto, CuerpoBecado y Estado con sus atributos (claves primarias en negrita y foráneas en cursiva) y relaciones.",
+      "transcription": [
+        "*Transcripción del modelo de datos (en negrita, claves primarias; en cursiva, claves foráneas):*",
+        "",
+        "| Tabla | Atributos |",
+        "|---|---|",
+        "| Interesado | **IdInteresado - bigint** · DocumentoIdentidad - varchar(9) · Nombre - varchar(100) · Apellido1 - varchar(100) · Apellido2 - varchar(100) · Email - varchar(100) |",
+        "| SolicitudBeca | **IdSolicitudBeca - bigint** · *IdInteresado - bigint* · *IdCuerpoBecado - bigint* · FechaPresentacion - datetime · *IdEstado - bigint* · AñoConvocatoria - int |",
+        "| FicheroAdjunto | **IdFicheroAdjunto - bigint** · *IdSolicitudBeca - bigint* · Denominacion - varchar(100) |",
+        "| CuerpoBecado | **IdCuerpoBecado - bigint** · Codigo - varchar(10) · Denominacion - varchar(100) |",
+        "| Estado | **IdEstado - bigint** · Codigo - varchar(10) · Denominacion - varchar(100) |",
+        "",
+        "| Relación (notación de pata de gallo) | Cardinalidad en cada extremo |",
+        "|---|---|",
+        "| Interesado – SolicitudBeca | Interesado: uno · SolicitudBeca: cero o muchos |",
+        "| SolicitudBeca – FicheroAdjunto | SolicitudBeca: uno · FicheroAdjunto: cero o muchos |",
+        "| SolicitudBeca – CuerpoBecado | SolicitudBeca: cero o muchos · CuerpoBecado: uno |",
+        "| SolicitudBeca – Estado | SolicitudBeca: cero o muchos · Estado: uno |"
+      ]
+    }
+  },
+  "answer_keys": [
+    {
+      "file": "plantilla-definitiva-A.pdf",
+      "status": "definitiva",
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto i$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto ii$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    },
+    {
+      "file": "plantilla-provisional-A.pdf",
+      "status": "provisional",
+      "compare_only": true,
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto i$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto ii$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "crosscheck": {
+    "booklets": [
+      {
+        "file": "cuadernillo-B.pdf",
+        "bottom": 793,
+        "ignore": [
+          "^\\d{4} - TAI-L – MODELO B$",
+          "^Página \\d+ de \\d+$"
+        ],
+        "markers": [
+          {
+            "pattern": "^PRIMERA PARTE$",
+            "section": "p1"
+          },
+          {
+            "pattern": "^SUPUESTO I$",
+            "section": "p2-s1"
+          },
+          {
+            "pattern": "^SUPUESTO II$",
+            "section": "p2-s2"
+          },
+          {
+            "pattern": "^Preguntas de reserva$",
+            "reserve": true
+          }
+        ]
+      }
+    ],
+    "b_replace": [
+      {
+        "old": "Un lenguaje de consulta de datos. de datos.",
+        "new": "Un lenguaje de consulta de datos.",
+        "note": "Fragmento sobrante «de datos.» impreso en el modelo B (en el A aparece en otra pregunta)."
+      }
+    ],
+    "answer_key": {
+      "file": "plantilla-definitiva-B.pdf",
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto i$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto ii$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  }
+}

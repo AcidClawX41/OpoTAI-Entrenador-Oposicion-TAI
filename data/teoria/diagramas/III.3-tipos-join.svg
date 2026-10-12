@@ -1,0 +1,77 @@
+<!-- opotai.diagrams: tools/sources/diagramas/III.3/tipos-join.svg sha256=4ba0e61dbfd31fe0 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 566" width="900" height="566" font-family="Inter, system-ui, sans-serif" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Tipos de combinación (JOIN) en SQL</title>
+  <desc id="desc">Seis esquemas: INNER JOIN devuelve la intersección; LEFT y RIGHT JOIN, toda la tabla izquierda o derecha; FULL JOIN, ambas; LEFT JOIN con IS NULL, las filas de A sin pareja; y CROSS JOIN, el producto cartesiano.</desc>
+  <defs>
+    <clipPath id="c0"><circle cx="135.0" cy="174" r="50"/></clipPath><clipPath id="c1"><circle cx="420.0" cy="174" r="50"/></clipPath><clipPath id="c2"><circle cx="705.0" cy="174" r="50"/></clipPath><clipPath id="c3"><circle cx="135.0" cy="396" r="50"/></clipPath><clipPath id="c4"><circle cx="420.0" cy="396" r="50"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="900" height="566" rx="14" fill="#ffffff"/>
+  <text x="30" y="40" font-size="21" font-weight="700" fill="#1f2937">Tipos de combinación (JOIN) en SQL</text>
+  <text x="30" y="62" font-size="13" fill="#475569">A es la tabla de la izquierda y B la de la derecha; la zona común son las filas que cumplen la condición ON</text>
+  <rect x="30" y="82" width="270" height="206" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="165.0" y="108" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">INNER JOIN</text>
+  <circle cx="195.0" cy="174" r="50" fill="#bfdbfe" clip-path="url(#c0)"/>
+  <circle cx="135.0" cy="174" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <circle cx="195.0" cy="174" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <text x="111.0" y="180" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">A</text>
+  <text x="219.0" y="180" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">B</text>
+  <text x="165.0" y="250" font-size="13" text-anchor="middle" fill="#1f2937">Solo las filas con pareja</text>
+  <text x="165.0" y="268" font-size="13" text-anchor="middle" fill="#1f2937">en ambas tablas</text>
+  <rect x="315" y="82" width="270" height="206" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="450.0" y="108" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">LEFT [OUTER] JOIN</text>
+  <circle cx="420.0" cy="174" r="50" fill="#bfdbfe"/>
+  <circle cx="420.0" cy="174" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <circle cx="480.0" cy="174" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <text x="396.0" y="180" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">A</text>
+  <text x="504.0" y="180" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">B</text>
+  <text x="450.0" y="250" font-size="13" text-anchor="middle" fill="#1f2937">Todas las de A; de B, las que</text>
+  <text x="450.0" y="268" font-size="13" text-anchor="middle" fill="#1f2937">casan (si no, NULL)</text>
+  <rect x="600" y="82" width="270" height="206" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="735.0" y="108" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">RIGHT [OUTER] JOIN</text>
+  <circle cx="765.0" cy="174" r="50" fill="#bfdbfe"/>
+  <circle cx="705.0" cy="174" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <circle cx="765.0" cy="174" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <text x="681.0" y="180" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">A</text>
+  <text x="789.0" y="180" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">B</text>
+  <text x="735.0" y="250" font-size="13" text-anchor="middle" fill="#1f2937">Todas las de B; de A, las que</text>
+  <text x="735.0" y="268" font-size="13" text-anchor="middle" fill="#1f2937">casan (si no, NULL)</text>
+  <rect x="30" y="304" width="270" height="206" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="165.0" y="330" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">FULL [OUTER] JOIN</text>
+  <circle cx="135.0" cy="396" r="50" fill="#bfdbfe"/>
+  <circle cx="195.0" cy="396" r="50" fill="#bfdbfe"/>
+  <circle cx="135.0" cy="396" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <circle cx="195.0" cy="396" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <text x="111.0" y="402" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">A</text>
+  <text x="219.0" y="402" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">B</text>
+  <text x="165.0" y="472" font-size="13" text-anchor="middle" fill="#1f2937">Todas las de A y de B, con NULL</text>
+  <text x="165.0" y="490" font-size="13" text-anchor="middle" fill="#1f2937">donde no hay pareja (no en MySQL)</text>
+  <rect x="315" y="304" width="270" height="206" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="450.0" y="330" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">LEFT JOIN … WHERE B.clave IS NULL</text>
+  <circle cx="420.0" cy="396" r="50" fill="#bfdbfe"/>
+  <circle cx="480.0" cy="396" r="50" fill="#ffffff"/>
+  <circle cx="420.0" cy="396" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <circle cx="480.0" cy="396" r="50" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+  <text x="396.0" y="402" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">A</text>
+  <text x="504.0" y="402" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">B</text>
+  <text x="450.0" y="472" font-size="13" text-anchor="middle" fill="#1f2937">Filas de A sin ninguna pareja</text>
+  <text x="450.0" y="490" font-size="13" text-anchor="middle" fill="#1f2937">en B (equivale a NOT EXISTS)</text>
+  <rect x="600" y="304" width="270" height="206" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="735.0" y="330" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">CROSS JOIN</text>
+  <rect x="618" y="350" width="90" height="24" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="663" y="366.5" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">a1 · b1</text>
+  <rect x="716" y="350" width="90" height="24" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="761" y="366.5" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">a1 · b2</text>
+  <rect x="618" y="380" width="90" height="24" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="663" y="396.5" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">a2 · b1</text>
+  <rect x="716" y="380" width="90" height="24" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="761" y="396.5" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">a2 · b2</text>
+  <rect x="618" y="410" width="90" height="24" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="663" y="426.5" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">a3 · b1</text>
+  <rect x="716" y="410" width="90" height="24" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="761" y="426.5" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">a3 · b2</text>
+  <text x="816" y="402" font-size="13" font-weight="700" fill="#2563eb">3 × 2</text>
+  <text x="816" y="418" font-size="13" font-weight="700" fill="#2563eb">= 6</text>
+  <text x="735.0" y="472" font-size="13" text-anchor="middle" fill="#1f2937">Producto cartesiano: cada fila</text>
+  <text x="735.0" y="490" font-size="13" text-anchor="middle" fill="#1f2937">de A con cada fila de B (n × m)</text>
+  <text x="30" y="546" font-size="13" fill="#475569">NATURAL JOIN y JOIN … USING (col) combinan por las columnas de igual nombre · FROM A, B sin condición = producto cartesiano</text>
+</svg>

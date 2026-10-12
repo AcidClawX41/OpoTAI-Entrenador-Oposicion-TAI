@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-labelledby="t d">
+  <title id="t">Arquitectura ANSI/SPARC de tres niveles</title>
+  <desc id="d">Usuarios y aplicaciones ven la base de datos a través de vistas del nivel externo; las vistas se corresponden con el esquema conceptual (estructura global), que a su vez se corresponde con el esquema interno (ficheros, registros, índices) sobre la base de datos almacenada. La correspondencia externo/conceptual da la independencia lógica y la conceptual/interno, la independencia física.</desc>
+  <rect x="0" y="0" width="900" height="440" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <rect x="70" y="14" width="140" height="36" rx="18" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="140" y="37" font-size="14" fill="#475569" text-anchor="middle">Usuario A</text>
+    <line x1="140" y1="50" x2="140" y2="74" stroke="#64748b" stroke-width="2"/>
+    <rect x="230" y="14" width="140" height="36" rx="18" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="300" y="37" font-size="14" fill="#475569" text-anchor="middle">Aplicación B</text>
+    <line x1="300" y1="50" x2="300" y2="74" stroke="#64748b" stroke-width="2"/>
+    <rect x="390" y="14" width="140" height="36" rx="18" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="460" y="37" font-size="14" fill="#475569" text-anchor="middle">Usuario C</text>
+    <line x1="460" y1="50" x2="460" y2="74" stroke="#64748b" stroke-width="2"/>
+    <rect x="40" y="74" width="520" height="80" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <rect x="60" y="92" width="140" height="46" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="130" y="120" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700">Vista 1</text>
+    <rect x="220" y="92" width="140" height="46" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="290" y="120" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700">Vista 2</text>
+    <rect x="380" y="92" width="140" height="46" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="450" y="120" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700">Vista 3</text>
+    <line x1="130" y1="138" x2="300" y2="190" stroke="#64748b" stroke-width="2"/>
+    <line x1="290" y1="138" x2="300" y2="190" stroke="#64748b" stroke-width="2"/>
+    <line x1="450" y1="138" x2="300" y2="190" stroke="#64748b" stroke-width="2"/>
+    <rect x="40" y="190" width="520" height="62" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="300" y="218" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="700">Esquema conceptual</text>
+    <text x="300" y="239" font-size="13" fill="#475569" text-anchor="middle">estructura global: entidades, atributos, relaciones, restricciones</text>
+    <line x1="300" y1="252" x2="300" y2="282" stroke="#64748b" stroke-width="2"/>
+    <rect x="40" y="282" width="520" height="62" rx="12" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="300" y="310" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="700">Esquema interno</text>
+    <text x="300" y="331" font-size="13" fill="#475569" text-anchor="middle">ficheros, registros, índices y métodos de acceso</text>
+    <line x1="300" y1="344" x2="300" y2="366" stroke="#64748b" stroke-width="2"/>
+    <path d="M200 374 L200 418 A100 12 0 0 0 400 418 L400 374" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5"/>
+    <ellipse cx="300" cy="374" rx="100" ry="12" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+    <text x="300" y="408" font-size="13" fill="#1f2937" text-anchor="middle">Base de datos almacenada</text>
+    <text x="588" y="108" font-size="15" fill="#6d28d9" text-anchor="start" font-weight="700">Nivel externo</text>
+    <text x="588" y="128" font-size="13" fill="#475569" text-anchor="start">vistas de cada usuario o aplicación</text>
+    <text x="588" y="214" font-size="15" fill="#1d4ed8" text-anchor="start" font-weight="700">Nivel conceptual (lógico)</text>
+    <text x="588" y="234" font-size="13" fill="#475569" text-anchor="start">visión global: diseñador y DBA</text>
+    <text x="588" y="312" font-size="15" fill="#047857" text-anchor="start" font-weight="700">Nivel interno (físico)</text>
+    <text x="588" y="332" font-size="13" fill="#475569" text-anchor="start">almacenamiento: SGBD y DBA</text>
+    <rect x="586" y="146" width="250" height="46" rx="6" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="598" y="165" font-size="13" fill="#713f12" text-anchor="start">externo/conceptual →</text>
+    <text x="598" y="183" font-size="13" fill="#713f12" text-anchor="start" font-weight="700">independencia lógica</text>
+    <rect x="586" y="246" width="250" height="46" rx="6" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="598" y="265" font-size="13" fill="#713f12" text-anchor="start">conceptual/interno →</text>
+    <text x="598" y="283" font-size="13" fill="#713f12" text-anchor="start" font-weight="700">independencia física</text>
+  </g>
+</svg>

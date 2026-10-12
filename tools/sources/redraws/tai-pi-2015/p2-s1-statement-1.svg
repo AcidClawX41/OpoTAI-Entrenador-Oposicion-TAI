@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 396" width="900" height="396" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Reconstrucción de OpoTAI: diagrama de contexto</title>
+  <desc id="descripcion">Redibujo del diagrama del cuadernillo: el proceso 0 «Sistema» en el centro y las entidades externas Ayuntamientos (arriba), MINHAP (abajo a la izquierda) e ICO (abajo a la derecha). Flujos: Ayuntamientos → Sistema, «Datos deuda»; MINHAP → Sistema, «Valoraciones»; Sistema → ICO, «Prestamos formalizados».</desc>
+  <rect x="1" y="1" width="898" height="394" rx="14" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937">
+    <text x="20" y="34">Diagrama de contexto</text>
+    <path d="M480 96V194M192 344L388 260M566 256L725 338" fill="none" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M480 206L473 192H487Z" fill="#1f2937"/>
+    <path d="M399 255L384 254L390 267Z" fill="#1f2937"/>
+    <path d="M736 344L720 344L727 331Z" fill="#1f2937"/>
+    <rect x="396" y="26" width="168" height="70" rx="16" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+    <text x="480" y="67" text-anchor="middle" font-size="19">Ayuntamientos</text>
+    <rect x="397" y="206" width="168" height="100" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+    <rect x="398" y="207" width="166" height="27" fill="#f5f3ff"/>
+    <path d="M397 234H565" stroke="#1f2937" stroke-width="1.6"/>
+    <text x="407" y="227" font-weight="700" fill="#7c3aed">0</text>
+    <text x="481" y="276" text-anchor="middle" font-size="16">Sistema</text>
+    <text x="409" y="155" text-anchor="middle">Datos deuda</text>
+    <text x="325" y="350" text-anchor="middle">Valoraciones</text>
+    <text x="745" y="266" text-anchor="middle">Prestamos formalizados</text>
+    <rect x="48" y="315" width="140" height="70" rx="16" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+    <text x="118" y="357" text-anchor="middle" font-size="19">MINHAP</text>
+    <rect x="742" y="315" width="140" height="70" rx="16" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+    <text x="812" y="357" text-anchor="middle" font-size="19">ICO</text>
+  </g>
+</svg>

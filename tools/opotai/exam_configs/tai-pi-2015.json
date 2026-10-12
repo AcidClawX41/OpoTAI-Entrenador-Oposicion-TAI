@@ -1,0 +1,280 @@
+{
+  "bank_id": "tai-pi-2015",
+  "title": "TAI · Promoción interna · Convocatoria 2015 (OEP 2015) · ejercicio único",
+  "description": "Proceso selectivo de acceso por promoción interna (personal funcionario y laboral fijo) al Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2015). Ejercicio único en dos partes (90 minutos): primera parte con 25 preguntas comunes de los bloques I y II y 25 del bloque III o del bloque IV, a elegir (+3 de reserva cada uno); segunda parte con un supuesto práctico a elegir entre dos (bloques III y IV), de 12 preguntas (+3 de reserva) cada uno. Cuadernillo escaneado: transcrito por OCR y corregido tras revisarlo. Respuestas de la plantilla provisional (no se ha localizado la definitiva).",
+  "access": "promocion_interna",
+  "year": 2015,
+  "convocatoria": "pi-2015",
+  "exam_date": null,
+  "model": null,
+  "duration_minutes": 90,
+  "scoring_scheme": "tai-pi-2015",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "provisional",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Orden HAP/2294/2015, de 21 de octubre (BOE 3/11/2015), anexo V; OEP 2015. Ejercicio único en febrero de 2016 (fecha exacta no localizada: el escaneo es del 22/02/2016). La sede del INAP ya no publica los documentos de este proceso: se usan copias públicas de los PDF oficiales (cuestionario «15/TAI-PI» y plantilla provisional del INAP, sin alterar) archivadas en baquedano.es; no se ha localizado la plantilla definitiva. En la primera parte, la sección p1 (bloques I y II, sin preguntas de reserva) es común y p1-b3/p1-b4 son los bloques a elegir; la segunda parte ofrece dos supuestos (p2-s1, bloque III; p2-s2, bloque IV), uno a elegir. El cuadernillo es un escaneo sin capa de texto: el texto procede de OCR (Tesseract, una pasada a 300 ppp, caché versionada en tools/sources/ocr/) corregido después (ortografía, siglas y erratas del OCR, revisando la imagen en los casos dudosos); el listado XML y el código de las preguntas se transcriben desde la imagen y los diagramas del supuesto del bloque III se recortan como figura. Las preguntas con dudas de lectura o cuya respuesta provisional parece discutible llevan needs_review. Se pierde la negrita del original. Se omiten la portada y las páginas en blanco.",
+    "documents": [
+      "cuadernillo.pdf",
+      "plantilla-provisional.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Bloques I y II (comunes)",
+      "block": null,
+      "questions": 25,
+      "reserve": 0
+    },
+    {
+      "id": "p1-b3",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Bloque III (a elegir)",
+      "block": "III",
+      "questions": 25,
+      "reserve": 3
+    },
+    {
+      "id": "p1-b4",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Bloque IV (a elegir)",
+      "block": "IV",
+      "questions": 25,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto del bloque III",
+      "block": "III",
+      "questions": 12,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto del bloque IV",
+      "block": "IV",
+      "questions": 12,
+      "reserve": 3
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo.pdf",
+      "ocr": true,
+      "ocr_skip_pages": [
+        1,
+        2,
+        15,
+        16
+      ],
+      "skip_pages": [
+        1,
+        2,
+        15,
+        16
+      ],
+      "start_section": "p1",
+      "para_gap": 5.0,
+      "ignore": [
+        "(?i)EJERCICIO .*P[áa]gina ?\\d+ ?de ?12$",
+        "(?i)^bloque [il1|]{1,2}$"
+      ],
+      "markers": [
+        {
+          "pattern": "(?i)^supuesto bloque [il1|]{3}\\W*$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque [il1|]v\\W*$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^bloque [il1|]{3}$",
+          "section": "p1-b3"
+        },
+        {
+          "pattern": "(?i)^bloque [il1|]v$",
+          "section": "p1-b4"
+        },
+        {
+          "pattern": "(?i)^preguntas ?de ?reserva$",
+          "reserve": true
+        }
+      ],
+      "question_x_max": 45.0,
+      "ocr_word_fixes": [
+        {
+          "page": 13,
+          "old": null,
+          "new": "SUPUESTO BLOQUE IV",
+          "x": 240.0,
+          "y": 428.0,
+          "note": "Cabecera del supuesto del bloque IV (recuadro) que el OCR no lee."
+        },
+        {
+          "page": 11,
+          "old": "a",
+          "new": "a)",
+          "x": 51.1,
+          "y": 541.4,
+          "note": "Supuesto III, pregunta 2: etiqueta a) leída sin paréntesis."
+        },
+        {
+          "page": 11,
+          "old": "13d",
+          "new": "1:1",
+          "note": "Supuesto III, pregunta 2: opción «1:1» leída como «13d»."
+        },
+        {
+          "page": 11,
+          "old": "ss",
+          "new": "",
+          "note": "Supuesto III, pregunta 2: mancha («ss», confianza 3) sobre la etiqueta b)."
+        },
+        {
+          "page": 11,
+          "old": null,
+          "new": "b)",
+          "x": 51.6,
+          "y": 550.3,
+          "note": "Supuesto III, pregunta 2: etiqueta b) tapada por la mancha anterior."
+        },
+        {
+          "page": 13,
+          "old": ">",
+          "new": "2.",
+          "x": 24.2,
+          "y": 610.1,
+          "note": "Supuesto IV: número de la pregunta 2 leído como «> A»."
+        },
+        {
+          "page": 13,
+          "old": "A",
+          "new": "",
+          "x": 29.8,
+          "y": 615.1,
+          "note": "Supuesto IV: resto del número de la pregunta 2 («> A»)."
+        }
+      ],
+      "exclude": [
+        {
+          "page": 11,
+          "rect": [
+            40,
+            52,
+            522,
+            424
+          ],
+          "note": "Listado XML del supuesto del bloque III: transcrito a mano en el enunciado."
+        }
+      ],
+      "figures": [
+        {
+          "page": 10,
+          "rect": [
+            40,
+            170,
+            470,
+            354
+          ]
+        },
+        {
+          "page": 10,
+          "rect": [
+            40,
+            370,
+            470,
+            630
+          ]
+        }
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "file": "plantilla-provisional.pdf",
+      "status": "provisional",
+      "segment_gap": 35.0,
+      "markers": [
+        {
+          "pattern": "(?i)^bloque i$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^bloque ii$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^bloque iii$",
+          "section": "p1-b3"
+        },
+        {
+          "pattern": "(?i)^bloque iv$",
+          "section": "p1-b4"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque iii$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque iv$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "verify_text": false,
+  "spot_checks": {
+    "p1-012": "C",
+    "p1-013": "B",
+    "p1-b4-020": "D",
+    "p2-s2-010": "A",
+    "p2-s2-011": "D"
+  },
+  "figures": {
+    "p2-s1-statement-1": {
+      "redraw": "p2-s1-statement-1.svg",
+      "enhance": true,
+      "alt": "Diagrama de contexto: las entidades externas Ayuntamientos, MINHAP e ICO alrededor del proceso «0 Sistema»; Ayuntamientos envía «Datos deuda» al sistema, MINHAP envía «Valoraciones» y el sistema envía «Prestamos formalizados» al ICO.",
+      "transcription": [
+        "*Transcripción del diagrama de contexto:* proceso «0 · Sistema»; flujos: Ayuntamientos → Sistema («Datos deuda»), MINHAP → Sistema («Valoraciones») y Sistema → ICO («Prestamos formalizados»)."
+      ]
+    },
+    "p2-s1-statement-2": {
+      "redraw": "p2-s1-statement-2.svg",
+      "enhance": true,
+      "alt": "Modelo de datos: entidades Ayuntamiento, Interventor, Auxiliar, Deuda y Acreedores con sus claves primarias y atributos, y las relaciones Pertenece, Es ayudado por, Tiene y Contraida con.",
+      "transcription": [
+        "*Transcripción del modelo de datos (sin cardinalidades rotuladas):*",
+        "",
+        "| Entidad | Clave primaria (PK) | Otros atributos |",
+        "|---|---|---|",
+        "| Ayuntamiento | IDAyuntamiento | — |",
+        "| Interventor | IDInterventor | email |",
+        "| Auxiliar | IDAuxiliar | tipoUsuario · tipoPermiso · email |",
+        "| Deuda | ejercicio | importeDeuda |",
+        "| Acreedores | IDAcreedor | — |",
+        "",
+        "| Relación | Entidades |",
+        "|---|---|",
+        "| Pertenece | Ayuntamiento – Interventor |",
+        "| Es ayudado por | Interventor – Auxiliar |",
+        "| Tiene | Ayuntamiento – Deuda |",
+        "| Contraida con | Deuda – Acreedores |"
+      ]
+    }
+  }
+}

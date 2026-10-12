@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "default_scheme": "tai-test",
+  "schemes": [
+    {
+      "id": "tai-test",
+      "title": "Esquema de prueba (conjunto)",
+      "access": "libre",
+      "convocatoria": "li-test",
+      "sources": [],
+      "duration_minutes": 60,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Cuestionario",
+          "kind": "theory",
+          "questions": 10,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Supuesto práctico",
+          "kind": "case",
+          "questions": 4,
+          "reserve": 2,
+          "value": 4.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1,
+              2
+            ],
+            "max_grade": 100,
+            "pass_grade": 50,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 7.8,
+            "cutoff_note": "30 % de 26"
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "id": "tai-test-partes",
+      "title": "Esquema de prueba (por partes)",
+      "access": "libre",
+      "convocatoria": "li-test-obj",
+      "sources": [],
+      "duration_minutes": 60,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Cuestionario",
+          "kind": "theory",
+          "questions": 10,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Supuesto práctico",
+          "kind": "case",
+          "questions": 4,
+          "reserve": 2,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": null,
+            "cutoff_note": null
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": null,
+            "cutoff_note": null
+          }
+        ]
+      },
+      "notes": null
+    }
+  ]
+}

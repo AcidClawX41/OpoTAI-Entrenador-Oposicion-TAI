@@ -1,0 +1,35 @@
+{
+  "topic": "IV.8",
+  "summary": "Arquitectura de Internet (sistemas autónomos, proveedores, puntos neutros, DNS y organismos de gobierno como IETF, IANA o ICANN), su origen y evolución desde ARPANET hasta el estado de 2026, los principales servicios (web, DNS, FTP, proxies…) y los protocolos HTTP (mensajes, métodos, códigos de estado, cabeceras, cookies, caché, HTTP/2 y HTTP/3 sobre QUIC), HTTPS (certificados, HSTS, configuración segura) y SSL/TLS (versiones, saludo de TLS 1.2 y 1.3, suites, ataques, criptografía poscuántica y recomendaciones del CCN).",
+  "key_points": [
+    "Internet es una red de redes TCP/IP: sistemas autónomos unidos con BGP, proveedores de nivel 1 a 3, tránsito y peering en puntos neutros (ESpanix) y CDN; la raíz del DNS tiene 13 identidades (A-M) con más de 2 000 instancias.",
+    "Gobernanza: el IETF crea los estándares (RFC), la IANA (PTI) gestiona la raíz del DNS, las direcciones y los registros de protocolos, la ICANN coordina nombres e identificadores, el W3C la web y Red.es el dominio .es.",
+    "Historia: ARPANET (1969), TCP/IP en ARPANET el 1-1-1983, DNS (1983), NSFNET (1986), web de Berners-Lee en el CERN (1989-1991), Internet comercial (1995); en España, UPM (1985) y RedIRIS (1988).",
+    "HTTP es cliente-servidor y sin estado (RFC 9110); HTTP/1.1 textual con Host obligatorio, HTTP/2 binario y multiplexado (h2 sobre TLS, h2c en claro) y HTTP/3 sobre QUIC por UDP 443.",
+    "Códigos de estado: 1xx informativos, 2xx éxito, 3xx redirección (301 permanente, 304 caché), 4xx error del cliente (401 sin autenticar, 403 sin autorización, 408 tiempo agotado) y 5xx error del servidor (503 servicio no disponible).",
+    "HTTPS es HTTP sobre TLS en el puerto 443: el certificado X.509 contiene la clave pública (nunca la privada); HSTS obliga a usar HTTPS y el CCN recomienda dejar el puerto 80 solo para redirigir.",
+    "SSL 2.0/3.0 y TLS 1.0/1.1 están prohibidos (RFC 8996); el CCN exige TLS 1.2 como mínimo y recomienda TLS 1.3 (RFC 8446, revisada en la RFC 9846).",
+    "TLS 1.3: saludo en 1-RTT iniciado por el cliente (ClientHello, ServerHello o HelloRetryRequest), solo (EC)DHE y cifrados AEAD, certificado cifrado, sin compresión ni renegociación (HelloRequest desaparece).",
+    "SNI viaja en claro y ECH (RFC 9849) lo cifra; ALPN negocia h2 o h3; el intercambio híbrido poscuántico X25519MLKEM768 (RFC 10024) ya protege la mayor parte del tráfico web.",
+    "FTP usa el puerto 21 (control) y 20 (datos en modo activo), tipos ASCII (texto) y binario; SFTP va sobre SSH (22) y FTPS sobre TLS; Squid es el proxy-caché de referencia."
+  ],
+  "sources": [
+    { "title": "RFC 9110 · HTTP Semantics", "url": "https://www.rfc-editor.org/rfc/rfc9110" },
+    { "title": "RFC 9114 · HTTP/3", "url": "https://www.rfc-editor.org/rfc/rfc9114" },
+    { "title": "RFC 9000 · QUIC", "url": "https://www.rfc-editor.org/rfc/rfc9000" },
+    { "title": "RFC 6797 · HSTS", "url": "https://www.rfc-editor.org/rfc/rfc6797" },
+    { "title": "RFC 9846 · TLS 1.3 (sustituye a la RFC 8446)", "url": "https://www.rfc-editor.org/rfc/rfc9846" },
+    { "title": "RFC 8996 · Obsolescencia de TLS 1.0 y 1.1", "url": "https://www.rfc-editor.org/rfc/rfc8996" },
+    { "title": "RFC 9325 · Uso seguro de TLS (BCP 195)", "url": "https://www.rfc-editor.org/rfc/rfc9325" },
+    { "title": "RFC 9849 · TLS Encrypted Client Hello", "url": "https://www.rfc-editor.org/rfc/rfc9849" },
+    { "title": "RFC 10024 · Intercambio híbrido poscuántico en TLS 1.3", "url": "https://www.rfc-editor.org/rfc/rfc10024" },
+    { "title": "RFC 959 · FTP", "url": "https://www.rfc-editor.org/rfc/rfc959" },
+    { "title": "CCN-PYTEC n.º 8 · Requisitos de seguridad para TLS", "url": "https://www.ccn.cni.es/index.php/es/docman/documentos-publicos/boletines-pytec/378-pildorapytec-nov2020-seguridad-tls/file" },
+    { "title": "CCN-STIC-807 · Criptología de empleo en el ENS", "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/513-ccn-stic-807-criptologia-de-empleo-en-el-ens/file?format=html" },
+    { "title": "Real Decreto 311/2022 · Esquema Nacional de Seguridad", "url": "https://www.boe.es/eli/es/rd/2022/05/03/311/con" },
+    { "title": "UIT · Facts and Figures 2025", "url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-facts-and-figures.aspx" },
+    { "title": "Root Server Technical Operations Association", "url": "https://root-servers.org/" },
+    { "title": "Google Security Blog · HTTPS by default", "url": "https://security.googleblog.com/2025/10/https-by-default.html" }
+  ],
+  "updated": "2026-10-11"
+}

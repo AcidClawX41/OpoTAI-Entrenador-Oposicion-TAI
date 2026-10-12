@@ -1,0 +1,18 @@
+{
+  "bank_id": "tai-pi-2023",
+  "questions": {
+    "tai-pi-2023-p2-s1-012": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2023-p2-s1-r2": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2023-p2-s2-001": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    }
+  },
+  "sections": {}
+}

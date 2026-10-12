@@ -1,0 +1,19 @@
+%% IV.8 · Establecimiento de una conexión HTTPS con TLS 1.3 (RFC 8446): un viaje de ida y vuelta.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+sequenceDiagram
+    participant N as Navegador
+    participant S as Servidor web
+    N->>S: conexión TCP al 443 (saludo de tres vías)
+    rect rgb(237, 233, 254)
+        Note over N,S: Saludo TLS 1.3
+        N->>S: ClientHello (SNI, ALPN h2, cifrados, clave efímera)
+        S->>N: ServerHello (clave efímera ECDHE)
+        Note over N,S: desde aquí el saludo ya va cifrado
+        S->>N: EncryptedExtensions · Certificate<br/>CertificateVerify · Finished
+        Note left of N: valida la cadena,<br/>el nombre (SAN),<br/>vigencia y revocación
+        N->>S: Finished
+    end
+    rect rgb(209, 250, 229)
+        N->>S: GET / (HTTP cifrado con clave simétrica)
+        S->>N: 200 OK (AES-GCM o ChaCha20-Poly1305)
+    end

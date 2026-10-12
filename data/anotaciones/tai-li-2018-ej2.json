@@ -1,0 +1,1329 @@
+[
+  {
+    "id": "tai-li-2018-ej2-p2-s1-001",
+    "explanation": "Hay que unir la tabla **Trabajadores dos veces**: una (t) para el empleado y otra (j) para el director, porque `Ubicaciones.Director` guarda el **código de trabajador** del director. El empleado se enlaza con su centro (`t.ubicacion = u.ubicacion`) y el centro con su director (`u.director = j.codTrabajador`); se proyecta `j.nombre` como director y `t.nombre` como empleado. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "Usa el nombre del propio empleado como «Director Centro»: nunca obtiene el nombre del director.",
+      "No existe ninguna tabla «Directores»: el director es un trabajador más.",
+      "Enlaza t y j por el mismo código de trabajador, así que j es el propio empleado, no su director."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ANSI SQL: autocombinación (self join) con alias de tabla"
+    ],
+    "tags": [
+      "sql",
+      "join",
+      "autocombinacion",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-002",
+    "explanation": "Contar trabajadores **por grupos de edad** exige `count(*)` con `GROUP BY edad`. La vista se define con `CREATE VIEW nombre AS SELECT …`, así que la única sentencia válida y con el resultado pedido es la a). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "`sum(*)` no es válido: SUM necesita una columna numérica, y además no contaría trabajadores.",
+      "`avg(*)` no es válido y HAVING sin GROUP BY no agrupa por edad.",
+      "Sin GROUP BY, mezclar `edad` con un agregado da error en SQL estándar (o un único total sin agrupar)."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ANSI SQL: CREATE VIEW, GROUP BY y funciones de agregado"
+    ],
+    "tags": [
+      "sql",
+      "vistas",
+      "group-by",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-003",
+    "explanation": "Para impedir valores repetidos en una columna que no es la clave primaria se añade una **restricción UNIQUE**: `ALTER TABLE usuarios ADD CONSTRAINT u_nombre UNIQUE (nombre)`. La tabla ya tiene como clave primaria `IdUsuario`, así que no puede añadirse otra PRIMARY KEY. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Una tabla solo puede tener una clave primaria y USUARIOS ya tiene IdUsuario (PK).",
+      null,
+      "Sintaxis inexistente: no hay `CREATE UNIQUE CONSTRAINT`.",
+      "Sintaxis incorrecta: el orden es `ADD CONSTRAINT nombre UNIQUE (columna)`."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ANSI SQL: ALTER TABLE … ADD CONSTRAINT … UNIQUE"
+    ],
+    "tags": [
+      "sql",
+      "restricciones",
+      "unique",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-004",
+    "explanation": "En HTML5, `<figure>` agrupa contenido autocontenido (como varias imágenes) y `<figcaption>` es su pie o título; las imágenes se insertan con `<img src=… alt=…>` dentro de `<figure>`. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "`<figure>` no tiene atributos src/alt: no es un elemento de imagen.",
+      "`<figcaption>` no contiene a la figura ni existe la etiqueta `<fig>`.",
+      "Es una pseudosintaxis tipo CSS, no HTML.",
+      null
+    ],
+    "topic": "III.7",
+    "references": [
+      "HTML5 (WHATWG): elementos figure y figcaption"
+    ],
+    "tags": [
+      "html5",
+      "figure",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-005",
+    "explanation": "La defensa principal contra **CSRF** es el patrón de **token sincronizador**: un valor aleatorio e impredecible, ligado a la sesión (y al formulario), que el servidor exige en cada petición que cambia estado y que caduca. Un atacante no puede conocerlo desde otro sitio. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Cifrar con HTTPS protege la confidencialidad, pero el navegador sigue enviando las cookies en la petición forjada.",
+      "La cabecera Referer puede faltar o filtrarse; como mucho es una defensa complementaria, no la medida de referencia.",
+      null,
+      "Falso: la c) es la contramedida recomendada (OWASP)."
+    ],
+    "topic": "III.8",
+    "references": [
+      "OWASP Cross-Site Request Forgery Prevention Cheat Sheet"
+    ],
+    "tags": [
+      "seguridad-web",
+      "csrf",
+      "owasp",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-006",
+    "explanation": "En PHP, los métodos definidos en la **clase** tienen prioridad sobre los que aporta un **trait** (y estos, sobre los heredados). `Reivindicacion::mostrarPeticion()` sobrescribe la del trait `Peticion`, así que se asigna 'formal' y la interpolación de la cadena entre comillas dobles imprime «La petición es formal.». *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "Sería el resultado si la clase no redefiniera el método del trait.",
+      "Las comillas dobles interpolan la variable: no se imprime el nombre literal.",
+      "El código es válido desde PHP 5.4 (traits)."
+    ],
+    "topic": "III.7",
+    "references": [
+      "Manual de PHP: Traits (precedencia de métodos)"
+    ],
+    "tags": [
+      "php",
+      "traits",
+      "poo",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-007",
+    "explanation": "El patrón **Proxy** (Apoderado) proporciona un **representante o sustituto** de otro objeto para controlar el acceso a él. En el diagrama, APODERADO y ELEMENTO REAL comparten la interfaz ELEMENTO y el apoderado delega en el real (`ElementoReal -> Petición()`). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Memento captura y restaura el estado interno de un objeto.",
+      "Bridge desacopla una abstracción de su implementación.",
+      "Adapter convierte una interfaz en otra que espera el cliente.",
+      null
+    ],
+    "topic": "III.4",
+    "references": [
+      "Gamma et al., «Design Patterns» (GoF): Proxy"
+    ],
+    "tags": [
+      "patrones",
+      "gof",
+      "proxy",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-008",
+    "explanation": "`git init` crea un repositorio Git vacío (el directorio `.git`) en la carpeta actual. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "No existe el subcomando `git start`.",
+      null,
+      "`git add` añade cambios al índice de un repositorio ya existente.",
+      "`git config` consulta o fija la configuración."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Documentación de Git: git-init"
+    ],
+    "tags": [
+      "git",
+      "control-de-versiones",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-009",
+    "explanation": "El **diseño web adaptable (responsive)** usa una única plantilla fluida con *media queries* y medidas proporcionales que se adapta a cualquier tamaño de pantalla. Definir **diseños distintos y específicos** por tipo de dispositivo es el enfoque *adaptive* o de sitios separados, no RWD. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Es una ventaja que suele atribuirse al RWD.",
+      "Es la idea central del RWD: una plantilla para todos los dispositivos.",
+      null,
+      "Describe exactamente la técnica RWD (media queries y anchos proporcionales)."
+    ],
+    "topic": "III.7",
+    "references": [
+      "Ethan Marcotte, «Responsive Web Design» (2010)"
+    ],
+    "tags": [
+      "rwd",
+      "css",
+      "media-queries",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-010",
+    "explanation": "Con a=4 y b=5, `(a>b) and (a<b)` es falso, así que `NOT(…)` es verdadero. Queda `NOT(c>d) and (a<c)`: hace falta c ≤ 5 y c > 4, luego **c = 5**. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Con c=3 falla (a<c): 4<3 es falso.",
+      "Con c=4 falla (a<c): 4<4 es falso.",
+      null,
+      "Con c=6, (c>d) es verdadero y NOT(c>d) falso."
+    ],
+    "topic": "III.2",
+    "references": [],
+    "tags": [
+      "logica-booleana",
+      "pseudocodigo",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-011",
+    "explanation": "De más a menos eficiente (crecimiento de menor a mayor): **logarítmico O(log n) < lineal O(n) < cuadrático O(n²) < exponencial O(2ⁿ) < factorial O(n!)**. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Empieza por el exponencial, que es de los menos eficientes.",
+      "Pone el cuadrático antes que el lineal y el constante (el más eficiente) al final.",
+      "Pone el cuadrático antes que el lineal.",
+      null
+    ],
+    "topic": "II.3",
+    "references": [
+      "Notación O grande: órdenes de complejidad"
+    ],
+    "tags": [
+      "algoritmos",
+      "complejidad",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-012",
+    "explanation": "El arco que cruza las dos relaciones junto a Trabajador es un **arco de exclusividad**: cada trabajador participa en *Relación 1* (ubicación central) **o** en *Relación 2* (ubicación exterior), nunca en ambas. Por eso trabajará en la ubicación central o en una exterior. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "El arco de exclusividad impide participar en las dos relaciones a la vez.",
+      "Igual que la a): exigiría participar en ambas relaciones.",
+      null,
+      "Añade «un solo puesto», que no se deduce del diagrama: Relación 1 es 1:N."
+    ],
+    "topic": "III.1",
+    "references": [
+      "Modelo E/R extendido: relaciones exclusivas (arco)"
+    ],
+    "tags": [
+      "modelo-er",
+      "exclusividad",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-013",
+    "explanation": "En WCAG 2.0 el principio **Operable** agrupa las pautas 2.1 *Accesible por teclado*, 2.2 *Tiempo suficiente*, 2.3 *Convulsiones* y 2.4 *Navegable*. «Proporcionar acceso a toda la funcionalidad mediante el teclado» es la pauta 2.1. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Es la pauta 1.4 (Distinguible), del principio Perceptible.",
+      null,
+      "Es la pauta 1.2 (Medios tempodependientes), del principio Perceptible.",
+      "Es la pauta 3.2 (Predecible), del principio Comprensible."
+    ],
+    "topic": "III.8",
+    "references": [
+      "W3C, WCAG 2.0: principio 2 (Operable)"
+    ],
+    "tags": [
+      "accesibilidad",
+      "wcag",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-014",
+    "explanation": "Los factores son «algo que sabes» (contraseña, PIN, frase de paso), «algo que tienes» (token USB, generador de claves, tarjeta criptográfica) y «algo que eres» (biometría). La **huella dactilar** es un factor biométrico, no algo que se tiene. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Contraseña (sabe) + USB (tiene): cumple.",
+      "PIN (sabe) + generador de claves (tiene): cumple.",
+      null,
+      "Frase de paso (sabe) + tarjeta criptográfica (tiene): cumple."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "Autenticación multifactor: factores de conocimiento, posesión e inherencia"
+    ],
+    "tags": [
+      "autenticacion",
+      "2fa",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-015",
+    "explanation": "En la cascada CSS, una declaración **normal** de la hoja del **autor** prevalece sobre una normal del **usuario** (opción 1: negro). Pero una declaración **!important del usuario** prevalece sobre todo lo del autor (opción 2: rojo). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "En la opción 1 gana el autor: negro.",
+      "En la opción 2 gana el !important del usuario: rojo.",
+      null,
+      "Es justo al revés en ambos casos."
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C CSS 2.1, apartado 6.4.1 «Cascading order»"
+    ],
+    "tags": [
+      "css",
+      "cascada",
+      "important",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-016",
+    "explanation": "**Docker** empaqueta aplicaciones y sus dependencias en contenedores y automatiza su despliegue. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Lombok es una librería Java para reducir código repetitivo (no despliega contenedores).",
+      "Mockito es un framework de pruebas con objetos simulados.",
+      null,
+      "Git es un sistema de control de versiones."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "Documentación de Docker"
+    ],
+    "tags": [
+      "contenedores",
+      "docker",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-017",
+    "explanation": "**JAX-WS** (Java API for XML Web Services) es la API de Java EE para crear y consumir servicios web SOAP. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "JPA es la API de persistencia (ORM).",
+      "DOM es una API para manipular documentos XML, no para servicios web.",
+      "SOAP es un protocolo, no una API Java.",
+      null
+    ],
+    "topic": "III.6",
+    "references": [
+      "Java EE: JAX-WS (JSR 224)"
+    ],
+    "tags": [
+      "java",
+      "servicios-web",
+      "jax-ws",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-018",
+    "explanation": "**Altova UModel** es una herramienta de modelado UML que genera código **Java, C# y Visual Basic .NET** a partir de los diagramas (e ingeniería inversa). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "No es una herramienta de generación de código conocida.",
+      null,
+      "Jira es una herramienta de gestión de incidencias y proyectos.",
+      "Swagger Codegen genera código a partir de especificaciones OpenAPI, no de UML."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Altova UModel: generación de código desde UML"
+    ],
+    "tags": [
+      "uml",
+      "generacion-de-codigo",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-019",
+    "explanation": "En .NET, el **ensamblado** (*assembly*) es la unidad fundamental de implementación, control de versiones, reutilización, ámbito de activación y permisos de seguridad. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Un espacio de nombres solo organiza tipos lógicamente.",
+      "«Paquete» no es la unidad de despliegue de .NET Framework.",
+      "Una interfaz es un contrato de tipos.",
+      null
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Docs: ensamblados en .NET"
+    ],
+    "tags": [
+      "dotnet",
+      "ensamblados",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-020",
+    "explanation": "En UML 2.5 los **diagramas de interacción** son los de secuencia, comunicación, **tiempos** y visión global de la interacción. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "No existe como tal; los de estructura son clases, objetos, componentes, etc.",
+      null,
+      "El de componentes es un diagrama de estructura.",
+      "El de actividades es de comportamiento, pero no de interacción."
+    ],
+    "topic": "III.4",
+    "references": [
+      "OMG UML 2.5: clasificación de diagramas"
+    ],
+    "tags": [
+      "uml",
+      "diagramas",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-021",
+    "explanation": "Una **plantilla** (*template*) de C++ define una clase **genérica**, parametrizada por tipos. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Una clase abstracta tiene al menos una función virtual pura.",
+      "No existen «clases virtuales»; las funciones (o la herencia) pueden ser virtuales.",
+      "El polimorfismo se obtiene con funciones virtuales, no con templates.",
+      null
+    ],
+    "topic": "III.4",
+    "references": [
+      "ISO C++: templates"
+    ],
+    "tags": [
+      "c++",
+      "templates",
+      "genericidad",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-022",
+    "explanation": "**Javadoc** genera la documentación HTML de las APIs Java a partir de los comentarios `/** … */` del código. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Nagios es una herramienta de monitorización.",
+      null,
+      "Alfresco es un gestor documental.",
+      "Solo Javadoc documenta APIs Java."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Oracle: herramienta javadoc"
+    ],
+    "tags": [
+      "java",
+      "documentacion",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-023",
+    "explanation": "En los DFD (Métrica v3), los flujos entre procesos y almacenes solo pueden ser de **consulta** (lectura), de **actualización** (alta, baja o modificación) o de **diálogo** (consulta + actualización). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "«Control» no es un tipo de flujo con almacenes.",
+      "El borrado es una forma de actualización; falta el diálogo.",
+      null,
+      "No son tipos de flujo de datos con almacenes."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Métrica v3: Técnicas — Diagrama de flujo de datos"
+    ],
+    "tags": [
+      "dfd",
+      "metrica-v3",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-024",
+    "explanation": "La caché de aplicaciones de HTML5 (*AppCache*, hoy obsoleta) se activaba con el atributo **`manifest`** del elemento raíz: `<html manifest=\"ejemplo.appcache\">`. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "No es una sintaxis HTML (ni el atributo se llama appcahe).",
+      "No existe el elemento `<html5>`.",
+      "No existe ese atributo.",
+      null
+    ],
+    "topic": "III.7",
+    "references": [
+      "HTML5: Application Cache (atributo manifest)"
+    ],
+    "tags": [
+      "html5",
+      "appcache",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-025",
+    "explanation": "**MantisBT** (Mantis Bug Tracker) es un sistema web de seguimiento de errores. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Synology fabrica servidores NAS.",
+      "Cloudera es una distribución de Hadoop / big data.",
+      "Hadoop es un framework de procesamiento distribuido.",
+      null
+    ],
+    "topic": "III.9",
+    "references": [
+      "MantisBT"
+    ],
+    "tags": [
+      "gestion-de-incidencias",
+      "bugs",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-026",
+    "explanation": "El `switch` sobre **String** existe desde **Java 7**: el sistema antiguo (Java 6) daría **error de compilación**. (El `Public` con mayúscula del enunciado tampoco compilaría en ningún sistema, lo que no cambia que la b) sea cierta.) *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "En Java 6 no compila el switch sobre String (y `Public` no es palabra reservada).",
+      null,
+      "En el antiguo sistema no llega a compilar, luego no hay salida.",
+      "La b) es correcta."
+    ],
+    "topic": "III.2",
+    "references": [
+      "Java SE 7: switch con String"
+    ],
+    "tags": [
+      "java",
+      "switch",
+      "versiones",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-027",
+    "explanation": "Las cajas con el icono de **componente** (rectángulo con dos pestañas) y el conector de interfaz indican un **diagrama de componentes** UML. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "El de despliegue muestra nodos (cubos) y artefactos.",
+      null,
+      "El de paquetes usa carpetas con pestaña.",
+      "El de clases muestra clases con atributos y operaciones."
+    ],
+    "topic": "III.4",
+    "references": [
+      "OMG UML 2.5: diagrama de componentes"
+    ],
+    "tags": [
+      "uml",
+      "componentes",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-028",
+    "explanation": "**Refactorizar** es reestructurar el código existente sin cambiar su comportamiento externo (Martin Fowler). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Ofuscar es hacer el código difícil de leer.",
+      "Encapsular es ocultar el estado interno de un objeto.",
+      null,
+      "Comprimir reduce el tamaño, no mejora la estructura."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Martin Fowler, «Refactoring»"
+    ],
+    "tags": [
+      "refactorizacion",
+      "calidad",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-029",
+    "explanation": "En Java 8, `Iterable.forEach` recibe un `Consumer`; la lambda `numero -> System.out.print(numero + \" \")` reproduce el bucle de las líneas 5 a 7. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "Pasa el resultado de `print` (void), no una función: no compila.",
+      "No existe el método `for` en las listas.",
+      "La lambda declara `n` pero usa `numero`, que no existe: no compila."
+    ],
+    "topic": "III.2",
+    "references": [
+      "Java SE 8: expresiones lambda e Iterable.forEach"
+    ],
+    "tags": [
+      "java",
+      "lambdas",
+      "java-8",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-030",
+    "explanation": "Traza: indice=0 → imprime 0, selector=2, indice=(0+2)·2=4 → imprime 4, selector=3, indice=(4+3)·2=14 → imprime 14, selector=4, indice=(14+4)·2=36, que ya no cumple indice<20. Salida: **0, 4, 14** (una por línea). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "No coincide con la traza del bucle.",
+      "36 no se imprime: la condición se evalúa antes.",
+      null,
+      "El fragmento es válido."
+    ],
+    "topic": "III.2",
+    "references": [],
+    "tags": [
+      "java",
+      "bucles",
+      "traza",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-r1",
+    "explanation": "El criterio 1.1.1 **Contenido no textual** (alternativas textuales) es de **nivel A**. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "La lengua de señas (1.2.6) es nivel AAA.",
+      "Encabezados de sección (2.4.10) es nivel AAA.",
+      "La audiodescripción grabada (1.2.5) es nivel AA.",
+      null
+    ],
+    "topic": "III.8",
+    "references": [
+      "W3C, WCAG 2.0: criterios de conformidad"
+    ],
+    "tags": [
+      "accesibilidad",
+      "wcag",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-r2",
+    "explanation": "Quicksort tiene coste **O(n log n) en el caso promedio** (y en el mejor), y **O(n²) en el peor caso**. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "En el mejor caso es O(n log n).",
+      "En el caso promedio es O(n log n).",
+      "En el peor caso es O(n²)."
+    ],
+    "topic": "II.3",
+    "references": [
+      "Hoare (1962); análisis de Quicksort"
+    ],
+    "tags": [
+      "algoritmos",
+      "ordenacion",
+      "quicksort",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s1-r3",
+    "explanation": "En Laravel, un evento se emite por *broadcasting* implementando la interfaz **`ShouldBroadcast`** (con su método `broadcastOn()`). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "`SerializesModels` es un trait, no la interfaz de broadcasting.",
+      "`broadcastOn` es un método del evento, no una interfaz.",
+      null,
+      "`BroadcastServiceProvider` es un proveedor de servicios."
+    ],
+    "topic": "III.7",
+    "references": [
+      "Documentación de Laravel: Broadcasting"
+    ],
+    "tags": [
+      "php",
+      "laravel",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-001",
+    "explanation": "El paquete **popularity-contest** de Debian envía periódicamente y de forma anónima estadísticas de los paquetes más usados (popcon.debian.org). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "No existe ese paquete.",
+      null,
+      "No existe ese paquete.",
+      "No existe ese paquete."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Debian: paquete popularity-contest"
+    ],
+    "tags": [
+      "debian",
+      "paquetes",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-002",
+    "explanation": "En Debian, `apt-get install ssh` instala el metapaquete **ssh**, que arrastra **openssh-server** (y el cliente). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe un paquete llamado sshd: el servidor es openssh-server.",
+      "Falta la acción: sería `aptitude install openssh-server`.",
+      "dpkg no tiene la opción -U ni instala desde repositorios."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Debian: paquetes ssh y openssh-server"
+    ],
+    "tags": [
+      "debian",
+      "ssh",
+      "apt",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-003",
+    "explanation": "**iotop** muestra, al estilo de top/htop, el uso de **E/S de disco** por proceso. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "No es una utilidad estándar.",
+      null,
+      "zzuf es un *fuzzer*.",
+      "uisp es un programador de microcontroladores AVR."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "iotop(8)"
+    ],
+    "tags": [
+      "linux",
+      "monitorizacion",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-004",
+    "explanation": "`ps -U postgres -u postgres u` lista los procesos cuyo usuario real (-U) y efectivo (-u) es postgres, en formato orientado a usuario (u). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "`ps -ef` no admite un nombre de proceso como argumento.",
+      "`-v` y «server» no sirven para filtrar procesos de postgres.",
+      null,
+      "ps no tiene la opción --process."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "ps(1)"
+    ],
+    "tags": [
+      "linux",
+      "procesos",
+      "postgresql",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-005",
+    "explanation": "PostgreSQL escucha por defecto en el puerto **TCP 5432**. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "80 es HTTP.",
+      null,
+      "563 es NNTP sobre TLS.",
+      "8080 es un puerto HTTP alternativo."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "Documentación de PostgreSQL: parámetro port"
+    ],
+    "tags": [
+      "postgresql",
+      "puertos",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-006",
+    "explanation": "`createuser` es la utilidad de línea de comandos de PostgreSQL para crear roles/usuarios (envoltorio de CREATE ROLE). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe.",
+      "No existe esa forma de su.",
+      "No existe."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "PostgreSQL: createuser"
+    ],
+    "tags": [
+      "postgresql",
+      "usuarios",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-007",
+    "explanation": "`pg_dumpall` vuelca **todas** las bases de datos del clúster (y los roles) a un script SQL. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe.",
+      "No existe.",
+      "No existe."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "PostgreSQL: pg_dumpall"
+    ],
+    "tags": [
+      "postgresql",
+      "backup",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-008",
+    "explanation": "RAID 5 reparte datos y paridad entre todos los discos y necesita **al menos 3**. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Con 2 discos se hace RAID 0 o RAID 1, no RAID 5.",
+      "Con un disco no hay RAID.",
+      "4 es el mínimo de RAID 6 (o RAID 10), no de RAID 5.",
+      null
+    ],
+    "topic": "IV.2",
+    "references": [
+      "Niveles RAID"
+    ],
+    "tags": [
+      "raid",
+      "almacenamiento",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-009",
+    "explanation": "**Proxmox VE** es una plataforma de virtualización (KVM y contenedores LXC). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Cassandra es una base de datos NoSQL.",
+      null,
+      "GKrellM es un monitor de sistema de escritorio.",
+      "Hadoop es un framework de procesamiento distribuido."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "Proxmox Virtual Environment"
+    ],
+    "tags": [
+      "virtualizacion",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-010",
+    "explanation": "Tras instalar MySQL/MariaDB se ejecuta **`mysql_secure_installation`** (contraseña de root, borrar usuarios anónimos y la base de pruebas, impedir root remoto). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe.",
+      "dpkg --configure reconfigura paquetes; no tiene la opción --security.",
+      "No existe ese servicio."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "MariaDB: mysql_secure_installation"
+    ],
+    "tags": [
+      "mariadb",
+      "seguridad",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-011",
+    "explanation": "Debian 9 usa **systemd**, así que los servicios se reinician con `systemctl restart zabbix-agent` (con privilegios de root). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "start-stop-daemon no tiene la opción --restart con esa sintaxis.",
+      "Los scripts SysV están en /etc/init.d, no en /etc/init.",
+      null,
+      "El binario del agente no admite la orden restart."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "systemctl(1)"
+    ],
+    "tags": [
+      "linux",
+      "systemd",
+      "zabbix",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-012",
+    "explanation": "`ss -l` lista los *sockets* en escucha resolviendo los puertos a nombres de servicio (3306 → mysql), así que basta filtrar con `grep mysql`. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "ifconfig no muestra puertos.",
+      null,
+      "`netstat -g` muestra pertenencias a grupos multicast.",
+      "`netstat -i` muestra la tabla de interfaces."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "ss(8)"
+    ],
+    "tags": [
+      "linux",
+      "redes",
+      "puertos",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-013",
+    "explanation": "La variable **`$PWD`** contiene el directorio de trabajo actual. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "`$BASHPID` es el PID del proceso Bash actual.",
+      null,
+      "`$$` es el PID del shell.",
+      "Sí existe: $PWD (además del comando pwd)."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Manual de Bash: variables del shell"
+    ],
+    "tags": [
+      "bash",
+      "variables",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-014",
+    "explanation": "Las medidas **anti-spoofing** impiden la suplantación de identidad (que alguien se haga pasar por quien no es). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Anti-spam filtra correo no deseado.",
+      null,
+      "Eavesdropping es la escucha furtiva (un ataque, no una medida).",
+      "Anti-spyware combate el software espía."
+    ],
+    "topic": "IV.5",
+    "references": [],
+    "tags": [
+      "seguridad",
+      "suplantacion",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-015",
+    "explanation": "`whereis` localiza el binario, las fuentes y las páginas de manual de un comando. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "dpkg no tiene la opción --find.",
+      "apropos busca en las descripciones de las páginas de manual.",
+      "findmnt muestra sistemas de ficheros montados.",
+      null
+    ],
+    "topic": "IV.1",
+    "references": [
+      "whereis(1)"
+    ],
+    "tags": [
+      "linux",
+      "comandos",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-016",
+    "explanation": "**rsync** sincroniza directorios (también remotamente) transfiriendo solo las diferencias. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "robocopy es una utilidad de Windows.",
+      null,
+      "No es un comando estándar de Linux.",
+      "No es un comando estándar de Linux."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "rsync(1)"
+    ],
+    "tags": [
+      "linux",
+      "sincronizacion",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-017",
+    "explanation": "Una /29 tiene bloques de 8 direcciones: 10.31.93.128 es la red y **10.31.93.135** la difusión (hosts .129-.134). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Es la primera dirección de host.",
+      null,
+      "Es la dirección de red.",
+      "Sería la difusión de una /24."
+    ],
+    "topic": "IV.7",
+    "references": [],
+    "tags": [
+      "subnetting",
+      "ipv4",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-018",
+    "explanation": "La primera IP útil de 10.31.93.128/29 es 10.31.93.129: 10 = 00001010, 31 = 00011111, 93 = 01011101 y 129 = 10000001. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Corresponde a 10.30.93.128.",
+      "Corresponde a 10.15.93.150.",
+      null,
+      "Corresponde a 26.31.93.149."
+    ],
+    "topic": "IV.7",
+    "references": [],
+    "tags": [
+      "subnetting",
+      "binario",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-019",
+    "explanation": "En /29 los bloques son múltiplos de 8: 25 está en el bloque 24-31, luego la red es **10.31.93.24/29**. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      ".31 es la difusión del bloque, no la red.",
+      ".30 es un host del bloque.",
+      ".21 pertenece al bloque 16-23."
+    ],
+    "topic": "IV.7",
+    "references": [],
+    "tags": [
+      "subnetting",
+      "ipv4",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-020",
+    "explanation": "`uname -n` muestra el **nombre del equipo** (nodename), no la versión del sistema operativo. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Muestra la distribución y su versión.",
+      null,
+      "Los ficheros *-release contienen la versión.",
+      "/etc/issue muestra la versión del sistema."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "uname(1)"
+    ],
+    "tags": [
+      "linux",
+      "comandos",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-021",
+    "explanation": "Cada línea de **/etc/group** tiene la forma `grupo:x:GID:miembros`, así que filtrar por el nombre del grupo muestra sus usuarios. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe ese comando.",
+      "groupadd crea grupos; no lista.",
+      "grep no tiene la opción -S y buscaría en todo /etc."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "group(5)"
+    ],
+    "tags": [
+      "linux",
+      "usuarios",
+      "grupos",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-022",
+    "explanation": "En Debian, `deluser usuario grupo` quita al usuario del grupo (sin borrarlo). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "groupdel borra grupos y no tiene la opción -u.",
+      "groupmod no tiene la opción --delete.",
+      "Faltaría la opción -d: `gpasswd -d u usuarios_ssh`."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "deluser(8)"
+    ],
+    "tags": [
+      "linux",
+      "usuarios",
+      "grupos",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-023",
+    "explanation": "**/etc/hosts.allow** (junto con /etc/hosts.deny) define con TCP Wrappers qué equipos pueden acceder a los servicios. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "El fichero del servidor SSH es /etc/ssh/sshd_config.",
+      "No es un fichero estándar.",
+      "/etc/hosts resuelve nombres; no controla accesos."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "hosts_access(5)"
+    ],
+    "tags": [
+      "linux",
+      "seguridad",
+      "tcp-wrappers",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-024",
+    "explanation": "**vgcreate** crea un grupo de volúmenes LVM a partir de volúmenes físicos. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe.",
+      "No existe.",
+      "pvcreate inicializa volúmenes físicos."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "lvm(8): vgcreate"
+    ],
+    "tags": [
+      "lvm",
+      "almacenamiento",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-025",
+    "explanation": "**lvcreate** crea volúmenes lógicos dentro de un grupo de volúmenes. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "pvcreate inicializa volúmenes físicos.",
+      "No existe.",
+      null,
+      "No existe."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "lvm(8): lvcreate"
+    ],
+    "tags": [
+      "lvm",
+      "almacenamiento",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-026",
+    "explanation": "`Get-WmiObject Win32_Product` consulta por WMI el software instalado con **Windows Installer** (MSI); disponible en el PowerShell de Windows 7. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "Get-PackageProvider lista proveedores de paquetes (PowerShell 5), no programas instalados.",
+      "No existe ese cmdlet.",
+      null,
+      "No existe como cmdlet nativo."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Microsoft Docs: clase Win32_Product"
+    ],
+    "tags": [
+      "windows",
+      "powershell",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-027",
+    "explanation": "**Get-History** devuelve los comandos ejecutados en la sesión actual de PowerShell. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "No existe.",
+      null,
+      "No es sintaxis de PowerShell (recuerda al `!!` de Bash).",
+      "No existe."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Microsoft Docs: Get-History"
+    ],
+    "tags": [
+      "windows",
+      "powershell",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-028",
+    "explanation": "**Get-Service** lista los servicios del equipo y su estado. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe.",
+      "No existe.",
+      "No existe; services.msc es la consola gráfica."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Microsoft Docs: Get-Service"
+    ],
+    "tags": [
+      "windows",
+      "powershell",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-029",
+    "explanation": "**LUCIA** (Listado Unificado de Coordinación de Incidentes y Amenazas) es la herramienta del CCN-CERT para gestionar ciberincidentes en las entidades del ámbito del ENS y coordinarse con el CERT. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "VANESA es la plataforma de formación y sesiones en línea del CCN.",
+      "CARMEN es la herramienta de detección de amenazas persistentes avanzadas.",
+      null,
+      "PILAR es la herramienta de análisis y gestión de riesgos."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "CCN-CERT: herramientas (LUCIA)"
+    ],
+    "tags": [
+      "ccn-cert",
+      "incidentes",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-030",
+    "explanation": "**createdb** crea una base de datos de PostgreSQL desde la consola (envoltorio de CREATE DATABASE). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe.",
+      "No existe.",
+      "No existe."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "PostgreSQL: createdb"
+    ],
+    "tags": [
+      "postgresql",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-r1",
+    "explanation": "Una copia en SQL plano (pg_dump) se restaura pasándola a **psql**: `psql acceda < acceda` (base de datos destino y fichero). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe el comando restore así.",
+      "No existe.",
+      "No existe (la utilidad es pg_restore, y con otra sintaxis)."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "PostgreSQL: pg_dump / restauración con psql"
+    ],
+    "tags": [
+      "postgresql",
+      "backup",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-r2",
+    "explanation": "**vgextend** añade volúmenes físicos (ya inicializados con pvcreate) a un grupo de volúmenes existente. *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      null,
+      "No existe.",
+      "No existe.",
+      "No existe."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "lvm(8): vgextend"
+    ],
+    "tags": [
+      "lvm",
+      "almacenamiento",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  },
+  {
+    "id": "tai-li-2018-ej2-p2-s2-r3",
+    "explanation": "macOS **10.13** es **High Sierra** (10.12 Sierra, 10.11 El Capitan, 10.10 Yosemite, 10.9 Mavericks). *Respuesta propuesta por OpoTAI: el INAP no publicó plantilla de este ejercicio.*",
+    "option_notes": [
+      "El Capitan es 10.11.",
+      "Mavericks es 10.9.",
+      "Yosemite es 10.10.",
+      null
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Apple: versiones de macOS"
+    ],
+    "tags": [
+      "macos",
+      "versiones",
+      "respuesta-propia"
+    ],
+    "needs_review": true
+  }
+]

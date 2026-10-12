@@ -1,0 +1,26 @@
+%% I.3 · Organización central de un ministerio (arts. 55 y ss. de la Ley 40/2015).
+%% Morado: órganos superiores; azul: órganos directivos.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+flowchart TD
+    M["Ministro"]
+    SE["Secretario de Estado"]
+    SG["Secretario general<br/>(rango de Subsecretario)"]
+    SUB["Subsecretario<br/>(en todo ministerio)"]
+    DG["Directores generales"]
+    SGT["Secretario general técnico<br/>(rango de Director general)"]
+    SDG["Subdirectores generales"]
+
+    M --> SE
+    M --> SG
+    M --> SUB
+    SE --> DG
+    SG --> DG
+    SUB --> DG
+    SUB --> SGT
+    DG --> SDG
+    SGT --> SDG
+
+    classDef superior fill:#ede9fe,stroke:#7c3aed,color:#1f2937
+    classDef directivo fill:#dbeafe,stroke:#2563eb,color:#1f2937
+    class M,SE superior
+    class SG,SUB,DG,SGT,SDG directivo

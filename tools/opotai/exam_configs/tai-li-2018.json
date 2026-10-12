@@ -1,0 +1,91 @@
+{
+  "bank_id": "tai-li-2018",
+  "title": "TAI · Ingreso libre · Convocatoria 2018 (OEP 2017) · primer ejercicio",
+  "description": "Proceso selectivo de ingreso libre en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2017). Primer ejercicio: cuestionario de 100 preguntas (+3 de reserva), 90 minutos. El segundo ejercicio (supuesto práctico), sin plantilla oficial localizable, está en el banco aparte tai-li-2018-ej2 con respuestas propuestas por OpoTAI. Cuadernillo escaneado: transcrito por OCR y corregido tras revisarlo.",
+  "access": "libre",
+  "year": 2018,
+  "convocatoria": "li-2018",
+  "exam_date": null,
+  "model": null,
+  "duration_minutes": 90,
+  "scoring_scheme": "tai-li-2018",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 25 de enero de 2018 de la Secretaría de Estado de Función Pública (BOE 29/01/2018), OEP 2017; el id usa el año de la resolución (2018). La sede del INAP ya no publica los documentos de este proceso: se usan copias públicas de los PDF oficiales (cuestionario «17/TAI-LI» y plantilla definitiva del INAP, sin alterar) archivadas en baquedano.es. Solo se transcribe el primer ejercicio: el INAP no publicó (o ya no es localizable) la plantilla del segundo ejercicio (supuestos de los bloques III y IV, 30 + 3 preguntas cada uno), que está en el banco aparte tai-li-2018-ej2 con respuestas propuestas por OpoTAI. El cuadernillo es un escaneo sin capa de texto: el texto procede de OCR (Tesseract, una pasada a 300 ppp, caché versionada en tools/sources/ocr/) corregido después (ortografía, siglas y erratas del OCR, revisando la imagen en los casos dudosos); las preguntas con dudas de lectura llevan needs_review. Se pierde la negrita del original. Se omiten la portada y la contraportada. Respuestas según la plantilla definitiva. Fecha del examen no localizada.",
+    "documents": [
+      "cuadernillo-1.pdf",
+      "plantilla-definitiva-1.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primer ejercicio · Cuestionario",
+      "block": null,
+      "questions": 100,
+      "reserve": 3
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo-1.pdf",
+      "ocr": true,
+      "skip_pages": [
+        1,
+        10
+      ],
+      "start_section": "p1",
+      "para_gap": 5.0,
+      "bottom": 795.0,
+      "markers": [
+        {
+          "pattern": "(?i)^[úu]nica$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^preguntas de reserva$",
+          "reserve": true
+        }
+      ],
+      "question_x_max": 45.0,
+      "ocr_word_fixes": [
+        {
+          "page": 8,
+          "old": "d",
+          "new": "d)",
+          "y": 706.8,
+          "note": "Pregunta 93: etiqueta d) leída sin paréntesis."
+        }
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "file": "plantilla-definitiva-1.pdf",
+      "status": "definitiva",
+      "segment_gap": 35.0,
+      "markers": [
+        {
+          "pattern": "(?i)^[úu]nica$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "verify_text": false,
+  "spot_checks": {
+    "p1-001": "B",
+    "p1-050": "A",
+    "p1-100": "D",
+    "p1-r1": "D",
+    "p1-r3": "B"
+  }
+}

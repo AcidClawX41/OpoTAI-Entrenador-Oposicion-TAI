@@ -1,0 +1,42 @@
+%% III.1 · Esquema E/R del ejemplo de opositores (notación pata de gallo) ya en tablas.
+%% Línea continua: relación identificadora; discontinua: no identificadora.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+erDiagram
+    direction TB
+    CONVOCATORIA ||--|{ EJERCICIO : "consta de"
+    CONVOCATORIA ||..o{ SOLICITUD : "recibe"
+    OPOSITOR ||..o{ SOLICITUD : "presenta"
+    OPOSITOR ||--|{ TELEFONO_OPOSITOR : "tiene"
+    OPOSITOR ||--o{ NOTA : "obtiene"
+    EJERCICIO ||--o{ NOTA : "califica"
+
+    OPOSITOR {
+        string dni PK
+        string nombre
+    }
+    TELEFONO_OPOSITOR {
+        string dni PK, FK
+        string telefono PK
+    }
+    CONVOCATORIA {
+        string cod_conv PK
+        int anio
+        int plazas
+    }
+    SOLICITUD {
+        int id_solicitud PK
+        string dni FK
+        string cod_conv FK
+        date fecha_presentacion
+    }
+    EJERCICIO {
+        string cod_conv PK, FK
+        int num_ejercicio PK
+        date fecha
+    }
+    NOTA {
+        string dni PK, FK
+        string cod_conv PK, FK
+        int num_ejercicio PK, FK
+        decimal nota
+    }

@@ -1,0 +1,45 @@
+{
+  "bank_id": "tai-pi-2024",
+  "questions": {
+    "tai-pi-2024-p1-031": {
+      "note": "El programa aparece en una línea aparte del enunciado: se transcribe como bloque de código.",
+      "text_code": {
+        "from": "en un lenguaje de programación estándar:",
+        "lang": "",
+        "lines": [
+          "integer x=0; while x<100 do (x=x+1; print x; x=x-1;)"
+        ]
+      }
+    },
+    "tai-pi-2024-p2-s1-001": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2024-p2-s1-011": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2024-p2-s1-r3": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2024-p2-s2-002": {
+      "note": "En el PDF las comillas de los atributos son dos apóstrofos seguidos ('') que se imprimen como comillas dobles; se normalizan a \" (las etiquetas quedan como código en línea).",
+      "replace": [
+        {
+          "old": "''",
+          "new": "\"",
+          "fields": [
+            "options"
+          ],
+          "count": 32
+        }
+      ]
+    },
+    "tai-pi-2024-p2-s2-004": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    }
+  },
+  "sections": {}
+}

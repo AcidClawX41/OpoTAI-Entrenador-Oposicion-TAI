@@ -1,0 +1,45 @@
+<!-- opotai.diagrams: tools/sources/diagramas/IV.3/recorrido-correo.svg sha256=3a5afc77d71a9e19 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Recorrido de un mensaje de correo electrónico</title>
+  <desc id="d">El cliente del remitente (MUA) envía por SMTP de envío, puerto 587 o 465 con TLS y autenticación, a su servidor (MSA/MTA). Este consulta en el DNS el registro MX del dominio de destino y transfiere el mensaje por SMTP, puerto 25, al MTA de destino, que lo entrega al buzón (MDA o LMTP). El destinatario lo lee con su cliente por IMAP (993) o POP3 (995).</desc>
+  <rect x="0" y="0" width="900" height="420" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <defs><marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#475569"/></marker></defs>
+    <rect x="16" y="16" width="470" height="150" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-dasharray="7 5"/>
+    <text x="32" y="40" font-size="14" fill="#6d28d9" text-anchor="start" font-weight="700">Dominio de origen</text>
+    <rect x="16" y="226" width="868" height="150" rx="12" fill="#ecfeff" stroke="#0891b2" stroke-dasharray="7 5"/>
+    <text x="32" y="364" font-size="14" fill="#0e7490" text-anchor="start" font-weight="700">Dominio de destino</text>
+    <rect x="36" y="70" width="150" height="64" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="111.0" y="99.0" font-size="15" font-weight="700" text-anchor="middle">MUA</text>
+    <text x="111.0" y="118.0" font-size="13" fill="#475569" text-anchor="middle">cliente del remitente</text>
+    <rect x="316" y="70" width="150" height="64" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="391.0" y="99.0" font-size="15" font-weight="700" text-anchor="middle">MSA / MTA</text>
+    <text x="391.0" y="118.0" font-size="13" fill="#475569" text-anchor="middle">servidor de envío</text>
+    <path d="M186 102 L312 102" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#flecha)"/>
+    <text x="250" y="80" font-size="13" fill="#1f2937" text-anchor="middle">SMTP envío</text>
+    <text x="250" y="124" font-size="13" fill="#1f2937" text-anchor="middle">587 o 465 · TLS</text>
+    <rect x="620" y="62" width="200" height="72" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="720.0" y="95.0" font-size="15" font-weight="700" text-anchor="middle">DNS</text>
+    <text x="720.0" y="114.0" font-size="13" fill="#475569" text-anchor="middle">registro MX del destino</text>
+    <path d="M466 92 L616 92" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#flecha)"/>
+    <text x="541" y="82" font-size="13" fill="#1f2937" text-anchor="middle">1. consulta MX</text>
+    <rect x="316" y="262" width="150" height="64" rx="8" fill="#cffafe" stroke="#0891b2" stroke-width="1.5"/>
+    <text x="391.0" y="291.0" font-size="15" font-weight="700" text-anchor="middle">MTA</text>
+    <text x="391.0" y="310.0" font-size="13" fill="#475569" text-anchor="middle">servidor de recepción</text>
+    <path d="M391 134 L391 258" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#flecha)"/>
+    <text x="404" y="190" font-size="13" fill="#1f2937" text-anchor="start">2. SMTP (puerto 25)</text>
+    <text x="404" y="208" font-size="13" fill="#1f2937" text-anchor="start">entre servidores</text>
+    <rect x="526" y="262" width="140" height="64" rx="8" fill="#cffafe" stroke="#0891b2" stroke-width="1.5"/>
+    <text x="596.0" y="291.0" font-size="15" font-weight="700" text-anchor="middle">Buzón</text>
+    <text x="596.0" y="310.0" font-size="13" fill="#475569" text-anchor="middle">del usuario</text>
+    <path d="M466 294 L522 294" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#flecha)"/>
+    <text x="494" y="284" font-size="13" fill="#1f2937" text-anchor="middle">MDA</text>
+    <rect x="760" y="262" width="110" height="64" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="815.0" y="291.0" font-size="15" font-weight="700" text-anchor="middle">MUA</text>
+    <text x="815.0" y="310.0" font-size="13" fill="#475569" text-anchor="middle">destinatario</text>
+    <path d="M666 294 L756 294" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#flecha)"/>
+    <text x="712" y="284" font-size="13" fill="#1f2937" text-anchor="middle">IMAP 993</text>
+    <text x="712" y="316" font-size="13" fill="#1f2937" text-anchor="middle">o POP3 995</text>
+    <text x="450" y="404" font-size="13" fill="#475569" text-anchor="middle">SMTP solo envía y transfiere; POP3 e IMAP solo dan acceso al buzón (nunca entre servidores).</text>
+  </g>
+</svg>

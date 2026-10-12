@@ -1,0 +1,172 @@
+{
+  "bank_id": "tai-li-2025-ext",
+  "questions": {
+    "tai-li-2025-ext-p1-040": {
+      "note": "La sentencia SQL aparece en una línea aparte: bloque de código.",
+      "text_block": {
+        "start": "SELECT INSTR('Corporate Floor','or', 3, 2) \"Prueba\" FROM DUAL;",
+        "lines": 1,
+        "lang": "sql"
+      }
+    },
+    "tai-li-2025-ext-p1-056": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p1-063": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-002": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-003": {
+      "note": "La clase CSS y el elemento HTML aparecen en líneas aparte: bloques de código.",
+      "text_block": [
+        {
+          "start": "div { text-align: center; font-weight: bold; border-radius: 20px; box-shadow: 4px 4px 4px black; background-color:",
+          "lines": 2,
+          "lang": "css"
+        },
+        {
+          "start": "<div>Bienvenido</div>",
+          "lines": 1,
+          "lang": "html"
+        }
+      ]
+    },
+    "tai-li-2025-ext-p2-s1-004": {
+      "note": "Las declaraciones TypeScript y la operación aparecen en líneas aparte: bloques de código (los «…» son literales del cuadernillo).",
+      "text_block": [
+        {
+          "start": "const menuAdministrador = [\"Usuarios\", \"Permisos\"];",
+          "lines": 2,
+          "lang": "typescript"
+        },
+        {
+          "start": "return […menuAdministrador, …menuGestor]",
+          "lines": 1,
+          "lang": "typescript"
+        }
+      ]
+    },
+    "tai-li-2025-ext-p2-s1-005": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-006": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-007": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-008": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-009": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-010": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-011": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-012": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-013": {
+      "note": "La cabecera HTTP aparece en una línea aparte: bloque de código.",
+      "text_block": {
+        "start": "Authorization: Bearer eyJhbG.eyJzdW.KMUFsI",
+        "lines": 1,
+        "lang": "http"
+      }
+    },
+    "tai-li-2025-ext-p2-s1-014": {
+      "note": "El fragmento HTML aparece en líneas aparte: bloque de código.",
+      "text_block": {
+        "start": "<h1>Gestión de usuarios</h1>",
+        "lines": 3,
+        "lang": "html"
+      }
+    },
+    "tai-li-2025-ext-p2-s1-015": {
+      "note": "El método Java aparece en líneas aparte y sangradas: bloque de código.",
+      "text_block": {
+        "start": "public void crearExpediente() {",
+        "lines": 5,
+        "lang": "java"
+      }
+    },
+    "tai-li-2025-ext-p2-s1-016": {
+      "note": "Opciones con código C# (NUnit) en dos líneas: bloques de código.",
+      "options_block": "csharp"
+    },
+    "tai-li-2025-ext-p2-s1-018": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s1-r2": {
+      "note": "La expresión regular aparece en una línea aparte: bloque de código (evita que * y \\ se interpreten como Markdown).",
+      "text_block": {
+        "start": "[\\+34|34]*[ -]*(3)[0-9]{8}",
+        "lines": 1,
+        "lang": ""
+      }
+    },
+    "tai-li-2025-ext-p2-s1-r4": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-001": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-004": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-005": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-006": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-007": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-010": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-012": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-014": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-019": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2025-ext-p2-s2-020": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    }
+  },
+  "sections": {}
+}

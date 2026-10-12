@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "opotai/convocatorias.schema.json",
+  "title": "OpoTAI · Histórico de convocatorias (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "updated", "target_convocatoria", "convocatorias"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "updated": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "target_convocatoria": { "type": "string" },
+    "convocatorias": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/convocatoria" } }
+  },
+  "$defs": {
+    "int_or_null": { "type": ["integer", "null"], "minimum": 0 },
+    "link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url"],
+      "properties": { "title": { "type": "string" }, "url": { "type": "string" } }
+    },
+    "cutoff_part": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["part", "direct", "max_direct"],
+      "properties": {
+        "part": { "type": "integer", "minimum": 1 },
+        "direct": { "type": ["number", "null"] },
+        "max_direct": { "type": ["number", "null"] }
+      }
+    },
+    "convocatoria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "access", "year", "title", "status", "plazas", "sources"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^(li|pi)-[0-9]{4}[a-z0-9-]*$" },
+        "access": { "enum": ["libre", "promocion_interna"] },
+        "year": { "type": "integer" },
+        "oep": { "type": ["string", "null"] },
+        "title": { "type": "string" },
+        "resolution": { "type": ["string", "null"] },
+        "boe_id": { "type": ["string", "null"] },
+        "exam_date": { "type": ["string", "null"], "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "status": { "enum": ["convocada", "examen_realizado", "finalizada"] },
+        "scoring_scheme": { "type": ["string", "null"] },
+        "plazas": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["general", "discapacidad", "total"],
+          "properties": {
+            "general": { "$ref": "#/$defs/int_or_null" },
+            "discapacidad": { "$ref": "#/$defs/int_or_null" },
+            "total": { "$ref": "#/$defs/int_or_null" }
+          }
+        },
+        "admitidos": { "$ref": "#/$defs/int_or_null" },
+        "presentados": { "$ref": "#/$defs/int_or_null" },
+        "aptos": { "$ref": "#/$defs/int_or_null" },
+        "aprobados": { "$ref": "#/$defs/int_or_null" },
+        "cutoff": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["direct", "max_direct", "grade", "basis"],
+              "properties": {
+                "direct": { "type": ["number", "null"] },
+                "max_direct": { "type": ["number", "null"] },
+                "grade": { "type": ["number", "null"] },
+                "basis": { "enum": ["floor", "rank", "unknown"] },
+                "per_part": {
+                  "anyOf": [{ "type": "null" }, { "type": "array", "items": { "$ref": "#/$defs/cutoff_part" } }]
+                }
+              }
+            }
+          ]
+        },
+        "grades_of_aptos": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["source", "count", "values"],
+              "properties": {
+                "source": { "type": "string" },
+                "count": { "type": "integer", "minimum": 0 },
+                "values": { "type": "array", "items": { "type": "number", "minimum": 0, "maximum": 100 } },
+                "part_directs": {
+                  "type": "array",
+                  "description": "Directas de cada parte, en el mismo orden que values (cuando el BOE las publica).",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["part", "values"],
+                    "properties": {
+                      "part": { "type": "integer", "minimum": 1 },
+                      "values": { "type": "array", "items": { "type": "number" } }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "destinations_dataset": { "type": ["string", "null"] },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/link" } },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

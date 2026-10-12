@@ -1,0 +1,204 @@
+{
+  "bank_id": "tai-li-2018-ej2",
+  "title": "TAI · Ingreso libre · Convocatoria 2018 (OEP 2017) · segundo ejercicio (respuestas propuestas por OpoTAI)",
+  "description": "Segundo ejercicio del proceso de ingreso libre en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2017): supuesto práctico a elegir entre los bloques III y IV, de 30 preguntas (+3 de reserva) cada uno, 70 minutos. El INAP no publicó (o ya no es localizable) la plantilla de respuestas de este ejercicio: las respuestas las propone OpoTAI y todas están marcadas para revisión. Cuadernillo escaneado: transcrito por OCR y corregido tras revisarlo.",
+  "access": "libre",
+  "year": 2018,
+  "convocatoria": "li-2018",
+  "exam_date": null,
+  "model": null,
+  "duration_minutes": 70,
+  "scoring_scheme": "tai-li-2018",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección (cuestionario); respuestas propuestas por OpoTAI",
+    "answer_key": "propia",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 25 de enero de 2018 de la Secretaría de Estado de Función Pública (BOE 29/01/2018), OEP 2017; el primer ejercicio está en el banco tai-li-2018. Cuestionario «17/TAI-LI» del segundo ejercicio: copia pública del PDF oficial del INAP archivada en baquedano.es. El INAP no publicó (o ya no es localizable: la página del proceso se retiró de su sede) la plantilla de respuestas de este ejercicio, así que las respuestas son PROPUESTAS POR OpoTAI, razonadas una a una (comandos, SQL, redes…) y explicadas en la anotación de cada pregunta; todas llevan needs_review. El cuadernillo es un escaneo sin capa de texto: el texto procede de OCR (Tesseract, una pasada a 300 ppp, caché versionada en tools/sources/ocr/) corregido después revisando la imagen; los fragmentos de código se transcriben a mano y los diagramas se recortan como figura con su transcripción. Se pierde la negrita del original. Se omiten la portada y la contraportada.",
+    "documents": [
+      "cuadernillo.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segundo ejercicio · Supuesto del bloque III",
+      "block": "III",
+      "questions": 30,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segundo ejercicio · Supuesto del bloque IV",
+      "block": "IV",
+      "questions": 30,
+      "reserve": 3
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo.pdf",
+      "ocr": true,
+      "skip_pages": [
+        1,
+        11
+      ],
+      "para_gap": 5.0,
+      "bottom": 790.0,
+      "ignore": [
+        "(?i)P[áa]gina ?\\d+ ?de ?9$"
+      ],
+      "markers": [
+        {
+          "pattern": "(?i)^bloque [il1|]{3}$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^bloque [il1|]v$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^preguntas ?de reserva$",
+          "reserve": true
+        }
+      ],
+      "question_x_max": 45.0,
+      "exclude": [
+        {
+          "page": 6,
+          "rect": [
+            8,
+            486,
+            585,
+            760
+          ],
+          "note": "Listado Java (Funcionalidad 1 y 2, líneas numeradas): transcrito a mano en el enunciado."
+        }
+      ],
+      "figures": [
+        {
+          "page": 2,
+          "rect": [
+            150,
+            184,
+            445,
+            336
+          ]
+        },
+        {
+          "page": 3,
+          "rect": [
+            108,
+            505,
+            510,
+            618
+          ]
+        },
+        {
+          "page": 4,
+          "rect": [
+            80,
+            403,
+            540,
+            538
+          ]
+        },
+        {
+          "page": 6,
+          "rect": [
+            150,
+            298,
+            415,
+            377
+          ],
+          "attach": "section"
+        }
+      ],
+      "ocr_word_fixes": [
+        {
+          "page": 8,
+          "old": "Za",
+          "new": "2.",
+          "note": "Bloque IV, pregunta 2: número leído como «Za»."
+        },
+        {
+          "page": 8,
+          "old": "t",
+          "new": "",
+          "x": 11.8,
+          "note": "Mancha en el margen delante de la pregunta 5."
+        }
+      ]
+    }
+  ],
+  "answer_keys": [],
+  "own_answer_key": {
+    "p2-s1": {
+      "questions": "AABDC ADBCC DCBCC CDBDB DBCDD BBCAC",
+      "reserve": "DAC"
+    },
+    "p2-s2": {
+      "questions": "BABCB AADBA CBBBD BBCAB AAAAC CBACA",
+      "reserve": "AAD"
+    }
+  },
+  "verify_text": false,
+  "spot_checks": {},
+  "figures": {
+    "p2-s1-statement-1": {
+      "redraw": "p2-s1-statement-1.svg",
+      "enhance": true,
+      "alt": "Diagramas de cuatro tablas de la base de datos antigua (USUARIOS, PETICIONES, TRABAJADORES y UBICACIONES) con sus campos y las líneas que relacionan IdUsuario con IdCliente, CodTrabajador con Director y Ubicacion con Ubicacion.",
+      "transcription": [
+        "*Transcripción de las tablas (las claves primarias, en negrita en el original, llevan «(PK)»):*",
+        "",
+        "| USUARIOS | PETICIONES | TRABAJADORES | UBICACIONES |",
+        "|---|---|---|---|",
+        "| IdUsuario (PK) | CodigoPeticion (PK) | CodTrabajador (PK) | Ubicacion (PK) |",
+        "| Usuario | Peticion | Nombre | Ciudad |",
+        "| Representante | Fecha | Edad | Provincia |",
+        "| TlfnoRepresentante | IdCliente | Ubicacion | Director |",
+        "| … | … | … | … |",
+        "",
+        "Líneas de relación: USUARIOS.IdUsuario – PETICIONES.IdCliente; TRABAJADORES.CodTrabajador – UBICACIONES.Director; TRABAJADORES.Ubicacion – UBICACIONES.Ubicacion."
+      ]
+    },
+    "p2-s1-statement-2": {
+      "redraw": "p2-s1-statement-2.svg",
+      "enhance": true,
+      "alt": "Borrador de modelo E/R extendido: Trabajador participa en «Relación 1» (1:N) con UbicacionCentral y en «Relación 2» (1:1) con UbicacionExterior, con un arco que une ambas relaciones junto a Trabajador; UbicacionCentral y UbicacionExterior son subtipos de Ubicacion, que tiene los atributos Telefono y Direccion.",
+      "transcription": [
+        "*Transcripción del diagrama:*",
+        "",
+        "- Trabajador — «Relación 1» (cardinalidad 1:N) — UbicacionCentral.",
+        "- Trabajador — «Relación 2» (cardinalidad 1:1) — UbicacionExterior.",
+        "- Un arco junto a Trabajador cruza las líneas de las dos relaciones.",
+        "- UbicacionCentral y UbicacionExterior se unen mediante un triángulo de jerarquía a Ubicacion, con atributos Telefono y Direccion."
+      ]
+    },
+    "p2-s1-statement-3": {
+      "redraw": "p2-s1-statement-3.svg",
+      "enhance": true,
+      "alt": "Diagrama UML con dos cajas, cada una con dos pestañas en el lado izquierdo, «peticion.java» y «Gestor Peticion.java»; de peticion.java sale una línea discontinua con punta de flecha abierta hasta un pequeño círculo unido con una línea continua a Gestor Peticion.java; debajo, el rótulo «Diagrama UML».",
+      "transcription": [
+        "*Transcripción:* dos cajas, cada una con dos pestañas rectangulares en el lado izquierdo: «peticion.java» y «Gestor Peticion.java». De peticion.java sale una línea discontinua con punta de flecha abierta que llega a un pequeño círculo, unido con una línea continua a Gestor Peticion.java. Debajo, el rótulo «Diagrama UML»."
+      ]
+    },
+    "p2-s1-q007": {
+      "redraw": "p2-s1-q007.svg",
+      "enhance": true,
+      "alt": "Diagrama de clases: CLIENTE usa ELEMENTO (operación Petición()); ELEMENTO REAL y APODERADO heredan de ELEMENTO (triángulo de generalización); APODERADO tiene una asociación «Elemento Real» hacia ELEMENTO REAL y una nota «ElementoReal -> Petición()» unida a su operación Petición().",
+      "transcription": [
+        "*Transcripción del diagrama:*",
+        "",
+        "- CLIENTE → ELEMENTO (clase con la operación Petición()).",
+        "- ELEMENTO REAL (Petición()) y APODERADO (Petición()) son subclases de ELEMENTO.",
+        "- APODERADO → ELEMENTO REAL, asociación rotulada «Elemento Real».",
+        "- Nota unida a Petición() de APODERADO: «ElementoReal -> Petición()»."
+      ]
+    }
+  }
+}

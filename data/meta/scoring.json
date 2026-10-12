@@ -1,0 +1,1024 @@
+{
+  "schema_version": 1,
+  "default_scheme": "tai-li-2025",
+  "schemes": [
+    {
+      "id": "tai-li-2025",
+      "title": "TAI ingreso libre · convocatoria 2025 (examen 23/05/2026)",
+      "access": "libre",
+      "convocatoria": "li-2025",
+      "sources": [
+        {
+          "title": "Resolución de 18 de diciembre de 2025, SEFP (BOE 22/12/2025), anexos V y VI (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26262"
+        },
+        {
+          "title": "CPS · Criterios de corrección, valoración y superación TAI LI 2025 (18/05/2026)",
+          "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/TAI%20LI%202025.pdf"
+        },
+        {
+          "title": "CPS · Nota informativa: fórmula de transformación de puntuaciones directas (29/09/2026)",
+          "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-09/Nota%20informativa%20F%C3%B3rmula%20Transformada%20%282%29.pdf"
+        }
+      ],
+      "duration_minutes": 120,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario",
+          "kind": "theory",
+          "questions": 80,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 20,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": null,
+            "cutoff_note": "Pendiente (resultados previstos a finales de octubre de 2026). Criterio CPS: apto con ≥ 50 % de la directa máxima (40/80); si no se alcanzan 2.532 aptos (general) y 558 (norma común 13), la CPS puede bajarlo hasta el 30 % (24/80). Con la distribución de 2024 lo más probable es el suelo de 24/80."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": null,
+            "cutoff_note": "Pendiente. Criterio CPS: aptas las mejores directas de la 2.ª parte, entre quienes superan la 1.ª, hasta 844 (general) y 186 (norma común 13), con un mínimo del 30 % (6/20). Estimación OpoTAI para el turno general: ≈ 8,3/20 (contando solo las 844 plazas generales)."
+          }
+        ]
+      },
+      "notes": "Ejercicio único (anexo V, norma 2): todas las preguntas valen lo mismo y cada error resta 1/3; las respuestas en blanco no penalizan. Cada parte se califica de 0 a 50 (mínimo 25) y la nota final es la suma (0–100). La 2.ª parte solo se corrige si se supera la 1.ª y si se marca un único supuesto. Transformación por tramos (nota CPS de 29/09/2026): d < M → E/2·d/M; d ≥ M → E/2·(1 + (d−M)/(N−M)). Desempate: directa de la 2.ª parte, aciertos 2.ª, aciertos 1.ª, menos errores 2.ª, menos errores 1.ª. Hubo un llamamiento extraordinario el 24/07/2026 con otro cuestionario y las mismas reglas."
+    },
+    {
+      "id": "tai-li-2024",
+      "title": "TAI ingreso libre · convocatoria 2024 (examen 14/12/2024)",
+      "access": "libre",
+      "convocatoria": "li-2024",
+      "sources": [
+        {
+          "title": "Resolución de 9 de julio de 2024, SEFP (BOE 10/07/2024), anexos V y VI (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14098"
+        },
+        {
+          "title": "CPS · Criterios de corrección TAI LI 2024 (10/12/2024)",
+          "url": "https://sede.inap.gob.es/documents/59312/2364268/TAI+LI+2024.pdf/22c390b8-b596-7cee-ec54-9635b085ad94"
+        },
+        {
+          "title": "CPS · Nota informativa de puntuaciones mínimas TAI LI 2024 (24/03/2025)",
+          "url": "https://sede.inap.gob.es/documents/59312/2364268/PUNTUACIONESMINIMASEJERUNICOTAIL_NNSVF2SJLX_154AB89SD658.pdf/22610a7c-da9d-a9bb-95fc-a480ebf8ac18"
+        }
+      ],
+      "duration_minutes": 120,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario",
+          "kind": "theory",
+          "questions": 80,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 20,
+          "reserve": 5,
+          "value": 4.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1,
+              2
+            ],
+            "max_grade": 100,
+            "pass_grade": 50,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 48.0,
+            "cutoff_note": "48/160 directos (30 % de la máxima) = 50 puntos, acceso general y cupo de discapacidad (nota CPS de 24/03/2025). Fue el suelo: aprobaron 1.756 para 1.879 plazas."
+          }
+        ]
+      },
+      "notes": "1.ª parte: A − E/3 (valor 1); 2.ª parte: 4·A − 4·E/3 (valor 4). Directa máxima 80 + 80 = 160. Calificación conjunta 0–100 con mínimo 50; la CPS declaraba aptos los mejores hasta 1.712 + 167 siempre que alcanzaran el 30 %. Empates: directa 2.ª parte, aciertos 2.ª, aciertos 1.ª, errores 2.ª, errores 1.ª."
+    },
+    {
+      "id": "tai-li-2023",
+      "title": "TAI ingreso libre · convocatoria 2023 (OEP 2020-2022, examen 17/09/2023)",
+      "access": "libre",
+      "convocatoria": "li-2023",
+      "sources": [
+        {
+          "title": "Resolución de 20 de enero de 2023, SEFP (BOE 27/01/2023), anexos VI y VII (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-2175"
+        },
+        {
+          "title": "CPS · Criterios de corrección TAI LI (convocatoria 2023)",
+          "url": "https://sede.inap.gob.es/documents/59312/2194858/TAI+LI+2023.pdf/1fe7e36d-60d0-742d-a69c-f282ae32879a"
+        },
+        {
+          "title": "CPS · Nota informativa de puntuaciones mínimas TAI LI 2023 (18/12/2023)",
+          "url": "https://sede.inap.gob.es/documents/59312/2194858/PUNTUACIONES+MINIMAS+EJER+UNICO+TAI+L.pdf/0b7a9b95-4624-d636-7e1f-ec501310b1ab"
+        }
+      ],
+      "duration_minutes": 120,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario",
+          "kind": "theory",
+          "questions": 80,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 20,
+          "reserve": 5,
+          "value": 4.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1,
+              2
+            ],
+            "max_grade": 100,
+            "pass_grade": 50,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 48.0,
+            "cutoff_note": "48/160 directos (30 %) = 50 puntos, acceso general y cupo de discapacidad (nota CPS de 18/12/2023). Fue el suelo: aprobaron 1.858 para 1.902 plazas."
+          }
+        ]
+      },
+      "notes": "Mismas reglas que 2024: valor 1 en la 1.ª parte y 4 en la 2.ª, error −1/3, calificación conjunta 0–100 con mínimo 50 y suelo del 30 %. Aptos: mejores directas hasta 1.806 + 96."
+    },
+    {
+      "id": "tai-li-2021",
+      "title": "TAI ingreso libre · convocatoria 2021 (OEP 2019, examen 6/11/2021)",
+      "access": "libre",
+      "convocatoria": "li-2021",
+      "sources": [
+        {
+          "title": "Resolución de 26 de mayo de 2021, SEPTFP (BOE 28/05/2021), anexos VII y VIII (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-8892"
+        },
+        {
+          "title": "CPS · Criterios de corrección TAI LI OEP 2019 (convocatoria 2021)",
+          "url": "https://sede.inap.gob.es/documents/59312/1925662/2OEP2019TAI-LI_154AB89SD658.pdf/0def8107-8fdd-c394-8860-dd291cc31fca"
+        },
+        {
+          "title": "CPS · Nota informativa de puntuaciones mínimas TAI LI OEP 2019 (24/01/2022)",
+          "url": "https://sede.inap.gob.es/documents/59312/1925774/Puntuacionesminimasprimerejercicio2019TAIL_154AB89SD658.pdf/9186ee4e-faf8-e9c5-3152-403b71232c9a"
+        }
+      ],
+      "duration_minutes": 120,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario",
+          "kind": "theory",
+          "questions": 80,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 20,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 25.0,
+            "cutoff_note": "25/80 (31,25 %) en acceso general; 24/80 (30 %) en el cupo de discapacidad (nota CPS de 24/01/2022). Corte por ranking: aptos los mejores hasta 625 + 50."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 8.0,
+            "cutoff_note": "8/20 (40 %) en acceso general; 6/20 (30 %) en el cupo de discapacidad. Corte por ranking: mejores hasta 432 + 28 entre quienes superan la 1.ª parte."
+          }
+        ]
+      },
+      "notes": "Primer ejercicio único TAI-LI (dos partes el mismo día). A − E/3 en ambas partes; cada parte 0–50 (mínimo 25) y nota final = suma. Desempate: mayor nota en la 1.ª parte."
+    },
+    {
+      "id": "tai-li-2019",
+      "title": "TAI ingreso libre · convocatoria 2019 (OEP 2018, dos ejercicios: 19/10/2019 y 25/01/2020)",
+      "access": "libre",
+      "convocatoria": "li-2019",
+      "sources": [
+        {
+          "title": "Resolución de 14 de junio de 2019, SEFP (BOE 17/06/2019), anexos V y VI (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-9062"
+        },
+        {
+          "title": "CPS · Criterios de corrección del primer ejercicio TAI LI OEP 2018",
+          "url": "https://sede.inap.gob.es/documents/59312/1790179/7OEP2018TAILI_154AB89SD658.pdf/cdc80da6-8e02-a640-65c4-faa5917c9a28"
+        },
+        {
+          "title": "CPS · Criterios de corrección del segundo ejercicio TAI LI OEP 2018 (17/01/2020)",
+          "url": "https://sede.inap.gob.es/documents/59312/1790179/CRITERIOS_2_TAILI_154AB89SD658.pdf/c44b7573-d587-4a0a-3eef-8d4cd346b266"
+        },
+        {
+          "title": "CPS · Puntuaciones mínimas del primer ejercicio TAI LI OEP 2018 (17/12/2019)",
+          "url": "https://sede.inap.gob.es/documents/59312/1790179/PuntminimasTAIL1ejer_154AB89SD658.pdf/ffe7336a-b035-156b-262f-fd1817af7636"
+        },
+        {
+          "title": "CPS · Puntuaciones mínimas del segundo ejercicio TAI LI OEP 2018",
+          "url": "https://sede.inap.gob.es/documents/59312/1790179/2ejer_Punt_minimas%25202018_TAILI_OEP2018__154AB89SD658.pdf/9929afed-090f-a586-a01e-c5fac4ef6ed0"
+        }
+      ],
+      "duration_minutes": 160,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primer ejercicio · Cuestionario (90 min)",
+          "kind": "theory",
+          "questions": 100,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segundo ejercicio · Supuesto práctico (bloque III o IV, a elegir; 70 min)",
+          "kind": "case",
+          "questions": 30,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 31.666666666666668,
+            "cutoff_note": "31,67/100 (= 95/3; la CPS publica las directas redondeadas a dos decimales) en el sistema general (corte por ranking: aptos los mejores hasta 547 + 37); 30/100 (suelo) en el cupo de discapacidad (nota CPS de 17/12/2019)."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 13.0,
+            "cutoff_note": "13/30 en el sistema general (ranking: mejores hasta 363 + 22); 9/30 (suelo) en el cupo de discapacidad (nota CPS)."
+          }
+        ]
+      },
+      "notes": "Dos ejercicios eliminatorios en días distintos (90 + 70 minutos; aquí se suman). A − E/3 en ambos; cada ejercicio 0–50 (mínimo 25) y nota final = suma. Desempate: nota del primer ejercicio y luego del segundo."
+    },
+    {
+      "id": "tai-li-2018",
+      "title": "TAI ingreso libre · convocatoria 2018 (OEP 2017, dos ejercicios)",
+      "access": "libre",
+      "convocatoria": "li-2018",
+      "sources": [
+        {
+          "title": "Resolución de 25 de enero de 2018, SEFP (BOE 29/01/2018), anexo V TAI ingreso libre",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1169"
+        },
+        {
+          "title": "Orden TFP/863/2018 (BOE 9/08/2018): relación de aprobados TAI LI OEP 2017",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-11387"
+        },
+        {
+          "title": "Fuente secundaria (contraste): OpositaTest, «Nota de corte TAI AGE»",
+          "url": "https://blog.opositatest.com/nota-corte-tai-age"
+        }
+      ],
+      "duration_minutes": 160,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primer ejercicio · Cuestionario (90 min)",
+          "kind": "theory",
+          "questions": 100,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segundo ejercicio · Supuesto práctico (bloque III o IV, a elegir; 70 min)",
+          "kind": "case",
+          "questions": 30,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 32.333333333333336,
+            "cutoff_note": "32,33/100 (= 97/3, sistema general). Inferido de las calificaciones de la relación de aprobados del BOE (método validado con los cortes oficiales de 2019 y 2021) y coincidente con la fuente secundaria; cupo de discapacidad 30/100 según la fuente secundaria."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 11.666666666666666,
+            "cutoff_note": "11,67/30 (= 35/3, sistema general), inferido de las calificaciones publicadas en el BOE; sin nota oficial localizada."
+          }
+        ]
+      },
+      "notes": "Bases: 100 preguntas (+3 reserva) en 90 min y supuesto de 30 preguntas (+3) en 70 min; error −1/3; cada ejercicio 0–50 con mínimo 25. Los criterios de la CPS de esta convocatoria ya no están publicados en la sede del INAP."
+    },
+    {
+      "id": "tai-li-2016",
+      "title": "TAI ingreso libre · convocatoria 2016 (OEP 2016, dos ejercicios)",
+      "access": "libre",
+      "convocatoria": "li-2016",
+      "sources": [
+        {
+          "title": "Orden HAP/998/2016, de 17 de junio (BOE 22/06/2016), anexo TAI ingreso libre",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6049"
+        },
+        {
+          "title": "Orden HFP/647/2017 (BOE 7/07/2017): relación definitiva de aprobados TAI LI OEP 2016",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-7916"
+        },
+        {
+          "title": "Fuente secundaria (contraste): OpositaTest, «Nota de corte TAI AGE»",
+          "url": "https://blog.opositatest.com/nota-corte-tai-age"
+        }
+      ],
+      "duration_minutes": 180,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primer ejercicio · Cuestionario (bloques I y II + bloque III o IV a elegir; 90 min)",
+          "kind": "theory",
+          "questions": 100,
+          "reserve": 6,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segundo ejercicio · Supuesto práctico (bloque III o IV, a elegir; 90 min)",
+          "kind": "case",
+          "questions": 40,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 52.666666666666664,
+            "cutoff_note": "52,67/100 (= 158/3, general), inferido de las calificaciones del BOE y coincidente con la fuente secundaria; cupo de discapacidad 48/100 (fuente secundaria)."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 18.0,
+            "cutoff_note": "18/40 (general), inferido de las calificaciones publicadas en el BOE."
+          }
+        ]
+      },
+      "notes": "Primer ejercicio: 20 preguntas del bloque I y 30 del II comunes + 50 del bloque III o IV a elegir (3 reservas por mitad); se modela como una parte de 100 preguntas. Error −1/3. Las bases no fijaban un suelo del 30 %: se usa 0,30 por coherencia (el corte real fue por ranking)."
+    },
+    {
+      "id": "tai-li-2015",
+      "title": "TAI ingreso libre · convocatoria 2015 (OEP 2015, dos ejercicios)",
+      "access": "libre",
+      "convocatoria": "li-2015",
+      "sources": [
+        {
+          "title": "Orden HAP/2294/2015, de 21 de octubre (BOE 3/11/2015), anexo IV (TAI ingreso libre)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-11843"
+        },
+        {
+          "title": "Orden HAP/2666/2015, de 9 de diciembre (BOE 12/12/2015): corrige el anexo IV (reservas y penalización −1/3 del segundo ejercicio)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-13505"
+        },
+        {
+          "title": "Orden HAP/1281/2016 (BOE 29/07/2016): relación definitiva de aprobados TAI LI OEP 2015",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-7318"
+        },
+        {
+          "title": "Fuente secundaria (contraste): OpositaTest, «Nota de corte TAI AGE»",
+          "url": "https://blog.opositatest.com/nota-corte-tai-age"
+        }
+      ],
+      "duration_minutes": 180,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primer ejercicio · Cuestionario (bloques I y II + bloque III o IV a elegir; 90 min)",
+          "kind": "theory",
+          "questions": 100,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segundo ejercicio · Cuestionario práctico (bloque III o IV, a elegir; 90 min)",
+          "kind": "case",
+          "questions": 40,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 3,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 61.666666666666664,
+            "cutoff_note": "61,67/100 (= 185/3, general; cupo de discapacidad 52,67) según fuente secundaria; no verificable con las calificaciones del BOE (solo publica la nota total)."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": null,
+            "cutoff_note": "Desconocido (no se ha localizado la nota de puntuaciones mínimas)."
+          }
+        ]
+      },
+      "notes": "Bases (anexo IV, corregido por la Orden HAP/2666/2015): 1.er ejercicio de hasta 100 preguntas (hasta 20 del bloque I y 30 del II, comunes, y 50 del bloque III o del IV a elegir), con reservas posibles; 2.º ejercicio de 40 preguntas prácticas del bloque elegido (III o IV), también con reservas. Cada ejercicio 0–50 y error −1/3 en ambos. El cuadernillo de 2016 (15/TAI-LI) trae 3 reservas solo en los bloques a elegir (los bloques I y II no tienen) y 3 en cada cuestionario práctico. Las bases no fijaban un suelo del 30 %: se usa 0,30 por coherencia (el corte real lo fija la CPS)."
+    },
+    {
+      "id": "tai-pi-2025",
+      "title": "TAI promoción interna · convocatoria 2025 (examen 23/05/2026)",
+      "access": "promocion_interna",
+      "convocatoria": "pi-2025",
+      "sources": [
+        {
+          "title": "Resolución de 18 de diciembre de 2025, SEFP (BOE 22/12/2025), anexos V y VI (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26262"
+        },
+        {
+          "title": "CPS · Criterios de corrección TAI PI 2025 (18/05/2026)",
+          "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/TAI%20PI%202025.pdf"
+        },
+        {
+          "title": "CPS · Nota informativa de puntuaciones mínimas TAI PI 2025 (29/09/2026)",
+          "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-09/PUNTUACIONES%20MINIMAS%20EJER%20UNICO%20TAI%20PI.pdf"
+        },
+        {
+          "title": "CPS · Nota informativa: fórmula de transformación de puntuaciones directas (29/09/2026)",
+          "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-09/Nota%20informativa%20F%C3%B3rmula%20Transformada%20%282%29.pdf"
+        }
+      ],
+      "duration_minutes": 90,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario",
+          "kind": "theory",
+          "questions": 50,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 12,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 15.0,
+            "cutoff_note": "15/50 (30 %), general y norma común 13 (nota CPS de 29/09/2026). El criterio inicial era el 50 % salvo que no se alcanzaran 951 + 69 aptos."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 3.6,
+            "cutoff_note": "3,60/12 (30 %), general y norma común 13 (nota CPS de 29/09/2026)."
+          }
+        ]
+      },
+      "notes": "Fase de oposición de un concurso-oposición: a la nota del ejercicio (0–100) se suma la fase de concurso. Error −1/4 en ambas partes."
+    },
+    {
+      "id": "tai-pi-2024",
+      "title": "TAI promoción interna · convocatoria 2024 (examen 14/12/2024)",
+      "access": "promocion_interna",
+      "convocatoria": "pi-2024",
+      "sources": [
+        {
+          "title": "Resolución de 9 de julio de 2024, SEFP (BOE 10/07/2024), anexos V y VI (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14098"
+        },
+        {
+          "title": "CPS · Criterios de corrección TAI PI 2024 (10/12/2024)",
+          "url": "https://sede.inap.gob.es/documents/59312/2364118/TAI+PI+2024.pdf/0ee5a809-a983-258b-aab2-38603947124d"
+        },
+        {
+          "title": "CPS · Nota informativa de puntuaciones mínimas TAI PI 2024 (28/03/2025)",
+          "url": "https://sede.inap.gob.es/documents/59312/2364118/PUNTUACIONES+MINIMAS+EJER+UNICO+TAI+PI.pdf/7ed869ab-b224-7b87-d1a2-aae153c7aa6d"
+        }
+      ],
+      "duration_minutes": 90,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario",
+          "kind": "theory",
+          "questions": 50,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 12,
+          "reserve": 3,
+          "value": 4.0,
+          "penalty_divisor": 4,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1,
+              2
+            ],
+            "max_grade": 100,
+            "pass_grade": 50,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 29.4,
+            "cutoff_note": "29,40/98 directos (30 %) = 50 puntos, general y cupo de discapacidad (nota CPS de 28/03/2025)."
+          }
+        ]
+      },
+      "notes": "1.ª parte A − E/4 (valor 1); 2.ª parte 4·A − E (valor 4, error −1/4 del valor). Directa máxima 50 + 48 = 98."
+    },
+    {
+      "id": "tai-pi-2023",
+      "title": "TAI promoción interna · convocatoria 2023 (examen 17/09/2023)",
+      "access": "promocion_interna",
+      "convocatoria": "pi-2023",
+      "sources": [
+        {
+          "title": "Resolución de 20 de enero de 2023, SEFP (BOE 27/01/2023), anexos VI y VII (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-2175"
+        },
+        {
+          "title": "CPS · Criterios de corrección TAI PI 2023 y su corrección de errores",
+          "url": "https://sede.inap.gob.es/documents/59312/2194876/TAI+PI+2023.pdf/f9c185d7-613c-3a80-45d5-11e3b3123677"
+        },
+        {
+          "title": "CPS · Nota informativa de puntuaciones mínimas TAI PI 2023 (18/12/2023)",
+          "url": "https://sede.inap.gob.es/documents/59312/2194876/PUNTUACIONES+MINIMAS+EJER+UNICO+TAI+PI.pdf/adefad89-c6f0-16d5-7dab-cd6711d0ac24"
+        }
+      ],
+      "duration_minutes": 90,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario",
+          "kind": "theory",
+          "questions": 50,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 12,
+          "reserve": 3,
+          "value": 4.0,
+          "penalty_divisor": 4,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1,
+              2
+            ],
+            "max_grade": 100,
+            "pass_grade": 50,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 29.4,
+            "cutoff_note": "29,40/98 directos (30 %) = 50 puntos, general y cupo de discapacidad (nota CPS de 18/12/2023)."
+          }
+        ]
+      },
+      "notes": "Igual que 2024. La CPS corrigió sus criterios para calificar de forma conjunta (corrección de errores)."
+    },
+    {
+      "id": "tai-pi-2021",
+      "title": "TAI promoción interna · convocatoria 2021 (OEP 2019, examen 6/11/2021)",
+      "access": "promocion_interna",
+      "convocatoria": "pi-2021",
+      "sources": [
+        {
+          "title": "Resolución de 26 de mayo de 2021, SEPTFP (BOE 28/05/2021), anexos VII y VIII (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-8892"
+        },
+        {
+          "title": "CPS · Criterios de corrección TAI PI OEP 2019",
+          "url": "https://sede.inap.gob.es/documents/59312/1925662/3OEP2019TAI-PI_154AB89SD658.pdf/c9c86cb8-ffab-9b0d-96f7-8ff10d7bd020"
+        },
+        {
+          "title": "CPS · Nota informativa de puntuaciones mínimas TAI PI OEP 2019 (24/01/2022)",
+          "url": "https://sede.inap.gob.es/documents/59312/1925806/Puntuacionesminimasprimerejercicio2019TAIPI_154AB89SD658.pdf/c0ff2a15-5bc7-3da5-db8e-a5ced6c35e47"
+        }
+      ],
+      "duration_minutes": 90,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario",
+          "kind": "theory",
+          "questions": 50,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 12,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 15.0,
+            "cutoff_note": "15/50 (30 %), general y cupo de discapacidad (nota CPS de 24/01/2022)."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 3.6,
+            "cutoff_note": "3,6/12 (30 %), general y cupo de discapacidad."
+          }
+        ]
+      },
+      "notes": "A − E/4 en ambas partes; cada parte 0–50 (mínimo 25). Concurso-oposición."
+    },
+    {
+      "id": "tai-pi-2019",
+      "title": "TAI promoción interna · convocatoria 2019 (OEP 2018, examen 19/10/2019)",
+      "access": "promocion_interna",
+      "convocatoria": "pi-2019",
+      "sources": [
+        {
+          "title": "Resolución de 14 de junio de 2019, SEFP (BOE 17/06/2019), anexos V y VI (TAI)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-9062"
+        },
+        {
+          "title": "CPS · Criterios de corrección TAI PI OEP 2018",
+          "url": "https://sede.inap.gob.es/documents/59312/1777270/8OEP2018TAIPI_154AB89SD658.pdf/f4857b8c-0a2e-01a1-cd0c-70e920fe73f6"
+        },
+        {
+          "title": "CPS · Puntuaciones mínimas TAI PI OEP 2018 (17/12/2019)",
+          "url": "https://sede.inap.gob.es/documents/59312/1777270/PuntminimasTAIPIejerunico_154AB89SD658.pdf/f823a512-b2be-9bf1-4f68-e1073697436e"
+        }
+      ],
+      "duration_minutes": 90,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario",
+          "kind": "theory",
+          "questions": 50,
+          "reserve": 5,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 12,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 15.0,
+            "cutoff_note": "15/50 (30 %), general y cupo de discapacidad (nota CPS de 17/12/2019)."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 3.6,
+            "cutoff_note": "3,6/12 (30 %), general y cupo de discapacidad."
+          }
+        ]
+      },
+      "notes": "A − E/4 en ambas partes; cada parte 0–50 (mínimo 25). Concurso-oposición."
+    },
+    {
+      "id": "tai-pi-2018",
+      "title": "TAI promoción interna · convocatoria 2018 (OEP 2017, ejercicio único)",
+      "access": "promocion_interna",
+      "convocatoria": "pi-2018",
+      "sources": [
+        {
+          "title": "Resolución de 25 de enero de 2018, SEFP (BOE 29/01/2018), anexo VI (TAI promoción interna)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1169"
+        }
+      ],
+      "duration_minutes": 90,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario (hasta 50 preguntas)",
+          "kind": "theory",
+          "questions": 50,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 12,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 15.0,
+            "cutoff_note": "Supuesto: 30 % de la directa máxima, criterio de las convocatorias de 2019 y 2021; no se ha localizado la nota de puntuaciones mínimas de 2018."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": 3.6,
+            "cutoff_note": "Supuesto: 30 % de la directa máxima, criterio de las convocatorias de 2019 y 2021; no se ha localizado la nota de puntuaciones mínimas de 2018."
+          }
+        ]
+      },
+      "notes": "Ejercicio único con dos partes obligatorias y eliminatorias realizadas conjuntamente (90 min): cuestionario de hasta 50 preguntas (3 de reserva) y supuesto de 12 preguntas (3 de reserva) del bloque III o IV a elegir. Cada parte 0–50 (mínimo 25). Errores −1/4. Concurso-oposición."
+    },
+    {
+      "id": "tai-pi-2015",
+      "title": "TAI promoción interna · convocatoria 2015 (OEP 2015, ejercicio único)",
+      "access": "promocion_interna",
+      "convocatoria": "pi-2015",
+      "sources": [
+        {
+          "title": "Orden HAP/2294/2015, de 21 de octubre (BOE 3/11/2015), anexo V (TAI promoción interna)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-11843"
+        },
+        {
+          "title": "Orden HAP/1352/2016, de 1 de agosto (BOE 8/08/2016): relación definitiva de aprobados TAI PI OEP 2015",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-7615"
+        }
+      ],
+      "duration_minutes": 90,
+      "parts": [
+        {
+          "part": 1,
+          "title": "Primera parte · Cuestionario (bloques I y II + bloque III o IV a elegir)",
+          "kind": "theory",
+          "questions": 50,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": null,
+          "cases_to_choose": null
+        },
+        {
+          "part": 2,
+          "title": "Segunda parte · Supuesto práctico (bloque III o IV, a elegir)",
+          "kind": "case",
+          "questions": 12,
+          "reserve": 3,
+          "value": 1.0,
+          "penalty_divisor": 4,
+          "cases_offered": 2,
+          "cases_to_choose": 1
+        }
+      ],
+      "grading": {
+        "units": [
+          {
+            "parts": [
+              1
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": null,
+            "cutoff_note": "Desconocido: no se ha localizado la puntuación mínima que fijó la CPS (se usa el 30 % de la directa máxima solo para simular)."
+          },
+          {
+            "parts": [
+              2
+            ],
+            "max_grade": 50,
+            "pass_grade": 25,
+            "min_direct_ratio": 0.3,
+            "cutoff_direct": null,
+            "cutoff_note": "Desconocido: no se ha localizado la puntuación mínima que fijó la CPS (se usa el 30 % de la directa máxima solo para simular)."
+          }
+        ]
+      },
+      "notes": "Bases (anexo V): ejercicio único con dos partes obligatorias y eliminatorias realizadas conjuntamente (90 min). Primera parte: hasta 50 preguntas (hasta 10 del bloque I y 15 del II, comunes, y 25 del bloque III o del IV a elegir, con reservas posibles en los bloques III y IV); segunda parte: 12 preguntas prácticas del bloque elegido (III o IV), con reservas posibles. Cada parte 0–50; errores −1/4. Concurso-oposición. El cuadernillo 15/TAI-PI trae 3 reservas en cada bloque a elegir y en cada supuesto; los bloques I y II no tienen."
+    }
+  ]
+}

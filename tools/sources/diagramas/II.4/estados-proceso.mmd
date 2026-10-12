@@ -1,0 +1,17 @@
+%% II.4 · Modelo de cinco estados de un proceso.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+stateDiagram-v2
+    direction TB
+    state "Nuevo" as Nuevo
+    state "Listo" as Listo
+    state "En ejecución" as Ejecucion
+    state "Bloqueado" as Bloqueado
+    state "Terminado" as Terminado
+    [*] --> Nuevo
+    Nuevo --> Listo: admitido
+    Listo --> Ejecucion: planificador<br/>(le da la CPU)
+    Ejecucion --> Listo: expropiación<br/>(fin del quantum)
+    Ejecucion --> Bloqueado: espera E/S<br/>o un evento
+    Bloqueado --> Listo: fin de la E/S<br/>o llega el evento
+    Ejecucion --> Terminado: fin
+    Terminado --> [*]

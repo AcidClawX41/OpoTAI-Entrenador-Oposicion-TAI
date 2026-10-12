@@ -1,0 +1,2893 @@
+{
+  "schema_version": 1,
+  "id": "tai-pi-2021",
+  "kind": "official",
+  "title": "TAI · Promoción interna · Convocatoria 2021 [INAP: «Convocatoria 2019», OEP 2019] (examen 06/11/2021)",
+  "description": "Ejercicio único del proceso selectivo de promoción interna en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2019). Primera parte: cuestionario de 50 preguntas (+5 de reserva). Segunda parte: un supuesto práctico a elegir entre dos (bloques III y IV), de 12 preguntas (+3 de reserva) cada uno. Cuadernillo 19/TAI-PI (sin modelos).",
+  "access": "promocion_interna",
+  "year": 2021,
+  "convocatoria": "pi-2021",
+  "exam_date": "2021-11-06",
+  "model": null,
+  "duration_minutes": 90,
+  "scoring_scheme": "tai-pi-2021",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "documents": [
+      {
+        "kind": "cuadernillo",
+        "title": "Cuestionario ejercicio único",
+        "url": "https://www.inap.es/documents/59312/1925806/cues_1er_ejer_TAI-P_oep19_154AB89SD658.pdf/69f68075-790a-96eb-fe71-68758f73f4de",
+        "sha256": "fa3008ced226cdde6607b00a4405b8f90fbb8a41845f28ec9cdbc6691793166f"
+      },
+      {
+        "kind": "plantilla_definitiva",
+        "title": "Plantilla definitiva de respuestas",
+        "url": "https://www.inap.es/documents/59312/1925806/Plantilla_definitivaTAI-PEjercicionico2019_154AB89SD658.pdf/7d5f23e1-b935-d873-bd2a-61cd84b65602",
+        "sha256": "a3a5a6b88f23c47302d587dc8503d979e23771e9d778fe164c8e78e4410584f7"
+      },
+      {
+        "kind": "plantilla_provisional",
+        "title": "Plantilla provisional de respuestas",
+        "url": "https://www.inap.es/documents/59312/1925806/plant_prov_1er_ejer_TAI-P_oep19_154AB89SD658.pdf/1ef5df0c-0769-0c4f-2061-749781551136",
+        "sha256": "bb8fe0c337533a3645cc335ba1d6aaf7e689f1b15066dc50844aba3da9b5df52"
+      },
+      {
+        "kind": "criterios",
+        "title": "Criterios de corrección, valoración y superación",
+        "url": "https://www.inap.es/documents/59312/1925662/3OEP2019TAI-PI_154AB89SD658.pdf/c9c86cb8-ffab-9b0d-96f7-8ff10d7bd020",
+        "sha256": "1921246eee44a690959c7895de1316c622cd1bca58e6ba4f3b89b1f4520d3514"
+      },
+      {
+        "kind": "otro",
+        "title": "Normas específicas (Anexo TAI-P)",
+        "url": "https://www.inap.es/es/documents/59312/1925806/AnexoTAI-P.pdf/69660e5e-a03f-8cc8-e526-68d670240607",
+        "sha256": "7f0353f05d23a2a1f1c007c17af0a2dd9b260286055357ab29fd365672643828"
+      },
+      {
+        "kind": "otro",
+        "title": "Fecha, hora y lugar del ejercicio (Anexo X)",
+        "url": "https://www.inap.es/documents/59312/1925662/ANEXOXLUGARCELEBRACIONPRIMEREJERCICIOOEP2019_154AB89SD658.pdf/cab522de-637d-f1e8-7c94-f0abbded1f94",
+        "sha256": "5fea9439eddd1c4806c44d46af0c734f5542f321fd1acd2b2211f694d0426b76"
+      },
+      {
+        "kind": "otro",
+        "title": "Nota informativa puntuaciones mínimas",
+        "url": "https://www.inap.es/documents/59312/1925806/Puntuacionesminimasprimerejercicio2019TAIPI_154AB89SD658.pdf/c0ff2a15-5bc7-3da5-db8e-a5ced6c35e47",
+        "sha256": "cebd5c374501fdde18e87950fddc5ba7f67543592deadd15e2ea6a2566b31580"
+      }
+    ],
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 26 de mayo de 2021 de la Secretaría de Estado de Política Territorial y Función Pública (BOE 28/05/2021), rotulada por el INAP como «Convocatoria 2019» (OEP 2019); el id usa el año de la resolución (2021). Transcripción del cuadernillo con la plantilla definitiva. Se omite la portada de instrucciones. El bloque de cada supuesto (I → bloque III, II → bloque IV) se asigna según las normas de la convocatoria («a elegir entre dos propuestos correspondientes a los Bloques III y IV del programa respectivamente») y su contenido. Ninguna pregunta anulada en la plantilla definitiva. Sin cambios respecto a la plantilla provisional."
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Cuestionario",
+      "block": null,
+      "statement": null,
+      "media": [],
+      "questions": [
+        {
+          "id": "tai-pi-2021-p1-001",
+          "number": 1,
+          "text": "Según el artículo 11 del Real Decreto 1553/2005, por el que se regula la expedición del documento nacional de identidad y sus certificados de firma electrónica, ¿cuáles son todos los tipos de certificados definidos que se incluyen en el chip incorporado a la tarjeta del DNI electrónico?",
+          "options": [
+            "Un certificado reconocido de Autenticación.",
+            "Un certificado reconocido de Firma.",
+            "Certificados reconocidos de Autenticación y de Firma.",
+            "Certificados reconocidos de Autenticación y de Firma, y certificado electrónico de la autoridad emisora."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "I.6",
+          "explanation": "El **art. 11.4 del RD 1553/2005** enumeraba lo que contenía el **chip** del DNIe: datos de filiación, fotografía y firma digitalizadas, plantilla de la impresión dactilar, «**certificados reconocidos de autenticación y de firma, y certificado electrónico de la autoridad emisora**», con sus periodos de validez, y las claves privadas para activarlos. La pregunta pide **todos** los certificados, así que la respuesta completa es la D. Hoy esa norma está derogada (ver nota).",
+          "option_notes": [
+            "Incompleta: el chip también incluía el certificado de firma y el de la autoridad emisora.",
+            "Incompleta: el chip también incluía el certificado de autenticación y el de la autoridad emisora.",
+            "Incompleta: faltaba el certificado electrónico de la autoridad emisora.",
+            null
+          ],
+          "references": [
+            "RD 1553/2005, art. 11.4 (derogado)",
+            "RD 255/2025, art. 11"
+          ],
+          "tags": [
+            "dni-electronico",
+            "certificados-electronicos"
+          ],
+          "media": [],
+          "outdated": true,
+          "outdated_note": "El RD 1553/2005 fue derogado por el RD 255/2025, de 1 de abril (vigente desde el 2-4-2025). Su art. 11.2 dispone que el chip integra los certificados electrónicos cualificados (eIDAS y Ley 6/2020) de identificación y de firma, además de la fotografía, los datos personales y las dos impresiones dactilares; ya no menciona el certificado de la autoridad emisora. Los certificados valen ahora dos años (art. 11.3) y se denominan «cualificados», no «reconocidos».",
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-002",
+          "number": 2,
+          "text": "La nueva Agenda Digital \"España Digital 2025\" recoge un conjunto de medidas, reformas e inversiones. ¿En cuántos ejes se articulan estas medidas?",
+          "options": [
+            "6",
+            "9",
+            "12",
+            "10"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "I.6",
+          "explanation": "**España Digital 2025** (julio de 2020) articulaba sus medidas, reformas e inversiones en **10 ejes estratégicos**: conectividad digital, despliegue del 5G, competencias digitales, ciberseguridad, transformación digital del sector público, transformación digital de la empresa y emprendimiento digital, proyectos tractores de digitalización sectorial, España como *hub* audiovisual, economía del dato e inteligencia artificial, y derechos digitales.",
+          "option_notes": [
+            "No son 6: España Digital 2025 se articula en 10 ejes estratégicos.",
+            "No son 9: son 10 ejes estratégicos.",
+            "No son 12: son 10 ejes (España Digital 2026 añadió después ejes transversales).",
+            null
+          ],
+          "references": [
+            "España Digital 2025",
+            "España Digital 2026"
+          ],
+          "tags": [
+            "agenda-digital",
+            "espana-digital-2025"
+          ],
+          "media": [],
+          "outdated": true,
+          "outdated_note": "En julio de 2022, España Digital 2025 se actualizó como España Digital 2026, que mantiene los 10 ejes estratégicos, los agrupa en tres dimensiones (infraestructuras y tecnología, economía y personas) y añade ejes transversales.",
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-003",
+          "number": 3,
+          "text": "Con respecto a la prescripción de las sanciones referidas a la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales, señale cuál de estas afirmaciones es correcta:",
+          "options": [
+            "Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de diez meses.",
+            "Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de un año.",
+            "Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de dos años",
+            "Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de tres años."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "I.7",
+          "explanation": "El **art. 78.1 de la LOPDGDD** fija la prescripción de las **sanciones** según su importe: **hasta 40.000 €, un año**; **de 40.001 a 300.000 €, dos años**; y **más de 300.000 €, tres años**. No la confundas con la prescripción de las **infracciones** (arts. 72 a 74): **muy graves, 3 años**; **graves, 2 años**; **leves, 1 año**.",
+          "option_notes": [
+            "No existe un plazo de diez meses: las sanciones de hasta 40.000 € prescriben al año.",
+            null,
+            "Dos años es el plazo de las sanciones de 40.001 a 300.000 €.",
+            "Tres años es el plazo de las sanciones de más de 300.000 €."
+          ],
+          "references": [
+            "LO 3/2018, arts. 72 a 74 y 78"
+          ],
+          "tags": [
+            "proteccion-de-datos",
+            "sanciones",
+            "prescripcion"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-004",
+          "number": 4,
+          "text": "Según la Ley Orgánica 3/2018, de Protección de Datos y garantía de los derechos digitales, en su Título III capítulo II, donde se trata el ejercicio de los derechos en materia de protección de datos, ¿cuál de los siguientes es un derecho que se puede ejercer?",
+          "options": [
+            "Derecho de indemnización.",
+            "Derecho de custodia.",
+            "Derecho de oposición.",
+            "Derecho al cifrado de la información."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "I.7",
+          "explanation": "El **Capítulo II del Título III de la LOPDGDD** («Ejercicio de los derechos», arts. 12 a 18) regula los derechos del RGPD: **acceso** (art. 13), **rectificación** (14), **supresión** (15), **limitación del tratamiento** (16), **portabilidad** (17) y **oposición** (18), este último junto con los derechos frente a las decisiones individuales automatizadas. Se ejercen ante el responsable, directamente o por medio de representante, y de forma gratuita.",
+          "option_notes": [
+            "El derecho a indemnización existe (art. 82 RGPD), pero no es uno de los derechos regulados en ese capítulo de la LOPDGDD.",
+            "No existe un «derecho de custodia» en la normativa de protección de datos.",
+            null,
+            "No existe un «derecho al cifrado»; el cifrado es una medida de seguridad del responsable (art. 32 RGPD)."
+          ],
+          "references": [
+            "LO 3/2018 (LOPDGDD), arts. 12-18",
+            "Reglamento (UE) 2016/679 (RGPD), arts. 15-22"
+          ],
+          "tags": [
+            "lopdgdd",
+            "derechos-del-interesado",
+            "derecho-de-oposicion"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-005",
+          "number": 5,
+          "text": "La guía de auditoría, que identifica los requisitos a cumplir en conformidad con el Esquema Nacional de Interoperabilidad (ENI), contiene un conjunto de controles apropiados para evaluar el cumplimiento de lo previsto en el ENI, agrupados en tres categorías:",
+          "options": [
+            "Marco organizativo, Marco operacional y Medidas de protección.",
+            "Marco organizativo, Marco semántico y Marco de seguridad.",
+            "Evaluación organizativa, Evaluación semántica y Evaluación temporal.",
+            "Marco organizativo, Marco operacional y Medidas técnicas."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "I.8",
+          "explanation": "La **Guía de auditoría de cumplimiento del ENI** (2016) recoge una lista de comprobación cuyos controles se agrupan en **tres categorías: marco organizativo, marco operacional y medidas técnicas**. No la confundas con el **ENS**, cuyas medidas de seguridad se agrupan en **marco organizativo, marco operacional y medidas de protección**. Recuerda también que el ENI trata la interoperabilidad en sus dimensiones **organizativa, semántica y técnica**.",
+          "option_notes": [
+            "Marco organizativo, operacional y medidas de protección son las categorías de medidas del ENS, no las de la guía de auditoría del ENI.",
+            "«Semántico» y «de seguridad» no son categorías de controles de la guía; lo semántico es una dimensión de la interoperabilidad.",
+            "No son las categorías de la guía; además, la «evaluación temporal» no existe como categoría.",
+            null
+          ],
+          "references": [
+            "Guía de auditoría de cumplimiento del ENI (PAe, 2016)",
+            "RD 4/2010"
+          ],
+          "tags": [
+            "eni",
+            "interoperabilidad",
+            "auditoria"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-006",
+          "number": 6,
+          "text": "Según el artículo 11 de la Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas, éstas NO requerirán a los interesados el uso obligatorio de firma para:",
+          "options": [
+            "Formular solicitudes.",
+            "Acceso a notificaciones.",
+            "Interponer recursos.",
+            "Desistir de acciones."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "I.6",
+          "explanation": "Según el **art. 11.2 de la Ley 39/2015**, las Administraciones **solo** exigen **firma** para: **formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos**. Para todo lo demás basta con **acreditar la identidad** (art. 11.1). **Acceder a una notificación** solo exige identificarse: el art. 43.1 define la comparecencia como el acceso del interesado «debidamente identificado» a su contenido. Mnemotecnia: hay firma cuando *pides, declaras, recurres, desistes o renuncias*.",
+          "option_notes": [
+            "Sí exige firma: formular solicitudes es la letra a) del art. 11.2.",
+            null,
+            "Sí exige firma: interponer recursos es la letra c) del art. 11.2.",
+            "Sí exige firma: desistir de acciones es la letra d) del art. 11.2."
+          ],
+          "references": [
+            "Ley 39/2015, arts. 11 y 43.1"
+          ],
+          "tags": [
+            "firma-electronica",
+            "procedimiento-administrativo",
+            "ley-39-2015"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-007",
+          "number": 7,
+          "text": "De acuerdo con el artículo 36.2 de la Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno, formará parte de la Comisión de Transparencia y Buen Gobierno:",
+          "options": [
+            "Un experto propuesto por el Consejo de Consumidores y Usuarios.",
+            "Un representante de la Autoridad Independiente de Responsabilidad Fiscal.",
+            "Un representante del Consejo General del Poder Judicial.",
+            "Un experto propuesto por la Federación Española de Municipios y Provincias."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "I.4",
+          "explanation": "El **art. 36.2 de la Ley 19/2013** fija la composición de la **Comisión de Transparencia y Buen Gobierno**: el **Presidente**, **un Diputado**, **un Senador** y un representante de cada uno de estos órganos: **Tribunal de Cuentas**, **Defensor del Pueblo**, **Agencia Española de Protección de Datos**, **Secretaría de Estado de Administraciones Públicas** y **Autoridad Independiente de Responsabilidad Fiscal (AIReF)**. Sus miembros no tienen dedicación exclusiva ni cobran por ello (art. 36.3).",
+          "option_notes": [
+            "El Consejo de Consumidores y Usuarios no forma parte de la Comisión.",
+            null,
+            "El Consejo General del Poder Judicial no está representado en la Comisión.",
+            "La FEMP no forma parte de la Comisión: solo puede proponer un representante local para la reunión anual con los órganos autonómicos (art. 36.4)."
+          ],
+          "references": [
+            "Ley 19/2013, art. 36"
+          ],
+          "tags": [
+            "transparencia",
+            "consejo-de-transparencia",
+            "ley-19-2013"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-008",
+          "number": 8,
+          "text": "¿Qué número de Objetivos de Desarrollo Sostenible (ODS) se incluyen en la Agenda 2030?",
+          "options": [
+            "15",
+            "12",
+            "16",
+            "17"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "I.4",
+          "explanation": "La **Agenda 2030 para el Desarrollo Sostenible**, aprobada por la Asamblea General de la ONU el **25 de septiembre de 2015** (Resolución A/RES/70/1), contiene **17 Objetivos de Desarrollo Sostenible (ODS)** y **169 metas**. Sustituye a los 8 Objetivos de Desarrollo del Milenio (2000-2015). Ejemplos: ODS 1, fin de la pobreza; ODS 5, igualdad de género; ODS 13, acción por el clima; ODS 17, alianzas para lograr los objetivos.",
+          "option_notes": [
+            "Son 17 ODS, no 15.",
+            "Son 17 ODS, no 12.",
+            "Son 17 ODS; el 16 es «Paz, justicia e instituciones sólidas».",
+            null
+          ],
+          "references": [
+            "Resolución A/RES/70/1 de la Asamblea General de la ONU (25-9-2015)"
+          ],
+          "tags": [
+            "agenda-2030",
+            "ods"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-009",
+          "number": 9,
+          "text": "En relación a la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres. En el caso de las empresas, ¿cuándo se debe elaborar y aplicar un plan de igualdad?",
+          "options": [
+            "Siempre.",
+            "Es voluntario.",
+            "En el caso de las empresas de cincuenta o más trabajadores o, adicionalmente, cuando así se establezca en el convenio colectivo que sea de aplicación en los términos previstos en el mismo.",
+            "Sólo en el caso de las empresas de cincuenta o más trabajadores."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "I.5",
+          "explanation": "El **art. 45 de la LO 3/2007** (reformado por el **RDL 6/2019**) obliga a elaborar y aplicar un **plan de igualdad** a las empresas de **cincuenta o más trabajadores** (apdo. 2) y, además, **cuando lo establezca el convenio colectivo** aplicable (apdo. 3) o cuando la autoridad laboral lo acuerde en un procedimiento sancionador para sustituir sanciones accesorias (apdo. 4). Para las demás es **voluntario** (apdo. 5). El umbral de 50 se aplicó de forma escalonada y es plenamente exigible desde el **7 de marzo de 2022**.",
+          "option_notes": [
+            "No es obligatorio siempre: depende del tamaño de la plantilla, del convenio o de una sanción.",
+            "Solo es voluntario para las empresas no obligadas (art. 45.5).",
+            null,
+            "Incompleta: también es obligatorio cuando lo establezca el convenio colectivo aplicable (art. 45.3)."
+          ],
+          "references": [
+            "LO 3/2007, art. 45",
+            "RDL 6/2019, art. 1"
+          ],
+          "tags": [
+            "igualdad",
+            "planes-de-igualdad",
+            "lo-3-2007"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-010",
+          "number": 10,
+          "text": "Según el artículo 26 de la Ley 39/2006, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, señale la opción correcta en relación a la clasificación de los grados de dependencia:",
+          "options": [
+            "Grado I. Dependencia moderada: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria, al menos una vez al día o tiene necesidades de apoyo intermitente o limitado para su autonomía personal.",
+            "Grado II. Gran dependencia: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria una o dos veces al día, pero no quiere el apoyo permanente de un cuidador o tiene necesidades de apoyo extenso para su autonomía personal.",
+            "Grado III. Dependencia total: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria varias veces al día y, por su pérdida total de autonomía necesita el apoyo indispensable y continuo de otra persona o tiene necesidades de apoyo generalizado para su autonomía personal.",
+            "Grado IV. Dependencia máxima: cuando la persona necesita constantemente ayuda para realizar cualquier actividad básica de la vida diaria."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "I.5",
+          "explanation": "El **art. 26 de la Ley 39/2006** clasifica la dependencia en **tres grados**: **Grado I, moderada** (ayuda para varias actividades básicas de la vida diaria **al menos una vez al día**, o apoyo intermitente o limitado); **Grado II, severa** (ayuda **dos o tres veces al día**, sin apoyo permanente de un cuidador, o apoyo extenso); y **Grado III, gran dependencia** (ayuda **varias veces al día** y apoyo **indispensable y continuo** de otra persona por pérdida total de autonomía, o apoyo generalizado). No existen el grado IV ni la «dependencia total».",
+          "option_notes": [
+            null,
+            "El grado II es la dependencia severa (ayuda dos o tres veces al día); la gran dependencia es el grado III.",
+            "El grado III se llama «gran dependencia», no «dependencia total».",
+            "Solo hay tres grados: no existe un grado IV de «dependencia máxima»."
+          ],
+          "references": [
+            "Ley 39/2006, art. 26"
+          ],
+          "tags": [
+            "dependencia",
+            "ley-39-2006"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-011",
+          "number": 11,
+          "text": "¿Cuál de los siguientes es un tipo de almacenamiento de datos volátil?",
+          "options": [
+            "Memoria de acceso aleatorio dinámico.",
+            "Memoria USB.",
+            "Memoria flash.",
+            "Discos ópticos."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.1",
+          "explanation": "Una memoria **volátil** pierde su contenido al quitar la alimentación. La **DRAM** (memoria RAM dinámica), usada como memoria principal, guarda cada bit en un condensador que se descarga, por lo que necesita **refresco** periódico y lo pierde todo al apagar el equipo. Las memorias **USB** y **flash** (NAND) y los **discos ópticos** son **no volátiles**: conservan los datos sin corriente.",
+          "option_notes": [
+            null,
+            "Una memoria USB usa memoria flash, que es no volátil.",
+            "La memoria flash es no volátil: conserva los datos sin alimentación.",
+            "Los discos ópticos (CD, DVD, Blu-ray) almacenan los datos de forma permanente."
+          ],
+          "references": [
+            "Arquitectura de computadores: tipos de memoria"
+          ],
+          "tags": [
+            "memoria-ram",
+            "memoria-volatil"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-012",
+          "number": 12,
+          "text": "Indique la velocidad máxima de transferencia del USB 4.0:",
+          "options": [
+            "Hasta 20 Gbps.",
+            "Hasta 30 Gbps.",
+            "Hasta 40 Gbps.",
+            "Hasta 50 Gbps."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "II.2",
+          "explanation": "**USB4** (2019), basado en el protocolo **Thunderbolt 3**, alcanza **hasta 40 Gbps** en su versión 1.0, usa siempre el conector **USB-C** y permite túneles de DisplayPort y PCIe. Escala para memorizar: USB 2.0 → 480 Mbps; USB 3.2 Gen 1 → 5 Gbps; Gen 2 → 10 Gbps; Gen 2x2 → 20 Gbps; **USB4 → 40 Gbps**; **USB4 versión 2.0 (2022) → 80 Gbps** (hasta 120 Gbps en modo asimétrico).",
+          "option_notes": [
+            "20 Gbps es el máximo de USB 3.2 Gen 2x2 (y el modo básico de USB4), no el máximo de USB4.",
+            "30 Gbps no corresponde a ninguna versión de USB.",
+            null,
+            "50 Gbps no corresponde a ninguna versión de USB."
+          ],
+          "references": [
+            "USB-IF: USB4 Specification"
+          ],
+          "tags": [
+            "usb",
+            "perifericos",
+            "conectividad"
+          ],
+          "media": [],
+          "outdated": true,
+          "outdated_note": "La respuesta era correcta en 2021 (USB4 versión 1.0: 40 Gbps). En octubre de 2022 se publicó USB4 versión 2.0, que llega a 80 Gbps simétricos y hasta 120 Gbps en modo asimétrico.",
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-013",
+          "number": 13,
+          "text": "Si un árbol binario lo recorremos siguiendo el orden siguiente: raíz, subárbol izquierdo, subárbol derecho, ¿cuál de los siguientes tipos de recorrido estamos utilizando?",
+          "options": [
+            "Preorden",
+            "Inorden",
+            "Postorden",
+            "Reorden"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.3",
+          "explanation": "Los recorridos en profundidad de un árbol binario se distinguen por **cuándo se visita la raíz**: **preorden** = raíz → izquierdo → derecho; **inorden** = izquierdo → raíz → derecho (en un árbol binario de búsqueda da los elementos ordenados); **postorden** = izquierdo → derecho → raíz. El prefijo (*pre*, *in*, *post*) indica la posición de la raíz.",
+          "option_notes": [
+            null,
+            "El inorden visita primero el subárbol izquierdo, después la raíz y por último el derecho.",
+            "El postorden visita los dos subárboles y deja la raíz para el final.",
+            "«Reorden» no es un tipo de recorrido de árboles."
+          ],
+          "references": [],
+          "tags": [
+            "arboles",
+            "recorridos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-014",
+          "number": 14,
+          "text": "El algoritmo de ordenación que consiste en comparar pares de elementos adyacentes e intercambiarlos entre sí, si no están en orden, hasta que todo el conjunto de elementos se encuentre ordenado, es conocido como:",
+          "options": [
+            "Selección",
+            "Burbuja",
+            "Inserción",
+            "Quicksort"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "II.3",
+          "explanation": "El **método de la burbuja** (*bubble sort*) recorre el vector **comparando pares de elementos adyacentes** e **intercambiándolos** si están desordenados; en cada pasada el mayor «sube» al final, como una burbuja. Repite las pasadas hasta que no hay intercambios. Coste **O(n²)**. No confundir con **selección** (busca el mínimo y lo coloca), **inserción** (inserta cada elemento en su sitio dentro de la parte ya ordenada) o **quicksort** (particiona alrededor de un pivote).",
+          "option_notes": [
+            "La selección busca en cada pasada el mínimo y lo intercambia con la primera posición pendiente.",
+            null,
+            "La inserción toma cada elemento y lo inserta en su lugar dentro de la parte ya ordenada.",
+            "Quicksort elige un pivote y particiona el vector en menores y mayores."
+          ],
+          "references": [
+            "D. E. Knuth, «The Art of Computer Programming», vol. 3: Sorting and Searching"
+          ],
+          "tags": [
+            "algoritmos-de-ordenacion",
+            "burbuja"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-015",
+          "number": 15,
+          "text": "¿En Linux, qué tipo de proceso se corresponde con la característica de que, habiendo concluido, aún está presente en la tabla de procesos?",
+          "options": [
+            "Proceso zombie.",
+            "Proceso perdido.",
+            "Proceso huérfano.",
+            "Proceso demonio."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.4",
+          "explanation": "Un **proceso zombi** (*defunct*, estado **Z** en `ps`) ya ha **terminado**, pero **sigue en la tabla de procesos** porque su padre aún no ha recogido su estado de salida con `wait()`/`waitpid()`. No consume CPU ni memoria, solo una entrada de la tabla. Desaparece cuando el padre lo recoge o, si el padre muere, cuando lo adopta y recoge **init/systemd** (PID 1). Un **huérfano** sigue en ejecución sin su padre original, y un **demonio** es un servicio en segundo plano.",
+          "option_notes": [
+            null,
+            "«Proceso perdido» no es un tipo de proceso de Linux.",
+            "El huérfano sigue ejecutándose: su padre ha terminado y lo adopta init/systemd.",
+            "Un demonio es un proceso de servicio en segundo plano, sin terminal; no ha terminado."
+          ],
+          "references": [
+            "Página de manual wait(2)",
+            "Página de manual ps(1)"
+          ],
+          "tags": [
+            "linux",
+            "procesos",
+            "proceso-zombi"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-016",
+          "number": 16,
+          "text": "En un entorno UNIX, tenemos los permisos \"rwxr-x-r–\" sobre un determinado fichero. ¿Qué acción o acciones puede hacer un usuario del grupo del propietario del fichero?",
+          "options": [
+            "Sólo leer.",
+            "Sólo leer y ejecutar.",
+            "Sólo leer, escribir y ejecutar.",
+            "Sólo ejecutar."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "II.4",
+          "explanation": "La cadena del cuadernillo, «rwxr-x-r–», tiene una **errata**: debe leerse **`rwxr-xr--`** (754). Los permisos se leen en tres tríos: **propietario** `rwx` (leer, escribir y ejecutar), **grupo** `r-x` (**leer y ejecutar**) y **otros** `r--` (solo leer). Por tanto, un usuario del grupo del propietario puede **leer y ejecutar**, pero no modificar el fichero. En octal: r = 4, w = 2, x = 1.",
+          "option_notes": [
+            "Solo leer es el permiso de «otros» (r--); el grupo también puede ejecutar (r-x).",
+            null,
+            "Leer, escribir y ejecutar (rwx) es el permiso del propietario, no del grupo.",
+            "El grupo tiene r-x: además de ejecutar puede leer."
+          ],
+          "references": [
+            "POSIX.1-2017: chmod y modos de fichero"
+          ],
+          "tags": [
+            "unix",
+            "permisos",
+            "errata"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-017",
+          "number": 17,
+          "text": "Entre las restricciones aplicables al modelo relacional de datos, \"la integridad de la entidad\" hace referencia a que:",
+          "options": [
+            "El conjunto de valores que pueden asociarse a esa entidad está acotado.",
+            "En una relación, el valor de la clave ajena debe ser igual al de la clave primaria.",
+            "Una clave ajena pueden admitir nulos, siempre y cuando lo permita el dominio.",
+            "Una clave primaria no puede ser nula, ni ninguno de los atributos que la componen."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "La **regla de integridad de la entidad** (Codd) establece que **ningún atributo que forme parte de la clave primaria puede tomar el valor nulo**: si la clave identifica cada tupla, no puede ser desconocida. Su pareja es la **integridad referencial**: el valor de una **clave ajena** debe coincidir con el de una clave primaria **existente** en la relación referenciada o, si se permite, ser **nulo**.",
+          "option_notes": [
+            "Limitar los valores posibles de un atributo es la restricción de dominio.",
+            "Se refiere a la integridad referencial, y además la FK debe coincidir con una PK existente o ser nula.",
+            "Habla de las claves ajenas: es una cuestión de integridad referencial, no de la integridad de la entidad.",
+            null
+          ],
+          "references": [
+            "E. F. Codd, modelo relacional: reglas de integridad"
+          ],
+          "tags": [
+            "modelo-relacional",
+            "integridad-de-entidad",
+            "clave-primaria"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-018",
+          "number": 18,
+          "text": "Según Métrica v3, en un diagrama de flujo de datos, ¿qué componente representa una funcionalidad que tiene que llevar a cabo el sistema para transformar o manipular datos?",
+          "options": [
+            "Entidad externa.",
+            "Proceso.",
+            "Almacén de datos.",
+            "Flujo de datos."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "En Métrica v3, el **proceso** «representa una funcionalidad que tiene que llevar a cabo el sistema para **transformar o manipular datos**»: genera los flujos de salida a partir de los de entrada, nunca es origen ni final de los datos y siempre media entre una entidad externa y un almacén. Los demás elementos del DFD son la **entidad externa** (ente ajeno al sistema), el **almacén de datos** (información en reposo) y el **flujo de datos** (datos en movimiento).",
+          "option_notes": [
+            "La entidad externa es un ente ajeno al sistema que proporciona o recibe información.",
+            null,
+            "El almacén representa la información en reposo; no transforma datos.",
+            "El flujo de datos representa el movimiento de los datos entre elementos del DFD."
+          ],
+          "references": [
+            "Métrica v3, Técnicas: Diagrama de Flujo de Datos (elementos)"
+          ],
+          "tags": [
+            "dfd",
+            "metrica-v3",
+            "procesos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-019",
+          "number": 19,
+          "text": "En diseño de bases de datos, al conjunto de valores que puede tomar un atributo se le denomina:",
+          "options": [
+            "Entidad",
+            "Recorrido",
+            "Cardinalidad",
+            "Dominio"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "El **dominio** es el **conjunto de valores válidos** que puede tomar un atributo: por ejemplo, los enteros de 0 a 120 para la edad o los códigos de provincia existentes. Cada atributo se define sobre un dominio, que restringe sus valores (restricción de dominio). No confundir con **cardinalidad** (número de ocurrencias que participan en una relación) ni con **entidad** (objeto del mundo real del que se guarda información).",
+          "option_notes": [
+            "Una entidad es un objeto del mundo real con existencia propia, no un conjunto de valores.",
+            "«Recorrido» es un término matemático (rango de una función), no el nombre usado en diseño de bases de datos.",
+            "La cardinalidad indica cuántas ocurrencias de una entidad participan en una relación.",
+            null
+          ],
+          "references": [
+            "Métrica v3, Técnicas: Modelo Entidad/Relación extendido (atributos y dominios)"
+          ],
+          "tags": [
+            "modelo-entidad-relacion",
+            "dominio",
+            "atributos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-020",
+          "number": 20,
+          "text": "¿Cuál es uno de los motivos para aplicar la desnormalización en una base de datos?",
+          "options": [
+            "Mejorar el rendimiento.",
+            "Disminución de la redundancia de los datos.",
+            "Disminución del tamaño de la base de datos.",
+            "Mejor actualización del modelo de datos."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "**Desnormalizar** es introducir **redundancia controlada** en un diseño ya normalizado (por ejemplo, duplicar un dato o guardar un total calculado) para **mejorar el rendimiento** de las consultas: se evitan *joins* costosos y se acelera la lectura, algo habitual en *data warehouses* y sistemas muy consultados. El precio es justo lo contrario de las otras opciones: **más redundancia, más tamaño** y **actualizaciones más complejas** (riesgo de anomalías e inconsistencias).",
+          "option_notes": [
+            null,
+            "Al contrario: desnormalizar aumenta la redundancia; la que la reduce es la normalización.",
+            "La redundancia añadida suele aumentar el tamaño de la base de datos, no disminuirlo.",
+            "Las actualizaciones se complican: hay que mantener coherentes los datos duplicados."
+          ],
+          "references": [
+            "Métrica v3, Técnicas: optimización del modelo físico de datos"
+          ],
+          "tags": [
+            "desnormalizacion",
+            "diseno-fisico",
+            "rendimiento"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-021",
+          "number": 21,
+          "text": "Indique cuál de las siguientes NO es una de las Reglas de Codd:",
+          "options": [
+            "Regla de la independencia física de los datos.",
+            "Regla de no subversión.",
+            "Regla de la inserción, actualización y supresión de bajo nivel.",
+            "Regla de la actualización de vistas."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "II.5",
+          "explanation": "La **regla 7 de Codd** es la de **inserción, actualización y borrado de alto nivel**: el SGBD debe permitir insertar, modificar y borrar **conjuntos de filas** con una sola orden, no solo fila a fila. La opción C la cambia a «de bajo nivel», que no existe. Otras reglas: **6** actualización de vistas, **8** independencia física, **9** independencia lógica, **10** independencia de la integridad, **11** independencia de la distribución y **12** no subversión.",
+          "option_notes": [
+            "Es la regla 8 de Codd (independencia física de los datos).",
+            "Es la regla 12 de Codd: el acceso de bajo nivel no puede saltarse las reglas de integridad.",
+            null,
+            "Es la regla 6 de Codd (actualización de vistas)."
+          ],
+          "references": [
+            "E. F. Codd (1985): reglas del modelo relacional"
+          ],
+          "tags": [
+            "modelo-relacional",
+            "reglas-de-codd"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-022",
+          "number": 22,
+          "text": "En el lenguaje C++, si hablamos de un bucle con estructura do…while:",
+          "options": [
+            "Sólo se ejecuta si la condición del bucle es verdadera.",
+            "Evalúa la condición del bucle y después se ejecuta al menos una vez.",
+            "Se ejecuta una vez antes de evaluar la condición del bucle.",
+            "Se ejecuta una sola vez siempre y cuando sea verdadera la condición del bucle."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.2",
+          "explanation": "El bucle **`do { … } while (condición);`** de C++ (y de C, Java o C#) **ejecuta primero el cuerpo y después evalúa la condición**: por eso se ejecuta **al menos una vez**, aunque la condición sea falsa desde el principio. En cambio, **`while`** evalúa la condición antes de cada iteración, de modo que puede no ejecutarse nunca.",
+          "option_notes": [
+            "Eso describe el bucle while, que comprueba la condición antes de ejecutar el cuerpo.",
+            "Invierte el orden: primero ejecuta el cuerpo y después evalúa la condición.",
+            null,
+            "Se repite mientras la condición sea verdadera, no una sola vez."
+          ],
+          "references": [],
+          "tags": [
+            "cpp",
+            "bucles",
+            "estructuras-de-control"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-023",
+          "number": 23,
+          "text": "En SQL, ¿cuál es la sentencia correcta para actualizar la columna 'City' de la tabla 'Customers' con el valor 'PARIS'?",
+          "options": [
+            "`UPDATE_TABLE SET TABLE='Customers' AND City='PARIS'`",
+            "`UPDATE City='PARIS' WHERE TABLE='Customers'`",
+            "`UPDATE Customers SET City='PARIS'`",
+            "`CREATE NEW VALUE('PARIS') FOR City ON TABLE(Customers) REWRITE`"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.3",
+          "explanation": "La sintaxis estándar es **`UPDATE tabla SET columna = valor [WHERE condición]`**: `UPDATE Customers SET City='PARIS'`. Sin cláusula **WHERE** se actualizan **todas las filas** de la tabla; para modificar solo algunas se añade la condición (por ejemplo, `WHERE CustomerID = 1`). Para varias columnas se separan con comas: `SET City='PARIS', Country='France'`.",
+          "option_notes": [
+            "No existe UPDATE_TABLE; la tabla se indica tras UPDATE, no con SET TABLE=.",
+            "Falta el nombre de la tabla tras UPDATE; la tabla no se indica en el WHERE.",
+            null,
+            "CREATE crea objetos (DDL); esa sintaxis no existe en SQL."
+          ],
+          "references": [
+            "ISO/IEC 9075-2 (SQL): <update statement: searched>"
+          ],
+          "tags": [
+            "sql",
+            "update",
+            "dml"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-024",
+          "number": 24,
+          "text": "En relación al lenguaje SQL, ¿cuál de las siguientes afirmaciones es verdadera?",
+          "options": [
+            "CREATE es una sentencia de Lenguaje de Manipulación de Datos (DML).",
+            "INSERT es una sentencia de Lenguaje de Definición de Datos (DDL).",
+            "GRANT es una sentencia de Lenguaje de Control de Datos (DCL).",
+            "ALTER es una sentencia de Lenguaje de Control de Datos (DCL)."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.3",
+          "explanation": "**GRANT** (y **REVOKE**) forman el **DCL** (*Data Control Language*): conceden o retiran privilegios. Clasificación habitual: **DDL** (definición de estructuras) = **CREATE, ALTER, DROP**, TRUNCATE; **DML** (manipulación de datos) = **SELECT, INSERT, UPDATE, DELETE**, MERGE; **TCL** (control de transacciones) = COMMIT, ROLLBACK, SAVEPOINT.",
+          "option_notes": [
+            "CREATE es una sentencia DDL: define objetos (tablas, vistas, índices…).",
+            "INSERT es una sentencia DML: manipula datos.",
+            null,
+            "ALTER es una sentencia DDL: modifica la estructura de un objeto."
+          ],
+          "references": [
+            "ISO/IEC 9075-2 (SQL): clasificación de sentencias"
+          ],
+          "tags": [
+            "sql",
+            "dcl",
+            "grant"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-025",
+          "number": 25,
+          "text": "Indique cuáles de las siguientes etiquetas NO fueron introducidas como novedad en HTML5.",
+          "options": [
+            "`<footer>` y `<details>`",
+            "`<header>` y `<nav>`",
+            "`<details>` y `<mark>`",
+            "`<caption>` y `<nav>`"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "La plantilla oficial da la **C**, pero es **discutible**: según la especificación HTML (WHATWG y W3C), **`<details>`** y **`<mark>`** **sí son novedades de HTML5**, igual que `<header>`, `<footer>` y `<nav>`. La única etiqueta anterior a HTML5 entre las opciones es **`<caption>`** (título de tabla, ya presente en HTML 3.2 y 4), que aparece en la **D**, junto a `<nav>`, que sí es nueva. Ninguna opción contiene dos etiquetas antiguas, así que la pregunta está mal planteada; para el examen, memoriza la plantilla.",
+          "option_notes": [
+            "<footer> y <details> son elementos nuevos de HTML5.",
+            "<header> y <nav> son elementos semánticos nuevos de HTML5.",
+            null,
+            "<caption> ya existía en HTML 4 (es la única etiqueta antigua de las opciones), aunque <nav> sí es nueva."
+          ],
+          "references": [
+            "WHATWG HTML Living Standard: elementos details y mark",
+            "W3C: HTML5 Differences from HTML4"
+          ],
+          "tags": [
+            "html5",
+            "elementos-html",
+            "plantilla-discutible"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": true
+        },
+        {
+          "id": "tai-pi-2021-p1-026",
+          "number": 26,
+          "text": "En relación a la representación de los diagramas de casos de uso del Lenguaje de Modelado Unificado (UML), indique la correcta.",
+          "options": [
+            "Los diagramas de casos de uso contienen actores, relaciones y casos de usos.",
+            "Los diagramas de casos de uso contienen almacenes, relaciones y procedimientos.",
+            "Los diagramas de casos de uso contienen actores, relaciones y procedimientos.",
+            "Los diagramas de casos de uso contienen almacenes, relaciones y casos de uso."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.4",
+          "explanation": "Un **diagrama de casos de uso** de UML contiene **actores** (roles externos que interactúan con el sistema), **casos de uso** (funcionalidades que el sistema ofrece a los actores) y **relaciones**: asociación entre actor y caso de uso, **include**, **extend** y **generalización**. Puede mostrar también el límite del sistema. Los **almacenes** son elementos de los **DFD**, y los «procedimientos» no forman parte de este diagrama.",
+          "option_notes": [
+            null,
+            "Los almacenes son elementos de los diagramas de flujo de datos, y «procedimientos» no es un elemento UML.",
+            "Tiene actores y relaciones, pero no «procedimientos»: el tercer elemento son los casos de uso.",
+            "Tiene relaciones y casos de uso, pero los almacenes son propios de los DFD: faltan los actores."
+          ],
+          "references": [
+            "OMG UML 2.5.1: Use Cases",
+            "Métrica v3, Técnicas: Casos de uso"
+          ],
+          "tags": [
+            "uml",
+            "casos-de-uso"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-027",
+          "number": 27,
+          "text": "En lo referente a los patrones de diseño GoF (Gang of Four), indique cuál de los siguientes se corresponde con un patrón de comportamiento:",
+          "options": [
+            "Adapter",
+            "Iterator",
+            "Composite",
+            "Builder"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.4",
+          "explanation": "Los 23 patrones **GoF** se agrupan en tres familias. **Creacionales** (cómo crear objetos): Abstract Factory, **Builder**, Factory Method, Prototype y Singleton. **Estructurales** (cómo componer clases y objetos): **Adapter**, Bridge, **Composite**, Decorator, Facade, Flyweight y Proxy. **De comportamiento** (cómo interactúan y se reparten responsabilidades): Chain of Responsibility, Command, Interpreter, **Iterator**, Mediator, Memento, Observer, State, Strategy, Template Method y Visitor. Iterator recorre una colección sin exponer su estructura interna.",
+          "option_notes": [
+            "Adapter es estructural: adapta la interfaz de una clase a la que espera el cliente.",
+            null,
+            "Composite es estructural: compone objetos en árboles para tratar igual hojas y compuestos.",
+            "Builder es creacional: construye objetos complejos paso a paso."
+          ],
+          "references": [
+            "Gamma, Helm, Johnson y Vlissides, «Design Patterns» (1994)"
+          ],
+          "tags": [
+            "patrones-de-diseno",
+            "gof",
+            "iterator"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-028",
+          "number": 28,
+          "text": "Indique cuál de las siguientes opciones corresponde a una API de Java para el procesamiento de documentos en formato XML.",
+          "options": [
+            "JNA",
+            "StAX",
+            "JNI",
+            "JPaX"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.5",
+          "explanation": "**StAX** (*Streaming API for XML*, JSR 173, paquete `javax.xml.stream`) es una API de Java para procesar XML en modo **streaming de tipo *pull***: la aplicación pide los eventos (inicio de elemento, texto…) uno a uno, con poco consumo de memoria. Otras APIs de XML en Java: **DOM** (árbol completo en memoria), **SAX** (*push*, por eventos), **JAXB** (enlace entre XML y objetos) y **JAXP**, que las agrupa. JNA y JNI sirven para llamar a código nativo.",
+          "option_notes": [
+            "JNA (Java Native Access) permite llamar a bibliotecas nativas (C) desde Java; no procesa XML.",
+            null,
+            "JNI (Java Native Interface) es la interfaz para invocar código nativo desde Java.",
+            "JPaX no existe; la API general de procesamiento de XML de Java es JAXP."
+          ],
+          "references": [
+            "JSR 173 (StAX)"
+          ],
+          "tags": [
+            "java",
+            "xml",
+            "stax"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-029",
+          "number": 29,
+          "text": "¿Cuál de los siguientes NO es un principio del Manifiesto Ágil?",
+          "options": [
+            "El software funcionando es la medida principal de progreso.",
+            "El arte de maximizar la cantidad de trabajo realizado es esencial.",
+            "Los proyectos se desarrollan en torno a individuos motivados.",
+            "Los responsables de negocio y los desarrolladores trabajamos juntos de manera cotidiana durante todo el proyecto."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.9",
+          "explanation": "El **principio 10 del Manifiesto Ágil** (2001) dice: «La **simplicidad**, o el arte de **maximizar la cantidad de trabajo NO realizado**, es esencial»: se trata de no hacer lo que no aporta valor. La opción B cambia «no realizado» por «realizado» y le da la vuelta. Las demás son principios literales: el software funcionando como medida de progreso (7), los proyectos en torno a individuos motivados (5) y negocio y desarrolladores trabajando juntos a diario (4).",
+          "option_notes": [
+            "Es el principio 7: el software funcionando es la medida principal de progreso.",
+            null,
+            "Es el principio 5: los proyectos se desarrollan en torno a individuos motivados.",
+            "Es el principio 4: negocio y desarrolladores trabajan juntos de forma cotidiana."
+          ],
+          "references": [
+            "Manifiesto por el Desarrollo Ágil de Software (2001): principios"
+          ],
+          "tags": [
+            "metodologias-agiles",
+            "manifiesto-agil"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-030",
+          "number": 30,
+          "text": "¿Cuál de los siguientes protocolos está asociado al descubrimiento de servicios web?",
+          "options": [
+            "LLDP (Link Layer Discovery Protocol).",
+            "UDDI (Universal Description Discovery and Integration).",
+            "WSDP (Web Service Discovery Protocol).",
+            "SSDP (Simple Service Discovery Protocol)."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.6",
+          "explanation": "**UDDI** (*Universal Description, Discovery and Integration*, estándar de OASIS) es el **registro** donde se **publican y descubren servicios web**: describe las empresas y sus servicios (páginas blancas, amarillas y verdes) y apunta a su descripción **WSDL**. Completa la pila clásica: **SOAP** (mensajes), **WSDL** (descripción) y **UDDI** (descubrimiento). En la práctica los registros UDDI públicos cerraron en 2006, pero sigue siendo la respuesta de manual.",
+          "option_notes": [
+            "LLDP (IEEE 802.1AB) descubre dispositivos vecinos en la capa de enlace, no servicios web.",
+            null,
+            "No existe un estándar llamado WSDP; el de descubrimiento dinámico de OASIS es WS-Discovery.",
+            "SSDP descubre dispositivos y servicios UPnP en la red local, no servicios web SOAP."
+          ],
+          "references": [
+            "OASIS UDDI Version 3.0.2"
+          ],
+          "tags": [
+            "servicios-web",
+            "uddi",
+            "descubrimiento-de-servicios"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-031",
+          "number": 31,
+          "text": "Señale la respuesta correcta en relación a las tecnologías y herramientas de desarrollo front-end:",
+          "options": [
+            "Sass, Less y Stylus, son preprocesadores de CSS.",
+            "Postman es una herramienta que sirve para probar la parte de front-end, no permitiendo validar los servicios REST.",
+            "Node js fue construido con el motor de java jre 1.9",
+            "Bootstrap es una herramienta de desarrollo que permite realizar test de los servicios REST, aislando al programador del front-end."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "**Sass, Less y Stylus** son **preprocesadores de CSS**: añaden variables, anidamiento, *mixins* y funciones, y se compilan a CSS estándar. Las demás opciones confunden herramientas: **Postman** sirve precisamente para probar APIs y servicios REST; **Node.js** se construyó sobre el motor JavaScript **V8** de Chrome, no sobre Java; y **Bootstrap** es un *framework* CSS/JavaScript de componentes y rejilla para interfaces adaptables.",
+          "option_notes": [
+            null,
+            "Es al revés: Postman se usa sobre todo para probar y validar APIs y servicios REST.",
+            "Node.js se basa en el motor V8 de JavaScript de Google Chrome, no en Java.",
+            "Bootstrap es un framework de interfaz (CSS y JavaScript), no una herramienta para probar servicios REST."
+          ],
+          "references": [],
+          "tags": [
+            "front-end",
+            "css",
+            "herramientas-de-desarrollo"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-032",
+          "number": 32,
+          "text": "Según el WCAG 2.1, ¿qué pauta de las siguientes pertenece al principio Comprensible?",
+          "options": [
+            "Adaptable",
+            "Navegable",
+            "Predecible",
+            "Distinguible"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.8",
+          "explanation": "Las **WCAG 2.1** organizan sus pautas en cuatro principios (**POCR**). **Perceptible**: alternativas textuales, medios tempodependientes, **adaptable** y **distinguible**. **Operable**: accesible por teclado, tiempo suficiente, convulsiones, **navegable** y modalidades de entrada. **Comprensible**: **legible**, **predecible** y ayuda a la entrada de datos. **Robusto**: compatible. Las WCAG 2.2 (2023) mantienen esta estructura.",
+          "option_notes": [
+            "Adaptable (1.3) pertenece al principio Perceptible.",
+            "Navegable (2.4) pertenece al principio Operable.",
+            null,
+            "Distinguible (1.4) pertenece al principio Perceptible."
+          ],
+          "references": [
+            "W3C WCAG 2.1 (2018)",
+            "W3C WCAG 2.2 (2023)"
+          ],
+          "tags": [
+            "accesibilidad",
+            "wcag",
+            "principios-wcag"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-033",
+          "number": 33,
+          "text": "Las siglas UI y UX hacen referencia a:",
+          "options": [
+            "Interfaz de usuario (User Interface) y experiencia de usuario (User eXperience).",
+            "Innovación para usuarios (User Innovation) y ejemplos de usuario (User eXamples).",
+            "Índice de Unicode (Unicode Index) y pericia en Unicode (Unicode eXpertise).",
+            "Interfaz unidireccional (Unidirectional Interface) y experiencia unidireccional (Unidirectional eXperience)."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.8",
+          "explanation": "**UI** (*User Interface*, interfaz de usuario) es la parte con la que el usuario interactúa: pantallas, botones, menús, tipografía, colores. **UX** (*User eXperience*, experiencia de usuario) es más amplia: las percepciones y respuestas de la persona al usar un producto (facilidad, eficiencia, satisfacción), según la definición de la **ISO 9241-210**. Una buena UI contribuye a una buena UX, pero no la garantiza.",
+          "option_notes": [
+            null,
+            "Siglas inventadas: la U es de User, pero I es Interface y X es eXperience.",
+            "Nada que ver con Unicode: UI y UX se refieren al usuario.",
+            "La U es de User (usuario), no de «unidireccional»."
+          ],
+          "references": [
+            "ISO 9241-210 (diseño centrado en el ser humano)"
+          ],
+          "tags": [
+            "usabilidad",
+            "ui",
+            "ux"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-034",
+          "number": 34,
+          "text": "En los sistemas Linux, el comando pwd permite:",
+          "options": [
+            "Mostrar el nombre del directorio de trabajo actual.",
+            "Cambiar la contraseña de un usuario.",
+            "Informar del estado de los procesos.",
+            "Cambiar el directorio de trabajo."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.4",
+          "explanation": "**`pwd`** (*print working directory*) muestra la **ruta absoluta del directorio de trabajo actual**, por ejemplo `/home/ana/proyectos`; el mismo valor está en la variable `$PWD`. Comandos que conviene no confundir: **`cd`** cambia de directorio, **`passwd`** cambia la contraseña, **`ps`** muestra los procesos y **`ls`** lista el contenido de un directorio.",
+          "option_notes": [
+            null,
+            "Cambiar la contraseña de un usuario se hace con passwd.",
+            "El estado de los procesos lo muestra ps (o top).",
+            "Cambiar el directorio de trabajo se hace con cd."
+          ],
+          "references": [
+            "POSIX.1-2017: pwd",
+            "GNU coreutils: pwd"
+          ],
+          "tags": [
+            "linux",
+            "comandos",
+            "pwd"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-035",
+          "number": 35,
+          "text": "En Linux, ¿cuál de las siguientes opciones utilizaría para conocer qué puertos tiene abiertos un servidor?",
+          "options": [
+            "ntpq",
+            "ntport",
+            "nmap",
+            "traceroute"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "**nmap** (*Network Mapper*) es la herramienta de referencia para **escanear puertos** y descubrir equipos y servicios de una red: `nmap 192.168.1.10` muestra los puertos abiertos, `-sV` detecta las versiones de los servicios y `-O`, el sistema operativo. Para ver los puertos en escucha **desde el propio servidor** se usan `ss -tuln` o `netstat -tuln`. Úsalo solo sobre sistemas propios o autorizados.",
+          "option_notes": [
+            "ntpq consulta servidores NTP (sincronización horaria).",
+            "ntport no es un comando de Linux.",
+            null,
+            "traceroute muestra los saltos (routers) hasta un destino, no los puertos abiertos."
+          ],
+          "references": [
+            "nmap.org: Reference Guide"
+          ],
+          "tags": [
+            "linux",
+            "nmap",
+            "puertos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-036",
+          "number": 36,
+          "text": "¿Cuál de los siguientes NO es un tipo de backup?",
+          "options": [
+            "Compartimental",
+            "Diferencial",
+            "Incremental",
+            "Completa"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "Los tipos clásicos de copia de seguridad son: **completa** (todos los datos), **incremental** (lo cambiado desde la **última copia de cualquier tipo**; rápida de hacer, pero para restaurar necesita la completa y **todas** las incrementales) y **diferencial** (lo cambiado desde la **última completa**; crece cada día, pero para restaurar basta la completa y la **última** diferencial). Hay variantes como la completa sintética o la copia espejo, pero «compartimental» no existe.",
+          "option_notes": [
+            null,
+            "La diferencial es un tipo real: copia lo cambiado desde la última copia completa.",
+            "La incremental es un tipo real: copia lo cambiado desde la última copia de cualquier tipo.",
+            "La completa es el tipo básico: copia todos los datos seleccionados."
+          ],
+          "references": [
+            "RD 311/2022 (ENS), anexo II, medida mp.info.6 (copias de seguridad)"
+          ],
+          "tags": [
+            "backup",
+            "copias-de-seguridad"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-037",
+          "number": 37,
+          "text": "En relación a los sistemas RAID, indique qué configuración permite acceso independiente con paridad distribuida:",
+          "options": [
+            "RAID 1",
+            "RAID 3",
+            "RAID 4",
+            "RAID 5"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "II.2",
+          "explanation": "**RAID 5** reparte los datos en bloques (*striping*) entre todos los discos con **paridad distribuida** y **acceso independiente** a cada disco; necesita al menos 3 discos y tolera el fallo de uno. Compara: **RAID 3**, *striping* a nivel de byte con **disco de paridad dedicado** y acceso **sincronizado** (paralelo); **RAID 4**, bloques con disco de paridad dedicado y acceso independiente; **RAID 1**, espejo, sin paridad.",
+          "option_notes": [
+            "RAID 1 es espejo (duplicación de discos) y no usa paridad.",
+            "RAID 3 usa un disco de paridad dedicado y acceso sincronizado, no independiente.",
+            "RAID 4 tiene acceso independiente, pero con un disco de paridad dedicado, no distribuida.",
+            null
+          ],
+          "references": [],
+          "tags": [
+            "raid",
+            "almacenamiento"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-038",
+          "number": 38,
+          "text": "El protocolo SMTP es acrónimo de:",
+          "options": [
+            "Secure Mail Transfer Protocol.",
+            "Secure Mail Transaction Protocol.",
+            "Simple Mail Transfer Protocol.",
+            "Simple Managemet Trace Protocol."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.3",
+          "explanation": "**SMTP** = *Simple Mail Transfer Protocol* (RFC 5321): el protocolo estándar para **enviar y transferir correo** entre servidores (puerto 25) y desde los clientes (587 o 465). Es un protocolo de texto con órdenes como `HELO`/`EHLO`, `MAIL FROM`, `RCPT TO`, `DATA` y `QUIT`. Su versión cifrada no cambia las siglas: se usa SMTP con **STARTTLS** o sobre **TLS implícito** (SMTPS).",
+          "option_notes": [
+            "La S es de Simple, no de Secure; el cifrado se añade con STARTTLS o TLS implícito.",
+            "Ni Secure ni Transaction: es Simple Mail Transfer Protocol.",
+            null,
+            "Siglas inventadas: SMTP no tiene nada que ver con «gestión» ni «traza»."
+          ],
+          "references": [
+            "RFC 5321 (SMTP)"
+          ],
+          "tags": [
+            "smtp",
+            "correo-electronico",
+            "siglas"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-039",
+          "number": 39,
+          "text": "¿Qué comando se debe ejecutar para mostrar un listado de los servicios en ejecución en un ordenador con sistema operativo Windows 10?",
+          "options": [
+            "`Net view services`",
+            "`Net start process`",
+            "`Net start`",
+            "`Net start all`"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "En Windows, **`net start`** sin parámetros **lista los servicios que se están ejecutando**; con un nombre (`net start Spooler`) arranca ese servicio, y `net stop` lo detiene. Alternativas: `sc query` (estado de los servicios) y, en PowerShell, `Get-Service | Where-Object Status -eq 'Running'`.",
+          "option_notes": [
+            "net view lista equipos o recursos compartidos de la red; «services» no es un parámetro válido.",
+            "net start seguido de un nombre intenta arrancar un servicio llamado así («process»); no lista nada.",
+            null,
+            "net start no tiene un parámetro «all»: sin parámetros ya lista todos los servicios en ejecución."
+          ],
+          "references": [
+            "Microsoft Learn: net start"
+          ],
+          "tags": [
+            "windows",
+            "servicios",
+            "comandos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-040",
+          "number": 40,
+          "text": "Indique cuál de los siguientes es un protocolo orientado a la gestión de los dispositivos de una red:",
+          "options": [
+            "SMTP",
+            "SNMP",
+            "HTTP",
+            "IGMPv3"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.4",
+          "explanation": "**SNMP** (*Simple Network Management Protocol*) es el protocolo estándar de **gestión de dispositivos de red** (conmutadores, encaminadores, servidores, impresoras). Un **gestor** consulta y modifica variables de los **agentes**, organizadas en la **MIB** e identificadas por **OID**, y los agentes envían avisos (**traps**). Usa **UDP 161** (consultas) y **UDP 162** (traps). **SNMPv3** añade autenticación y cifrado.",
+          "option_notes": [
+            "SMTP es el protocolo de transferencia de correo electrónico.",
+            null,
+            "HTTP es el protocolo de transferencia de hipertexto (web).",
+            "IGMPv3 gestiona la pertenencia de los equipos a grupos multicast, no los dispositivos de la red."
+          ],
+          "references": [
+            "RFC 3411-3418 (SNMPv3)",
+            "RFC 3376 (IGMPv3)"
+          ],
+          "tags": [
+            "snmp",
+            "gestion-de-red",
+            "monitorizacion"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-041",
+          "number": 41,
+          "text": "En relación a los riesgos de seguridad en aplicaciones, según OWASP, ¿qué tipo de fallo ocurre cuando datos no confiables son enviados a un intérprete como parte de un comando o consulta?",
+          "options": [
+            "Secuencia de comandos en sitios cruzados (XSS).",
+            "Exposición de datos sensibles.",
+            "Redirecciones y reenvíos no validados.",
+            "Inyección."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.8",
+          "explanation": "Según **OWASP**, la **inyección** ocurre cuando **datos no confiables se envían a un intérprete como parte de un comando o consulta** (SQL, NoSQL, LDAP, comandos del SO…): el atacante consigue ejecutar órdenes no previstas o acceder a datos sin autorización. Se previene con **consultas parametrizadas**, validación de entradas y mínimo privilegio. Era la A1 del Top 10 de 2017, la A03 en 2021 (que ya incluye el XSS) y la A05 en 2025.",
+          "option_notes": [
+            "El XSS consiste en incluir datos no confiables en una página web sin validarlos ni escaparlos, para que se ejecuten en el navegador de la víctima.",
+            "La exposición de datos sensibles es su protección insuficiente (sin cifrar, por ejemplo); en 2021 pasó a llamarse «Fallos criptográficos».",
+            "Las redirecciones y reenvíos no validados llevan al usuario a destinos no confiables (categoría del Top 10 de 2013).",
+            null
+          ],
+          "references": [
+            "OWASP Top 10 (2017): A1 Injection",
+            "OWASP Top 10:2021 A03 y OWASP Top 10:2025 A05"
+          ],
+          "tags": [
+            "owasp",
+            "inyeccion",
+            "seguridad-en-el-desarrollo"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-042",
+          "number": 42,
+          "text": "¿Qué tipo de ataque lleva a cabo el virus Ryuk?",
+          "options": [
+            "Sniffing",
+            "Ransomware",
+            "Spoofing",
+            "Phishing"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.5",
+          "explanation": "**Ryuk** es un **ransomware**: cifra los ficheros de la víctima y exige un rescate para descifrarlos. Apareció en 2018, se dirigía contra grandes organizaciones y solía entrar tras otras infecciones (Emotet, TrickBot). En España se hizo famoso por el ataque al **SEPE** en **marzo de 2021**, meses antes de este examen. Defensas clave: **copias de seguridad** aisladas y probadas, parches, segmentación de red y formación frente al phishing.",
+          "option_notes": [
+            "El sniffing consiste en capturar el tráfico de red para leer su contenido.",
+            null,
+            "El spoofing es la suplantación de una identidad (IP, MAC, correo, DNS…).",
+            "El phishing engaña al usuario para que revele credenciales; puede ser la puerta de entrada del ransomware, pero no es Ryuk."
+          ],
+          "references": [
+            "CCN-CERT: Informe de código dañino ID-26/19 (Ryuk)"
+          ],
+          "tags": [
+            "ransomware",
+            "ryuk",
+            "malware"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-043",
+          "number": 43,
+          "text": "¿Cuál de los siguientes algoritmos de cifrado es de clave pública?",
+          "options": [
+            "RSA",
+            "Blowfish",
+            "IDEA",
+            "Twofish"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.5",
+          "explanation": "**RSA** (Rivest, Shamir y Adleman, 1977) es el algoritmo de **clave pública** (asimétrico) más conocido: su seguridad se basa en la dificultad de **factorizar** el producto de dos números primos grandes, y sirve para **cifrar** y para **firmar**. **Blowfish**, **IDEA** y **Twofish** son **simétricos** (de clave secreta compartida) y cifran por bloques. Otros asimétricos: ElGamal, DSA y los de curva elíptica (ECC).",
+          "option_notes": [
+            null,
+            "Blowfish (Schneier, 1993) es un cifrado simétrico por bloques.",
+            "IDEA (Lai y Massey, 1991) es simétrico; lo popularizó PGP.",
+            "Twofish es simétrico: fue uno de los finalistas del concurso AES."
+          ],
+          "references": [
+            "Rivest, Shamir y Adleman (1978), Communications of the ACM 21(2)",
+            "RFC 8017 (PKCS #1: RSA)"
+          ],
+          "tags": [
+            "criptografia",
+            "rsa",
+            "cifrado-asimetrico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-044",
+          "number": 44,
+          "text": "Sobre redes inalámbricas, indique cuál de las siguientes afirmaciones es INCORRECTA:",
+          "options": [
+            "La frecuencia de 2,4 GHz presenta interferencias con algunas versiones de Bluetooth.",
+            "La seguridad del protocolo WEP es superior a la del protocolo WPA2.",
+            "El protocolo WPA3 surge, entre otros, a raíz del ataque KRACK, mejorando la modalidad de cifrado WPA2-PSK (AES).",
+            "La frecuencia de 5 GHz tiene menor alcance que la de 2,4 GHz."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.6",
+          "explanation": "La afirmación **incorrecta es la B**: **WEP** (1997) es muy inseguro (RC4 con vectores de inicialización cortos; se rompe en minutos) y está obsoleto, mientras que **WPA2** usa AES-CCMP. Las demás son correctas: la banda de **2,4 GHz** la comparten Bluetooth y otros dispositivos, que causan interferencias; **WPA3** (2018) llegó tras el ataque **KRACK** (2017) y sustituye la PSK por **SAE**; y la banda de **5 GHz** tiene **menos alcance** que la de 2,4 GHz, aunque más capacidad.",
+          "option_notes": [
+            "Es correcta: Bluetooth y Wi-Fi comparten la banda de 2,4 GHz y pueden interferir.",
+            null,
+            "Es correcta: WPA3 apareció tras KRACK y mejora la autenticación personal con SAE.",
+            "Es correcta: a mayor frecuencia, más atenuación y menos alcance."
+          ],
+          "references": [],
+          "tags": [
+            "wifi",
+            "seguridad-inalambrica",
+            "wpa"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-045",
+          "number": 45,
+          "text": "El estándar comercializado con el nombre de Wi-Fi 6 se corresponde con el estándar de IEEE:",
+          "options": [
+            "802.11ax",
+            "802.11ac",
+            "802.11ac wave 2",
+            "802.11az"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.6",
+          "explanation": "**Wi-Fi 6** es el nombre comercial de **IEEE 802.11ax**: introduce **OFDMA**, MU-MIMO en subida y bajada, la modulación 1024-QAM y *Target Wake Time*; **Wi-Fi 6E** lo extiende a la banda de 6 GHz. Equivalencias: Wi-Fi 4 = 802.11n, **Wi-Fi 5 = 802.11ac** (incluidas sus *waves* 1 y 2) y Wi-Fi 7 = 802.11be. **802.11az** trata del posicionamiento en interiores.",
+          "option_notes": [
+            null,
+            "802.11ac corresponde a Wi-Fi 5.",
+            "802.11ac Wave 2 es una segunda generación de Wi-Fi 5 (añade MU-MIMO de bajada), no Wi-Fi 6.",
+            "802.11az es la norma de posicionamiento en interiores de nueva generación, no Wi-Fi 6."
+          ],
+          "references": [
+            "IEEE 802.11ax-2021"
+          ],
+          "tags": [
+            "wifi",
+            "ieee-802-11"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-046",
+          "number": 46,
+          "text": "¿Cuál de los siguientes es un protocolo de nivel de transporte de TCP/IP?",
+          "options": [
+            "SMTP",
+            "ARP",
+            "UDP",
+            "FTP"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.7",
+          "explanation": "En la arquitectura **TCP/IP**, el **nivel de transporte** lo forman **TCP** (orientado a conexión y fiable) y **UDP** (*User Datagram Protocol*, RFC 768: sin conexión, sin acuse ni reenvío, con muy poca sobrecarga; lo usan DNS, DHCP, SNMP o el vídeo en tiempo real). También **SCTP** y **QUIC** (sobre UDP). **SMTP** y **FTP** son de **aplicación**; **ARP** resuelve direcciones IP a MAC en el nivel de **enlace**/red.",
+          "option_notes": [
+            "SMTP es un protocolo de aplicación (correo electrónico) que usa TCP.",
+            "ARP traduce direcciones IP a MAC: trabaja entre el enlace y la red, no en transporte.",
+            null,
+            "FTP es un protocolo de aplicación (transferencia de ficheros) que usa TCP."
+          ],
+          "references": [
+            "RFC 768 (UDP)",
+            "RFC 1122 (requisitos de los hosts de Internet)"
+          ],
+          "tags": [
+            "tcp-ip",
+            "udp",
+            "capa-de-transporte"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-047",
+          "number": 47,
+          "text": "El orden ascendente que siguen las capas del modelo OSI es:",
+          "options": [
+            "Física, Enlace, Red, Transporte, Sesión, Presentación y Aplicación.",
+            "Física, Enlace, Red, Transporte, Presentación, Sesión y Aplicación.",
+            "Física, Enlace, Transporte, Red, Sesión, Aplicación y Presentación.",
+            "Física, Enlace, Red, Transporte, Sesión, Aplicación y Presentación."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.7",
+          "explanation": "Las siete capas del **modelo OSI** (ISO/IEC 7498-1), de abajo arriba: **1 Física**, **2 Enlace de datos**, **3 Red**, **4 Transporte**, **5 Sesión**, **6 Presentación** y **7 Aplicación**. Regla mnemotécnica en inglés: *Please Do Not Throw Sausage Pizza Away*. Errores típicos: poner presentación antes que sesión, o red después de transporte.",
+          "option_notes": [
+            null,
+            "Invierte sesión (capa 5) y presentación (capa 6).",
+            "Invierte red (3) y transporte (4), y aplicación (7) y presentación (6).",
+            "Invierte presentación (6) y aplicación (7): la aplicación es la capa superior."
+          ],
+          "references": [
+            "ISO/IEC 7498-1 (modelo de referencia OSI)"
+          ],
+          "tags": [
+            "modelo-osi",
+            "capas"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-048",
+          "number": 48,
+          "text": "¿Cuál de los siguientes registros DNS proporciona información sobre las características básicas del dominio y de la zona en la que se encuentra?",
+          "options": [
+            "AAAA",
+            "PTR",
+            "MX",
+            "SOA"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.8",
+          "explanation": "El registro **SOA** (*Start of Authority*) es el primero de cada zona DNS e indica sus **datos básicos**: el servidor de nombres primario, el correo del responsable, el **número de serie** de la zona y los temporizadores de refresco, reintento, expiración y TTL mínimo que usan los servidores secundarios. Los demás: **AAAA** (nombre → IPv6), **PTR** (resolución inversa: IP → nombre) y **MX** (servidores de correo).",
+          "option_notes": [
+            "AAAA asocia un nombre a una dirección IPv6.",
+            "PTR se usa en la resolución inversa (de dirección IP a nombre).",
+            "MX indica los servidores de correo del dominio.",
+            null
+          ],
+          "references": [
+            "RFC 1035, §3.3.13"
+          ],
+          "tags": [
+            "dns",
+            "registros-dns"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-049",
+          "number": 49,
+          "text": "¿Cuál de las siguientes herramientas del CCN-CERT se utiliza para la detección de amenazas complejas en el puesto del usuario?",
+          "options": [
+            "MARIA",
+            "CLAUDIA",
+            "GLORIA",
+            "ANA"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.5",
+          "explanation": "**CLAUDIA** es la herramienta del **CCN-CERT** (desarrollada con S2 Grupo) para la **detección de amenazas complejas en el puesto de usuario**: un agente *endpoint* que busca malware avanzado y movimientos laterales propios de las APT, con reglas YARA y recogida remota de evidencias. De ella deriva **microCLAUDIA**, el sistema de «vacunas» contra el ransomware. Otras: **MARIA** (análisis multiantivirus), **GLORIA** (gestor de logs y eventos de seguridad) y **ANA** (automatización y normalización de auditorías).",
+          "option_notes": [
+            "MARIA es la plataforma multiantivirus de análisis estático de ficheros, no un detector en el puesto de usuario.",
+            null,
+            "GLORIA es el gestor de logs para responder ante incidentes y amenazas (correlación de eventos).",
+            "ANA es la herramienta de automatización y normalización de auditorías (activos y vulnerabilidades)."
+          ],
+          "references": [
+            "CCN-CERT: soluciones de ciberseguridad (CLAUDIA, microCLAUDIA, MARIA, GLORIA, ANA)"
+          ],
+          "tags": [
+            "ccn-cert",
+            "herramientas-ccn",
+            "seguridad-en-el-puesto"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-050",
+          "number": 50,
+          "text": "En el contexto de la gestión de dispositivos móviles, qué significan las siglas BYOD:",
+          "options": [
+            "Bring Your Own Device.",
+            "Best Year's Open Device.",
+            "Backup Yearly with Online Device.",
+            "Buy Yet-Only Divided Device."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.4",
+          "explanation": "**BYOD** = *Bring Your Own Device* («trae tu propio dispositivo»): los empleados usan sus **móviles, tabletas o portátiles personales** para trabajar. Ahorra costes y da flexibilidad, pero plantea riesgos de **seguridad y privacidad** (pérdida o robo, mezcla de datos personales y corporativos, equipos sin parchear). Se gestiona con soluciones **MDM/MAM/UEM**, contenedores que separan los datos corporativos y políticas de uso aceptable.",
+          "option_notes": [
+            null,
+            "Siglas inventadas: la Y es de Your y la O de Own.",
+            "Siglas inventadas: BYOD no tiene que ver con copias de seguridad.",
+            "Siglas inventadas: la B es de Bring (traer), no de Buy (comprar)."
+          ],
+          "references": [
+            "NIST SP 800-46 Rev. 2 (teletrabajo, acceso remoto y BYOD)"
+          ],
+          "tags": [
+            "byod",
+            "gestion-de-dispositivos",
+            "movilidad"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": "tai-pi-2021-p1-r1",
+          "number": 1,
+          "text": "La arquitectura de ordenadores Harvard:",
+          "options": [
+            "Tiene un único espacio de memoria para datos e instrucciones.",
+            "Tiene dos espacios de memoria separados, uno para datos y otro para instrucciones.",
+            "Es un tipo de arquitectura Von Neumann.",
+            "Tiene tres espacios de memoria separados, uno para datos, otro para instrucciones y otro para la memoria no volátil."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "II.1",
+          "explanation": "La **arquitectura Harvard** usa **dos memorias separadas** —una para las **instrucciones** y otra para los **datos**—, cada una con su propio bus, de modo que puede leer una instrucción y acceder a un dato a la vez. La **arquitectura von Neumann** usa **una única memoria** (y un bus) para ambos, lo que crea el llamado cuello de botella de von Neumann. Hoy se combinan: las CPU tienen cachés L1 separadas de instrucciones y datos (Harvard modificada) sobre una memoria principal común.",
+          "option_notes": [
+            "Una única memoria para datos e instrucciones es la arquitectura von Neumann.",
+            null,
+            "Es la alternativa a la arquitectura von Neumann, no un tipo de ella.",
+            "La arquitectura Harvard separa dos memorias (instrucciones y datos), no tres."
+          ],
+          "references": [],
+          "tags": [
+            "arquitectura-de-ordenadores",
+            "harvard",
+            "von-neumann"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-r2",
+          "number": 2,
+          "text": "¿Cuál es la funcionalidad de la herramienta \"FACILITA\"?",
+          "options": [
+            "Una herramienta de la Agencia Española de Protección de Datos para el tratamiento de datos personales de escaso riesgo.",
+            "Una herramienta ofrecida por la Administración Pública que facilita la adecuación del plan de actuación para ayudar a las personas con movilidad reducida.",
+            "Una aplicación de código abierto que ofrece la Administración General del Estado para que facilitar la visualización de contenidos multimedia.",
+            "Una aplicación para móviles que ofrece la Agencia Estatal de Administración Tributaria para generar y presentar la declaración de la renta."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "I.7",
+          "explanation": "**FACILITA RGPD** es una herramienta gratuita de la **Agencia Española de Protección de Datos (AEPD)** para empresas y profesionales que realizan **tratamientos de datos personales de escaso riesgo** (por ejemplo, datos de clientes, proveedores o empleados): tras un breve cuestionario, genera los documentos mínimos para cumplir el RGPD (registro de actividades, cláusulas informativas, medidas de seguridad…). La AEPD ofrece también **FACILITA EMPRENDE**, para emprendedores y *startups*.",
+          "option_notes": [
+            null,
+            "FACILITA no tiene relación con la movilidad reducida; es una herramienta de la AEPD sobre protección de datos.",
+            "FACILITA no es un visor multimedia de la AGE; es una herramienta de la AEPD.",
+            "La aplicación de la Agencia Tributaria para la declaración de la renta no se llama FACILITA (es Renta WEB o la app de la AEAT)."
+          ],
+          "references": [
+            "AEPD: FACILITA RGPD"
+          ],
+          "tags": [
+            "proteccion-de-datos",
+            "aepd",
+            "herramientas"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-r3",
+          "number": 3,
+          "text": "Según el Esquema Nacional de Seguridad, ¿cuál de las siguientes medidas de seguridad afecta a la dimensión de Trazabilidad?",
+          "options": [
+            "Copias de seguridad.",
+            "Sellos de tiempo.",
+            "Cifrado.",
+            "Firma electrónica."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "I.8",
+          "explanation": "Cada medida del anexo II del ENS indica qué dimensiones protege: **C**onfidencialidad, **I**ntegridad, **T**razabilidad, **A**utenticidad y **D**isponibilidad. Los **sellos de tiempo** acreditan el momento en que existía un documento o se hizo una operación, por lo que afectan a la **trazabilidad** (T). Las demás: copias de seguridad → **D**; cifrado → **C**; firma electrónica → **I** y **A**. En el ENS vigente (RD 311/2022), los sellos de tiempo son la medida **mp.info.4**.",
+          "option_notes": [
+            "Las copias de seguridad protegen la disponibilidad (D).",
+            null,
+            "El cifrado protege la confidencialidad (C).",
+            "La firma electrónica protege la integridad y la autenticidad (I y A)."
+          ],
+          "references": [
+            "RD 311/2022, anexo II (mp.info.4)",
+            "RD 3/2010 (derogado)"
+          ],
+          "tags": [
+            "ens",
+            "dimensiones-de-seguridad",
+            "trazabilidad"
+          ],
+          "media": [],
+          "outdated": true,
+          "outdated_note": "En 2021 regía el ENS del RD 3/2010, derogado por el RD 311/2022. La respuesta sigue siendo válida: los sellos de tiempo (mp.info.4) siguen asociados a la trazabilidad; el cifrado ya no es una medida mp.info, sino que se recoge en mp.si.2 (criptografía) y mp.com.2 (confidencialidad).",
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-r4",
+          "number": 4,
+          "text": "En tecnologías de almacenamiento, el término SAS se corresponde con:",
+          "options": [
+            "Serial Attached State.",
+            "Solid Attached SCSI.",
+            "Serial Attached SCSI.",
+            "Solid Advanced SCSI."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "II.2",
+          "explanation": "**SAS** = *Serial Attached SCSI*: interfaz **serie punto a punto** que sustituyó al **SCSI paralelo** en servidores y cabinas de discos. Mantiene el juego de órdenes SCSI, admite **doble puerto** (redundancia) y velocidades de 3, 6, 12 y 22,5 Gbit/s (SAS-4, «24G»). Las controladoras SAS aceptan también discos **SATA**, pero no al revés.",
+          "option_notes": [
+            "La S final es de SCSI, no de «State».",
+            "La primera S es de Serial, no de «Solid».",
+            null,
+            "Ni Solid ni Advanced: es Serial Attached SCSI."
+          ],
+          "references": [
+            "INCITS T10: Serial Attached SCSI (SAS-4)"
+          ],
+          "tags": [
+            "almacenamiento",
+            "sas",
+            "interfaces-de-disco"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p1-r5",
+          "number": 5,
+          "text": "En el contexto de HTML5, si queremos ocultar una parte de la pantalla hasta que un usuario haya hecho \"log in\", utilizaremos:",
+          "options": [
+            "El atributo hidden.",
+            "El atributo style del elemento como \"non visible\".",
+            "La etiqueta aside.",
+            "La etiqueta iframe."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "El atributo global **`hidden`** de HTML5 indica que un elemento **todavía no es relevante** (o ha dejado de serlo) y el navegador **no lo muestra**. La propia especificación pone de ejemplo ocultar la pantalla principal de un juego **hasta que el usuario inicia sesión**: `<section id=\"juego\" hidden>`, que luego se muestra quitando el atributo con JavaScript. Ojo: solo oculta visualmente; el contenido sigue en el DOM, así que no sustituye a un control de acceso en el servidor.",
+          "option_notes": [
+            null,
+            "«non visible» no es un valor válido: en CSS se usaría display: none o visibility: hidden.",
+            "<aside> marca contenido relacionado de forma tangencial (una barra lateral); no oculta nada.",
+            "<iframe> incrusta otro documento dentro de la página; no sirve para ocultar contenido."
+          ],
+          "references": [
+            "WHATWG HTML Living Standard: the hidden attribute"
+          ],
+          "tags": [
+            "html5",
+            "atributo-hidden",
+            "atributos-globales"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto I",
+      "block": "III",
+      "statement": "En el departamento TIC, al que usted se acaba de incorporar, quiere desarrollar para la Subdirección de Selección un sistema integral de información para la gestión de los procesos selectivos y convocatorias de oposiciones de la Administración General del Estado. El sistema incluirá, entre otras, las siguientes funcionalidades:\n\n- Gestión de solicitudes de inscripción de aspirantes al proceso selectivo.\n- Gestión de colaboradores.\n- Generación de listados, estadísticas y cuadros de mando.\n- Generación de certificados para aspirantes y colaboradores.\n\nDada la envergadura del proyecto, y para aprovechar las aplicaciones ya implantadas en la Subdirección y la experiencia profesional del personal, van a convivir diferentes lenguajes de programación, entre otros, Java, C# o Python, así como distintos gestores de Bases de Datos. Como repositorio de código se utiliza Git.\n\nA continuación se muestra un diagrama simplificado de clases que describe parte del sistema:\n\n![Diagrama de clases simplificado: Solicitud (+IdSolicitud, +IdOpositor, +IdProceso) «Presentada por» Opositor (+IdOpositor, +NIF) con multiplicidades 1..N y 1; Solicitud «Pertenece a» Proceso (+IdProceso, +IdFormaAcceso) con 1..N y 1; Proceso «Consta» de Ejercicio (+IdEjercicio, +IdProceso, +Duracion) con 1 y 1..N.](assets/tai-pi-2021/p2-s1-statement-1.png)\n\n*Transcripción del diagrama de clases:*\n\n| Clase | Atributos |\n|---|---|\n| Solicitud | +IdSolicitud · +IdOpositor · +IdProceso |\n| Opositor | +IdOpositor · +NIF |\n| Proceso | +IdProceso · +IdFormaAcceso |\n| Ejercicio | +IdEjercicio · +IdProceso · +Duracion |\n\n| Asociación | Multiplicidades |\n|---|---|\n| Solicitud «Presentada por» Opositor | 1..N junto a Solicitud · 1 junto a Opositor |\n| Solicitud «Pertenece a» Proceso | 1..N junto a Solicitud · 1 junto a Proceso |\n| Proceso «Consta» Ejercicio | 1 junto a Proceso · 1..N junto a Ejercicio |\n\nSalvo que el enunciado diga lo contrario, se asume que aquellas preguntas que contengan un fragmento de código tendrán declaradas correctamente todas las clases, librerías y variables que no aparezcan explícitamente. Del mismo modo sí se trata de lenguaje HTML, se da por supuesto que éste será HTML5 y será ejecutado en navegadores que soporten dicha versión. Las sentencias SQL que aparecen se encuentran dentro del estándar ANSI SQL.Como metodología de base el organismo aplica Métrica v3.",
+      "media": [],
+      "questions": [
+        {
+          "id": "tai-pi-2021-p2-s1-001",
+          "number": 1,
+          "text": "Se necesita presentar una estadística utilizando HTML5 mediante una tabla en la que una de sus columnas contendrá la descripción de cada Proceso Selectivo. Suponiendo que a dicha columna la denominamos \"Proceso\", ¿qué etiqueta deberá utilizar para definir la celda de encabezado de la tabla para dicha columna, con un formato de letra diferenciado?",
+          "options": [
+            "`<th>Proceso</th>`",
+            "`<tableheader>Proceso</tableheader>`",
+            "`<theader>Proceso</theader>`",
+            "`<tableh>Proceso</tableh>`"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "En una tabla HTML, **`<th>`** (*table header*) define una **celda de encabezado**; por defecto los navegadores la muestran en **negrita y centrada**, y para la accesibilidad conviene indicar su alcance con `scope=\"col\"` o `scope=\"row\"`. Las celdas normales son `<td>`, las filas `<tr>`, y los grupos de filas `<thead>`, `<tbody>` y `<tfoot>`. `<tableheader>`, `<theader>` y `<tableh>` no existen.",
+          "option_notes": [
+            null,
+            "No existe la etiqueta <tableheader>; el encabezado de columna es <th> (y el grupo de filas de cabecera, <thead>).",
+            "No existe <theader>; quizá se confunde con <thead>, que agrupa las filas de cabecera.",
+            "No existe la etiqueta <tableh>."
+          ],
+          "references": [
+            "WHATWG HTML Living Standard: the th element"
+          ],
+          "tags": [
+            "html5",
+            "tablas"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-002",
+          "number": 2,
+          "text": "También se requiere definir en el informe un hipervínculo en HTML5. ¿Qué etiqueta debería utilizar?",
+          "options": [
+            "`<link>`",
+            "`<a>`",
+            "`<goto>`",
+            "`<hlink>`"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "Los **hipervínculos** se crean con el elemento **`<a>`** (*anchor*) y su atributo **`href`**: `<a href=\"https://www.inap.es\">INAP</a>`. Atributos útiles: `target=\"_blank\"` (nueva pestaña), `download` o `href=\"#id\"` para saltar dentro de la página. No confundir con **`<link>`**, que va en el `<head>` y **relaciona el documento con recursos externos** (hojas de estilo, iconos), sin crear un enlace que se pueda pulsar.",
+          "option_notes": [
+            "<link> relaciona el documento con recursos externos (CSS, icono…) desde el <head>; no crea un enlace visible.",
+            null,
+            "No existe ningún elemento <goto> en HTML.",
+            "No existe ningún elemento <hlink> en HTML."
+          ],
+          "references": [
+            "WHATWG HTML Living Standard: the a element"
+          ],
+          "tags": [
+            "html5",
+            "hipervinculos",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-003",
+          "number": 3,
+          "text": "En su Subdirección van a usar JSON para realizar intercambio de datos, y le preguntan, de entre los siguientes, cuál sería un fichero JSON válido.",
+          "options": [
+            "`{\"nombre\": \"Juana\", \"apellido\": \"Ruiz\"}`",
+            "`{'nombre': 'Juana', 'apellido': 'Ruiz'}`",
+            "`{nombre: \"Juana\", apellido: \"Ruiz\"}`",
+            "`{nombre: \"Juana\"; apellido: \"Ruiz\"}`"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.3",
+          "explanation": "En **JSON** (RFC 8259), los nombres de los miembros de un objeto son **cadenas** y deben ir **entre comillas dobles**, igual que los valores de texto; los pares nombre/valor se separan con **comas**, y el nombre se separa del valor con **dos puntos**. Por eso `{\"nombre\": \"Juana\", \"apellido\": \"Ruiz\"}` es válido. Las comillas simples o los nombres sin comillas valen en un objeto literal de JavaScript, pero no en JSON.",
+          "option_notes": [
+            null,
+            "JSON no admite comillas simples: las cadenas van siempre entre comillas dobles.",
+            "En JSON los nombres van entre comillas dobles (sin comillas solo vale en un objeto literal de JavaScript).",
+            "Nombres sin comillas y separador «;»: los pares se separan con comas."
+          ],
+          "references": [
+            "RFC 8259"
+          ],
+          "tags": [
+            "json",
+            "formatos-de-datos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-004",
+          "number": 4,
+          "text": "¿Cómo debe definir el equipo de desarrollo en Java una clase llamada Ejercicio si quiere impedir que se pueda heredar de la misma?",
+          "options": [
+            "`closed class Ejercicio`",
+            "`final class Ejercicio`",
+            "`private class Ejercicio`",
+            "`immutable class Ejercicio`"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.4",
+          "explanation": "En Java, una clase declarada **`final`** **no puede tener subclases**: `final class Ejercicio { … }` impide que otra clase la extienda (como ocurre con `String`). `final` también se aplica a métodos (no pueden sobrescribirse) y a variables (no pueden reasignarse). Desde Java 17 existen además las clases **`sealed`**, que limitan la herencia a una lista de subclases permitidas (`permits`).",
+          "option_notes": [
+            "closed no es una palabra reservada de Java.",
+            null,
+            "Una clase de primer nivel no puede ser private (solo las anidadas), y private no impide la herencia.",
+            "immutable no es una palabra reservada de Java (la inmutabilidad se logra con el diseño: campos final, sin setters…)."
+          ],
+          "references": [
+            "Java Language Specification, §8.1.1.2"
+          ],
+          "tags": [
+            "java",
+            "herencia",
+            "final"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-005",
+          "number": 5,
+          "text": "Su responsable le pregunta qué concepto hace referencia a la posibilidad de utilizar el mismo nombre de método con distintos parámetros en la programación orientada a objetos. ¿Qué debería responder?",
+          "options": [
+            "Herencia.",
+            "Ligadura dinámica.",
+            "Polimorfismo.",
+            "Abstracción."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.4",
+          "explanation": "Usar el **mismo nombre de método con distintos parámetros** es la **sobrecarga** (*overloading*), que se considera una forma de **polimorfismo**: el polimorfismo *ad hoc* o estático, resuelto al compilar según los argumentos. La otra forma es el polimorfismo de **subtipos** (sobrescritura), en el que un mismo mensaje produce comportamientos distintos según la clase del objeto, gracias a la **ligadura dinámica**. Como la opción «sobrecarga» no aparece, la respuesta es polimorfismo.",
+          "option_notes": [
+            "La herencia permite que una clase reciba atributos y métodos de otra; no se refiere a repetir nombres con distintos parámetros.",
+            "La ligadura dinámica decide en ejecución qué método redefinido se llama; es el mecanismo de la sobrescritura, no de la sobrecarga.",
+            null,
+            "La abstracción consiste en quedarse con las características esenciales de un objeto, ocultando los detalles."
+          ],
+          "references": [
+            "Cardelli y Wegner (1985), «On Understanding Types, Data Abstraction, and Polymorphism»"
+          ],
+          "tags": [
+            "polimorfismo",
+            "sobrecarga",
+            "programacion-orientada-a-objetos",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-006",
+          "number": 6,
+          "text": "Revisando un programa escrito en lenguaje Python, se encuentra con el siguiente fragmento de código.\n\n```python\n[a*a for a in [3, 2, 1] if a > 1]\n```\n\n¿Qué se muestra?",
+          "options": [
+            "`[3, 2, 1, 3, 2, 1]`",
+            "`[9 ,4]`",
+            "`[9, 4, 1]`",
+            "`[2, 1]`"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.2",
+          "explanation": "Es una **lista por comprensión**: `[expresión for elemento in iterable if condición]`. Recorre 3, 2 y 1; el filtro `if a > 1` descarta el 1, y para 3 y 2 calcula `a*a`. Resultado: **`[9, 4]`** (en el cuadernillo aparece como «[9 ,4]», con el espacio mal colocado). Equivale a un bucle `for` con un `if` que va añadiendo `a*a` a una lista vacía.",
+          "option_notes": [
+            "No se repite la lista: se calcula a*a de cada elemento que cumple la condición.",
+            null,
+            "El 1 no cumple a > 1, así que su cuadrado no entra en la lista.",
+            "Esa sería la lista filtrada sin elevar al cuadrado ([a for a in … if a > 1] daría [3, 2])."
+          ],
+          "references": [
+            "Python 3 Tutorial, 5.1.3: List Comprehensions"
+          ],
+          "tags": [
+            "python",
+            "listas-por-comprension",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-007",
+          "number": 7,
+          "text": "Le han pedido que compruebe si en el esquema de la base de datos hay tablas que no se están utilizando, y verifica que existe una con esas características llamada PruebaOLD. ¿Cuál sería la instrucción SQL para eliminarla?",
+          "options": [
+            "`TRUNCATE TABLE PruebaOLD`",
+            "`DROP TABLE PruebaOLD`",
+            "`DELETE TABLE PruebaOLD`",
+            "`ERASE TABLE PruebaOLD`"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.3",
+          "explanation": "**`DROP TABLE PruebaOLD`** (DDL) **elimina la tabla por completo**: su definición, sus datos, índices y permisos. Diferencias clave: **`TRUNCATE TABLE`** vacía la tabla de golpe pero **mantiene su estructura**; **`DELETE FROM tabla [WHERE …]`** (DML) borra **filas** y puede filtrarse. Ojo: si otras tablas tienen claves ajenas que apunten a ella, el DROP fallará salvo que se use `CASCADE` donde el SGBD lo admita.",
+          "option_notes": [
+            "TRUNCATE borra todas las filas, pero la tabla sigue existiendo.",
+            null,
+            "La sintaxis correcta es DELETE FROM tabla, y solo borra filas, no la tabla.",
+            "ERASE no es una sentencia SQL."
+          ],
+          "references": [
+            "ISO/IEC 9075-2 (SQL): <drop table statement>"
+          ],
+          "tags": [
+            "sql",
+            "drop-table",
+            "ddl",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-008",
+          "number": 8,
+          "text": "También le consultan sobre la sentencia SQL a utilizar para obtener el listado del identificador de los opositores (IdOpositor) que tienen más de una entrada en la tabla Solicitud.",
+          "options": [
+            "`SELECT IdOpositor, COUNT(IdSolicitud) AS NumeroSolicitudes FROM Solicitud GROUP BY IdOpositor WHERE NumeroSolicitudes > 1`",
+            "`SELECT IdOpositor, IdSolicitud FROM Solicitud WHERE COUNT(IdSolicitud) > 1`",
+            "`SELECT IdOpositor, COUNT(IdSolicitud) FROM Solicitud WHERE COUNT(IdSolicitud) > 1 GROUP BY IdOpositor`",
+            "`SELECT IdOpositor, COUNT(IdSolicitud) FROM Solicitud GROUP BY IdOpositor HAVING COUNT(IdSolicitud) > 1`"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.3",
+          "explanation": "Para filtrar **grupos** según el resultado de una función de agregado se usa **`HAVING`**, que se evalúa **después de `GROUP BY`**: `SELECT IdOpositor, COUNT(IdSolicitud) FROM Solicitud GROUP BY IdOpositor HAVING COUNT(IdSolicitud) > 1`. **`WHERE`** filtra **filas** antes de agrupar y no admite funciones de agregado. Orden lógico: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY.",
+          "option_notes": [
+            "WHERE no puede ir detrás de GROUP BY ni usar el alias de un agregado; para filtrar grupos se usa HAVING.",
+            "Una función de agregado no puede ir en WHERE, y además falta el GROUP BY.",
+            "COUNT no puede usarse en WHERE: el filtro sobre los grupos va en HAVING, después de GROUP BY.",
+            null
+          ],
+          "references": [
+            "ISO/IEC 9075 (SQL): HAVING"
+          ],
+          "tags": [
+            "sql",
+            "group-by",
+            "having"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-009",
+          "number": 9,
+          "text": "Dentro de las tecnologías para el desarrollo web utilizadas en su unidad, se contempla utilizar javascript. ¿Qué valor devuelve la siguiente función javascript?\n\n```javascript\nFunction prueba() {\nvar i = 1;\nvar j = 0;\nwhile (i < 7) {\nj += i;\ni += 2; }\nreturn j; }\n```",
+          "options": [
+            "2",
+            "9",
+            "6",
+            "0"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "El bucle se recorre con i = 1, 3 y 5 (i aumenta de 2 en 2 mientras sea menor que 7): **j = 0 + 1 = 1**, luego **1 + 3 = 4** y luego **4 + 5 = 9**; con i = 7 la condición `i < 7` es falsa y la función devuelve **9**, la suma de los impares menores que 7. (El enunciado escribe `Function` con mayúscula; en JavaScript la palabra clave es `function`, en minúscula.)",
+          "option_notes": [
+            "2 es el incremento de i en cada vuelta, no el valor acumulado en j.",
+            null,
+            "6 no es el resultado: j acumula 1 + 3 + 5 = 9.",
+            "El bucle sí se ejecuta (1 < 7), así que j no se queda en 0."
+          ],
+          "references": [],
+          "tags": [
+            "javascript",
+            "bucles",
+            "traza-de-codigo"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-010",
+          "number": 10,
+          "text": "Su equipo está estudiando la información existente dispersa en distintas fuentes de datos con el fin de consolidarla. En una base de datos antigua, hay una tabla que contiene el siguiente registro:\n\n```text\nNIF: 12345678Z\nNombre: Emilia\nPrimerApellido: Pardo\nSegundoApellido: Bazán\nDireccion: Atocha 106\nTelefonos: 916666666;917777777\n```\n\n¿En qué forma normal está la tabla?",
+          "options": [
+            "En primera forma normal.",
+            "En segunda forma normal.",
+            "En tercera forma normal.",
+            "No está en ninguna forma normal."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "La **primera forma normal (1FN)** exige que todos los atributos tomen **valores atómicos** (un solo valor por celda) y que no haya grupos repetitivos. El campo **Telefonos** guarda dos números en el mismo registro (`916666666;917777777`): es un **atributo multivaluado**, así que la tabla **no cumple la 1FN** ni, por tanto, ninguna otra forma normal (cada una exige la anterior). Solución: llevar los teléfonos a una tabla aparte, con el NIF como clave ajena.",
+          "option_notes": [
+            "No cumple la 1FN: el campo Telefonos contiene varios valores en una sola celda.",
+            "La 2FN exige estar en 1FN, y la tabla no lo está.",
+            "La 3FN exige estar en 2FN (y por tanto en 1FN), y la tabla ni siquiera está en 1FN.",
+            null
+          ],
+          "references": [],
+          "tags": [
+            "normalizacion",
+            "primera-forma-normal"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-011",
+          "number": 11,
+          "text": "En una reunión departamental se está hablando de Servicios Web, y le preguntan cuál de los siguientes estándares no se usa en Servicios Web. ¿Qué debería responder?",
+          "options": [
+            "SOAP",
+            "UDDI",
+            "HEVC",
+            "WSDL"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.6",
+          "explanation": "**HEVC** (*High Efficiency Video Coding*, **H.265**, de la UIT-T y la ISO/IEC) es un **estándar de compresión de vídeo**, sucesor de H.264/AVC; nada tiene que ver con los servicios web. La pila clásica de los servicios web SOAP la forman **SOAP** (protocolo de mensajes XML), **WSDL** (lenguaje de descripción del servicio) y **UDDI** (registro para publicarlos y descubrirlos).",
+          "option_notes": [
+            "SOAP es el protocolo de intercambio de mensajes XML de los servicios web.",
+            "UDDI es el registro para publicar y descubrir servicios web.",
+            null,
+            "WSDL es el lenguaje XML que describe la interfaz de un servicio web."
+          ],
+          "references": [
+            "ITU-T H.265 (HEVC)",
+            "W3C SOAP 1.2 y WSDL 2.0; OASIS UDDI 3.0.2"
+          ],
+          "tags": [
+            "servicios-web",
+            "soap",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-012",
+          "number": 12,
+          "text": "El sistema de información deberá ser accesible a través de dispositivos móviles. ¿Cómo se denomina el tipo de diseño que permite la adaptación del contenido a los distintos dispositivos?",
+          "options": [
+            "Diseño incremental (Gradual Design).",
+            "Diseño responsivo (Responsive Design).",
+            "Diseño variable (Variable Design).",
+            "Diseño escalable (Scalable Design)."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "El **diseño responsivo** o adaptable (*Responsive Web Design*, término de Ethan Marcotte, 2010) hace que **una misma página se adapte a cualquier tamaño de pantalla**. Se basa en tres pilares: **rejillas fluidas** (anchos relativos), **imágenes flexibles** y **media queries** de CSS, además de la etiqueta `<meta name=\"viewport\">`. A menudo se aplica el enfoque *mobile first*: diseñar primero para el móvil.",
+          "option_notes": [
+            "El diseño o desarrollo incremental es una forma de construir el software por partes, no de adaptar la página a la pantalla.",
+            null,
+            "«Diseño variable» no es una técnica reconocida de diseño web.",
+            "La escalabilidad se refiere a la capacidad de crecer en carga o usuarios, no a adaptarse a la pantalla."
+          ],
+          "references": [
+            "E. Marcotte, «Responsive Web Design», A List Apart (2010)",
+            "W3C CSS Media Queries Level 3"
+          ],
+          "tags": [
+            "diseno-responsivo",
+            "multidispositivo",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": "tai-pi-2021-p2-s1-r1",
+          "number": 1,
+          "text": "Dentro del código de la página web a la que acceden los opositores, se encuentra el siguiente código HTML:\n\n```html\n<html><body><h1 id=\"titulo\">Primer ejercicio TAI</h1></body></html>\n```\n\n¿Cuál es el código javascript para obtener la cadena \"Primer ejercicio TAI\"?",
+          "options": [
+            "`var titulo = document.getElementById(\"titulo\").firstChild.nodeValue;`",
+            "`var titulo = document.titulo.InnerHTML;`",
+            "`var titulo = document.getElement(\"h1\").InnerText;`",
+            "`var titulo = document.children[0].getValue();`"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "`document.getElementById(\"titulo\")` devuelve el elemento `<h1>`; su **primer hijo** (`firstChild`) es el **nodo de texto** «Primer ejercicio TAI», y la propiedad **`nodeValue`** de un nodo de texto contiene ese texto. Formas más habituales hoy: `.textContent`, `.innerText` o `.innerHTML`, sobre el propio elemento. Recuerda que JavaScript distingue mayúsculas: `innerHTML`, no `InnerHTML`.",
+          "option_notes": [
+            null,
+            "document.titulo no da acceso al elemento por su id, y la propiedad se escribe innerHTML (JavaScript distingue mayúsculas).",
+            "document.getElement no existe (sería getElementsByTagName(\"h1\")[0] o querySelector(\"h1\")) y la propiedad es innerText.",
+            "document.children[0] es el elemento <html>, y getValue() no existe en el DOM."
+          ],
+          "references": [
+            "MDN: Node.nodeValue",
+            "MDN: Document.getElementById"
+          ],
+          "tags": [
+            "javascript",
+            "dom"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-r2",
+          "number": 2,
+          "text": "El equipo de proyecto está estudiando varios framework para valorar su utilización. ¿Cuál es el propósito principal del framework de javascript Jest?",
+          "options": [
+            "Testeado de código.",
+            "Machine learning.",
+            "Animacion y efectos gráficos.",
+            "Funciones matemáticas y tratamiento de cadenas."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.9",
+          "explanation": "**Jest** es un *framework* de **pruebas para JavaScript** y TypeScript, creado por Meta: permite escribir pruebas unitarias con `describe`, `test`/`it` y `expect`, crear *mocks*, medir la cobertura de código y hacer pruebas de instantánea (*snapshot*). Se usa mucho con React y Node.js. Alternativas: Vitest, Mocha o Jasmine.",
+          "option_notes": [
+            null,
+            "Jest no es de machine learning (para eso existe, por ejemplo, TensorFlow.js).",
+            "Jest no es de animación ni de efectos gráficos (como GSAP o anime.js).",
+            "Jest no es una biblioteca de funciones matemáticas ni de cadenas (como Lodash)."
+          ],
+          "references": [
+            "jestjs.io"
+          ],
+          "tags": [
+            "javascript",
+            "pruebas-unitarias",
+            "jest"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s1-r3",
+          "number": 3,
+          "text": "Para el desarrollo de sus funciones, tiene que usar un gestor de paquetes de código desarrollado por Microsoft para .NET. ¿Cuál utilizaría?",
+          "options": [
+            "Pip",
+            "Maven",
+            "Npm",
+            "NuGet"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.5",
+          "explanation": "**NuGet** es el **gestor de paquetes de Microsoft para .NET**: permite añadir bibliotecas a un proyecto (`dotnet add package`, o desde Visual Studio) a partir del repositorio público **nuget.org**, y define el formato `.nupkg`. Cada ecosistema tiene el suyo: **pip** para **Python** (PyPI), **Maven** para **Java** (que además automatiza la construcción) y **npm** para **JavaScript/Node.js**.",
+          "option_notes": [
+            "pip es el gestor de paquetes de Python (repositorio PyPI).",
+            "Maven es la herramienta de Apache para construir proyectos Java y gestionar sus dependencias.",
+            "npm es el gestor de paquetes de JavaScript y Node.js.",
+            null
+          ],
+          "references": [
+            "Microsoft Learn: An introduction to NuGet"
+          ],
+          "tags": [
+            "nuget",
+            "dotnet",
+            "gestores-de-paquetes",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto II",
+      "block": "IV",
+      "statement": "Debido a la pandemia ocasionada por el SARS-CoV-2, más conocido como Coronavirus, las Administraciones Publicas se han visto obligadas a impulsar el teletrabajo y a cambiar su estrategia en el ámbito de las TIC.\n\nEn este sentido ha sido asignado en la integración de dos organismos en su departamento, los cuales no tienen capacidad para asumir las nuevas demandas de servicios y conexiones.\n\nUno de los centros es la Demarcación de Carreteras de Madrid (DCM) y el otro es la Confederación Hidrográfica del Tajo (CHT).\n\nLa DCM tiene máquinas físicas RedHat Enterprise Linux (RHEL). Su estructura consiste en tres áreas y en cada una de ellas trabajan 20 personas.\n\nLa CHT tiene máquinas físicas Solaris. Su estructura consiste en 5 áreas y en cada una de ellas trabajan 50 personas.\n\nAmbos organismos tienen bastantes máquinas Windows 10, además de equipamiento específico, para el desarrollo de sus actividades, que tendrá que ser trasladado a su CPD.\n\nEs crucial la salvaguarda de los datos, la pérdida o inconsistencia de los mismos durante el proceso es algo inasumible.\n\nSalvo que el enunciado de la propia pregunta diga lo contrario, debe suponer que dispone de los permisos adecuados, tanto a nivel de sistema operativo como de conexión de red.",
+      "media": [],
+      "questions": [
+        {
+          "id": "tai-pi-2021-p2-s2-001",
+          "number": 1,
+          "text": "El equipo de comunicaciones le asigna la red 10.0.4.0 con la máscara 255.255.255.128 para el direccionamiento de la DCM. ¿Cuantos bits tiene la máscara de red?",
+          "options": [
+            "24",
+            "26",
+            "25",
+            "23"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.7",
+          "explanation": "La máscara **255.255.255.128** tiene en binario 24 unos en los tres primeros octetos y 1 en el cuarto (128 = `10000000`): **25 bits**, es decir, **/25**. Equivalencias para memorizar en el último octeto: 128 → /25, 192 → /26, 224 → /27, 240 → /28, 248 → /29 y 252 → /30. Una /25 tiene 128 direcciones (126 hosts).",
+          "option_notes": [
+            "/24 sería 255.255.255.0.",
+            "/26 sería 255.255.255.192.",
+            null,
+            "/23 sería 255.255.254.0."
+          ],
+          "references": [
+            "RFC 4632"
+          ],
+          "tags": [
+            "subnetting",
+            "mascaras",
+            "ipv4"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-002",
+          "number": 2,
+          "text": "También le preguntan a qué Clase pertenece la red asignada (10.0.4.0).",
+          "options": [
+            "Clase A.",
+            "Clase B.",
+            "Clase C.",
+            "Clase D."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.7",
+          "explanation": "En el direccionamiento con clases, la clase se determina por el **primer octeto**: **A = 1–126**, B = 128–191, C = 192–223, D = 224–239 (multidifusión) y E = 240–255. 10.0.4.0 empieza por 10, así que es de **clase A**; además, pertenece al rango **privado 10.0.0.0/8** (RFC 1918). Hoy se usa CIDR (aquí, una /25), pero la pregunta por la clase sigue cayendo.",
+          "option_notes": [
+            null,
+            "La clase B va de 128 a 191 en el primer octeto.",
+            "La clase C va de 192 a 223 en el primer octeto.",
+            "La clase D (224-239) es para multidifusión."
+          ],
+          "references": [
+            "RFC 791",
+            "RFC 1918"
+          ],
+          "tags": [
+            "ipv4",
+            "clases-de-direcciones"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-003",
+          "number": 3,
+          "text": "Para la CHT los compañeros de redes le asignan el direccionamiento 10.0.0.0/21. ¿Cuál es el número máximo de hosts disponible?",
+          "options": [
+            "1024",
+            "2046",
+            "32",
+            "256"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.7",
+          "explanation": "Con **/21** quedan **32 − 21 = 11 bits de host**: 2¹¹ = 2048 direcciones, menos la de red y la de *broadcast*: **2046 hosts**. Para la CHT (5 áreas × 50 personas = 250 puestos) hay de sobra. Fórmula: **hosts = 2ⁿ − 2**, con n = bits de host.",
+          "option_notes": [
+            "1024 es 2^10 (y ni siquiera resta red y broadcast); con /21 hay 11 bits de host.",
+            null,
+            "32 son las direcciones de una /27.",
+            "256 son las direcciones de una /24."
+          ],
+          "references": [
+            "RFC 4632"
+          ],
+          "tags": [
+            "subnetting",
+            "ipv4"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-004",
+          "number": 4,
+          "text": "La DCM no es capaz de especificarle la versión de RHEL que tienen sus máquinas, por lo que debe decirles el comando a ejecutar. ¿Cuál de los siguientes sería?",
+          "options": [
+            "`rm -f /etc/redhat-release`",
+            "`cat /etc/redhat-version`",
+            "`cat /etc/redhat-release`",
+            "`mv /etc/redhat-release`"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "En RHEL y sus derivados, el fichero **`/etc/redhat-release`** contiene la versión del sistema (por ejemplo, «Red Hat Enterprise Linux release 8.8 (Ootpa)»), que se muestra con **`cat`**. Alternativas: `cat /etc/os-release` (estándar en las distribuciones con systemd), `hostnamectl` o `rpm -q redhat-release`. Ojo con las opciones peligrosas: `rm -f` borraría el fichero.",
+          "option_notes": [
+            "rm -f borraría el fichero /etc/redhat-release sin pedir confirmación; no muestra nada.",
+            "El fichero se llama redhat-release, no redhat-version.",
+            null,
+            "mv mueve o renombra ficheros (y aquí le falta el destino); no muestra su contenido."
+          ],
+          "references": [],
+          "tags": [
+            "linux",
+            "rhel",
+            "version-del-sistema"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-005",
+          "number": 5,
+          "text": "Una pieza crucial en cualquier sistema informático son las BBDD. Le han informado que tanto la DCM como la CHT utilizan Oracle, pero no le han dicho la versión. ¿Qué consulta podría hacer en la base de datos para conocer esta información?",
+          "options": [
+            "`SELECT * FROM V$VERSION`",
+            "`SELECT * FROM V$VERSIONADO`",
+            "`SELECT * FROM V$VERSIONDB`",
+            "`SELECT * FROM V$VERSIONTABLE`"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "En Oracle, la vista dinámica **`V$VERSION`** muestra la versión de la base de datos y de sus componentes (`SELECT banner FROM v$version;`). Las vistas `V$` son vistas de rendimiento dinámico. Otras formas: `SELECT * FROM product_component_version;` o, desde la versión 18c, la columna `banner_full` de `v$version`. Las demás vistas no existen.",
+          "option_notes": [
+            null,
+            "V$VERSIONADO no existe en Oracle.",
+            "V$VERSIONDB no existe en Oracle.",
+            "V$VERSIONTABLE no existe en Oracle."
+          ],
+          "references": [
+            "Oracle Database Reference: V$VERSION"
+          ],
+          "tags": [
+            "oracle",
+            "administracion-de-bases-de-datos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-006",
+          "number": 6,
+          "text": "Relacionado con los sistemas de backup, le preguntan por una técnica que mejore la eficiencia del almacenamiento y reduzca su coste medio. ¿Cuál propondría?",
+          "options": [
+            "RTO",
+            "Deduplicación",
+            "RPO",
+            "Vaulting"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "La **deduplicación** detecta **bloques o ficheros repetidos** y guarda **una sola copia**, sustituyendo las demás por referencias. En las copias de seguridad, donde de un día a otro casi todo se repite, reduce mucho el espacio necesario y, con él, el **coste del almacenamiento** y el tráfico de red. Puede hacerse en el origen (antes de enviar) o en el destino. **RTO** y **RPO** son **objetivos de recuperación**, no técnicas de almacenamiento.",
+          "option_notes": [
+            "El RTO (Recovery Time Objective) es el tiempo máximo admisible para recuperar un servicio, no una técnica.",
+            null,
+            "El RPO (Recovery Point Objective) es la pérdida máxima de datos admisible, medida en tiempo.",
+            "El vaulting traslada las copias a una ubicación externa segura; protege ante desastres, pero no ahorra espacio."
+          ],
+          "references": [
+            "SNIA Dictionary: data deduplication",
+            "ISO 22301 (continuidad de negocio): RTO y RPO"
+          ],
+          "tags": [
+            "backup",
+            "deduplicacion",
+            "almacenamiento",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-007",
+          "number": 7,
+          "text": "Desde su unidad también se está valorando el uso de RAID 10, ¿cuántos discos duros son necesarios para crearlo?",
+          "options": [
+            "2 discos duros.",
+            "3 discos duros.",
+            "Al menos 4 discos duros.",
+            "Es indiferente."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "**RAID 10** (1+0) combina espejo y *striping*: los discos se agrupan **por pares en espejo (RAID 1)** y los datos se reparten entre los pares (RAID 0). Por eso necesita **al menos 4 discos**, y en número par. Ofrece buen rendimiento y tolera el fallo de un disco por cada par; su capacidad útil es la **mitad** del total.",
+          "option_notes": [
+            "Con 2 discos solo se puede montar un RAID 1 (espejo) o un RAID 0.",
+            "Con 3 discos no se pueden formar dos pares en espejo; RAID 10 necesita al menos 4.",
+            null,
+            "No es indiferente: RAID 10 exige un mínimo de 4 discos, en número par."
+          ],
+          "references": [],
+          "tags": [
+            "raid",
+            "almacenamiento"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-008",
+          "number": 8,
+          "text": "Se está hablando sobre el uso de máquinas virtuales, y le piden indicar cuál de los siguientes NO es un software de virtualización.",
+          "options": [
+            "Vmware",
+            "VirtualBox",
+            "Hyper-V",
+            "LVM"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "**LVM** (*Logical Volume Manager*) es el **gestor de volúmenes lógicos de Linux**: agrupa discos o particiones (volúmenes físicos) en **grupos de volúmenes** y los reparte en **volúmenes lógicos** que se pueden ampliar en caliente o con instantáneas. Abstrae el almacenamiento, pero **no crea máquinas virtuales**. **VMware** (vSphere/ESXi, Workstation), **VirtualBox** (Oracle) e **Hyper-V** (Microsoft) sí son software de virtualización.",
+          "option_notes": [
+            "VMware ofrece hipervisores de tipo 1 (ESXi) y de tipo 2 (Workstation).",
+            "VirtualBox es un hipervisor de tipo 2 de Oracle, de código abierto.",
+            "Hyper-V es el hipervisor de tipo 1 de Microsoft, incluido en Windows Server y Windows.",
+            null
+          ],
+          "references": [
+            "Página de manual lvm(8)"
+          ],
+          "tags": [
+            "virtualizacion",
+            "lvm",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-009",
+          "number": 9,
+          "text": "En su unidad se ha decidido utilizar Docker. ¿Cuál de los siguientes comandos deberá utilizar para mostrar la información que tiene todo el sistema sobre la instalación de Docker (nº de contenedores, las imágenes…)?",
+          "options": [
+            "`docker ps`",
+            "`docker info`",
+            "`docker inspect`",
+            "`docker systeminfo`"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.3",
+          "explanation": "**`docker info`** (o su equivalente `docker system info`) muestra **información de todo el sistema** Docker: número de **contenedores** (en ejecución, en pausa y parados), número de **imágenes**, versión del servidor, controlador de almacenamiento, memoria y CPU disponibles, etc. Otros comandos: **`docker ps`** lista los contenedores (`-a` para todos), **`docker inspect`** da el detalle en JSON de un objeto concreto y **`docker system df`** muestra el espacio ocupado.",
+          "option_notes": [
+            "docker ps solo lista contenedores (por defecto, los que están en ejecución).",
+            null,
+            "docker inspect muestra la información de bajo nivel de un objeto concreto (contenedor, imagen, red…), no la del sistema.",
+            "No existe docker systeminfo; existe docker system info, equivalente a docker info."
+          ],
+          "references": [
+            "Docker Docs: docker info (docker system info)"
+          ],
+          "tags": [
+            "docker",
+            "contenedores",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-010",
+          "number": 10,
+          "text": "En una reunión se habla del Directorio Activo. Defina en qué consiste este concepto.",
+          "options": [
+            "Es el usuario que está logado actualmente en el sistema.",
+            "Es el conjunto de políticas de grupo que se aplican a los usuarios de una red Novell.",
+            "Es un almacén de datos estructurado que permite almacenar información sobre los objetos o recursos de una red para facilitar su localización y administración.",
+            "Es un almacén de datos que contiene información de los programas software instalados en la red por la organización."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.4",
+          "explanation": "**Active Directory** (Directorio Activo, AD DS) es el **servicio de directorio de Microsoft**: un **almacén de datos estructurado** con información sobre los **objetos de la red** (usuarios, grupos, equipos, impresoras, carpetas compartidas…) que facilita su **localización y administración** centralizadas. Se organiza en **dominios, árboles y bosques**, con **unidades organizativas**, y se apoya en **LDAP**, **Kerberos** y **DNS**. Las **directivas de grupo** (GPO) se aplican sobre él.",
+          "option_notes": [
+            "El usuario que ha iniciado sesión no es el directorio, sino uno de los objetos que puede contener.",
+            "Las directivas de grupo son de Windows; el directorio de Novell era NDS/eDirectory.",
+            null,
+            "Un inventario de software instalado es otra cosa (por ejemplo, una CMDB); el directorio guarda todos los objetos de la red."
+          ],
+          "references": [
+            "Microsoft Learn: Active Directory Domain Services Overview"
+          ],
+          "tags": [
+            "active-directory",
+            "servicios-de-directorio",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-011",
+          "number": 11,
+          "text": "Le preguntan sobre las cuentas de usuario que pertenecen al grupo Administradores locales de una máquina, ¿qué comando de Windows debería utilizar?",
+          "options": [
+            "`net local administradores`",
+            "`net localgroup admin`",
+            "`net local admin`",
+            "`net localgroup administradores`"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.4",
+          "explanation": "**`net localgroup <grupo>`** muestra los miembros de un grupo local de Windows; sin argumentos lista todos los grupos locales. En un Windows en español el grupo se llama **Administradores** (en inglés, *Administrators*); de ahí `net localgroup administradores`. Para añadir un usuario: `net localgroup administradores usuario /add`. En PowerShell: `Get-LocalGroupMember -Group Administradores`.",
+          "option_notes": [
+            "net local no es un subcomando de net; el correcto es localgroup.",
+            "El grupo no se llama admin, sino Administradores (Administrators en inglés).",
+            "net local no existe y el grupo no se llama admin.",
+            null
+          ],
+          "references": [
+            "Microsoft Learn: net localgroup"
+          ],
+          "tags": [
+            "windows",
+            "usuarios",
+            "grupos-locales"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-012",
+          "number": 12,
+          "text": "Debido al elevado volumen de peticiones e incidencias que se esperan durante la integración, se está valorando implantar un sistema de gestión específico.El único requerimiento que tienen es que sea Open Source. ¿Cuál propondría?",
+          "options": [
+            "Remedy",
+            "Ticket2.0",
+            "Nagios",
+            "osTicket"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.5",
+          "explanation": "**osTicket** es un sistema de **gestión de incidencias y peticiones** (*help desk* o *ticketing*) de **código abierto** (licencia GPL): recoge solicitudes por correo, formulario web o teléfono, las convierte en tiques, las asigna a departamentos y controla los plazos (SLA). Otras alternativas libres son GLPI, Request Tracker o Znuny. **Remedy** (BMC, hoy BMC Helix) es **propietario**, y **Nagios** es una herramienta de **monitorización**, no de gestión de tiques.",
+          "option_notes": [
+            "BMC Remedy (hoy BMC Helix ITSM) es una herramienta comercial y propietaria.",
+            "«Ticket2.0» no es una herramienta reconocida de gestión de incidencias de código abierto.",
+            "Nagios es libre, pero monitoriza servicios y equipos; no gestiona peticiones e incidencias de usuarios.",
+            null
+          ],
+          "references": [
+            "osTicket (osticket.com): Open Source Support Ticket System"
+          ],
+          "tags": [
+            "gestion-de-incidencias",
+            "ticketing",
+            "software-libre",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": "tai-pi-2021-p2-s2-r1",
+          "number": 1,
+          "text": "Con el objetivo de recabar información sobre los equipos Windows, disponen de un software de inventariado que necesita acceso por el puerto 4433 (TCP) en los equipos destino. ¿Qué comando utilizaría en estos últimos para añadir la regla al firewall?",
+          "options": [
+            "`netsh advfirewall firewall create rule name= \"Inventariado\" dir=in action=allow protocol=TCP localport=4433`",
+            "`netsh advfirewall firewall add rule name= \"Inventariado\" dir=in action=permit protocol=TCP localport=4433`",
+            "`netsh advfirewall firewall add rule name= \"Inventariado\" dir=in action=allow protocol=TCP localport=4433`",
+            "`netsh advfirewall firewall new rule name= \"Inventariado\" dir=in action=allow protocol=TCP localport=4433`"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.9",
+          "explanation": "Las reglas del Firewall de Windows se crean con **`netsh advfirewall firewall add rule`**, indicando `name`, `dir` (`in`/`out`), **`action=allow`** (o `block`, `bypass`), `protocol` y `localport`: `netsh advfirewall firewall add rule name=\"Inventariado\" dir=in action=allow protocol=TCP localport=4433`. Para modificarla se usa `set rule … new …`, y para borrarla, `delete rule name=\"Inventariado\"`.",
+          "option_notes": [
+            "El verbo es add, no create.",
+            "La acción de permitir se escribe allow, no permit.",
+            null,
+            "El verbo es add, no new."
+          ],
+          "references": [
+            "Microsoft Learn: netsh advfirewall firewall"
+          ],
+          "tags": [
+            "windows",
+            "firewall",
+            "netsh"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-r2",
+          "number": 2,
+          "text": "Durante el proceso de traslado, uno de los equipos Windows más importantes de la DCM da problemas de corrupción de datos y han decidido restaurar la copia de seguridad. Le indican que el dispositivo está cifrado. ¿Qué necesita que le proporcionen para poder restaurar la copia?",
+          "options": [
+            "El certificado digital.",
+            "La clave de BitLocker.",
+            "La clave privada.",
+            "La clave de sesión."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.9",
+          "explanation": "Los equipos Windows con el disco cifrado usan **BitLocker**. Para acceder a un volumen cifrado cuando no se dispone del desbloqueo habitual (TPM, PIN) —por ejemplo, al restaurar o recuperar el equipo— se necesita la **clave de recuperación de BitLocker**, de 48 dígitos, que puede estar guardada en Active Directory, en Microsoft Entra ID, en la cuenta Microsoft, en un fichero o impresa. Por eso conviene custodiarla antes de cualquier intervención.",
+          "option_notes": [
+            "Un certificado digital no desbloquea un volumen cifrado con BitLocker.",
+            null,
+            "«La clave privada» es un término genérico de la criptografía asimétrica; BitLocker necesita su clave de recuperación.",
+            "Una clave de sesión es temporal y cifra una comunicación, no un disco."
+          ],
+          "references": [
+            "Microsoft Learn: BitLocker recovery overview"
+          ],
+          "tags": [
+            "bitlocker",
+            "cifrado",
+            "windows"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2021-p2-s2-r3",
+          "number": 3,
+          "text": "Muchas de las comunicaciones se van a realizar mediante conexiones ssh y tiene que solicitar las reglas de firewall al equipo de comunicaciones. ¿Cuál es el puerto que debe solicitar?",
+          "options": [
+            "21",
+            "63",
+            "69",
+            "22"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.9",
+          "explanation": "**SSH** (*Secure Shell*) usa por defecto el **puerto 22/TCP**: acceso remoto cifrado a la consola, transferencia de ficheros (SCP, SFTP) y túneles. De los otros puertos de la lista: el **21** es el de control de FTP y el **69**, el de TFTP (sobre UDP); el 63 no corresponde a ningún servicio habitual. Por seguridad, se recomienda autenticarse con claves y deshabilitar el acceso directo de root.",
+          "option_notes": [
+            "21 es el puerto de control de FTP.",
+            "63 no es el puerto de SSH ni de ningún servicio habitual.",
+            "69 es el puerto de TFTP (UDP).",
+            null
+          ],
+          "references": [
+            "RFC 4253",
+            "IANA Service Name and Transport Protocol Port Number Registry"
+          ],
+          "tags": [
+            "ssh",
+            "puertos",
+            "acceso-remoto"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ]
+    }
+  ]
+}

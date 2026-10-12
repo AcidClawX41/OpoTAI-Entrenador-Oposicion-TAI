@@ -1,0 +1,192 @@
+{
+  "bank_id": "tai-pi-2019",
+  "title": "TAI · Promoción interna · Convocatoria 2019 [INAP: «Convocatoria 2018», OEP 2018] (examen 19/10/2019)",
+  "description": "Ejercicio único del proceso selectivo de promoción interna en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2018). Primera parte: cuestionario de 50 preguntas (+5 de reserva). Segunda parte: un supuesto práctico a elegir entre dos (bloques III y IV), de 12 preguntas (+3 de reserva) cada uno. 90 minutos. Cuadernillo escaneado: transcrito por OCR y revisado a mano contra la imagen de cada página.",
+  "access": "promocion_interna",
+  "year": 2019,
+  "convocatoria": "pi-2019",
+  "exam_date": "2019-10-19",
+  "model": null,
+  "duration_minutes": 90,
+  "scoring_scheme": "tai-pi-2019",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 14 de junio de 2019 de la Secretaría de Estado de Función Pública (BOE 17/06/2019), rotulada por el INAP como «Convocatoria 2018» (OEP 2018); el id usa el año de la resolución (2019). El cuadernillo publicado es un escaneo sin capa de texto: el texto procede de OCR (Tesseract, caché versionada en tools/sources/ocr/) corregido tras revisar cada página contra su imagen. Se pierde la negrita del original. Se omite la portada de instrucciones. Respuestas según la plantilla definitiva.",
+    "documents": [
+      "cuadernillo.pdf",
+      "plantilla-definitiva.pdf",
+      "plantilla-provisional.pdf",
+      "criterios.pdf",
+      "fecha-lugar.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Cuestionario",
+      "block": null,
+      "questions": 50,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto del bloque III",
+      "block": "III",
+      "questions": 12,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto del bloque IV",
+      "block": "IV",
+      "questions": 12,
+      "reserve": 3
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo.pdf",
+      "ocr": true,
+      "skip_pages": [
+        1
+      ],
+      "start_section": "p1",
+      "para_gap": 5.0,
+      "ignore": [
+        "P[áa]gina ?\\d+ ?de ?\\d+$"
+      ],
+      "markers": [
+        {
+          "pattern": "(?i)^supuesto bloque [il1|!]{3}\\W*$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque [il1|!]v\\W*$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^preguntas de reserva$",
+          "reserve": true
+        }
+      ],
+      "question_x_max": 52.0,
+      "ocr_word_fixes": [
+        {
+          "page": 3,
+          "old": "bp",
+          "new": "b)",
+          "note": "Pregunta 22: etiqueta b) leída por OCR como «bp»."
+        }
+      ],
+      "figures": [
+        {
+          "page": 6,
+          "rect": [
+            60,
+            232,
+            540,
+            456
+          ]
+        }
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "file": "plantilla-definitiva.pdf",
+      "status": "definitiva",
+      "segment_gap": 35.0,
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque iii$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque iv$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    },
+    {
+      "file": "plantilla-provisional.pdf",
+      "status": "provisional",
+      "compare_only": true,
+      "segment_gap": 35.0,
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque iii$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque iv$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "verify_text": false,
+  "spot_checks": {
+    "p1-007": "A",
+    "p1-014": "C",
+    "p1-018": "C",
+    "p1-038": "D",
+    "p1-039": "B",
+    "p1-048": "D",
+    "p2-s1-003": "C",
+    "p2-s2-005": "B",
+    "p2-s2-007": "C",
+    "p2-s2-009": "C",
+    "p2-s2-r1": "C"
+  },
+  "figures": {
+    "p2-s1-statement-1": {
+      "redraw": "p2-s1-statement-1.svg",
+      "enhance": true,
+      "alt": "Modelo Entidad-Relación extendido inacabado del registro de estacionamiento: Municipio (1) – Calle (1..N), Calle (1) – TramoCalle (1..N), TipoZona (1) – Tarifa (1), y las relaciones FranjaHoraria – TipoZona y TipoZona – TramoCalle con cardinalidades por determinar (¿?); cada entidad con sus atributos.",
+      "transcription": [
+        "*Transcripción del modelo (los atributos identificadores aparecen con el círculo relleno):*",
+        "",
+        "| Entidad | Atributos |",
+        "|---|---|",
+        "| Municipio | idMunicipio (identificador) · nombre |",
+        "| FranjaHoraria | idFranja (identificador) · horaInicio · horaFin · diaSem |",
+        "| Calle | idCalle (identificador) · nombre |",
+        "| TipoZona | idZona (identificador) · nombre · tiempoMin · tiempoMax |",
+        "| Tarifa | idTarifa (identificador) · precio |",
+        "| TramoCalle | idTramoCalle (identificador) · desde · hasta · parImpar |",
+        "",
+        "| Relación | Cardinalidades rotuladas en cada extremo |",
+        "|---|---|",
+        "| Municipio – Calle | 1 junto a Municipio · 1..N junto a Calle |",
+        "| Calle – TramoCalle | 1 junto a Calle · 1..N junto a TramoCalle |",
+        "| FranjaHoraria – TipoZona | ¿? junto a FranjaHoraria · ¿? junto a TipoZona |",
+        "| TipoZona – TramoCalle | ¿? junto a TipoZona · ¿? junto a TramoCalle |",
+        "| TipoZona – Tarifa | 1 junto a TipoZona · 1 junto a Tarifa |"
+      ]
+    }
+  }
+}

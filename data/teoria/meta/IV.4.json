@@ -1,0 +1,59 @@
+{
+  "topic": "IV.4",
+  "summary": "Administración de redes locales (FCAPS, SNMP y CMIP, conmutadores y VLAN 802.1Q, port security, DHCP, DNS, NTP, 802.1X, Wi-Fi), gestión de usuarios (ciclo de vida, ENS op.acc, LDAP, Active Directory, GPO, PSO, Entra ID), gestión de dispositivos (inventario, MDM, MAM, UEM, BYOD) y monitorización y control de tráfico (Nagios, Checkmk, Zabbix, NetFlow, tcpdump, QoS, ENS op.mon).",
+  "key_points": [
+    "FCAPS: gestión de fallos, configuración, contabilidad, rendimiento y seguridad (ISO/IEC 7498-4, UIT-T M.3400); la gestión del almacenamiento no es un área.",
+    "SNMP: gestor, agente y MIB (conjunto de OID del dispositivo); UDP 161 y 162; GetBulk recupera tablas grandes; SNMPv3 es la última versión, con autenticación y cifrado (USM). CMIP es el protocolo de gestión OSI.",
+    "VLAN 802.1Q: los troncales llevan tramas etiquetadas con el VLAN ID; un PC va en un puerto con switchport mode access y switchport access vlan N; la MAC sticky se aprende y pasa a la configuración en ejecución.",
+    "ENS op.acc: identificador singular por rol, todo prohibido salvo autorización, mínimo privilegio, necesidad de conocer, segregación de funciones, bloqueo tras intentos fallidos y doble factor desde zonas no controladas.",
+    "Directorio = almacén estructurado de objetos de la red; LDAP 389/636; Active Directory con bosques, dominios, UO, DC, sitios, catálogo global y roles FSMO, apoyado en DNS y Kerberos.",
+    "GPO vinculadas a sitio, dominio o UO (orden local, sitio, dominio, UO); se crea primero una UO para el colectivo; gpresult muestra el RSoP; los PSO dan contraseñas distintas dentro del mismo dominio.",
+    "Herramientas de AD: dsa.msc para usuarios y grupos, Install-WindowsFeature AD-Domain-Services, Install-ADDSForest, New-ADReplicationSite, repadmin /replsummary y dcdiag.",
+    "Dispositivos móviles: MDM gestiona el dispositivo y MAM las aplicaciones; enrolar es asociar en el MDM cada dispositivo a su usuario; BYOD = Bring Your Own Device; Jamf es exclusivo de Apple.",
+    "Monitorización: Nagios (nagios -v para verificar), Checkmk, Zabbix, Prometheus y Grafana, Datadog; flujos NetFlow, IPFIX y sFlow; captura con tcpdump -i eth1 -w fichero.",
+    "Control del tráfico: QoS (DSCP, 802.1p), policing y shaping, ACL, storm control, DHCP snooping, DAI, 802.1X; ENS op.mon exige detección de intrusión, métricas y vigilancia."
+  ],
+  "sources": [
+    {
+      "title": "RFC 3411 · Arquitectura de SNMP",
+      "url": "https://www.rfc-editor.org/rfc/rfc3411"
+    },
+    {
+      "title": "RFC 3416 · Operaciones de SNMPv2",
+      "url": "https://www.rfc-editor.org/rfc/rfc3416"
+    },
+    {
+      "title": "UIT-T M.3400 · Funciones de gestión TMN",
+      "url": "https://www.itu.int/rec/T-REC-M.3400"
+    },
+    {
+      "title": "IEEE 802.1Q",
+      "url": "https://standards.ieee.org/ieee/802.1Q/10323/"
+    },
+    {
+      "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+    },
+    {
+      "title": "Cisco · Port security (Catalyst 9300)",
+      "url": "https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/17-12/configuration_guide/sec/b_1712_sec_9300_cg/port_security.html"
+    },
+    {
+      "title": "Microsoft Learn · Directivas de contraseña específicas",
+      "url": "https://learn.microsoft.com/es-es/windows-server/identity/ad-ds/get-started/adac/fine-grained-password-policies"
+    },
+    {
+      "title": "Microsoft Learn · New-ADReplicationSite",
+      "url": "https://learn.microsoft.com/es-es/powershell/module/activedirectory/new-adreplicationsite"
+    },
+    {
+      "title": "Nagios Core · Verificar la configuración",
+      "url": "https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/verifyconfig.html"
+    },
+    {
+      "title": "tcpdump · Página de manual",
+      "url": "https://www.tcpdump.org/manpages/tcpdump.1.html"
+    }
+  ],
+  "updated": "2026-10-11"
+}

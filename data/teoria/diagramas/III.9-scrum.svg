@@ -1,0 +1,88 @@
+<!-- opotai.diagrams: tools/sources/diagramas/III.9/scrum.svg sha256=159bce9ee71aea29 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 602" width="900" height="602" font-family="Inter, system-ui, sans-serif" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Scrum: equipo, eventos y artefactos</title>
+  <desc id="desc">Del Product Backlog, el Sprint Planning elabora el Sprint Backlog; durante el sprint de un mes o menos hay un Daily Scrum de 15 minutos; se obtiene un incremento que se inspecciona en la Sprint Review, y la Sprint Retrospective propone mejoras. Debajo, el Product Owner, el Scrum Master y los Developers.</desc>
+  <defs>
+    <marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+    <marker id="flv" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="602" rx="14" fill="#ffffff"/>
+  <text x="30" y="40" font-size="21" font-weight="700" fill="#1f2937">Scrum: equipo, eventos y artefactos (Guía de Scrum, 2020)</text>
+  <text x="30" y="62" font-size="13" fill="#475569">Marco empírico basado en transparencia, inspección y adaptación; duraciones máximas para un sprint de un mes</text>
+  <rect x="40" y="150" width="140" height="90" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+  <rect x="35" y="155" width="140" height="90" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+  <rect x="30" y="160" width="140" height="90" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="100" y="199" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2937">Product</text>
+  <text x="100" y="217" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2937">Backlog</text>
+  <text x="100" y="237" font-size="13" text-anchor="middle" fill="#475569">lista ordenada</text>
+  <text x="105" y="276" font-size="13" text-anchor="middle" fill="#475569">Compromiso:</text>
+  <text x="105" y="293" font-size="13" font-weight="600" text-anchor="middle" font-style="italic" fill="#1f2937">Objetivo del producto</text>
+  <path d="M184,205 H200" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="202" y="177" width="120" height="56" rx="28" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="262" y="201" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">Sprint</text>
+  <text x="262" y="219" font-size="13" text-anchor="middle" fill="#1f2937">Planning · 8 h</text>
+  <path d="M324,205 H342" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="354" y="150" width="140" height="90" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+  <rect x="349" y="155" width="140" height="90" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+  <rect x="344" y="160" width="140" height="90" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="414" y="199" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2937">Sprint</text>
+  <text x="414" y="217" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2937">Backlog</text>
+  <text x="414" y="237" font-size="13" text-anchor="middle" fill="#475569">elementos + plan</text>
+  <text x="419" y="276" font-size="13" text-anchor="middle" fill="#475569">Compromiso:</text>
+  <text x="419" y="293" font-size="13" font-weight="600" text-anchor="middle" font-style="italic" fill="#1f2937">Objetivo del sprint</text>
+  <path d="M498,205 H520" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <circle cx="600" cy="205" r="76" fill="#ede9fe"/>
+  <path d="M524,205 A76,76 0 1,1 600,281" fill="none" stroke="#7c3aed" stroke-width="2.2" marker-end="url(#flv)"/>
+  <path d="M600,281 A76,76 0 0,1 524,205" fill="none" stroke="#7c3aed" stroke-width="2.2"/>
+  <text x="600" y="193" font-size="17" font-weight="700" text-anchor="middle" fill="#1f2937">Sprint</text>
+  <text x="600" y="213" font-size="13" text-anchor="middle" fill="#1f2937">un mes o menos</text>
+  <text x="600" y="231" font-size="13" text-anchor="middle" fill="#475569">contiene los</text>
+  <text x="600" y="247" font-size="13" text-anchor="middle" fill="#475569">demás eventos</text>
+  <line x1="654" y1="151" x2="673" y2="129" stroke="#7c3aed" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <circle cx="690" cy="112" r="24" fill="#ede9fe"/>
+  <path d="M666,112 A24,24 0 1,1 690,136" fill="none" stroke="#7c3aed" stroke-width="2" marker-end="url(#flv)"/>
+  <text x="690" y="117" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">24 h</text>
+  <text x="724" y="108" font-size="14" font-weight="700" fill="#1f2937">Daily Scrum</text>
+  <text x="724" y="126" font-size="13" fill="#1f2937">15 min cada día</text>
+  <path d="M678,205 H712" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="714" y="165" width="156" height="80" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="792" y="199" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2937">Incremento</text>
+  <text x="792" y="219" font-size="13" text-anchor="middle" fill="#475569">utilizable</text>
+  <text x="792" y="276" font-size="13" text-anchor="middle" fill="#475569">Compromiso:</text>
+  <text x="792" y="293" font-size="13" font-weight="600" text-anchor="middle" font-style="italic" fill="#1f2937">Definición de Terminado</text>
+  <path d="M792,300 V326" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="714" y="328" width="156" height="56" rx="28" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="792" y="352" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">Sprint Review</text>
+  <text x="792" y="370" font-size="13" text-anchor="middle" fill="#1f2937">4 h</text>
+  <path d="M712,356 H668" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="486" y="328" width="180" height="56" rx="28" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="576" y="352" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">Sprint Retrospective</text>
+  <text x="576" y="370" font-size="13" text-anchor="middle" fill="#1f2937">3 h</text>
+  <path d="M576,326 V285" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <text x="568" y="312" font-size="13" text-anchor="end" fill="#475569">mejoras para el</text>
+  <text x="568" y="327" font-size="13" text-anchor="end" fill="#475569">siguiente sprint</text>
+  <path d="M792,384 V404 H100 V302" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <text x="300" y="398" font-size="13" text-anchor="middle" fill="#475569">la revisión adapta el Product Backlog</text>
+  <text x="30" y="440" font-size="14" font-weight="700" fill="#1f2937">Equipo Scrum: 10 personas o menos, multifuncional y autogestionado, sin jerarquías ni subequipos</text>
+  <rect x="30" y="454" width="270" height="92" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="44" y="476" font-size="15" font-weight="700" fill="#1f2937">Product Owner</text>
+  <text x="44" y="496" font-size="13" fill="#1f2937">Una sola persona: maximiza</text>
+  <text x="44" y="513" font-size="13" fill="#1f2937">el valor del producto y</text>
+  <text x="44" y="530" font-size="13" fill="#1f2937">gestiona el Product Backlog</text>
+  <rect x="315" y="454" width="270" height="92" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="329" y="476" font-size="15" font-weight="700" fill="#1f2937">Scrum Master</text>
+  <text x="329" y="496" font-size="13" fill="#1f2937">Líder al servicio del equipo:</text>
+  <text x="329" y="513" font-size="13" fill="#1f2937">enseña Scrum y elimina</text>
+  <text x="329" y="530" font-size="13" fill="#1f2937">impedimentos</text>
+  <rect x="600" y="454" width="270" height="92" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="614" y="476" font-size="15" font-weight="700" fill="#1f2937">Developers</text>
+  <text x="614" y="496" font-size="13" fill="#1f2937">Crean cada incremento y</text>
+  <text x="614" y="513" font-size="13" fill="#1f2937">el Sprint Backlog; cuidan</text>
+  <text x="614" y="530" font-size="13" fill="#1f2937">la Definición de Terminado</text>
+  <rect x="30" y="568" width="22" height="16" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="60" y="581" font-size="13" fill="#1f2937">Artefactos</text>
+  <rect x="200" y="568" width="22" height="16" rx="4" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="230" y="581" font-size="13" fill="#1f2937">Eventos</text>
+  <rect x="370" y="568" width="22" height="16" rx="4" fill="#d1fae5" stroke="#059669" stroke-width="1.2"/>
+  <text x="400" y="581" font-size="13" fill="#1f2937">Responsabilidades</text>
+</svg>

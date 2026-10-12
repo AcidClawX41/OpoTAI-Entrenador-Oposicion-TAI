@@ -1,0 +1,29 @@
+{
+  "topic": "I.4",
+  "summary": "Régimen del empleo público según el TREBEP y la normativa de la AGE (clases de personal, derechos y deberes, carrera, provisión, situaciones, incompatibilidades y régimen disciplinario), la Ley 19/2013 de transparencia, acceso a la información y buen gobierno con el CTBG y el gobierno abierto, y la Agenda 2030 con sus 17 ODS.",
+  "key_points": [
+    "TREBEP (RDL 5/2015): funcionarios de carrera, interinos, laborales y eventuales; grupos A1, A2, B, C1 y C2 (TAI = C1); en la AGE sigue aplicándose la Ley 30/1984 en provisión y retribuciones (DF 4.ª).",
+    "Provisión: igualdad, mérito, capacidad y publicidad; concurso (sistema normal) y libre designación con convocatoria pública; comisión de servicios máximo 1 año prorrogable otro.",
+    "Promoción interna: 2 años de servicio activo en el subgrupo inferior; grado personal en 30 niveles, consolidado con 2 años continuados o 3 con interrupción.",
+    "Situaciones: servicio activo, servicios especiales, servicio en otras AA. PP., excedencias y suspensión de funciones (provisional máx. 6 meses; firme máx. 6 años).",
+    "Incompatibilidades (Ley 53/1984): un solo puesto público salvo excepciones; las resoluciones de compatibilidad se inscriben en los Registros de Personal.",
+    "Disciplinario: faltas muy graves, graves y leves prescriben a los 3 años, 2 años y 6 meses; la separación del servicio solo por falta muy grave.",
+    "Ley 19/2013: acceso de todas las personas sin motivar; resolución en 1 mes (+1) con silencio desestimatorio; reclamación potestativa al CTBG en 1 mes, que resuelve en 3 meses.",
+    "Comisión de Transparencia y Buen Gobierno: Presidente, un diputado, un senador y representantes del Tribunal de Cuentas, Defensor del Pueblo, AEPD, Secretaría de Estado y AIReF.",
+    "Portal de la Transparencia: principios de accesibilidad, interoperabilidad y reutilización; CTBG autoridad administrativa independiente (RD 615/2024).",
+    "Agenda 2030: ONU 25-9-2015, 17 ODS y 169 metas, 5 P; ODS 1 Fin de la pobreza; EDS 2030 aprobada el 8-6-2021."
+  ],
+  "sources": [
+    { "title": "Real Decreto Legislativo 5/2015, TREBEP", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719" },
+    { "title": "Ley 30/1984, de Medidas para la Reforma de la Función Pública", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-17387" },
+    { "title": "Real Decreto 364/1995, Reglamento General de Ingreso y Provisión", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729" },
+    { "title": "Real Decreto 365/1995, Reglamento de Situaciones Administrativas", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-8730" },
+    { "title": "Real Decreto 33/1986, Reglamento de Régimen Disciplinario", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-1216" },
+    { "title": "Ley 53/1984, de Incompatibilidades", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-151" },
+    { "title": "Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887" },
+    { "title": "Real Decreto 615/2024, Estatuto del Consejo de Transparencia y Buen Gobierno", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15944" },
+    { "title": "Real Decreto 371/2026, Foro de Gobierno Abierto", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880" },
+    { "title": "Naciones Unidas, Resolución A/RES/70/1 (Agenda 2030)", "url": "https://docs.un.org/es/A/RES/70/1" }
+  ],
+  "updated": "2026-10-11"
+}

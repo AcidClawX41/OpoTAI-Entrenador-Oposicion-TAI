@@ -1,0 +1,629 @@
+{
+  "schema_version": 1,
+  "id": "tai-test-2024",
+  "kind": "official",
+  "title": "TAI · Ingreso libre · Convocatoria de prueba 2024 (examen 14/12/2024)",
+  "description": null,
+  "access": "libre",
+  "year": 2024,
+  "convocatoria": "li-test",
+  "exam_date": "2024-12-14",
+  "model": "A",
+  "duration_minutes": 60,
+  "scoring_scheme": "tai-test",
+  "source": {
+    "publisher": "Fixture sintético",
+    "documents": [
+      {
+        "kind": "cuadernillo",
+        "title": "Cuadernillo",
+        "url": "https://example.org/cuadernillo.pdf",
+        "sha256": null
+      }
+    ],
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": null
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Cuestionario",
+      "block": null,
+      "statement": null,
+      "media": [],
+      "questions": [
+        {
+          "id": "tai-test-2024-p1-001",
+          "number": 1,
+          "text": "Pregunta oficial 1 del cuestionario",
+          "options": [
+            "Pregunta oficial 1 del cuestionario · opción A",
+            "Pregunta oficial 1 del cuestionario · opción B",
+            "Pregunta oficial 1 del cuestionario · opción C",
+            "Pregunta oficial 1 del cuestionario · opción D"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "I.1",
+          "explanation": "Explicación de la pregunta 1.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-002",
+          "number": 2,
+          "text": "Pregunta oficial 2 del cuestionario",
+          "options": [
+            "Pregunta oficial 2 del cuestionario · opción A",
+            "Pregunta oficial 2 del cuestionario · opción B",
+            "Pregunta oficial 2 del cuestionario · opción C",
+            "Pregunta oficial 2 del cuestionario · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "I.2",
+          "explanation": "Explicación de la pregunta 2.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-003",
+          "number": 3,
+          "text": "Pregunta oficial 3 del cuestionario",
+          "options": [
+            "Pregunta oficial 3 del cuestionario · opción A",
+            "Pregunta oficial 3 del cuestionario · opción B",
+            "Pregunta oficial 3 del cuestionario · opción C",
+            "Pregunta oficial 3 del cuestionario · opción D"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "II.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-004",
+          "number": 4,
+          "text": "Pregunta oficial 4 del cuestionario",
+          "options": [
+            "Pregunta oficial 4 del cuestionario · opción A",
+            "Pregunta oficial 4 del cuestionario · opción B",
+            "Pregunta oficial 4 del cuestionario · opción C",
+            "Pregunta oficial 4 del cuestionario · opción D"
+          ],
+          "answer": "D",
+          "annulled": true,
+          "topic": "III.1",
+          "explanation": "Explicación de la pregunta 4.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-005",
+          "number": 5,
+          "text": "Pregunta oficial 5 del cuestionario",
+          "options": [
+            "Pregunta oficial 5 del cuestionario · opción A",
+            "Pregunta oficial 5 del cuestionario · opción B",
+            "Pregunta oficial 5 del cuestionario · opción C",
+            "Pregunta oficial 5 del cuestionario · opción D"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.2",
+          "explanation": "Explicación de la pregunta 5.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-006",
+          "number": 6,
+          "text": "Pregunta oficial 6 del cuestionario",
+          "options": [
+            "Pregunta oficial 6 del cuestionario · opción A",
+            "Pregunta oficial 6 del cuestionario · opción B",
+            "Pregunta oficial 6 del cuestionario · opción C",
+            "Pregunta oficial 6 del cuestionario · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "Explicación de la pregunta 6.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-007",
+          "number": 7,
+          "text": "Pregunta oficial 7 del cuestionario",
+          "options": [
+            "Pregunta oficial 7 del cuestionario · opción A",
+            "Pregunta oficial 7 del cuestionario · opción B",
+            "Pregunta oficial 7 del cuestionario · opción C",
+            "Pregunta oficial 7 del cuestionario · opción D"
+          ],
+          "answer": null,
+          "annulled": true,
+          "topic": "IV.2",
+          "explanation": "Explicación de la pregunta 7.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-008",
+          "number": 8,
+          "text": "Pregunta oficial 8 del cuestionario",
+          "options": [
+            "Pregunta oficial 8 del cuestionario · opción A",
+            "Pregunta oficial 8 del cuestionario · opción B",
+            "Pregunta oficial 8 del cuestionario · opción C",
+            "Pregunta oficial 8 del cuestionario · opción D"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.3",
+          "explanation": "Explicación de la pregunta 8.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-009",
+          "number": 9,
+          "text": "Pregunta oficial 9 del cuestionario",
+          "options": [
+            "Pregunta oficial 9 del cuestionario · opción A",
+            "Pregunta oficial 9 del cuestionario · opción B",
+            "Pregunta oficial 9 del cuestionario · opción C",
+            "Pregunta oficial 9 del cuestionario · opción D"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "I.1",
+          "explanation": "Explicación de la pregunta 9.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-010",
+          "number": 10,
+          "text": "Pregunta oficial 10 del cuestionario",
+          "options": [
+            "Pregunta oficial 10 del cuestionario · opción A",
+            "Pregunta oficial 10 del cuestionario · opción B",
+            "Pregunta oficial 10 del cuestionario · opción C",
+            "Pregunta oficial 10 del cuestionario · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "II.2",
+          "explanation": "Explicación de la pregunta 10.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": "tai-test-2024-p1-r1",
+          "number": 1,
+          "text": "Reserva 1 del cuestionario",
+          "options": [
+            "Reserva 1 del cuestionario · opción A",
+            "Reserva 1 del cuestionario · opción B",
+            "Reserva 1 del cuestionario · opción C",
+            "Reserva 1 del cuestionario · opción D"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "Reserva 1.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-r2",
+          "number": 2,
+          "text": "Reserva 2 del cuestionario (anulada)",
+          "options": [
+            "Reserva 2 del cuestionario (anulada) · opción A",
+            "Reserva 2 del cuestionario (anulada) · opción B",
+            "Reserva 2 del cuestionario (anulada) · opción C",
+            "Reserva 2 del cuestionario (anulada) · opción D"
+          ],
+          "answer": "D",
+          "annulled": true,
+          "topic": "IV.2",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p1-r3",
+          "number": 3,
+          "text": "Reserva 3 del cuestionario",
+          "options": [
+            "Reserva 3 del cuestionario · opción A",
+            "Reserva 3 del cuestionario · opción B",
+            "Reserva 3 del cuestionario · opción C",
+            "Reserva 3 del cuestionario · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "I.2",
+          "explanation": "Reserva 3.",
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Supuesto práctico 1 (Bloque III)",
+      "block": "III",
+      "statement": "Una red corporativa. Esquema: ![esquema de red](assets/tai-test-2024/red.png)",
+      "media": [
+        {
+          "path": "assets/tai-test-2024/red.png",
+          "alt": "Esquema de red"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tai-test-2024-p2-s1-001",
+          "number": 1,
+          "text": "Supuesto III · pregunta 1",
+          "options": [
+            "Supuesto III · pregunta 1 · opción A",
+            "Supuesto III · pregunta 1 · opción B",
+            "Supuesto III · pregunta 1 · opción C",
+            "Supuesto III · pregunta 1 · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p2-s1-002",
+          "number": 2,
+          "text": "Supuesto III · pregunta 2",
+          "options": [
+            "Supuesto III · pregunta 2 · opción A",
+            "Supuesto III · pregunta 2 · opción B",
+            "Supuesto III · pregunta 2 · opción C",
+            "Supuesto III · pregunta 2 · opción D"
+          ],
+          "answer": "C",
+          "annulled": true,
+          "topic": "III.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p2-s1-003",
+          "number": 3,
+          "text": "Supuesto III · pregunta 3",
+          "options": [
+            "Supuesto III · pregunta 3 · opción A",
+            "Supuesto III · pregunta 3 · opción B",
+            "Supuesto III · pregunta 3 · opción C",
+            "Supuesto III · pregunta 3 · opción D"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p2-s1-004",
+          "number": 4,
+          "text": "Supuesto III · pregunta 4",
+          "options": [
+            "Supuesto III · pregunta 4 · opción A",
+            "Supuesto III · pregunta 4 · opción B",
+            "Supuesto III · pregunta 4 · opción C",
+            "Supuesto III · pregunta 4 · opción D"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": "tai-test-2024-p2-s1-r1",
+          "number": 1,
+          "text": "Supuesto III · reserva 1",
+          "options": [
+            "Supuesto III · reserva 1 · opción A",
+            "Supuesto III · reserva 1 · opción B",
+            "Supuesto III · reserva 1 · opción C",
+            "Supuesto III · reserva 1 · opción D"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p2-s1-r2",
+          "number": 2,
+          "text": "Supuesto III · reserva 2",
+          "options": [
+            "Supuesto III · reserva 2 · opción A",
+            "Supuesto III · reserva 2 · opción B",
+            "Supuesto III · reserva 2 · opción C",
+            "Supuesto III · reserva 2 · opción D"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Supuesto práctico 2 (Bloque IV)",
+      "block": "IV",
+      "statement": "Un servicio web con una base de datos.",
+      "media": [],
+      "questions": [
+        {
+          "id": "tai-test-2024-p2-s2-001",
+          "number": 1,
+          "text": "Supuesto IV · pregunta 1",
+          "options": [
+            "Supuesto IV · pregunta 1 · opción A",
+            "Topología en estrella: ![opción B](assets/tai-test-2024/opt.png)",
+            "Supuesto IV · pregunta 1 · opción C",
+            "Supuesto IV · pregunta 1 · opción D"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "Fíjate en el diagrama: ![diagrama](assets/tai-test-2024/red.png)",
+          "option_notes": [
+            null,
+            "La figura muestra ![estrella](assets/tai-test-2024/opt.png)",
+            null,
+            null
+          ],
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p2-s2-002",
+          "number": 2,
+          "text": "Supuesto IV · pregunta 2",
+          "options": [
+            "Supuesto IV · pregunta 2 · opción A",
+            "Supuesto IV · pregunta 2 · opción B",
+            "Supuesto IV · pregunta 2 · opción C",
+            "Supuesto IV · pregunta 2 · opción D"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p2-s2-003",
+          "number": 3,
+          "text": "Supuesto IV · pregunta 3",
+          "options": [
+            "Supuesto IV · pregunta 3 · opción A",
+            "Supuesto IV · pregunta 3 · opción B",
+            "Supuesto IV · pregunta 3 · opción C",
+            "Supuesto IV · pregunta 3 · opción D"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p2-s2-004",
+          "number": 4,
+          "text": "Supuesto IV · pregunta 4",
+          "options": [
+            "Supuesto IV · pregunta 4 · opción A",
+            "Supuesto IV · pregunta 4 · opción B",
+            "Supuesto IV · pregunta 4 · opción C",
+            "Supuesto IV · pregunta 4 · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": "tai-test-2024-p2-s2-r1",
+          "number": 1,
+          "text": "Supuesto IV · reserva 1",
+          "options": [
+            "Supuesto IV · reserva 1 · opción A",
+            "Supuesto IV · reserva 1 · opción B",
+            "Supuesto IV · reserva 1 · opción C",
+            "Supuesto IV · reserva 1 · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2024-p2-s2-r2",
+          "number": 2,
+          "text": "Supuesto IV · reserva 2",
+          "options": [
+            "Supuesto IV · reserva 2 · opción A",
+            "Supuesto IV · reserva 2 · opción B",
+            "Supuesto IV · reserva 2 · opción C",
+            "Supuesto IV · reserva 2 · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+%% III.4 · Diagrama de clases UML del ejercicio resuelto (con el patrón Observer).
+%% Las implementaciones de Notificador redefinen notificar(), que se omite en ellas.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+classDiagram
+    class Ciudadano {
+        <<abstract>>
+        -nombre : String
+        -correo : String
+        +presentar(s) void
+    }
+    class PersonaFisica {
+        -nif : String
+    }
+    class PersonaJuridica {
+        -cif : String
+        -representante : String
+    }
+    class Solicitud {
+        -id : Long
+        -fecha : LocalDate
+        -estado : Estado
+        +cambiarEstado(e : Estado) void
+        +suscribir(o) void
+    }
+    class Documento {
+        -nombre : String
+        -huella : String
+    }
+    class Unidad {
+        -codigoDir3 : String
+        -nombre : String
+    }
+    class Notificador {
+        <<interface>>
+        +notificar(s) void
+    }
+    class NotificadorCorreo
+    class NotificadorCarpeta
+
+    Ciudadano <|-- PersonaFisica
+    Ciudadano <|-- PersonaJuridica
+    Ciudadano "1" -- "0..*" Solicitud : presenta
+    Unidad "1" -- "0..*" Solicitud : tramita
+    Solicitud "1" *-- "1..*" Documento : contiene
+    Solicitud "1" o-- "0..*" Notificador : observadores
+    Notificador <|.. NotificadorCorreo
+    Notificador <|.. NotificadorCarpeta

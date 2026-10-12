@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "id": "tai-test-2023",
+  "kind": "official",
+  "title": "TAI · Ingreso libre · Convocatoria de prueba 2023 (solo cuestionario)",
+  "description": null,
+  "access": "libre",
+  "year": 2023,
+  "convocatoria": "li-test",
+  "exam_date": "2023-09-17",
+  "model": null,
+  "duration_minutes": 60,
+  "scoring_scheme": "tai-test",
+  "source": {
+    "publisher": "Fixture sintético",
+    "documents": [
+      {
+        "kind": "cuadernillo",
+        "title": "Cuadernillo",
+        "url": "https://example.org/cuadernillo.pdf",
+        "sha256": null
+      }
+    ],
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": null
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte",
+      "block": null,
+      "statement": null,
+      "media": [],
+      "questions": [
+        {
+          "id": "tai-test-2023-p1-001",
+          "number": 1,
+          "text": "Pregunta 2023 número 1",
+          "options": [
+            "Pregunta 2023 número 1 · opción A",
+            "Pregunta 2023 número 1 · opción B",
+            "Pregunta 2023 número 1 · opción C",
+            "Pregunta 2023 número 1 · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "I.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2023-p1-002",
+          "number": 2,
+          "text": "Pregunta 2023 número 2",
+          "options": [
+            "Pregunta 2023 número 2 · opción A",
+            "Pregunta 2023 número 2 · opción B",
+            "Pregunta 2023 número 2 · opción C",
+            "Pregunta 2023 número 2 · opción D"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "II.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2023-p1-003",
+          "number": 3,
+          "text": "Pregunta 2023 número 3",
+          "options": [
+            "Pregunta 2023 número 3 · opción A",
+            "Pregunta 2023 número 3 · opción B",
+            "Pregunta 2023 número 3 · opción C",
+            "Pregunta 2023 número 3 · opción D"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2023-p1-004",
+          "number": 4,
+          "text": "Pregunta 2023 número 4",
+          "options": [
+            "Pregunta 2023 número 4 · opción A",
+            "Pregunta 2023 número 4 · opción B",
+            "Pregunta 2023 número 4 · opción C",
+            "Pregunta 2023 número 4 · opción D"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-test-2023-p1-005",
+          "number": 5,
+          "text": "Pregunta 2023 número 5",
+          "options": [
+            "Pregunta 2023 número 5 · opción A",
+            "Pregunta 2023 número 5 · opción B",
+            "Pregunta 2023 número 5 · opción C",
+            "Pregunta 2023 número 5 · opción D"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.3",
+          "explanation": null,
+          "option_notes": null,
+          "references": [],
+          "tags": [],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": []
+    }
+  ]
+}

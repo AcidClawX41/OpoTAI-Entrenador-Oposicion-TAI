@@ -1,0 +1,27 @@
+{
+  "topic": "I.9",
+  "summary": "Instrumentos de acceso electrónico a las Administraciones (sedes y portales, PAGe, Carpeta Ciudadana y canales de asistencia), sistemas de identificación, autenticación, firma y representación de Administraciones e interesados (Cl@ve, sello, CSV, funcionarios habilitados, apoderamientos) e infraestructuras y servicios comunes de administración electrónica (Red SARA, SIR, DEHú, Plataforma de Intermediación, @firma y otros).",
+  "key_points": [
+    "La sede electrónica es una dirección de titularidad pública identificada con certificado cualificado de sitio web; la sede asociada vale como sede a todos los efectos y las antiguas sedes ministeriales son hoy sedes asociadas a la del PAGe.",
+    "Contenido mínimo de la sede (art. 11 RD 203/2021): identificación, acto de creación, mapa, sistemas de identificación y firma, normativa del registro, fecha y hora oficial, días inhábiles, incidencias, trámites y actuaciones automatizadas.",
+    "Canales de asistencia (art. 4 RD 203/2021): presencial, portales y sedes, redes sociales, teléfono, correo electrónico y otros; la cita previa no es un canal.",
+    "La Carpeta Ciudadana es el área personalizada accesible por la sede del PAGe: seguimiento de los propios trámites, notificaciones, datos con las limitaciones legales y certificados.",
+    "Identificación de los interesados con certificados cualificados de firma o sello o con claves concertadas; desde la Ley 11/2022 estas requieren comunicación previa y dos meses, con recursos técnicos en la UE.",
+    "Cl@ve: dos niveles de registro (básico y avanzado) y dos modalidades (Cl@ve PIN, esporádica, y Cl@ve permanente, habitual con OTP); la firma con certificados centralizados exige nivel avanzado y los certificados los emite la DGP.",
+    "El Registro de Funcionarios Habilitados de la AGE inscribe a quienes identifican y firman por los interesados o expiden copias auténticas, y es interoperable con los registros de comunidades autónomas y entidades locales.",
+    "Representación: apud acta, Registro Electrónico de Apoderamientos (Apodera), certificado de representante o documento notarial; los poderes inscritos valen un máximo de 5 años.",
+    "Infraestructuras comunes: Red SARA, NubeSARA, SIR con ORVE y GEISER, DIR3, SIA, Notifica y DEHú, Plataforma de Intermediación con SCSPv3, InSide, Archive y FACe.",
+    "Firma y gestión interna: @firma valida, Autofirma firma en el escritorio, FIRe unifica la firma local y en la nube, Port@firmas gestiona flujos, eVisor genera copias en papel, NEDAES calcula la nómina, Servinómina la muestra y CIRCABC sirve para el trabajo colaborativo."
+  ],
+  "sources": [
+    { "title": "Real Decreto 203/2021, Reglamento de actuación y funcionamiento del sector público por medios electrónicos", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032" },
+    { "title": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565" },
+    { "title": "Ley 40/2015, de Régimen Jurídico del Sector Público", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566" },
+    { "title": "Orden PRE/1838/2014, Acuerdo del Consejo de Ministros por el que se aprueba Cl@ve", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-10264" },
+    { "title": "Resolución de 14 de diciembre de 2015, prescripciones técnicas del sistema Cl@ve", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-14215" },
+    { "title": "Real Decreto 1125/2024, organización e instrumentos operativos de la Administración Digital del Estado", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-22935" },
+    { "title": "Centro de Transferencia de Tecnología (CTT)", "url": "https://administracionelectronica.gob.es/pae_Home/pae_SolucionesCTT.html" },
+    { "title": "CCN-CERT: soluciones de ciberseguridad", "url": "https://www.ccn-cert.cni.es/es/soluciones-seguridad.html" }
+  ],
+  "updated": "2026-10-11"
+}

@@ -1,0 +1,19 @@
+%% III.4 · Diagrama de secuencia UML: presentación electrónica de una solicitud.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+sequenceDiagram
+    actor C as Ciudadano
+    participant S as Sede
+    participant ID as Cl@ve
+    participant F as AutoFirma
+    participant R as Registro
+    C->>S: accede al trámite
+    S->>+ID: identificación
+    ID-->>-S: identidad verificada
+    C->>S: formulario y<br/>documentos
+    S->>+F: firmar la solicitud
+    F->>C: pide certificado<br/>y PIN
+    C-->>F: confirma
+    F-->>-S: solicitud firmada
+    S->>+R: registrar
+    R-->>-S: número, fecha y hora
+    S-->>C: justificante

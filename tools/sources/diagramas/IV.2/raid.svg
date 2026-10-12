@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 578" width="900" height="578" role="img" aria-labelledby="t d">
+  <title id="t">Niveles RAID 0, 1, 10, 5 y 6</title>
+  <desc id="d">Reparto de bloques por disco. RAID 0: bandas sin redundancia (capacidad n × C, no tolera fallos). RAID 1: espejo (capacidad C, tolera n − 1 fallos). RAID 10: bandas sobre parejas en espejo (n × C / 2, un fallo por espejo). RAID 5: paridad distribuida rotando entre discos ((n − 1) × C, un fallo). RAID 6: doble paridad P y Q distribuida ((n − 2) × C, dos fallos).</desc>
+  <rect x="0" y="0" width="900" height="578" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <rect x="24.0" y="10" width="206" height="256" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="38.0" y="36" font-size="16" font-weight="700">RAID 0</text>
+    <text x="38.0" y="56" font-size="13" fill="#475569">bandas · n × C · ningún fallo</text>
+    <text x="80.0" y="82" font-size="13" fill="#475569" text-anchor="middle">Disco 0</text>
+    <rect x="38.0" y="90" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="46.0" y="96" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="80.0" y="113" font-size="14" text-anchor="middle" font-weight="600">A1</text>
+    <rect x="46.0" y="126" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="80.0" y="143" font-size="14" text-anchor="middle" font-weight="600">A3</text>
+    <rect x="46.0" y="156" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="80.0" y="173" font-size="14" text-anchor="middle" font-weight="600">A5</text>
+    <rect x="46.0" y="186" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="80.0" y="203" font-size="14" text-anchor="middle" font-weight="600">A7</text>
+    <text x="174.0" y="82" font-size="13" fill="#475569" text-anchor="middle">Disco 1</text>
+    <rect x="132.0" y="90" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="140.0" y="96" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="174.0" y="113" font-size="14" text-anchor="middle" font-weight="600">A2</text>
+    <rect x="140.0" y="126" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="174.0" y="143" font-size="14" text-anchor="middle" font-weight="600">A4</text>
+    <rect x="140.0" y="156" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="174.0" y="173" font-size="14" text-anchor="middle" font-weight="600">A6</text>
+    <rect x="140.0" y="186" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="174.0" y="203" font-size="14" text-anchor="middle" font-weight="600">A8</text>
+    <rect x="248.0" y="10" width="206" height="256" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="262.0" y="36" font-size="16" font-weight="700">RAID 1</text>
+    <text x="262.0" y="56" font-size="13" fill="#475569">espejo · C · n − 1 fallos</text>
+    <text x="304.0" y="82" font-size="13" fill="#475569" text-anchor="middle">Disco 0</text>
+    <rect x="262.0" y="90" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="270.0" y="96" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="304.0" y="113" font-size="14" text-anchor="middle" font-weight="600">A1</text>
+    <rect x="270.0" y="126" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="304.0" y="143" font-size="14" text-anchor="middle" font-weight="600">A2</text>
+    <rect x="270.0" y="156" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="304.0" y="173" font-size="14" text-anchor="middle" font-weight="600">A3</text>
+    <rect x="270.0" y="186" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="304.0" y="203" font-size="14" text-anchor="middle" font-weight="600">A4</text>
+    <text x="398.0" y="82" font-size="13" fill="#475569" text-anchor="middle">Disco 1</text>
+    <rect x="356.0" y="90" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="364.0" y="96" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="398.0" y="113" font-size="14" text-anchor="middle" font-weight="600">A1</text>
+    <rect x="364.0" y="126" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="398.0" y="143" font-size="14" text-anchor="middle" font-weight="600">A2</text>
+    <rect x="364.0" y="156" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="398.0" y="173" font-size="14" text-anchor="middle" font-weight="600">A3</text>
+    <rect x="364.0" y="186" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="398.0" y="203" font-size="14" text-anchor="middle" font-weight="600">A4</text>
+    <rect x="472.0" y="10" width="404" height="256" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="486.0" y="36" font-size="16" font-weight="700">RAID 10 (1+0)</text>
+    <text x="486.0" y="56" font-size="13" fill="#475569">bandas de espejos · n × C / 2 · 1 por espejo</text>
+    <text x="528.0" y="82" font-size="13" fill="#475569" text-anchor="middle">Disco 0</text>
+    <rect x="486.0" y="90" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="494.0" y="96" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="528.0" y="113" font-size="14" text-anchor="middle" font-weight="600">A1</text>
+    <rect x="494.0" y="126" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="528.0" y="143" font-size="14" text-anchor="middle" font-weight="600">A3</text>
+    <rect x="494.0" y="156" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="528.0" y="173" font-size="14" text-anchor="middle" font-weight="600">A5</text>
+    <rect x="494.0" y="186" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="528.0" y="203" font-size="14" text-anchor="middle" font-weight="600">A7</text>
+    <text x="622.0" y="82" font-size="13" fill="#475569" text-anchor="middle">Disco 1</text>
+    <rect x="580.0" y="90" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="588.0" y="96" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="622.0" y="113" font-size="14" text-anchor="middle" font-weight="600">A1</text>
+    <rect x="588.0" y="126" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="622.0" y="143" font-size="14" text-anchor="middle" font-weight="600">A3</text>
+    <rect x="588.0" y="156" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="622.0" y="173" font-size="14" text-anchor="middle" font-weight="600">A5</text>
+    <rect x="588.0" y="186" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="622.0" y="203" font-size="14" text-anchor="middle" font-weight="600">A7</text>
+    <text x="726.0" y="82" font-size="13" fill="#475569" text-anchor="middle">Disco 2</text>
+    <rect x="684.0" y="90" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="692.0" y="96" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="726.0" y="113" font-size="14" text-anchor="middle" font-weight="600">A2</text>
+    <rect x="692.0" y="126" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="726.0" y="143" font-size="14" text-anchor="middle" font-weight="600">A4</text>
+    <rect x="692.0" y="156" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="726.0" y="173" font-size="14" text-anchor="middle" font-weight="600">A6</text>
+    <rect x="692.0" y="186" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="726.0" y="203" font-size="14" text-anchor="middle" font-weight="600">A8</text>
+    <text x="820.0" y="82" font-size="13" fill="#475569" text-anchor="middle">Disco 3</text>
+    <rect x="778.0" y="90" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="786.0" y="96" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="820.0" y="113" font-size="14" text-anchor="middle" font-weight="600">A2</text>
+    <rect x="786.0" y="126" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="820.0" y="143" font-size="14" text-anchor="middle" font-weight="600">A4</text>
+    <rect x="786.0" y="156" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="820.0" y="173" font-size="14" text-anchor="middle" font-weight="600">A6</text>
+    <rect x="786.0" y="186" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="820.0" y="203" font-size="14" text-anchor="middle" font-weight="600">A8</text>
+    <path d="M486.0 228 L486.0 234 L664.0 234 L664.0 228" fill="none" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="575.0" y="252" font-size="13" fill="#6d28d9" text-anchor="middle">espejo</text>
+    <path d="M684.0 228 L684.0 234 L862.0 234 L862.0 228" fill="none" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="773.0" y="252" font-size="13" fill="#6d28d9" text-anchor="middle">espejo</text>
+    <rect x="47.0" y="282" width="394" height="224" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="61.0" y="308" font-size="16" font-weight="700">RAID 5</text>
+    <text x="61.0" y="328" font-size="13" fill="#475569">paridad distribuida · (n − 1) × C · 1 fallo</text>
+    <text x="103.0" y="354" font-size="13" fill="#475569" text-anchor="middle">Disco 0</text>
+    <rect x="61.0" y="362" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="69.0" y="368" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="103.0" y="385" font-size="14" text-anchor="middle" font-weight="600">A1</text>
+    <rect x="69.0" y="398" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="103.0" y="415" font-size="14" text-anchor="middle" font-weight="600">B1</text>
+    <rect x="69.0" y="428" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="103.0" y="445" font-size="14" text-anchor="middle" font-weight="600">C1</text>
+    <rect x="69.0" y="458" width="68" height="24" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="103.0" y="475" font-size="14" text-anchor="middle" font-weight="600">D<tspan font-style="italic">p</tspan></text>
+    <text x="197.0" y="354" font-size="13" fill="#475569" text-anchor="middle">Disco 1</text>
+    <rect x="155.0" y="362" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="163.0" y="368" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="197.0" y="385" font-size="14" text-anchor="middle" font-weight="600">A2</text>
+    <rect x="163.0" y="398" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="197.0" y="415" font-size="14" text-anchor="middle" font-weight="600">B2</text>
+    <rect x="163.0" y="428" width="68" height="24" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="197.0" y="445" font-size="14" text-anchor="middle" font-weight="600">C<tspan font-style="italic">p</tspan></text>
+    <rect x="163.0" y="458" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="197.0" y="475" font-size="14" text-anchor="middle" font-weight="600">D1</text>
+    <text x="291.0" y="354" font-size="13" fill="#475569" text-anchor="middle">Disco 2</text>
+    <rect x="249.0" y="362" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="257.0" y="368" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="291.0" y="385" font-size="14" text-anchor="middle" font-weight="600">A3</text>
+    <rect x="257.0" y="398" width="68" height="24" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="291.0" y="415" font-size="14" text-anchor="middle" font-weight="600">B<tspan font-style="italic">p</tspan></text>
+    <rect x="257.0" y="428" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="291.0" y="445" font-size="14" text-anchor="middle" font-weight="600">C2</text>
+    <rect x="257.0" y="458" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="291.0" y="475" font-size="14" text-anchor="middle" font-weight="600">D2</text>
+    <text x="385.0" y="354" font-size="13" fill="#475569" text-anchor="middle">Disco 3</text>
+    <rect x="343.0" y="362" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="351.0" y="368" width="68" height="24" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="385.0" y="385" font-size="14" text-anchor="middle" font-weight="600">A<tspan font-style="italic">p</tspan></text>
+    <rect x="351.0" y="398" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="385.0" y="415" font-size="14" text-anchor="middle" font-weight="600">B3</text>
+    <rect x="351.0" y="428" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="385.0" y="445" font-size="14" text-anchor="middle" font-weight="600">C3</text>
+    <rect x="351.0" y="458" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="385.0" y="475" font-size="14" text-anchor="middle" font-weight="600">D3</text>
+    <rect x="459.0" y="282" width="394" height="224" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="473.0" y="308" font-size="16" font-weight="700">RAID 6</text>
+    <text x="473.0" y="328" font-size="13" fill="#475569">doble paridad · (n − 2) × C · 2 fallos</text>
+    <text x="515.0" y="354" font-size="13" fill="#475569" text-anchor="middle">Disco 0</text>
+    <rect x="473.0" y="362" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="481.0" y="368" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="515.0" y="385" font-size="14" text-anchor="middle" font-weight="600">A1</text>
+    <rect x="481.0" y="398" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="515.0" y="415" font-size="14" text-anchor="middle" font-weight="600">B1</text>
+    <rect x="481.0" y="428" width="68" height="24" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="515.0" y="445" font-size="14" text-anchor="middle" font-weight="600">C<tspan font-style="italic">p</tspan></text>
+    <rect x="481.0" y="458" width="68" height="24" rx="4" fill="#ffe4e6" stroke="#e11d48"/>
+    <text x="515.0" y="475" font-size="14" text-anchor="middle" font-weight="600">D<tspan font-style="italic">q</tspan></text>
+    <text x="609.0" y="354" font-size="13" fill="#475569" text-anchor="middle">Disco 1</text>
+    <rect x="567.0" y="362" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="575.0" y="368" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="609.0" y="385" font-size="14" text-anchor="middle" font-weight="600">A2</text>
+    <rect x="575.0" y="398" width="68" height="24" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="609.0" y="415" font-size="14" text-anchor="middle" font-weight="600">B<tspan font-style="italic">p</tspan></text>
+    <rect x="575.0" y="428" width="68" height="24" rx="4" fill="#ffe4e6" stroke="#e11d48"/>
+    <text x="609.0" y="445" font-size="14" text-anchor="middle" font-weight="600">C<tspan font-style="italic">q</tspan></text>
+    <rect x="575.0" y="458" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="609.0" y="475" font-size="14" text-anchor="middle" font-weight="600">D1</text>
+    <text x="703.0" y="354" font-size="13" fill="#475569" text-anchor="middle">Disco 2</text>
+    <rect x="661.0" y="362" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="669.0" y="368" width="68" height="24" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="703.0" y="385" font-size="14" text-anchor="middle" font-weight="600">A<tspan font-style="italic">p</tspan></text>
+    <rect x="669.0" y="398" width="68" height="24" rx="4" fill="#ffe4e6" stroke="#e11d48"/>
+    <text x="703.0" y="415" font-size="14" text-anchor="middle" font-weight="600">B<tspan font-style="italic">q</tspan></text>
+    <rect x="669.0" y="428" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="703.0" y="445" font-size="14" text-anchor="middle" font-weight="600">C1</text>
+    <rect x="669.0" y="458" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="703.0" y="475" font-size="14" text-anchor="middle" font-weight="600">D2</text>
+    <text x="797.0" y="354" font-size="13" fill="#475569" text-anchor="middle">Disco 3</text>
+    <rect x="755.0" y="362" width="84" height="130" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="763.0" y="368" width="68" height="24" rx="4" fill="#ffe4e6" stroke="#e11d48"/>
+    <text x="797.0" y="385" font-size="14" text-anchor="middle" font-weight="600">A<tspan font-style="italic">q</tspan></text>
+    <rect x="763.0" y="398" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="797.0" y="415" font-size="14" text-anchor="middle" font-weight="600">B2</text>
+    <rect x="763.0" y="428" width="68" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="797.0" y="445" font-size="14" text-anchor="middle" font-weight="600">C2</text>
+    <rect x="763.0" y="458" width="68" height="24" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="797.0" y="475" font-size="14" text-anchor="middle" font-weight="600">D<tspan font-style="italic">p</tspan></text>
+    <rect x="60" y="519" width="20" height="20" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="88" y="534" font-size="14">bloques de datos (bandas)</text>
+    <rect x="318.0" y="519" width="20" height="20" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="346.0" y="534" font-size="14">paridad P</text>
+    <rect x="454.4" y="519" width="20" height="20" rx="4" fill="#ffe4e6" stroke="#e11d48"/>
+    <text x="482.4" y="534" font-size="14">segunda paridad Q (RAID 6)</text>
+    <text x="450.0" y="564" font-size="13" fill="#475569" text-anchor="middle">n = número de discos · C = capacidad de cada disco · RAID no sustituye a las copias de seguridad</text>
+  </g>
+</svg>

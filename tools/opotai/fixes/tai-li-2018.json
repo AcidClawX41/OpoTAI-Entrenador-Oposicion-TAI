@@ -1,0 +1,510 @@
+{
+  "bank_id": "tai-li-2018",
+  "global": {
+    "note": "Errores recurrentes del OCR (palabras pegadas, letras confundidas) detectados en la pasada ortográfica (opotai.spellcheck) y comprobados contra la imagen.",
+    "replace": [
+      {
+        "old": "Eltamaño",
+        "new": "El tamaño",
+        "word": true
+      },
+      {
+        "old": "Enel",
+        "new": "En el",
+        "word": true
+      },
+      {
+        "old": "Enun",
+        "new": "En un",
+        "word": true
+      },
+      {
+        "old": "Enuna",
+        "new": "En una",
+        "word": true
+      },
+      {
+        "old": "Esel",
+        "new": "Es el",
+        "word": true
+      },
+      {
+        "old": "Esla",
+        "new": "Es la",
+        "word": true
+      },
+      {
+        "old": "Esun",
+        "new": "Es un",
+        "word": true
+      },
+      {
+        "old": "Ladistribución",
+        "new": "La distribución",
+        "word": true
+      },
+      {
+        "old": "Lalibertad",
+        "new": "La libertad",
+        "word": true
+      },
+      {
+        "old": "Lalibre",
+        "new": "La libre",
+        "word": true
+      },
+      {
+        "old": "Launidad",
+        "new": "La unidad",
+        "word": true
+      },
+      {
+        "old": "Respectoa",
+        "new": "Respecto a",
+        "word": true
+      },
+      {
+        "old": "avanzadoy",
+        "new": "avanzado y",
+        "word": true
+      },
+      {
+        "old": "comandoa",
+        "new": "comando a",
+        "word": true
+      },
+      {
+        "old": "géneroy",
+        "new": "género y",
+        "word": true
+      },
+      {
+        "old": "lostipos",
+        "new": "los tipos",
+        "word": true
+      },
+      {
+        "old": "noactivos",
+        "new": "no activos",
+        "word": true
+      },
+      {
+        "old": "Siy",
+        "new": "Si y",
+        "word": true
+      },
+      {
+        "old": "ejercltan",
+        "new": "ejercitan",
+        "word": true
+      },
+      {
+        "old": "superciase",
+        "new": "superclase",
+        "word": true
+      },
+      {
+        "old": "Delos",
+        "new": "De los",
+        "word": true
+      },
+      {
+        "old": "SvG",
+        "new": "SVG",
+        "word": true
+      },
+      {
+        "old": "Jadl",
+        "new": "Jaql",
+        "word": true
+      },
+      {
+        "old": "Fiops",
+        "new": "Flops",
+        "word": true
+      },
+      {
+        "old": "VALDE",
+        "new": "VALIDE",
+        "word": true
+      },
+      {
+        "old": "gitinit",
+        "new": "git init",
+        "word": true
+      },
+      {
+        "old": "Delas",
+        "new": "De las",
+        "word": true
+      },
+      {
+        "old": "nittab",
+        "new": "inittab",
+        "word": true
+      },
+      {
+        "old": "Tonic",
+        "new": "Ionic",
+        "word": true
+      },
+      {
+        "old": "Openshift",
+        "new": "OpenShift",
+        "word": true
+      }
+    ]
+  },
+  "questions": {
+    "tai-li-2018-p1-021": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "—La unidad",
+          "new": "La unidad"
+        }
+      ]
+    },
+    "tai-li-2018-p1-053": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "—JavaDB",
+          "new": "JavaDB"
+        },
+        {
+          "old": "Oracle 119.",
+          "new": "Oracle 11g."
+        }
+      ]
+    },
+    "tai-li-2018-p1-049": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "= O WHERE STOCK.VALIDO = 'Sf",
+          "new": "= 0 WHERE STOCK.VALIDO = 'SÍ'"
+        }
+      ]
+    },
+    "tai-li-2018-p1-055": {
+      "note": "Opciones (código C) transcritas de la imagen.",
+      "options_code": true,
+      "set": {
+        "options": [
+          "int a=11,b;b=a--;",
+          "int a=11,b;b=--a;",
+          "int a=10,b;b=++a;",
+          "int a=10,b;b=a++;"
+        ]
+      }
+    },
+    "tai-li-2018-p1-061": {
+      "note": "Opciones (selectores CSS) transcritas de la imagen.",
+      "set": {
+        "options": [
+          "#titulo",
+          ":titulo",
+          ".titulo",
+          "titulo"
+        ]
+      }
+    },
+    "tai-li-2018-p1-012": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "guarda O custodia",
+          "new": "guarda o custodia"
+        }
+      ]
+    },
+    "tai-li-2018-p1-013": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "2tipos",
+          "new": "2 tipos"
+        }
+      ]
+    },
+    "tai-li-2018-p1-014": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "datos ya la libre",
+          "new": "datos y a la libre"
+        }
+      ]
+    },
+    "tai-li-2018-p1-019": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "El“contador",
+          "new": "El “contador"
+        },
+        {
+          "old": "l que dejar el resultado,",
+          "new": "l que dejar el resultado."
+        }
+      ]
+    },
+    "tai-li-2018-p1-033": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "libro.b«",
+          "new": "libro.txt"
+        }
+      ]
+    },
+    "tai-li-2018-p1-044": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "CH",
+          "new": "C#",
+          "count": 1
+        }
+      ]
+    },
+    "tai-li-2018-p1-084": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "CREF injection",
+          "new": "CRLF injection"
+        }
+      ]
+    },
+    "tai-li-2018-p1-086": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "única 1P",
+          "new": "única IP"
+        }
+      ]
+    },
+    "tai-li-2018-p1-090": {
+      "note": "Errata del OCR (comas por puntos en las direcciones IP) corregida contra la imagen.",
+      "replace": [
+        {
+          "old": "255.255.255,192",
+          "new": "255.255.255.192"
+        }
+      ],
+      "set": {
+        "options": [
+          "213.114.93.63",
+          "213.114.93.127",
+          "213.114.93.31",
+          "213.114.93.255"
+        ]
+      }
+    },
+    "tai-li-2018-p1-099": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "la Interrupción",
+          "new": "la interrupción"
+        }
+      ]
+    },
+    "tai-li-2018-p1-087": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "(en Unio.",
+          "new": "(en Unix)."
+        }
+      ]
+    },
+    "tai-li-2018-p1-043": {
+      "note": "Código y opciones transcritos de la imagen (el OCR no leía bien las llaves ni los dígitos separados).",
+      "set": {
+        "text": "Indique cuál sería la salida que se obtendría ejecutando el siguiente trozo de código en C++: `for (int i=1; i++<10; i++) { ( (i == 5) ? cout<< \"Cinco\" : cout << i << \" \"); }`",
+        "options": [
+          "0 2 4 6 8",
+          "1 3 Cinco 7 9",
+          "2 4 6 8 10",
+          "1 3 5 7 9"
+        ]
+      }
+    },
+    "tai-li-2018-p1-002": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "de sus respectivas sedes,",
+          "new": "de sus respectivas sedes."
+        }
+      ]
+    },
+    "tai-li-2018-p1-003": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "Representar al Gobierno,",
+          "new": "Representar al Gobierno."
+        }
+      ]
+    },
+    "tai-li-2018-p1-005": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "el Rey,",
+          "new": "el Rey."
+        },
+        {
+          "old": "Cámaras y sus Comisiones,",
+          "new": "Cámaras y sus Comisiones."
+        }
+      ]
+    },
+    "tai-li-2018-p1-007": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "Recurso de amparo,",
+          "new": "Recurso de amparo."
+        }
+      ]
+    },
+    "tai-li-2018-p1-009": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "e asociación profesional,",
+          "new": "e asociación profesional."
+        }
+      ]
+    },
+    "tai-li-2018-p1-018": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "ma de archivos de Mac OS,",
+          "new": "ma de archivos de Mac OS."
+        },
+        {
+          "old": "rchivo es 512 caracteres,",
+          "new": "rchivo es 512 caracteres."
+        }
+      ]
+    },
+    "tai-li-2018-p1-026": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": " de estructura no existe,",
+          "new": " de estructura no existe."
+        }
+      ]
+    },
+    "tai-li-2018-p1-039": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "e Contexto a descomponer,",
+          "new": "e Contexto a descomponer."
+        }
+      ]
+    },
+    "tai-li-2018-p1-050": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "dos que deja sin definir,",
+          "new": "dos que deja sin definir."
+        }
+      ]
+    },
+    "tai-li-2018-p1-056": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": " el acceso es secuencial,",
+          "new": " el acceso es secuencial."
+        },
+        {
+          "old": "l documento XML que JDOM,",
+          "new": "l documento XML que JDOM."
+        },
+        {
+          "old": "ectura de documentos XML,",
+          "new": "ectura de documentos XML."
+        },
+        {
+          "old": "ML, SAX no lanza eventos,",
+          "new": "ML, SAX no lanza eventos."
+        }
+      ]
+    },
+    "tai-li-2018-p1-062": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "re sea un elemento <div>,",
+          "new": "re sea un elemento <div>."
+        }
+      ]
+    },
+    "tai-li-2018-p1-063": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma. El operador ** se marca como código para que no se interprete como negrita.",
+      "replace": [
+        {
+          "old": "perador exponencial (**),",
+          "new": "perador exponencial (**)."
+        },
+        {
+          "old": "exponencial (**).",
+          "new": "exponencial (`**`)."
+        }
+      ]
+    },
+    "tai-li-2018-p1-070": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "pantalla para invidentes,",
+          "new": "pantalla para invidentes."
+        }
+      ]
+    },
+    "tai-li-2018-p1-095": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "a el tráfico inalámbrico,",
+          "new": "a el tráfico inalámbrico."
+        }
+      ]
+    },
+    "tai-li-2018-p1-r1": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "No existe,",
+          "new": "No existe."
+        },
+        {
+          "old": "imo de 12 x 9,6 pulgadas,",
+          "new": "imo de 12 x 9,6 pulgadas."
+        }
+      ]
+    },
+    "tai-li-2018-p1-r3": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": " la versión 2 es RFC1202,",
+          "new": " la versión 2 es RFC1202."
+        }
+      ]
+    }
+  }
+}

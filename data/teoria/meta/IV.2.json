@@ -1,0 +1,59 @@
+{
+  "topic": "IV.2",
+  "summary": "Administración de bases de datos (arquitectura, usuarios, rendimiento, copias lógicas y físicas, RMAN, PITR), sistemas de almacenamiento (DAS, NAS, SAN, RAID) y su virtualización (LVM, thin provisioning, deduplicación, instantáneas, CI e HCI), políticas y procedimientos de copia y recuperación (tipos de copia, 3-2-1, RPO y RTO, VTL, ENS mp.info.6), copias de sistemas físicos y virtuales y virtualización de servidores y de escritorios (hipervisores, VDI).",
+  "key_points": [
+    "Puertos: Oracle 1521, SQL Server 1433, MySQL 3306, PostgreSQL 5432; versión con SELECT * FROM V$VERSION (Oracle) y usuarios y equipos con SELECT user, host FROM mysql.user.",
+    "Copias de bases de datos lógicas (mysqldump, pg_dump, Data Pump) y físicas (RMAN, pg_basebackup, BACKUP DATABASE); la recuperación a un instante necesita los registros archivados (ARCHIVELOG, WAL, binlog).",
+    "NAS = Network Attached Storage, acceso por ficheros (NFS, SMB); SAN = Storage Area Network, acceso por bloques (Fibre Channel, iSCSI); DAS conectado a un solo servidor.",
+    "RAID 5 = paridad distribuida (mín. 3, n − 1); RAID 6 = doble paridad (mín. 4, n − 2: 5 discos de 6 TB dan 18 TB); RAID 10 mín. 4 discos; RAID 4 con un disco de paridad dedicado.",
+    "Thin provisioning asigna el espacio bajo demanda; la deduplicación reduce el coste del almacenamiento; la infraestructura convergente es un paquete preconfigurado definido por hardware.",
+    "Diferencial = cambios desde la última completa; incremental = desde la última copia de cualquier tipo; la regla 3-2-1 es 3 copias, 2 soportes distintos y 1 fuera de la sede.",
+    "Una instantánea no es una copia de seguridad; VTL emula cintas en disco y permite eliminar las cintas; tar -czf destino.tar.gz origen crea una copia comprimida con gzip.",
+    "ENS mp.info.6: copias con frecuencia, retención y control de acceso; pruebas de recuperación en nivel MEDIO y copia en lugar separado en ALTO; op.cont para la continuidad.",
+    "Hipervisor de tipo 1 sobre el hardware (ESXi, Hyper-V, KVM, Xen) y de tipo 2 sobre un sistema anfitrión (VirtualBox, VMware Workstation, Parallels); la virtualización reduce la inversión en hardware.",
+    "VDI aloja escritorios en servidores centrales; persistente = siempre el mismo escritorio con sus cambios, no persistente = uno cualquiera del grupo que se descarta; requiere conexión permanente pero no un puesto potente."
+  ],
+  "sources": [
+    {
+      "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+    },
+    {
+      "title": "Oracle · RMAN LIST",
+      "url": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/LIST.html"
+    },
+    {
+      "title": "Microsoft Learn · Modelos de recuperación de SQL Server",
+      "url": "https://learn.microsoft.com/es-es/sql/relational-databases/backup-restore/recovery-models-sql-server"
+    },
+    {
+      "title": "MySQL 8.4 · Tablas de privilegios",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/grant-tables.html"
+    },
+    {
+      "title": "PostgreSQL 18 · Copia de seguridad y restauración",
+      "url": "https://www.postgresql.org/docs/18/backup.html"
+    },
+    {
+      "title": "Red Hat · Configuring and managing logical volumes",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_and_managing_logical_volumes/index"
+    },
+    {
+      "title": "SNIA · Dictionary",
+      "url": "https://www.snia.org/education/online-dictionary"
+    },
+    {
+      "title": "Microsoft Learn · Introducción a Hyper-V",
+      "url": "https://learn.microsoft.com/es-es/windows-server/virtualization/hyper-v/hyper-v-overview"
+    },
+    {
+      "title": "Microsoft Learn · Azure Virtual Desktop",
+      "url": "https://learn.microsoft.com/es-es/azure/virtual-desktop/overview"
+    },
+    {
+      "title": "NIST SP 800-34 Rev. 1 · Contingency Planning Guide",
+      "url": "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final"
+    }
+  ],
+  "updated": "2026-10-11"
+}

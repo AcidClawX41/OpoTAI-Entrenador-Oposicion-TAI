@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "convocatoria": "li-2025",
+  "source": {
+    "title": "BOE-A-2025-26262 · Resolución de 18 de diciembre de 2025, SEFP, anexo V (TAI ingreso libre), norma 3 «Programa»",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26262"
+  },
+  "blocks": [
+    {
+      "id": "I",
+      "title": "Organización del Estado y Administración electrónica",
+      "topics": [
+        {
+          "id": "I.1",
+          "number": 1,
+          "title": "La Constitución Española de 1978. Derechos y deberes fundamentales. Su garantía y suspensión. La Corona: funciones constitucionales del Rey.",
+          "keywords": [
+            "Constitución Española",
+            "derechos fundamentales",
+            "suspensión de derechos",
+            "recurso de amparo",
+            "Corona",
+            "Rey",
+            "refrendo"
+          ]
+        },
+        {
+          "id": "I.2",
+          "number": 2,
+          "title": "Las Cortes Generales: atribuciones del Congreso de los Diputados y del Senado. El Tribunal Constitucional: composición y atribuciones. El Defensor del Pueblo.",
+          "keywords": [
+            "Cortes Generales",
+            "Congreso de los Diputados",
+            "Senado",
+            "Tribunal Constitucional",
+            "Defensor del Pueblo",
+            "recurso de inconstitucionalidad"
+          ]
+        },
+        {
+          "id": "I.3",
+          "number": 3,
+          "title": "El Gobierno: composición, nombramiento y cese. Las funciones del Gobierno. Relaciones entre el Gobierno y las Cortes Generales.",
+          "keywords": [
+            "Gobierno",
+            "Presidente del Gobierno",
+            "Consejo de Ministros",
+            "moción de censura",
+            "cuestión de confianza",
+            "Ley 50/1997"
+          ]
+        },
+        {
+          "id": "I.4",
+          "number": 4,
+          "title": "El texto refundido del Estatuto Básico del Empleo Público y demás normativa de aplicación: derechos y deberes, formas de provisión de puestos, promoción interna y carrera profesional; situaciones administrativas, incompatibilidades y régimen sancionador. La Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. La Agenda 2030 y los Objetivos de Desarrollo Sostenible.",
+          "keywords": [
+            "TREBEP",
+            "Estatuto Básico del Empleado Público",
+            "situaciones administrativas",
+            "incompatibilidades",
+            "régimen disciplinario",
+            "Ley 19/2013",
+            "transparencia",
+            "Agenda 2030"
+          ]
+        },
+        {
+          "id": "I.5",
+          "number": 5,
+          "title": "Políticas de igualdad y contra la violencia de género. Políticas de igualdad de trato y no discriminación de las personas LGTBI. Discapacidad y dependencia: régimen jurídico.",
+          "keywords": [
+            "Ley Orgánica 3/2007",
+            "igualdad efectiva",
+            "violencia de género",
+            "Ley Orgánica 1/2004",
+            "Ley 4/2023",
+            "LGTBI",
+            "discapacidad",
+            "dependencia"
+          ]
+        },
+        {
+          "id": "I.6",
+          "number": 6,
+          "title": "La sociedad de la información. Identidad y firma electrónica: régimen jurídico. El DNI electrónico. La Agenda Digital para España.",
+          "keywords": [
+            "firma electrónica",
+            "eIDAS",
+            "certificado electrónico",
+            "DNI electrónico",
+            "Ley 6/2020",
+            "servicios de confianza",
+            "Agenda Digital",
+            "sociedad de la información"
+          ]
+        },
+        {
+          "id": "I.7",
+          "number": 7,
+          "title": "La protección de datos personales y su régimen jurídico: principios, derechos y obligaciones. Derechos digitales.",
+          "keywords": [
+            "RGPD",
+            "Ley Orgánica 3/2018",
+            "LOPDGDD",
+            "protección de datos",
+            "delegado de protección de datos",
+            "derechos digitales",
+            "AEPD"
+          ]
+        },
+        {
+          "id": "I.8",
+          "number": 8,
+          "title": "Acceso electrónico de los ciudadanos a los servicios públicos y normativa de desarrollo. La gestión electrónica de los procedimientos administrativos: registros, notificaciones y uso de medios electrónicos. Esquema Nacional de Seguridad y de Interoperabilidad. Normas técnicas de Interoperabilidad.",
+          "keywords": [
+            "Ley 39/2015",
+            "Ley 40/2015",
+            "registro electrónico",
+            "notificaciones electrónicas",
+            "Esquema Nacional de Seguridad",
+            "Esquema Nacional de Interoperabilidad",
+            "Normas Técnicas de Interoperabilidad",
+            "Real Decreto 203/2021"
+          ]
+        },
+        {
+          "id": "I.9",
+          "number": 9,
+          "title": "Instrumentos para el acceso electrónico a las Administraciones públicas: sedes electrónicas, canales y puntos de acceso, identificación y autenticación. Infraestructuras y servicios comunes en materia de administración electrónica.",
+          "keywords": [
+            "sede electrónica",
+            "Cl@ve",
+            "Punto de Acceso General",
+            "Carpeta Ciudadana",
+            "SIR",
+            "Notific@",
+            "@firma",
+            "Red SARA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "II",
+      "title": "Tecnología básica",
+      "topics": [
+        {
+          "id": "II.1",
+          "number": 1,
+          "title": "Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. Arquitectura de ordenadores. Componentes internos de los equipos microinformáticos.",
+          "keywords": [
+            "arquitectura de Von Neumann",
+            "CPU",
+            "memoria RAM",
+            "bus",
+            "sistemas de numeración",
+            "codificación de caracteres",
+            "placa base"
+          ]
+        },
+        {
+          "id": "II.2",
+          "number": 2,
+          "title": "Periféricos: conectividad y administración. Elementos de impresión. Elementos de almacenamiento. Elementos de visualización y digitalización.",
+          "keywords": [
+            "periféricos",
+            "impresoras",
+            "almacenamiento",
+            "SSD",
+            "USB",
+            "monitores",
+            "escáner",
+            "conectividad"
+          ]
+        },
+        {
+          "id": "II.3",
+          "number": 3,
+          "title": "Tipos abstractos y Estructuras de datos. Organizaciones de ficheros. Algoritmos. Formatos de información y ficheros.",
+          "keywords": [
+            "estructuras de datos",
+            "pilas",
+            "colas",
+            "árboles",
+            "grafos",
+            "algoritmos de ordenación",
+            "organización de ficheros",
+            "formatos de ficheros"
+          ]
+        },
+        {
+          "id": "II.4",
+          "number": 4,
+          "title": "Sistemas operativos. Características y elementos constitutivos. Sistemas Windows. Sistemas Unix y Linux. Sistemas operativos para dispositivos móviles.",
+          "keywords": [
+            "sistema operativo",
+            "Windows",
+            "Linux",
+            "UNIX",
+            "procesos",
+            "gestión de memoria",
+            "Android",
+            "iOS"
+          ]
+        },
+        {
+          "id": "II.5",
+          "number": 5,
+          "title": "Sistemas de gestión de bases de datos relacionales, orientados a objetos y NoSQL: características y componentes.",
+          "keywords": [
+            "SGBD",
+            "base de datos relacional",
+            "NoSQL",
+            "bases de datos orientadas a objetos",
+            "transacciones",
+            "ACID",
+            "diccionario de datos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "III",
+      "title": "Desarrollo de sistemas",
+      "topics": [
+        {
+          "id": "III.1",
+          "number": 1,
+          "title": "Modelado de datos, metodologías y reglas. Entidades, atributos y relaciones. Diseño de bases de datos. Diseño lógico y físico. El modelo lógico relacional. Normalización.",
+          "keywords": [
+            "modelo entidad-relación",
+            "modelo relacional",
+            "normalización",
+            "formas normales",
+            "clave primaria",
+            "clave foránea",
+            "diseño lógico",
+            "diseño físico"
+          ]
+        },
+        {
+          "id": "III.2",
+          "number": 2,
+          "title": "Lenguajes de programación. Representación de tipos de datos. Operadores. Instrucciones condicionales. Bucles y recursividad. Procedimientos, funciones y parámetros. Vectores y registros. Estructura de un programa.",
+          "keywords": [
+            "lenguajes de programación",
+            "tipos de datos",
+            "operadores",
+            "estructuras de control",
+            "bucles",
+            "recursividad",
+            "funciones y parámetros",
+            "vectores"
+          ]
+        },
+        {
+          "id": "III.3",
+          "number": 3,
+          "title": "Lenguajes de interrogación de bases de datos. Estándar ANSI SQL. Procedimientos almacenados. Eventos y disparadores.",
+          "keywords": [
+            "SQL",
+            "SELECT",
+            "JOIN",
+            "GROUP BY",
+            "procedimientos almacenados",
+            "disparadores",
+            "triggers",
+            "DDL"
+          ]
+        },
+        {
+          "id": "III.4",
+          "number": 4,
+          "title": "Diseño y programación orientada a objetos. Elementos y componentes software: objetos, clases, herencia, métodos, sobrecarga. Ventajas e inconvenientes. Patrones de diseño y lenguaje de modelado unificado (UML).",
+          "keywords": [
+            "orientación a objetos",
+            "clases",
+            "herencia",
+            "polimorfismo",
+            "sobrecarga",
+            "patrones de diseño",
+            "UML",
+            "diagrama de clases"
+          ]
+        },
+        {
+          "id": "III.5",
+          "number": 5,
+          "title": "Arquitectura Java EE/Jakarta EE y plataforma.NET: componentes, persistencia y seguridad. Características, elementos, lenguajes y funciones en ambos entornos. Desarrollo de interfaces.",
+          "keywords": [
+            "Java EE",
+            "Jakarta EE",
+            "JPA",
+            "EJB",
+            ".NET",
+            "C#",
+            "servlets",
+            "persistencia"
+          ]
+        },
+        {
+          "id": "III.6",
+          "number": 6,
+          "title": "Arquitectura de sistemas cliente/servidor y multicapas: componentes y operación. Arquitecturas de servicios web y protocolos asociados.",
+          "keywords": [
+            "cliente/servidor",
+            "arquitectura multicapa",
+            "servicios web",
+            "SOAP",
+            "REST",
+            "WSDL",
+            "API"
+          ]
+        },
+        {
+          "id": "III.7",
+          "number": 7,
+          "title": "Aplicaciones web. Desarrollo web front-end y en servidor, multiplataforma y multidispositivo. Lenguajes: HTML, XML y sus derivaciones. Navegadores y lenguajes de programación web. Lenguajes de script.",
+          "keywords": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "XML",
+            "DOM",
+            "front-end",
+            "back-end",
+            "lenguajes de script"
+          ]
+        },
+        {
+          "id": "III.8",
+          "number": 8,
+          "title": "Accesibilidad, diseño universal y usabilidad. Acceso y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Confidencialidad y disponibilidad de la información en puestos de usuario final. Conceptos de seguridad en el desarrollo de los sistemas.",
+          "keywords": [
+            "accesibilidad",
+            "WCAG",
+            "Real Decreto 1112/2018",
+            "usabilidad",
+            "diseño universal",
+            "OWASP",
+            "seguridad en el desarrollo"
+          ]
+        },
+        {
+          "id": "III.9",
+          "number": 9,
+          "title": "Repositorios: estructura y actualización. Generación de código y documentación. Metodologías de desarrollo. Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software.",
+          "keywords": [
+            "control de versiones",
+            "Git",
+            "metodologías ágiles",
+            "Scrum",
+            "Métrica v3",
+            "pruebas unitarias",
+            "integración continua",
+            "repositorios"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IV",
+      "title": "Sistemas y comunicaciones",
+      "topics": [
+        {
+          "id": "IV.1",
+          "number": 1,
+          "title": "Administración del Sistema operativo y software de base. Actualización, mantenimiento y reparación del sistema operativo.",
+          "keywords": [
+            "administración de sistemas",
+            "usuarios y permisos",
+            "actualizaciones",
+            "parches",
+            "servicios",
+            "shell",
+            "registro de Windows"
+          ]
+        },
+        {
+          "id": "IV.2",
+          "number": 2,
+          "title": "Administración de bases de datos. Sistemas de almacenamiento y su virtualización. Políticas, sistemas y procedimientos de backup y su recuperación. Backup de sistemas físicos y virtuales. Virtualización de sistemas y virtualización de puestos de usuario.",
+          "keywords": [
+            "copias de seguridad",
+            "backup",
+            "NAS",
+            "SAN",
+            "RAID",
+            "virtualización",
+            "hipervisor",
+            "VDI"
+          ]
+        },
+        {
+          "id": "IV.3",
+          "number": 3,
+          "title": "Administración de servidores de correo electrónico sus protocolos. Administración de contenedores y microservicios.",
+          "keywords": [
+            "SMTP",
+            "POP3",
+            "IMAP",
+            "servidor de correo",
+            "Docker",
+            "Kubernetes",
+            "contenedores",
+            "microservicios"
+          ]
+        },
+        {
+          "id": "IV.4",
+          "number": 4,
+          "title": "Administración de redes de área local. Gestión de usuarios. Gestión de dispositivos. Monitorización y control de tráfico.",
+          "keywords": [
+            "LAN",
+            "VLAN",
+            "SNMP",
+            "monitorización",
+            "Active Directory",
+            "LDAP",
+            "gestión de dispositivos",
+            "tráfico de red"
+          ]
+        },
+        {
+          "id": "IV.5",
+          "number": 5,
+          "title": "Conceptos de seguridad de los sistemas de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.",
+          "keywords": [
+            "seguridad de la información",
+            "criptografía",
+            "cifrado simétrico",
+            "cifrado asimétrico",
+            "firma digital",
+            "CPD",
+            "SAI",
+            "gestión de incidencias"
+          ]
+        },
+        {
+          "id": "IV.6",
+          "number": 6,
+          "title": "Comunicaciones. Medios de transmisión. Modos de comunicación. Equipos terminales y equipos de interconexión y conmutación. Redes de comunicaciones. Redes de conmutación y redes de difusión. Comunicaciones móviles e inalámbricas.",
+          "keywords": [
+            "medios de transmisión",
+            "fibra óptica",
+            "conmutación",
+            "router",
+            "switch",
+            "5G",
+            "Wi-Fi",
+            "redes de difusión"
+          ]
+        },
+        {
+          "id": "IV.7",
+          "number": 7,
+          "title": "El modelo TCP/IP y el modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO. Protocolos TCP/IP.",
+          "keywords": [
+            "modelo OSI",
+            "TCP/IP",
+            "IP",
+            "TCP",
+            "UDP",
+            "direccionamiento IP",
+            "subredes",
+            "IPv6"
+          ]
+        },
+        {
+          "id": "IV.8",
+          "number": 8,
+          "title": "Internet: arquitectura de red. Origen, evolución y estado actual. Principales servicios. Protocolos HTTP, HTTPS y SSL/TLS.",
+          "keywords": [
+            "Internet",
+            "HTTP",
+            "HTTPS",
+            "TLS",
+            "SSL",
+            "DNS",
+            "URL",
+            "servicios de Internet"
+          ]
+        },
+        {
+          "id": "IV.9",
+          "number": 9,
+          "title": "Seguridad y protección en redes de comunicaciones. Seguridad perimetral. Acceso remoto seguro a redes. Redes privadas virtuales (VPN). Seguridad en el puesto del usuario.",
+          "keywords": [
+            "cortafuegos",
+            "firewall",
+            "DMZ",
+            "VPN",
+            "IPsec",
+            "IDS/IPS",
+            "proxy",
+            "acceso remoto"
+          ]
+        },
+        {
+          "id": "IV.10",
+          "number": 10,
+          "title": "Redes locales. Tipología. Técnicas de transmisión. Métodos de acceso. Dispositivos de interconexión.",
+          "keywords": [
+            "topologías de red",
+            "Ethernet",
+            "CSMA/CD",
+            "IEEE 802",
+            "hub",
+            "puente",
+            "conmutador",
+            "métodos de acceso al medio"
+          ]
+        }
+      ]
+    }
+  ]
+}

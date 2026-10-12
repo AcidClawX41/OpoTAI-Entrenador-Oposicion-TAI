@@ -1,0 +1,26 @@
+%% I.6 · Firma electrónica con criptografía asimétrica y su validación (PKI).
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+sequenceDiagram
+    actor F as Firmante
+    participant A as Aplicación<br/>de firma
+    participant T as Sello de<br/>tiempo
+    actor R as Verificador
+    participant V as OCSP<br/>o CRL
+    F->>A: documento y<br/>certificado
+    Note over A: hash del documento<br/>cifrado con la clave<br/>privada (bajo control<br/>exclusivo del firmante)<br/>= firma
+    opt nivel T o superior
+        A->>T: hash de la firma
+        T-->>A: sello de tiempo
+    end
+    A-->>F: documento firmado<br/>(CAdES, XAdES<br/>o PAdES)
+    F->>R: documento,<br/>firma y certificado
+    Note over R: recalcula el hash y<br/>descifra la firma con<br/>la clave pública
+    Note over R: comprueba la cadena<br/>de confianza hasta<br/>la autoridad de<br/>certificación
+    R->>V: ¿certificado<br/>vigente?
+    V-->>R: válido, revocado<br/>o desconocido
+    alt hashes iguales y<br/>certificado válido
+        Note over R: firma válida:<br/>autenticidad, integridad<br/>y no repudio
+    else si no
+        Note over R: firma no válida
+    end
+    Note over F,V: la firma no cifra el documento:<br/>no da confidencialidad

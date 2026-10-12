@@ -1,0 +1,28 @@
+{
+  "topic": "I.6",
+  "summary": "Marco jurídico de la sociedad de la información (LSSI, Ley 56/2007 y factura electrónica), identificación y firma electrónica (eIDAS y eIDAS2, Ley 6/2020, Ley 39/2015), el DNI electrónico según el RD 255/2025 y las agendas digitales: Agenda Digital para España, España Digital 2025 y 2026 y Década Digital 2030.",
+  "key_points": [
+    "LSSI: servicio de la sociedad de la información = a título oneroso, a distancia, por vía electrónica y a petición individual; sin autorización previa; los intermediarios no responden sin conocimiento efectivo.",
+    "LSSI: spam prohibido salvo consentimiento o relación contractual previa; cookies con consentimiento informado (salvo las técnicas); acuse de recibo del contrato en 24 horas.",
+    "Ley 56/2007, art. 1: factura electrónica obligatoria en la contratación con el sector público estatal, con formatos en las lenguas oficiales; factura B2B (RD 238/2026) efectiva a los 12 o 24 meses de la Orden HAC/1028/2026.",
+    "eIDAS: niveles de seguridad bajo, sustancial y alto; la firma cualificada equivale a la manuscrita; el sello es de personas jurídicas; eIDAS2 crea la cartera europea de identidad digital.",
+    "Anexo III de eIDAS: el certificado cualificado de sello contiene al menos el nombre del creador del sello y, en su caso, su número de registro.",
+    "Ley 6/2020: certificados cualificados con vigencia no superior a 5 años; seudónimo permitido, con identidad revelable a jueces y autoridades; conservación de la información 15 años; deroga la Ley 59/2003.",
+    "RD 255/2025 (deroga el RD 1553/2005): DNI obligatorio desde los 14 años; validez de 2, 5 y 10 años y de más de diez desde los 70; certificados del chip válidos 2 años; versión digital (MiDNI).",
+    "Chip del DNIe: certificados de autenticación y firma en la zona privada (con PIN); fotografía, firma manuscrita y datos de filiación en la zona de seguridad (Puntos de Actualización).",
+    "Agenda Digital para España (2013, 6 objetivos); España Digital 2025 (2020, 10 ejes); España Digital 2026 (2022, 3 dimensiones y ejes transversales PERTE y RETECH).",
+    "Década Digital 2030: 80 % con competencias digitales básicas, 20 millones de especialistas TIC y 100 % de los servicios públicos esenciales en línea."
+  ],
+  "sources": [
+    { "title": "Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758" },
+    { "title": "Ley 56/2007, de Medidas de Impulso de la Sociedad de la Información", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-22440" },
+    { "title": "Real Decreto 238/2026, facturación electrónica obligatoria entre empresarios y profesionales", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7295" },
+    { "title": "Reglamento (UE) 910/2014 (eIDAS), texto consolidado", "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:02014R0910-20241018" },
+    { "title": "Ley 6/2020, reguladora de determinados aspectos de los servicios electrónicos de confianza", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046" },
+    { "title": "Real Decreto 255/2025, por el que se regula el Documento Nacional de Identidad", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-6601" },
+    { "title": "Portal oficial del DNI electrónico", "url": "https://www.dnielectronico.es/PortalDNIe/" },
+    { "title": "España Digital 2026", "url": "https://digital.gob.es/ministerio/programas/programas-avance-digital/espana-digital-2026" },
+    { "title": "Decisión (UE) 2022/2481, Década Digital 2030", "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022D2481" }
+  ],
+  "updated": "2026-10-11"
+}

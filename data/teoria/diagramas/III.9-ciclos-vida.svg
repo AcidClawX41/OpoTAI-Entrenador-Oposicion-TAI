@@ -1,0 +1,107 @@
+<!-- opotai.diagrams: tools/sources/diagramas/III.9/ciclos-vida.svg sha256=02a2dcb1226d3d9d -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 716" width="900" height="716" font-family="Inter, system-ui, sans-serif" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Modelos clásicos de ciclo de vida del software</title>
+  <desc id="desc">Cuatro modelos: en cascada, fases secuenciales de requisitos a mantenimiento; en V, cada fase de desarrollo con su nivel de pruebas; incremental, varias entregas parciales; y en espiral, iteraciones por cuatro cuadrantes con análisis de riesgos.</desc>
+  <defs>
+    <marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+    <marker id="flv" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="716" rx="14" fill="#ffffff"/>
+  <text x="30" y="40" font-size="21" font-weight="700" fill="#1f2937">Modelos clásicos de ciclo de vida del software</text>
+  <text x="30" y="62" font-size="13" fill="#475569">Cascada y V son secuenciales; incremental y espiral repiten el ciclo y entregan o reducen riesgos por etapas</text>
+  <rect x="30" y="80" width="410" height="300" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="46" y="106" font-size="15" font-weight="700" fill="#1f2937">En cascada (Royce, 1970)</text>
+  <text x="46" y="366" font-size="13" fill="#475569">Rígido: el usuario ve el producto al final</text>
+  <rect x="46" y="122" width="128" height="28" rx="7" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.4"/>
+  <text x="110.0" y="141" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Requisitos</text>
+  <path d="M174,136.0 H196 V158" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <rect x="98" y="160" width="128" height="28" rx="7" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="162.0" y="179" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Análisis</text>
+  <path d="M226,174.0 H248 V196" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <rect x="150" y="198" width="128" height="28" rx="7" fill="#cffafe" stroke="#0891b2" stroke-width="1.4"/>
+  <text x="214.0" y="217" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Diseño</text>
+  <path d="M278,212.0 H300 V234" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <rect x="202" y="236" width="128" height="28" rx="7" fill="#d1fae5" stroke="#059669" stroke-width="1.4"/>
+  <text x="266.0" y="255" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Codificación</text>
+  <path d="M330,250.0 H352 V272" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <rect x="254" y="274" width="128" height="28" rx="7" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+  <text x="318.0" y="293" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Pruebas</text>
+  <path d="M382,288.0 H404 V310" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <rect x="306" y="312" width="128" height="28" rx="7" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.4"/>
+  <text x="370.0" y="331" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Mantenimiento</text>
+  <rect x="460" y="80" width="410" height="300" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="476" y="106" font-size="15" font-weight="700" fill="#1f2937">En V</text>
+  <text x="476" y="366" font-size="13" fill="#475569">Cada fase de desarrollo fija su nivel de pruebas (- - -)</text>
+  <rect x="474" y="132" width="128" height="30" rx="7" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="538.0" y="152" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Requisitos</text>
+  <rect x="504" y="202" width="128" height="30" rx="7" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="568.0" y="222" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Diseño</text>
+  <rect x="534" y="272" width="122" height="30" rx="7" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="595.0" y="292" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Codificación</text>
+  <rect x="728" y="132" width="128" height="30" rx="7" fill="#d1fae5" stroke="#059669" stroke-width="1.4"/>
+  <text x="792.0" y="152" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Aceptación</text>
+  <rect x="676" y="202" width="150" height="30" rx="7" fill="#d1fae5" stroke="#059669" stroke-width="1.4"/>
+  <text x="751.0" y="222" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Integración y sistema</text>
+  <rect x="674" y="272" width="122" height="30" rx="7" fill="#d1fae5" stroke="#059669" stroke-width="1.4"/>
+  <text x="735.0" y="292" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Unitarias</text>
+  <path d="M490,162 V217 H502" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <path d="M826,217 H826 V164" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <path d="M520,232 V287 H532" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <path d="M796,287 H796 V234" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <path d="M656,287 H672" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#fl)"/>
+  <path d="M606,147 H724" fill="none" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <path d="M636,217 H672" fill="none" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="665.0" y="142" font-size="13" text-anchor="middle" fill="#475569">se verifica con</text>
+  <text x="520" y="332" font-size="13" font-weight="600" text-anchor="middle" fill="#2563eb">desarrollo</text>
+  <text x="810" y="332" font-size="13" font-weight="600" text-anchor="middle" fill="#059669">pruebas</text>
+  <rect x="30" y="396" width="410" height="300" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="46" y="422" font-size="15" font-weight="700" fill="#1f2937">Incremental</text>
+  <text x="46" y="682" font-size="13" fill="#475569">Entregas parciales que ya funcionan</text>
+  <rect x="46" y="450" width="45" height="26" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+  <rect x="91" y="450" width="45" height="26" rx="4" fill="#cffafe" stroke="#0891b2" stroke-width="1.4"/>
+  <rect x="136" y="450" width="45" height="26" rx="4" fill="#d1fae5" stroke="#059669" stroke-width="1.4"/>
+  <rect x="181" y="450" width="45" height="26" rx="4" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+  <path d="M232,463 l9,-9 l9,9 l-9,9 z" fill="#1f2937"/>
+  <text x="258" y="468" font-size="13" font-weight="600" fill="#1f2937">Entrega 1</text>
+  <text x="46" y="494" font-size="13" fill="#475569">núcleo del sistema</text>
+  <rect x="98" y="508" width="45" height="26" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+  <rect x="143" y="508" width="45" height="26" rx="4" fill="#cffafe" stroke="#0891b2" stroke-width="1.4"/>
+  <rect x="188" y="508" width="45" height="26" rx="4" fill="#d1fae5" stroke="#059669" stroke-width="1.4"/>
+  <rect x="233" y="508" width="45" height="26" rx="4" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+  <path d="M284,521 l9,-9 l9,9 l-9,9 z" fill="#1f2937"/>
+  <text x="310" y="526" font-size="13" font-weight="600" fill="#1f2937">Entrega 2</text>
+  <text x="98" y="552" font-size="13" fill="#475569">más funciones</text>
+  <rect x="150" y="566" width="45" height="26" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+  <rect x="195" y="566" width="45" height="26" rx="4" fill="#cffafe" stroke="#0891b2" stroke-width="1.4"/>
+  <rect x="240" y="566" width="45" height="26" rx="4" fill="#d1fae5" stroke="#059669" stroke-width="1.4"/>
+  <rect x="285" y="566" width="45" height="26" rx="4" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+  <path d="M336,579 l9,-9 l9,9 l-9,9 z" fill="#1f2937"/>
+  <text x="362" y="584" font-size="13" font-weight="600" fill="#1f2937">Entrega 3</text>
+  <text x="150" y="610" font-size="13" fill="#475569">sistema completo</text>
+  <rect x="46" y="648" width="14" height="14" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="66" y="660" font-size="13" fill="#1f2937">Análisis</text>
+  <rect x="132" y="648" width="14" height="14" rx="3" fill="#cffafe" stroke="#0891b2" stroke-width="1.4"/>
+  <text x="152" y="660" font-size="13" fill="#1f2937">Diseño</text>
+  <rect x="202" y="648" width="14" height="14" rx="3" fill="#d1fae5" stroke="#059669" stroke-width="1.4"/>
+  <text x="222" y="660" font-size="13" fill="#1f2937">Código</text>
+  <rect x="270" y="648" width="14" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+  <text x="290" y="660" font-size="13" fill="#1f2937">Pruebas</text>
+  <rect x="460" y="396" width="410" height="300" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="476" y="422" font-size="15" font-weight="700" fill="#1f2937">En espiral (Boehm, 1986)</text>
+  <text x="476" y="682" font-size="13" fill="#475569">Cada vuelta pasa por el análisis de riesgos</text>
+  <line x1="547.0" y1="554" x2="783.0" y2="554" stroke="#cbd5e1" stroke-width="1.2"/>
+  <line x1="665.0" y1="449" x2="665.0" y2="659" stroke="#cbd5e1" stroke-width="1.2"/>
+  <polyline points="655.0,554.0 654.6,552.9 654.3,551.7 654.2,550.5 654.2,549.2 654.3,547.8 654.6,546.5 655.1,545.1 655.8,543.8 656.7,542.5 657.7,541.3 658.8,540.2 660.2,539.2 661.7,538.3 663.3,537.6 665.0,537.0 666.8,536.6 668.7,536.5 670.7,536.5 672.7,536.8 674.7,537.3 676.6,538.0 678.6,538.9 680.4,540.1 682.2,541.5 683.8,543.2 685.2,545.0 686.5,547.0 687.6,549.2 688.4,551.5 689.0,554.0 689.3,556.6 689.4,559.2 689.2,561.8 688.6,564.5 687.8,567.2 686.7,569.8 685.3,572.2 683.6,574.6 681.6,576.8 679.3,578.8 676.8,580.6 674.1,582.2 671.3,583.4 668.2,584.4 665.0,585.0 661.7,585.3 658.4,585.2 655.0,584.8 651.6,584.0 648.3,582.9 645.1,581.3 642.1,579.5 639.2,577.2 636.5,574.7 634.1,571.8 632.0,568.7 630.2,565.3 628.7,561.7 627.7,557.9 627.0,554.0 626.7,550.0 626.9,545.9 627.5,541.8 628.6,537.8 630.1,533.8 632.0,530.0 634.3,526.4 637.1,523.0 640.2,519.9 643.7,517.0 647.5,514.6 651.5,512.5 655.8,510.9 660.3,509.7 665.0,509.0 669.8,508.8 674.6,509.1 679.3,509.9 684.1,511.2 688.7,513.0 693.1,515.3 697.3,518.1 701.2,521.4 704.8,525.1 708.0,529.2 710.8,533.6 713.1,538.4 715.0,543.4 716.3,548.6 717.0,554.0 717.2,559.5 716.8,565.0 715.8,570.5 714.2,575.9 712.1,581.2 709.3,586.2 706.1,591.0 702.3,595.4 698.0,599.5 693.3,603.1 688.2,606.2 682.8,608.8 677.1,610.8 671.1,612.2 665.0,613.0 658.8,613.1 652.5,612.6 646.3,611.4 640.2,609.6 634.3,607.1 628.7,604.0 623.3,600.3 618.4,596.0 613.9,591.1 609.9,585.8 606.4,580.1 603.6,574.0 601.4,567.5 599.8,560.9 599.0,554.0 598.9,547.1 599.5,540.1 600.9,533.2 603.0,526.4 605.8,519.8 609.3,513.6 613.5,507.7 618.3,502.2 623.7,497.2 629.7,492.8 636.1,489.0 642.9,485.9 650.0,483.5 657.4,481.9 665.0,481.0 672.7,480.9 680.4,481.7 688.0,483.2 695.5,485.6 702.7,488.8 709.6,492.7 716.0,497.3 722.0,502.7 727.5,508.6 732.3,515.2 736.4,522.2 739.8,529.7 742.3,537.6 744.1,545.7 745.0,554.0 745.0,562.4 744.2,570.8 742.4,579.2 739.8,587.3 736.3,595.2 732.0,602.7 726.9,609.7 721.0,616.2 714.5,622.1 707.3,627.3 699.6,631.8 691.5,635.4 682.9,638.2 674.0,640.1 665.0,641.0 655.9,641.0 646.7,640.0 637.7,638.1 628.9,635.2 620.3,631.4 612.2,626.6 604.6,621.1 597.6,614.7 591.2,607.6 585.6,599.8 580.8,591.5 576.9,582.6 574.0,573.3 572.0,563.8 571.0,554.0" fill="none" stroke="#7c3aed" stroke-width="2" marker-end="url(#flv)"/>
+  <text x="474" y="448" font-size="13" font-weight="600" fill="#1f2937">1. Objetivos,</text>
+  <text x="474" y="464" font-size="13" fill="#1f2937">alternativas y</text>
+  <text x="474" y="480" font-size="13" fill="#1f2937">restricciones</text>
+  <text x="856" y="448" font-size="13" font-weight="600" text-anchor="end" fill="#1f2937">2. Evaluar</text>
+  <text x="856" y="464" font-size="13" text-anchor="end" fill="#1f2937">alternativas y</text>
+  <text x="856" y="480" font-size="13" text-anchor="end" fill="#1f2937">analizar riesgos</text>
+  <text x="856" y="610" font-size="13" font-weight="600" text-anchor="end" fill="#1f2937">3. Desarrollar</text>
+  <text x="856" y="626" font-size="13" text-anchor="end" fill="#1f2937">y verificar</text>
+  <text x="856" y="642" font-size="13" text-anchor="end" fill="#1f2937">el producto</text>
+  <text x="474" y="610" font-size="13" font-weight="600" fill="#1f2937">4. Planificar</text>
+  <text x="474" y="626" font-size="13" fill="#1f2937">la siguiente</text>
+  <text x="474" y="642" font-size="13" fill="#1f2937">iteración</text>
+</svg>

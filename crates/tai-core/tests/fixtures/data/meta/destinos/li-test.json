@@ -1,0 +1,1764 @@
+{
+  "schema_version": 1,
+  "convocatoria": "li-test",
+  "source": {
+    "title": "Nombramientos (sintético)",
+    "url": "https://example.org/boe",
+    "boe_id": null
+  },
+  "anonymized": true,
+  "total": 250,
+  "notes": null,
+  "assignments": [
+    {
+      "order": 1,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 2,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 3,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 4,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 5,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 6,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 7,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 8,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 9,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 10,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 11,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 12,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 13,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 14,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 15,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 16,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 17,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 18,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 19,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 20,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 21,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 22,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 23,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 24,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 25,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 26,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 27,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 28,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 29,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 30,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 31,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 32,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 33,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Bizkaia",
+      "locality": "Leioa"
+    },
+    {
+      "order": 34,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 35,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 36,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 37,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 38,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 39,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 40,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 41,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 42,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 43,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 44,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 45,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 46,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 47,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 48,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 49,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 50,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 51,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 52,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 53,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 54,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 55,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 56,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 57,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 58,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 59,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 60,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 61,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Bizkaia",
+      "locality": "Leioa"
+    },
+    {
+      "order": 62,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 63,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 64,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 65,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 66,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 67,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 68,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 69,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 70,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 71,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 72,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 73,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 74,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 75,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 76,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 77,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 78,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 79,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 80,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 81,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 82,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 83,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 84,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 85,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 86,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 87,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 88,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 89,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 90,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 91,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 92,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 93,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 94,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 95,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 96,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 97,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 98,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 99,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 100,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 101,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Cuenca",
+      "locality": "Villanueva Inventada"
+    },
+    {
+      "order": 102,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Cuenca",
+      "locality": "Villanueva Inventada"
+    },
+    {
+      "order": 103,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 104,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 105,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 106,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 107,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 108,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 109,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 110,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 111,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 112,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 113,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 114,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 115,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 116,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 117,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 118,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 119,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 120,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 121,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 122,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 123,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 124,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 125,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 126,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 127,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 128,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 129,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 130,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 131,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 132,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 133,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 134,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 135,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 136,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 137,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 138,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 139,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 140,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 141,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 142,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 143,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 144,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 145,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 146,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 147,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 148,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 149,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 150,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 151,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 152,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 153,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 154,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 155,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 156,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 157,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 158,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 159,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 160,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 161,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 162,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 163,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 164,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 165,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 166,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 167,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 168,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 169,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 170,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 171,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 172,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 173,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 174,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 175,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 176,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 177,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 178,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 179,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 180,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 181,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 182,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 183,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 184,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 185,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 186,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 187,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 188,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 189,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 190,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 191,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 192,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 193,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 194,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 195,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 196,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 197,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 198,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 199,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 200,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 201,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 202,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 203,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 204,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 205,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 206,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 207,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 208,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 209,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 210,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 211,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 212,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 213,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 214,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 215,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 216,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 217,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 218,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 219,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 220,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 221,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 222,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 223,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 224,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 225,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Soria",
+      "locality": "Soria"
+    },
+    {
+      "order": 226,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 227,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 228,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 229,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 230,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Soria",
+      "locality": "Soria"
+    },
+    {
+      "order": 231,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 232,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 233,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 234,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 235,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 236,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 237,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 238,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 239,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 240,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 241,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 242,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 243,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 244,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 245,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 246,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 247,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 248,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 249,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 250,
+      "organism": "Ministerio de prueba",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    }
+  ]
+}

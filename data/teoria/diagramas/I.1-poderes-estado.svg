@@ -1,0 +1,107 @@
+<!-- opotai.diagrams: tools/sources/diagramas/I.1/poderes-estado.svg sha256=919c4af68a8bae18 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" width="900" height="660" font-family="Inter, system-ui, sans-serif" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Los poderes del Estado en la Constitución de 1978</title>
+  <desc id="desc">Esquema de la Monarquía parlamentaria: el pueblo español elige a las Cortes Generales; las Cortes, el Gobierno y el Poder Judicial; la Corona como Jefatura del Estado; y el Tribunal Constitucional, cuyos doce magistrados proponen Congreso, Senado, Gobierno y CGPJ.</desc>
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="660" rx="14" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="30" y="40" font-size="21" font-weight="700" fill="#1f2937">Los poderes del Estado en la Constitución de 1978</text>
+  <text x="30" y="62" font-size="13" fill="#475569">Monarquía parlamentaria (art. 1.3): la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado (art. 1.2)</text>
+
+  <!-- Pueblo -->
+  <rect x="30" y="84" width="470" height="62" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="48" y="110" font-size="15" font-weight="700" fill="#1f2937">Pueblo español: titular de la soberanía nacional</text>
+  <text x="48" y="131" font-size="13" fill="#1f2937">Elige a las Cortes por sufragio universal, libre, igual, directo y secreto</text>
+
+  <!-- Corona -->
+  <rect x="540" y="84" width="330" height="96" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="558" y="108" font-size="13" font-weight="700" fill="#7c3aed" letter-spacing="0.6">JEFATURA DEL ESTADO</text>
+  <text x="558" y="128" font-size="15" font-weight="700" fill="#1f2937">La Corona (Título II)</text>
+  <text x="558" y="148" font-size="13" fill="#1f2937">El Rey: símbolo de unidad y permanencia;</text>
+  <text x="558" y="166" font-size="13" fill="#1f2937">arbitra y modera (art. 56)</text>
+
+  <!-- Flecha pueblo → Cortes -->
+  <line x1="135" y1="146" x2="135" y2="206" stroke="#1f2937" stroke-width="1.6" marker-end="url(#flecha)"/>
+  <text x="145" y="182" font-size="13" fill="#1f2937">elige (arts. 68 y 69)</text>
+
+  <!-- Legislativo -->
+  <rect x="30" y="210" width="220" height="186" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="46" y="234" font-size="13" font-weight="700" fill="#2563eb" letter-spacing="0.6">PODER LEGISLATIVO</text>
+  <text x="46" y="256" font-size="15.5" font-weight="700" fill="#1f2937">Cortes Generales</text>
+  <text x="46" y="275" font-size="13" fill="#475569">Título III · arts. 66–96</text>
+  <g font-size="13" fill="#1f2937">
+    <text x="46" y="300">Congreso (350 diputados)</text>
+    <text x="46" y="318">Senado (cámara territorial)</text>
+    <text x="46" y="342">Potestad legislativa,</text>
+    <text x="46" y="360">Presupuestos y control</text>
+    <text x="46" y="378">del Gobierno (art. 66.2)</text>
+  </g>
+
+  <!-- Ejecutivo -->
+  <rect x="345" y="210" width="230" height="186" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="361" y="234" font-size="13" font-weight="700" fill="#059669" letter-spacing="0.6">PODER EJECUTIVO</text>
+  <text x="361" y="256" font-size="15.5" font-weight="700" fill="#1f2937">Gobierno</text>
+  <text x="361" y="275" font-size="13" fill="#475569">Título IV · arts. 97–107</text>
+  <g font-size="13" fill="#1f2937">
+    <text x="361" y="300">Presidente, Vicepresidentes</text>
+    <text x="361" y="318">y Ministros (art. 98)</text>
+    <text x="361" y="342">Dirige la política interior y</text>
+    <text x="361" y="360">exterior, la Administración</text>
+    <text x="361" y="378">y la defensa (art. 97)</text>
+  </g>
+
+  <!-- Judicial -->
+  <rect x="640" y="210" width="230" height="186" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="656" y="234" font-size="13" font-weight="700" fill="#b45309" letter-spacing="0.6">PODER JUDICIAL</text>
+  <text x="656" y="256" font-size="15.5" font-weight="700" fill="#1f2937">Jueces y magistrados</text>
+  <text x="656" y="275" font-size="13" fill="#475569">Título VI · arts. 117–127</text>
+  <g font-size="13" fill="#1f2937">
+    <text x="656" y="300">Independientes, inamovibles</text>
+    <text x="656" y="318">y sometidos a la ley (art. 117)</text>
+    <text x="656" y="342">CGPJ: su órgano de gobierno</text>
+    <text x="656" y="360">(art. 122); Tribunal Supremo:</text>
+    <text x="656" y="378">órgano superior (art. 123)</text>
+  </g>
+
+  <!-- Relaciones Cortes ↔ Gobierno -->
+  <line x1="252" y1="285" x2="341" y2="285" stroke="#1f2937" stroke-width="1.6" marker-end="url(#flecha)"/>
+  <circle cx="297" cy="270" r="10" fill="#ffffff" stroke="#1f2937"/>
+  <text x="297" y="274.5" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">1</text>
+  <line x1="341" y1="330" x2="252" y2="330" stroke="#1f2937" stroke-width="1.6" marker-end="url(#flecha)"/>
+  <circle cx="297" cy="315" r="10" fill="#ffffff" stroke="#1f2937"/>
+  <text x="297" y="319.5" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">2</text>
+
+  <!-- Corona ↔ Gobierno (refrendo) -->
+  <path d="M558,182 L558,206" stroke="#7c3aed" stroke-width="1.6" stroke-dasharray="5 4" fill="none" marker-start="url(#flecha)"/>
+  <circle cx="538" cy="194" r="10" fill="#ffffff" stroke="#7c3aed"/>
+  <text x="538" y="198.5" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">3</text>
+
+  <!-- Tribunal Constitucional -->
+  <rect x="215" y="462" width="470" height="92" rx="10" fill="#ffe4e6" stroke="#be123c" stroke-width="1.5"/>
+  <text x="233" y="486" font-size="13" font-weight="700" fill="#be123c" letter-spacing="0.6">INTÉRPRETE SUPREMO DE LA CONSTITUCIÓN</text>
+  <text x="233" y="508" font-size="15.5" font-weight="700" fill="#1f2937">Tribunal Constitucional (Título IX)</text>
+  <text x="233" y="528" font-size="13" fill="#1f2937">12 magistrados nombrados por el Rey para 9 años; se</text>
+  <text x="233" y="545" font-size="13" fill="#1f2937">renueva por terceras partes cada 3 años (art. 159)</text>
+
+  <!-- Propuestas de magistrados -->
+  <path d="M140,396 L140,500 L211,500" stroke="#be123c" stroke-width="1.6" fill="none" marker-end="url(#flecha)"/>
+  <text x="150" y="424" font-size="13" fill="#be123c" font-weight="600">Congreso: 4 (3/5)</text>
+  <text x="150" y="442" font-size="13" fill="#be123c" font-weight="600">Senado: 4 (3/5)</text>
+  <line x1="460" y1="396" x2="460" y2="458" stroke="#be123c" stroke-width="1.6" marker-end="url(#flecha)"/>
+  <text x="470" y="432" font-size="13" fill="#be123c" font-weight="600">Gobierno: 2</text>
+  <path d="M755,396 L755,500 L689,500" stroke="#be123c" stroke-width="1.6" fill="none" marker-end="url(#flecha)"/>
+  <text x="765" y="432" font-size="13" fill="#be123c" font-weight="600">CGPJ: 2 (3/5)</text>
+
+  <!-- Leyenda -->
+  <line x1="30" y1="578" x2="870" y2="578" stroke="#cbd5e1"/>
+  <g font-size="13" fill="#1f2937">
+    <text x="30" y="600"><tspan font-weight="700" fill="#1f2937">1</tspan>  El Congreso otorga y puede retirar la confianza al Gobierno: investidura (art. 99), cuestión de confianza (112) y moción de censura (113).</text>
+    <text x="30" y="620"><tspan font-weight="700" fill="#1f2937">2</tspan>  El Presidente del Gobierno, previa deliberación del Consejo de Ministros, propone al Rey la disolución de las Cámaras (art. 115).</text>
+    <text x="30" y="640"><tspan font-weight="700" fill="#1f2937">3</tspan>  Los actos del Rey requieren refrendo del Presidente del Gobierno, de los ministros competentes o del Presidente del Congreso (art. 64).</text>
+  </g>
+</svg>

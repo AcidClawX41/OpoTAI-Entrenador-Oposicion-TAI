@@ -1,0 +1,120 @@
+name: Instaladores (Windows x64 · Linux x64 · macOS Apple Silicon)
+
+# Ejecutables e instaladores de OpoTAI para los tres sistemas:
+#   - Windows x64: instalador .msi, instalador -setup.exe (NSIS) y .exe portable.
+#   - Linux x64: .deb, .rpm y .AppImage.
+#   - macOS Apple Silicon (arm64): .dmg con la app (firma ad-hoc, sin cuenta de Apple).
+# Cuándo se ejecuta:
+#   - Al empujar una etiqueta vX.Y.Z[-rc.N]: crea un BORRADOR de release con todo adjunto.
+#   - Al cambiar `.github/compilar-instaladores` en cualquier rama: solo compila y deja los
+#     ejecutables como artefactos privados del workflow (para probar sin publicar nada).
+#   - A mano (workflow_dispatch, cuando el workflow esté en la rama principal): igual que el
+#     anterior, salvo que se marque «publish».
+
+on:
+  push:
+    tags: ["v*"]
+    branches: ["**"]
+    # En las ramas solo cuando se pide una compilación (en las etiquetas no se evalúa).
+    paths: [".github/compilar-instaladores"]
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Crear también un borrador de release en GitHub"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instaladores-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    name: ${{ matrix.name }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Windows x64
+            platform: windows-latest
+            rust_targets: ""
+            args: ""
+          - name: Linux x64
+            platform: ubuntu-22.04
+            rust_targets: ""
+            args: ""
+          - name: macOS Apple Silicon (arm64)
+            platform: macos-latest
+            rust_targets: aarch64-apple-darwin
+            args: "--target aarch64-apple-darwin"
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Dependencias de sistema (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf \
+            gstreamer1.0-plugins-base gstreamer1.0-plugins-good  # sonidos (WebAudio) dentro del AppImage
+
+      - uses: pnpm/action-setup@v6
+        with:
+          package_json_file: app/package.json
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: app/pnpm-lock.yaml
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.rust_targets }}
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Instalar dependencias de la interfaz
+        working-directory: app
+        run: pnpm install --frozen-lockfile
+
+      - name: Compilar y publicar borrador de release
+        if: startsWith(github.ref, 'refs/tags/') || inputs.publish
+        uses: tauri-apps/tauri-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          projectPath: app
+          args: ${{ matrix.args }}
+          # La etiqueta empujada manda (v1.0.0-rc.1 → borrador «OpoTAI v1.0.0-rc.1», marcado como
+          # pre-release); lanzado a mano, se usa la versión de la app.
+          tagName: ${{ github.ref_type == 'tag' && github.ref_name || 'v__VERSION__' }}
+          releaseName: "OpoTAI ${{ github.ref_type == 'tag' && github.ref_name || 'v__VERSION__' }}"
+          releaseBody: |
+            Entrenador de tests y simulacros para la oposición TAI (AGE) · por Eric Valls Gramunt.
+
+            - **Windows 10/11 (x64)**: instalador `-setup.exe` (recomendado) o `.msi`; también el `.exe` portable. Es una app sin firma comercial: si SmartScreen avisa, «Más información» → «Ejecutar de todas formas».
+            - **Linux (x64)**: `.deb` (Ubuntu/Debian, recomendado), `.rpm` (Fedora/openSUSE) o `.AppImage` (portable; en Ubuntu 24.04 o posterior necesita `sudo apt install libfuse2t64`).
+            - **macOS (Apple Silicon, M1 o posterior)**: `.dmg`. Tiene firma ad-hoc, no de Apple: la primera vez, abre la app, ve a Ajustes del Sistema → Privacidad y seguridad → «Abrir igualmente» (en macOS 14 o anterior también vale clic derecho → Abrir).
+          releaseDraft: true
+          prerelease: ${{ contains(github.ref_name, '-') }}
+          # En Windows se publica también el .exe portable (los datos van embebidos en el binario).
+          uploadPlainBinary: ${{ runner.os == 'Windows' }}
+          uploadWorkflowArtifacts: true
+          workflowArtifactNamePattern: "OpoTAI-[platform]-[arch]-[bundle]"
+
+      - name: Compilar (solo artefactos del workflow)
+        if: ${{ !(startsWith(github.ref, 'refs/tags/') || inputs.publish) }}
+        uses: tauri-apps/tauri-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          projectPath: app
+          args: ${{ matrix.args }}
+          uploadPlainBinary: ${{ runner.os == 'Windows' }}
+          uploadWorkflowArtifacts: true
+          workflowArtifactNamePattern: "OpoTAI-[platform]-[arch]-[bundle]"

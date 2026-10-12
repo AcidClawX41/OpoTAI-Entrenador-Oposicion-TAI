@@ -1,0 +1,402 @@
+{
+  "bank_id": "tai-li-2016",
+  "title": "TAI · Ingreso libre · Convocatoria 2016 (OEP 2016) (primer ejercicio 25/02/2017)",
+  "description": "Proceso selectivo de ingreso libre en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2016), con dos ejercicios en días distintos. Primer ejercicio (90 minutos): 50 preguntas comunes de los bloques I y II (+3 de reserva) y 50 del bloque III o del bloque IV, a elegir (+3 de reserva cada uno). Segundo ejercicio (90 minutos): un cuestionario práctico a elegir entre los bloques III y IV, de 40 preguntas (+3 de reserva) cada uno. Cuadernillos escaneados: transcritos por OCR y corregidos tras revisarlos.",
+  "access": "libre",
+  "year": 2016,
+  "convocatoria": "li-2016",
+  "exam_date": "2017-02-25",
+  "model": null,
+  "duration_minutes": 180,
+  "scoring_scheme": "tai-li-2016",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Orden HAP/998/2016, de 17 de junio (BOE 22/06/2016), OEP 2016; primer ejercicio el 25/02/2017 (Resolución del INAP de 22/12/2016, BOE 23/12/2016). La sede del INAP ya no publica los documentos de este proceso: se usan copias públicas de los PDF oficiales (cuestionarios «16/TAI-LI» del primer y segundo ejercicio y plantillas definitivas del INAP, sin alterar) archivadas en baquedano.es. En el primer ejercicio, la sección p1 (bloques I y II) es común y p1-b3/p1-b4 son los bloques a elegir; el segundo ejercicio ofrece dos cuestionarios prácticos (p2-s1, bloque III; p2-s2, bloque IV), uno a elegir. Los cuadernillos son escaneos sin capa de texto: el texto procede de OCR (Tesseract, una pasada a 300 ppp, caché versionada en tools/sources/ocr/) corregido después (ortografía, siglas y erratas del OCR, revisando la imagen en los casos dudosos); los listados de código del segundo ejercicio se transcriben a mano desde la imagen y las tablas MySQL se recortan como figura. Las preguntas con dudas de lectura llevan needs_review. Se pierde la negrita del original. Se omiten las portadas. Respuestas según las plantillas definitivas de cada ejercicio (pregunta 20 del bloque III del segundo ejercicio, anulada). exam_date es la fecha del primer ejercicio y duration_minutes suma ambos (90 + 90).",
+    "documents": [
+      "cuadernillo-1.pdf",
+      "plantilla-definitiva-1.pdf",
+      "cuadernillo-2.pdf",
+      "plantilla-definitiva-2.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primer ejercicio · Bloques I y II (comunes)",
+      "block": null,
+      "questions": 50,
+      "reserve": 3
+    },
+    {
+      "id": "p1-b3",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primer ejercicio · Bloque III (a elegir)",
+      "block": "III",
+      "questions": 50,
+      "reserve": 3
+    },
+    {
+      "id": "p1-b4",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primer ejercicio · Bloque IV (a elegir)",
+      "block": "IV",
+      "questions": 50,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segundo ejercicio · Cuestionario práctico del bloque III",
+      "block": "III",
+      "questions": 40,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segundo ejercicio · Cuestionario práctico del bloque IV",
+      "block": "IV",
+      "questions": 40,
+      "reserve": 3
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo-1.pdf",
+      "ocr": true,
+      "skip_pages": [
+        1
+      ],
+      "start_section": "p1",
+      "para_gap": 5.0,
+      "bottom": 815.0,
+      "ignore": [
+        "(?i)P[áa]gina ?\\d+ ?de ?13$",
+        "(?i)^bloque [il1|]{1,2}$"
+      ],
+      "markers": [
+        {
+          "pattern": "(?i)^bloque [il1|]{3}$",
+          "section": "p1-b3"
+        },
+        {
+          "pattern": "(?i)^bloque [il1|]v$",
+          "section": "p1-b4"
+        },
+        {
+          "pattern": "(?i)^preguntas ?de reserva$",
+          "reserve": true
+        }
+      ],
+      "question_x_max": 45.0,
+      "ocr_word_fixes": [
+        {
+          "page": 6,
+          "old": null,
+          "new": "BLOQUE III",
+          "x": 250.0,
+          "y": 322.0,
+          "note": "Cabecera del bloque III (blanco sobre gris) que el OCR no lee."
+        },
+        {
+          "page": 10,
+          "old": "me",
+          "new": "",
+          "y": 473.6,
+          "note": "Mancha leída delante de la cabecera «BLOQUE IV»."
+        },
+        {
+          "page": 5,
+          "old": "ai",
+          "new": "c) i",
+          "y": 617.7,
+          "x": 55.0,
+          "note": "Pregunta 45 (bloques I-II): «c) i» leído como «ai»."
+        },
+        {
+          "page": 7,
+          "old": "by",
+          "new": "b)",
+          "y": 526.6,
+          "x": 310.0,
+          "note": "Pregunta 16 (bloque III): etiqueta b) leída como «by»."
+        },
+        {
+          "page": 7,
+          "old": "¿+",
+          "new": "",
+          "y": 531.0,
+          "x": 286.0,
+          "note": "Pregunta 16 (bloque III): mancha del escaneo."
+        },
+        {
+          "page": 7,
+          "old": "Le",
+          "new": "",
+          "y": 528.5,
+          "x": 506.0,
+          "note": "Pregunta 16 (bloque III): mancha del escaneo."
+        },
+        {
+          "page": 7,
+          "old": "o",
+          "new": "",
+          "y": 539.2,
+          "x": 407.0,
+          "note": "Pregunta 16 (bloque III): mancha del escaneo."
+        },
+        {
+          "page": 9,
+          "old": "(>",
+          "new": "c)",
+          "y": 589.2,
+          "x": 58.0,
+          "note": "Pregunta 42 (bloque III): etiqueta c) leída como «(>»."
+        },
+        {
+          "page": 9,
+          "old": "o",
+          "new": "c) Babel",
+          "y": 700.8,
+          "x": 57.6,
+          "note": "Pregunta 44 (bloque III): «c) Babel» leído como «o» (texto muy tenue)."
+        },
+        {
+          "page": 9,
+          "old": "MM",
+          "new": "",
+          "y": 691.1,
+          "x": 115.9,
+          "note": "Mancha del escaneo."
+        },
+        {
+          "page": 9,
+          "old": "a",
+          "new": "",
+          "y": 692.2,
+          "x": 157.2,
+          "note": "Mancha del escaneo."
+        },
+        {
+          "page": 9,
+          "old": "e",
+          "new": "",
+          "y": 693.4,
+          "x": 202.3,
+          "note": "Mancha del escaneo."
+        },
+        {
+          "page": 10,
+          "old": "a",
+          "new": "a)",
+          "y": 751.8,
+          "x": 58.0,
+          "note": "Pregunta 4 (bloque IV): etiqueta a) leída sin paréntesis."
+        },
+        {
+          "page": 10,
+          "old": "1",
+          "new": "i",
+          "y": 751.8,
+          "x": 333.0,
+          "note": "Pregunta 4 (bloque IV): opción «i» leída como «1»."
+        },
+        {
+          "page": 10,
+          "old": "gd",
+          "new": "c)",
+          "y": 761.0,
+          "x": 58.0,
+          "note": "Pregunta 4 (bloque IV): etiqueta c) leída como «gd»."
+        }
+      ]
+    },
+    {
+      "file": "cuadernillo-2.pdf",
+      "ocr": true,
+      "skip_pages": [
+        1
+      ],
+      "para_gap": 5.0,
+      "bottom": 812.0,
+      "ignore": [
+        "(?i)P[áa]gina ?\\d+ ?de ?10$"
+      ],
+      "markers": [
+        {
+          "pattern": "(?i)^bloque [il1|]{3}$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^bloque [il1|]v$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^preguntas ?de reserva$",
+          "reserve": true
+        }
+      ],
+      "question_x_max": 45.0,
+      "exclude": [
+        {
+          "page": 2,
+          "rect": [
+            15,
+            76,
+            585,
+            372
+          ],
+          "note": "Listado C# (líneas 1-22): transcrito a mano en el enunciado."
+        },
+        {
+          "page": 3,
+          "rect": [
+            15,
+            72,
+            585,
+            395
+          ],
+          "note": "Listado Java (líneas 1-24): transcrito a mano en el enunciado."
+        },
+        {
+          "page": 5,
+          "rect": [
+            15,
+            116,
+            585,
+            396
+          ],
+          "note": "Listado PHP (líneas 1-21): transcrito a mano en el enunciado."
+        }
+      ],
+      "figures": [
+        {
+          "page": 4,
+          "rect": [
+            74,
+            257,
+            508,
+            382
+          ]
+        }
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "file": "plantilla-definitiva-1.pdf",
+      "status": "definitiva",
+      "segment_gap": 35.0,
+      "markers": [
+        {
+          "pattern": "(?i)^bloque i$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^bloque ii$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^bloque iii$",
+          "section": "p1-b3"
+        },
+        {
+          "pattern": "(?i)^bloque iv$",
+          "section": "p1-b4"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    },
+    {
+      "file": "plantilla-definitiva-2.pdf",
+      "status": "definitiva",
+      "segment_gap": 35.0,
+      "markers": [
+        {
+          "pattern": "(?i)^bloque iii$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^bloque iv$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "verify_text": false,
+  "spot_checks": {
+    "p1-001": "D",
+    "p1-050": "A",
+    "p1-r3": "B",
+    "p1-b3-001": "D",
+    "p1-b3-050": "A",
+    "p1-b3-r1": "D",
+    "p1-b4-001": "A",
+    "p1-b4-050": "A",
+    "p1-b4-r3": "D",
+    "p2-s1-001": "A",
+    "p2-s1-040": "D",
+    "p2-s1-r1": "B",
+    "p2-s2-001": "A",
+    "p2-s2-040": "A",
+    "p2-s2-r3": "D"
+  },
+  "figures": {
+    "p2-s1-statement-1": {
+      "redraw": "p2-s1-statement-1.svg",
+      "enhance": true,
+      "erase": [
+        [
+          70,
+          250,
+          359.5,
+          259.6
+        ],
+        [
+          359.5,
+          245,
+          425,
+          257.9
+        ]
+      ],
+      "alt": "Dos tablas del modelo relacional MySQL: departamentos (dep_id, dep_nombre, dep_ubicacion) e investigadores (inv_id, nombre, apellidos, email, contratado, salario, dep_id, telefono), relacionadas 1 a N por dep_id.",
+      "transcription": [
+        "*Transcripción de las tablas:*",
+        "",
+        "| investigadores | Tipo |",
+        "|---|---|",
+        "| inv_id (subrayado: clave) | INT |",
+        "| nombre | VARCHAR(50) |",
+        "| apellidos | VARCHAR(100) |",
+        "| email | VARCHAR(100) |",
+        "| contratado | DATE |",
+        "| salario | DECIMAL |",
+        "| dep_id | INT |",
+        "| telefono | INT |",
+        "",
+        "| departamentos | Tipo |",
+        "|---|---|",
+        "| dep_id | INT |",
+        "| dep_nombre | VARCHAR(255) |",
+        "| dep_ubicacion | VARCHAR(255) |",
+        "",
+        "Relación: departamentos (1) – investigadores (N)."
+      ]
+    }
+  }
+}

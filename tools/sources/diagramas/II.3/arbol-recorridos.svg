@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 428" width="900" height="428" role="img" aria-labelledby="t d">
+  <title id="t">Árbol binario de búsqueda y sus recorridos</title>
+  <desc id="d">Árbol binario de búsqueda con raíz 50; a su izquierda 30, con hijos 20 y 40, y 40 con hijo izquierdo 35; a su derecha 70, con hijos 60 y 80. Preorden (raíz, izquierdo, derecho): 50, 30, 20, 40, 35, 70, 60, 80. Inorden (izquierdo, raíz, derecho): 20, 30, 35, 40, 50, 60, 70, 80, ordenados. Postorden (izquierdo, derecho, raíz): 20, 35, 40, 30, 60, 80, 70, 50. Por niveles: 50, 30, 70, 20, 40, 60, 80, 35.</desc>
+  <defs>
+    <marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="428" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <text x="20" y="34" font-size="20" font-weight="700" fill="#1f2937">Árbol binario de búsqueda (ABB) y sus cuatro recorridos</text>
+    <text x="20" y="56" font-size="13" fill="#475569">En cada nodo, el subárbol izquierdo guarda claves menores y el derecho, mayores</text>
+    <rect x="16" y="72" width="440" height="322" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <path d="M272,118 L172,190" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M272,118 L372,190" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M172,190 L122,262" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M172,190 L222,262" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M372,190 L322,262" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M372,190 L422,262" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M222,262 L182,334" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="272" cy="118" r="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="272" y="123" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">50</text>
+    <circle cx="172" cy="190" r="22" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="172" y="195" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">30</text>
+    <circle cx="372" cy="190" r="22" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="372" y="195" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">70</text>
+    <circle cx="122" cy="262" r="22" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="122" y="267" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">20</text>
+    <circle cx="222" cy="262" r="22" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="222" y="267" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">40</text>
+    <circle cx="322" cy="262" r="22" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="322" y="267" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">60</text>
+    <circle cx="422" cy="262" r="22" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="422" y="267" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">80</text>
+    <circle cx="182" cy="334" r="22" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="182" y="339" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">35</text>
+    <text x="36" y="123" font-size="13" fill="#475569">nivel 1</text>
+    <text x="36" y="195" font-size="13" fill="#475569">nivel 2</text>
+    <text x="36" y="267" font-size="13" fill="#475569">nivel 3</text>
+    <text x="36" y="339" font-size="13" fill="#475569">nivel 4</text>
+    <text x="304" y="112" font-size="13" fill="#475569">raíz</text>
+    <text x="60" y="380" font-size="13" fill="#475569">hojas: 20, 35, 60, 80 · altura 4 · hasta 2⁴ − 1 = 15 nodos</text>
+    <text x="214" y="340" font-size="13" fill="#b45309">← 35 &lt; 40</text>
+    <rect x="476" y="72" width="408" height="74" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="492" y="96" font-size="15" font-weight="700" fill="#1f2937">Preorden</text>
+    <text x="868" y="96" font-size="13" text-anchor="end" fill="#475569">raíz → izquierdo → derecho</text>
+    <rect x="492" y="108" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="512" y="126" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">50</text>
+    <rect x="538" y="108" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="558" y="126" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">30</text>
+    <rect x="584" y="108" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="604" y="126" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">20</text>
+    <rect x="630" y="108" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="650" y="126" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">40</text>
+    <rect x="676" y="108" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="696" y="126" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">35</text>
+    <rect x="722" y="108" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="742" y="126" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">70</text>
+    <rect x="768" y="108" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="788" y="126" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">60</text>
+    <rect x="814" y="108" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="834" y="126" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">80</text>
+    <rect x="476" y="154" width="408" height="74" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="492" y="178" font-size="15" font-weight="700" fill="#047857">Inorden</text>
+    <text x="868" y="178" font-size="13" text-anchor="end" fill="#475569">izquierdo → raíz → derecho</text>
+    <rect x="492" y="190" width="40" height="26" rx="6" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="512" y="208" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">20</text>
+    <rect x="538" y="190" width="40" height="26" rx="6" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="558" y="208" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">30</text>
+    <rect x="584" y="190" width="40" height="26" rx="6" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="604" y="208" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">35</text>
+    <rect x="630" y="190" width="40" height="26" rx="6" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="650" y="208" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">40</text>
+    <rect x="676" y="190" width="40" height="26" rx="6" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="696" y="208" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">50</text>
+    <rect x="722" y="190" width="40" height="26" rx="6" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="742" y="208" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">60</text>
+    <rect x="768" y="190" width="40" height="26" rx="6" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="788" y="208" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">70</text>
+    <rect x="814" y="190" width="40" height="26" rx="6" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="834" y="208" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">80</text>
+    <rect x="476" y="236" width="408" height="74" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="492" y="260" font-size="15" font-weight="700" fill="#1f2937">Postorden</text>
+    <text x="868" y="260" font-size="13" text-anchor="end" fill="#475569">izquierdo → derecho → raíz</text>
+    <rect x="492" y="272" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="512" y="290" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">20</text>
+    <rect x="538" y="272" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="558" y="290" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">35</text>
+    <rect x="584" y="272" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="604" y="290" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">40</text>
+    <rect x="630" y="272" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="650" y="290" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">30</text>
+    <rect x="676" y="272" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="696" y="290" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">60</text>
+    <rect x="722" y="272" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="742" y="290" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">80</text>
+    <rect x="768" y="272" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="788" y="290" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">70</text>
+    <rect x="814" y="272" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="834" y="290" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">50</text>
+    <rect x="476" y="318" width="408" height="74" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="492" y="342" font-size="15" font-weight="700" fill="#1f2937">Por niveles</text>
+    <text x="868" y="342" font-size="13" text-anchor="end" fill="#475569">en anchura, con una cola</text>
+    <rect x="492" y="354" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="512" y="372" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">50</text>
+    <rect x="538" y="354" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="558" y="372" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">30</text>
+    <rect x="584" y="354" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="604" y="372" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">70</text>
+    <rect x="630" y="354" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="650" y="372" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">20</text>
+    <rect x="676" y="354" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="696" y="372" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">40</text>
+    <rect x="722" y="354" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="742" y="372" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">60</text>
+    <rect x="768" y="354" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="788" y="372" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">80</text>
+    <rect x="814" y="354" width="40" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="834" y="372" font-size="14" text-anchor="middle" font-weight="600" fill="#1f2937">35</text>
+    <text x="680" y="418" font-size="13" text-anchor="middle" fill="#047857">en un ABB, el inorden devuelve las claves ordenadas</text>
+  </g>
+</svg>

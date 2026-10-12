@@ -1,0 +1,312 @@
+{
+  "bank_id": "tai-pi-2018",
+  "global": {
+    "note": "Errores recurrentes del OCR (letras confundidas, palabras pegadas, rutas con «/» leída como «f») corregidos tras la pasada ortográfica y la comparación con la imagen.",
+    "replace": [
+      {
+        "old": "elDAS",
+        "new": "eIDAS",
+        "word": true
+      },
+      {
+        "old": "Esuna",
+        "new": "Es una",
+        "word": true
+      },
+      {
+        "old": "Elatributo",
+        "new": "El atributo",
+        "word": true
+      },
+      {
+        "old": "Ei",
+        "new": "El",
+        "word": true,
+        "count": 2
+      },
+      {
+        "old": "ei",
+        "new": "el",
+        "word": true,
+        "count": 1
+      },
+      {
+        "old": "Delos",
+        "new": "De los",
+        "word": true,
+        "count": 2
+      },
+      {
+        "old": "Enun",
+        "new": "En un",
+        "word": true
+      },
+      {
+        "old": "loT",
+        "new": "IoT",
+        "word": true
+      },
+      {
+        "old": "cambiosa",
+        "new": "cambios a",
+        "word": true
+      },
+      {
+        "old": "enel",
+        "new": "en el",
+        "word": true
+      },
+      {
+        "old": "ethO",
+        "new": "eth0",
+        "word": true,
+        "count": 4
+      },
+      {
+        "old": "fetc/",
+        "new": "/etc/",
+        "count": 2
+      },
+      {
+        "old": "fvar/",
+        "new": "/var/",
+        "count": 1
+      },
+      {
+        "old": "¡teraciones",
+        "new": "iteraciones",
+        "word": true
+      },
+      {
+        "old": "pertenecea",
+        "new": "pertenece a",
+        "word": true
+      },
+      {
+        "old": "haria",
+        "new": "haría",
+        "word": true
+      }
+    ]
+  },
+  "sections": {
+    "p2-s1": {
+      "note": "Enunciado transcrito de la imagen del cuadernillo (el OCR leía las viñetas como «e» y el diagrama E/R como texto); el diagrama se recorta como figura en su sitio.",
+      "set": {
+        "statement": "Se quiere llevar a cabo el desarrollo de una aplicación web para centralizar las solicitudes de material de oficina. Esta aplicación debe permitir tanto la petición del material como la gestión del inventario. Dentro del inventario tiene que haber papel, bolígrafos, tóner, clips, grapadoras, cuadernos, etc.\n\nLa aplicación deberá cumplir los siguientes requisitos:\n\n- Los usuarios del sistema pueden ser gestores o sólo solicitantes, los solicitantes de material pueden ser también gestores.\n- Ciertos pedidos de artículos necesitan ser aprobados por el responsable del solicitante.\n- Cada usuario podrá dar de alta tantos pedidos como quieran cada uno de ellos con los artículos que necesiten, siempre y cuando haya stock.\n- Los gestores se encargaran de aprobar las peticiones y de gestionar el inventario.\n- Tanto las peticiones como las aprobaciones deberán ir firmadas electrónicamente.\n- Se deberán tener en cuenta unos límites parametrizables en las cantidades máximas a pedir por artículo.\n\nA continuación se detalla un borrador inicial del diagrama E/R extendido de la aplicación:\n\n⟦FIG:0⟧"
+      }
+    }
+  },
+  "questions": {
+    "tai-pi-2018-p1-003": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "cual!",
+          "new": "cual"
+        }
+      ]
+    },
+    "tai-pi-2018-p1-004": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "hayan. obtenido",
+          "new": "hayan obtenido"
+        },
+        {
+          "old": "información: -",
+          "new": "información:"
+        }
+      ]
+    },
+    "tai-pi-2018-p1-011": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "propietario de audio,",
+          "new": "propietario de audio."
+        }
+      ]
+    },
+    "tai-pi-2018-p1-016": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "¡Os11",
+          "new": "iOS11"
+        }
+      ]
+    },
+    "tai-pi-2018-p1-020": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "Cumple la 1FN,",
+          "new": "Cumple la 1FN."
+        },
+        {
+          "old": "1FNy",
+          "new": "1FN y"
+        }
+      ]
+    },
+    "tai-pi-2018-p1-023": {
+      "note": "Código y opciones transcritos de la imagen (el OCR no leía bien las llaves ni los dígitos separados).",
+      "set": {
+        "text": "Indique cuál sería la salida que se obtendría ejecutando el siguiente trozo de código en C++: `for (int i=1; i++<10; i++) { ( (i == 5) ? cout<< \"Cinco\" : cout << i << \" \"); }`",
+        "options": [
+          "0 2 4 6 8",
+          "1 3 Cinco 7 9",
+          "2 4 6 8 10",
+          "1 3 5 7 9"
+        ]
+      }
+    },
+    "tai-pi-2018-p1-030": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "<articdle>",
+          "new": "<article>"
+        }
+      ]
+    },
+    "tai-pi-2018-p1-048": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "leeeM2M",
+          "new": "IeeeM2M"
+        },
+        {
+          "old": "ImTU",
+          "new": "ITU"
+        }
+      ]
+    },
+    "tai-pi-2018-p1-050": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "elaire frío,",
+          "new": "el aire frío."
+        }
+      ]
+    },
+    "tai-pi-2018-p1-r1": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "¡13-7100U",
+          "new": "i3-7100U"
+        },
+        {
+          "old": "33 generación",
+          "new": "3ª generación"
+        },
+        {
+          "old": "74 generación",
+          "new": "7ª generación"
+        }
+      ]
+    },
+    "tai-pi-2018-p2-s1-003": {
+      "note": "Opciones (HTML) transcritas de la imagen como código.",
+      "options_code": true,
+      "set": {
+        "options": [
+          "<input type=\"radio\" name=\"usuario\" value=\"solicitante\"/> solicitante <br/> <input type=\"radio\" name=\" usuario \" value=\"gestor\"/> gestor <br/>",
+          "<select> <option value=\"solicitante\"> solicitante </option> <option value=\"gestor\"> gestor </option></select>",
+          "<button type=\"button\"> solicitante </button> <button type=\"button\"> gestor </button>",
+          "<input type=\"checkbox\" name=\"usuario\" value=\"solicitante\"/> solicitante<br/> <input type=\"checkbox\" name=\"usuario\" value=\"gestor\"/> gestor<br/>"
+        ]
+      }
+    },
+    "tai-pi-2018-p2-s1-005": {
+      "note": "Opciones (DTD y XML Schema) transcritas de la imagen como código.",
+      "options_code": true,
+      "set": {
+        "options": [
+          "<!ELEMENT artículos (id_articulo, cantidad)><!ELEMENT id_articulo (#PCDATA)><!ELEMENT cantidad (#PCDATA)>",
+          "<!ELEMENT artículo [artículos]><!ELEMENT artículos (id_articulo, cantidad)><!ELEMENT id_articulo (#PCDATA)><!ELEMENT cantidad (#PCDATA)>",
+          "<xs:element name=\"artículos\"> <xs:complexType> <xs:element name=\"id_articulo\" type=\"xs:string\"/> <xs:element name=\"cantidad\" type=\"xs: int\"/></xs:complexType></xs:element>",
+          "<xs:element name=\"artículos\"><xs:complexType> <xs:sequence> <xs:element name=\"id_articulo\" type=\"xs:string\"/> <xs:element name=\"cantidad\" type=\"xs: int\"/> </xs:sequence></xs:complexType></xs:element>"
+        ]
+      }
+    },
+    "tai-pi-2018-p2-s1-007": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "N:i",
+          "new": "N:1"
+        }
+      ]
+    },
+    "tai-pi-2018-p2-s1-009": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "Al.idArtiículo, Al.count(idArticulo) FROM Articulo Ali,",
+          "new": "A1.idArticulo, A1.count(idArticulo) FROM Articulo A1,"
+        },
+        {
+          "old": "WHERE Al.idArticulo",
+          "new": "WHERE A1.idArticulo"
+        }
+      ]
+    },
+    "tai-pi-2018-p2-s1-010": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "más fácil,",
+          "new": "más fácil."
+        },
+        {
+          "old": "ta funcionalidad",
+          "new": "la funcionalidad"
+        }
+      ]
+    },
+    "tai-pi-2018-p2-s1-011": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "un limite",
+          "new": "un límite"
+        }
+      ]
+    },
+    "tai-pi-2018-p2-s1-012": {
+      "note": "Opciones transcritas de la imagen (llaves leídas como paréntesis).",
+      "set": {
+        "options": [
+          "public class Usuario extends Gestor {…}",
+          "public class Gestor extends Usuario {…}",
+          "public class Gestor : Usuario {…}",
+          "public class Usuario implements Gestor {…}"
+        ]
+      }
+    },
+    "tai-pi-2018-p2-s2-001": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "fetcfresolv.conf",
+          "new": "/etc/resolv.conf"
+        }
+      ]
+    },
+    "tai-pi-2018-p2-s2-r1": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "nec -zc",
+          "new": "ncc -zc"
+        }
+      ]
+    }
+  }
+}

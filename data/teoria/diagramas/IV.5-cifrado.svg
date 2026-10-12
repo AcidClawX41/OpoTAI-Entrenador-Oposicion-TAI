@@ -1,0 +1,92 @@
+<!-- opotai.diagrams: tools/sources/diagramas/IV.5/cifrado.svg sha256=808c2bfcdcd76059 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 612" width="900" height="612" role="img" aria-labelledby="t d">
+  <title id="t">Cifrado simétrico, asimétrico e híbrido</title>
+  <desc id="d">Simétrico: la misma clave secreta K cifra y descifra (AES), así que hay que compartirla por un canal seguro. Asimétrico: Ana cifra con la clave pública de Benito y solo la clave privada de Benito descifra, lo que da confidencialidad; para firmar se usa al revés. Híbrido: Ana genera una clave de sesión, cifra los datos con AES y esa clave, cifra la clave de sesión con la pública de Benito y envía ambas cosas; Benito recupera la clave de sesión con su privada y descifra los datos. Así funcionan TLS, S/MIME y PGP.</desc>
+  <defs>
+    <marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="612" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <text x="20" y="34" font-size="20" font-weight="700" fill="#1f2937">Criptografía simétrica, asimétrica e híbrida</text>
+    <text x="20" y="56" font-size="13" fill="#475569">Ana envía un mensaje confidencial a Benito; lo que cambia es qué clave cifra y cuál descifra</text>
+    <rect x="16" y="76" width="868" height="170" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="36" y="104" font-size="16" font-weight="700" fill="#1d4ed8">Simétrica (clave secreta)</text>
+    <text x="864" y="104" font-size="13" text-anchor="end" fill="#475569">AES, ChaCha20 · rápida para grandes volúmenes</text>
+    <rect x="20" y="120" width="120" height="50" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="80.0" y="142.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Texto en claro</text>
+    <text x="80.0" y="160.0" font-size="13" text-anchor="middle" fill="#475569">Ana</text>
+    <rect x="180" y="120" width="170" height="50" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="265.0" y="142.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Cifrar</text>
+    <text x="265.0" y="160.0" font-size="13" text-anchor="middle" fill="#475569">AES con K</text>
+    <rect x="390" y="120" width="120" height="50" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="450.0" y="142.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Texto cifrado</text>
+    <text x="450.0" y="160.0" font-size="13" text-anchor="middle" fill="#475569">viaja por la red</text>
+    <rect x="550" y="120" width="170" height="50" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="635.0" y="142.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Descifrar</text>
+    <text x="635.0" y="160.0" font-size="13" text-anchor="middle" fill="#475569">AES con K</text>
+    <rect x="760" y="120" width="120" height="50" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="820.0" y="142.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Texto en claro</text>
+    <text x="820.0" y="160.0" font-size="13" text-anchor="middle" fill="#475569">Benito</text>
+    <path d="M142,145 L177,145" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M352,145 L387,145" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M512,145 L547,145" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M722,145 L757,145" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M265,186 L265,172" fill="none" stroke="#b45309" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M635,186 L635,172" fill="none" stroke="#b45309" stroke-width="1.6" marker-end="url(#fl)"/>
+    <rect x="180.0" y="186" width="170" height="28" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="265" y="205" font-size="13" text-anchor="middle" font-weight="600" fill="#b45309">clave secreta K</text>
+    <rect x="550.0" y="186" width="170" height="28" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="635" y="205" font-size="13" text-anchor="middle" font-weight="600" fill="#b45309">la misma clave K</text>
+    <path d="M350,200 L550,200" fill="none" stroke="#d97706" stroke-width="1.6" stroke-dasharray="5 4"/>
+    <text x="450.0" y="228" font-size="13" text-anchor="middle" fill="#b45309">la misma clave, compartida antes por un canal seguro</text>
+    <rect x="16" y="258" width="868" height="170" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="36" y="286" font-size="16" font-weight="700" fill="#047857">Asimétrica (clave pública)</text>
+    <text x="864" y="286" font-size="13" text-anchor="end" fill="#475569">RSA, curvas elípticas · lenta: datos pequeños y claves</text>
+    <rect x="20" y="302" width="120" height="50" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="80.0" y="324.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Texto en claro</text>
+    <text x="80.0" y="342.0" font-size="13" text-anchor="middle" fill="#475569">Ana</text>
+    <rect x="180" y="302" width="170" height="50" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="265.0" y="324.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Cifrar</text>
+    <text x="265.0" y="342.0" font-size="13" text-anchor="middle" fill="#475569">con la pública de B</text>
+    <rect x="390" y="302" width="120" height="50" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="450.0" y="324.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Texto cifrado</text>
+    <text x="450.0" y="342.0" font-size="13" text-anchor="middle" fill="#475569">viaja por la red</text>
+    <rect x="550" y="302" width="170" height="50" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="635.0" y="324.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Descifrar</text>
+    <text x="635.0" y="342.0" font-size="13" text-anchor="middle" fill="#475569">con la privada de B</text>
+    <rect x="760" y="302" width="120" height="50" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="820.0" y="324.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Texto en claro</text>
+    <text x="820.0" y="342.0" font-size="13" text-anchor="middle" fill="#475569">Benito</text>
+    <path d="M142,327 L177,327" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M352,327 L387,327" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M512,327 L547,327" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M722,327 L757,327" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M265,368 L265,354" fill="none" stroke="#047857" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M635,368 L635,354" fill="none" stroke="#be123c" stroke-width="1.6" marker-end="url(#fl)"/>
+    <rect x="180.0" y="368" width="170" height="28" rx="14" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="265" y="387" font-size="13" text-anchor="middle" font-weight="600" fill="#047857">pública de Benito</text>
+    <rect x="550.0" y="368" width="170" height="28" rx="14" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="635" y="387" font-size="13" text-anchor="middle" font-weight="600" fill="#be123c">privada de Benito</text>
+    <text x="450" y="414" font-size="13" text-anchor="middle" fill="#475569">La pública se difunde; la privada no sale de Benito → confidencialidad. Para firmar, al revés (tema I.6).</text>
+    <rect x="16" y="440" width="868" height="160" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="36" y="468" font-size="16" font-weight="700" fill="#6d28d9">Híbrida: lo que hacen TLS, S/MIME y PGP</text>
+    <text x="864" y="468" font-size="13" text-anchor="end" fill="#475569">reparto de claves asimétrico + rapidez simétrica</text>
+    <rect x="32" y="484" width="156" height="54" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="110.0" y="508.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">1. Clave de sesión</text>
+    <text x="110.0" y="526.0" font-size="13" text-anchor="middle" fill="#475569">Ana la genera al azar</text>
+    <rect x="216" y="484" width="184" height="54" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="308.0" y="508.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">2. Cifra los datos</text>
+    <text x="308.0" y="526.0" font-size="13" text-anchor="middle" fill="#475569">AES con la clave de sesión</text>
+    <rect x="428" y="484" width="194" height="54" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="525.0" y="508.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">3. Cifra la clave</text>
+    <text x="525.0" y="526.0" font-size="13" text-anchor="middle" fill="#475569">de sesión con la pública de B</text>
+    <rect x="650" y="484" width="218" height="54" rx="8" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="759.0" y="508.0" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">4. Benito descifra</text>
+    <text x="759.0" y="526.0" font-size="13" text-anchor="middle" fill="#475569">la clave (privada) y los datos</text>
+    <path d="M190,511 L213,511" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M402,511 L425,511" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <path d="M624,511 L647,511" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+    <text x="450" y="568" font-size="13" text-anchor="middle" fill="#475569">La parte asimétrica solo protege una clave corta; el volumen de datos lo cifra el algoritmo simétrico, mucho más rápido.</text>
+    <text x="450" y="588" font-size="13" text-anchor="middle" fill="#475569">En TLS 1.3 la clave de sesión no se transporta: se acuerda con Diffie-Hellman efímero (ECDHE).</text>
+  </g>
+</svg>

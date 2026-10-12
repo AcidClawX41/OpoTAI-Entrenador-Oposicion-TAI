@@ -1,0 +1,71 @@
+{
+  "topic": "IV.7",
+  "summary": "Modelo de referencia OSI de ISO (siete capas, servicios y primitivas) y modelo TCP/IP (cuatro capas) con su correspondencia; IPv4 con direccionamiento, máscaras, CIDR/VLSM y cálculo de subredes paso a paso, NAT, ARP e ICMP; IPv6 (notación, tipos de dirección, SLAAC/DHCPv6, NDP); encaminamiento estático y dinámico (RIP, OSPF, BGP); TCP y UDP; y protocolos de aplicación (DNS, DHCP).",
+  "key_points": [
+    "OSI (ISO/IEC 7498-1): física, enlace, red, transporte, sesión, presentación y aplicación; PDU: bit, trama, paquete, segmento y datos; primitivas Request, Indication, Response y Confirm.",
+    "TCP/IP tiene cuatro capas: acceso a la red, Internet, transporte y aplicación; Internet usa TCP/IP, OSI es el marco conceptual.",
+    "IPv4: 32 bits, cabecera mínima de 20 bytes, TTL y fragmentación; clases A–E; rangos privados del RFC 1918 (10/8, 172.16/12, 192.168/16).",
+    "Subredes: hosts útiles = 2^h − 2, subredes = 2^s, salto del bloque = 256 − octeto de la máscara (/26 → 62 hosts, /24 → 254, /21 → 2 046).",
+    "ARP resuelve IP → MAC en IPv4; en IPv6 lo sustituye NDP (ICMPv6 133–137). ICMP: 0 eco-respuesta, 3 destino inalcanzable, 5 redirección, 8 eco-petición, 11 tiempo excedido.",
+    "IPv6: 128 bits, cabecera fija de 40 bytes, Hop Limit y sin broadcast; 2000::/3 global, fe80::/10 enlace local, fc00::/7 ULA, ff00::/8 multicast, ::1 loopback; /64 por LAN.",
+    "Encaminamiento: vector de distancia (RIP), estado de enlace (OSPF, IS-IS) y vector de rutas (BGP); split horizon, poison reverse y hold down evitan bucles.",
+    "TCP es orientado a conexión y fiable (SYN, SYN+ACK, ACK); UDP sin conexión con cabecera de 8 bytes; QUIC funciona sobre UDP.",
+    "Puertos: bien conocidos 0–1023, registrados 1024–49151 y dinámicos 49152–65535.",
+    "DNS (registros A, AAAA, CNAME, MX, NS, PTR, SOA, TXT, SRV) y DHCP con el proceso DORA y agentes relay (ip helper-address)."
+  ],
+  "sources": [
+    {
+      "title": "ISO/IEC 7498-1:1994 · Modelo de referencia OSI",
+      "url": "https://www.iso.org/standard/20269.html"
+    },
+    {
+      "title": "UIT-T X.200",
+      "url": "https://www.itu.int/rec/T-REC-X.200"
+    },
+    {
+      "title": "RFC 1122 · Requisitos de los hosts de Internet",
+      "url": "https://www.rfc-editor.org/rfc/rfc1122"
+    },
+    {
+      "title": "RFC 791 · Internet Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc791"
+    },
+    {
+      "title": "RFC 1918 · Direcciones privadas",
+      "url": "https://www.rfc-editor.org/rfc/rfc1918"
+    },
+    {
+      "title": "RFC 8200 · IPv6",
+      "url": "https://www.rfc-editor.org/rfc/rfc8200"
+    },
+    {
+      "title": "RFC 4291 · Arquitectura de direcciones IPv6",
+      "url": "https://www.rfc-editor.org/rfc/rfc4291"
+    },
+    {
+      "title": "RFC 9293 · TCP",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293"
+    },
+    {
+      "title": "RFC 768 · UDP",
+      "url": "https://www.rfc-editor.org/rfc/rfc768"
+    },
+    {
+      "title": "RFC 2328 · OSPF v2",
+      "url": "https://www.rfc-editor.org/rfc/rfc2328"
+    },
+    {
+      "title": "RFC 4271 · BGP-4",
+      "url": "https://www.rfc-editor.org/rfc/rfc4271"
+    },
+    {
+      "title": "RFC 2131 · DHCP",
+      "url": "https://www.rfc-editor.org/rfc/rfc2131"
+    },
+    {
+      "title": "IANA · Registro de puertos y servicios",
+      "url": "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml"
+    }
+  ],
+  "updated": "2026-10-11"
+}

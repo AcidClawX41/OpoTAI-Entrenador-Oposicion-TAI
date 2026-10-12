@@ -1,0 +1,59 @@
+{
+  "topic": "III.8",
+  "summary": "Accesibilidad (WCAG 2.2, WAI-ARIA, ATAG, EN 301 549, RD 1112/2018 y Ley Europea de Accesibilidad), diseño universal y sus siete principios, usabilidad (ISO 9241-11, heurísticos de Nielsen, métodos de evaluación), confidencialidad y disponibilidad en el puesto de usuario según el ENS, y seguridad en el desarrollo: S-SDLC, ENS mp.sw, SAST/DAST/SCA, OWASP Top 10:2025, XSS, CSRF, inyección, cabeceras y cookies seguras.",
+  "key_points": [
+    "WCAG (W3C/WAI): 2.2 de 2023 es la vigente y es ISO/IEC 40500:2025; principios perceptible, operable, comprensible y robusto; niveles A, AA (exigido) y AAA.",
+    "RD 1112/2018 (Directiva 2016/2102): webs y apps del sector público; quejas en 20 días hábiles, reclamación en dos meses; declaración anual; primera revisión de webs a 2 años y de apps a 3 años; apps desde el 23-6-2021.",
+    "El contenido accesible incluye documentos descargables, multimedia pregrabado y procesos de identificación, autenticación, firma y pago; se excluye el multimedia en directo y la radiodifusión pública.",
+    "EN 301 549 V3.2.1 (WCAG 2.1 AA) da la presunción de conformidad; la V4.1.1 (WCAG 2.2) se publicó en 2026; la Ley 11/2023 aplica la Ley Europea de Accesibilidad a productos y servicios privados desde el 28-6-2025.",
+    "ATAG: herramientas de autor; UAAG: agentes de usuario; WAI-ARIA: aria-live para regiones que se actualizan y aria-expanded para menús desplegados.",
+    "Diseño universal: uso equitativo, flexible, simple e intuitivo, información perceptible, tolerancia al error, bajo esfuerzo físico y tamaño y espacio; no excluye los productos de apoyo.",
+    "Usabilidad (ISO 9241-11): eficacia, eficiencia y satisfacción en un contexto de uso; 10 heurísticos de Nielsen (reconocimiento antes que recuerdo).",
+    "Puesto de usuario: mesa limpia (mp.eq.1), bloqueo por inactividad (mp.eq.2), cifrado de portátiles (mp.eq.3), cifrado y borrado de soportes (mp.si), MFA con factores de tipo distinto y copias de seguridad.",
+    "Desarrollo seguro: ENS mp.sw.1 (entornos separados, metodología segura, seguridad desde el diseño, datos de prueba, lista de componentes) y mp.sw.2; SAST estático, DAST dinámico, SCA de dependencias.",
+    "OWASP Top 10:2025 encabezado por control de acceso roto; XSS se previene escapando la salida y con CSP, SQLi con consultas parametrizadas, CSRF con tokens y SameSite; HttpOnly impide el acceso de JavaScript a la cookie y nosniff evita el rastreo MIME."
+  ],
+  "sources": [
+    {
+      "title": "Real Decreto 1112/2018 (BOE-A-2018-12699)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699"
+    },
+    {
+      "title": "Ley 11/2023 (BOE-A-2023-11022)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11022"
+    },
+    {
+      "title": "W3C · WCAG 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "W3C WAI · WCAG 2.2 aprobada como ISO/IEC 40500:2025",
+      "url": "https://www.w3.org/WAI/news/2025-10-21/wcag22-iso"
+    },
+    {
+      "title": "W3C · WAI-ARIA 1.2",
+      "url": "https://www.w3.org/TR/wai-aria-1.2/"
+    },
+    {
+      "title": "ETSI · EN 301 549 V3.2.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"
+    },
+    {
+      "title": "Nielsen Norman Group · 10 Usability Heuristics",
+      "url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+    },
+    {
+      "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+    },
+    {
+      "title": "OWASP Top 10:2025",
+      "url": "https://top10.owasp.org/2025/0x00_2025-Introduction"
+    },
+    {
+      "title": "NIST SP 800-218, Secure Software Development Framework",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/final"
+    }
+  ],
+  "updated": "2026-10-11"
+}

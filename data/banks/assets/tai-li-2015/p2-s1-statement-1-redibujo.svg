@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 886 606" width="886" height="606" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Reconstrucción de OpoTAI: modelo de datos de la aplicación del Museo</title>
+  <desc id="descripcion">Redibujo del modelo escaneado: siete tablas con sus columnas y tipos. La clave primaria de cada tabla lleva un rombo relleno y va subrayada; el resto de columnas, un rombo pequeño, salvo grupoedad y direccion de CLIENTES, que llevan un círculo (opcionales). Líneas: ACTIV_ESPAC con ACTIVIDADES y con ESPACIOS; ACTIVIDADES con SESIONES y con ENTIDADES_EXTERNAS; SESIONES con RESERVAS; RESERVAS con CLIENTES. Sin cardinalidades.</desc>
+  <rect x="1" y="1" width="884" height="604" rx="14" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937">
+    <path d="M165.8 62.4L231.9 62.4L231.9 99.1L299.6 99.1M157.7 111.6L157.7 168.9L146.7 168.9L146.7 226.3M596.5 99.1L634.7 99.1L634.7 174.8L673.7 174.8M522.3 164.5L522.3 222.6L434.1 222.6L434.1 282.1M825.1 186.6L825.1 229.2L717.8 229.2L717.8 271.1M808.2 403.4L808.2 424.0L804.5 424.0L804.5 462.2" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/>
+    <g aria-label="Tabla ACTIV_ESPAC">
+      <rect x="41.6" y="51.3" width="124.2" height="60.3" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+      <rect x="42.6" y="52.3" width="122.2" height="18.1" fill="#f5f3ff"/>
+      <path d="M41.6 70.4H165.8" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="103.7" y="65.4" text-anchor="middle" font-weight="700" font-size="13.5">ACTIV_ESPAC</text>
+      <path d="M49.6 72.6L54.1 77.1L49.6 81.6L45.1 77.1Z" fill="#7c3aed"/>
+      <path d="M57.6 89.1H157.8" stroke="#1f2937" stroke-width="1.2"/>
+      <text x="57.6" y="86.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">idactividad</text>
+      <path d="M49.6 91.8L54.1 96.3L49.6 100.8L45.1 96.3Z" fill="#7c3aed"/>
+      <path d="M57.6 108.3H157.8" stroke="#1f2937" stroke-width="1.2"/>
+      <text x="57.6" y="105.3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">idespacio</text>
+    </g>
+    <g aria-label="Tabla ACTIVIDADES">
+      <rect x="299.6" y="14.6" width="296.9" height="149.9" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+      <rect x="300.6" y="15.6" width="294.9" height="18.8" fill="#f5f3ff"/>
+      <path d="M299.6 34.4H596.5" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="448.0" y="29.4" text-anchor="middle" font-weight="700" font-size="13.5">ACTIVIDADES</text>
+      <path d="M307.6 35.8L312.1 40.3L307.6 44.8L303.1 40.3Z" fill="#7c3aed"/>
+      <path d="M315.6 52.3H503.1" stroke="#1f2937" stroke-width="1.2"/>
+      <text x="315.6" y="49.3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">id</text>
+      <path d="M307.6 55.5L310.6 58.5L307.6 61.5L304.6 58.5Z" fill="#1f2937"/>
+      <text x="315.6" y="67.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">nombre</text>
+      <text x="503.1" y="67.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">text</text>
+      <path d="M307.6 73.7L310.6 76.7L307.6 79.7L304.6 76.7Z" fill="#1f2937"/>
+      <text x="315.6" y="85.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">capacidad</text>
+      <text x="503.1" y="85.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">int8</text>
+      <path d="M307.6 91.9L310.6 94.9L307.6 97.9L304.6 94.9Z" fill="#1f2937"/>
+      <text x="315.6" y="103.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">fecha_inicio</text>
+      <text x="503.1" y="103.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">date</text>
+      <path d="M307.6 110.1L310.6 113.1L307.6 116.1L304.6 113.1Z" fill="#1f2937"/>
+      <text x="315.6" y="122.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">fecha_fin</text>
+      <text x="503.1" y="122.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">date</text>
+      <path d="M307.6 128.3L310.6 131.3L307.6 134.3L304.6 131.3Z" fill="#1f2937"/>
+      <text x="315.6" y="140.3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">llevacanon</text>
+      <text x="503.1" y="140.3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">varchar(1)</text>
+      <path d="M307.6 146.5L310.6 149.5L307.6 152.5L304.6 149.5Z" fill="#1f2937"/>
+      <text x="315.6" y="158.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">identidadexterna (FK)</text>
+      <text x="503.1" y="158.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">int8</text>
+    </g>
+    <g aria-label="Tabla SESIONES">
+      <rect x="673.7" y="90.3" width="201.4" height="96.3" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+      <rect x="674.7" y="91.3" width="199.4" height="18.8" fill="#f5f3ff"/>
+      <path d="M673.7 110.1H875.1" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="774.4" y="105.1" text-anchor="middle" font-weight="700" font-size="13.5">SESIONES</text>
+      <path d="M681.7 111.7L686.2 116.2L681.7 120.7L677.2 116.2Z" fill="#7c3aed"/>
+      <path d="M689.7 128.2H828.0" stroke="#1f2937" stroke-width="1.2"/>
+      <text x="689.7" y="125.2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">id</text>
+      <path d="M681.7 131.7L684.7 134.7L681.7 137.7L678.7 134.7Z" fill="#1f2937"/>
+      <text x="689.7" y="143.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">idactividad (FK)</text>
+      <text x="828.0" y="143.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">int8</text>
+      <path d="M681.7 150.1L684.7 153.1L681.7 156.1L678.7 153.1Z" fill="#1f2937"/>
+      <text x="689.7" y="162.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">inicio</text>
+      <text x="828.0" y="162.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">date</text>
+      <path d="M681.7 168.5L684.7 171.5L681.7 174.5L678.7 171.5Z" fill="#1f2937"/>
+      <text x="689.7" y="180.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">fin</text>
+      <text x="828.0" y="180.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">date</text>
+    </g>
+    <g aria-label="Tabla ESPACIOS">
+      <rect x="14.4" y="226.3" width="140.4" height="78.6" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+      <rect x="15.4" y="227.3" width="138.4" height="18.8" fill="#f5f3ff"/>
+      <path d="M14.4 246.1H154.8" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="84.6" y="241.1" text-anchor="middle" font-weight="700" font-size="13.5">ESPACIOS</text>
+      <path d="M22.4 247.89999999999998L26.9 252.39999999999998L22.4 256.9L17.9 252.39999999999998Z" fill="#7c3aed"/>
+      <path d="M30.4 264.4H115.8" stroke="#1f2937" stroke-width="1.2"/>
+      <text x="30.4" y="261.4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">id</text>
+      <path d="M22.4 268.1L25.4 271.1L22.4 274.1L19.4 271.1Z" fill="#1f2937"/>
+      <text x="30.4" y="280.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">nombre</text>
+      <text x="115.8" y="280.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">text</text>
+      <path d="M22.4 286.7L25.4 289.7L22.4 292.7L19.4 289.7Z" fill="#1f2937"/>
+      <text x="30.4" y="298.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">capacidad</text>
+      <text x="115.8" y="298.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">int8</text>
+    </g>
+    <g aria-label="Tabla ENTIDADES_EXTERNAS">
+      <rect x="301.8" y="282.1" width="175.7" height="96.3" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+      <rect x="302.8" y="283.1" width="173.7" height="18.1" fill="#f5f3ff"/>
+      <path d="M301.8 301.2H477.4" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="389.6" y="296.2" text-anchor="middle" font-weight="700" font-size="13.5">ENTIDADES_EXTERNAS</text>
+      <path d="M309.8 303.0L314.3 307.5L309.8 312.0L305.3 307.5Z" fill="#7c3aed"/>
+      <path d="M317.8 319.5H431.1" stroke="#1f2937" stroke-width="1.2"/>
+      <text x="317.8" y="316.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">id</text>
+      <path d="M309.8 323.1L312.8 326.1L309.8 329.1L306.8 326.1Z" fill="#1f2937"/>
+      <text x="317.8" y="335.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">razonsocial</text>
+      <text x="431.1" y="335.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">text</text>
+      <path d="M309.8 341.7L312.8 344.7L309.8 347.7L306.8 344.7Z" fill="#1f2937"/>
+      <text x="317.8" y="353.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">cif</text>
+      <text x="431.1" y="353.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">text</text>
+      <path d="M309.8 360.3L312.8 363.3L309.8 366.3L306.8 363.3Z" fill="#1f2937"/>
+      <text x="317.8" y="372.3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">datoscontacto</text>
+      <text x="431.1" y="372.3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">text</text>
+    </g>
+    <g aria-label="Tabla RESERVAS">
+      <rect x="670.7" y="271.1" width="185.2" height="132.3" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+      <rect x="671.7" y="272.1" width="183.2" height="18.8" fill="#f5f3ff"/>
+      <path d="M670.7 290.9H855.9" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="763.3" y="285.9" text-anchor="middle" font-weight="700" font-size="13.5">RESERVAS</text>
+      <path d="M678.7 292.4L683.2 296.9L678.7 301.4L674.2 296.9Z" fill="#7c3aed"/>
+      <path d="M686.7 308.9H808.2" stroke="#1f2937" stroke-width="1.2"/>
+      <text x="686.7" y="305.9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">id</text>
+      <path d="M678.7 312.2L681.7 315.2L678.7 318.2L675.7 315.2Z" fill="#1f2937"/>
+      <text x="686.7" y="324.2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">idsesion (FK)</text>
+      <text x="808.2" y="324.2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">int8</text>
+      <path d="M678.7 330.5L681.7 333.5L678.7 336.5L675.7 333.5Z" fill="#1f2937"/>
+      <text x="686.7" y="342.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">fecha</text>
+      <text x="808.2" y="342.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">date</text>
+      <path d="M678.7 348.8L681.7 351.8L678.7 354.8L675.7 351.8Z" fill="#1f2937"/>
+      <text x="686.7" y="360.8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">asistentes</text>
+      <text x="808.2" y="360.8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">int8</text>
+      <path d="M678.7 367.1L681.7 370.1L678.7 373.1L675.7 370.1Z" fill="#1f2937"/>
+      <text x="686.7" y="379.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">importe_as</text>
+      <text x="808.2" y="379.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">int8</text>
+      <path d="M678.7 385.4L681.7 388.4L678.7 391.4L675.7 388.4Z" fill="#1f2937"/>
+      <text x="686.7" y="397.4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">idcliente (FK)</text>
+      <text x="808.2" y="397.4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">int8</text>
+    </g>
+    <g aria-label="Tabla CLIENTES">
+      <rect x="660.4" y="462.2" width="192.6" height="132.3" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+      <rect x="661.4" y="463.2" width="190.6" height="19.6" fill="#f5f3ff"/>
+      <path d="M660.4 482.8H853.0" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="756.7" y="477.8" text-anchor="middle" font-weight="700" font-size="13.5">CLIENTES</text>
+      <path d="M668.4 484.2L672.9 488.7L668.4 493.2L663.9 488.7Z" fill="#7c3aed"/>
+      <path d="M676.4 500.7H757.5" stroke="#1f2937" stroke-width="1.2"/>
+      <text x="676.4" y="497.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">id</text>
+      <path d="M668.4 503.79999999999995L671.4 506.79999999999995L668.4 509.79999999999995L665.4 506.79999999999995Z" fill="#1f2937"/>
+      <text x="676.4" y="515.8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">nombre</text>
+      <text x="757.5" y="515.8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">text</text>
+      <path d="M668.4 522.0L671.4 525.0L668.4 528.0L665.4 525.0Z" fill="#1f2937"/>
+      <text x="676.4" y="534.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">cif</text>
+      <text x="757.5" y="534.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">text</text>
+      <circle cx="668.4" cy="543.2" r="3" fill="none" stroke="#1f2937" stroke-width="1.3"/>
+      <text x="676.4" y="552.2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">grupoedad</text>
+      <text x="757.5" y="552.2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">text</text>
+      <circle cx="668.4" cy="561.3" r="3" fill="none" stroke="#1f2937" stroke-width="1.3"/>
+      <text x="676.4" y="570.3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">direccion</text>
+      <text x="757.5" y="570.3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">text</text>
+      <path d="M668.4 576.5L671.4 579.5L668.4 582.5L665.4 579.5Z" fill="#1f2937"/>
+      <text x="676.4" y="588.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">activo</text>
+      <text x="757.5" y="588.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace" font-size="13.5">varchar(1)</text>
+    </g>
+  </g>
+</svg>

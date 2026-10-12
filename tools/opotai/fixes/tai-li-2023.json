@@ -1,0 +1,43 @@
+{
+  "bank_id": "tai-li-2023",
+  "questions": {
+    "tai-li-2023-p2-s1-004": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2023-p2-s1-r1": {
+      "note": "La expresión JavaScript del enunciado se marca como código en línea (contiene «**», que Markdown interpretaría como negrita).",
+      "replace": [
+        {
+          "old": "console.log(4 * 3 ** 2)",
+          "new": "`console.log(4 * 3 ** 2)`",
+          "fields": [
+            "text"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "tai-li-2023-p2-s1-r3": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2023-p2-s1-r5": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2023-p2-s2-001": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2023-p2-s2-006": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2023-p2-s2-020": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    }
+  },
+  "sections": {}
+}

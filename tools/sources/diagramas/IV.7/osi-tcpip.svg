@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-labelledby="t d">
+  <title id="t">Modelo OSI frente a modelo TCP/IP</title>
+  <desc id="d">Las siete capas OSI (7 Aplicación, 6 Presentación, 5 Sesión, 4 Transporte, 3 Red, 2 Enlace de datos, 1 Física) con su PDU, y su correspondencia con las cuatro capas TCP/IP: Aplicación (OSI 5 a 7), Transporte (4), Internet (3) y Acceso a la red (1 y 2), con protocolos de ejemplo.</desc>
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <!-- Cabeceras -->
+    <g font-size="15" font-weight="700" fill="#475569" text-anchor="middle">
+      <text x="165" y="40">Modelo OSI (ISO 7498-1)</text>
+      <text x="380" y="40">PDU</text>
+      <text x="551" y="40">Modelo TCP/IP</text>
+      <text x="770" y="40">Protocolos</text>
+    </g>
+    <line x1="20" y1="54" x2="880" y2="54" stroke="#cbd5e1" stroke-width="1"/>
+
+    <!-- Capas OSI -->
+    <g font-size="16" font-weight="600">
+      <rect x="20" y="66" width="290" height="46" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+      <circle cx="46" cy="89" r="14" fill="#7c3aed"/><text x="46" y="94.5" fill="#ffffff" text-anchor="middle" font-size="15">7</text>
+      <text x="72" y="94.5">Aplicación</text>
+
+      <rect x="20" y="116" width="290" height="46" rx="8" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5"/>
+      <circle cx="46" cy="139" r="14" fill="#4f46e5"/><text x="46" y="144.5" fill="#ffffff" text-anchor="middle" font-size="15">6</text>
+      <text x="72" y="144.5">Presentación</text>
+
+      <rect x="20" y="166" width="290" height="46" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+      <circle cx="46" cy="189" r="14" fill="#2563eb"/><text x="46" y="194.5" fill="#ffffff" text-anchor="middle" font-size="15">5</text>
+      <text x="72" y="194.5">Sesión</text>
+
+      <rect x="20" y="216" width="290" height="46" rx="8" fill="#cffafe" stroke="#0891b2" stroke-width="1.5"/>
+      <circle cx="46" cy="239" r="14" fill="#0891b2"/><text x="46" y="244.5" fill="#ffffff" text-anchor="middle" font-size="15">4</text>
+      <text x="72" y="244.5">Transporte</text>
+
+      <rect x="20" y="266" width="290" height="46" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+      <circle cx="46" cy="289" r="14" fill="#059669"/><text x="46" y="294.5" fill="#ffffff" text-anchor="middle" font-size="15">3</text>
+      <text x="72" y="294.5">Red</text>
+
+      <rect x="20" y="316" width="290" height="46" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+      <circle cx="46" cy="339" r="14" fill="#d97706"/><text x="46" y="344.5" fill="#ffffff" text-anchor="middle" font-size="15">2</text>
+      <text x="72" y="344.5">Enlace de datos</text>
+
+      <rect x="20" y="366" width="290" height="46" rx="8" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+      <circle cx="46" cy="389" r="14" fill="#e11d48"/><text x="46" y="394.5" fill="#ffffff" text-anchor="middle" font-size="15">1</text>
+      <text x="72" y="394.5">Física</text>
+    </g>
+    <g font-size="13" fill="#475569" text-anchor="end">
+      <text x="298" y="94">servicios al usuario</text>
+      <text x="298" y="144">sintaxis, cifrado</text>
+      <text x="298" y="194">diálogo, sincronización</text>
+      <text x="298" y="244">extremo a extremo</text>
+      <text x="298" y="294">encaminamiento</text>
+      <text x="298" y="344">tramas, MAC</text>
+      <text x="298" y="394">señales y medios</text>
+    </g>
+
+    <!-- PDU -->
+    <g font-size="15" text-anchor="middle">
+      <rect x="322" y="66" width="116" height="146" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="380" y="144">Datos</text>
+      <rect x="322" y="216" width="116" height="46" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="380" y="236">Segmento</text>
+      <text x="380" y="254" font-size="13" fill="#475569">(datagrama UDP)</text>
+      <rect x="322" y="266" width="116" height="46" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="380" y="294">Paquete</text>
+      <rect x="322" y="316" width="116" height="46" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="380" y="344">Trama</text>
+      <rect x="322" y="366" width="116" height="46" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="380" y="394">Bit</text>
+    </g>
+
+    <!-- Correspondencia -->
+    <g stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 4" fill="none">
+      <path d="M438 89 L456 89 M438 189 L456 189"/>
+      <path d="M438 239 L456 239"/>
+      <path d="M438 289 L456 289"/>
+      <path d="M438 339 L456 339 M438 389 L456 389"/>
+    </g>
+
+    <!-- Capas TCP/IP -->
+    <g font-size="16" font-weight="700" text-anchor="middle">
+      <rect x="456" y="66" width="190" height="146" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+      <text x="551" y="136">Aplicación</text>
+      <text x="551" y="157" font-size="13" font-weight="400" fill="#475569">OSI 5, 6 y 7</text>
+
+      <rect x="456" y="216" width="190" height="46" rx="10" fill="#cffafe" stroke="#0891b2" stroke-width="2"/>
+      <text x="551" y="236">Transporte</text>
+      <text x="551" y="254" font-size="13" font-weight="400" fill="#475569">OSI 4</text>
+
+      <rect x="456" y="266" width="190" height="46" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="2"/>
+      <text x="551" y="286">Internet</text>
+      <text x="551" y="304" font-size="13" font-weight="400" fill="#475569">OSI 3</text>
+
+      <rect x="456" y="316" width="190" height="96" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+      <text x="551" y="360">Acceso a la red</text>
+      <text x="551" y="381" font-size="13" font-weight="400" fill="#475569">OSI 1 y 2</text>
+    </g>
+
+    <!-- Protocolos -->
+    <g font-size="14">
+      <text x="666" y="122">HTTP, HTTPS, DNS, DHCP</text>
+      <text x="666" y="142">SMTP, POP3, IMAP, FTP</text>
+      <text x="666" y="162">SSH, Telnet, SNMP</text>
+      <text x="666" y="236">TCP, UDP</text>
+      <text x="666" y="254" font-size="13" fill="#475569">SCTP; QUIC va sobre UDP</text>
+      <text x="666" y="286">IPv4, IPv6, ICMP</text>
+      <text x="666" y="304" font-size="13" fill="#475569">IGMP, IPsec</text>
+      <text x="666" y="356">Ethernet, Wi‑Fi, PPP</text>
+      <text x="666" y="376" font-size="13" fill="#475569">ARP: frontera con Internet</text>
+    </g>
+
+    <!-- Ámbito -->
+    <g font-size="13">
+      <rect x="20" y="432" width="420" height="50" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="36" y="453" font-weight="700">Capas 4 a 7: extremo a extremo</text>
+      <text x="36" y="472" fill="#475569">solo en los equipos origen y destino</text>
+      <rect x="460" y="432" width="420" height="50" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="476" y="453" font-weight="700">Capas 1 a 3: red</text>
+      <text x="476" y="472" fill="#475569">también en los nodos intermedios (routers)</text>
+    </g>
+  </g>
+</svg>

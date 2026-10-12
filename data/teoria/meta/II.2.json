@@ -1,0 +1,25 @@
+{
+  "topic": "II.2",
+  "summary": "Periféricos y su conectividad y administración (USB, USB PD, Thunderbolt, cargador común USB-C de la UE, controladores), elementos de impresión (tecnologías, lenguajes y protocolos como IPP, impresión 3D), almacenamiento (HDD, SSD, interfaces, RAID, óptico, cinta y redes de almacenamiento) y visualización y digitalización (pantallas, resoluciones, interfaces de vídeo, escáneres y conceptos de imagen digital).",
+  "key_points": [
+    "USB 2.0 = 480 Mbit/s; USB 3.2 Gen 1, Gen 2 y Gen 2x2 = 5, 10 y 20 Gbit/s; USB4 = 40 Gbit/s y USB4 versión 2.0 = 80 Gbit/s; USB-C es un conector, no una versión.",
+    "USB Power Delivery llega a 100 W (20 V x 5 A) y, con la revisión 3.1 (rango extendido EPR), a 240 W.",
+    "Directiva (UE) 2022/2380 y RD 442/2024: USB-C obligatorio desde el 28-12-2024 (portátiles desde el 28-4-2026) y USB PD por encima de 15 W.",
+    "Thunderbolt 3 y 4: 40 Gbit/s por USB-C; Thunderbolt 5: 80 Gbit/s por sentido (120 con Bandwidth Boost) y 240 W.",
+    "IPP es el protocolo abierto de impresión en red de alto nivel (puerto 631, RFC 8011); la impresión 3D por inyección de aglutinante es una de las 7 categorías de la ISO/ASTM 52900.",
+    "Disco duro: cara (lado del plato), pista (circunferencia), sector (porción de pista), cilindro y clúster; la latencia rotacional media es media vuelta (4,17 ms a 7.200 rpm).",
+    "SSD: memoria flash NAND no volátil sin partes móviles; interfaces SATA (6 Gbit/s), SAS y NVMe sobre PCIe; formato M.2; precio por GB mayor que el HDD.",
+    "RAID 0 sin redundancia, RAID 1 espejo, RAID 5 mínimo 3 discos y tolera 1 fallo, RAID 6 mínimo 4 y tolera 2, RAID 10 mínimo 4; RAID 4 con un único disco de paridad.",
+    "Resoluciones: HD 1280x720, Full HD 1920x1080, WQHD 2560x1440, 4K UHD 3840x2160, 8K UHD 7680x4320; paneles LCD TN, IPS y VA; HDMI 2.1 = 48 Gbit/s (2.2 = 96 Gbit/s).",
+    "Digitalización: muestreo (Nyquist) y cuantificación; resolución en ppp o ppi; 1 bit por píxel = 2 colores; modelos RGB (aditivo), CMYK (sustractivo) y HSB (tono, saturación y brillo)."
+  ],
+  "sources": [
+    { "title": "USB-IF: USB4", "url": "https://www.usb.org/usb4" },
+    { "title": "USB-IF: USB Power Delivery", "url": "https://www.usb.org/usb-charger-pd" },
+    { "title": "Directiva (UE) 2022/2380, cargador común", "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L2380" },
+    { "title": "Real Decreto 188/2016, modificado por el RD 442/2024", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4444" },
+    { "title": "HDMI Forum: especificación HDMI 2.2", "url": "https://www.hdmi.org/spec/hdmi2" },
+    { "title": "RFC 8011, Internet Printing Protocol/1.1", "url": "https://www.rfc-editor.org/rfc/rfc8011" }
+  ],
+  "updated": "2026-10-11"
+}

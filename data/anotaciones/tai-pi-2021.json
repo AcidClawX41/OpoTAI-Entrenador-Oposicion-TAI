@@ -1,0 +1,1091 @@
+[
+  {
+    "id": "tai-pi-2021-p1-001",
+    "explanation": "El **art. 11.4 del RD 1553/2005** enumeraba lo que contenía el **chip** del DNIe: datos de filiación, fotografía y firma digitalizadas, plantilla de la impresión dactilar, «**certificados reconocidos de autenticación y de firma, y certificado electrónico de la autoridad emisora**», con sus periodos de validez, y las claves privadas para activarlos. La pregunta pide **todos** los certificados, así que la respuesta completa es la D. Hoy esa norma está derogada (ver nota).",
+    "option_notes": [
+      "Incompleta: el chip también incluía el certificado de firma y el de la autoridad emisora.",
+      "Incompleta: el chip también incluía el certificado de autenticación y el de la autoridad emisora.",
+      "Incompleta: faltaba el certificado electrónico de la autoridad emisora.",
+      null
+    ],
+    "topic": "I.6",
+    "references": [
+      "RD 1553/2005, art. 11.4 (derogado)",
+      "RD 255/2025, art. 11"
+    ],
+    "tags": [
+      "dni-electronico",
+      "certificados-electronicos"
+    ],
+    "outdated": true,
+    "outdated_note": "El RD 1553/2005 fue derogado por el RD 255/2025, de 1 de abril (vigente desde el 2-4-2025). Su art. 11.2 dispone que el chip integra los certificados electrónicos cualificados (eIDAS y Ley 6/2020) de identificación y de firma, además de la fotografía, los datos personales y las dos impresiones dactilares; ya no menciona el certificado de la autoridad emisora. Los certificados valen ahora dos años (art. 11.3) y se denominan «cualificados», no «reconocidos».",
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-004",
+    "explanation": "El **Capítulo II del Título III de la LOPDGDD** («Ejercicio de los derechos», arts. 12 a 18) regula los derechos del RGPD: **acceso** (art. 13), **rectificación** (14), **supresión** (15), **limitación del tratamiento** (16), **portabilidad** (17) y **oposición** (18), este último junto con los derechos frente a las decisiones individuales automatizadas. Se ejercen ante el responsable, directamente o por medio de representante, y de forma gratuita.",
+    "option_notes": [
+      "El derecho a indemnización existe (art. 82 RGPD), pero no es uno de los derechos regulados en ese capítulo de la LOPDGDD.",
+      "No existe un «derecho de custodia» en la normativa de protección de datos.",
+      null,
+      "No existe un «derecho al cifrado»; el cifrado es una medida de seguridad del responsable (art. 32 RGPD)."
+    ],
+    "topic": "I.7",
+    "references": [
+      "LO 3/2018 (LOPDGDD), arts. 12-18",
+      "Reglamento (UE) 2016/679 (RGPD), arts. 15-22"
+    ],
+    "tags": [
+      "lopdgdd",
+      "derechos-del-interesado",
+      "derecho-de-oposicion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-006",
+    "explanation": "Según el **art. 11.2 de la Ley 39/2015**, las Administraciones **solo** exigen **firma** para: **formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos**. Para todo lo demás basta con **acreditar la identidad** (art. 11.1). **Acceder a una notificación** solo exige identificarse: el art. 43.1 define la comparecencia como el acceso del interesado «debidamente identificado» a su contenido. Mnemotecnia: hay firma cuando *pides, declaras, recurres, desistes o renuncias*.",
+    "option_notes": [
+      "Sí exige firma: formular solicitudes es la letra a) del art. 11.2.",
+      null,
+      "Sí exige firma: interponer recursos es la letra c) del art. 11.2.",
+      "Sí exige firma: desistir de acciones es la letra d) del art. 11.2."
+    ],
+    "topic": "I.6",
+    "references": [
+      "Ley 39/2015, arts. 11 y 43.1"
+    ],
+    "tags": [
+      "firma-electronica",
+      "procedimiento-administrativo",
+      "ley-39-2015"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-007",
+    "explanation": "El **art. 36.2 de la Ley 19/2013** fija la composición de la **Comisión de Transparencia y Buen Gobierno**: el **Presidente**, **un Diputado**, **un Senador** y un representante de cada uno de estos órganos: **Tribunal de Cuentas**, **Defensor del Pueblo**, **Agencia Española de Protección de Datos**, **Secretaría de Estado de Administraciones Públicas** y **Autoridad Independiente de Responsabilidad Fiscal (AIReF)**. Sus miembros no tienen dedicación exclusiva ni cobran por ello (art. 36.3).",
+    "option_notes": [
+      "El Consejo de Consumidores y Usuarios no forma parte de la Comisión.",
+      null,
+      "El Consejo General del Poder Judicial no está representado en la Comisión.",
+      "La FEMP no forma parte de la Comisión: solo puede proponer un representante local para la reunión anual con los órganos autonómicos (art. 36.4)."
+    ],
+    "topic": "I.4",
+    "references": [
+      "Ley 19/2013, art. 36"
+    ],
+    "tags": [
+      "transparencia",
+      "consejo-de-transparencia",
+      "ley-19-2013"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-008",
+    "explanation": "La **Agenda 2030 para el Desarrollo Sostenible**, aprobada por la Asamblea General de la ONU el **25 de septiembre de 2015** (Resolución A/RES/70/1), contiene **17 Objetivos de Desarrollo Sostenible (ODS)** y **169 metas**. Sustituye a los 8 Objetivos de Desarrollo del Milenio (2000-2015). Ejemplos: ODS 1, fin de la pobreza; ODS 5, igualdad de género; ODS 13, acción por el clima; ODS 17, alianzas para lograr los objetivos.",
+    "option_notes": [
+      "Son 17 ODS, no 15.",
+      "Son 17 ODS, no 12.",
+      "Son 17 ODS; el 16 es «Paz, justicia e instituciones sólidas».",
+      null
+    ],
+    "topic": "I.4",
+    "references": [
+      "Resolución A/RES/70/1 de la Asamblea General de la ONU (25-9-2015)"
+    ],
+    "tags": [
+      "agenda-2030",
+      "ods"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-009",
+    "explanation": "El **art. 45 de la LO 3/2007** (reformado por el **RDL 6/2019**) obliga a elaborar y aplicar un **plan de igualdad** a las empresas de **cincuenta o más trabajadores** (apdo. 2) y, además, **cuando lo establezca el convenio colectivo** aplicable (apdo. 3) o cuando la autoridad laboral lo acuerde en un procedimiento sancionador para sustituir sanciones accesorias (apdo. 4). Para las demás es **voluntario** (apdo. 5). El umbral de 50 se aplicó de forma escalonada y es plenamente exigible desde el **7 de marzo de 2022**.",
+    "option_notes": [
+      "No es obligatorio siempre: depende del tamaño de la plantilla, del convenio o de una sanción.",
+      "Solo es voluntario para las empresas no obligadas (art. 45.5).",
+      null,
+      "Incompleta: también es obligatorio cuando lo establezca el convenio colectivo aplicable (art. 45.3)."
+    ],
+    "topic": "I.5",
+    "references": [
+      "LO 3/2007, art. 45",
+      "RDL 6/2019, art. 1"
+    ],
+    "tags": [
+      "igualdad",
+      "planes-de-igualdad",
+      "lo-3-2007"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-011",
+    "explanation": "Una memoria **volátil** pierde su contenido al quitar la alimentación. La **DRAM** (memoria RAM dinámica), usada como memoria principal, guarda cada bit en un condensador que se descarga, por lo que necesita **refresco** periódico y lo pierde todo al apagar el equipo. Las memorias **USB** y **flash** (NAND) y los **discos ópticos** son **no volátiles**: conservan los datos sin corriente.",
+    "option_notes": [
+      null,
+      "Una memoria USB usa memoria flash, que es no volátil.",
+      "La memoria flash es no volátil: conserva los datos sin alimentación.",
+      "Los discos ópticos (CD, DVD, Blu-ray) almacenan los datos de forma permanente."
+    ],
+    "topic": "II.1",
+    "references": [
+      "Arquitectura de computadores: tipos de memoria"
+    ],
+    "tags": [
+      "memoria-ram",
+      "memoria-volatil"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-014",
+    "explanation": "El **método de la burbuja** (*bubble sort*) recorre el vector **comparando pares de elementos adyacentes** e **intercambiándolos** si están desordenados; en cada pasada el mayor «sube» al final, como una burbuja. Repite las pasadas hasta que no hay intercambios. Coste **O(n²)**. No confundir con **selección** (busca el mínimo y lo coloca), **inserción** (inserta cada elemento en su sitio dentro de la parte ya ordenada) o **quicksort** (particiona alrededor de un pivote).",
+    "option_notes": [
+      "La selección busca en cada pasada el mínimo y lo intercambia con la primera posición pendiente.",
+      null,
+      "La inserción toma cada elemento y lo inserta en su lugar dentro de la parte ya ordenada.",
+      "Quicksort elige un pivote y particiona el vector en menores y mayores."
+    ],
+    "topic": "II.3",
+    "references": [
+      "D. E. Knuth, «The Art of Computer Programming», vol. 3: Sorting and Searching"
+    ],
+    "tags": [
+      "algoritmos-de-ordenacion",
+      "burbuja"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-015",
+    "explanation": "Un **proceso zombi** (*defunct*, estado **Z** en `ps`) ya ha **terminado**, pero **sigue en la tabla de procesos** porque su padre aún no ha recogido su estado de salida con `wait()`/`waitpid()`. No consume CPU ni memoria, solo una entrada de la tabla. Desaparece cuando el padre lo recoge o, si el padre muere, cuando lo adopta y recoge **init/systemd** (PID 1). Un **huérfano** sigue en ejecución sin su padre original, y un **demonio** es un servicio en segundo plano.",
+    "option_notes": [
+      null,
+      "«Proceso perdido» no es un tipo de proceso de Linux.",
+      "El huérfano sigue ejecutándose: su padre ha terminado y lo adopta init/systemd.",
+      "Un demonio es un proceso de servicio en segundo plano, sin terminal; no ha terminado."
+    ],
+    "topic": "II.4",
+    "references": [
+      "Página de manual wait(2)",
+      "Página de manual ps(1)"
+    ],
+    "tags": [
+      "linux",
+      "procesos",
+      "proceso-zombi"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-016",
+    "explanation": "La cadena del cuadernillo, «rwxr-x-r–», tiene una **errata**: debe leerse **`rwxr-xr--`** (754). Los permisos se leen en tres tríos: **propietario** `rwx` (leer, escribir y ejecutar), **grupo** `r-x` (**leer y ejecutar**) y **otros** `r--` (solo leer). Por tanto, un usuario del grupo del propietario puede **leer y ejecutar**, pero no modificar el fichero. En octal: r = 4, w = 2, x = 1.",
+    "option_notes": [
+      "Solo leer es el permiso de «otros» (r--); el grupo también puede ejecutar (r-x).",
+      null,
+      "Leer, escribir y ejecutar (rwx) es el permiso del propietario, no del grupo.",
+      "El grupo tiene r-x: además de ejecutar puede leer."
+    ],
+    "topic": "II.4",
+    "references": [
+      "POSIX.1-2017: chmod y modos de fichero"
+    ],
+    "tags": [
+      "unix",
+      "permisos",
+      "errata"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-017",
+    "explanation": "La **regla de integridad de la entidad** (Codd) establece que **ningún atributo que forme parte de la clave primaria puede tomar el valor nulo**: si la clave identifica cada tupla, no puede ser desconocida. Su pareja es la **integridad referencial**: el valor de una **clave ajena** debe coincidir con el de una clave primaria **existente** en la relación referenciada o, si se permite, ser **nulo**.",
+    "option_notes": [
+      "Limitar los valores posibles de un atributo es la restricción de dominio.",
+      "Se refiere a la integridad referencial, y además la FK debe coincidir con una PK existente o ser nula.",
+      "Habla de las claves ajenas: es una cuestión de integridad referencial, no de la integridad de la entidad.",
+      null
+    ],
+    "topic": "III.1",
+    "references": [
+      "E. F. Codd, modelo relacional: reglas de integridad"
+    ],
+    "tags": [
+      "modelo-relacional",
+      "integridad-de-entidad",
+      "clave-primaria"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-018",
+    "explanation": "En Métrica v3, el **proceso** «representa una funcionalidad que tiene que llevar a cabo el sistema para **transformar o manipular datos**»: genera los flujos de salida a partir de los de entrada, nunca es origen ni final de los datos y siempre media entre una entidad externa y un almacén. Los demás elementos del DFD son la **entidad externa** (ente ajeno al sistema), el **almacén de datos** (información en reposo) y el **flujo de datos** (datos en movimiento).",
+    "option_notes": [
+      "La entidad externa es un ente ajeno al sistema que proporciona o recibe información.",
+      null,
+      "El almacén representa la información en reposo; no transforma datos.",
+      "El flujo de datos representa el movimiento de los datos entre elementos del DFD."
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: Diagrama de Flujo de Datos (elementos)"
+    ],
+    "tags": [
+      "dfd",
+      "metrica-v3",
+      "procesos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-019",
+    "explanation": "El **dominio** es el **conjunto de valores válidos** que puede tomar un atributo: por ejemplo, los enteros de 0 a 120 para la edad o los códigos de provincia existentes. Cada atributo se define sobre un dominio, que restringe sus valores (restricción de dominio). No confundir con **cardinalidad** (número de ocurrencias que participan en una relación) ni con **entidad** (objeto del mundo real del que se guarda información).",
+    "option_notes": [
+      "Una entidad es un objeto del mundo real con existencia propia, no un conjunto de valores.",
+      "«Recorrido» es un término matemático (rango de una función), no el nombre usado en diseño de bases de datos.",
+      "La cardinalidad indica cuántas ocurrencias de una entidad participan en una relación.",
+      null
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: Modelo Entidad/Relación extendido (atributos y dominios)"
+    ],
+    "tags": [
+      "modelo-entidad-relacion",
+      "dominio",
+      "atributos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-020",
+    "explanation": "**Desnormalizar** es introducir **redundancia controlada** en un diseño ya normalizado (por ejemplo, duplicar un dato o guardar un total calculado) para **mejorar el rendimiento** de las consultas: se evitan *joins* costosos y se acelera la lectura, algo habitual en *data warehouses* y sistemas muy consultados. El precio es justo lo contrario de las otras opciones: **más redundancia, más tamaño** y **actualizaciones más complejas** (riesgo de anomalías e inconsistencias).",
+    "option_notes": [
+      null,
+      "Al contrario: desnormalizar aumenta la redundancia; la que la reduce es la normalización.",
+      "La redundancia añadida suele aumentar el tamaño de la base de datos, no disminuirlo.",
+      "Las actualizaciones se complican: hay que mantener coherentes los datos duplicados."
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: optimización del modelo físico de datos"
+    ],
+    "tags": [
+      "desnormalizacion",
+      "diseno-fisico",
+      "rendimiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-021",
+    "explanation": "La **regla 7 de Codd** es la de **inserción, actualización y borrado de alto nivel**: el SGBD debe permitir insertar, modificar y borrar **conjuntos de filas** con una sola orden, no solo fila a fila. La opción C la cambia a «de bajo nivel», que no existe. Otras reglas: **6** actualización de vistas, **8** independencia física, **9** independencia lógica, **10** independencia de la integridad, **11** independencia de la distribución y **12** no subversión.",
+    "option_notes": [
+      "Es la regla 8 de Codd (independencia física de los datos).",
+      "Es la regla 12 de Codd: el acceso de bajo nivel no puede saltarse las reglas de integridad.",
+      null,
+      "Es la regla 6 de Codd (actualización de vistas)."
+    ],
+    "topic": "II.5",
+    "references": [
+      "E. F. Codd (1985): reglas del modelo relacional"
+    ],
+    "tags": [
+      "modelo-relacional",
+      "reglas-de-codd"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-023",
+    "explanation": "La sintaxis estándar es **`UPDATE tabla SET columna = valor [WHERE condición]`**: `UPDATE Customers SET City='PARIS'`. Sin cláusula **WHERE** se actualizan **todas las filas** de la tabla; para modificar solo algunas se añade la condición (por ejemplo, `WHERE CustomerID = 1`). Para varias columnas se separan con comas: `SET City='PARIS', Country='France'`.",
+    "option_notes": [
+      "No existe UPDATE_TABLE; la tabla se indica tras UPDATE, no con SET TABLE=.",
+      "Falta el nombre de la tabla tras UPDATE; la tabla no se indica en el WHERE.",
+      null,
+      "CREATE crea objetos (DDL); esa sintaxis no existe en SQL."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075-2 (SQL): <update statement: searched>"
+    ],
+    "tags": [
+      "sql",
+      "update",
+      "dml"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-024",
+    "explanation": "**GRANT** (y **REVOKE**) forman el **DCL** (*Data Control Language*): conceden o retiran privilegios. Clasificación habitual: **DDL** (definición de estructuras) = **CREATE, ALTER, DROP**, TRUNCATE; **DML** (manipulación de datos) = **SELECT, INSERT, UPDATE, DELETE**, MERGE; **TCL** (control de transacciones) = COMMIT, ROLLBACK, SAVEPOINT.",
+    "option_notes": [
+      "CREATE es una sentencia DDL: define objetos (tablas, vistas, índices…).",
+      "INSERT es una sentencia DML: manipula datos.",
+      null,
+      "ALTER es una sentencia DDL: modifica la estructura de un objeto."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075-2 (SQL): clasificación de sentencias"
+    ],
+    "tags": [
+      "sql",
+      "dcl",
+      "grant"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-025",
+    "explanation": "La plantilla oficial da la **C**, pero es **discutible**: según la especificación HTML (WHATWG y W3C), **`<details>`** y **`<mark>`** **sí son novedades de HTML5**, igual que `<header>`, `<footer>` y `<nav>`. La única etiqueta anterior a HTML5 entre las opciones es **`<caption>`** (título de tabla, ya presente en HTML 3.2 y 4), que aparece en la **D**, junto a `<nav>`, que sí es nueva. Ninguna opción contiene dos etiquetas antiguas, así que la pregunta está mal planteada; para el examen, memoriza la plantilla.",
+    "option_notes": [
+      "<footer> y <details> son elementos nuevos de HTML5.",
+      "<header> y <nav> son elementos semánticos nuevos de HTML5.",
+      null,
+      "<caption> ya existía en HTML 4 (es la única etiqueta antigua de las opciones), aunque <nav> sí es nueva."
+    ],
+    "topic": "III.7",
+    "references": [
+      "WHATWG HTML Living Standard: elementos details y mark",
+      "W3C: HTML5 Differences from HTML4"
+    ],
+    "tags": [
+      "html5",
+      "elementos-html",
+      "plantilla-discutible"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": true
+  },
+  {
+    "id": "tai-pi-2021-p1-026",
+    "explanation": "Un **diagrama de casos de uso** de UML contiene **actores** (roles externos que interactúan con el sistema), **casos de uso** (funcionalidades que el sistema ofrece a los actores) y **relaciones**: asociación entre actor y caso de uso, **include**, **extend** y **generalización**. Puede mostrar también el límite del sistema. Los **almacenes** son elementos de los **DFD**, y los «procedimientos» no forman parte de este diagrama.",
+    "option_notes": [
+      null,
+      "Los almacenes son elementos de los diagramas de flujo de datos, y «procedimientos» no es un elemento UML.",
+      "Tiene actores y relaciones, pero no «procedimientos»: el tercer elemento son los casos de uso.",
+      "Tiene relaciones y casos de uso, pero los almacenes son propios de los DFD: faltan los actores."
+    ],
+    "topic": "III.4",
+    "references": [
+      "OMG UML 2.5.1: Use Cases",
+      "Métrica v3, Técnicas: Casos de uso"
+    ],
+    "tags": [
+      "uml",
+      "casos-de-uso"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-027",
+    "explanation": "Los 23 patrones **GoF** se agrupan en tres familias. **Creacionales** (cómo crear objetos): Abstract Factory, **Builder**, Factory Method, Prototype y Singleton. **Estructurales** (cómo componer clases y objetos): **Adapter**, Bridge, **Composite**, Decorator, Facade, Flyweight y Proxy. **De comportamiento** (cómo interactúan y se reparten responsabilidades): Chain of Responsibility, Command, Interpreter, **Iterator**, Mediator, Memento, Observer, State, Strategy, Template Method y Visitor. Iterator recorre una colección sin exponer su estructura interna.",
+    "option_notes": [
+      "Adapter es estructural: adapta la interfaz de una clase a la que espera el cliente.",
+      null,
+      "Composite es estructural: compone objetos en árboles para tratar igual hojas y compuestos.",
+      "Builder es creacional: construye objetos complejos paso a paso."
+    ],
+    "topic": "III.4",
+    "references": [
+      "Gamma, Helm, Johnson y Vlissides, «Design Patterns» (1994)"
+    ],
+    "tags": [
+      "patrones-de-diseno",
+      "gof",
+      "iterator"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-029",
+    "explanation": "El **principio 10 del Manifiesto Ágil** (2001) dice: «La **simplicidad**, o el arte de **maximizar la cantidad de trabajo NO realizado**, es esencial»: se trata de no hacer lo que no aporta valor. La opción B cambia «no realizado» por «realizado» y le da la vuelta. Las demás son principios literales: el software funcionando como medida de progreso (7), los proyectos en torno a individuos motivados (5) y negocio y desarrolladores trabajando juntos a diario (4).",
+    "option_notes": [
+      "Es el principio 7: el software funcionando es la medida principal de progreso.",
+      null,
+      "Es el principio 5: los proyectos se desarrollan en torno a individuos motivados.",
+      "Es el principio 4: negocio y desarrolladores trabajan juntos de forma cotidiana."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Manifiesto por el Desarrollo Ágil de Software (2001): principios"
+    ],
+    "tags": [
+      "metodologias-agiles",
+      "manifiesto-agil"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-030",
+    "explanation": "**UDDI** (*Universal Description, Discovery and Integration*, estándar de OASIS) es el **registro** donde se **publican y descubren servicios web**: describe las empresas y sus servicios (páginas blancas, amarillas y verdes) y apunta a su descripción **WSDL**. Completa la pila clásica: **SOAP** (mensajes), **WSDL** (descripción) y **UDDI** (descubrimiento). En la práctica los registros UDDI públicos cerraron en 2006, pero sigue siendo la respuesta de manual.",
+    "option_notes": [
+      "LLDP (IEEE 802.1AB) descubre dispositivos vecinos en la capa de enlace, no servicios web.",
+      null,
+      "No existe un estándar llamado WSDP; el de descubrimiento dinámico de OASIS es WS-Discovery.",
+      "SSDP descubre dispositivos y servicios UPnP en la red local, no servicios web SOAP."
+    ],
+    "topic": "III.6",
+    "references": [
+      "OASIS UDDI Version 3.0.2"
+    ],
+    "tags": [
+      "servicios-web",
+      "uddi",
+      "descubrimiento-de-servicios"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-032",
+    "explanation": "Las **WCAG 2.1** organizan sus pautas en cuatro principios (**POCR**). **Perceptible**: alternativas textuales, medios tempodependientes, **adaptable** y **distinguible**. **Operable**: accesible por teclado, tiempo suficiente, convulsiones, **navegable** y modalidades de entrada. **Comprensible**: **legible**, **predecible** y ayuda a la entrada de datos. **Robusto**: compatible. Las WCAG 2.2 (2023) mantienen esta estructura.",
+    "option_notes": [
+      "Adaptable (1.3) pertenece al principio Perceptible.",
+      "Navegable (2.4) pertenece al principio Operable.",
+      null,
+      "Distinguible (1.4) pertenece al principio Perceptible."
+    ],
+    "topic": "III.8",
+    "references": [
+      "W3C WCAG 2.1 (2018)",
+      "W3C WCAG 2.2 (2023)"
+    ],
+    "tags": [
+      "accesibilidad",
+      "wcag",
+      "principios-wcag"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-033",
+    "explanation": "**UI** (*User Interface*, interfaz de usuario) es la parte con la que el usuario interactúa: pantallas, botones, menús, tipografía, colores. **UX** (*User eXperience*, experiencia de usuario) es más amplia: las percepciones y respuestas de la persona al usar un producto (facilidad, eficiencia, satisfacción), según la definición de la **ISO 9241-210**. Una buena UI contribuye a una buena UX, pero no la garantiza.",
+    "option_notes": [
+      null,
+      "Siglas inventadas: la U es de User, pero I es Interface y X es eXperience.",
+      "Nada que ver con Unicode: UI y UX se refieren al usuario.",
+      "La U es de User (usuario), no de «unidireccional»."
+    ],
+    "topic": "III.8",
+    "references": [
+      "ISO 9241-210 (diseño centrado en el ser humano)"
+    ],
+    "tags": [
+      "usabilidad",
+      "ui",
+      "ux"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-034",
+    "explanation": "**`pwd`** (*print working directory*) muestra la **ruta absoluta del directorio de trabajo actual**, por ejemplo `/home/ana/proyectos`; el mismo valor está en la variable `$PWD`. Comandos que conviene no confundir: **`cd`** cambia de directorio, **`passwd`** cambia la contraseña, **`ps`** muestra los procesos y **`ls`** lista el contenido de un directorio.",
+    "option_notes": [
+      null,
+      "Cambiar la contraseña de un usuario se hace con passwd.",
+      "El estado de los procesos lo muestra ps (o top).",
+      "Cambiar el directorio de trabajo se hace con cd."
+    ],
+    "topic": "II.4",
+    "references": [
+      "POSIX.1-2017: pwd",
+      "GNU coreutils: pwd"
+    ],
+    "tags": [
+      "linux",
+      "comandos",
+      "pwd"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-036",
+    "explanation": "Los tipos clásicos de copia de seguridad son: **completa** (todos los datos), **incremental** (lo cambiado desde la **última copia de cualquier tipo**; rápida de hacer, pero para restaurar necesita la completa y **todas** las incrementales) y **diferencial** (lo cambiado desde la **última completa**; crece cada día, pero para restaurar basta la completa y la **última** diferencial). Hay variantes como la completa sintética o la copia espejo, pero «compartimental» no existe.",
+    "option_notes": [
+      null,
+      "La diferencial es un tipo real: copia lo cambiado desde la última copia completa.",
+      "La incremental es un tipo real: copia lo cambiado desde la última copia de cualquier tipo.",
+      "La completa es el tipo básico: copia todos los datos seleccionados."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "RD 311/2022 (ENS), anexo II, medida mp.info.6 (copias de seguridad)"
+    ],
+    "tags": [
+      "backup",
+      "copias-de-seguridad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-038",
+    "explanation": "**SMTP** = *Simple Mail Transfer Protocol* (RFC 5321): el protocolo estándar para **enviar y transferir correo** entre servidores (puerto 25) y desde los clientes (587 o 465). Es un protocolo de texto con órdenes como `HELO`/`EHLO`, `MAIL FROM`, `RCPT TO`, `DATA` y `QUIT`. Su versión cifrada no cambia las siglas: se usa SMTP con **STARTTLS** o sobre **TLS implícito** (SMTPS).",
+    "option_notes": [
+      "La S es de Simple, no de Secure; el cifrado se añade con STARTTLS o TLS implícito.",
+      "Ni Secure ni Transaction: es Simple Mail Transfer Protocol.",
+      null,
+      "Siglas inventadas: SMTP no tiene nada que ver con «gestión» ni «traza»."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "RFC 5321 (SMTP)"
+    ],
+    "tags": [
+      "smtp",
+      "correo-electronico",
+      "siglas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-040",
+    "explanation": "**SNMP** (*Simple Network Management Protocol*) es el protocolo estándar de **gestión de dispositivos de red** (conmutadores, encaminadores, servidores, impresoras). Un **gestor** consulta y modifica variables de los **agentes**, organizadas en la **MIB** e identificadas por **OID**, y los agentes envían avisos (**traps**). Usa **UDP 161** (consultas) y **UDP 162** (traps). **SNMPv3** añade autenticación y cifrado.",
+    "option_notes": [
+      "SMTP es el protocolo de transferencia de correo electrónico.",
+      null,
+      "HTTP es el protocolo de transferencia de hipertexto (web).",
+      "IGMPv3 gestiona la pertenencia de los equipos a grupos multicast, no los dispositivos de la red."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "RFC 3411-3418 (SNMPv3)",
+      "RFC 3376 (IGMPv3)"
+    ],
+    "tags": [
+      "snmp",
+      "gestion-de-red",
+      "monitorizacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-041",
+    "explanation": "Según **OWASP**, la **inyección** ocurre cuando **datos no confiables se envían a un intérprete como parte de un comando o consulta** (SQL, NoSQL, LDAP, comandos del SO…): el atacante consigue ejecutar órdenes no previstas o acceder a datos sin autorización. Se previene con **consultas parametrizadas**, validación de entradas y mínimo privilegio. Era la A1 del Top 10 de 2017, la A03 en 2021 (que ya incluye el XSS) y la A05 en 2025.",
+    "option_notes": [
+      "El XSS consiste en incluir datos no confiables en una página web sin validarlos ni escaparlos, para que se ejecuten en el navegador de la víctima.",
+      "La exposición de datos sensibles es su protección insuficiente (sin cifrar, por ejemplo); en 2021 pasó a llamarse «Fallos criptográficos».",
+      "Las redirecciones y reenvíos no validados llevan al usuario a destinos no confiables (categoría del Top 10 de 2013).",
+      null
+    ],
+    "topic": "III.8",
+    "references": [
+      "OWASP Top 10 (2017): A1 Injection",
+      "OWASP Top 10:2021 A03 y OWASP Top 10:2025 A05"
+    ],
+    "tags": [
+      "owasp",
+      "inyeccion",
+      "seguridad-en-el-desarrollo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-042",
+    "explanation": "**Ryuk** es un **ransomware**: cifra los ficheros de la víctima y exige un rescate para descifrarlos. Apareció en 2018, se dirigía contra grandes organizaciones y solía entrar tras otras infecciones (Emotet, TrickBot). En España se hizo famoso por el ataque al **SEPE** en **marzo de 2021**, meses antes de este examen. Defensas clave: **copias de seguridad** aisladas y probadas, parches, segmentación de red y formación frente al phishing.",
+    "option_notes": [
+      "El sniffing consiste en capturar el tráfico de red para leer su contenido.",
+      null,
+      "El spoofing es la suplantación de una identidad (IP, MAC, correo, DNS…).",
+      "El phishing engaña al usuario para que revele credenciales; puede ser la puerta de entrada del ransomware, pero no es Ryuk."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "CCN-CERT: Informe de código dañino ID-26/19 (Ryuk)"
+    ],
+    "tags": [
+      "ransomware",
+      "ryuk",
+      "malware"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-043",
+    "explanation": "**RSA** (Rivest, Shamir y Adleman, 1977) es el algoritmo de **clave pública** (asimétrico) más conocido: su seguridad se basa en la dificultad de **factorizar** el producto de dos números primos grandes, y sirve para **cifrar** y para **firmar**. **Blowfish**, **IDEA** y **Twofish** son **simétricos** (de clave secreta compartida) y cifran por bloques. Otros asimétricos: ElGamal, DSA y los de curva elíptica (ECC).",
+    "option_notes": [
+      null,
+      "Blowfish (Schneier, 1993) es un cifrado simétrico por bloques.",
+      "IDEA (Lai y Massey, 1991) es simétrico; lo popularizó PGP.",
+      "Twofish es simétrico: fue uno de los finalistas del concurso AES."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "Rivest, Shamir y Adleman (1978), Communications of the ACM 21(2)",
+      "RFC 8017 (PKCS #1: RSA)"
+    ],
+    "tags": [
+      "criptografia",
+      "rsa",
+      "cifrado-asimetrico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-046",
+    "explanation": "En la arquitectura **TCP/IP**, el **nivel de transporte** lo forman **TCP** (orientado a conexión y fiable) y **UDP** (*User Datagram Protocol*, RFC 768: sin conexión, sin acuse ni reenvío, con muy poca sobrecarga; lo usan DNS, DHCP, SNMP o el vídeo en tiempo real). También **SCTP** y **QUIC** (sobre UDP). **SMTP** y **FTP** son de **aplicación**; **ARP** resuelve direcciones IP a MAC en el nivel de **enlace**/red.",
+    "option_notes": [
+      "SMTP es un protocolo de aplicación (correo electrónico) que usa TCP.",
+      "ARP traduce direcciones IP a MAC: trabaja entre el enlace y la red, no en transporte.",
+      null,
+      "FTP es un protocolo de aplicación (transferencia de ficheros) que usa TCP."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 768 (UDP)",
+      "RFC 1122 (requisitos de los hosts de Internet)"
+    ],
+    "tags": [
+      "tcp-ip",
+      "udp",
+      "capa-de-transporte"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-047",
+    "explanation": "Las siete capas del **modelo OSI** (ISO/IEC 7498-1), de abajo arriba: **1 Física**, **2 Enlace de datos**, **3 Red**, **4 Transporte**, **5 Sesión**, **6 Presentación** y **7 Aplicación**. Regla mnemotécnica en inglés: *Please Do Not Throw Sausage Pizza Away*. Errores típicos: poner presentación antes que sesión, o red después de transporte.",
+    "option_notes": [
+      null,
+      "Invierte sesión (capa 5) y presentación (capa 6).",
+      "Invierte red (3) y transporte (4), y aplicación (7) y presentación (6).",
+      "Invierte presentación (6) y aplicación (7): la aplicación es la capa superior."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "ISO/IEC 7498-1 (modelo de referencia OSI)"
+    ],
+    "tags": [
+      "modelo-osi",
+      "capas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-049",
+    "explanation": "**CLAUDIA** es la herramienta del **CCN-CERT** (desarrollada con S2 Grupo) para la **detección de amenazas complejas en el puesto de usuario**: un agente *endpoint* que busca malware avanzado y movimientos laterales propios de las APT, con reglas YARA y recogida remota de evidencias. De ella deriva **microCLAUDIA**, el sistema de «vacunas» contra el ransomware. Otras: **MARIA** (análisis multiantivirus), **GLORIA** (gestor de logs y eventos de seguridad) y **ANA** (automatización y normalización de auditorías).",
+    "option_notes": [
+      "MARIA es la plataforma multiantivirus de análisis estático de ficheros, no un detector en el puesto de usuario.",
+      null,
+      "GLORIA es el gestor de logs para responder ante incidentes y amenazas (correlación de eventos).",
+      "ANA es la herramienta de automatización y normalización de auditorías (activos y vulnerabilidades)."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "CCN-CERT: soluciones de ciberseguridad (CLAUDIA, microCLAUDIA, MARIA, GLORIA, ANA)"
+    ],
+    "tags": [
+      "ccn-cert",
+      "herramientas-ccn",
+      "seguridad-en-el-puesto"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-050",
+    "explanation": "**BYOD** = *Bring Your Own Device* («trae tu propio dispositivo»): los empleados usan sus **móviles, tabletas o portátiles personales** para trabajar. Ahorra costes y da flexibilidad, pero plantea riesgos de **seguridad y privacidad** (pérdida o robo, mezcla de datos personales y corporativos, equipos sin parchear). Se gestiona con soluciones **MDM/MAM/UEM**, contenedores que separan los datos corporativos y políticas de uso aceptable.",
+    "option_notes": [
+      null,
+      "Siglas inventadas: la Y es de Your y la O de Own.",
+      "Siglas inventadas: BYOD no tiene que ver con copias de seguridad.",
+      "Siglas inventadas: la B es de Bring (traer), no de Buy (comprar)."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "NIST SP 800-46 Rev. 2 (teletrabajo, acceso remoto y BYOD)"
+    ],
+    "tags": [
+      "byod",
+      "gestion-de-dispositivos",
+      "movilidad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-r4",
+    "explanation": "**SAS** = *Serial Attached SCSI*: interfaz **serie punto a punto** que sustituyó al **SCSI paralelo** en servidores y cabinas de discos. Mantiene el juego de órdenes SCSI, admite **doble puerto** (redundancia) y velocidades de 3, 6, 12 y 22,5 Gbit/s (SAS-4, «24G»). Las controladoras SAS aceptan también discos **SATA**, pero no al revés.",
+    "option_notes": [
+      "La S final es de SCSI, no de «State».",
+      "La primera S es de Serial, no de «Solid».",
+      null,
+      "Ni Solid ni Advanced: es Serial Attached SCSI."
+    ],
+    "topic": "II.2",
+    "references": [
+      "INCITS T10: Serial Attached SCSI (SAS-4)"
+    ],
+    "tags": [
+      "almacenamiento",
+      "sas",
+      "interfaces-de-disco"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p1-r5",
+    "explanation": "El atributo global **`hidden`** de HTML5 indica que un elemento **todavía no es relevante** (o ha dejado de serlo) y el navegador **no lo muestra**. La propia especificación pone de ejemplo ocultar la pantalla principal de un juego **hasta que el usuario inicia sesión**: `<section id=\"juego\" hidden>`, que luego se muestra quitando el atributo con JavaScript. Ojo: solo oculta visualmente; el contenido sigue en el DOM, así que no sustituye a un control de acceso en el servidor.",
+    "option_notes": [
+      null,
+      "«non visible» no es un valor válido: en CSS se usaría display: none o visibility: hidden.",
+      "<aside> marca contenido relacionado de forma tangencial (una barra lateral); no oculta nada.",
+      "<iframe> incrusta otro documento dentro de la página; no sirve para ocultar contenido."
+    ],
+    "topic": "III.7",
+    "references": [
+      "WHATWG HTML Living Standard: the hidden attribute"
+    ],
+    "tags": [
+      "html5",
+      "atributo-hidden",
+      "atributos-globales"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s1-002",
+    "explanation": "Los **hipervínculos** se crean con el elemento **`<a>`** (*anchor*) y su atributo **`href`**: `<a href=\"https://www.inap.es\">INAP</a>`. Atributos útiles: `target=\"_blank\"` (nueva pestaña), `download` o `href=\"#id\"` para saltar dentro de la página. No confundir con **`<link>`**, que va en el `<head>` y **relaciona el documento con recursos externos** (hojas de estilo, iconos), sin crear un enlace que se pueda pulsar.",
+    "option_notes": [
+      "<link> relaciona el documento con recursos externos (CSS, icono…) desde el <head>; no crea un enlace visible.",
+      null,
+      "No existe ningún elemento <goto> en HTML.",
+      "No existe ningún elemento <hlink> en HTML."
+    ],
+    "topic": "III.7",
+    "references": [
+      "WHATWG HTML Living Standard: the a element"
+    ],
+    "tags": [
+      "html5",
+      "hipervinculos",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s1-005",
+    "explanation": "Usar el **mismo nombre de método con distintos parámetros** es la **sobrecarga** (*overloading*), que se considera una forma de **polimorfismo**: el polimorfismo *ad hoc* o estático, resuelto al compilar según los argumentos. La otra forma es el polimorfismo de **subtipos** (sobrescritura), en el que un mismo mensaje produce comportamientos distintos según la clase del objeto, gracias a la **ligadura dinámica**. Como la opción «sobrecarga» no aparece, la respuesta es polimorfismo.",
+    "option_notes": [
+      "La herencia permite que una clase reciba atributos y métodos de otra; no se refiere a repetir nombres con distintos parámetros.",
+      "La ligadura dinámica decide en ejecución qué método redefinido se llama; es el mecanismo de la sobrescritura, no de la sobrecarga.",
+      null,
+      "La abstracción consiste en quedarse con las características esenciales de un objeto, ocultando los detalles."
+    ],
+    "topic": "III.4",
+    "references": [
+      "Cardelli y Wegner (1985), «On Understanding Types, Data Abstraction, and Polymorphism»"
+    ],
+    "tags": [
+      "polimorfismo",
+      "sobrecarga",
+      "programacion-orientada-a-objetos",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s1-006",
+    "explanation": "Es una **lista por comprensión**: `[expresión for elemento in iterable if condición]`. Recorre 3, 2 y 1; el filtro `if a > 1` descarta el 1, y para 3 y 2 calcula `a*a`. Resultado: **`[9, 4]`** (en el cuadernillo aparece como «[9 ,4]», con el espacio mal colocado). Equivale a un bucle `for` con un `if` que va añadiendo `a*a` a una lista vacía.",
+    "option_notes": [
+      "No se repite la lista: se calcula a*a de cada elemento que cumple la condición.",
+      null,
+      "El 1 no cumple a > 1, así que su cuadrado no entra en la lista.",
+      "Esa sería la lista filtrada sin elevar al cuadrado ([a for a in … if a > 1] daría [3, 2])."
+    ],
+    "topic": "III.2",
+    "references": [
+      "Python 3 Tutorial, 5.1.3: List Comprehensions"
+    ],
+    "tags": [
+      "python",
+      "listas-por-comprension",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s1-007",
+    "explanation": "**`DROP TABLE PruebaOLD`** (DDL) **elimina la tabla por completo**: su definición, sus datos, índices y permisos. Diferencias clave: **`TRUNCATE TABLE`** vacía la tabla de golpe pero **mantiene su estructura**; **`DELETE FROM tabla [WHERE …]`** (DML) borra **filas** y puede filtrarse. Ojo: si otras tablas tienen claves ajenas que apunten a ella, el DROP fallará salvo que se use `CASCADE` donde el SGBD lo admita.",
+    "option_notes": [
+      "TRUNCATE borra todas las filas, pero la tabla sigue existiendo.",
+      null,
+      "La sintaxis correcta es DELETE FROM tabla, y solo borra filas, no la tabla.",
+      "ERASE no es una sentencia SQL."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075-2 (SQL): <drop table statement>"
+    ],
+    "tags": [
+      "sql",
+      "drop-table",
+      "ddl",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s1-011",
+    "explanation": "**HEVC** (*High Efficiency Video Coding*, **H.265**, de la UIT-T y la ISO/IEC) es un **estándar de compresión de vídeo**, sucesor de H.264/AVC; nada tiene que ver con los servicios web. La pila clásica de los servicios web SOAP la forman **SOAP** (protocolo de mensajes XML), **WSDL** (lenguaje de descripción del servicio) y **UDDI** (registro para publicarlos y descubrirlos).",
+    "option_notes": [
+      "SOAP es el protocolo de intercambio de mensajes XML de los servicios web.",
+      "UDDI es el registro para publicar y descubrir servicios web.",
+      null,
+      "WSDL es el lenguaje XML que describe la interfaz de un servicio web."
+    ],
+    "topic": "III.6",
+    "references": [
+      "ITU-T H.265 (HEVC)",
+      "W3C SOAP 1.2 y WSDL 2.0; OASIS UDDI 3.0.2"
+    ],
+    "tags": [
+      "servicios-web",
+      "soap",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s1-012",
+    "explanation": "El **diseño responsivo** o adaptable (*Responsive Web Design*, término de Ethan Marcotte, 2010) hace que **una misma página se adapte a cualquier tamaño de pantalla**. Se basa en tres pilares: **rejillas fluidas** (anchos relativos), **imágenes flexibles** y **media queries** de CSS, además de la etiqueta `<meta name=\"viewport\">`. A menudo se aplica el enfoque *mobile first*: diseñar primero para el móvil.",
+    "option_notes": [
+      "El diseño o desarrollo incremental es una forma de construir el software por partes, no de adaptar la página a la pantalla.",
+      null,
+      "«Diseño variable» no es una técnica reconocida de diseño web.",
+      "La escalabilidad se refiere a la capacidad de crecer en carga o usuarios, no a adaptarse a la pantalla."
+    ],
+    "topic": "III.7",
+    "references": [
+      "E. Marcotte, «Responsive Web Design», A List Apart (2010)",
+      "W3C CSS Media Queries Level 3"
+    ],
+    "tags": [
+      "diseno-responsivo",
+      "multidispositivo",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s1-r3",
+    "explanation": "**NuGet** es el **gestor de paquetes de Microsoft para .NET**: permite añadir bibliotecas a un proyecto (`dotnet add package`, o desde Visual Studio) a partir del repositorio público **nuget.org**, y define el formato `.nupkg`. Cada ecosistema tiene el suyo: **pip** para **Python** (PyPI), **Maven** para **Java** (que además automatiza la construcción) y **npm** para **JavaScript/Node.js**.",
+    "option_notes": [
+      "pip es el gestor de paquetes de Python (repositorio PyPI).",
+      "Maven es la herramienta de Apache para construir proyectos Java y gestionar sus dependencias.",
+      "npm es el gestor de paquetes de JavaScript y Node.js.",
+      null
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Learn: An introduction to NuGet"
+    ],
+    "tags": [
+      "nuget",
+      "dotnet",
+      "gestores-de-paquetes",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s2-006",
+    "explanation": "La **deduplicación** detecta **bloques o ficheros repetidos** y guarda **una sola copia**, sustituyendo las demás por referencias. En las copias de seguridad, donde de un día a otro casi todo se repite, reduce mucho el espacio necesario y, con él, el **coste del almacenamiento** y el tráfico de red. Puede hacerse en el origen (antes de enviar) o en el destino. **RTO** y **RPO** son **objetivos de recuperación**, no técnicas de almacenamiento.",
+    "option_notes": [
+      "El RTO (Recovery Time Objective) es el tiempo máximo admisible para recuperar un servicio, no una técnica.",
+      null,
+      "El RPO (Recovery Point Objective) es la pérdida máxima de datos admisible, medida en tiempo.",
+      "El vaulting traslada las copias a una ubicación externa segura; protege ante desastres, pero no ahorra espacio."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "SNIA Dictionary: data deduplication",
+      "ISO 22301 (continuidad de negocio): RTO y RPO"
+    ],
+    "tags": [
+      "backup",
+      "deduplicacion",
+      "almacenamiento",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s2-008",
+    "explanation": "**LVM** (*Logical Volume Manager*) es el **gestor de volúmenes lógicos de Linux**: agrupa discos o particiones (volúmenes físicos) en **grupos de volúmenes** y los reparte en **volúmenes lógicos** que se pueden ampliar en caliente o con instantáneas. Abstrae el almacenamiento, pero **no crea máquinas virtuales**. **VMware** (vSphere/ESXi, Workstation), **VirtualBox** (Oracle) e **Hyper-V** (Microsoft) sí son software de virtualización.",
+    "option_notes": [
+      "VMware ofrece hipervisores de tipo 1 (ESXi) y de tipo 2 (Workstation).",
+      "VirtualBox es un hipervisor de tipo 2 de Oracle, de código abierto.",
+      "Hyper-V es el hipervisor de tipo 1 de Microsoft, incluido en Windows Server y Windows.",
+      null
+    ],
+    "topic": "IV.2",
+    "references": [
+      "Página de manual lvm(8)"
+    ],
+    "tags": [
+      "virtualizacion",
+      "lvm",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s2-009",
+    "explanation": "**`docker info`** (o su equivalente `docker system info`) muestra **información de todo el sistema** Docker: número de **contenedores** (en ejecución, en pausa y parados), número de **imágenes**, versión del servidor, controlador de almacenamiento, memoria y CPU disponibles, etc. Otros comandos: **`docker ps`** lista los contenedores (`-a` para todos), **`docker inspect`** da el detalle en JSON de un objeto concreto y **`docker system df`** muestra el espacio ocupado.",
+    "option_notes": [
+      "docker ps solo lista contenedores (por defecto, los que están en ejecución).",
+      null,
+      "docker inspect muestra la información de bajo nivel de un objeto concreto (contenedor, imagen, red…), no la del sistema.",
+      "No existe docker systeminfo; existe docker system info, equivalente a docker info."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "Docker Docs: docker info (docker system info)"
+    ],
+    "tags": [
+      "docker",
+      "contenedores",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s2-010",
+    "explanation": "**Active Directory** (Directorio Activo, AD DS) es el **servicio de directorio de Microsoft**: un **almacén de datos estructurado** con información sobre los **objetos de la red** (usuarios, grupos, equipos, impresoras, carpetas compartidas…) que facilita su **localización y administración** centralizadas. Se organiza en **dominios, árboles y bosques**, con **unidades organizativas**, y se apoya en **LDAP**, **Kerberos** y **DNS**. Las **directivas de grupo** (GPO) se aplican sobre él.",
+    "option_notes": [
+      "El usuario que ha iniciado sesión no es el directorio, sino uno de los objetos que puede contener.",
+      "Las directivas de grupo son de Windows; el directorio de Novell era NDS/eDirectory.",
+      null,
+      "Un inventario de software instalado es otra cosa (por ejemplo, una CMDB); el directorio guarda todos los objetos de la red."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "Microsoft Learn: Active Directory Domain Services Overview"
+    ],
+    "tags": [
+      "active-directory",
+      "servicios-de-directorio",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2021-p2-s2-012",
+    "explanation": "**osTicket** es un sistema de **gestión de incidencias y peticiones** (*help desk* o *ticketing*) de **código abierto** (licencia GPL): recoge solicitudes por correo, formulario web o teléfono, las convierte en tiques, las asigna a departamentos y controla los plazos (SLA). Otras alternativas libres son GLPI, Request Tracker o Znuny. **Remedy** (BMC, hoy BMC Helix) es **propietario**, y **Nagios** es una herramienta de **monitorización**, no de gestión de tiques.",
+    "option_notes": [
+      "BMC Remedy (hoy BMC Helix ITSM) es una herramienta comercial y propietaria.",
+      "«Ticket2.0» no es una herramienta reconocida de gestión de incidencias de código abierto.",
+      "Nagios es libre, pero monitoriza servicios y equipos; no gestiona peticiones e incidencias de usuarios.",
+      null
+    ],
+    "topic": "IV.5",
+    "references": [
+      "osTicket (osticket.com): Open Source Support Ticket System"
+    ],
+    "tags": [
+      "gestion-de-incidencias",
+      "ticketing",
+      "software-libre",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  }
+]

@@ -1,0 +1,24 @@
+[package]
+name = "tai-core"
+description = "OpoTAI · Núcleo de dominio: bancos de preguntas, puntuación oficial TAI, generación de exámenes, estadísticas y predicción de plaza."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+chrono.workspace = true
+uuid.workspace = true
+rand.workspace = true
+rand_chacha.workspace = true
+rusqlite.workspace = true
+log.workspace = true
+base64.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

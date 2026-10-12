@@ -1,0 +1,856 @@
+{
+  "schema_version": 1,
+  "description": "Manifiesto de documentos oficiales (INAP · Comisión Permanente de Selección) usados para generar data/banks/oficiales. Se descargan con `uv run python -m opotai.fetch_exams` a data/raw/<bank_id>/<file> y se verifica su sha256.",
+  "retrieved": "2026-10-11",
+  "pages": {
+    "tai-li-2025": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado-ingreso-libre-convocatoria-2025",
+    "tai-li-2025-ext": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado-ingreso-libre-convocatoria-2025",
+    "tai-pi-2025": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado-promocion-interna-convocatoria-2025",
+    "tai-li-2024": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado/ctaiae-ingreso-libre-oferta-de-empleo-publico-2023-y-2024",
+    "tai-pi-2024": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado/ctaiae-promocion-interna-oferta-de-empleo-publico-2021-2024",
+    "tai-li-2023": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado/ctaiae-ingreso-libre-oferta-de-empleo-publico-2020-2021-y-2022",
+    "tai-pi-2023": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado/ctaiae-promocion-interna-oferta-de-empleo-publico-2020-2021-y-2022",
+    "tai-li-2021": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado/ctaiae-ingreso-libre-oferta-de-empleo-publico-2019",
+    "tai-pi-2021": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado/ctaiae-promocion-interna-oferta-de-empleo-publico-2019",
+    "tai-li-2019": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado/ctaiae-ingreso-libre-oferta-de-empleo-publico-2018",
+    "tai-pi-2019": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado/ctaiae-promocion-interna-oferta-de-empleo-publico-2018",
+    "tai-li-2016": "https://www.baquedano.es/grupo_C.html",
+    "tai-li-2018": "https://www.baquedano.es/grupo_C.html",
+    "tai-pi-2018": "https://www.baquedano.es/grupo_C.html",
+    "tai-li-2018-ej2": "https://www.baquedano.es/grupo_C.html",
+    "tai-li-2015": "https://www.baquedano.es/grupo_C.html",
+    "tai-pi-2015": "https://www.baquedano.es/grupo_C.html"
+  },
+  "documents": [
+    {
+      "bank_id": "tai-li-2025",
+      "kind": "cuadernillo",
+      "model": "A",
+      "title": "Cuestionario ejercicio único · modelo A",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/Cuestionario%20TAI-L-ModeloA.pdf",
+      "file": "cuadernillo-A.pdf",
+      "sha256": "68b7942718e9c3f3bd9c39a1d6414afec09f79306efff4b0a70a1c1f4a038f7a",
+      "bytes": 319063
+    },
+    {
+      "bank_id": "tai-li-2025",
+      "kind": "otro",
+      "model": "B",
+      "title": "Cuestionario ejercicio único · modelo B (solo verificación cruzada)",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/Cuestionario%20TAI-L-ModeloB.pdf",
+      "file": "cuadernillo-B.pdf",
+      "sha256": "85961a13f34d1027d73e717c8e31d7f7be7c5a013480b758f13d4e18a5e0acaa",
+      "bytes": 319134
+    },
+    {
+      "bank_id": "tai-li-2025",
+      "kind": "plantilla_provisional",
+      "model": "A",
+      "title": "Plantilla provisional modelo A (actualizada)",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/Plantilla%20respuestas%20TAI-L-A_act.pdf",
+      "file": "plantilla-provisional-A.pdf",
+      "sha256": "7760d30037425b32b17dcde3b310dff9b9e556a8336532d3388c58030fa81af3",
+      "bytes": 76459
+    },
+    {
+      "bank_id": "tai-li-2025",
+      "kind": "otro",
+      "model": "B",
+      "title": "Plantilla provisional modelo B (actualizada; solo verificación cruzada)",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/Plantilla%20respuestas%20TAI-L-B_act.pdf",
+      "file": "plantilla-provisional-B.pdf",
+      "sha256": "db4e16416e494ce6ecea1f3f2ddd6bd20e76e6f856ae19e781e49bd474138049",
+      "bytes": 76454
+    },
+    {
+      "bank_id": "tai-li-2025",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/TAI%20LI%202025.pdf",
+      "file": "criterios.pdf",
+      "sha256": "3b23a8d91fe666a4fc9f07838986a3c609e1b7ba6253c0763fbe5b554fce9e4a",
+      "bytes": 172028
+    },
+    {
+      "bank_id": "tai-li-2025-ext",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario · llamamiento extraordinario",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-07/cuestionario_TAI-L_ext_9QVS9NM8ER_154AB89SD658.pdf",
+      "file": "cuadernillo.pdf",
+      "sha256": "b8beaef6ea09b54b6fc60b892d2d3c1f98cd4003124021677f7e69f26863434f",
+      "bytes": 290272
+    },
+    {
+      "bank_id": "tai-li-2025-ext",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional de respuestas · llamamiento extraordinario",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-07/Plantilla_respuestas_prov_TAI-L_ext_2Y6UHS3CF2_154AB89SD658.pdf",
+      "file": "plantilla-provisional.pdf",
+      "sha256": "ef82123b5e647836148e823adbfd81e4e5ed4667e1edd1b10e58c52448fcd023",
+      "bytes": 63667
+    },
+    {
+      "bank_id": "tai-li-2025-ext",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/TAI%20LI%202025.pdf",
+      "file": "criterios.pdf",
+      "sha256": "3b23a8d91fe666a4fc9f07838986a3c609e1b7ba6253c0763fbe5b554fce9e4a",
+      "bytes": 172028
+    },
+    {
+      "bank_id": "tai-pi-2025",
+      "kind": "cuadernillo",
+      "model": "A",
+      "title": "Cuestionario ejercicio único · modelo A",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/Cuestionario%20TAI-P-ModeloA.pdf",
+      "file": "cuadernillo-A.pdf",
+      "sha256": "962c989a5f81a83375bd2e52afbdd3bb94de8ae1f5339f910ff46087430f77e6",
+      "bytes": 273820
+    },
+    {
+      "bank_id": "tai-pi-2025",
+      "kind": "otro",
+      "model": "B",
+      "title": "Cuestionario ejercicio único · modelo B (solo verificación cruzada)",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/Cuestionario%20TAI-P-ModeloB.pdf",
+      "file": "cuadernillo-B.pdf",
+      "sha256": "b1b6cde00ab500cb3e35fd3e27218b3d26993968bffffbff522a743898a7e38a",
+      "bytes": 273179
+    },
+    {
+      "bank_id": "tai-pi-2025",
+      "kind": "plantilla_provisional",
+      "model": "A",
+      "title": "Plantilla provisional modelo A",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/Plantilla%20respuestas%20TAI-P-ModeloA.pdf",
+      "file": "plantilla-provisional-A.pdf",
+      "sha256": "2ede71bf4d3eb1c1eea94e74f17ace92ed008abf6f45e41ce3c706317a322239",
+      "bytes": 72627
+    },
+    {
+      "bank_id": "tai-pi-2025",
+      "kind": "plantilla_definitiva",
+      "model": "A",
+      "title": "Plantilla definitiva modelo A",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-09/Plantilla%20respuestas%20Def%20TAI-P-A.pdf",
+      "file": "plantilla-definitiva-A.pdf",
+      "sha256": "b71936a38162bec29218c5a27382b9007226eec1d990ac4c53970ba6f264ac5f",
+      "bytes": 65836
+    },
+    {
+      "bank_id": "tai-pi-2025",
+      "kind": "otro",
+      "model": "B",
+      "title": "Plantilla definitiva modelo B (solo verificación cruzada)",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-09/Plantilla%20respuestas%20Def%20TAI-P-B.pdf",
+      "file": "plantilla-definitiva-B.pdf",
+      "sha256": "e830f6832831a0f72ce42f04416b10f23cc8c9a3c9983f39d274f9222c6fe3cc",
+      "bytes": 66263
+    },
+    {
+      "bank_id": "tai-pi-2025",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación",
+      "url": "https://sede.inap.gob.es/sites/sede/files/public/2026-05/TAI%20PI%202025.pdf",
+      "file": "criterios.pdf",
+      "sha256": "015fd628f80829e218a8f34dd0344e4d7413958b5c7498a162b752bd26ca44da",
+      "bytes": 171025
+    },
+    {
+      "bank_id": "tai-li-2024",
+      "kind": "cuadernillo",
+      "model": "A",
+      "title": "Cuestionario ejercicio único · modelo A",
+      "url": "https://www.inap.es/documents/59312/2364268/Cuestionario_TAI_LI_2024_A_M8L91VL1CL_154AB89SD658.pdf/43a5d8c6-3f74-dbca-8452-c00408125ff8",
+      "file": "cuadernillo-A.pdf",
+      "sha256": "be7c481bad757390b850ee9309f04e01013bfd70be817e2e84e22d291bfb40d1",
+      "bytes": 171048
+    },
+    {
+      "bank_id": "tai-li-2024",
+      "kind": "otro",
+      "model": "B",
+      "title": "Cuestionario ejercicio único · modelo B (solo verificación cruzada)",
+      "url": "https://www.inap.es/documents/59312/2364268/Cuestionario_TAI_LI_2024_B_DNFGFEK45R_154AB89SD658.pdf/f20d579c-5036-0013-4a90-ba7e24fc9bf9",
+      "file": "cuadernillo-B.pdf",
+      "sha256": "c3a27ec748060702639a29d6dd800f4eb7f853a0efd7a2b771716b108af30b6a",
+      "bytes": 169281
+    },
+    {
+      "bank_id": "tai-li-2024",
+      "kind": "plantilla_provisional",
+      "model": "A",
+      "title": "Plantilla provisional modelo A",
+      "url": "https://www.inap.es/documents/59312/2364268/Plantilla_Respuestas_PROV_TAI_LI_2024_A_6J5MFQ8OEN_154AB89SD658.pdf/542eb6eb-73d7-4612-06bf-ce245160fd5c",
+      "file": "plantilla-provisional-A.pdf",
+      "sha256": "c0d5c474be386eaa150abd0b68e7b6ced465c0f1c823b394dd715c8e043bb245",
+      "bytes": 12943
+    },
+    {
+      "bank_id": "tai-li-2024",
+      "kind": "plantilla_definitiva",
+      "model": "A",
+      "title": "Plantilla definitiva modelo A",
+      "url": "https://www.inap.es/documents/59312/2364268/Plantilla+Cuestionario_TAI_LI_2024_A_definitiva.pdf/927bb295-6199-2a83-20e1-8cf970aa177e",
+      "file": "plantilla-definitiva-A.pdf",
+      "sha256": "559c9c1c1b105b42a8fd8417b58f793a17fa897478c72eb60636ad5baa875029",
+      "bytes": 84785
+    },
+    {
+      "bank_id": "tai-li-2024",
+      "kind": "otro",
+      "model": "B",
+      "title": "Plantilla definitiva modelo B (solo verificación cruzada)",
+      "url": "https://www.inap.es/documents/59312/2364268/Plantilla+Cuestionario_TAI_LI_2024_B_definitiva.pdf/e70c5182-f819-860d-3b9c-2a67b4547146",
+      "file": "plantilla-definitiva-B.pdf",
+      "sha256": "9b078f5903a607540d3efd8a5a7142c2c9e4a06d3139ba3e1758f072cd24da01",
+      "bytes": 89313
+    },
+    {
+      "bank_id": "tai-li-2024",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación (11/12/2024)",
+      "url": "https://www.inap.es/documents/59312/2364268/TAI+LI+2024.pdf/22c390b8-b596-7cee-ec54-9635b085ad94",
+      "file": "criterios.pdf",
+      "sha256": "f202ad8c1082fdf4652ad304724e06fc3d4575f9ead5110c4fd7c32aec680df3",
+      "bytes": 101426
+    },
+    {
+      "bank_id": "tai-pi-2024",
+      "kind": "cuadernillo",
+      "model": "A",
+      "title": "Cuestionario ejercicio único · modelo A",
+      "url": "https://www.inap.es/documents/59312/2364118/Cuestionario_TAI_PI_2024_A_3GZ5F829JV_154AB89SD658.pdf/1b2e81f9-779b-c97a-580e-0dd1da24ad18",
+      "file": "cuadernillo-A.pdf",
+      "sha256": "093f93c4ea881edda08055cd748fa50fd5d2b3c60917d56da76685289fb9ea9f",
+      "bytes": 138468
+    },
+    {
+      "bank_id": "tai-pi-2024",
+      "kind": "otro",
+      "model": "B",
+      "title": "Cuestionario ejercicio único · modelo B (solo verificación cruzada)",
+      "url": "https://www.inap.es/documents/59312/2364118/Cuestionario_TAI_PI_2024_B_IBTCZNPEKW_154AB89SD658.pdf/d479daaa-bc84-ef5d-19fe-43058b64e7e9",
+      "file": "cuadernillo-B.pdf",
+      "sha256": "2d99b173ca5ca2d28b2b02eaeda1e9dc0dad26c3e6ae6e73f41def600e697011",
+      "bytes": 137678
+    },
+    {
+      "bank_id": "tai-pi-2024",
+      "kind": "plantilla_provisional",
+      "model": "A",
+      "title": "Plantilla provisional modelo A",
+      "url": "https://www.inap.es/documents/59312/2364118/Plantilla_Respuestas_PROV_TAI_PI_2024_A_OIGFE7ZBA4_154AB89SD658.pdf/3ca3a976-2c9f-8975-395d-f3c9ca1ce1d0",
+      "file": "plantilla-provisional-A.pdf",
+      "sha256": "5eef6e7d133fd2a7923eb79d8164eea56b388784fe60c37e77ee0ee9cd82c859",
+      "bytes": 11847
+    },
+    {
+      "bank_id": "tai-pi-2024",
+      "kind": "plantilla_definitiva",
+      "model": "A",
+      "title": "Plantilla definitiva modelo A",
+      "url": "https://www.inap.es/documents/59312/2364118/Plantilla+Cuestionario_TAI_PI_2024_A_definitiva.pdf/31d14516-c3c6-9852-7d7c-94345641fb3e",
+      "file": "plantilla-definitiva-A.pdf",
+      "sha256": "213e0407d13ce6f8b8dc1293eef35afce64b713328c2575c04e91eb5c9c838d2",
+      "bytes": 83898
+    },
+    {
+      "bank_id": "tai-pi-2024",
+      "kind": "otro",
+      "model": "B",
+      "title": "Plantilla definitiva modelo B (solo verificación cruzada)",
+      "url": "https://www.inap.es/documents/59312/2364118/Plantilla+Cuestionario_TAI_PI_2024_B_definitiva.pdf/a36bbe4a-bef1-bf10-358d-61a4548e799e",
+      "file": "plantilla-definitiva-B.pdf",
+      "sha256": "bc94adf198e9164de4272da9d0745ec7531d7d84308d6c8901f11e219d498a10",
+      "bytes": 81224
+    },
+    {
+      "bank_id": "tai-pi-2024",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación (11/12/2024)",
+      "url": "https://www.inap.es/documents/59312/2364118/TAI+PI+2024.pdf/0ee5a809-a983-258b-aab2-38603947124d",
+      "file": "criterios.pdf",
+      "sha256": "829d44210a870e05b16e5a729615a251c26d172cae32fbec5e5227a7f2e9ad79",
+      "bytes": 99658
+    },
+    {
+      "bank_id": "tai-li-2023",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario ejercicio único",
+      "url": "https://www.inap.es/documents/59312/2194858/Cuestionario+TAI-L_2023.pdf/505d8c94-69a3-2971-b013-76c83e442ba1",
+      "file": "cuadernillo.pdf",
+      "sha256": "bf8d5965a4751b041f5c3c15bcd22bfe0eb551ed5cf35509f752fe87eabafa5a",
+      "bytes": 310177
+    },
+    {
+      "bank_id": "tai-li-2023",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional de respuestas",
+      "url": "https://www.inap.es/documents/59312/2194858/PlantillaRespuestas+TAI-L_2023.pdf/0c2b4a46-bfa5-f165-dc95-7bbec8b675ef",
+      "file": "plantilla-provisional.pdf",
+      "sha256": "9352f6fa7b8ac80485b6e18fd7b67eb7a46d06af959a827ca0a2af9b5125c245",
+      "bytes": 12976
+    },
+    {
+      "bank_id": "tai-li-2023",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva de respuestas",
+      "url": "https://www.inap.es/documents/59312/2194858/PlantillaRespuestas+DEFINITIVA+TAI-L_oep2022.pdf/54977d89-8c20-cb49-d715-23cb72681c35",
+      "file": "plantilla-definitiva.pdf",
+      "sha256": "4796c840924b843babedc88dcc1cd8083dad2da2db4d41745949100259d79dbc",
+      "bytes": 13196
+    },
+    {
+      "bank_id": "tai-li-2023",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación",
+      "url": "https://www.inap.es/documents/59312/2194858/TAI+LI+2023.pdf/1fe7e36d-60d0-742d-a69c-f282ae32879a",
+      "file": "criterios.pdf",
+      "sha256": "15659b1b3ba4c4d0717f41e3a4caee4c5f9119557aa09d0aaa04d713434e144f",
+      "bytes": 137713
+    },
+    {
+      "bank_id": "tai-pi-2023",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario ejercicio único",
+      "url": "https://www.inap.es/documents/59312/2194876/Cuestionario+TAI-PI_2023.pdf/5de03cad-c8b3-7231-1aff-96afaa23d3f2",
+      "file": "cuadernillo.pdf",
+      "sha256": "f43ab65607d02a095b3e6dc72f6cc3057401ecb4ba4b580d6a4ee206dccf36c7",
+      "bytes": 280629
+    },
+    {
+      "bank_id": "tai-pi-2023",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional de respuestas",
+      "url": "https://www.inap.es/documents/59312/2194876/PlantillaRespuestas+TAI-PI_2023.pdf/662da569-0f2d-980e-9a22-3e1876635051",
+      "file": "plantilla-provisional.pdf",
+      "sha256": "66e37868cb6faf82fb38733c91c366c3ff589890e3ee85cdc0f7b1bd15c1b024",
+      "bytes": 11697
+    },
+    {
+      "bank_id": "tai-pi-2023",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva de respuestas",
+      "url": "https://www.inap.es/documents/59312/2194876/Plantilla+respuestas+DEFINITIVA+TAI-P_oep2022.pdf/3dd0da87-b08b-00e2-5cc1-35d8579b4136",
+      "file": "plantilla-definitiva.pdf",
+      "sha256": "7956acf52e2361c0444bb059984e12855db560d9c18516b7410bdba3a2d5f9e1",
+      "bytes": 11890
+    },
+    {
+      "bank_id": "tai-pi-2023",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación",
+      "url": "https://www.inap.es/documents/59312/2194876/TAI+PI+2023.pdf/f9c185d7-613c-3a80-45d5-11e3b3123677",
+      "file": "criterios.pdf",
+      "sha256": "bfa69799ed03d02a808641fbc264a090c0f42385183f3a5c35a4e60dfe927779",
+      "bytes": 135601
+    },
+    {
+      "bank_id": "tai-pi-2023",
+      "kind": "criterios",
+      "model": null,
+      "title": "Corrección de errores de los criterios de corrección",
+      "url": "https://www.inap.es/documents/59312/2194876/TAI-P_CORRECCION+ERRORES+CRITERIOS+CORRECCION.pdf/6932b6e6-99ed-e4a4-c6ed-e3c4a5705a72",
+      "file": "criterios-correccion-errores.pdf",
+      "sha256": "a8cbc8c4e8a3e7d107555009090a7eb48beab18969466d3bae583c0fca4d7b48",
+      "bytes": 72641
+    },
+    {
+      "bank_id": "tai-li-2021",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario ejercicio único",
+      "url": "https://www.inap.es/documents/59312/1925774/cues_1er_ejer_TAI-L_oep19_154AB89SD658.pdf/ac7ec9d6-3ac6-4457-6687-6ecf53aa158e",
+      "file": "cuadernillo.pdf",
+      "sha256": "717f09d4b4bc8e5bf54638368f564fbdc2f5b4108fa965988244f6a02cc96623",
+      "bytes": 541584
+    },
+    {
+      "bank_id": "tai-li-2021",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional de respuestas",
+      "url": "https://www.inap.es/documents/59312/1925774/plant_prov_1er_ejer_TAI-L_oep19_154AB89SD658.pdf/674ea505-fc2c-68ab-1259-91b2aa264aae",
+      "file": "plantilla-provisional.pdf",
+      "sha256": "9a5244c27d1b8969095ff93e0bde6e518c7352af2c2501ca4b02889d68458a21",
+      "bytes": 133374
+    },
+    {
+      "bank_id": "tai-li-2021",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva de respuestas",
+      "url": "https://www.inap.es/documents/59312/1925774/Plantilla_definitivaTAI-LEjercicionico2019_154AB89SD658.pdf/3a177074-d70b-2fda-e9ec-38cc0942944d",
+      "file": "plantilla-definitiva.pdf",
+      "sha256": "91a69b86cc8941f40277a32b814b6d75643185c9f9e2395ea7b8853a80c8a06f",
+      "bytes": 41032
+    },
+    {
+      "bank_id": "tai-li-2021",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación",
+      "url": "https://www.inap.es/documents/59312/1925662/2OEP2019TAI-LI_154AB89SD658.pdf/0def8107-8fdd-c394-8860-dd291cc31fca",
+      "file": "criterios.pdf",
+      "sha256": "92294ea20f2db612a4de350bab521b1165b552908b489e20342db9bfb44f55cd",
+      "bytes": 207551
+    },
+    {
+      "bank_id": "tai-li-2021",
+      "kind": "otro",
+      "model": null,
+      "title": "Nota informativa puntuaciones mínimas",
+      "url": "https://www.inap.es/documents/59312/1925774/Puntuacionesminimasprimerejercicio2019TAIL_154AB89SD658.pdf/9186ee4e-faf8-e9c5-3152-403b71232c9a",
+      "file": "puntuaciones-minimas.pdf",
+      "sha256": "78eb082c298d096b3e243f98740d8cd96eda8298c18f1636324241dde123380a",
+      "bytes": 383404
+    },
+    {
+      "bank_id": "tai-pi-2021",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario ejercicio único",
+      "url": "https://www.inap.es/documents/59312/1925806/cues_1er_ejer_TAI-P_oep19_154AB89SD658.pdf/69f68075-790a-96eb-fe71-68758f73f4de",
+      "file": "cuadernillo.pdf",
+      "sha256": "fa3008ced226cdde6607b00a4405b8f90fbb8a41845f28ec9cdbc6691793166f",
+      "bytes": 452461
+    },
+    {
+      "bank_id": "tai-pi-2021",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional de respuestas",
+      "url": "https://www.inap.es/documents/59312/1925806/plant_prov_1er_ejer_TAI-P_oep19_154AB89SD658.pdf/1ef5df0c-0769-0c4f-2061-749781551136",
+      "file": "plantilla-provisional.pdf",
+      "sha256": "bb8fe0c337533a3645cc335ba1d6aaf7e689f1b15066dc50844aba3da9b5df52",
+      "bytes": 130318
+    },
+    {
+      "bank_id": "tai-pi-2021",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva de respuestas",
+      "url": "https://www.inap.es/documents/59312/1925806/Plantilla_definitivaTAI-PEjercicionico2019_154AB89SD658.pdf/7d5f23e1-b935-d873-bd2a-61cd84b65602",
+      "file": "plantilla-definitiva.pdf",
+      "sha256": "a3a5a6b88f23c47302d587dc8503d979e23771e9d778fe164c8e78e4410584f7",
+      "bytes": 37989
+    },
+    {
+      "bank_id": "tai-pi-2021",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación",
+      "url": "https://www.inap.es/documents/59312/1925662/3OEP2019TAI-PI_154AB89SD658.pdf/c9c86cb8-ffab-9b0d-96f7-8ff10d7bd020",
+      "file": "criterios.pdf",
+      "sha256": "1921246eee44a690959c7895de1316c622cd1bca58e6ba4f3b89b1f4520d3514",
+      "bytes": 189473
+    },
+    {
+      "bank_id": "tai-pi-2021",
+      "kind": "otro",
+      "model": null,
+      "title": "Nota informativa puntuaciones mínimas",
+      "url": "https://www.inap.es/documents/59312/1925806/Puntuacionesminimasprimerejercicio2019TAIPI_154AB89SD658.pdf/c0ff2a15-5bc7-3da5-db8e-a5ced6c35e47",
+      "file": "puntuaciones-minimas.pdf",
+      "sha256": "cebd5c374501fdde18e87950fddc5ba7f67543592deadd15e2ea6a2566b31580",
+      "bytes": 383352
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario primer ejercicio",
+      "url": "https://www.inap.es/documents/59312/1790179/07TAIL_154AB89SD658.pdf/4c0b46eb-c8ff-1c9c-0749-06aab6f0a9e1",
+      "file": "cuadernillo-1.pdf",
+      "sha256": "459eafc82ea1297e989d5933679ab17c5814adbd432291d33bd7421738ba3c9c",
+      "bytes": 5446053
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional primer ejercicio",
+      "url": "https://www.inap.es/documents/59312/1790179/07-Plantilla_provisionalTAI-LPrimerejercicio2018_154AB89SD658.pdf/2cd08c6d-89b7-a0b5-3075-e11687c05f62",
+      "file": "plantilla-provisional-1.pdf",
+      "sha256": "0df0730df2af5db46add1e2418c4cddef0a0c529d75ffcd739cf066c03546b4e",
+      "bytes": 126800
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva primer ejercicio",
+      "url": "https://www.inap.es/documents/59312/1790179/Plantilla_defTAI-L1ejer_154AB89SD658.pdf/a546831b-fe61-6dd4-230b-5171c13b27df",
+      "file": "plantilla-definitiva-1.pdf",
+      "sha256": "45379c54439fb474ac88b1388929b109fbb0056693da4285f71fe8cb20759056",
+      "bytes": 5724
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección primer ejercicio",
+      "url": "https://www.inap.es/documents/59312/1790179/7OEP2018TAILI_154AB89SD658.pdf/cdc80da6-8e02-a640-65c4-faa5917c9a28",
+      "file": "criterios-1.pdf",
+      "sha256": "9d2816d1081d80499126a5df57a9e29c0af54fdfcb0bc4c0d97a2849aa6c5444",
+      "bytes": 146679
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario segundo ejercicio",
+      "url": "https://www.inap.es/documents/59312/1790179/CUESTIONARIO__SEGUNDO_EJERCICIO_TAILI_%2520OEP_2018_154AB89SD658.pdf/a1909d6d-18d0-9b4b-d2ad-ebb02bd7ed8c",
+      "file": "cuadernillo-2.pdf",
+      "sha256": "1ae6e873e0261e8ea0839b7de91681d6b56aaa6261c0ad228f3c50efd00949be",
+      "bytes": 4859134
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional segundo ejercicio",
+      "url": "https://www.inap.es/documents/59312/1790179/Plantilla_provisional_Segundo%2520ejercicio_TAILI_OEP_2018._154AB89SD658.pdf/a884f963-5445-bb1a-a4cb-02e9eb30bfd8",
+      "file": "plantilla-provisional-2.pdf",
+      "sha256": "a7f41dcf933ff793ba125fa0daa0457a2c756634720375c389ce1f2c24af4273",
+      "bytes": 126806
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva segundo ejercicio",
+      "url": "https://www.inap.es/documents/59312/1790179/2jer_Plantilla_definitiva%2520TAILI_OEP2018__154AB89SD658.pdf/005c1328-6fb4-3a56-81db-acaa79c356d3",
+      "file": "plantilla-definitiva-2.pdf",
+      "sha256": "2317103a989c6e43b874ecc709706b23ba4c184b5928f9bc8b8c47908d2f5640",
+      "bytes": 136585
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección segundo ejercicio",
+      "url": "https://www.inap.es/documents/59312/1790179/CRITERIOS_2_TAILI_154AB89SD658.pdf/c44b7573-d587-4a0a-3eef-8d4cd346b266",
+      "file": "criterios-2.pdf",
+      "sha256": "dca781466b6de05c3883de0df1ede0ab25703c7036adea8c1ce9189e41d4f580",
+      "bytes": 558410
+    },
+    {
+      "bank_id": "tai-pi-2019",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario ejercicio único",
+      "url": "https://www.inap.es/documents/59312/1777270/08TAIPI_154AB89SD658.pdf/5b93e5e5-86bc-a169-8128-d3f8f073d9f2",
+      "file": "cuadernillo.pdf",
+      "sha256": "99abc22c9c8f3892b7e53e3a9f205f650150530cbef0a2f0b1753dda1052dbf8",
+      "bytes": 4170853
+    },
+    {
+      "bank_id": "tai-pi-2019",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional de respuestas",
+      "url": "https://www.inap.es/documents/59312/1777270/08-Plantilla_provisionalTAI-PEjercicionico2018_154AB89SD658.pdf/5d446263-1325-2a6c-2121-f3fd966c4bca",
+      "file": "plantilla-provisional.pdf",
+      "sha256": "5831c7b6bdb56c2e3850f15cd579069ceeaf4975d2e8aaa096180e77451f9195",
+      "bytes": 126607
+    },
+    {
+      "bank_id": "tai-pi-2019",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva de respuestas",
+      "url": "https://www.inap.es/documents/59312/1777270/Plantilla_defTAI-Pejerunico_154AB89SD658.pdf/0120eadc-9877-2a4c-51dd-02b625d9ef79",
+      "file": "plantilla-definitiva.pdf",
+      "sha256": "7784c87aac24ab4fb81e85ab225c7ae9fe8170cc6b085762b1d84245583224a5",
+      "bytes": 5501
+    },
+    {
+      "bank_id": "tai-pi-2019",
+      "kind": "criterios",
+      "model": null,
+      "title": "Criterios de corrección, valoración y superación",
+      "url": "https://www.inap.es/documents/59312/1777270/8OEP2018TAIPI_154AB89SD658.pdf/f4857b8c-0a2e-01a1-cd0c-70e920fe73f6",
+      "file": "criterios.pdf",
+      "sha256": "670b5e601a454653dfac092ab3e205dfcad916e218684b5bcbe07e3045144787",
+      "bytes": 146733
+    },
+    {
+      "bank_id": "tai-li-2023",
+      "kind": "otro",
+      "model": null,
+      "title": "Fecha y lugar del ejercicio (Anexo XIII)",
+      "url": "https://www.inap.es/documents/59312/2194858/26-+ANEXO+XIII.pdf/f62e5eca-7dd2-e321-d408-0cca1bb4dad9",
+      "file": "fecha-lugar.pdf",
+      "sha256": "1db0d0f5f8f057c8a4c69790c8061d21c0e919e7f123d8d62c13e7efb405acd1",
+      "bytes": 154637
+    },
+    {
+      "bank_id": "tai-pi-2023",
+      "kind": "otro",
+      "model": null,
+      "title": "Fecha y lugar del ejercicio (Anexo XIII)",
+      "url": "https://www.inap.es/documents/59312/2194876/26-+ANEXO+XIII.pdf/deb83ca2-86ac-bb75-604a-6a65149ec906",
+      "file": "fecha-lugar.pdf",
+      "sha256": "1db0d0f5f8f057c8a4c69790c8061d21c0e919e7f123d8d62c13e7efb405acd1",
+      "bytes": 154637
+    },
+    {
+      "bank_id": "tai-li-2021",
+      "kind": "otro",
+      "model": null,
+      "title": "Fecha, hora y lugar del ejercicio (Anexo X)",
+      "url": "https://www.inap.es/documents/59312/1925662/ANEXOXLUGARCELEBRACIONPRIMEREJERCICIOOEP2019_154AB89SD658.pdf/cab522de-637d-f1e8-7c94-f0abbded1f94",
+      "file": "fecha-lugar.pdf",
+      "sha256": "5fea9439eddd1c4806c44d46af0c734f5542f321fd1acd2b2211f694d0426b76",
+      "bytes": 74041
+    },
+    {
+      "bank_id": "tai-pi-2021",
+      "kind": "otro",
+      "model": null,
+      "title": "Fecha, hora y lugar del ejercicio (Anexo X)",
+      "url": "https://www.inap.es/documents/59312/1925662/ANEXOXLUGARCELEBRACIONPRIMEREJERCICIOOEP2019_154AB89SD658.pdf/cab522de-637d-f1e8-7c94-f0abbded1f94",
+      "file": "fecha-lugar.pdf",
+      "sha256": "5fea9439eddd1c4806c44d46af0c734f5542f321fd1acd2b2211f694d0426b76",
+      "bytes": 74041
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "otro",
+      "model": null,
+      "title": "Lugar, día y hora de examen",
+      "url": "https://www.inap.es/documents/59312/1747284/LUGAR_DIA_HORA_EXAMEN.pdf/aabf689e-5098-67e3-bbbf-57aacbb817bc",
+      "file": "fecha-lugar.pdf",
+      "sha256": "3a7f23b415f2ae16d54e21534b94d557936496862eba3334c6ba7e0d0d4d010f",
+      "bytes": 431105
+    },
+    {
+      "bank_id": "tai-li-2019",
+      "kind": "otro",
+      "model": null,
+      "title": "Nota informativa para la celebración de los ejercicios del 25 de enero de 2020 (segundo ejercicio)",
+      "url": "https://www.inap.es/documents/59312/1790179/Nota_informativa_25_enero_154AB89SD658.pdf/d64ad80a-2501-6549-41ea-260992689e07",
+      "file": "nota-25-enero-2020.pdf",
+      "sha256": "6d57b5db7fff113f2531194bc8ae0709b72aa56350d2fb2eea1f78d4601c0876",
+      "bytes": 418413
+    },
+    {
+      "bank_id": "tai-pi-2019",
+      "kind": "otro",
+      "model": null,
+      "title": "Lugar, día y hora de examen",
+      "url": "https://www.inap.es/documents/59312/1747284/LUGAR_DIA_HORA_EXAMEN.pdf/aabf689e-5098-67e3-bbbf-57aacbb817bc",
+      "file": "fecha-lugar.pdf",
+      "sha256": "3a7f23b415f2ae16d54e21534b94d557936496862eba3334c6ba7e0d0d4d010f",
+      "bytes": 431105
+    },
+    {
+      "bank_id": "tai-li-2023",
+      "kind": "otro",
+      "model": null,
+      "title": "Normas específicas (Anexo VI)",
+      "url": "https://www.inap.es/es/documents/59312/2194858/06_ANEXO_VI_VF_TAI_LI_9VQNV6IY6C_154AB89SD658.pdf/b0570204-638f-647e-58fc-1f067e6d0e6e",
+      "file": "normas-especificas.pdf",
+      "sha256": "b55a830d612cd924fb7a95096ac8d6204d4e1a8a030e295a9eb0bc43c83d7299",
+      "bytes": 167710
+    },
+    {
+      "bank_id": "tai-pi-2023",
+      "kind": "otro",
+      "model": null,
+      "title": "Normas específicas (Anexo VII)",
+      "url": "https://www.inap.es/es/documents/59312/2194876/07_ANEXO_VII_VF_TAI_PI_2PVBGZETU4_154AB89SD658.pdf/86747151-3658-6ab3-8066-25f8896caddd",
+      "file": "normas-especificas.pdf",
+      "sha256": "e1b8442a6d72f77a55c234fd94272b56fdec2e94212d23e9fc92c36fafaed3d5",
+      "bytes": 187134
+    },
+    {
+      "bank_id": "tai-li-2021",
+      "kind": "otro",
+      "model": null,
+      "title": "Normas específicas (Anexo TAI-L)",
+      "url": "https://www.inap.es/es/documents/59312/1925774/AnexoTAI-L.pdf/e8309b7d-7b54-1218-1411-f6351aa46824",
+      "file": "normas-especificas.pdf",
+      "sha256": "3ea2a4d68e3eb298905eec252932c3a65177bfd54e657224234ee3e6473a232d",
+      "bytes": 140891
+    },
+    {
+      "bank_id": "tai-pi-2021",
+      "kind": "otro",
+      "model": null,
+      "title": "Normas específicas (Anexo TAI-P)",
+      "url": "https://www.inap.es/es/documents/59312/1925806/AnexoTAI-P.pdf/69660e5e-a03f-8cc8-e526-68d670240607",
+      "file": "normas-especificas.pdf",
+      "sha256": "7f0353f05d23a2a1f1c007c17af0a2dd9b260286055357ab29fd365672643828",
+      "bytes": 177282
+    },
+    {
+      "bank_id": "tai-li-2016",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario 16/TAI-LI · primer ejercicio (escaneado)",
+      "url": "https://www.baquedano.es/TAI_ejer_1_libre_AGE_2017.pdf",
+      "file": "cuadernillo-1.pdf",
+      "sha256": "21cfa415258013c1d028d9844b4103e7ec760203bd78407611d28ff042ac1d60",
+      "bytes": 1026690
+    },
+    {
+      "bank_id": "tai-li-2016",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva de respuestas del primer ejercicio",
+      "url": "https://www.baquedano.es/TAI_sol_1_libre_AGE_2017.pdf",
+      "file": "plantilla-definitiva-1.pdf",
+      "sha256": "60035c1b6dba1fa8436d4112e1dc1963911359ae00112b310bdc6220e2da9247",
+      "bytes": 24981
+    },
+    {
+      "bank_id": "tai-li-2016",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario 16/TAI-LI · segundo ejercicio (escaneado)",
+      "url": "https://www.baquedano.es/TAI_ejer_2_libre_AGE_2017.pdf",
+      "file": "cuadernillo-2.pdf",
+      "sha256": "34c5c504155601911000faa7254eca7b6c532a57f6aed9c6345b2e3f09ccbf43",
+      "bytes": 534882
+    },
+    {
+      "bank_id": "tai-li-2016",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva de respuestas del segundo ejercicio",
+      "url": "https://www.baquedano.es/TAI_sol_2_libre_AGE_2017.pdf",
+      "file": "plantilla-definitiva-2.pdf",
+      "sha256": "d29e6c0d10e0989f4a026d67c66eb58b4a87a6e2af9e272ea3d4736a246bc937",
+      "bytes": 129924
+    },
+    {
+      "bank_id": "tai-li-2018",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario 17/TAI-LI · primer ejercicio (escaneado)",
+      "url": "https://www.baquedano.es/TAI_ejer_1_libre_AGE_2018.pdf",
+      "file": "cuadernillo-1.pdf",
+      "sha256": "ebe44aa0ed8b778fd6fd98ac6aae7c1b714246a745cf990fa9baa0c956bd9f2d",
+      "bytes": 861374
+    },
+    {
+      "bank_id": "tai-li-2018",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva de respuestas del primer ejercicio",
+      "url": "https://www.baquedano.es/TAI_sol_1_libre_AGE_2018.pdf",
+      "file": "plantilla-definitiva-1.pdf",
+      "sha256": "42a0a85a76815f9038f1b3c0f224c9f8ff56b88ba70a8594ad1ea114afcd7a5a",
+      "bytes": 133644
+    },
+    {
+      "bank_id": "tai-li-2018-ej2",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario 17/TAI-LI · segundo ejercicio (escaneado; sin plantilla oficial publicada)",
+      "url": "https://www.baquedano.es/TAI_ejer_2_libre_AGE_2018.pdf",
+      "file": "cuadernillo.pdf",
+      "sha256": "070d3531984eb612f6e3b1c8e9a2efd37ec42cdf90a232c33081b81739c034d2",
+      "bytes": 4577902
+    },
+    {
+      "bank_id": "tai-pi-2018",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario 17/TAI-PI · ejercicio único (escaneado)",
+      "url": "https://www.baquedano.es/TAI_ejer_1_promo_AGE_2018.pdf",
+      "file": "cuadernillo.pdf",
+      "sha256": "6ec63f386f6b891b55f6a8accdabef85199dd9ba88ea65e3015dbcd48b281e6a",
+      "bytes": 608518
+    },
+    {
+      "bank_id": "tai-pi-2018",
+      "kind": "plantilla_definitiva",
+      "model": null,
+      "title": "Plantilla definitiva de respuestas del ejercicio único",
+      "url": "https://www.baquedano.es/TAI_sol_1_promo_AGE_2018.pdf",
+      "file": "plantilla-definitiva.pdf",
+      "sha256": "f4d138eea82b8de603f71975d93190e20e78dd6236f1751d4912125c138fdc7b",
+      "bytes": 134732
+    },
+    {
+      "bank_id": "tai-li-2015",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario 15/TAI-LI · primer ejercicio (escaneado)",
+      "url": "https://www.baquedano.es/TAI_ejer_1_libre_AGE_2016.pdf",
+      "file": "cuadernillo-1.pdf",
+      "sha256": "e1fb92626fc051213fd8804e8995bb405d1dfd1d8721b9b54ae88ff9f70e055c",
+      "bytes": 7980961
+    },
+    {
+      "bank_id": "tai-li-2015",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional de respuestas del primer ejercicio",
+      "url": "https://www.baquedano.es/TAI_sol_provi_1_libre_AGE_2016.pdf",
+      "file": "plantilla-provisional-1.pdf",
+      "sha256": "5efcc8a973108154edc9bc0bf21d1fce619f0529d5fb7657440d0e1553504540",
+      "bytes": 26663
+    },
+    {
+      "bank_id": "tai-li-2015",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario 15/TAI-LI · segundo ejercicio (escaneado)",
+      "url": "https://www.baquedano.es/TAI_ejer_2_libre_AGE_2016.pdf",
+      "file": "cuadernillo-2.pdf",
+      "sha256": "c7b51c5c3c37051c3009ab5e77ef935624195b63e21b607868df1d1e0b9544df",
+      "bytes": 5468762
+    },
+    {
+      "bank_id": "tai-li-2015",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional de respuestas del segundo ejercicio",
+      "url": "https://www.baquedano.es/TAI_sol_provi_2_libre_AGE_2016.pdf",
+      "file": "plantilla-provisional-2.pdf",
+      "sha256": "88d64724bd27f4e648361a70b15e1807f9876841ae8ef3a9fb90a2a6025762cb",
+      "bytes": 114461
+    },
+    {
+      "bank_id": "tai-pi-2015",
+      "kind": "cuadernillo",
+      "model": null,
+      "title": "Cuestionario 15/TAI-PI · ejercicio único (escaneado)",
+      "url": "https://www.baquedano.es/TAI_ejer_1_promo_AGE_2016.pdf",
+      "file": "cuadernillo.pdf",
+      "sha256": "227b3773ec4bc37e760f1e30e14a7a0b464277a79150d7a79375908da083b1a5",
+      "bytes": 6650114
+    },
+    {
+      "bank_id": "tai-pi-2015",
+      "kind": "plantilla_provisional",
+      "model": null,
+      "title": "Plantilla provisional de respuestas del ejercicio único",
+      "url": "https://www.baquedano.es/TAI_sol_provi_1_promo_AGE_2016.pdf",
+      "file": "plantilla-provisional.pdf",
+      "sha256": "6a655bd4fcf584693c7e0ac506c5641af0eab8e1284785e805c941a5eb4f45a5",
+      "bytes": 26584
+    }
+  ]
+}

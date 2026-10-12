@@ -1,0 +1,29 @@
+{
+  "topic": "II.5",
+  "summary": "Qué es un SGBD, sus funciones y componentes (procesador y optimizador de consultas, gestor de almacenamiento, transacciones ACID, recuperación y concurrencia) y las tres familias del programa: relacionales (Codd, reglas, arquitectura de Oracle, SQL Server, MySQL y PostgreSQL), orientados a objetos y objeto-relacionales (OID, manifiesto de 1989, ODMG con ODL y OQL, SQL:1999) y NoSQL (CAP, BASE, clave-valor, documentales, de columnas y de grafos, Hadoop y NewSQL), con versiones de 2026.",
+  "key_points": [
+    "Un SGBD tiene un procesador de consultas (intérprete LDD, compilador LMD, optimizador basado en costes y motor de ejecución) y un gestor de almacenamiento (autorización e integridad, transacciones, búfer y ficheros) sobre datos, índices, catálogo y registro de transacciones.",
+    "ACID = Atomicidad, Consistencia, aIslamiento y Durabilidad (o persistencia); la recuperación usa el registro anticipado (WAL), puntos de control, deshacer y rehacer; la concurrencia, bloqueos S/X con 2PL, detección de interbloqueos y MVCC.",
+    "Objetivos de Codd: independencia física, independencia lógica, flexibilidad, uniformidad y sencillez («independencia conceptual» no). Reglas de Codd (1985): 12 más la regla 0; trampas: «dependencia de la distribución», «bajo nivel», «integridad de paridad» o «cardinalidad de las entidades» no existen.",
+    "Oracle: bloque (unidad mínima) < extensión < segmento < tablespace (unidad lógica); cada datafile pertenece a un solo tablespace; instancia SGA, PGA y procesos DBWn, LGWR, CKPT, SMON, PMON; CDB/PDB obligatorio desde 21c.",
+    "SQL Server: el motor almacena, procesa y protege; Machine Learning Services ejecuta Python y R con los datos relacionales (paquete RevoScaleR); replicación copia y sincroniza; DQS y MDS retirados en SQL Server 2025.",
+    "Versiones de 2026: Oracle AI Database 26ai, SQL Server 2025, MySQL 8.4 y 9.7 LTS, MariaDB 12.3 LTS, PostgreSQL 18 (19 en beta con SQL/PGQ), Db2 12.1. Aurora es relacional; JSON es un formato, no un SGBD.",
+    "SGBDOO: OID generado por el sistema, único, inmutable, invisible e independiente de los atributos; constructores atómico, tupla y colecciones (conjunto, bolsa, lista, array, diccionario); el manifiesto de 1989 exige 13 características, entre ellas la extensibilidad.",
+    "ODMG 3.0: modelo de objetos, ODL (definición), OQL (consulta, parecido a SQL, con expresiones de camino) y vinculaciones con C++, Smalltalk y Java (OML). Productos: Matisse, ObjectStore, Versant, GemStone/S, ObjectDB, ZODB.",
+    "NoSQL («Not only SQL»): esquema flexible, escalado horizontal, replicación y consistencia eventual (BASE); CAP obliga a elegir entre C y A cuando hay partición; quórum R + W > N.",
+    "Tipos NoSQL: clave-valor (Redis, DynamoDB, Riak), documental (MongoDB, CouchDB), familias de columnas (Cassandra con CQL, HBase) y grafos (Neo4j con Cypher, JanusGraph con Gremlin, GQL ISO/IEC 39075:2024); en Hadoop, Avro serializa datos."
+  ],
+  "sources": [
+    { "title": "E. F. Codd (1970), A Relational Model of Data for Large Shared Data Banks", "url": "https://doi.org/10.1145/362384.362685" },
+    { "title": "ISO/IEC 9075-16:2023, SQL/PGQ", "url": "https://www.iso.org/standard/79473.html" },
+    { "title": "ISO/IEC 39075:2024, GQL", "url": "https://www.iso.org/standard/76120.html" },
+    { "title": "The Object-Oriented Database System Manifesto (1989)", "url": "https://cs.brown.edu/courses/cs295-11/2006/oo-manifesto.pdf" },
+    { "title": "Oracle Database Concepts: Logical Storage Structures", "url": "https://docs.oracle.com/en/database/oracle/oracle-database/23/cncpt/logical-storage-structures.html" },
+    { "title": "Microsoft Learn: What's new in SQL Server 2025", "url": "https://learn.microsoft.com/en-us/sql/sql-server/what-s-new-in-sql-server-2025" },
+    { "title": "Microsoft Learn: SQL Server Machine Learning Services", "url": "https://learn.microsoft.com/en-us/sql/machine-learning/sql-server-machine-learning-services" },
+    { "title": "PostgreSQL: política de versiones", "url": "https://www.postgresql.org/support/versioning/" },
+    { "title": "Gilbert y Lynch (2002), Brewer's Conjecture (teorema CAP)", "url": "https://www.comp.nus.edu.sg/~gilbert/pubs/BrewersConjecture-SigAct.pdf" },
+    { "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191" }
+  ],
+  "updated": "2026-10-11"
+}

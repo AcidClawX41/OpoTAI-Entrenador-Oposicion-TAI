@@ -1,0 +1,746 @@
+[
+  {
+    "id": "tai-pi-2024-p1-002",
+    "explanation": "El **art. 32.1 del RGPD** (seguridad del tratamiento) obliga a responsable y encargado a aplicar medidas técnicas y organizativas apropiadas al riesgo, que incluyan, entre otras: a) la **seudonimización y el cifrado**; b) la capacidad de garantizar la **confidencialidad, integridad, disponibilidad y resiliencia** permanentes de los sistemas y servicios; c) la capacidad de **restaurar** rápidamente la disponibilidad y el acceso tras un incidente; y d) la **verificación periódica** de la eficacia de las medidas. Truco: el RGPD dice «resiliencia»; «autenticidad» y «trazabilidad» son dimensiones del ENS.",
+    "option_notes": [
+      null,
+      "Cambia «resiliencia» por «trazabilidad», que es una dimensión del ENS, no del art. 32 del RGPD.",
+      "Cambia «integridad» por «autenticidad», dimensión del ENS que no figura en el art. 32.1.b).",
+      "Incluye «autenticidad» y omite la «resiliencia» que exige el art. 32.1.b)."
+    ],
+    "topic": "I.7",
+    "references": [
+      "Reglamento (UE) 2016/679 (RGPD), art. 32"
+    ],
+    "tags": [
+      "rgpd",
+      "seguridad-del-tratamiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-003",
+    "explanation": "Según el **art. 6 del RD 4/2010 (ENI)**, la interoperabilidad se entiende contemplando sus **dimensiones organizativa, semántica y técnica**, «sin olvidar la **dimensión temporal**», que garantiza el acceso a la información a lo largo del tiempo. Es uno de los tres principios específicos del ENI (art. 4): la interoperabilidad como cualidad integral, su **carácter multidimensional** y el enfoque de soluciones multilaterales.",
+    "option_notes": [
+      null,
+      "La seguridad no es una dimensión de la interoperabilidad en el art. 6; se regula en el ENS.",
+      "«Operacional» y «de protección» no son dimensiones de la interoperabilidad en el ENI.",
+      "Infraestructuras y estándares aparecen en la «cadena de interoperabilidad» del art. 6, pero no son sus dimensiones."
+    ],
+    "topic": "I.8",
+    "references": [
+      "RD 4/2010 (ENI), arts. 4 y 6"
+    ],
+    "tags": [
+      "eni",
+      "interoperabilidad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-004",
+    "explanation": "Los **17 ODS** de la Agenda 2030 son: 1 fin de la pobreza; 2 hambre cero; 3 salud y bienestar; 4 educación de calidad; 5 igualdad de género; 6 agua limpia y saneamiento; 7 energía asequible y no contaminante; 8 **trabajo decente y crecimiento económico**; 9 industria, innovación e infraestructura; 10 reducción de las desigualdades; 11 ciudades y comunidades sostenibles; 12 **producción y consumo responsables**; 13 acción por el clima; 14 vida submarina; 15 vida de ecosistemas terrestres; 16 paz, justicia e instituciones sólidas; 17 alianzas para lograr los objetivos. La C mezcla los ODS 8 y 12.",
+    "option_notes": [
+      "Es el ODS 1, fin de la pobreza.",
+      "Es el ODS 11, ciudades y comunidades sostenibles.",
+      null,
+      "Es el ODS 13, acción por el clima."
+    ],
+    "topic": "I.4",
+    "references": [
+      "Resolución 70/1 de la Asamblea General de la ONU (Agenda 2030)"
+    ],
+    "tags": [
+      "agenda-2030",
+      "ods"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-007",
+    "explanation": "El **art. 11 de la Ley 19/2013** fija los principios técnicos del Portal de la Transparencia: **accesibilidad** (información estructurada que facilite su identificación y búsqueda), **interoperabilidad** (conforme al Esquema Nacional de Interoperabilidad y sus normas técnicas) y **reutilización** (formatos que permitan reutilizarla, según la Ley 37/2007). Regla mnemotécnica: *A-I-R*.",
+    "option_notes": [
+      "El primer principio es la accesibilidad, no la usabilidad.",
+      "La seguridad no figura; el tercer principio es la reutilización.",
+      "Ni la flexibilidad ni la seguridad están en el art. 11.",
+      null
+    ],
+    "topic": "I.4",
+    "references": [
+      "Ley 19/2013, art. 11"
+    ],
+    "tags": [
+      "transparencia",
+      "portal-de-la-transparencia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-008",
+    "explanation": "Según el **art. 45 de la Ley 4/2023**, la competencia para tramitar la rectificación registral de la mención del sexo corresponde a la **persona encargada de la Oficina del Registro Civil** en la que se haya presentado la solicitud, que puede presentarse en cualquier oficina (art. 44.2). El procedimiento no puede condicionarse a informes médicos o psicológicos ni a modificaciones corporales (art. 44.3).",
+    "option_notes": [
+      null,
+      "El Ministerio de Igualdad no tramita la rectificación: es un procedimiento registral.",
+      "El Ministerio de Justicia no tramita cada solicitud; lo hace la persona encargada de la Oficina del Registro Civil.",
+      "Esa Dirección General impulsa las políticas LGTBI, pero no tramita rectificaciones registrales."
+    ],
+    "topic": "I.5",
+    "references": [
+      "Ley 4/2023, arts. 44 y 45"
+    ],
+    "tags": [
+      "lgtbi",
+      "ley-4-2023",
+      "registro-civil"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-009",
+    "explanation": "El **art. 2 del RDLeg 1/2013** define la **discriminación directa** como la situación en que se encuentra una persona con discapacidad cuando es **tratada de manera menos favorable que otra en situación análoga** por motivo o por razón de su discapacidad. No la confundas con la **indirecta** (una norma o práctica aparentemente neutra que causa desventaja), la **discriminación por asociación** (por la relación con otra persona con discapacidad) ni con el **acoso** (conducta no deseada que atenta contra la dignidad).",
+    "option_notes": [
+      "Define la discriminación por asociación.",
+      null,
+      "Define la discriminación indirecta.",
+      "Define el acoso."
+    ],
+    "topic": "I.5",
+    "references": [
+      "RDLeg 1/2013, art. 2"
+    ],
+    "tags": [
+      "discapacidad",
+      "discriminacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-012",
+    "explanation": "La **resolución** de un escáner se mide en **puntos por pulgada** (ppp, *dpi*) o **píxeles por pulgada** (*ppi*): cuantos más, más detalle. Más píxeles implican **más resolución y ficheros más grandes**. La **profundidad de bits** es el número de bits por píxel y determina cuántos colores o tonos pueden representarse (1 bit: blanco y negro; 8 bits: 256 grises; 24 bits: color verdadero).",
+    "option_notes": [
+      null,
+      "A más píxeles, mayor resolución pero también mayor tamaño de fichero, no menor.",
+      "La profundidad de bits determina el número de colores o tonos por píxel, no solo los grises.",
+      "Hay muchos más formatos (PNG, BMP, GIF…) y el PDF también almacena imágenes."
+    ],
+    "topic": "II.2",
+    "references": [],
+    "tags": [
+      "digitalizacion",
+      "escaneres",
+      "imagen-digital"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-013",
+    "explanation": "La **pila** es un TAD **LIFO** (*last-in, first-out*): las operaciones `push` (apilar) y `pop` (desapilar) se hacen siempre por el mismo extremo, la **cima**. Puede implementarse con un **array** (estructura estática con un índice de cima) o con una **lista enlazada** (estructura dinámica).",
+    "option_notes": [
+      "FIFO es el principio de la cola; la pila es LIFO.",
+      null,
+      "Sí puede: una lista enlazada es la implementación dinámica habitual.",
+      "Push y pop solo actúan sobre la cima de la pila."
+    ],
+    "topic": "II.3",
+    "references": [],
+    "tags": [
+      "tad",
+      "pilas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-015",
+    "explanation": "**Swift** es el lenguaje creado por **Apple** (2014), de **código abierto** con licencia **Apache 2.0**, con tipos básicos como `String`, `Int`, `Double` y `Bool`. No es exclusivo de iOS: se usa en todas las plataformas de Apple (iOS, iPadOS, macOS, watchOS, tvOS, visionOS) y también en Linux y Windows, por ejemplo en servidores. Por eso la C es la incorrecta.",
+    "option_notes": [
+      "Es cierta: Apple lo presentó en 2014.",
+      "Es cierta: es de código abierto bajo licencia Apache 2.0 (con excepción para la biblioteca de ejecución).",
+      null,
+      "Es cierta: String, Int, Double y Bool son tipos básicos de Swift."
+    ],
+    "topic": "II.4",
+    "references": [
+      "swift.org"
+    ],
+    "tags": [
+      "swift",
+      "apple",
+      "lenguajes-de-programacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-017",
+    "explanation": "Desde .NET 5, Microsoft publica una versión cada noviembre y las **pares son LTS** (3 años de soporte). En la fecha del examen (diciembre de 2024) la última LTS era **.NET 8** (noviembre de 2023, con soporte hasta noviembre de 2026). **.NET Core 3.1** también fue LTS, pero su soporte terminó en diciembre de 2022, y .NET Framework 4.5 pertenece a la plataforma clásica. Hoy la última LTS es **.NET 10**, publicada en noviembre de 2025.",
+    "option_notes": [
+      ".NET Framework 4.5 es de la plataforma clásica de Windows y hace años que no tiene soporte.",
+      ".NET Core 3.1 fue LTS, pero su soporte terminó en diciembre de 2022.",
+      null,
+      ".NET 2000 no existe."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft: directiva de soporte de .NET"
+    ],
+    "tags": [
+      "dotnet",
+      "lts",
+      "ciclo-de-vida"
+    ],
+    "outdated": true,
+    "outdated_note": "La respuesta era correcta en diciembre de 2024. Desde noviembre de 2025 la última versión LTS es .NET 10 (soporte hasta noviembre de 2028), y .NET 8 pierde el soporte en noviembre de 2026.",
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-018",
+    "explanation": "En JavaScript, **`===`** es la **igualdad estricta**: compara valor **y tipo** sin conversiones. `10` es un `number` y `'10'` un `string`, así que `10 === '10'` es **false**. Con la igualdad débil `==` sí se convierte el tipo y `10 == '10'` daría `true`. El resultado `'1010'` saldría de una concatenación (`10 + '10'`).",
+    "option_notes": [
+      "Daría true con ==, que convierte los tipos; === compara también el tipo.",
+      null,
+      "No hay error: comparar valores de distinto tipo es válido y devuelve un booleano.",
+      "'1010' sería el resultado de concatenar con +, no de comparar."
+    ],
+    "topic": "III.7",
+    "references": [
+      "ECMAScript: Strict Equality Comparison"
+    ],
+    "tags": [
+      "javascript",
+      "operadores",
+      "igualdad-estricta"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-019",
+    "explanation": "**SAST** (*Static Application Security Testing*) analiza el **código fuente** (o el binario) **sin ejecutarlo** para detectar vulnerabilidades en fases tempranas del desarrollo (caja blanca). **DAST** (*Dynamic*) prueba la aplicación **en ejecución** desde fuera, como haría un atacante (caja negra). **OWASP** es la fundación abierta que publica guías como el OWASP Top 10.",
+    "option_notes": [
+      null,
+      "OWASP es una fundación y comunidad de seguridad de aplicaciones (OWASP Top 10), no un tipo de análisis.",
+      "DAST analiza la aplicación en ejecución (dinámico), no el código fuente.",
+      "SART no es una sigla de pruebas de seguridad de aplicaciones."
+    ],
+    "topic": "III.8",
+    "references": [
+      "OWASP: Source Code Analysis Tools"
+    ],
+    "tags": [
+      "sast",
+      "seguridad-en-el-desarrollo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-023",
+    "explanation": "Es el segundo de los **12 principios del Manifiesto Ágil** (2001): «Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo». Otros principios que los distractores deforman: negocio y desarrolladores trabajan juntos **a diario**; el **software que funciona** es la medida principal del progreso; y las mejores arquitecturas, requisitos y diseños emergen de **equipos autoorganizados**.",
+    "option_notes": [
+      null,
+      "El principio dice que negocio y desarrolladores trabajan juntos de forma cotidiana (a diario), no en una reunión semanal.",
+      "La medida principal del progreso es el software que funciona, no la documentación.",
+      "Emergen de equipos autoorganizados, no de equipos jerarquizados."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Manifiesto por el Desarrollo Ágil de Software (2001)"
+    ],
+    "tags": [
+      "metodologias-agiles",
+      "manifiesto-agil"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-025",
+    "explanation": "En **IEEE 754**, el formato de **doble precisión** (*binary64*) ocupa **64 bits**: 1 de signo, 11 de exponente y 52 de fracción, con unos 15-16 dígitos decimales significativos. La **precisión simple** (*binary32*) usa 32 bits: 1 + 8 + 23. En ambos casos se representa una **aproximación** de un número real.",
+    "option_notes": [
+      null,
+      "32 bits es la precisión simple (binary32).",
+      "Describe el decimal empaquetado (BCD), que no es el formato binario de doble precisión.",
+      "Un entero de cuatro bytes no es un número en coma flotante."
+    ],
+    "topic": "II.1",
+    "references": [
+      "IEEE 754-2008"
+    ],
+    "tags": [
+      "coma-flotante",
+      "representacion-de-la-informacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-028",
+    "explanation": "Un **evento** (por ejemplo, en MySQL) es una tarea programada que el SGBD ejecuta automáticamente en un momento dado o con una periodicidad: `CREATE EVENT nombre ON SCHEDULE AT … | EVERY … DO …`. Por defecto (`ON COMPLETION NOT PRESERVE`), cuando un evento expira **se elimina automáticamente**; solo se conserva si se indica `ON COMPLETION PRESERVE`. Por eso la D es falsa.",
+    "option_notes": [
+      "Es cierta: un evento es una tarea programada en el tiempo (un «disparador temporal»).",
+      "Es cierta: la sentencia es CREATE EVENT nombre_evento.",
+      "Es cierta: la programación se indica con ON SCHEDULE (AT para una vez, EVERY para repetir).",
+      null
+    ],
+    "topic": "III.3",
+    "references": [
+      "MySQL Reference Manual: CREATE EVENT"
+    ],
+    "tags": [
+      "sql",
+      "eventos",
+      "mysql"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-032",
+    "explanation": "Las **10 heurísticas de usabilidad de Jakob Nielsen** son: visibilidad del estado del sistema; relación entre el sistema y el mundo real; control y libertad del usuario; consistencia y estándares; prevención de errores; **reconocimiento antes que recuerdo**; flexibilidad y eficiencia de uso; diseño estético y minimalista; ayudar a reconocer, diagnosticar y recuperarse de los errores; y ayuda y documentación. La C invierte el sexto principio: es mejor que el usuario reconozca opciones visibles que obligarle a recordarlas.",
+    "option_notes": [
+      "Es la primera heurística de Nielsen.",
+      "Es la tercera heurística de Nielsen.",
+      null,
+      "Es la décima heurística de Nielsen."
+    ],
+    "topic": "III.8",
+    "references": [
+      "J. Nielsen, «10 Usability Heuristics for User Interface Design»"
+    ],
+    "tags": [
+      "usabilidad",
+      "heuristicas-de-nielsen"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-034",
+    "explanation": "Los protocolos de **vector distancia** (como RIP) usan varios mecanismos contra los bucles de enrutamiento. El **hold down** activa un **temporizador** cuando una ruta se marca como inalcanzable (métrica infinita): mientras corre, se ignoran las actualizaciones peores sobre ella y, si al expirar sigue inalcanzable, se **elimina** de la tabla. Los demás: **split horizon** (no anunciar una ruta por la interfaz por la que se aprendió), **poison reverse** (anunciarla por ahí con métrica infinita) y **triggered updates** (enviar los cambios al momento).",
+    "option_notes": [
+      "Poison reverse anuncia la ruta de vuelta al vecino del que se aprendió, pero con métrica infinita.",
+      "Las triggered updates envían los cambios de inmediato, sin esperar a la actualización periódica.",
+      "Split horizon prohíbe anunciar una ruta por la interfaz por la que se aprendió.",
+      null
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 2453 (RIP versión 2)"
+    ],
+    "tags": [
+      "enrutamiento",
+      "vector-distancia",
+      "rip"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-035",
+    "explanation": "**Telnet** usa el puerto **TCP 23**. Puertos clásicos que conviene memorizar: **20/21** FTP (datos/control), **22** SSH, **23** Telnet, **25** SMTP, **53** DNS, **80** HTTP, **110** POP3, **143** IMAP y **443** HTTPS. Telnet transmite todo **en claro**, contraseñas incluidas, por lo que se sustituye por SSH.",
+    "option_notes": [
+      null,
+      "El puerto 25 es el de SMTP.",
+      "El puerto 21 es el de control de FTP.",
+      "El puerto 20 es el de datos de FTP (en modo activo)."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "IANA: Service Name and Transport Protocol Port Number Registry"
+    ],
+    "tags": [
+      "puertos",
+      "telnet"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-036",
+    "explanation": "La **diafonía** (*crosstalk*) es la interferencia que la señal de un par induce en los pares vecinos por acoplamiento electromagnético; se mide en el extremo cercano (**NEXT**) y en el lejano (**FEXT**). El trenzado de los pares y el apantallamiento la reducen. La **atenuación** es la pérdida de potencia con la distancia y el **jitter**, la variación del retardo o de la temporización de la señal.",
+    "option_notes": [
+      "La atenuación es la pérdida de potencia de la señal con la distancia.",
+      "El jitter es la variación del retardo (o de la temporización) de la señal.",
+      null,
+      "El desajuste de impedancia provoca reflexiones de la señal (pérdidas de retorno), no inducción en otros pares."
+    ],
+    "topic": "IV.6",
+    "references": [],
+    "tags": [
+      "medios-de-transmision",
+      "par-trenzado",
+      "diafonia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-037",
+    "explanation": "**`ifconfig eth0`** muestra la configuración de esa interfaz: direcciones IP y MAC, máscara, MTU, estado y contadores de paquetes. Hoy `ifconfig` (paquete net-tools) está en desuso y su equivalente moderno es **`ip addr show eth0`** (o `ip link show eth0`).",
+    "option_notes": [
+      "No existe; mezcla ethtool (parámetros del enlace y del driver) con sshd (el servidor SSH).",
+      "dhclient eth0 solicita por DHCP una dirección IP para esa interfaz; no muestra su configuración.",
+      null,
+      "tcpdump captura paquetes (la interfaz se elige con -i eth0); no muestra su configuración."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "man ifconfig(8)",
+      "man ip(8)"
+    ],
+    "tags": [
+      "linux",
+      "interfaces-de-red",
+      "comandos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-038",
+    "explanation": "El **registro de instrucción** (IR, *Instruction Register*) de la CPU guarda la **instrucción que se acaba de leer** de memoria y que la unidad de control decodifica y ejecuta. No hay que confundirlo con el **contador de programa** (PC), que contiene la **dirección de la siguiente instrucción**. Otros registros clásicos: MAR (dirección de memoria), MDR o MBR (dato de memoria) y acumulador.",
+    "option_notes": [
+      null,
+      "El identificador del proceso (PID) lo gestiona el sistema operativo; no es un registro de la CPU.",
+      "Esa es la definición del contador de programa (PC).",
+      "No existe un registro de CPU con el número de procesos en ejecución."
+    ],
+    "topic": "II.1",
+    "references": [],
+    "tags": [
+      "arquitectura-de-ordenadores",
+      "registros-de-la-cpu"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-039",
+    "explanation": "**SNTP** (*Simple Network Time Protocol*) sincroniza relojes: es una versión simplificada de NTP y no tiene relación con el correo. **IMAP** y **POP3** son los protocolos con los que el cliente accede a su buzón, y **SMTP** se usa para enviar y transferir el correo entre servidores.",
+    "option_notes": [
+      "IMAP sí es de acceso al correo: gestiona el buzón en el servidor.",
+      "POP3 sí es de acceso al correo: descarga los mensajes al cliente.",
+      null,
+      "SMTP es un protocolo de correo, aunque su función es el envío y la transferencia, no el acceso al buzón."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "RFC 4330 (SNTP)"
+    ],
+    "tags": [
+      "correo-electronico",
+      "protocolos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-040",
+    "explanation": "Entre los beneficios de los **microservicios** están el **escalado flexible** e independiente de cada servicio, la facilidad de **integración y entrega continuas**, la **resiliencia** (un fallo degrada una funcionalidad sin tumbar toda la aplicación) y la **libertad tecnológica**: cada equipo puede elegir el lenguaje y la base de datos más adecuados. Un diseño único sin poder elegir la tecnología es justo lo contrario.",
+    "option_notes": [
+      "Sí es un beneficio: cada servicio se escala de forma independiente.",
+      "Sí es un beneficio: los despliegues pequeños e independientes facilitan la CI/CD.",
+      null,
+      "Sí es un beneficio: el aislamiento de fallos evita que caiga toda la aplicación."
+    ],
+    "topic": "IV.3",
+    "references": [],
+    "tags": [
+      "microservicios",
+      "arquitectura"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-041",
+    "explanation": "**CAdES** (*CMS Advanced Electronic Signatures*) es el formato de firma avanzada basado en **CMS/PKCS#7**, binario y compacto: según el portal de firma electrónica del Gobierno, «es apropiado para firmar **ficheros grandes**», sobre todo si la firma incluye el documento original, porque optimiza el espacio. A cambio, el contenido firmado no se lee directamente. **XAdES** genera XML (poco adecuado para ficheros muy grandes), **PAdES** es el idóneo para **PDF** y **OOXML/ODF** son los formatos de Microsoft Office y OpenOffice.",
+    "option_notes": [
+      null,
+      "Microsoft Office usa su propio formato de firma, OOXML (OpenOffice usa ODF).",
+      "Describe XAdES, cuyo resultado es un fichero XML poco adecuado para originales muy grandes.",
+      "Para documentos PDF el formato más adecuado es PAdES."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "firmaelectronica.gob.es: formatos de firma",
+      "ETSI EN 319 122 (CAdES)"
+    ],
+    "tags": [
+      "firma-electronica",
+      "formatos-de-firma",
+      "cades"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-042",
+    "explanation": "El **PUE** (*Power Usage Effectiveness*), definido por The Green Grid, divide la **energía total** que consume el CPD entre la que consume el **equipamiento TI**: `PUE = energía total / energía TI`. El ideal es **1,0** (toda la energía para TI); valores mayores indican más gasto en refrigeración, iluminación o pérdidas eléctricas. Su inverso es el **DCiE**.",
+    "option_notes": [
+      null,
+      "El PUE no ordena equipos por consumo; es un cociente entre la energía total del CPD y la de TI.",
+      "El PUE mide la eficiencia de todo el CPD, no la de un equipo concreto.",
+      "El denominador es la energía de los equipos TI, no la de los equipos no TI."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "The Green Grid: PUE",
+      "ISO/IEC 30134-2"
+    ],
+    "tags": [
+      "cpd",
+      "eficiencia-energetica",
+      "pue"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-043",
+    "explanation": "Clases de códigos de estado HTTP (RFC 9110): **1xx**, informativos; **2xx**, éxito (200 OK, 201 Created); **3xx**, **redirección**: el cliente debe hacer algo más para completar la petición (301 Moved Permanently, 302 Found, 304 Not Modified); **4xx**, errores del cliente (400, 401, 403, 404); y **5xx**, errores del servidor (500, 502, 503).",
+    "option_notes": [
+      "Describe los códigos 2xx (éxito).",
+      "Describe los códigos 4xx (errores del cliente).",
+      "Describe los códigos 5xx (errores del servidor).",
+      null
+    ],
+    "topic": "IV.8",
+    "references": [
+      "RFC 9110 (HTTP Semantics), sec. 15"
+    ],
+    "tags": [
+      "http",
+      "codigos-de-estado"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-044",
+    "explanation": "Correspondencia entre modelos: la capa de **acceso a red** de TCP/IP equivale a las capas **física y de enlace** de OSI (1 y 2), no a la de red; es la capa **Internet** de TCP/IP la que equivale a la **capa de red** de OSI (3). La de transporte coincide en ambos, y la de **aplicación** de TCP/IP engloba las de **sesión, presentación y aplicación** de OSI.",
+    "option_notes": [
+      "Es cierta: la aplicación de TCP/IP engloba sesión, presentación y aplicación de OSI.",
+      null,
+      "Es cierta: la presentación de OSI queda incluida en la aplicación de TCP/IP.",
+      "Es cierta: la capa de transporte es equivalente en ambos modelos."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "ISO/IEC 7498-1",
+      "RFC 1122"
+    ],
+    "tags": [
+      "modelo-osi",
+      "tcp-ip",
+      "capas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-048",
+    "explanation": "La **infraestructura convergente** (CI) es una solución **definida por hardware** que integra **cómputo, red, almacenamiento, administración y software** en un paquete **preconfigurado y validado** por el fabricante que funciona como un único sistema. Simplifica la gestión, acelera el despliegue y reduce los costes de energía, refrigeración y cableado. Su evolución es la **hiperconvergente** (HCI), **definida por software**.",
+    "option_notes": [
+      "Al contrario: su objetivo es simplificar y optimizar la gestión de los recursos.",
+      null,
+      "Al contrario: está pensada para escalar fácilmente añadiendo bloques preconfigurados.",
+      "Al contrario: al consolidar equipos reduce el consumo, la refrigeración y el cableado."
+    ],
+    "topic": "IV.2",
+    "references": [],
+    "tags": [
+      "infraestructura-convergente",
+      "cpd",
+      "virtualizacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-050",
+    "explanation": "**RSVP** (*Resource ReSerVation Protocol*, **RFC 2205**, 1997) es un protocolo de señalización para **reservar recursos** de red (ancho de banda, buffers) a lo largo de una ruta y garantizar calidad de servicio en el modelo de **servicios integrados** (IntServ). Los distractores describen otros protocolos multimedia: **SDP** (RFC 4566), **RTSP 2.0** (RFC 7826) y **SAP** (RFC 2974).",
+    "option_notes": [
+      "Describe SDP (Session Description Protocol), RFC 4566, hoy sustituido por el RFC 8866.",
+      "Describe RTSP 2.0 (Real-Time Streaming Protocol), RFC 7826.",
+      null,
+      "Describe SAP (Session Announcement Protocol), RFC 2974."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 2205 (RSVP)"
+    ],
+    "tags": [
+      "rsvp",
+      "calidad-de-servicio",
+      "multimedia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-r1",
+    "explanation": "El **art. 96 de la LOPDGDD** (testamento digital) permite acceder a los contenidos de una persona fallecida a: sus **familiares, personas vinculadas de hecho y herederos**; el **albacea** o la persona o institución designada; si era **menor**, también sus **representantes legales** o el **Ministerio Fiscal**; y, si tenía **discapacidad**, también quienes le prestaban **funciones de apoyo**. Por tanto, si el fallecido era **mayor de edad**, los representantes legales y el Ministerio Fiscal **no** tienen esas facultades: es lo que describe la C.",
+    "option_notes": [
+      "Sí pueden: es el art. 96.1.d) (quienes prestaban apoyo a la persona con discapacidad).",
+      "Sí pueden: es el art. 96.1.b) (albacea y persona o institución designada).",
+      null,
+      "Sí pueden: es el art. 96.1.a) (familiares, personas vinculadas de hecho y herederos)."
+    ],
+    "topic": "I.7",
+    "references": [
+      "LO 3/2018 (LOPDGDD), art. 96"
+    ],
+    "tags": [
+      "derechos-digitales",
+      "testamento-digital"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-r2",
+    "explanation": "450 = 256 + 128 + 64 + 2 = 2⁸ + 2⁷ + 2⁶ + 2¹ → **111000010** en binario. Comprobaciones: en octal, 450 = 7·64 + 0·8 + 2 = **702**; en hexadecimal, 450 = 1·256 + 12·16 + 2 = **1C2**. Truco: agrupa los bits de 3 en 3 para pasar a octal (111 000 010 = 702) y de 4 en 4 para hexadecimal (1 1100 0010 = 1C2).",
+    "option_notes": [
+      null,
+      "764 en octal es 7·64 + 6·8 + 4 = 500; 450 es 702 en octal.",
+      "1F4 en hexadecimal es 256 + 240 + 4 = 500; 450 es 1C2.",
+      "407 en octal es 4·64 + 7 = 263."
+    ],
+    "topic": "II.1",
+    "references": [],
+    "tags": [
+      "sistemas-de-numeracion",
+      "conversion-de-bases"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-r3",
+    "explanation": "En **F#** (lenguaje funcional de .NET), **`let`** enlaza un nombre a un valor o a una función: `let x = 1`, `let suma a b = a + b`. Los valores son **inmutables por defecto**; para poder modificarlos se declara `let mutable x = 1`. Los comentarios de una línea usan `//` y los de varias líneas, `(* … *)`. `sbyte` es un entero de 8 bits **con signo** (el de sin signo es `byte`).",
+    "option_notes": [
+      "sbyte es un entero de 8 bits con signo (−128 a 127); el de 8 bits sin signo es byte.",
+      null,
+      "En F# los comentarios de varias líneas se escriben entre (* y *).",
+      "immutable no es una palabra clave: los valores ya son inmutables por defecto; para lo contrario se usa let mutable."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Learn: referencia del lenguaje F#"
+    ],
+    "tags": [
+      "fsharp",
+      "dotnet",
+      "programacion-funcional"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p1-r4",
+    "explanation": "Un **repositorio bare** de Git no tiene directorio de trabajo: solo contiene la base de datos de Git (lo que normalmente hay en `.git`). Se crea con `git init --bare` o `git clone --bare` y se usa como **repositorio central o remoto** al que todos hacen `push` y `pull`: al no tener copia de trabajo, no hay conflictos con ficheros desprotegidos. Los scripts que se lanzan ante ciertas acciones son los **hooks**.",
+    "option_notes": [
+      "Eso son los hooks de Git (scripts que se ejecutan ante eventos como commit o push).",
+      null,
+      "Sí existen: git init --bare crea uno.",
+      "No es su uso habitual: se emplea como repositorio central compartido, no como mecanismo de copia de seguridad."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Pro Git, cap. 4 (Git en el servidor)"
+    ],
+    "tags": [
+      "git",
+      "repositorios",
+      "control-de-versiones"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p2-s1-007",
+    "explanation": "La B es falsa porque **ambos admiten varios métodos de autenticación**: **SFTP**, que funciona sobre SSH, permite usuario y contraseña o **clave pública**, y **FTPS** (FTP sobre TLS) permite usuario y contraseña o **certificados X.509** de cliente. Lo demás es cierto: SFTP usa el puerto **22** y **una sola conexión**; FTPS usa los puertos con TLS (990 implícito, o 21 con `AUTH TLS`) y, como FTP, **canales separados** de control y datos.",
+    "option_notes": [
+      "Es cierta: SFTP va por el puerto 22 de SSH y FTPS por el puerto configurado con TLS (990 implícito o 21 explícito).",
+      null,
+      "Es cierta: FTPS hereda de FTP los canales separados de control y datos; SFTP lo multiplexa todo en una conexión.",
+      "Se da por cierta: el formato de listado de FTP (LIST) no está normalizado, mientras que SFTP define operaciones estándar de directorios y atributos."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "RFC 4217 (FTPS)",
+      "draft-ietf-secsh-filexfer (SFTP)"
+    ],
+    "tags": [
+      "sftp",
+      "ftps",
+      "protocolos-seguros"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2024-p2-s2-r3",
+    "explanation": "Un **XML Schema** (XSD, recomendación del W3C) describe la estructura de un documento XML y permite **restringir los valores** de elementos y atributos mediante facetas (`pattern`, `enumeration`, `minLength`, `maxInclusive`…). Además, puede definir **tipos propios** simples y complejos, trabaja con **espacios de nombres** (`targetNamespace`) y puede **incluir o importar** otros esquemas (`xs:include`, `xs:import`). SAML 2.0, que usa Cl@ve, define sus mensajes con esquemas XSD.",
+    "option_notes": [
+      "Sí puede: xs:simpleType y xs:complexType definen tipos propios.",
+      null,
+      "Sí admite espacios de nombres (targetNamespace) y valida documentos que los usan.",
+      "Sí puede: xs:include y xs:import permiten reutilizar otros esquemas."
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C XML Schema Definition Language (XSD) 1.1"
+    ],
+    "tags": [
+      "xml",
+      "xsd",
+      "saml"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  }
+]

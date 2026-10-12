@@ -1,0 +1,22 @@
+%% I.2 · Procedimiento legislativo ordinario (arts. 87–91 CE).
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+flowchart TD
+    PY["Proyecto de ley<br/>(Consejo de Ministros)"]
+    PP["Proposición de ley<br/>(Cámaras, CC. AA. o<br/>500.000 firmas)"]
+    C1["Congreso<br/>ponencia, comisión y Pleno<br/>(ley orgánica: mayoría<br/>absoluta, art. 81)"]
+    S["Senado: 2 meses<br/>(20 días si es urgente)"]
+    CE["Congreso acepta o<br/>rechaza las enmiendas<br/>por mayoría simple"]
+    CV{"¿Congreso<br/>levanta el veto?"}
+    DEC("No sale adelante")
+    SAN["Sanción del Rey<br/>en 15 días (art. 91)"]
+    BOE("Promulgación y<br/>publicación en el BOE")
+
+    PY --> C1
+    PP -- "toma en<br/>consideración" --> C1
+    C1 --> S
+    S -- "no se opone" --> SAN
+    S -- "enmiendas" --> CE --> SAN
+    S -- "veto (mayoría<br/>absoluta)" --> CV
+    CV -- "mayoría absoluta, o<br/>simple a los 2 meses" --> SAN
+    CV -- "no" --> DEC
+    SAN --> BOE

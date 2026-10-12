@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "opotai/bank.schema.json",
+  "title": "OpoTAI · Banco de preguntas (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "kind", "title", "sections"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": { "$ref": "#/$defs/slug" },
+    "kind": { "enum": ["official", "practice"] },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": ["string", "null"] },
+    "access": { "enum": ["libre", "promocion_interna", null] },
+    "year": { "type": ["integer", "null"], "minimum": 1990, "maximum": 2100 },
+    "convocatoria": { "type": ["string", "null"] },
+    "exam_date": { "$ref": "#/$defs/date_or_null" },
+    "model": { "type": ["string", "null"] },
+    "duration_minutes": { "type": ["integer", "null"], "minimum": 1 },
+    "scoring_scheme": { "type": ["string", "null"] },
+    "source": { "$ref": "#/$defs/source" },
+    "sections": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/section" } }
+  },
+  "$defs": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "date_or_null": { "type": ["string", "null"], "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "letter": { "enum": ["A", "B", "C", "D"] },
+    "block": { "enum": ["I", "II", "III", "IV"] },
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "alt"],
+      "properties": {
+        "path": { "type": "string", "pattern": "^assets/[a-z0-9-]+/[A-Za-z0-9._-]+$" },
+        "alt": { "type": "string" }
+      }
+    },
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "title", "url"],
+      "properties": {
+        "kind": { "enum": ["cuadernillo", "plantilla_provisional", "plantilla_definitiva", "criterios", "otro"] },
+        "title": { "type": "string" },
+        "url": { "type": "string" },
+        "sha256": { "type": ["string", "null"], "pattern": "^[0-9a-f]{64}$" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["publisher", "documents", "answer_key"],
+      "properties": {
+        "publisher": { "type": "string" },
+        "documents": { "type": "array", "items": { "$ref": "#/$defs/document" } },
+        "answer_key": { "enum": ["definitiva", "provisional", "propia"] },
+        "retrieved": { "$ref": "#/$defs/date_or_null" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "part", "kind", "title", "questions"],
+      "properties": {
+        "id": { "$ref": "#/$defs/slug" },
+        "part": { "type": "integer", "minimum": 1, "maximum": 9 },
+        "kind": { "enum": ["theory", "case"] },
+        "title": { "type": "string" },
+        "block": { "anyOf": [{ "$ref": "#/$defs/block" }, { "type": "null" }] },
+        "statement": { "type": ["string", "null"] },
+        "media": { "type": "array", "items": { "$ref": "#/$defs/media" } },
+        "questions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/question" } },
+        "reserve": { "type": "array", "items": { "$ref": "#/$defs/question" } }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "number", "text", "options", "answer"],
+      "properties": {
+        "id": { "$ref": "#/$defs/slug" },
+        "number": { "type": "integer", "minimum": 1 },
+        "text": { "type": "string", "minLength": 1 },
+        "options": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "type": "string", "minLength": 1 } },
+        "answer": { "anyOf": [{ "$ref": "#/$defs/letter" }, { "type": "null" }] },
+        "annulled": { "type": "boolean" },
+        "topic": { "type": ["string", "null"], "pattern": "^(I|II|III|IV)\\.[0-9]{1,2}$" },
+        "explanation": { "type": ["string", "null"] },
+        "option_notes": {
+          "anyOf": [
+            { "type": "null" },
+            { "type": "array", "minItems": 4, "maxItems": 4, "items": { "type": ["string", "null"] } }
+          ]
+        },
+        "references": { "type": "array", "items": { "type": "string" } },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "media": { "type": "array", "items": { "$ref": "#/$defs/media" } },
+        "outdated": { "type": "boolean" },
+        "outdated_note": { "type": ["string", "null"] },
+        "needs_review": { "type": "boolean" }
+      }
+    }
+  }
+}

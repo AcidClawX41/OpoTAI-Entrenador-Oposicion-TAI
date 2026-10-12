@@ -1,0 +1,34 @@
+%% IV.1 · Secuencia de arranque de un Linux con systemd.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+flowchart TB
+    FW["`**Firmware UEFI** (o BIOS)
+    POST y cargador: en la ESP (UEFI)
+    o en el MBR (BIOS)`"]
+    SHIM["`**shim**
+    solo con Arranque seguro`"]
+    GRUB["`**GRUB 2**
+    menú y parámetros del núcleo`"]
+    KER["`**Núcleo + initramfs**
+    controladores y raíz montada`"]
+    SD["`**systemd** · PID 1
+    arranca las unidades`"]
+    DEF{{"default.target"}}
+    MU["`**multi-user.target**
+    servidores (antiguo nivel 3)`"]
+    GR["`**graphical.target**
+    escritorio (antiguo nivel 5)`"]
+    RES["`rescue.target
+    monousuario (nivel 1)`"]
+    EME["`emergency.target
+    raíz en solo lectura`"]
+    FW --> SHIM --> GRUB
+    FW -. "sin Arranque seguro" .-> GRUB
+    GRUB --> KER --> SD --> DEF
+    DEF --> MU
+    DEF --> GR
+    SD -. "a petición o si falla" .-> RES
+    SD -.-> EME
+    classDef obj fill:#d1fae5,stroke:#059669,color:#1f2937
+    classDef aux fill:#f8fafc,stroke:#94a3b8,color:#1f2937
+    class MU,GR obj
+    class RES,EME aux

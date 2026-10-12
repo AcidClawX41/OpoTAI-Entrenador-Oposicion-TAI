@@ -1,0 +1,180 @@
+{
+  "bank_id": "tai-li-2021",
+  "questions": {
+    "tai-li-2021-p1-042": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p1-059": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p1-064": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-001": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-002": {
+      "note": "El enunciado incluye una lista anidada (• Opositor / ◦ Nota 1 / ◦ Nota 2): se transcribe como lista Markdown. Opciones HTML como código en línea.",
+      "same_text": true,
+      "set": {
+        "text": "Le indican que debe presentar también una lista de opositores con las notas correspondientes a los dos primeros ejercicios. Las notas se representarán como una lista anidada para cada opositor, debiendo ser el resultado a obtener:\n\n- Opositor\n  - Nota 1\n  - Nota 2\n\n¿Cuál es el código HTML5 correcto si presentamos un solo opositor?"
+      },
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-003": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-004": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-005": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-006": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-007": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-008": {
+      "note": "La función JavaScript aparece en líneas aparte: bloque de código.",
+      "text_block": {
+        "start": "Function prueba() {",
+        "lines": 7,
+        "lang": "javascript"
+      }
+    },
+    "tai-li-2021-p2-s1-009": {
+      "note": "La variable Python aparece en una línea aparte: bloque de código; opciones como código en línea.",
+      "text_block": {
+        "start": "opositor = {'nombre': 'Sandra Gomez', 'notas': [27, 36, 12]}",
+        "lines": 1,
+        "lang": "python"
+      },
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-012": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-013": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-014": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-015": {
+      "note": "El registro de la tabla aparece campo a campo en líneas aparte: bloque de texto preformateado.",
+      "text_block": {
+        "start": "NIF: 12345678Z",
+        "lines": 6,
+        "lang": "text"
+      }
+    },
+    "tai-li-2021-p2-s1-016": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-017": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-018": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-019": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-020": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-r1": {
+      "note": "El fragmento HTML aparece en una línea aparte: bloque de código; opciones JavaScript como código en línea.",
+      "text_block": {
+        "start": "<html><body><h1 id=\"titulo\">Primer ejercicio TAI</h1></body></html>",
+        "lines": 1,
+        "lang": "html"
+      },
+      "options_code": true
+    },
+    "tai-li-2021-p2-s1-r4": {
+      "note": "El fragmento HTML (dos líneas en el cuadernillo) se transcribe como bloque de código.",
+      "text_block": {
+        "start": "<video width=\"320\" height=\"240\" controls><source src=\"movie.mp4\" type=\"video/mp4\"><source src=\"movie.ogg\"",
+        "lines": 2,
+        "lang": "html"
+      }
+    },
+    "tai-li-2021-p2-s1-r5": {
+      "note": "La cadena introducida aparece en una línea aparte: bloque de código.",
+      "text_block": {
+        "start": "100 OR 1=1",
+        "lines": 1,
+        "lang": "sql"
+      }
+    },
+    "tai-li-2021-p2-s2-005": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-006": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-008": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-009": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-010": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-011": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-013": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-014": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-017": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-020": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-r1": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2021-p2-s2-r2": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    }
+  },
+  "sections": {}
+}

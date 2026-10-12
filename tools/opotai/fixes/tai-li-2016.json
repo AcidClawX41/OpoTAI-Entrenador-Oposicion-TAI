@@ -1,0 +1,1938 @@
+{
+  "bank_id": "tai-li-2016",
+  "global": {
+    "note": "Errores recurrentes del OCR (palabras pegadas, letras confundidas) detectados en la pasada ortográfica (opotai.spellcheck) y comprobados contra la imagen.",
+    "replace": [
+      {
+        "old": "Aalgunos",
+        "new": "A algunos",
+        "word": true
+      },
+      {
+        "old": "Conformea",
+        "new": "Conforme a",
+        "word": true
+      },
+      {
+        "old": "DNIy",
+        "new": "DNI y",
+        "word": true
+      },
+      {
+        "old": "Dificúltad",
+        "new": "Dificultad",
+        "word": true
+      },
+      {
+        "old": "ElPMBOK",
+        "new": "El PMBOK",
+        "word": true
+      },
+      {
+        "old": "Elacceso",
+        "new": "El acceso",
+        "word": true
+      },
+      {
+        "old": "Elatributo",
+        "new": "El atributo",
+        "word": true
+      },
+      {
+        "old": "Elestablecimiento",
+        "new": "El establecimiento",
+        "word": true
+      },
+      {
+        "old": "Elgrado",
+        "new": "El grado",
+        "word": true
+      },
+      {
+        "old": "Elorigen",
+        "new": "El origen",
+        "word": true
+      },
+      {
+        "old": "Enel",
+        "new": "En el",
+        "word": true
+      },
+      {
+        "old": "Enla",
+        "new": "En la",
+        "word": true
+      },
+      {
+        "old": "Enlalínea",
+        "new": "En la línea",
+        "word": true
+      },
+      {
+        "old": "Enlas",
+        "new": "En las",
+        "word": true
+      },
+      {
+        "old": "Enloreferente",
+        "new": "En lo referente",
+        "word": true
+      },
+      {
+        "old": "Enlos",
+        "new": "En los",
+        "word": true
+      },
+      {
+        "old": "Enrelación",
+        "new": "En relación",
+        "word": true
+      },
+      {
+        "old": "Enuna",
+        "new": "En una",
+        "word": true
+      },
+      {
+        "old": "Esinnecesario",
+        "new": "Es innecesario",
+        "word": true
+      },
+      {
+        "old": "Esun",
+        "new": "Es un",
+        "word": true
+      },
+      {
+        "old": "Esuna",
+        "new": "Es una",
+        "word": true
+      },
+      {
+        "old": "Laaccesibilidad",
+        "new": "La accesibilidad",
+        "word": true
+      },
+      {
+        "old": "Laaplicación",
+        "new": "La aplicación",
+        "word": true
+      },
+      {
+        "old": "Laejecución",
+        "new": "La ejecución",
+        "word": true
+      },
+      {
+        "old": "Lafunción",
+        "new": "La función",
+        "word": true
+      },
+      {
+        "old": "Laregla",
+        "new": "La regla",
+        "word": true
+      },
+      {
+        "old": "Muiticanal",
+        "new": "Multicanal",
+        "word": true
+      },
+      {
+        "old": "Multimodó",
+        "new": "Multimodo",
+        "word": true
+      },
+      {
+        "old": "Norealizan",
+        "new": "No realizan",
+        "word": true
+      },
+      {
+        "old": "Respondaa",
+        "new": "Responda a",
+        "word": true
+      },
+      {
+        "old": "Servicés",
+        "new": "Services",
+        "word": true
+      },
+      {
+        "old": "Seusa",
+        "new": "Se usa",
+        "word": true
+      },
+      {
+        "old": "Seutiliza",
+        "new": "Se utiliza",
+        "word": true
+      },
+      {
+        "old": "Unlistado",
+        "new": "Un listado",
+        "word": true
+      },
+      {
+        "old": "WrFi",
+        "new": "Wi-Fi",
+        "word": true
+      },
+      {
+        "old": "accesoa",
+        "new": "acceso a",
+        "word": true
+      },
+      {
+        "old": "adecuadoa",
+        "new": "adecuado a",
+        "word": true
+      },
+      {
+        "old": "clegas",
+        "new": "ciegas",
+        "word": true
+      },
+      {
+        "old": "clerta",
+        "new": "cierta",
+        "word": true
+      },
+      {
+        "old": "conectadaa",
+        "new": "conectada a",
+        "word": true
+      },
+      {
+        "old": "consuita",
+        "new": "consulta",
+        "word": true
+      },
+      {
+        "old": "cuantoa",
+        "new": "cuanto a",
+        "word": true
+      },
+      {
+        "old": "cuerpoy",
+        "new": "cuerpo y",
+        "word": true
+      },
+      {
+        "old": "dectarar",
+        "new": "declarar",
+        "word": true
+      },
+      {
+        "old": "derechoa",
+        "new": "derecho a",
+        "word": true
+      },
+      {
+        "old": "elémentos",
+        "new": "elementos",
+        "word": true
+      },
+      {
+        "old": "exdstlr",
+        "new": "existir",
+        "word": true
+      },
+      {
+        "old": "exlge",
+        "new": "exige",
+        "word": true
+      },
+      {
+        "old": "extensibllidad",
+        "new": "extensibilidad",
+        "word": true
+      },
+      {
+        "old": "herramlenta",
+        "new": "herramienta",
+        "word": true
+      },
+      {
+        "old": "intemet",
+        "new": "internet",
+        "word": true
+      },
+      {
+        "old": "lapropiedad",
+        "new": "la propiedad",
+        "word": true
+      },
+      {
+        "old": "matería",
+        "new": "materia",
+        "word": true
+      },
+      {
+        "old": "mombre",
+        "new": "nombre",
+        "word": true
+      },
+      {
+        "old": "obligatorlo",
+        "new": "obligatorio",
+        "word": true
+      },
+      {
+        "old": "orientadoa",
+        "new": "orientado a",
+        "word": true
+      },
+      {
+        "old": "pertenecea",
+        "new": "pertenece a",
+        "word": true
+      },
+      {
+        "old": "proxya",
+        "new": "proxy a",
+        "word": true
+      },
+      {
+        "old": "relacióna",
+        "new": "relación a",
+        "word": true
+      },
+      {
+        "old": "sigulentes",
+        "new": "siguientes",
+        "word": true
+      },
+      {
+        "old": "slendo",
+        "new": "siendo",
+        "word": true
+      },
+      {
+        "old": "slguientes",
+        "new": "siguientes",
+        "word": true
+      },
+      {
+        "old": "tolerantea",
+        "new": "tolerante a",
+        "word": true
+      },
+      {
+        "old": "transflere",
+        "new": "transfiere",
+        "word": true
+      },
+      {
+        "old": "usuarlo",
+        "new": "usuario",
+        "word": true
+      },
+      {
+        "old": "valorde",
+        "new": "valor de",
+        "word": true
+      },
+      {
+        "old": "varlos",
+        "new": "varios",
+        "word": true
+      },
+      {
+        "old": "Delos",
+        "new": "De los",
+        "word": true
+      }
+    ]
+  },
+  "questions": {
+    "tai-li-2016-p1-004": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "señale Ja sentencia",
+          "new": "señale la sentencia"
+        },
+        {
+          "old": "Título 1 de ta Constitución",
+          "new": "Título I de la Constitución"
+        },
+        {
+          "old": " del Defensor del Pueblo,",
+          "new": " del Defensor del Pueblo."
+        }
+      ]
+    },
+    "tai-li-2016-p1-005": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "4a propuesta",
+          "new": "4 a propuesta"
+        },
+        {
+          "old": "2a propuesta",
+          "new": "2 a propuesta"
+        }
+      ]
+    },
+    "tai-li-2016-p1-008": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "consumidores. -",
+          "new": "consumidores."
+        },
+        {
+          "old": "Constitucional. :",
+          "new": "Constitucional."
+        }
+      ]
+    },
+    "tai-li-2016-p1-010": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "caso, Sólo realiza",
+          "new": "caso, sólo realiza"
+        },
+        {
+          "old": "iso eventual le será aplicable",
+          "new": "Al personal eventual le será aplicable"
+        }
+      ]
+    },
+    "tai-li-2016-p1-014": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "Infracciones leves; hasta 3.000",
+          "new": "Infracciones leves: hasta 3.000"
+        },
+        {
+          "old": "de 30,001",
+          "new": "de 30.001"
+        },
+        {
+          "old": "muy graves; de 300.001",
+          "new": "muy graves: de 300.001"
+        },
+        {
+          "old": " 300.001 a 600.000 euros,",
+          "new": " 300.001 a 600.000 euros."
+        }
+      ]
+    },
+    "tai-li-2016-p1-016": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "72 horas. Ú",
+          "new": "72 horas."
+        }
+      ]
+    },
+    "tai-li-2016-p1-018": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "correcta: Ñ",
+          "new": "correcta:"
+        },
+        {
+          "old": "ctrónica correspondiente,",
+          "new": "ctrónica correspondiente."
+        }
+      ]
+    },
+    "tai-li-2016-p1-020": {
+      "note": "Cl@ve leído por el OCR como «CLOVE», «ClGve», «ClOWve»… (comprobado contra la imagen).",
+      "set": {
+        "text": "¿Cuál de las siguientes afirmaciones sobre el sistema Cl@ve es FALSA?",
+        "options": [
+          "Es un sistema de identificación, autenticación y firma electrónica común para todo el Sector Público Administrativo Estatal.",
+          "Requiere un registro previo para ser usuario de la misma.",
+          "Dispone de tres sistemas de identificación: de Cl@ve Ocasional, de Cl@ve Diaria y de Cl@ve Permanente.",
+          "El órgano responsable del sistema Cl@ve será la Dirección de Tecnologías de la Información y las Comunicaciones."
+        ]
+      }
+    },
+    "tai-li-2016-p1-024": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "el otro tas instrucciones",
+          "new": "el otro las instrucciones"
+        }
+      ]
+    },
+    "tai-li-2016-p1-026": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "A5",
+          "FR",
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "tai-li-2016-p1-028": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "en serle?",
+          "new": "en serie?"
+        }
+      ]
+    },
+    "tai-li-2016-p1-029": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "color negro. p",
+          "new": "color negro."
+        }
+      ]
+    },
+    "tai-li-2016-p1-030": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "es correcta: ?",
+          "new": "es correcta:"
+        },
+        {
+          "old": "del mismo. ñ",
+          "new": "del mismo."
+        }
+      ]
+    },
+    "tai-li-2016-p1-032": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "RAID 0",
+          "RAID 2",
+          "RAID 3",
+          "RAID 5"
+        ]
+      }
+    },
+    "tai-li-2016-p1-033": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "RAID 0",
+          "RAID 1",
+          "RAID 2",
+          "RAID 3"
+        ]
+      }
+    },
+    "tai-li-2016-p1-034": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": ". Ratón -.",
+          "new": "Ratón"
+        }
+      ]
+    },
+    "tai-li-2016-p1-035": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "se. puede",
+          "new": "se puede"
+        }
+      ]
+    },
+    "tai-li-2016-p1-036": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "N-1",
+          "N",
+          "N/2",
+          "N+1"
+        ]
+      }
+    },
+    "tai-li-2016-p1-039": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Teniendo el fichero fich.txt, señale el comando Linux correcto para darle permisos de lectura a su propietario, permisos de lectura y escritura a otros usuarios, y permisos de ejecución a su grupo.",
+        "options": [
+          "grant +r +rw +x fich.txt",
+          "chmod 416 fich.txt",
+          "chmod 461 fich.txt",
+          "chmod u=rwx,g=rx fich.txt"
+        ]
+      }
+    },
+    "tai-li-2016-p1-040": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "odt",
+          "doc",
+          "ods",
+          "rtf"
+        ]
+      }
+    },
+    "tai-li-2016-p1-041": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          ".exe",
+          ".apk",
+          ".yum",
+          ".ogg"
+        ]
+      }
+    },
+    "tai-li-2016-p1-043": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "Ututo XS",
+          "PCLinuxOS",
+          "centOS 7.0",
+          "Trisquel 7.0"
+        ]
+      }
+    },
+    "tai-li-2016-p1-046": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "\"ps —ef\"",
+          "new": "\"ps -ef\""
+        }
+      ]
+    },
+    "tai-li-2016-p1-047": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "- “Lollipop",
+          "new": "Lollipop"
+        }
+      ]
+    },
+    "tai-li-2016-p1-r2": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "https://sede.PAG.gob.es-",
+          "new": "https://sede.PAG.gob.es"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-001": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "diagrama 0. ñ",
+          "new": "diagrama 0."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-002": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "De.relación.",
+          "new": "De relación."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-006": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "no puede estár",
+          "new": "no puede estar"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-007": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "la palabra ¿tdefine.",
+          "new": "la palabra #define."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-009": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "Basic, C, C#, C++, J#, Java, Pascal, Lisp, Simula.",
+          "C#, C++, Eiffel, Vala, Lisp, Pascal, Smalltalk, Visual Basic 6.0.",
+          "Ada 95, C#, C++, Pascal, Java, PHP 4.0, Python, Simula, Smalltalk.",
+          "Ada 95, C#, C++, Eiffel, Vala, Python, Simula, Smalltalk, Visual Basic 6.0."
+        ]
+      }
+    },
+    "tai-li-2016-p1-b3-010": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "UPDATE :",
+          "new": "UPDATE"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-011": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "base_de datos",
+          "new": "base_de_datos"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-014": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "obtendría? E",
+          "new": "obtendría?"
+        },
+        {
+          "old": "Municipio, :",
+          "new": "Municipio."
+        },
+        {
+          "old": "Municipio, o",
+          "new": "Municipio."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-016": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "opciones equivalente a",
+          "new": "opciones es equivalente a"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-019": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "extensibilidad, Señale",
+          "new": "extensibilidad. Señale"
+        },
+        {
+          "old": "Valores etiquetados,",
+          "new": "Valores etiquetados."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-020": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "despliegue:",
+          "new": "despliegue."
+        },
+        {
+          "old": "Diagrama de comunicación,",
+          "new": "Diagrama de comunicación."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-022": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "polimorfismo. '",
+          "new": "polimorfismo."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-024": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "escape \"1v\":",
+          "new": "escape \"\\v\":"
+        },
+        {
+          "old": "de página. 2,",
+          "new": "de página."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-025": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Dado el siguiente código en C++:\n\n```cpp\nint a=2;\nint main () {\n    int a=10;\n    /* sentencia */\n    return 0;\n}\n```\n\nIndicar cuál es la sentencia que falta que nos permitiría mostrar el valor 2 en pantalla:",
+        "options": [
+          "cout << &a << endl;",
+          "cout << ::a << endl;",
+          "cout << ?:a << endl;",
+          "cout << *a << endl;"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p1-b3-026": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Indica el resultado tras ejecutar las siguientes sentencias en C: `int x=5; int y=3; y=++x; printf(\"El valor de X es %i y el de Y es %i\\n\", x, y);`",
+        "options": [
+          "El valor de X es 5 y el de Y es 4.",
+          "El valor de X es 6 y el de Y es 6.",
+          "El valor de X es 5 y el de Y es 8.",
+          "El valor de X es 5 y el de Y es 6."
+        ]
+      }
+    },
+    "tai-li-2016-p1-b3-027": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "asociadaa ta instrucción",
+          "new": "asociada a la instrucción"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-028": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "En el contexto del lenguaje Java, supongamos que tenemos una matriz SaldoMensual declarada de la siguiente forma: `float[] SaldoMensual = new float[12]` . Elija de entre las siguientes, la instrucción repetitiva que nos permite recorrer todos sus elementos:",
+        "options": [
+          "for (int i=0;i<12;i++) System.out.println(SaldoMensual[i]);",
+          "for (int i=1;i<12;i++) System.out.println(SaldoMensual[i]);",
+          "for (int i=1;i<=12;i++) System.out.println(SaldoMensual[i]);",
+          "for (int i=0;i=12;i++) System.out.println(SaldoMensual[i]);"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p1-b3-030": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Indique qué se imprime por pantalla con el siguiente código Java: `for(int i = 10, j = 1; i > 0; i=i-j) { System.out.print(i); j++; }`"
+      }
+    },
+    "tai-li-2016-p1-b3-034": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "—Es una",
+          "new": "Es una"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-036": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "estén vacios",
+          "new": "estén vacíos"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-038": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "<!SYSTEM nombre DOCTYPE archivodtd.dtd !>",
+          "<!DOCTYPE nombre SYSTEM \"archivodtd.dtd\" />",
+          "<!SYSTEM nombre DOCTYPE archivodtd.dtd />",
+          "<!DOCTYPE nombre SYSTEM \"archivodtd.dtd\">"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p1-b3-039": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "<%--",
+          "<!%--",
+          "<jsp--",
+          "<!jsp--"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p1-b3-040": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "handshake",
+          "ltr",
+          "ec",
+          "down"
+        ]
+      }
+    },
+    "tai-li-2016-p1-b3-042": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "¿Cuál de las opciones representa el equivalente en JSON al siguiente código en XML? `<empleados> <empleado> <nombre>Juan</nombre> <apellido>Español</apellido> </empleado> <empleado> <nombre>Juana</nombre> <apellido>Española</apellido> </empleado></empleados>`",
+        "options": [
+          "{\"empleados\":{\"empleado\":[{\"nombre\":\"Juan\",\"apellido\":\"Español\"},{\"nombre\":\"Juana\",\"apellido\":\"Española\"}]}}",
+          "[\"empleados\":[\"empleado\":{[\"nombre\":\"Juan\",\"apellido\":\"Español\"],[\"nombre\":\"Juana\",\"apellido\":\"Española\"]}]]",
+          "{\"empleados\":{\"empleado\":{\"nombre\":\"Juan\",\"apellido\":\"Español\"},{\"nombre\":\"Juana\",\"apellido\":\"Española\"}}}",
+          "{empleados {\"empleado\":[{\"nombre\":\"Juan\",\"apellido\":\"Español\"},{\"nombre\":\"Juana\",\"apellido\":\"Española\"}]}}"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p1-b3-043": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "INDI",
+          "new": "JNDI"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-044": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "— ¿Cuál",
+          "new": "¿Cuál"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-045": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "instrucciones. '",
+          "new": "instrucciones."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-046": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "Universal. .",
+          "new": "Universal."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-049": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "Mercurial 3",
+          "new": "Mercurial"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-050": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": ".gltuncommit",
+          "new": ".gituncommit"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-r1": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "LIKE 'PAL&'",
+          "LIKE 'PAL$'",
+          "LIKE 'PAL*'",
+          "LIKE 'PAL%'"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p1-b3-r2": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "HTML 4,01.",
+          "new": "HTML 4.01."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-002": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "wc -1",
+          "new": "wc -l"
+        },
+        {
+          "old": "líneas que tiene fichero,",
+          "new": "líneas que tiene fichero."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-003": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "necesita. :",
+          "new": "necesita."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-004": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "Si el editor",
+          "new": "En el editor"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-007": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "determinado. -.",
+          "new": "determinado."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-009": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "¡POP",
+          "new": "iPOP"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-013": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "81.89,32.200",
+          "new": "81.89.32.200"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-015": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "OS XxX:",
+          "new": "OS X:"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-018": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "Los CPD se clasifican de TIER I (menor tolerancia a fallos) a TIER V (mayor tolerancia a fallos).",
+          "Un CPD TIER I requiere elementos de energía y refrigeración redundantes, pero no de cableado.",
+          "Un CPD TIER IV es tolerante a fallos.",
+          "Un CPD TIER V requiere un centro de respaldo."
+        ]
+      }
+    },
+    "tai-li-2016-p1-b4-022": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "TCP/1P",
+          "new": "TCP/IP"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-023": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "Monomodo y Multimodo.",
+          "Monocanal y Multicanal.",
+          "De índice escalonado o de índice gradual.",
+          "En bus o en anillo."
+        ]
+      }
+    },
+    "tai-li-2016-p1-b4-025": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "IE£E,802.15",
+          "new": "IEEE 802.15"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-027": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "802.11lah",
+          "new": "802.11ah"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-037": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "en 1P versión",
+          "new": "en IP versión"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-038": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "C0,30.0B.03",
+          "new": "C0.30.0B.03"
+        },
+        {
+          "old": "192.48,11.128",
+          "new": "192.48.11.128"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-039": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "FFO0::/8",
+          "new": "FF00::/8"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-040": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "Protocol!)",
+          "new": "Protocol)"
+        },
+        {
+          "old": "en fa URL.",
+          "new": "en la URL."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-041": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "En una máquina con sistema operativo Linux, los comandos get, put, mget y mput, pertenecen a:",
+        "options": [
+          "FTP",
+          "Telnet",
+          "SSL",
+          "HTML"
+        ]
+      }
+    },
+    "tai-li-2016-p1-b4-044": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "LVM",
+          "VRRP",
+          "Gluster",
+          "S/MIME"
+        ]
+      }
+    },
+    "tai-li-2016-p1-b4-046": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "HP LoadRunner 5",
+          "new": "HP LoadRunner"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-048": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "porque: h",
+          "new": "porque:"
+        },
+        {
+          "old": "(navegador). a",
+          "new": "(navegador)."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-049": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "802.10",
+          "new": "802.1Q"
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-r1": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "df",
+          "dump",
+          "iconv",
+          "touch"
+        ]
+      }
+    },
+    "tai-li-2016-p1-b4-r3": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "11 Ghz.",
+          "1,1 Ghz.",
+          "5 Ghz.",
+          "2,4 Ghz."
+        ]
+      }
+    },
+    "tai-li-2016-p2-s1-001": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "¿Cuál de entre las siguientes es una directiva válida para la línea 1 del código C# anterior para importar espacios de nombres?",
+        "options": [
+          "using System;",
+          "import System;",
+          "declare System;",
+          "imp System;"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-002": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "El resultado de la ejecución del programa C# anterior es:",
+        "options": [
+          "ns.n = 5 nc.n = 8",
+          "ns.n = 8 nc.n = 8",
+          "ns.n = 5 nc.n = 5",
+          "ns.n = 8 nc.n = 5"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-003": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "string cadena = Console.ReadLine();",
+          "string cadena = Console.Read();",
+          "string [] cadena = Console.Read();",
+          "string [] cadena = Console.ReadLine();"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-004": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Se introduce al final del método Main del programa el siguiente código:\n\n```csharp\nstring cadena = LeeCadenadeEntradaEstandar(); // este método lee cadena de la entrada estándar\nint lon=0;\nwhile(/**condición**/)\n    { Console.Write(\"{0} \", cadena[lon]); lon++; }\n```\n\n¿Cuál de las siguientes opciones es correcta para que el programa recorra cada uno de los caracteres de la cadena y los muestre en pantalla sin elevar error?",
+        "options": [
+          "lon < cadena.Length + 1",
+          "lon <= cadena.Length()",
+          "lon <= cadena.Length - 1",
+          "lon < cadena.Length() + 1"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-006": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "cuál de les siguientes",
+          "new": "cuál de los siguientes"
+        },
+        {
+          "old": "Page_Load(",
+          "new": "Page_Load()"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s1-007": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "HtmlInputCheckBox",
+          "HtmlControl",
+          "CheckBoxControl",
+          "HtmlCheckBox"
+        ]
+      }
+    },
+    "tai-li-2016-p2-s1-008": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "protected int PUERTO = 4444;",
+          "final int PUERTO = 4444;",
+          "int PUERTO = 4444;",
+          "static final int PUERTO = 4444;"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-009": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "public void run() { }",
+          "public void init() { }",
+          "public void execute() { }",
+          "public void thread() { }"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-010": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "import java.File.*; import java.sockets.*;",
+          "import java.net.*; import java.io.*;",
+          "import java.socket.*; import java.io.*;",
+          "import java.util.*; import java.io.*;"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-011": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "File dir= new File(args[0]); if (!dir.exists()) { }",
+          "File dir= new File(args[0]); if (!File.canRead(dir)) { }",
+          "File dir = new File(); dir.file_name=args[0]; if (!dir.isDirectory()) { }",
+          "File dir = new File(); dir.name = args[0]; if (!dir.directory()) { }"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-012": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "while (1) {conn=ServerSocket.accept(); Conecta(dir,conn);}",
+          "while (true) {conn=ServerSocket.accept(); new Conecta(dir,conn);}",
+          "while (true) {conn=listener.accept(); new Conecta(dir,conn);}",
+          "conn = listener.accept(); if (conn){new Conecta(dir,conn);}"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-013": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "static class Conecta extends Thread",
+          "static class Conecta extends Runnable",
+          "static class Conecta implements Thread",
+          "static class Conecta implements Threading"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-014": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "se ha ¡iniciado",
+          "new": "se ha iniciado"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s1-015": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "if (\"TAILibre\".compareTo(cadena1)==true)",
+          "if (cadena1.equals(cadena2))",
+          "if (cadena1.compareTo(cadena2)==0)",
+          "if (\"TAILibre\".compareTo(cadena1)==0)"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-017": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "¿Cuál de las siguientes consultas selecciona el \"tercer salario mínimo\" de los investigadores del departamento de Inteligencia Artificial (dep_nombre='IN_AR')?",
+        "options": [
+          "SELECT DISTINCT salario, dep_id FROM investigadores e1 WHERE dep_nombre='IN_AR' AND 3 = (SELECT COUNT(DISTINCT salario) FROM investigadores e2 WHERE e2.salario <= e1.salario);",
+          "SELECT DISTINCT e1.salario, e1.dep_id FROM investigadores e1, departamentos d1 WHERE e1.dep_id=d1.dep_id AND d1.dep_nombre='IN_AR' AND 3 = (SELECT DISTINCT salario FROM investigadores e2 WHERE e2.salario <= e1.salario);",
+          "SELECT DISTINCT e1.salario, e1.dep_id FROM investigadores WHERE dep_nombre='IN_AR' AND 3 = (SELECT COUNT(DISTINCT salario) FROM investigadores e2 WHERE e2.salario <= e1.salario);",
+          "SELECT DISTINCT e1.salario, e1.dep_id FROM investigadores e1, departamentos d1 WHERE e1.dep_id=d1.dep_id AND d1.dep_nombre='IN_AR' AND 3 = (SELECT COUNT(DISTINCT salario) FROM investigadores e2, departamentos d2 WHERE e2.dep_id=d2.dep_id AND d2.dep_nombre='IN_AR' AND e2.salario <= e1.salario);"
+        ]
+      }
+    },
+    "tai-li-2016-p2-s1-018": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "SELECT DATE_FORMAT(CURDATE(),'%M %e, %Y')",
+          "SELECT DATE_FORMAT(CURDATE(),'%m %D, %y')",
+          "SELECT DATE_FORMAT(DATE(),'%m %d, %A')",
+          "SELECT DATE_FORMAT(DATE(),'%M %d, %a')"
+        ]
+      }
+    },
+    "tai-li-2016-p2-s1-019": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "SELECT nombre, apellidos FROM investigadores WHERE DATE_TO_CHAR(contratado,'m') = '10';",
+          "SELECT nombre, apellidos FROM investigadores WHERE DATE_MONTH(contratado) = 'OCTUBRE';",
+          "SELECT nombre, apellidos FROM investigadores WHERE MONTH(contratado) = 10;",
+          "SELECT nombre, apellidos FROM investigadores WHERE TO_MONTH(contratado) = 'octubre';"
+        ]
+      }
+    },
+    "tai-li-2016-p2-s1-022": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Observando el código PHP del enunciado, la función \"getallheaders()\" devuelve una matriz asociativa con todas las cabeceras http con el formato: `[\"cabecera1\"=>\"valor1\",\"cabecera2\"=>\"valor2\"...]`, seleccione la instrucción de entre las siguientes que utilizaría en el bucle foreach para recorrer el array con las cabeceras:",
+        "options": [
+          "$cabecera in $nombre.$valor",
+          "$nombre => $valor in $cabeceras",
+          "$nombre.$valor in $cabeceras",
+          "$cabeceras as $nombre => $valor"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-023": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "private def function eleva2(&$numero)",
+          "define function eleva2(&$numero)",
+          "function eleva2(&$numero)",
+          "sub eleva2(&$numero)"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-024": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "N=3 N=3 N=9",
+          "N=3 N=3 N=3",
+          "N=3 N=9 N=9",
+          "N=3 N=9 N=3"
+        ]
+      }
+    },
+    "tai-li-2016-p2-s1-025": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "$conn = mysqli_connect($servername, $username, $password, $dbname);",
+          "$conn = mysqli ($servername, $username, $password, $dbname);",
+          "$conn = new mysqli_connect($servername, $username, $password, $dbname);",
+          "$conn = createMysqli($servername, $username, $password, $dbname);"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-026": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "$result = $conn.query($sql);",
+          "$result = $conn.executeQuery($sql);",
+          "$result = mysqli_query($conn, $sql);",
+          "$result = execQuery($conn, $sql);"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-027": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "$row = mysqli_fetch_assoc($result)",
+          "mysqli_execute($row,$result)",
+          "mysqli_fetch_assoc($row,$result)=1",
+          "mysqli_fetch($row,$result) is true"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-028": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "getCookie(\"nombre de la cookie\")",
+          "$_COOKIE[\"nombre de la cookie\"]",
+          "$_HTTP_COOKIE_CHAR[\"nombre de la cookie\"]",
+          "$_HTTP_COOKIE[\"nombre de la cookie\"]"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-029": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Suponga que el script recibe datos de un formulario web utilizando el método POST, para capturar la variable \"nombre\" enviada por este formulario se podría utilizar:",
+        "options": [
+          "$_POST[\"nombre\"];",
+          "$POST[\"nombre\"];",
+          "$_HTTP_POST[\"nombre\"];",
+          "Request.Form(\"nombre\");"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-030": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "if (!exp_match(\"/^[a-zA-Z ]*/\",$name)) { }",
+          "if (!preg_match(\"/^[a-zA-Z ]*$/\",$name)) { }",
+          "if (!Regex.IsMatch($name, \" /^[a-zA-Z ]*$/\") { }",
+          "if(!$name.isMatch(\"/^[a-zA-Z ]*$/\")) { }"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-031": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "objeto_AJAX.send(\"GET\", URL, false);",
+          "objeto_AJAX.open(\"POST\", URL, false);",
+          "objeto_AJAX.open(\"GET\", URL, true);",
+          "objeto_AJAX.send(\"POST\", URL, false);"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-032": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Se hace uso del evento del objeto_AJAX que detecta un cambio en la fase solicitud-respuesta para llamar a la función llamada \"muestraresultado()\" en el momento del cambio, indique la instrucción que utilizaría:",
+        "options": [
+          "objeto_AJAX.onreadystate=muestraResultado;",
+          "objeto_AJAX.onreadystate=muestraResultado();",
+          "objeto_AJAX.onreadystatechange=muestraResultado;",
+          "objeto_AJAX.onstatechange=muestraResultado();"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-034": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Teniendo en cuenta el tipo de respuesta que se quiere obtener del servidor, se necesita almacenar los datos obtenidos en la variable \"datos\", para ello se utilizaría:",
+        "options": [
+          "var datos = objeto_AJAX.responseText;",
+          "var datos = objeto_AJAX.getresponseXML;",
+          "var datos = objeto_AJAX.getResponseXML();",
+          "var datos = objeto_AJAX.responseXML();"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-035": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Necesita mostrar los datos recibidos en el cliente utilizando un elemento HTML5 <div> definido así en la parte del código en HTML5: <div name=\"celdas\" id=\"celda\"></div>. Señale la correcta:",
+        "options": [
+          "document.getElementById(\"celda\").innerHTML=datos;",
+          "document.getElementById(\"celda\").text=datos;",
+          "document.elementById(\"celdas\").innerHTML=datos;",
+          "document.elementById(\"celdas\")=datos;"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-036": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Para especificar que el elemento \"div\" del script que está codificando se pueda arrastrar y soltar en otro lugar de la página HTML, debe utilizar la propiedad:",
+        "options": [
+          "draggably=\"true\"",
+          "draggable=\"true\"",
+          "ondragg=\"true\"",
+          "ondraggable=\"true\""
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-040": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "convert(instrucción)",
+          "execute(instrucción)",
+          "parse(instrucción)",
+          "eval(instrucción)"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s1-r1": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Dado el siguiente código Java:\n\n```java\nInteger [] numeros = {3, 5, 1, 2};\nArrays.sort(numeros);\nfor (int n : numeros)\n    { System.out.print(n); }\n```",
+        "options": [
+          "Da un error de compilación en la línea 3.",
+          "La salida es: 1235",
+          "Da un error de compilación en la línea 2.",
+          "La salida es: 5321"
+        ]
+      }
+    },
+    "tai-li-2016-p2-s1-r3": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "objeto Sq/Command",
+          "new": "objeto SqlCommand"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-001": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "4505",
+          "389",
+          "445",
+          "3389"
+        ]
+      }
+    },
+    "tai-li-2016-p2-s2-004": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "/var/auth/ssh.log",
+          "/var/log/ssh_auth.log",
+          "/var/log/users.log",
+          "/var/log/auth.log"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s2-005": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "vgdisplay",
+          "lvmdisplay",
+          "lvm --show volume-group",
+          "cat /proc/lvminfo"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s2-006": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "of==/tmp/testfile",
+          "new": "of=/tmp/testfile"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-008": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "free-h",
+          "new": "free -h"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-012": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "search -l -R /var/www/ | fgrep www-data",
+          "find -l -R /var/www/ -u www-data",
+          "grep -l -R /var/www/ --user www-data",
+          "watch -d 'ls -l -R /var/www/ | fgrep www-data'"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s2-016": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "iptables -A INPUT -i eth1 -p tcp --dport 80 -j DROP",
+          "iptables -A INPUT -i eth1 -p tcp --dport 443 -j DROP",
+          "iptables -A INPUT -i eth1 -p tcp --dport https -j DISABLE",
+          "iptables -A INPUT -i eth0 -p tcp --dport http -j FAIL"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s2-017": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "iptables --flush",
+          "No existe, hay que ir eliminando una a una.",
+          "iptables --delete-all-rules",
+          "iptables --clear"
+        ]
+      }
+    },
+    "tai-li-2016-p2-s2-020": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "chown o-w /home/fichero",
+          "chmod -c o-w /home/fichero",
+          "chmod 646 /home/fichero",
+          "chmod -r o+w /home/fichero"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2016-p2-s2-022": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "cat fetc/processor",
+          "new": "cat /etc/processor"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-024": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "lpr",
+          "lprx",
+          "lprm",
+          "lpqx"
+        ]
+      }
+    },
+    "tai-li-2016-p2-s2-025": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "eventwwr",
+          "new": "eventvwr"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-033": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "172.17.14,1",
+          "new": "172.17.14.1"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-034": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "172.17.8,0/21",
+          "new": "172.17.8.0/21"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-038": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "IPvé6",
+          "new": "IPv6"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-039": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "+ 1521",
+          "new": "1521"
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-040": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "RIPv2",
+          "new": "RIP v2"
+        }
+      ]
+    },
+    "tai-li-2016-p1-002": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "al y soberano de Derecho,",
+          "new": "al y soberano de Derecho."
+        }
+      ]
+    },
+    "tai-li-2016-p1-009": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "iciales de su territorio,",
+          "new": "iciales de su territorio."
+        }
+      ]
+    },
+    "tai-li-2016-p1-015": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "lidez permanente del DNI,",
+          "new": "lidez permanente del DNI."
+        }
+      ]
+    },
+    "tai-li-2016-p1-050": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "La cardinalidad,",
+          "new": "La cardinalidad."
+        }
+      ]
+    },
+    "tai-li-2016-p1-r1": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "10 días naturales,",
+          "new": "10 días naturales."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-003": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "ia de otra entidad débil,",
+          "new": "ia de otra entidad débil."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-021": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "racterísticas esenciales,",
+          "new": "racterísticas esenciales."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-023": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "reación de servicios web,",
+          "new": "reación de servicios web."
+        },
+        {
+          "old": "metadatos basados en XML,",
+          "new": "metadatos basados en XML."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b3-037": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "os raíz como sea preciso,",
+          "new": "os raíz como sea preciso."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-017": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": " con bloques de 256 bits,",
+          "new": " con bloques de 256 bits."
+        },
+        {
+          "old": "con bloques de 256 bytes,",
+          "new": "con bloques de 256 bytes."
+        },
+        {
+          "old": "a con bloques de 64 bits,",
+          "new": "a con bloques de 64 bits."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-020": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "ECIES es simétrico,",
+          "new": "ECIES es simétrico."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-029": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "a de acceso móvil W-CDMA,",
+          "new": "a de acceso móvil W-CDMA."
+        }
+      ]
+    },
+    "tai-li-2016-p1-b4-032": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "on IPSec es un requisito,",
+          "new": "on IPSec es un requisito."
+        }
+      ]
+    },
+    "tai-li-2016-p2-s2-r3": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo). Punto final leído por el OCR como coma.",
+      "replace": [
+        {
+          "old": "Windows 10 Pro,",
+          "new": "Windows 10 Pro."
+        }
+      ]
+    }
+  },
+  "sections": {
+    "p2-s1": {
+      "note": "Enunciado transcrito de la imagen: los listados de código numerados (C#, Java, PHP) se excluyen del OCR y se escriben como bloques de código; las tablas MySQL se recortan como figura (con transcripción).",
+      "set": {
+        "statement": "**PREGUNTAS 1-7 (.NET):** Teniendo en cuenta el siguiente fragmento de código numerado escrito en C# para ser ejecutado en .NET Framework, responda a las siguientes preguntas:\n\n```csharp\n1.   //**Directiva**//\n2.   class claseTai\n3.       { public int n; }\n4.   struct estructTai\n5.       { public int n; }\n6.   class taiLibreCSharp\n7.    {\n8.       public static void evaluaEstructura(estructTai st)\n9.       {st.n = 8; }\n10.      public static void evaluaClase(claseTai cl)\n11.      { cl.n = 8; }\n12.      public static void Main()\n13.      {\n14.              estructTai ns = new estructTai();\n15.              claseTai nc = new claseTai();\n16.              ns.n = 5;\n17.              nc.n = 5;\n18.              evaluaEstructura(ns);\n19.              evaluaClase(nc);\n20.              Console.WriteLine(\"ns.n = {0} \", ns.n);\n21.              Console.WriteLine(\"nc.n = {0}\", nc.n);\n22.      }}\n```\n\n*Texto que precede a la pregunta 8:*\n\n**PREGUNTAS 8-15 (JAVA):** A continuación se muestra el esqueleto de una clase JAVA para construir un servidor de ficheros con sockets. Cuando el servidor arranca necesita saber el nombre del directorio donde se encuentran los ficheros a transmitir, este nombre se pasa en la llamada de línea de comandos. Parte del código está omitido. Responda a las siguientes preguntas que se le plantean en relación con este fragmento de código y la tecnología JAVA:\n\n```java\n1.   import //**paquete1**\n2.   import //**paquete2**\n3.    public class FileServer {\n4.       //**declaración de la variable PUERTO**\n5.       public static void main(String[] args) {\n6.          ServerSocket listener;\n7.          Socket conn;\n8.          //**Se crea el objeto File**\n9.          //**Se comprueba que existe el directorio**\n10.         try {\n11.             listener = new ServerSocket(LISTENING_PORT);\n12.             //**aceptamos conexiones de clientes**       }\n13.         catch (Exception e) { //**Imprimir traza completa de la excepción**\n14.               return; }}\n15.      static class Conecta //**Necesita Hilos de Ejecución** {\n16.         File directorio;\n17.         Socket connection;\n18.         String cadena1= \"TAILibre\";\n19.         String cadena2= \"TAILibre\";\n20.         Conecta(File dir, Socket conn)   {\n21.            directorio = dir;\n22.            connection = conn;\n23.            start(); }\n24.         //**Método con el código a ejecutar en cada Thread**    }}\n```\n\n*Texto que precede a la pregunta 16:*\n\n**PREGUNTAS 16-21 (MYSQL):** A continuación se muestran 2 tablas relacionadas, sacadas del modelo relacional de una determinada base de datos implantada en el motor de base de datos MySql. Responda a las siguientes preguntas.\n\n⟦FIG:0⟧\n\n*Texto que precede a la pregunta 22:*\n\n**PREGUNTAS 22-30 (PHP):** A continuación se muestra un fragmento de código PHP 7 que realiza una conexión de forma procedimental a una base de datos MySql, ejecuta una consulta para extraer determinada conexión y muestra resultados de los registros obtenidos en pantalla. Se omite parte del código que hace referencia a algunas de las preguntas que lo siguen.\n\n```php\n1.   <!DOCTYPE html>\n2.   <html><body>\n3.   <?php\n4.       $cabeceras=getallheaders();\n5.       foreach (***pregunta:bucle***)\n6.           {   echo (\"Nombre: $nombre   - Valor: $valor \");   }\n7.       ***se define la función eleva2(&$numero)***\n8.       {\n9.           $numero*=$numero;\n10.          echo (\"N=$numero \");   }\n11.      $numero=3; echo (\"N=$numero \"); eleva2($numero); echo (\"N=$numero\");\n12.      ***Se establece conexión con base de datos y se almacena en variable $conn***\n13.      if (!$conn) {die(\"Fallo en la conexión: \" . mysqli_connect_error());}\n14.      $sql = \"SELECT inv_id, nombre FROM investigadores\";\n15.      $result = **Ejecuta consulta almacenada en $sql en la BD $conn**;\n16.      if (mysqli_num_rows($result) > 0) {\n17               while(**Condición del bucle**) {\n18.                      echo \"id: \" . $row[\"inv_id\"]. \" - Nombre: \" . $row[\"nombre\"]; }\n19.      } else { echo \"0 resultados\"; }\n20.      mysqli_close($conn);\n21.    ?> </body></html>\n```\n\n*Texto que precede a la pregunta 31:*\n\n**PREGUNTAS 31-40 (JAVASCRIPT/AJAX/HTML5):** Le han encomendado construir un código en JavaScript/AJAX/HTML5, que muestra un elemento <select> en el navegador con una lista de opciones que al cambiar provocará el inicio de una comunicación AJAX con el servidor, el cual devuelve una respuesta en formato texto que se asigna a un elemento <div>. Utilizará una variable denominada objeto_AJAX definida como un objeto XMLHttpRequest (var objeto_AJAX=new XMLHttpRequest();). Responda a las siguientes preguntas a este respecto:"
+      }
+    },
+    "p2-s2": {
+      "note": "Enunciado transcrito de la imagen (el OCR leía las viñetas como «e» y alteraba versiones y fechas).",
+      "set": {
+        "statement": "Como miembro del departamento de sistemas en el Ministerio en el que presta sus servicios, es responsable del mantenimiento, actualización, operación y control de la infraestructura de los sistemas de información, que deben dar servicio 24x7 tanto a los usuarios internos como a los propios ciudadanos. Para la realización de las tareas dentro del ámbito del servicio de sistemas es necesaria una preparación técnica muy específica. Con el fin de facilitar la incorporación de los nuevos funcionarios, se está revisando la documentación técnica existente para determinar si es válida o si por el contrario debe complementarse y mejorarse.\n\nTras un primer análisis, han surgido una serie de cuestiones que es necesario dilucidar para mejorar el conocimiento y documentación de los sistemas. Se ha encontrado escasez de información acerca de las tareas de administración de los siguientes elementos:\n\n- Salt: Las máquinas Linux existentes se gestionan mediante este sistema de automatización de la configuración, ejecución remota y orquestación.\n- Tareas concretas de administración de los sistemas Linux y Windows existentes.\n\nCon respecto a los sistemas que son objeto de estas cuestiones, sus características son:\n\n- Sistemas Linux con Debian GNU/Linux 8.7: \"3.16.0-4-amd64 #1 SMP Debian 3.16.39-1+deb8u2 (2017-03-07) x86_64 GNU/Linux\"\n- Servidor Linux Salt: Paquete: salt-master Version: 2014.1.13+ds-3.\n- Clientes Linux Salt: Paquete: salt-minion. Versión: 2014.1.13+ds-3.\n- Servidor de dominio: Windows 2012 R2\n- Servidor de base de datos: Oracle 11G.\n\n*Texto que precede a la pregunta 13:*\n\nEn el Ministerio, dentro de las tareas de mantenimiento de los sistemas que tiene asignadas, una parte importante es la actualización de los parches de seguridad que corrigen vulnerabilidades y todas aquellas actuaciones destinadas a proteger los sistemas internos de atacantes. Estas tareas se realizan tanto de forma proactiva, como reactiva, cuando surge alguna alerta. Mediante su suscripción a fuentes de información de seguridad le han llegado las siguientes posibles amenazas:\n\n- Ha llegado una alerta de seguridad acerca del paquete tzdata, con el asunto \"tzdata bug fix and enhancement update\".\n- El 13 de Marzo de 2017, el Equipo de Respuesta a Incidentes del Centro Criptológico Nacional (CCN-CERT) alerta de la explotación masiva por diversos atacantes de la vulnerabilidad crítica (CVE-2017-5638) que afecta a Apache Struts. La situación es grave debido a los ataques recibidos y se insta a actuar a la mayor brevedad a quienes tengan sistemas afectados.\n- Existe una actualización de seguridad para Tomcat que corrige bugs.\n\nAdemás de la información anterior, recientemente, el departamento de seguridad le ha enviado un informe indicando que debe revisar la configuración de sus sistemas para seguir lo más adecuadamente las guías de seguridad de las TIC del CCN. En concreto se le informa que debe seguir, en la medida de lo posible, la guía CCN-STIC-612 de \"SECURIZACIÓN DE SISTEMAS BASADOS EN DEBIAN\" y la CCN-STIC-899B v1.1 de \"Implementación del ENS en MS Windows 10 independiente\". En base al contraste de dichas guías con la instalación de sus sistemas, deberá hacer las modificaciones oportunas en los sistemas afectados, en concreto: en servidores con Debian GNU/Linux, versión 8.7 y en puestos Windows 10 que se encuentran instalados en puestos de usuario final.\n\n*Texto que precede a la pregunta 31:*\n\nPara poder soportar los nuevos servicios a implantar en un futuro próximo, necesita realizar ampliaciones en el CPD y en su infraestructura, para ello deberá crear diferentes VLAN de cara a separar los diferentes servicios. Como no se le va a proporcionar más direccionamiento de red, debe analizar alguna de las redes que tiene infrautilizada y estudiar la posibilidad de crear subredes. También se le pide su recomendación de cara a mejoras diversas, tal como la posibilidad de interconectar una de sus redes IPv6 con otra red IPv6 de otro ministerio. Debe valorar qué opciones son las más adecuadas."
+      }
+    }
+  }
+}

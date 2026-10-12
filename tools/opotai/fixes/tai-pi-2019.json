@@ -1,0 +1,522 @@
+{
+  "bank_id": "tai-pi-2019",
+  "global": {
+    "note": "Errores recurrentes del OCR (palabras pegadas o letras confundidas) corregidos tras comparar cada página del cuadernillo escaneado con su transcripción.",
+    "replace": [
+      {
+        "old": "requierea",
+        "new": "requiere a",
+        "word": true
+      },
+      {
+        "old": "Altravés",
+        "new": "A través",
+        "word": true
+      },
+      {
+        "old": "Através",
+        "new": "A través",
+        "word": true
+      },
+      {
+        "old": "A'través",
+        "new": "A través",
+        "word": true
+      },
+      {
+        "old": "ligadasa",
+        "new": "ligadas a",
+        "word": true
+      },
+      {
+        "old": "Laespecificación",
+        "new": "La especificación",
+        "word": true
+      },
+      {
+        "old": "Enrelación",
+        "new": "En relación",
+        "word": true
+      },
+      {
+        "old": "Elgrado",
+        "new": "El grado",
+        "word": true
+      },
+      {
+        "old": "Esel",
+        "new": "Es el",
+        "word": true
+      },
+      {
+        "old": "Eseldirectorio",
+        "new": "Es el directorio",
+        "word": true
+      },
+      {
+        "old": "Lautilidad",
+        "new": "La utilidad",
+        "word": true
+      },
+      {
+        "old": "Eldiagrama",
+        "new": "El diagrama",
+        "word": true
+      },
+      {
+        "old": "Enun",
+        "new": "En un",
+        "word": true
+      },
+      {
+        "old": "Siambos",
+        "new": "Si ambos",
+        "word": true
+      },
+      {
+        "old": "Enel",
+        "new": "En el",
+        "word": true
+      },
+      {
+        "old": "Enla",
+        "new": "En la",
+        "word": true
+      },
+      {
+        "old": "Enuna",
+        "new": "En una",
+        "word": true
+      },
+      {
+        "old": "Enunprotocolo",
+        "new": "En un protocolo",
+        "word": true
+      },
+      {
+        "old": "Elservidor",
+        "new": "El servidor",
+        "word": true
+      },
+      {
+        "old": "actividada",
+        "new": "actividad a",
+        "word": true
+      },
+      {
+        "old": "vamosa",
+        "new": "vamos a",
+        "word": true
+      },
+      {
+        "old": "Elestablecimiento",
+        "new": "El establecimiento",
+        "word": true
+      },
+      {
+        "old": "INEy",
+        "new": "INE y",
+        "word": true
+      },
+      {
+        "old": "problemasa",
+        "new": "problemas a",
+        "word": true
+      },
+      {
+        "old": "Elatacante",
+        "new": "El atacante",
+        "word": true
+      },
+      {
+        "old": "RCKy",
+        "new": "RCK y",
+        "word": true
+      }
+    ]
+  },
+  "questions": {
+    "tai-pi-2019-p1-010": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "Memoria SSD,",
+          "new": "Memoria SSD."
+        }
+      ]
+    },
+    "tai-pi-2019-p1-012": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (expresiones lógicas: código en línea).",
+      "set": {
+        "options": [
+          "a XNOR b = 1",
+          "a XOR b = 1",
+          "a NOR b = 1",
+          "a NAND b = 1"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2019-p1-013": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "completo sí no",
+          "new": "completo si no"
+        }
+      ]
+    },
+    "tai-pi-2019-p1-015": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": ".ni",
+          "new": ".ini"
+        }
+      ]
+    },
+    "tai-pi-2019-p1-019": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Comillas tipográficas como en el original.",
+      "replace": [
+        {
+          "old": "\"bottom-up”",
+          "new": "“bottom-up”"
+        }
+      ]
+    },
+    "tai-pi-2019-p1-024": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "comparación ' === entre",
+          "new": "comparación ' === ' entre"
+        }
+      ]
+    },
+    "tai-pi-2019-p1-025": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. El bucle va en línea aparte en el original: bloque de código; opciones transcritas de la imagen.",
+      "set": {
+        "text": "En el contexto del lenguaje C de ANSI, indique cuales serían los valores de “i” y “s” a la salida del siguiente bucle:\n\n```c\nint n,i,s; s=1;n=5; for (i=1; i<=n; i++) { s=s*i;}\n```",
+        "options": [
+          "i=5 ; s=720",
+          "i=6 ; s=720",
+          "i=6 ; s=120",
+          "i=5 ; s=120"
+        ]
+      }
+    },
+    "tai-pi-2019-p1-032": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "lonic",
+          "new": "Ionic"
+        }
+      ]
+    },
+    "tai-pi-2019-p1-033": {
+      "note": "Opciones formadas solo por código u órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2019-p1-034": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "Código CSV,",
+          "new": "Código CSV."
+        }
+      ]
+    },
+    "tai-pi-2019-p1-035": {
+      "note": "Opciones formadas solo por código u órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2019-p1-040": {
+      "note": "Opciones formadas solo por código u órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2019-p1-041": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Se elimina una mancha leída como «y».",
+      "replace": [
+        {
+          "old": "Blowfish y",
+          "new": "Blowfish"
+        }
+      ]
+    },
+    "tai-pi-2019-p1-042": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "1310y 1550",
+          "new": "1310 y 1550"
+        },
+        {
+          "old": "850y 1310",
+          "new": "850 y 1310"
+        }
+      ]
+    },
+    "tai-pi-2019-p1-043": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (con espacios alrededor de «;»).",
+      "set": {
+        "options": [
+          "A:0 ; B:0",
+          "A:1 ; B:0",
+          "A:0 ; B:1",
+          "A:1 ; B:1"
+        ]
+      }
+    },
+    "tai-pi-2019-p1-045": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "set": {
+        "options": [
+          "6 bits.",
+          "8 bits.",
+          "10 bits.",
+          "12 bits."
+        ]
+      }
+    },
+    "tai-pi-2019-p1-r2": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "set": {
+        "options": [
+          "RAID 1",
+          "RAID 2",
+          "RAID 4",
+          "RAID 5"
+        ]
+      }
+    },
+    "tai-pi-2019-p1-r4": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "Extá",
+          "new": "Ext4"
+        }
+      ]
+    },
+    "tai-pi-2019-p1-r5": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "set": {
+        "options": [
+          "TIER 1",
+          "TIER 2",
+          "TIER 3",
+          "TIER 4"
+        ]
+      }
+    },
+    "tai-pi-2019-p2-s1-004": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. La sentencia SQL va en líneas aparte en el original: bloque de código. «de dicho calle» figura así en el original.",
+      "set": {
+        "text": "Se ha podido cometer un error en el traspaso del diagrama E/R al modelo físico en relación a la cardinalidad de las entidades de las calles y sus tramos. Para ello se quiere realizar una comprobación básica entre ambas tablas. ¿Qué resultado obtendremos de la siguiente sentencia ejecutada en SQL Server?\n\n```sql\nSELECT Calle.nombre, count(TramoCalle.idTramoCalle)\nFROM TramoCalle RIGHT JOIN Calle ON Calle.idCalle = TramoCalle.idCalle\nGROUP BY Calle.idCalle, Calle.nombre\n```"
+      }
+    },
+    "tai-pi-2019-p2-s1-005": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. El OCR lee «@» de distintas formas: opciones transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "CREATE PROCEDURE calcularTarifa @idZona int, @Minutos int",
+          "CREATE PROCEDURE calcularTarifa @idZona, @Minutos",
+          "CREATE PROCED calcularTarifa (@idZona int, @Minutos int)",
+          "CREATE PROCED calcularTarifa @TipoZona int, @Minutos int"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s1-006": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "EXECUTE calcularTarifa @idZona = 1, @Minutos = 50;",
+          "EXECUTE calcularTarifa @Minutos = 50, @idZona = 1;",
+          "EXECUTE calcularTarifa 1, 50;",
+          "EXECUTE calcularTarifa @Minutos = 50, 1;"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s1-007": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (código en línea).",
+      "replace": [
+        {
+          "old": "el puerto 33067",
+          "new": "el puerto 3306?"
+        }
+      ],
+      "set": {
+        "options": [
+          "jdbc:sql://10.10.1.124:3306;user=MyUserName;password=*****;",
+          "sqlserver:jdbc://10.10.1.124:3306;user=MyUserName;password=*****;",
+          "sqlserver:ansi:10.10.124:3306;user=MyUserName;password=*****;",
+          "jdbc:sqlserver://10.10.1.124:3306;user=MyUserName;password=*****;"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s1-008": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. El esquema XSD va en líneas aparte en el original: bloque de código transcrito de la imagen; opciones en código en línea.",
+      "set": {
+        "text": "Le han pedido que elabore los esquemas de mensajes de respuesta de un servicio web. ¿Qué deben contener las etiquetas Z1 y Z2 en el siguiente párrafo del esquema para que los elementos Nombre de Calle (nc) y Número de Calle (numc) aparezcan en el XML en el mismo orden en el que han sido declarados?\n\n```xml\n<xs:complexType>\n<Z1>\n    <xsd:element name=\"nc\" type=\"nc\">\n        <xsd:annotation>\n            <xsd:documentation>Nombre de Calle</xsd:documentation>\n        </xsd:annotation>\n    </xsd:element>\n    <xsd:element name=\"numc\" type=\"numc\">\n        <xsd:annotation>\n            <xsd:documentation>Numero de Calle</xsd:documentation>\n        </xsd:annotation>\n    </xsd:element>\n<Z2>\n</xs:complexType>\n```",
+        "options": [
+          "Z1=xsd:grouptype ; Z2=/xsd:grouptype",
+          "Z1= xsd:sequence ; Z2=/xsd:sequence",
+          "Z1=xsd:elementLocation ; Z2=/xsd:elementLocation",
+          "Z1=xsd:elementOrder ; Z2=/xsd:elementOrder"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s1-010": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Comillas tipográficas como en el original.",
+      "replace": [
+        {
+          "old": "\"Trunk”",
+          "new": "“Trunk”"
+        }
+      ]
+    },
+    "tai-pi-2019-p2-s1-011": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "\"responsive icon”",
+          "new": "\"responsive icon\""
+        }
+      ]
+    },
+    "tai-pi-2019-p2-s2-001": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código u órdenes: código en línea.",
+      "replace": [
+        {
+          "old": "contraseña '\"zzzz\", que",
+          "new": "contraseña \"zzzz\", que"
+        },
+        {
+          "old": "\"migracion” y",
+          "new": "\"migracion\" y"
+        },
+        {
+          "old": "migracion -g zzz",
+          "new": "migracion -g zzzz"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s2-002": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (código en línea).",
+      "replace": [
+        {
+          "old": "\"servidor_del_ traslado\"",
+          "new": "\"servidor_del_traslado\""
+        }
+      ],
+      "set": {
+        "options": [
+          "ssh servidor_del_traslado -l traslado id uid gid",
+          "ssh -host servidor_del_traslado -l traslado id",
+          "ssh servidor_del_traslado traslado id",
+          "ssh servidor_del_traslado -l traslado id"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s2-003": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código u órdenes: código en línea.",
+      "replace": [
+        {
+          "old": "10,254.252.4",
+          "new": "10.254.252.4"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s2-004": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "ip route path",
+          "ip route list",
+          "ip show route",
+          "ip view route"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s2-006": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "arp -all",
+          "arp -i",
+          "arp -a",
+          "arp -g"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s2-010": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "de Sesión, ¿Qué",
+          "new": "de Sesión. ¿Qué"
+        }
+      ]
+    },
+    "tai-pi-2019-p2-s2-012": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "peticiones de lps.",
+          "new": "peticiones de Ips."
+        }
+      ]
+    },
+    "tai-pi-2019-p2-s2-r1": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "tar.gz -czvf configuraciones.tar.gz /backup/tomcat/",
+          "tar -czvf /backup/tomcat/ configuraciones.tar.gz",
+          "tar -czvf configuraciones.tar.gz /backup/tomcat/",
+          "tar -xvf configuraciones.tar.gz /backup/tomcat/"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2019-p2-s2-r2": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "netstat -i :777",
+          "ip port :777",
+          "lsof -i :777",
+          "listen -i :777"
+        ]
+      },
+      "options_code": true
+    }
+  },
+  "sections": {
+    "p2-s1": {
+      "note": "Enunciado transcrito de la imagen del cuadernillo (el OCR une la lista de premisas); el modelo E/R se recorta como figura en su sitio.",
+      "set": {
+        "statement": "Con la finalidad de informar a los ciudadanos acerca de la zona de estacionamiento regulado en todos los municipios de España, se propone la creación de un registro, donde los ayuntamientos deberán publicar su normativa al respecto reflejando para cada tramo de calle cual es la tipología de zona que le corresponde (verde/azul/..).\n\nPor otro lado también se deberá tener en cuenta las franjas horarias y la tarifa asociada a cada zona.\n\nA efectos de este supuesto se consideran las siguientes premisas:\n\n- Todos los días, incluyendo los festivos, el estacionamiento es regulado.\n- Cada tramo de calle está definido por la numeración que la delimita.\n- El SGBD utilizado será SQL Server.\n- El lenguaje de programación empleado en el desarrollo del sistema de información será orientado a objetos (JAVA).\n\nA continuación, se presenta un modelo Entidad Relación extendido inacabado, en lo sucesivo E/R, que representa parte del dominio de la información.\n\n⟦FIG:0⟧"
+      }
+    },
+    "p2-s2": {
+      "note": "Error de OCR corregido tras compararlo con la imagen (palabras pegadas y una mancha leída como «y»).",
+      "replace": [
+        {
+          "old": "del CPDa otro edificio situado a una calle de distancia. y",
+          "new": "del CPD a otro edificio situado a una calle de distancia."
+        }
+      ]
+    }
+  }
+}

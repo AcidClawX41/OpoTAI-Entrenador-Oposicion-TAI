@@ -1,0 +1,63 @@
+{
+  "topic": "IV.1",
+  "summary": "Administración de Linux/Unix (systemd, usuarios y permisos, paquetes, almacenamiento, red, registros, auditd, SELinux, cron), de Windows (consolas, órdenes NET, PowerShell, Registro, Visor de eventos, sistemas de ficheros) y del software de base (IIS, Apache, Nginx, Tomcat), con la actualización (gestión de parches, ENS op.exp.4, ciclos de vida), el mantenimiento y la reparación del sistema operativo.",
+  "key_points": [
+    "systemd: start/stop/restart actúan ahora y enable/disable en el arranque; journalctl -u UNIDAD -n 50 muestra las últimas líneas y tail -f sigue un fichero de registro.",
+    "/etc/passwd tiene 7 campos y /etc/shadow guarda los hash de las contraseñas; chmod u+x solo afecta al propietario; SUID 4000, SGID 2000 y sticky 1000.",
+    "apt update solo descarga la información de los repositorios, apt upgrade instala y full-upgrade puede eliminar paquetes; en RHEL dnf y rpm.",
+    "Red en Linux: ip route show (tabla), ip route get (ruta efectiva), ss -ltn (puertos en escucha), nc -vz host puerto, nmap, hostname -f (FQDN), uname -r (núcleo).",
+    "Crontab: minuto, hora, día del mes, mes y día de la semana (0 5 8 11 * = 05:00 del 8 de noviembre); auditd audita ficheros y sealert analiza las denegaciones de SELinux.",
+    "Windows: net start (servicios en ejecución), net user, net localgroup administradores, net accounts (directiva de contraseñas), ipconfig /flushdns y route print.",
+    "PowerShell: Verbo-Sustantivo y objetos; Get-Service filtrado por Status Running; Copy-Item -Path -Destination -Recurse; 7.6 LTS (2026), PowerShell 2.0 y WMIC retirados.",
+    "Software de base: iisreset y appcmd add/list/restore backup en IIS; directiva VirtualHost en Apache; nginx -t; systemctl restart tomcat9.",
+    "Parches según el ENS op.exp.4: seguimiento de avisos, procedimiento de priorización por riesgo, preproducción (MEDIA) y reversión (ALTA), dentro de la gestión de cambios op.exp.5.",
+    "Reparación: DISM /RestoreHealth y sfc /scannow, chkdsk /f /r, WinRE, modo seguro y Restaurar sistema en Windows; fsck desmontado, rescue.target, chroot y GRUB en Linux."
+  ],
+  "sources": [
+    {
+      "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+    },
+    {
+      "title": "Filesystem Hierarchy Standard 3.0",
+      "url": "https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html"
+    },
+    {
+      "title": "systemd · systemctl",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemctl.html"
+    },
+    {
+      "title": "Debian · Página de manual de apt",
+      "url": "https://manpages.debian.org/trixie/apt/apt.8.en.html"
+    },
+    {
+      "title": "Red Hat · Using SELinux",
+      "url": "https://docs.redhat.com/es/documentation/red_hat_enterprise_linux/9/html/using_selinux/index"
+    },
+    {
+      "title": "Microsoft Learn · Referencia de órdenes de Windows",
+      "url": "https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/windows-commands"
+    },
+    {
+      "title": "Microsoft Learn · Copy-Item",
+      "url": "https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/copy-item"
+    },
+    {
+      "title": "Microsoft Learn · Introducción a AppCmd.exe",
+      "url": "https://learn.microsoft.com/es-es/iis/get-started/getting-started-with-iis/getting-started-with-appcmdexe"
+    },
+    {
+      "title": "Microsoft Learn · Información de versiones de Windows 11",
+      "url": "https://learn.microsoft.com/es-es/windows/release-health/windows11-release-information"
+    },
+    {
+      "title": "Apache HTTP Server 2.4 · Hosts virtuales por nombre",
+      "url": "https://httpd.apache.org/docs/2.4/vhosts/name-based.html"
+    },
+    {
+      "title": "Apache Tomcat · Versiones",
+      "url": "https://tomcat.apache.org/whichversion.html"
+    }
+  ],
+  "updated": "2026-10-11"
+}

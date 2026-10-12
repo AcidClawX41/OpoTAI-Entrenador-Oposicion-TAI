@@ -1,0 +1,119 @@
+{
+  "bank_id": "tai-li-2025-ext",
+  "title": "TAI · Ingreso libre · Convocatoria 2025 · Llamamiento extraordinario (examen 24/07/2026)",
+  "description": "Ejercicio único del proceso selectivo de ingreso libre en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2025), llamamiento extraordinario. Primera parte: cuestionario de 80 preguntas (+5 de reserva). Segunda parte: un supuesto práctico a elegir entre dos (bloques III y IV), de 20 preguntas (+5 de reserva) cada uno. Cuadernillo único (sin modelos).",
+  "access": "libre",
+  "year": 2025,
+  "convocatoria": "li-2025",
+  "exam_date": "2026-07-24",
+  "model": null,
+  "duration_minutes": 120,
+  "scoring_scheme": "tai-li-2025",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "provisional",
+    "retrieved": "2026-10-11",
+    "notes": "Llamamiento extraordinario del ejercicio único (Resolución publicada el 15/07/2026, corregida el 22/07/2026) para aspirantes que no pudieron realizar el ejercicio del 23/05/2026 por causas previstas en las bases. Convocatoria: Resolución de 18 de diciembre de 2025 (BOE 22/12/2025). Respuestas según la plantilla PROVISIONAL (27/07/2026); a 11/10/2026 no se ha publicado la definitiva. El bloque de cada supuesto se asigna por su contenido (bloque III: desarrollo de sistemas; bloque IV: sistemas y comunicaciones), de acuerdo con las normas de la convocatoria (se ofrecen dos supuestos, uno de cada bloque).",
+    "documents": [
+      "cuadernillo.pdf",
+      "plantilla-provisional.pdf",
+      "criterios.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Cuestionario",
+      "block": null,
+      "questions": 80,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto I",
+      "block": "III",
+      "questions": 20,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto II",
+      "block": "IV",
+      "questions": 20,
+      "reserve": 5
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo.pdf",
+      "bottom": 793,
+      "ignore": [
+        "^\\d{4} - TAI-L \\(EXTRAORDINARIO\\)$",
+        "^Página \\d+ de \\d+$"
+      ],
+      "markers": [
+        {
+          "pattern": "^PRIMERA PARTE$",
+          "section": "p1"
+        },
+        {
+          "pattern": "^SUPUESTO I$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "^SUPUESTO II$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "^Preguntas de reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "spot_checks": {
+    "p1-029": "B",
+    "p1-030": "B",
+    "p1-072": "C",
+    "p1-075": "D",
+    "p2-s1-012": "B",
+    "p2-s1-020": "B",
+    "p2-s2-001": "C",
+    "p2-s2-002": "A",
+    "p2-s2-003": "D",
+    "p2-s2-011": "C",
+    "p2-s2-r4": "C",
+    "p2-s2-r5": "C"
+  },
+  "figures": {},
+  "answer_keys": [
+    {
+      "file": "plantilla-provisional.pdf",
+      "status": "provisional",
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto i$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto ii$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ]
+}

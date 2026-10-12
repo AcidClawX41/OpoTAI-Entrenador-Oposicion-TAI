@@ -1,0 +1,1147 @@
+{
+  "bank_id": "tai-li-2019",
+  "global": {
+    "note": "Errores recurrentes del OCR (palabras pegadas o letras confundidas) corregidos tras comparar cada página del cuadernillo escaneado con su transcripción.",
+    "replace": [
+      {
+        "old": "fundamentalesy",
+        "new": "fundamentales y",
+        "word": true
+      },
+      {
+        "old": "Elderecho",
+        "new": "El derecho",
+        "word": true
+      },
+      {
+        "old": "Enlos",
+        "new": "En los",
+        "word": true
+      },
+      {
+        "old": "dimisióno",
+        "new": "dimisión o",
+        "word": true
+      },
+      {
+        "old": "Conformea",
+        "new": "Conforme a",
+        "word": true
+      },
+      {
+        "old": "Esnula",
+        "new": "Es nula",
+        "word": true
+      },
+      {
+        "old": "Alos",
+        "new": "A los",
+        "word": true
+      },
+      {
+        "old": "relacióna",
+        "new": "relación a",
+        "word": true
+      },
+      {
+        "old": "comúny",
+        "new": "común y",
+        "word": true
+      },
+      {
+        "old": "Derechoa",
+        "new": "Derecho a",
+        "word": true
+      },
+      {
+        "old": "Elconjunto",
+        "new": "El conjunto",
+        "word": true
+      },
+      {
+        "old": "derechosy",
+        "new": "derechos y",
+        "word": true
+      },
+      {
+        "old": "Conrespectoa",
+        "new": "Con respecto a",
+        "word": true
+      },
+      {
+        "old": "DNle",
+        "new": "DNIe"
+      },
+      {
+        "old": "cuantoa",
+        "new": "cuanto a",
+        "word": true
+      },
+      {
+        "old": "Elsistema",
+        "new": "El sistema",
+        "word": true
+      },
+      {
+        "old": "Esun",
+        "new": "Es un",
+        "word": true
+      },
+      {
+        "old": "Esuna",
+        "new": "Es una",
+        "word": true
+      },
+      {
+        "old": "Enun",
+        "new": "En un",
+        "word": true
+      },
+      {
+        "old": "Enrelación",
+        "new": "En relación",
+        "word": true
+      },
+      {
+        "old": "Untablespace",
+        "new": "Un tablespace",
+        "word": true
+      },
+      {
+        "old": "Elproceso",
+        "new": "El proceso",
+        "word": true
+      },
+      {
+        "old": "Unproceso",
+        "new": "Un proceso",
+        "word": true
+      },
+      {
+        "old": "Enel",
+        "new": "En el",
+        "word": true
+      },
+      {
+        "old": "opcióna",
+        "new": "opción a",
+        "word": true
+      },
+      {
+        "old": "EnPostgreSQL",
+        "new": "En PostgreSQL",
+        "word": true
+      },
+      {
+        "old": "definiciónde",
+        "new": "definición de",
+        "word": true
+      },
+      {
+        "old": "Deentre",
+        "new": "De entre",
+        "word": true
+      },
+      {
+        "old": "eficientede",
+        "new": "eficiente de",
+        "word": true
+      },
+      {
+        "old": "Elobjeto",
+        "new": "El objeto",
+        "word": true
+      },
+      {
+        "old": "Unicamente",
+        "new": "Únicamente",
+        "word": true
+      },
+      {
+        "old": "Conrespecto",
+        "new": "Con respecto",
+        "word": true
+      },
+      {
+        "old": "Noes",
+        "new": "No es",
+        "word": true
+      },
+      {
+        "old": "vana",
+        "new": "van a",
+        "word": true
+      },
+      {
+        "old": "Esorientado",
+        "new": "Es orientado",
+        "word": true
+      },
+      {
+        "old": "Esunprotocolo",
+        "new": "Es un protocolo",
+        "word": true
+      },
+      {
+        "old": "Deacuerdo",
+        "new": "De acuerdo",
+        "word": true
+      },
+      {
+        "old": "Unhub",
+        "new": "Un hub",
+        "word": true
+      },
+      {
+        "old": "Alas",
+        "new": "A las",
+        "word": true
+      },
+      {
+        "old": "Elevento",
+        "new": "El evento",
+        "word": true
+      },
+      {
+        "old": "Seestá",
+        "new": "Se está",
+        "word": true
+      },
+      {
+        "old": "diseñadoy",
+        "new": "diseñado y",
+        "word": true
+      },
+      {
+        "old": "Enelámbito",
+        "new": "En el ámbito",
+        "word": true
+      },
+      {
+        "old": "Siademás",
+        "new": "Si además",
+        "word": true
+      },
+      {
+        "old": "conectadosa",
+        "new": "conectados a",
+        "word": true
+      },
+      {
+        "old": "Enla",
+        "new": "En la",
+        "word": true
+      },
+      {
+        "old": "Nose",
+        "new": "No se",
+        "word": true
+      },
+      {
+        "old": "Eldepartamento",
+        "new": "El departamento",
+        "word": true
+      }
+    ]
+  },
+  "questions": {
+    "tai-li-2019-p1-001": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "Sección 12",
+          "new": "Sección 1ª"
+        },
+        {
+          "old": "Título |",
+          "new": "Título I"
+        }
+      ]
+    },
+    "tai-li-2019-p1-004": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Se elimina una mancha leída como guion.",
+      "replace": [
+        {
+          "old": "que - establezca",
+          "new": "que establezca"
+        }
+      ]
+    },
+    "tai-li-2019-p1-007": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "capítulo Il",
+          "new": "capítulo II"
+        }
+      ]
+    },
+    "tai-li-2019-p1-013": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. El original separa «AdES» del sufijo en las cuatro opciones.",
+      "replace": [
+        {
+          "old": "AdES-C",
+          "new": "AdES -C"
+        }
+      ]
+    },
+    "tai-li-2019-p1-014": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "conexión NEC",
+          "new": "conexión NFC"
+        }
+      ]
+    },
+    "tai-li-2019-p1-020": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "PortOfirmas",
+          "new": "Port@firmas"
+        },
+        {
+          "old": "CAJES",
+          "new": "CAdES"
+        },
+        {
+          "old": "PAJES",
+          "new": "PAdES"
+        }
+      ]
+    },
+    "tai-li-2019-p1-021": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (el OCR las lee mal) y formateadas como código en línea por ser expresiones lógicas.",
+      "set": {
+        "options": [
+          "a XOR b = 1",
+          "a XNOR b = 0",
+          "a NOR b = 1",
+          "a NAND b = 1"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p1-026": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "color. si",
+          "new": "color, si"
+        }
+      ]
+    },
+    "tai-li-2019-p1-027": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "PCle",
+          "new": "PCIe"
+        }
+      ]
+    },
+    "tai-li-2019-p1-033": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen y formateadas como código en línea (órdenes).",
+      "replace": [
+        {
+          "old": "fichero,.tar",
+          "new": "fichero.tar"
+        }
+      ],
+      "set": {
+        "options": [
+          "tar tvf fichero.tar",
+          "tar xvf fichero.tar",
+          "tar cvf fichero.tar",
+          "tar avf fichero.tar"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p1-035": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "identificador Único",
+          "new": "identificador único"
+        }
+      ]
+    },
+    "tai-li-2019-p1-041": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Se elimina una mancha leída como «»».",
+      "replace": [
+        {
+          "old": "datos. »",
+          "new": "datos."
+        }
+      ]
+    },
+    "tai-li-2019-p1-047": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. La opción b es «\\list» (leída «NVist»); las opciones son órdenes: código en línea.",
+      "replace": [
+        {
+          "old": "NVist",
+          "new": "\\list"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p1-048": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por sentencias SQL: código en línea.",
+      "replace": [
+        {
+          "old": "columna \"lugar\"",
+          "new": "columna 'lugar'"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p1-049": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "REVOKE,",
+          "new": "REVOKE."
+        }
+      ]
+    },
+    "tai-li-2019-p1-050": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. El OCR lee «@» como «O»: enunciado y opciones transcritos de la imagen; la cabecera del procedimiento va en línea aparte en el original (bloque de código) y las opciones son sentencias SQL.",
+      "set": {
+        "text": "Dado un procedimiento almacenado en SQL Server con la cabecera\n\n```sql\nCREATE PROCEDURE getEmployees @LastName varchar(50), @FirstName nvarchar(50)\n```\n\n¿Cuál NO sería una instrucción válida para ejecutar dicho procedimiento?",
+        "options": [
+          "EXECUTE getEmployees @FirstName = N'Pilar', @LastName = N'Rojas';",
+          "EXEC getEmployees @LastName = N'Rojas', @FirstName = N'Pilar';",
+          "EXECUTE getEmployees N'Rojas', N'Pilar';",
+          "EXEC getEmployees @LastName = N'Rojas', N'Pilar';"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p1-051": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Se elimina una mancha leída como «¿».",
+      "replace": [
+        {
+          "old": "archivo de ¿ texto",
+          "new": "archivo de texto"
+        }
+      ]
+    },
+    "tai-li-2019-p1-052": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Se elimina una mancha leída como «p».",
+      "replace": [
+        {
+          "old": "estructura? p",
+          "new": "estructura?"
+        }
+      ]
+    },
+    "tai-li-2019-p1-054": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "lterator",
+          "new": "Iterator"
+        }
+      ]
+    },
+    "tai-li-2019-p1-055": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Se eliminan marcas leídas como «¡».",
+      "replace": [
+        {
+          "old": "¡javax.ejb",
+          "new": "javax.ejb"
+        },
+        {
+          "old": "¡javax.persistence.ejb",
+          "new": "javax.persistence.ejb"
+        }
+      ]
+    },
+    "tai-li-2019-p1-056": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "ADO.NETy",
+          "new": "ADO.NET y"
+        }
+      ]
+    },
+    "tai-li-2019-p1-062": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. La expresión de Python se formatea como código en línea.",
+      "replace": [
+        {
+          "old": "print(\"Java\"*4+\"Linux”)",
+          "new": "`print(\"Java\"*4+\"Linux\")`"
+        }
+      ]
+    },
+    "tai-li-2019-p1-064": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. El fragmento HTML va en línea aparte en el original: bloque de código (el OCR lee «hret» por «href»). Las comillas tipográficas leídas por el OCR son rectas en el original.",
+      "set": {
+        "text": "Considerando como premisa la existencia del archivo foto.jpg en la misma ubicación que el archivo que contiene el código HTML indicado a continuación, ¿qué mostraría en pantalla el siguiente código?\n\n```html\n<a href=\"https://www.boe.es\"><img src=\"foto.jpg\" alt=\"Acceso al BOE\"/></a>\n```"
+      },
+      "replace": [
+        {
+          "old": "“",
+          "new": "\"",
+          "fields": [
+            "options"
+          ],
+          "count": 3
+        },
+        {
+          "old": "”",
+          "new": "\"",
+          "fields": [
+            "options"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    "tai-li-2019-p1-067": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por órdenes: código en línea.",
+      "replace": [
+        {
+          "old": "gittag",
+          "new": "git tag"
+        },
+        {
+          "old": "gitrebase",
+          "new": "git rebase"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p1-069": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "\"Quality Gates”",
+          "new": "\"Quality Gates\""
+        }
+      ]
+    },
+    "tai-li-2019-p1-071": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. El OCR lee «lsb_release» como «Isb_release»; opciones formadas solo por órdenes: código en línea.",
+      "set": {
+        "options": [
+          "lsb_release -a",
+          "lsb_release -x",
+          "lsb_release -l",
+          "lsb_release -m"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p1-072": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "como |IS",
+          "new": "como IIS"
+        }
+      ]
+    },
+    "tai-li-2019-p1-075": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen («RAID 0» leído como «RAIDO»).",
+      "set": {
+        "options": [
+          "RAID 3 precisa al menos tres discos.",
+          "RAID 0 es tolerante a fallos.",
+          "RAID 1 duplica la información en discos espejo.",
+          "RAID 5 distribuye la información de paridad."
+        ]
+      }
+    },
+    "tai-li-2019-p1-076": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "VDIi en modo",
+          "new": "VDI en modo"
+        }
+      ]
+    },
+    "tai-li-2019-p1-077": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. La opción d es «993» (leída «293»).",
+      "replace": [
+        {
+          "old": "293",
+          "new": "993"
+        }
+      ]
+    },
+    "tai-li-2019-p1-080": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por órdenes: código en línea.",
+      "replace": [
+        {
+          "old": "netuser pepe",
+          "new": "net user pepe"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p1-087": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "RiPng",
+          "new": "RIPng"
+        }
+      ]
+    },
+    "tai-li-2019-p1-088": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (con espacios alrededor de «;»).",
+      "replace": [
+        {
+          "old": "—Enuna transmisión",
+          "new": "En una transmisión"
+        }
+      ],
+      "set": {
+        "options": [
+          "A:0 ; B:0",
+          "A:1 ; B:0",
+          "A:0 ; B:1",
+          "A:1 ; B:1"
+        ]
+      }
+    },
+    "tai-li-2019-p1-091": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "No.es fiable",
+          "new": "No es fiable"
+        }
+      ]
+    },
+    "tai-li-2019-p1-096": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Comillas rectas como en el original.",
+      "replace": [
+        {
+          "old": "“Clickjacking”",
+          "new": "\"Clickjacking\""
+        },
+        {
+          "old": "sistema Operativo host",
+          "new": "sistema operativo host"
+        }
+      ]
+    },
+    "tai-li-2019-p1-098": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. «ESK» figura así en el original (se conserva).",
+      "replace": [
+        {
+          "old": "siguientes Opciones",
+          "new": "siguientes opciones"
+        },
+        {
+          "old": "Lostres protocolos protegen las comunicacionesa nivel 2 de la pila OSI,",
+          "new": "Los tres protocolos protegen las comunicaciones a nivel 2 de la pila OSI."
+        }
+      ]
+    },
+    "tai-li-2019-p1-r3": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Se elimina una mancha leída como «p». «a a» figura así en el original.",
+      "replace": [
+        {
+          "old": "Protocol. p",
+          "new": "Protocol."
+        }
+      ]
+    },
+    "tai-li-2019-p1-r4": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Se eliminan marcas del margen leídas como letras.",
+      "replace": [
+        {
+          "old": "El contro! de",
+          "new": "El control de"
+        },
+        {
+          "old": "corresponde: Í",
+          "new": "corresponde:"
+        },
+        {
+          "old": "Al Gobierno. Ñ",
+          "new": "Al Gobierno."
+        },
+        {
+          "old": "materia. hi",
+          "new": "materia."
+        },
+        {
+          "old": "A los Tribunales. Ñ",
+          "new": "A los Tribunales."
+        },
+        {
+          "old": "A las Cortes Generales. Ñ",
+          "new": "A las Cortes Generales."
+        }
+      ]
+    },
+    "tai-li-2019-p1-r5": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Se elimina una mancha leída como «i».",
+      "replace": [
+        {
+          "old": "distribución. i",
+          "new": "distribución."
+        }
+      ]
+    },
+    "tai-li-2019-p2-s1-001": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones a)–c) en código HTML transcritas de la imagen.",
+      "set": {
+        "options": [
+          "`<label for=\"value\">NIF </label><input id=\"nif\" type=\"text\" placeholder=\"123456789-Letra\" focus=\"on\"><br>`",
+          "`<label for=\"value\">NIF </label><input id=\"nif\" type=\"text\" placeholder=\"123456789-Letra\" autofocus><br>`",
+          "`<label for=\"value\">NIF </label><input id=\"nif\" type=\"text\" placeholder=\"123456789-Letra\" onLoad()=\"focus\"><br>`",
+          "Automáticamente, el foco pasa al primer elemento del formulario, por lo que no es necesario establecerlo explícitamente"
+        ]
+      }
+    },
+    "tai-li-2019-p2-s1-002": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea.",
+      "set": {
+        "options": [
+          "<input type=\"color\" name=\"favcolor\">",
+          "<input type=\"uipicker\" name=\"favcolor\">",
+          "<input type=\"range\" name=\"favcolor\">",
+          "<input type=\"selector\" name=\"favcolor\">"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-004": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea.",
+      "set": {
+        "options": [
+          "<audio controls autoplay> <source src=\"audio.mp3\" type=\"audio/mpeg\"></audio>",
+          "<audio controls=\"on\" autorun=\"on\"> <source src=\"audio.mp3\" type=\"audio/mpeg\"></audio>",
+          "<audio controls autorun> <source src=\"audio.mp3\" type=\"audio/mpeg\"></audio>",
+          "<audio controls=\"yes\" played> <source src=\"audio.mp3\" type=\"audio/mpeg\"></audio>"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-005": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. La declaración CSS va en línea aparte en el original: bloque de código.",
+      "set": {
+        "text": "Dentro de la hoja de estilos del organismo está incluida la siguiente declaración\n\n```css\nul { list-style-type: lower-alpha; }\n```\n\nIndique el objetivo de la declaración"
+      }
+    },
+    "tai-li-2019-p2-s1-006": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "antigúedad",
+          "new": "antigüedad"
+        }
+      ]
+    },
+    "tai-li-2019-p2-s1-007": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Cada opción enumera relaciones en líneas distintas: se transcriben como bloques de código. «de las de las» figura así en el original.",
+      "set": {
+        "options": [
+          "```\nAccionFormativa (idAccionFormativa (PK), denominacion, numAlumnos)\nCurso (horasTeoricas, horasPracticas)\nTaller (especialidad, material)\n```",
+          "```\nAccionFormativa (idAccionFormativa (PK), denominacion, numAlumnos, horasTeoricas, horasPracticas, especialidad, material)\n```",
+          "```\nAccionFormativa (idAccionFormativa (PK), idCurso (FK), idTaller (FK), denominacion, numAlumnos)\nCurso (horasTeoricas, horasPracticas)\nTaller (especialidad, material)\n```",
+          "```\nAccionFormativa (idAccionFormativa (PK), denominacion, numAlumnos)\nCurso (idAccionFormativa (FK), horasTeoricas, horasPracticas)\nTaller (idAccionFormativa (FK), especialidad, material)\n```"
+        ]
+      }
+    },
+    "tai-li-2019-p2-s1-008": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea. «ciudadano.NIF» en minúscula figura así en la opción a) del original.",
+      "replace": [
+        {
+          "old": "|S null",
+          "new": "IS null"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-009": {
+      "note": "Opciones formadas solo por código: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-010": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea.",
+      "replace": [
+        {
+          "old": "1S NOT NULL",
+          "new": "IS NOT NULL"
+        },
+        {
+          "old": "COUNT(?*)>0",
+          "new": "COUNT(*)>0"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-011": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (sentencias SQL: código en línea).",
+      "replace": [
+        {
+          "old": "separados por y se quiere",
+          "new": "separados por ';' y se quiere"
+        }
+      ],
+      "set": {
+        "options": [
+          "LOAD DATA LOCAL INFILE 'inscripciones.csv' INTO TABLE Inscripcion FIELDS TERMINATED BY ';' LINES TERMINATED BY '\\n' IGNORE 1 ROWS",
+          "LOAD DATA LOCAL INFILE 'inscripciones.csv' INTO TABLE Inscripcion FIELDS TERMINATED BY ',' LINES TERMINATED BY '\\n' IGNORE 1 ROWS",
+          "LOAD FROM LOCAL INFILE 'inscripciones.csv' INTO TABLE Inscripcion",
+          "LOAD FROM DATA LOCAL INFILE 'inscripciones.csv' INTO TABLE Inscripcion FIELDS TERMINATED BY ';' LINES TERMINATED BY '\\n'"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-013": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "¡BATIS",
+          "new": "iBATIS"
+        }
+      ]
+    },
+    "tai-li-2019-p2-s1-014": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. El código PHP va en líneas aparte en el original: bloque de código transcrito de la imagen.",
+      "set": {
+        "text": "Indique qué realiza el siguiente fragmento de código PHP\n\n```php\n<?php\n$psswd = substr(str_shuffle(\"0123abcd\"), 0, $length=5);\necho $psswd;\n?>\n```"
+      }
+    },
+    "tai-li-2019-p2-s1-015": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea.",
+      "set": {
+        "options": [
+          "$longitud = long($array);",
+          "$longitud = calculate($array);",
+          "$longitud = count($array);",
+          "$longitud = range($array);"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-016": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen (instrucciones PHP: código en línea).",
+      "set": {
+        "options": [
+          "echo \"Posición \" + $i + \": \" + $array[$i] . \"\\n\";",
+          "echo \"Posición \" & $i & \": \" & $array[$i] & \"\\n\";",
+          "echo \"Posición \" . $i . \": \" . $array[$i] . \"\\n\";",
+          "echo \"Posición \".concat($i).concat(\": \").concat($array[$i]).concat(\"\\n\");"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-021": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. La función Java va en líneas aparte en el original: bloque de código transcrito de la imagen.",
+      "set": {
+        "text": "Indique qué número hay que pasar como parámetro a la siguiente función Java para que produzca como salida el número 8\n\n```java\nint secuencia(int n){\nif(n==1 || n==2) return 1;\nelse return secuencia(n-1)+secuencia(n-2);\n}\n```"
+      }
+    },
+    "tai-li-2019-p2-s1-023": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. El fragmento C# va en líneas aparte en el original: bloque de código (con las comillas tipográficas del original); opciones: código en línea.",
+      "set": {
+        "text": "Considerando el siguiente fragmento de código en el lenguaje C# en .Net y, asumiendo que la cadena de conexión (cadena) está declarada y es correcta y que se han importado las clases necesarias, ¿cuál sería la instrucción en el código que le permitirá posteriormente ejecutar la consulta almacenada en la variable query?\n\n```csharp\nMySqlConnection conn = new MySqlConnection(cadena);\nstring query = “Select * from Inscripcion”;\nconn.Open();\n```"
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-025": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "método de Céf",
+          "new": "método de C#"
+        }
+      ]
+    },
+    "tai-li-2019-p2-s1-027": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "Aspect",
+          "new": "AspectJ"
+        }
+      ]
+    },
+    "tai-li-2019-p2-s1-r3": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones transcritas de la imagen.",
+      "set": {
+        "options": [
+          "C#",
+          "G#",
+          "Cloos",
+          "F#"
+        ]
+      }
+    },
+    "tai-li-2019-p2-s1-r4": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Expresiones regulares transcritas de la imagen (código en línea; la c) cierra con comilla tipográfica en el original).",
+      "set": {
+        "options": [
+          "pattern=\"([0-9]+[a-z]+[A-Z]).{6,}\"",
+          "pattern=\"([0-9][a-z][A-Z]).{6}\"",
+          "pattern=\"(0-9a-zA-Z).{6}”",
+          "pattern=\"(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{6,}\""
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s1-r5": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea.",
+      "replace": [
+        {
+          "old": "llamado 'agencia* con",
+          "new": "llamado ‘agencia’ con"
+        }
+      ],
+      "set": {
+        "options": [
+          "new project agencia",
+          "php-composer create-project agencia",
+          "composer create-project --prefer-dist laravel/laravel agencia",
+          "php archetype:create project agencia"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-001": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "\"REDO01\"",
+          "new": "\"RED001\""
+        }
+      ]
+    },
+    "tai-li-2019-p2-s2-002": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "\"REDO001\"",
+          "new": "\"RED001\""
+        }
+      ]
+    },
+    "tai-li-2019-p2-s2-003": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "\"RED001”",
+          "new": "\"RED001\""
+        }
+      ]
+    },
+    "tai-li-2019-p2-s2-004": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "ANSUEIA/TIA-568-C",
+          "new": "ANSI/EIA/TIA-568-C"
+        }
+      ],
+      "set": {
+        "options": [
+          "Cat 5",
+          "Cat 5e",
+          "Cat 6",
+          "Cat 6a"
+        ]
+      }
+    },
+    "tai-li-2019-p2-s2-005": {
+      "note": "Opciones formadas solo por código: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-006": {
+      "note": "Opciones formadas solo por código: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-007": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Órdenes transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "ssh u@s1 'who'",
+          "ssh u:s1 'who'",
+          "ssh s1 --login u 'who'",
+          "ssh --user=u --command='who' s1"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-008": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea.",
+      "replace": [
+        {
+          "old": "systemcil",
+          "new": "systemctl"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-009": {
+      "note": "Opciones formadas solo por código: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-010": {
+      "note": "Opciones formadas solo por código: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-011": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Órdenes transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "salt-cp '*' fichero.txt /tmp",
+          "salt-copy fichero.txt tmp",
+          "salt --disk.copy fichero.txt all:/tmp",
+          "salt --all disk.copy fichero.txt /tmp"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-012": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Órdenes transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "salt '*' disk.usage",
+          "salt --all disk.usage",
+          "salt --disk.usage all",
+          "salt-query '*' disk.info"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-013": {
+      "note": "Opciones formadas solo por código: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-014": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Las opciones a) y b) son órdenes: código en línea.",
+      "set": {
+        "options": [
+          "`usermod -a -G docker udocker`",
+          "`useradd -G docker udocker`",
+          "Editando el fichero /var/group y añadiendo \":udocker\" al final de la línea donde está el grupo \"docker\".",
+          "Editando el fichero /etc/passwd y añadiendo \":udocker\" al final de la línea donde está el grupo \"docker\"."
+        ]
+      }
+    },
+    "tai-li-2019-p2-s2-015": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea.",
+      "replace": [
+        {
+          "old": "containers Is",
+          "new": "containers ls"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-016": {
+      "note": "Opciones formadas solo por código: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-017": {
+      "note": "Opciones formadas solo por código: código en línea.",
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-022": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "el 5432,",
+          "new": "el 5432."
+        }
+      ]
+    },
+    "tai-li-2019-p2-s2-024": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "Veeam Backup 8 Replication.",
+          "new": "Veeam Backup & Replication."
+        },
+        {
+          "old": "ReactiveXx.",
+          "new": "ReactiveX."
+        }
+      ]
+    },
+    "tai-li-2019-p2-s2-025": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo.",
+      "replace": [
+        {
+          "old": "Mobilelron",
+          "new": "MobileIron"
+        }
+      ]
+    },
+    "tai-li-2019-p2-s2-026": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea.",
+      "replace": [
+        {
+          "old": "Get-ltem",
+          "new": "Get-Item"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-027": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea. La d) usa comillas tipográficas en el original.",
+      "replace": [
+        {
+          "old": "Copy-ltem",
+          "new": "Copy-Item"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-028": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Órdenes transcritas de la imagen (código en línea).",
+      "set": {
+        "options": [
+          "change *.gz *.rar",
+          "move *.gz *.rar",
+          "convert *.gz *.rar",
+          "ren *.gz *.rar"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2019-p2-s2-r3": {
+      "note": "Error de OCR corregido tras compararlo con la imagen del cuadernillo. Opciones formadas solo por código: código en línea.",
+      "replace": [
+        {
+          "old": "\"Docker Hub”",
+          "new": "\"Docker Hub\""
+        }
+      ],
+      "options_code": true
+    }
+  },
+  "sections": {
+    "p2-s1": {
+      "note": "Enunciado transcrito de la imagen del cuadernillo (el OCR no reconoce bien el código HTML ni las viñetas). El fragmento de código va en bloque (las líneas partidas por el ancho de página se unen) y el modelo Entidad-Relación se recorta como figura en su sitio.",
+      "set": {
+        "statement": "En la Agencia de Formación en la que usted acaba de entrar a trabajar, se quiere mejorar un sistema de información que permite realizar al menos las siguientes gestiones:\n\n- Gestión de acciones formativas.\n- Gestión de alumnos/as y profesores/as.\n- Gestión de aulas.\n- Gestión de la selección.\n\nPara ello, y aprovechando la experiencia del equipo existente en tecnologías de software libre, se optará por un desarrollo basado en PHP, utilizando el framework Laravel v.6, y como gestor de base de datos MySQL v.8. Adicionalmente se reaprovechará algún módulo existente .NET. y en Java.\n\nEl formulario que permite la inscripción a las acciones formativas está basado en HTML5, Javascript y jQuery. Se cuenta con el siguiente fragmento de código del mismo:\n\n```html\n<form action=\"\" method=\"get\">\n    <label for=\"nif\">NIF </label><input id=\"nif\" type=\"text\" size=\"25\" maxlength=\"9\" placeholder=\"123456789-Letra\"><br>\n    <label for=\"nombre\">Nombre </label><input id=\"nombre\" type=\"text\" size=\"40\" maxlength=\"40\" placeholder=\"Introduzca su nombre\"><br>\n    <label for=\"apellidos\">Apellidos </label><input id=\"apellidos\" type=\"text\" size=\"73\" maxlength=\"80\" placeholder=\"Introduzca sus apellidos\"><br>\n    <label for=\"email\">Correo Electrónico </label><input type=\"email\" size=\"65\" maxlength=\"10\" placeholder=\"hola@dominio.com\"><br>\n    <label for=\"password\">Contraseña </label><input type=\"password\" size=\"30\" maxlength=\"10\" placeholder=\"Contraseña\"><br>\n<input type=\"submit\" value=\"Validar Datos\">\n</form>\n```\n\nA continuación se muestra un modelo Entidad Relación extendido inacabado de una parte del sistema:\n\n⟦FIG:0⟧\n\nComo técnico se le va a solicitar que colabore en el proyecto para ofrecer las mejoras que le soliciten.\n\nSalvo que el enunciado diga lo contrario se va a suponer que aquellas preguntas que tengan un fragmento de código tendrán declaradas correctamente todas las clases, librerías, variables.. que no aparezcan directamente. Como metodología de base el organismo aplica Métrica v3."
+      }
+    },
+    "p2-s2": {
+      "note": "Comillas rectas como en el original (el OCR las lee tipográficas).",
+      "replace": [
+        {
+          "old": "“server”, “s1”, “s2”",
+          "new": "\"server\", \"s1\", \"s2\""
+        },
+        {
+          "old": "“4.19.0-5-amd64”",
+          "new": "\"4.19.0-5-amd64\""
+        }
+      ]
+    }
+  }
+}

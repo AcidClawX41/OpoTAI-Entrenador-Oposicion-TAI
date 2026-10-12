@@ -1,0 +1,36 @@
+# --- Rust ---
+/target/
+**/target/
+**/*.rs.bk
+
+# --- Node / frontend ---
+node_modules/
+app/dist/
+*.tsbuildinfo
+.vite/
+coverage/
+
+# --- Tauri ---
+app/src-tauri/gen/schemas/
+
+# --- Python (tools/) ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# --- Datos en bruto descargados (se regeneran con tools/; ver tools/README.md) ---
+data/raw/
+
+# --- Varios ---
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/*
+!.vscode/extensions.json

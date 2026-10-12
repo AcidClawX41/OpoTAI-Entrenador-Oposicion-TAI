@@ -1,0 +1,88 @@
+{
+  "bank_id": "tai-pi-2021",
+  "questions": {
+    "tai-pi-2021-p1-023": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p1-039": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s1-001": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s1-003": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s1-004": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s1-006": {
+      "note": "La expresión Python aparece en una línea aparte: bloque de código (contiene «*»); opciones (listas Python) como código en línea.",
+      "text_block": {
+        "start": "[a*a for a in [3, 2, 1] if a > 1]",
+        "lines": 1,
+        "lang": "python"
+      },
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s1-007": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s1-008": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s1-009": {
+      "note": "La función JavaScript aparece en líneas aparte: bloque de código.",
+      "text_block": {
+        "start": "Function prueba() {",
+        "lines": 7,
+        "lang": "javascript"
+      }
+    },
+    "tai-pi-2021-p2-s1-010": {
+      "note": "El registro de la tabla aparece campo a campo en líneas aparte: bloque de texto preformateado.",
+      "text_block": {
+        "start": "NIF: 12345678Z",
+        "lines": 6,
+        "lang": "text"
+      }
+    },
+    "tai-pi-2021-p2-s1-r1": {
+      "note": "El fragmento HTML aparece en una línea aparte: bloque de código; opciones JavaScript como código en línea.",
+      "text_block": {
+        "start": "<html><body><h1 id=\"titulo\">Primer ejercicio TAI</h1></body></html>",
+        "lines": 1,
+        "lang": "html"
+      },
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s2-004": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s2-005": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s2-009": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s2-011": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2021-p2-s2-r1": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    }
+  },
+  "sections": {}
+}

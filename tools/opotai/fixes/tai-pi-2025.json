@@ -1,0 +1,79 @@
+{
+  "bank_id": "tai-pi-2025",
+  "questions": {
+    "tai-pi-2025-p1-024": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p1-034": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p1-037": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s1-001": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s1-002": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s1-003": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s1-004": {
+      "note": "Opciones formadas solo por anotaciones Java: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s1-005": {
+      "note": "El enunciado incluye una clase Java (5 líneas sangradas) y las opciones son pruebas JUnit en varias líneas: bloques de código.",
+      "text_block": {
+        "start": "public class AlumnoService {",
+        "lines": 5,
+        "lang": "java"
+      },
+      "options_block": "java"
+    },
+    "tai-pi-2025-p2-s1-006": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s1-r3": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s2-003": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s2-004": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s2-005": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s2-006": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s2-007": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s2-012": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2025-p2-s2-r1": {
+      "note": "Opciones formadas solo por código/órdenes: código en línea.",
+      "options_code": true
+    }
+  },
+  "sections": {}
+}

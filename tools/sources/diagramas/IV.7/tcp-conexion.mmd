@@ -1,0 +1,21 @@
+%% IV.7 · Conexión TCP: saludo de tres vías y cierre ordenado (RFC 9293).
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+sequenceDiagram
+    participant C as Cliente
+    participant S as Servidor
+    rect rgb(237, 233, 254)
+        Note over C,S: Apertura: saludo de tres vías
+        C->>S: 1. SYN (seq = x)
+        S->>C: 2. SYN + ACK (seq = y, ack = x + 1)
+        C->>S: 3. ACK (ack = y + 1)
+    end
+    Note over C,S: ESTABLISHED: datos con seq y ACK
+    rect rgb(241, 245, 249)
+        Note over C,S: Cierre ordenado: cuatro mensajes
+        C->>S: FIN
+        S->>C: ACK
+        Note right of S: CLOSE_WAIT<br/>aún puede enviar
+        S->>C: FIN
+        C->>S: ACK
+        Note left of C: TIME_WAIT<br/>espera 2 × MSL
+    end

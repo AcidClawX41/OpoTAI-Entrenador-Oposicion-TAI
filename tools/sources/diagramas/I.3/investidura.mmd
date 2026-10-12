@@ -1,0 +1,19 @@
+%% I.3 · Investidura del Presidente del Gobierno (art. 99 CE).
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+flowchart TD
+    A["Nuevo Congreso, dimisión,<br/>fallecimiento o confianza<br/>denegada"]
+    B["El Rey consulta a los<br/>grupos y propone candidato<br/>(vía Presidente del Congreso)"]
+    C["El candidato expone su<br/>programa y pide la confianza"]
+    V1{"1.ª votación:<br/>¿mayoría absoluta?"}
+    V2{"48 h después:<br/>¿mayoría simple?"}
+    P{"¿2 meses desde<br/>la 1.ª votación?"}
+    N("El Rey nombra<br/>al Presidente")
+    D("Disolución de ambas<br/>Cámaras y elecciones<br/>(art. 99.5)")
+
+    A --> B --> C --> V1
+    V1 -- "sí" --> N
+    V1 -- "no" --> V2
+    V2 -- "sí" --> N
+    V2 -- "no" --> P
+    P -- "no: nueva<br/>propuesta" --> B
+    P -- "sí" --> D

@@ -1,0 +1,7 @@
+# Cambiar este fichero (en cualquier rama) lanza el workflow «Instaladores» en modo solo
+# compilación: genera los ejecutables de Windows x64, Linux x64 y macOS Apple Silicon como
+# artefactos privados del workflow, sin crear etiqueta ni release. Anota debajo el motivo.
+
+2026-10-12 · Primera compilación de prueba de los tres sistemas (firma ad-hoc en macOS).
+2026-10-12 · Compilación de prueba tras diagramas de teoría, figuras revisadas, copyright automático y panel de supuestos; GStreamer (sonido) en el AppImage y como recomendado en .deb/.rpm.
+2026-10-12 · Recompilación para pruebas del autor: ficha «Sobre el autor» sin experiencia laboral, con competencias y certificaciones.

@@ -1,0 +1,45 @@
+%% III.7 · Ruta crítica de renderizado de un navegador: del HTML y el CSS a los píxeles.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+flowchart TB
+    HTML["`**HTML**
+    index.html`"]
+    CSS["`**CSS**
+    estilos.css`"]
+    JS["`**JavaScript**
+    motor V8, SpiderMonkey…`"]
+    DOM["`**DOM**
+    árbol de nodos`"]
+    CSSOM["`**CSSOM**
+    árbol de estilos`"]
+    RT["`**Árbol de renderizado**
+    DOM + estilos, solo lo visible`"]
+    LAY["`**Diseño**
+    layout o reflow:
+    tamaño y posición`"]
+    PAI["`**Pintado**
+    píxeles de
+    cada capa`"]
+    COM["`**Composición**
+    capas en
+    pantalla`"]
+    HTML -- "análisis" --> DOM
+    CSS -- "análisis" --> CSSOM
+    DOM --> RT
+    CSSOM --> RT
+    subgraph PIX[" "]
+        direction LR
+        LAY --> PAI --> COM
+    end
+    RT --> PIX
+    HTML -. "script sin defer<br/>ni async: bloquea" .-> JS
+    JS -. "lee y modifica" .-> DOM
+    JS -. "cambia estilos" .-> CSSOM
+    classDef src fill:#f8fafc,stroke:#94a3b8,color:#1f2937
+    classDef tree fill:#dbeafe,stroke:#2563eb,color:#1f2937
+    classDef js fill:#fef3c7,stroke:#d97706,color:#1f2937
+    classDef out fill:#d1fae5,stroke:#059669,color:#1f2937
+    style PIX fill:#f8fafc,stroke:#cbd5e1,color:#475569
+    class HTML,CSS src
+    class DOM,CSSOM,RT tree
+    class JS js
+    class LAY,PAI,COM out

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-11",
+  "topics": [
+    {
+      "topic": "IV.1",
+      "file": "IV.1.md",
+      "title": "Redes",
+      "summary": "Conceptos de redes.",
+      "reading_minutes": 7,
+      "key_points": [
+        "Modelo OSI",
+        "TCP/IP"
+      ],
+      "sources": [
+        {
+          "title": "RFC 791",
+          "url": "https://www.rfc-editor.org/rfc/rfc791"
+        }
+      ],
+      "updated": "2026-10-10"
+    },
+    {
+      "topic": "I.1",
+      "file": "I.1.md",
+      "title": "La Constitución",
+      "summary": "Lo esencial de la CE.",
+      "reading_minutes": 12,
+      "key_points": [
+        "Título preliminar"
+      ],
+      "sources": [],
+      "updated": null
+    },
+    {
+      "topic": "II.9",
+      "file": "II.9.md",
+      "title": "Tema sin fichero",
+      "summary": "No existe el Markdown.",
+      "reading_minutes": 3,
+      "key_points": [],
+      "sources": [],
+      "updated": null
+    }
+  ]
+}

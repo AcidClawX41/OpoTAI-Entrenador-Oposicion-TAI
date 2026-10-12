@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Reconstrucción de OpoTAI: Modelo A (red única 10.20.30.0 / 24)</title>
+  <desc id="descripcion">Redibujo del esquema del cuadernillo: la nube INTERNET se une a un Router que se conecta a la red 10.20.30.0 / 24 (tubería horizontal). A la red se conectan, cada uno con su línea, cuatro PCs (PCs Usuarios), tres servidores (Aplicaciones) y dos servidores de base de datos (Bases de Datos).</desc>
+  <rect x="1" y="1" width="898" height="638" rx="14" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" fill="#1f2937">
+    <text x="45.1" y="29.9" text-anchor="start" font-size="21" font-weight="800" fill="#1f2937">MODELO A</text>
+    <path d="M65.6 143.0L155.8 82.4M46.7 179.1L61.5 300.5" fill="none" stroke="#1f2937" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M469.0 174.2L469.0 279.2M580.6 174.2L580.6 279.2M687.2 174.2L687.2 279.2M791.3 174.2L791.3 279.2M113.2 321.8L113.2 457.1M178.8 321.8L178.8 457.1M260.8 321.8L260.8 457.1M688.8 321.8L688.8 489.9M779.0 321.8L779.0 489.9" fill="none" stroke="#1f2937" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M166.5 98.8L284.5 98.8A21.3 19.2 0 0 0 299.3 69.0A27.9 25.1 0 0 0 261.6 51.1A27.9 25.1 0 0 0 217.3 47.3A26.2 23.6 0 0 0 179.6 56.5A23.0 20.7 0 0 0 150.1 74.4A24.6 22.1 0 0 0 166.5 98.8Z" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <text x="225.5" y="80.9" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">INTERNET</text>
+    <path d="M7.4 148.8V173.4A39.4 9.0 0 0 0 86.1 173.4V148.8" fill="#f5f3ff" stroke="#1f2937" stroke-width="2"/>
+    <ellipse cx="46.7" cy="148.8" rx="39.4" ry="9.0" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <text x="46.7" y="170.6" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Router</text>
+    <path d="M64.9 279.2H884.7A7.5 21.3 0 0 1 884.7 321.8H64.9A7.5 21.3 0 0 1 64.9 279.2Z" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <ellipse cx="884.7" cy="300.5" rx="7.5" ry="21.3" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.6"/>
+    <text x="474.8" y="307.5" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">10.20.30.0 / 24</text>
+    <rect x="565.8" y="59.4" width="176.3" height="39.4" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="653.9" y="84.6" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">PCs Usuarios</text>
+    <rect x="439.7" y="110.2" width="58.6" height="40.0" rx="3.6" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <rect x="446.0" y="116.3" width="46.1" height="26.7" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.2"/>
+    <path d="M463.5 150.3L460.7 161.2H477.4L474.6 150.3" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="443.9" y="161.2" width="50.2" height="9.7" rx="2" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="551.3" y="110.2" width="58.6" height="40.0" rx="3.6" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <rect x="557.5" y="116.3" width="46.1" height="26.7" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.2"/>
+    <path d="M575.0 150.3L572.2 161.2H588.9L586.1 150.3" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="555.4" y="161.2" width="50.2" height="9.7" rx="2" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="657.9" y="110.2" width="58.6" height="40.0" rx="3.6" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <rect x="664.1" y="116.3" width="46.1" height="26.7" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.2"/>
+    <path d="M681.6 150.3L678.8 161.2H695.5L692.7 150.3" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="662.0" y="161.2" width="50.2" height="9.7" rx="2" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="762.0" y="110.2" width="58.6" height="40.0" rx="3.6" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <rect x="768.3" y="116.3" width="46.1" height="26.7" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.2"/>
+    <path d="M785.7 150.3L782.9 161.2H799.7L796.9 150.3" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="766.2" y="161.2" width="50.2" height="9.7" rx="2" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="86.9" y="457.1" width="52.5" height="82.0" rx="4.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M97.4 470.2H128.9M97.4 478.4H128.9M97.4 486.6H128.9" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="113.2" cy="502.2" r="3.1" fill="#7c3aed"/>
+    <path d="M100.0 516.1H126.3M100.0 521.9H126.3M100.0 527.6H126.3" stroke="#1f2937" stroke-width="1.2"/>
+    <rect x="152.5" y="457.1" width="52.5" height="82.0" rx="4.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M163.0 470.2H194.5M163.0 478.4H194.5M163.0 486.6H194.5" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="178.8" cy="502.2" r="3.1" fill="#7c3aed"/>
+    <path d="M165.6 516.1H191.9M165.6 521.9H191.9M165.6 527.6H191.9" stroke="#1f2937" stroke-width="1.2"/>
+    <rect x="234.5" y="457.1" width="52.5" height="82.0" rx="4.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M245.0 470.2H276.5M245.0 478.4H276.5M245.0 486.6H276.5" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="260.8" cy="502.2" r="3.1" fill="#7c3aed"/>
+    <path d="M247.6 516.1H273.9M247.6 521.9H273.9M247.6 527.6H273.9" stroke="#1f2937" stroke-width="1.2"/>
+    <rect x="102.5" y="555.5" width="174.7" height="38.5" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="189.8" y="580.3" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">Aplicaciones</text>
+    <rect x="660.1" y="489.9" width="57.4" height="79.5" rx="4.6" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M671.6 502.6H706.0M671.6 510.6H706.0M671.6 518.5H706.0" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="688.8" cy="533.6" r="3.4" fill="#7c3aed"/>
+    <path d="M695.1 546.5V562.2A12.1 4.1 0 0 0 719.2 562.2V546.5" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.6"/>
+    <ellipse cx="707.2" cy="546.5" rx="12.1" ry="4.1" fill="#ede9fe" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="750.3" y="489.9" width="57.4" height="79.5" rx="4.6" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M761.8 502.6H796.2M761.8 510.6H796.2M761.8 518.5H796.2" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="779.0" cy="533.6" r="3.4" fill="#7c3aed"/>
+    <path d="M785.3 546.5V562.2A12.1 4.1 0 0 0 809.4 562.2V546.5" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.6"/>
+    <ellipse cx="797.4" cy="546.5" rx="12.1" ry="4.1" fill="#ede9fe" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="647.8" y="590.8" width="172.2" height="38.5" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="733.9" y="615.5" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">Bases de Datos</text>
+  </g>
+</svg>

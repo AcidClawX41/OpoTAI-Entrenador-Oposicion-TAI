@@ -1,0 +1,63 @@
+{
+  "topic": "IV.5",
+  "summary": "Conceptos de seguridad (dimensiones del ENS, activos, amenazas, vulnerabilidades y riesgo, MAGERIT), seguridad física y lógica, malware, ingeniería social y ataques, gestión de vulnerabilidades (CVE, CVSS, NVD), criptografía simétrica, asimétrica, hash y poscuántica, protocolos seguros y PKI, firma digital (eIDAS, CAdES, XAdES, PAdES, AutoFirma), infraestructura de CPD (TIA-942, energía, climatización, extinción, PUE), gestión de incidencias (ITIL, ITSM, CCN-CERT, LUCIA) y control remoto de puestos.",
+  "key_points": [
+    "Dimensiones del ENS: confidencialidad, integridad, disponibilidad, autenticidad y trazabilidad; una base de datos corrupta e inaccesible afecta a la integridad y a la disponibilidad.",
+    "Riesgo = probabilidad × impacto sobre activos con vulnerabilidades; metodologías MAGERIT (con PILAR), ISO/IEC 27005, NIST SP 800-30 y OCTAVE; amenazas MAGERIT N, I, E y A.",
+    "Ataques: sniffing captura, spoofing falsea el origen, DDoS ataca un objetivo desde muchos orígenes, escaneo de puertos obtiene información; vishing por teléfono; tailgating colándose tras alguien autorizado; APT según el CCN.",
+    "NVD es una base de datos de vulnerabilidades; CVE identifica, CWE tipifica y CVSS 4.0 puntúa; herramientas del CCN: PILAR, LUCIA, INES, CLAUDIA, microCLAUDIA y CARMEN.",
+    "Simétricos: AES, ChaCha20, GOST 28147-89; asimétricos: RSA, Diffie-Hellman, ElGamal, DSA, ECDSA (firma); resúmenes SHA-2 y SHA-3 (MD5 y SHA-1 rotos); 112 bits ≈ RSA 2048 y 128 bits ≈ RSA 3072 o ECC 256.",
+    "Firma digital: resumen cifrado con la clave privada y verificado con la pública; da autenticidad, integridad y no repudio, no confidencialidad; eIDAS distingue firma simple, avanzada y cualificada.",
+    "Formatos: CAdES binario y apto para ficheros grandes, XAdES en XML (detached, enveloping, enveloped), PAdES dentro del PDF; niveles B-B, B-T, B-LT y B-LTA; cofirma en paralelo y contrafirma sobre otra firma.",
+    "CPD: TIA-942 con espacios ER, MDA, HDA, ZDA y EDA (equipos finales) y cuatro niveles de disponibilidad del 1 al 4; SAI de doble conversión, N+1 y 2N, pasillos frío y caliente, extinción por gas; PUE = energía total / energía de TI.",
+    "ITIL: buenas prácticas de gestión de servicios TI; incidencia (restaurar) frente a problema (causa raíz); prioridad = impacto × urgencia; ITSM como Remedy/Helix, ServiceNow, GLPI u osTicket.",
+    "Ciberincidentes: ENS op.exp.7 y notificación al CCN-CERT con LUCIA; brechas de datos a la AEPD en 72 h; control remoto autorizado, cifrado, deshabilitado si no se usa y registrado (op.acc.6.r9)."
+  ],
+  "sources": [
+    {
+      "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+    },
+    {
+      "title": "PAe · MAGERIT v3",
+      "url": "https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Magerit.html"
+    },
+    {
+      "title": "Reglamento (UE) 910/2014 (eIDAS), versión consolidada",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:02014R0910-20240520"
+    },
+    {
+      "title": "Ley 6/2020, de servicios electrónicos de confianza",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+    },
+    {
+      "title": "Portal de Firma Electrónica",
+      "url": "https://firmaelectronica.gob.es/"
+    },
+    {
+      "title": "NIST SP 800-57 Part 1 Rev. 5",
+      "url": "https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final"
+    },
+    {
+      "title": "NIST · Post-Quantum Cryptography",
+      "url": "https://csrc.nist.gov/projects/post-quantum-cryptography"
+    },
+    {
+      "title": "NIST SP 800-61 Rev. 3",
+      "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final"
+    },
+    {
+      "title": "CCN-CERT",
+      "url": "https://www.ccn-cert.cni.es/"
+    },
+    {
+      "title": "FIRST · CVSS v4.0",
+      "url": "https://www.first.org/cvss/v4-0/"
+    },
+    {
+      "title": "Directiva (UE) 2023/1791, de eficiencia energética",
+      "url": "https://eur-lex.europa.eu/eli/dir/2023/1791/oj"
+    }
+  ],
+  "updated": "2026-10-11"
+}

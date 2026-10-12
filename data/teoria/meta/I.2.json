@@ -1,0 +1,28 @@
+{
+  "topic": "I.2",
+  "summary": "Composición, organización y atribuciones de las Cortes Generales y de cada Cámara (incluida la reforma de 2026 sobre los senadores de Formentera), el Tribunal Constitucional (composición, organización, procesos y efectos de sus sentencias) y el Defensor del Pueblo (elección, estatuto y procedimiento de quejas).",
+  "key_points": [
+    "Cortes = Congreso + Senado; potestad legislativa, Presupuestos y control del Gobierno; prohibido el mandato imperativo; aforamiento ante la Sala de lo Penal del TS.",
+    "Congreso: 300-400 diputados (350 por la LOREG), circunscripción provincial, D'Hondt con el 3 %; Senado: 4 por provincia, islas con 3 o 1 (Ibiza y Formentera separadas desde la reforma de 2026), 2 en Ceuta y Melilla y senadores autonómicos.",
+    "Diputación Permanente: mínimo 21 miembros, presidida por el Presidente de la Cámara, en funciones hasta la constitución de las nuevas Cortes.",
+    "Leyes orgánicas: mayoría absoluta del Congreso; delegación: ley de bases (textos articulados) o ley ordinaria (textos refundidos); decretos-leyes convalidados en 30 días.",
+    "Senado: 2 meses (20 días naturales si es urgente) para vetar por mayoría absoluta o enmendar; el Congreso levanta el veto por mayoría absoluta o simple a los 2 meses.",
+    "TC: 12 magistrados (4 Congreso y 4 Senado por 3/5, 2 Gobierno, 2 CGPJ), 9 años, renovación por tercios cada 3; Presidente 3 años.",
+    "Recurso de inconstitucionalidad: 3 meses (9 con Comisión Bilateral); legitimados: Presidente del Gobierno, Defensor del Pueblo, 50 diputados, 50 senadores y órganos autonómicos.",
+    "Art. 161.2: la impugnación de disposiciones autonómicas por el Gobierno suspende automáticamente; el TC ratifica o levanta en 5 meses.",
+    "Defensor del Pueblo: alto comisionado de las Cortes; 5 años; 3/5 del Congreso y del Senado; cualquier español mayor de edad con plenos derechos civiles y políticos.",
+    "Quejas al Defensor: en 1 año, gratuitas y sin abogado; no anula actos; recomienda, advierte y puede interponer inconstitucionalidad y amparo."
+  ],
+  "sources": [
+    { "title": "Constitución Española (BOE-A-1978-31229)", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229" },
+    { "title": "Reforma del artículo 69.3 de la Constitución, de 19 de mayo de 2026", "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881" },
+    { "title": "Ley Orgánica 2/2026, de adaptación de la LOREG a la reforma del artículo 69.3", "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14329" },
+    { "title": "Ley Orgánica 5/1985, del Régimen Electoral General", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672" },
+    { "title": "Reglamento del Congreso de los Diputados", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196" },
+    { "title": "Reglamento del Senado (texto refundido de 1994)", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-10830" },
+    { "title": "Ley Orgánica 2/1979, del Tribunal Constitucional", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709" },
+    { "title": "Ley Orgánica 3/1981, del Defensor del Pueblo", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325" },
+    { "title": "Ley Orgánica 2/2024, de representación paritaria", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936" }
+  ],
+  "updated": "2026-10-11"
+}

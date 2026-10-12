@@ -1,0 +1,92 @@
+<!-- opotai.diagrams: tools/sources/diagramas/IV.7/subredes-26.svg sha256=cc3f1826ddb5da05 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 366" width="900" height="366" role="img" aria-labelledby="t d">
+  <title id="t">Subredes: 10.20.30.0/24 dividida en cuatro /26</title>
+  <desc id="d">La máscara /26 (255.255.255.192) toma 2 bits prestados del último octeto: 24 bits de red, 2 de subred y 6 de host. Resultan 4 subredes de bloque 64 con 62 hosts útiles cada una: .0/26 (hosts .1 a .62, difusión .63), .64/26 (.65 a .126, difusión .127), .128/26 (.129 a .190, difusión .191) y .192/26 (.193 a .254, difusión .255).</desc>
+  <rect x="0" y="0" width="900" height="366" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <text x="20" y="32" font-size="17" font-weight="700">10.20.30.0/24 en 4 subredes iguales → /26 = 255.255.255.192 (bloque 64)</text>
+
+    <!-- Máscara: tres octetos de red -->
+    <g text-anchor="middle">
+      <rect x="20" y="62" width="150" height="56" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+      <text x="95" y="86" font-size="16" font-weight="700">255</text>
+      <text x="95" y="108" font-size="14" fill="#475569">11111111</text>
+      <rect x="180" y="62" width="150" height="56" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+      <text x="255" y="86" font-size="16" font-weight="700">255</text>
+      <text x="255" y="108" font-size="14" fill="#475569">11111111</text>
+      <rect x="340" y="62" width="150" height="56" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+      <text x="415" y="86" font-size="16" font-weight="700">255</text>
+      <text x="415" y="108" font-size="14" fill="#475569">11111111</text>
+    </g>
+
+    <!-- Último octeto bit a bit: 192 = 11000000 -->
+    <g text-anchor="middle">
+      <g font-size="13" fill="#475569">
+        <text x="523" y="56">128</text><text x="569" y="56">64</text><text x="615" y="56">32</text><text x="661" y="56">16</text>
+        <text x="707" y="56">8</text><text x="753" y="56">4</text><text x="799" y="56">2</text><text x="845" y="56">1</text>
+      </g>
+      <g stroke-width="1.5">
+        <rect x="502" y="62" width="42" height="56" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
+        <rect x="548" y="62" width="42" height="56" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
+        <rect x="594" y="62" width="42" height="56" rx="6" fill="#fef3c7" stroke="#d97706"/>
+        <rect x="640" y="62" width="42" height="56" rx="6" fill="#fef3c7" stroke="#d97706"/>
+        <rect x="686" y="62" width="42" height="56" rx="6" fill="#fef3c7" stroke="#d97706"/>
+        <rect x="732" y="62" width="42" height="56" rx="6" fill="#fef3c7" stroke="#d97706"/>
+        <rect x="778" y="62" width="42" height="56" rx="6" fill="#fef3c7" stroke="#d97706"/>
+        <rect x="824" y="62" width="42" height="56" rx="6" fill="#fef3c7" stroke="#d97706"/>
+      </g>
+      <g font-size="18" font-weight="700">
+        <text x="523" y="97">1</text><text x="569" y="97">1</text><text x="615" y="97">0</text><text x="661" y="97">0</text>
+        <text x="707" y="97">0</text><text x="753" y="97">0</text><text x="799" y="97">0</text><text x="845" y="97">0</text>
+      </g>
+    </g>
+
+    <!-- Llaves -->
+    <g fill="none" stroke-width="2">
+      <path d="M22 128 L22 136 L488 136 L488 128" stroke="#059669"/>
+      <path d="M504 128 L504 136 L588 136 L588 128" stroke="#7c3aed"/>
+      <path d="M596 128 L596 136 L864 136 L864 128" stroke="#d97706"/>
+    </g>
+    <g font-size="14">
+      <text x="255" y="158" text-anchor="middle"><tspan font-weight="700" fill="#047857">Red:</tspan> 24 bits del prefijo /24 original</text>
+      <text x="504" y="158"><tspan font-weight="700" fill="#6d28d9">Subred:</tspan> 2 bits prestados → 2² = 4 subredes</text>
+      <text x="504" y="180"><tspan font-weight="700" fill="#b45309">Host:</tspan> 6 bits → 2⁶ − 2 = 62 hosts útiles</text>
+    </g>
+
+    <!-- Reparto del último octeto -->
+    <g font-size="14">
+      <rect x="20" y="206" width="215" height="94" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+      <text x="34" y="230" font-weight="700" fill="#6d28d9">Subred 1 · .0/26</text>
+      <text x="34" y="253">red 10.20.30.0</text>
+      <text x="34" y="272">hosts .1 – .62</text>
+      <text x="34" y="291">difusión .63</text>
+
+      <rect x="235" y="206" width="215" height="94" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+      <text x="249" y="230" font-weight="700" fill="#6d28d9">Subred 2 · .64/26</text>
+      <text x="249" y="253">red 10.20.30.64</text>
+      <text x="249" y="272">hosts .65 – .126</text>
+      <text x="249" y="291">difusión .127</text>
+
+      <rect x="450" y="206" width="215" height="94" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+      <text x="464" y="230" font-weight="700" fill="#6d28d9">Subred 3 · .128/26</text>
+      <text x="464" y="253">red 10.20.30.128</text>
+      <text x="464" y="272">hosts .129 – .190</text>
+      <text x="464" y="291">difusión .191</text>
+
+      <rect x="665" y="206" width="215" height="94" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+      <text x="679" y="230" font-weight="700" fill="#6d28d9">Subred 4 · .192/26</text>
+      <text x="679" y="253">red 10.20.30.192</text>
+      <text x="679" y="272">hosts .193 – .254</text>
+      <text x="679" y="291">difusión .255</text>
+    </g>
+    <g font-size="13" fill="#475569" text-anchor="middle">
+      <path d="M20 304 L20 312 M235 304 L235 312 M450 304 L450 312 M665 304 L665 312 M880 304 L880 312" stroke="#64748b" stroke-width="1.5"/>
+      <text x="24" y="330" text-anchor="start">0</text>
+      <text x="235" y="330">64</text>
+      <text x="450" y="330">128</text>
+      <text x="665" y="330">192</text>
+      <text x="876" y="330" text-anchor="end">256</text>
+      <text x="450" y="356" font-size="13">valor del último octeto (los /26 empiezan en múltiplos de 64)</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 372" width="900" height="372" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Reconstrucción de OpoTAI: tablas departamentos e investigadores (MySQL)</title>
+  <desc id="descripcion">Redibujo del esquema escaneado del cuadernillo: departamentos (dep_id INT, dep_nombre VARCHAR(255), dep_ubicacion VARCHAR(255)) e investigadores (inv_id INT, clave subrayada; nombre VARCHAR(50), apellidos VARCHAR(100), email VARCHAR(100), contratado DATE, salario DECIMAL, dep_id INT, telefono INT), unidas por una línea con 1 junto a departamentos y N junto a investigadores.</desc>
+  <rect x="1" y="1" width="898" height="370" rx="14" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937">
+  <g aria-label="Tabla departamentos">
+    <rect x="24" y="208" width="330" height="132" fill="#ffffff" stroke="#1f2937" stroke-width="2.2"/>
+    <rect x="25.1" y="209.1" width="327.8" height="34.9" fill="#f5f3ff"/>
+    <text x="189.0" y="232" text-anchor="middle" font-weight="700" font-size="16">departamentos</text>
+    <path d="M24 244H354M24 248H354" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="36" cy="261" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="46" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">dep_id</text>
+    <text x="196" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">INT</text>
+    <circle cx="36" cy="289" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="46" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">dep_nombre</text>
+    <text x="196" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">VARCHAR(255)</text>
+    <circle cx="36" cy="317" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="46" y="328" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">dep_ubicacion</text>
+    <text x="196" y="328" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">VARCHAR(255)</text>
+  </g>
+  <g aria-label="Tabla investigadores">
+    <rect x="566" y="24" width="310" height="272" fill="#ffffff" stroke="#1f2937" stroke-width="2.2"/>
+    <rect x="567.1" y="25.1" width="307.8" height="34.9" fill="#f5f3ff"/>
+    <text x="721.0" y="48" text-anchor="middle" font-weight="700" font-size="16">investigadores</text>
+    <path d="M566 60H876M566 64H876" stroke="#1f2937" stroke-width="1.6"/>
+    <path d="M578 73L583 78L578 83L573 78Z" fill="#7c3aed"/>
+    <path d="M588 92H743.8" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="588" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">inv_id</text>
+    <text x="716" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">INT</text>
+    <circle cx="578" cy="105" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="588" y="116" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">nombre</text>
+    <text x="716" y="116" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">VARCHAR(50)</text>
+    <circle cx="578" cy="133" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="588" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">apellidos</text>
+    <text x="716" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">VARCHAR(100)</text>
+    <circle cx="578" cy="161" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="588" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">email</text>
+    <text x="716" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">VARCHAR(100)</text>
+    <circle cx="578" cy="189" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="588" y="200" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">contratado</text>
+    <text x="716" y="200" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">DATE</text>
+    <circle cx="578" cy="217" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="588" y="228" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">salario</text>
+    <text x="716" y="228" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">DECIMAL</text>
+    <circle cx="578" cy="245" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="588" y="256" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">dep_id</text>
+    <text x="716" y="256" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">INT</text>
+    <circle cx="578" cy="273" r="3.2" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+    <text x="588" y="284" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">telefono</text>
+    <text x="716" y="284" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, Courier New, monospace">INT</text>
+  </g>
+    <path d="M354 264H460V156H566" fill="none" stroke="#1f2937" stroke-width="2"/>
+    <text x="364" y="256" font-weight="700" fill="#7c3aed">1</text>
+    <text x="544" y="148" font-weight="700" fill="#7c3aed">N</text>
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "convocatoria": "li-test-obj",
+  "source": {
+    "title": "Temario de prueba",
+    "url": "https://example.org/temario"
+  },
+  "blocks": [
+    {
+      "id": "I",
+      "title": "Organización del Estado",
+      "topics": [
+        {
+          "id": "I.1",
+          "number": 1,
+          "title": "La Constitución",
+          "keywords": [
+            "constitución"
+          ]
+        },
+        {
+          "id": "I.2",
+          "number": 2,
+          "title": "Administración electrónica",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "id": "II",
+      "title": "Tecnología básica",
+      "topics": [
+        {
+          "id": "II.1",
+          "number": 1,
+          "title": "Hardware",
+          "keywords": []
+        },
+        {
+          "id": "II.2",
+          "number": 2,
+          "title": "Sistemas operativos",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "id": "III",
+      "title": "Desarrollo de sistemas",
+      "topics": [
+        {
+          "id": "III.1",
+          "number": 1,
+          "title": "Bases de datos",
+          "keywords": []
+        },
+        {
+          "id": "III.2",
+          "number": 2,
+          "title": "Programación",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "id": "IV",
+      "title": "Sistemas y comunicaciones",
+      "topics": [
+        {
+          "id": "IV.1",
+          "number": 1,
+          "title": "Redes",
+          "keywords": []
+        },
+        {
+          "id": "IV.2",
+          "number": 2,
+          "title": "Seguridad",
+          "keywords": []
+        },
+        {
+          "id": "IV.3",
+          "number": 3,
+          "title": "Servicios web",
+          "keywords": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+%% I.1 · Reforma constitucional: procedimientos ordinario (art. 167) y agravado (art. 168).
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+flowchart TD
+    INI["Iniciativa (art. 166):<br/>Gobierno, Congreso,<br/>Senado o Asambleas<br/>de las CC. AA.<br/>(no cabe la popular)"]
+    LIM{"¿Guerra o estado<br/>excepcional?<br/>(art. 169)"}
+    NO("No puede iniciarse")
+    QUE{"¿Afecta a partes<br/>protegidas?"}
+    PROT["Revisión total, Título<br/>Preliminar, Sección 1.ª del<br/>Cap. II del Título I<br/>o Título II (Corona)"]
+
+    O1["Ordinario (art. 167)<br/>3/5 de cada Cámara"]
+    O3["Si no hay acuerdo:<br/>comisión paritaria y<br/>nueva votación"]
+    O4["Si aun así fracasa:<br/>mayoría absoluta del<br/>Senado y 2/3 del Congreso"]
+    O5{"¿Lo pide 1/10<br/>de una Cámara<br/>en 15 días?"}
+    RO["Referéndum"]
+
+    A1["Agravado (art. 168)<br/>2/3 de cada Cámara<br/>aprueban el principio"]
+    A2["Disolución inmediata<br/>de las Cortes"]
+    A3["Las nuevas Cámaras<br/>ratifican y aprueban el<br/>texto por 2/3 de cada una"]
+    A4["Referéndum<br/>obligatorio"]
+
+    FIN("Sanción y publicación")
+
+    INI --> LIM
+    LIM -- "Sí" --> NO
+    LIM -- "No" --> QUE
+    QUE -. "son" .- PROT
+    QUE -- "No" --> O1
+    QUE -- "Sí" --> A1
+    O1 --> O3 --> O4 --> O5
+    O5 -- "Sí" --> RO --> FIN
+    O5 -- "No" --> FIN
+    A1 --> A2 --> A3 --> A4 --> FIN

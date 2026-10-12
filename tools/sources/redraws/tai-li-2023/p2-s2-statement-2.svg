@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 568" width="960" height="568" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Reconstrucción de OpoTAI: Modelo B (red segmentada en cuatro subredes)</title>
+  <desc id="descripcion">Redibujo del esquema del cuadernillo: la nube INTERNET se une a un Router conectado a la Subred de DMZ (rótulo DMZ). La Subred de DMZ llega a un par de cortafuegos (rótulo Clúster Firewalls), que se unen también a la Subred de PCs de Usuario (cuatro PCs encima; rótulo PCs Usuarios), a la Subred de Aplicaciones (tres servidores debajo; rótulo Aplicaciones) y a la Subred de Bases de Datos (dos servidores de base de datos debajo; rótulo Bases de Datos).</desc>
+  <rect x="1" y="1" width="958" height="566" rx="14" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" fill="#1f2937">
+    <text x="46.4" y="32.2" text-anchor="start" font-size="23" font-weight="800" fill="#1f2937">MODELO B</text>
+    <path d="M48.4 170.9L114.8 103.2M42.6 201.9L42.6 281.9M343.8 281.9L459.2 281.9M540.5 290.2L601.8 290.2M478.6 317.3L478.6 405.1L343.1 405.1M519.9 325.7L519.9 405.1L609.5 405.1" fill="none" stroke="#1f2937" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M132.6 127.7L267.3 127.7A24.3 21.9 0 0 0 284.1 95.1A31.8 28.6 0 0 0 241.1 75.5A31.8 28.6 0 0 0 190.6 71.3A29.9 26.9 0 0 0 147.6 81.4A26.2 23.6 0 0 0 113.9 101.0A28.1 25.3 0 0 0 132.6 127.7Z" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <text x="200.0" y="108.1" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">INTERNET</text>
+    <path d="M6.5 174.1V197.4A36.1 9.0 0 0 0 78.7 197.4V174.1" fill="#f5f3ff" stroke="#1f2937" stroke-width="2"/>
+    <ellipse cx="42.6" cy="174.1" rx="36.1" ry="9.0" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <text x="42.6" y="195.3" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Router</text>
+    <path d="M44.8 264.4H339.0A6.1 17.4 0 0 1 339.0 299.3H44.8A6.1 17.4 0 0 1 44.8 264.4Z" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <ellipse cx="339.0" cy="281.9" rx="6.1" ry="17.4" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.6"/>
+    <text x="191.9" y="288.9" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">Subred de DMZ</text>
+    <rect x="43.2" y="303.2" width="138.0" height="33.5" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="112.2" y="325.4" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">DMZ</text>
+    <rect x="410.2" y="196.7" width="156.7" height="33.5" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="488.6" y="219.0" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">Clúster Firewalls</text>
+    <rect x="459.2" y="245.1" width="37.4" height="72.2" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <path d="M459.2 257.1H496.7M459.2 269.2H496.7M459.2 281.2H496.7M459.2 293.3H496.7M459.2 305.3H496.7M477.9 245.1V257.1M468.6 257.1V269.2M487.3 257.1V269.2M477.9 269.2V281.2M468.6 281.2V293.3M487.3 281.2V293.3M477.9 293.3V305.3M468.6 305.3V317.3M487.3 305.3V317.3" stroke="#1f2937" stroke-width="1.2"/>
+    <rect x="500.5" y="252.8" width="40.0" height="72.9" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <path d="M500.5 265.0H540.5M500.5 277.1H540.5M500.5 289.3H540.5M500.5 301.4H540.5M500.5 313.6H540.5M520.5 252.8V265.0M510.5 265.0V277.1M530.5 265.0V277.1M520.5 277.1V289.3M510.5 289.3V301.4M530.5 289.3V301.4M520.5 301.4V313.6M510.5 313.6V325.7M530.5 313.6V325.7" stroke="#1f2937" stroke-width="1.2"/>
+    <path d="M603.1 277.4H939.8A4.5 12.9 0 0 1 939.8 303.2H603.1A4.5 12.9 0 0 1 603.1 277.4Z" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <ellipse cx="939.8" cy="290.2" rx="4.5" ry="12.9" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.6"/>
+    <text x="771.4" y="297.2" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">Subred de PCs de Usuario</text>
+    <rect x="639.2" y="237.4" width="37.4" height="25.5" rx="2.3" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <rect x="643.2" y="241.2" width="29.4" height="17.0" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.2"/>
+    <path d="M654.3 262.9L652.6 269.9H663.2L661.5 262.9" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="641.9" y="269.9" width="32.0" height="6.2" rx="2" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="710.2" y="237.4" width="37.4" height="25.5" rx="2.3" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <rect x="714.2" y="241.2" width="29.4" height="17.0" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.2"/>
+    <path d="M725.3 262.9L723.5 269.9H734.2L732.4 262.9" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="712.8" y="269.9" width="32.0" height="6.2" rx="2" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="795.3" y="237.4" width="37.4" height="25.5" rx="2.3" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <rect x="799.3" y="241.2" width="29.4" height="17.0" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.2"/>
+    <path d="M810.4 262.9L808.6 269.9H819.3L817.6 262.9" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="798.0" y="269.9" width="32.0" height="6.2" rx="2" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="876.6" y="237.4" width="37.4" height="25.5" rx="2.3" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <rect x="880.6" y="241.2" width="29.4" height="17.0" rx="2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.2"/>
+    <path d="M891.7 262.9L889.9 269.9H900.6L898.8 262.9" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="879.2" y="269.9" width="32.0" height="6.2" rx="2" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="800.4" y="312.2" width="138.7" height="32.2" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="869.8" y="333.8" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">PCs Usuarios</text>
+    <path d="M45.7 389.6H338.7A5.8 16.4 0 0 1 338.7 422.5H45.7A5.8 16.4 0 0 1 45.7 389.6Z" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <ellipse cx="338.7" cy="406.0" rx="5.8" ry="16.4" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.6"/>
+    <text x="192.2" y="413.0" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">Subred de Aplicaciones</text>
+    <rect x="101.9" y="430.2" width="47.7" height="79.3" rx="3.8" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M111.5 442.9H140.1M111.5 450.8H140.1M111.5 458.8H140.1" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="125.8" cy="473.8" r="2.9" fill="#7c3aed"/>
+    <path d="M113.8 487.3H137.7M113.8 492.9H137.7M113.8 498.4H137.7" stroke="#1f2937" stroke-width="1.2"/>
+    <rect x="174.8" y="430.2" width="47.7" height="79.3" rx="3.8" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M184.3 442.9H213.0M184.3 450.8H213.0M184.3 458.8H213.0" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="198.7" cy="473.8" r="2.9" fill="#7c3aed"/>
+    <path d="M186.7 487.3H210.6M186.7 492.9H210.6M186.7 498.4H210.6" stroke="#1f2937" stroke-width="1.2"/>
+    <rect x="245.7" y="430.2" width="47.7" height="79.3" rx="3.8" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M255.3 442.9H283.9M255.3 450.8H283.9M255.3 458.8H283.9" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="269.6" cy="473.8" r="2.9" fill="#7c3aed"/>
+    <path d="M257.7 487.3H281.5M257.7 492.9H281.5M257.7 498.4H281.5" stroke="#1f2937" stroke-width="1.2"/>
+    <rect x="43.2" y="523.7" width="158.0" height="32.2" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="122.2" y="545.4" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">Aplicaciones</text>
+    <path d="M612.1 389.6H945.0A5.8 16.4 0 0 1 945.0 422.5H612.1A5.8 16.4 0 0 1 612.1 389.6Z" fill="#ede9fe" stroke="#1f2937" stroke-width="2"/>
+    <ellipse cx="945.0" cy="406.0" rx="5.8" ry="16.4" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.6"/>
+    <text x="778.5" y="413.0" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">Subred de Bases de Datos</text>
+    <rect x="711.4" y="432.2" width="47.7" height="63.2" rx="3.8" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M721.0 442.3H749.6M721.0 448.6H749.6M721.0 454.9H749.6" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="735.3" cy="466.9" r="2.9" fill="#7c3aed"/>
+    <path d="M740.6 477.1V489.6A10.0 3.2 0 0 0 760.6 489.6V477.1" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.6"/>
+    <ellipse cx="750.6" cy="477.1" rx="10.0" ry="3.2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="811.4" y="432.2" width="47.7" height="63.2" rx="3.8" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M821.0 442.3H849.6M821.0 448.6H849.6M821.0 454.9H849.6" stroke="#1f2937" stroke-width="1.6"/>
+    <circle cx="835.3" cy="466.9" r="2.9" fill="#7c3aed"/>
+    <path d="M840.5 477.1V489.6A10.0 3.2 0 0 0 860.6 489.6V477.1" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.6"/>
+    <ellipse cx="850.5" cy="477.1" rx="10.0" ry="3.2" fill="#ede9fe" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="793.4" y="510.8" width="135.5" height="32.2" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="861.1" y="532.5" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">Bases de Datos</text>
+  </g>
+</svg>

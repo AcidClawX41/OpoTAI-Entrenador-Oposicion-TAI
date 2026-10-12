@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 892 360" width="892" height="360" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Reconstrucción de OpoTAI: modelo Entidad-Relación extendido inacabado</title>
+  <desc id="descripcion">Redibujo del modelo escaneado: Ciudadano (identificador NIF) se une a una relación sin nombre con AccionFormativa (identificador idAccionFormativa; atributos denominacion y numAlumnos), que se une a otra relación sin nombre con Aula (identificador idAula; atributos nomAula y numplazas). De AccionFormativa baja una doble línea a un triángulo del que salen líneas a Curso (horasTeoricas, horasPracticas) y Taller (especialidad, material). Sin cardinalidades. Los identificadores llevan el círculo relleno.</desc>
+  <rect x="1" y="1" width="890" height="358" rx="14" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937">
+    <path d="M134.8 144.0L168.4 144.0M238.8 144.0L265.2 144.0M484.4 140.0L510.0 140.0M581.2 140.0L616.4 140.0M363.2 171.2L363.2 237.6M395.2 171.2L395.2 237.6M366.8 259.2L286.0 288.0M395.6 256.8L431.6 287.2M82.0 53.6L82.0 116.8M242.8 51.2L351.6 116.0M429.2 52.0L390.0 116.0M582.0 49.6L454.0 116.0M744.4 121.6L757.2 113.6M744.4 132.8L758.0 132.8M744.4 156.8L756.4 156.8M230.0 303.2L277.2 303.2M230.0 332.0L277.2 332.0M462.8 303.2L512.4 303.2M462.8 332.0L512.4 332.0" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+    <rect x="30.0" y="116.8" width="105.6" height="54.4" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <text x="82.8" y="149.5" text-anchor="middle" font-weight="600" font-size="16">Ciudadano</text>
+    <rect x="265.2" y="116.0" width="219.2" height="55.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <text x="374.8" y="149.1" text-anchor="middle" font-weight="600" font-size="16">AccionFormativa</text>
+    <rect x="616.4" y="112.0" width="128.0" height="58.4" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <text x="680.4" y="146.7" text-anchor="middle" font-weight="600" font-size="16">Aula</text>
+    <rect x="277.2" y="288.0" width="75.2" height="56.8" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <text x="314.8" y="321.9" text-anchor="middle" font-weight="600" font-size="16">Curso</text>
+    <rect x="401.2" y="287.2" width="61.6" height="57.6" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <text x="432.0" y="321.5" text-anchor="middle" font-weight="600" font-size="16">Taller</text>
+    <path d="M168.4 144.0L203.6 117.6L238.8 144.0L203.6 170.4Z" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M510.0 140.0L545.6 114.4L581.2 140.0L545.6 165.6Z" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.8"/>
+    <path d="M335.6 237.6H422.0L378.8 268.8Z" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <circle cx="78.8" cy="42.4" r="10.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="94.2" y="47.4">NIF</text>
+    <circle cx="233.2" cy="41.6" r="10.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="248.6" y="46.6">idAccionFormativa</text>
+    <circle cx="435.6" cy="41.6" r="9.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+    <text x="449.8" y="46.6">denominacion</text>
+    <circle cx="590.0" cy="41.6" r="9.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+    <text x="604.2" y="46.6">numAlumnos</text>
+    <circle cx="765.2" cy="108.8" r="10.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="780.6" y="113.8">idAula</text>
+    <circle cx="767.6" cy="132.8" r="9.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+    <text x="781.8" y="137.8">nomAula</text>
+    <circle cx="766.0" cy="156.8" r="9.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+    <text x="780.2" y="161.8">numplazas</text>
+    <circle cx="220.4" cy="303.2" r="9.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+    <text x="206.2" y="308.2" text-anchor="end">horasTeoricas</text>
+    <circle cx="220.4" cy="332.0" r="9.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+    <text x="206.2" y="337.0" text-anchor="end">horasPracticas</text>
+    <circle cx="522.0" cy="303.2" r="9.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+    <text x="536.2" y="308.2">especialidad</text>
+    <circle cx="522.0" cy="332.0" r="9.2" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+    <text x="536.2" y="337.0">material</text>
+  </g>
+</svg>

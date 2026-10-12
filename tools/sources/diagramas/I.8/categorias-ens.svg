@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" font-family="Inter, system-ui, sans-serif" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Categorización de un sistema en el ENS</title>
+  <desc id="desc">Se asigna un nivel BAJO, MEDIO o ALTO a cada una de las cinco dimensiones de seguridad (confidencialidad, integridad, trazabilidad, autenticidad y disponibilidad) y la categoría del sistema la da el nivel más alto: en el ejemplo, MEDIA.</desc>
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="480" rx="14" fill="#ffffff"/>
+
+  <text x="30" y="40" font-size="21" font-weight="700" fill="#1f2937">Categorización de un sistema en el ENS (RD 311/2022, anexo I)</text>
+  <text x="30" y="62" font-size="13" fill="#475569">Ejemplo: valoración de un sistema de registro electrónico. El nivel de cada dimensión depende del perjuicio que causaría un incidente.</text>
+
+  <!-- Panel de dimensiones -->
+  <rect x="30" y="84" width="420" height="262" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="48" y="110" font-size="13" font-weight="700" fill="#475569" letter-spacing="0.6">1. NIVEL POR DIMENSIÓN</text>
+  <g font-size="13" font-weight="700" fill="#64748b" text-anchor="middle">
+    <text x="279" y="110">BAJO</text>
+    <text x="341" y="110">MEDIO</text>
+    <text x="403" y="110">ALTO</text>
+  </g>
+
+  <!-- Filas -->
+  <g font-size="14" font-weight="600" fill="#1f2937">
+    <!-- C -->
+    <circle cx="62" cy="139" r="14" fill="#2563eb"/>
+    <text x="62" y="144" fill="#ffffff" text-anchor="middle" font-weight="700">C</text>
+    <text x="86" y="144">Confidencialidad</text>
+    <!-- I -->
+    <circle cx="62" cy="183" r="14" fill="#2563eb"/>
+    <text x="62" y="188" fill="#ffffff" text-anchor="middle" font-weight="700">I</text>
+    <text x="86" y="188">Integridad</text>
+    <!-- T -->
+    <circle cx="62" cy="227" r="14" fill="#2563eb"/>
+    <text x="62" y="232" fill="#ffffff" text-anchor="middle" font-weight="700">T</text>
+    <text x="86" y="232">Trazabilidad</text>
+    <!-- A -->
+    <circle cx="62" cy="271" r="14" fill="#2563eb"/>
+    <text x="62" y="276" fill="#ffffff" text-anchor="middle" font-weight="700">A</text>
+    <text x="86" y="276">Autenticidad</text>
+    <!-- D -->
+    <circle cx="62" cy="315" r="14" fill="#2563eb"/>
+    <text x="62" y="320" fill="#ffffff" text-anchor="middle" font-weight="700">D</text>
+    <text x="86" y="320">Disponibilidad</text>
+  </g>
+
+  <!-- Casillas de nivel: vacías -->
+  <g fill="none" stroke="#cbd5e1" stroke-width="1.2">
+    <rect x="252" y="127" width="54" height="24" rx="12"/><rect x="314" y="127" width="54" height="24" rx="12"/><rect x="376" y="127" width="54" height="24" rx="12"/>
+    <rect x="252" y="171" width="54" height="24" rx="12"/><rect x="314" y="171" width="54" height="24" rx="12"/><rect x="376" y="171" width="54" height="24" rx="12"/>
+    <rect x="252" y="215" width="54" height="24" rx="12"/><rect x="314" y="215" width="54" height="24" rx="12"/><rect x="376" y="215" width="54" height="24" rx="12"/>
+    <rect x="252" y="259" width="54" height="24" rx="12"/><rect x="314" y="259" width="54" height="24" rx="12"/><rect x="376" y="259" width="54" height="24" rx="12"/>
+    <rect x="252" y="303" width="54" height="24" rx="12"/><rect x="314" y="303" width="54" height="24" rx="12"/><rect x="376" y="303" width="54" height="24" rx="12"/>
+  </g>
+  <!-- Valores del ejemplo -->
+  <g font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="252" y="127" width="54" height="24" rx="12" fill="#059669"/><text x="279" y="143.5" fill="#ffffff">BAJO</text>
+    <rect x="314" y="171" width="54" height="24" rx="12" fill="#b45309"/><text x="341" y="187.5" fill="#ffffff">MEDIO</text>
+    <rect x="314" y="215" width="54" height="24" rx="12" fill="#b45309"/><text x="341" y="231.5" fill="#ffffff">MEDIO</text>
+    <rect x="314" y="259" width="54" height="24" rx="12" fill="#b45309"/><text x="341" y="275.5" fill="#ffffff">MEDIO</text>
+    <rect x="252" y="303" width="54" height="24" rx="12" fill="#059669"/><text x="279" y="319.5" fill="#ffffff">BAJO</text>
+  </g>
+
+  <!-- Flecha -->
+  <line x1="454" y1="215" x2="500" y2="215" stroke="#1f2937" stroke-width="1.8" marker-end="url(#flecha)"/>
+
+  <!-- Categoría -->
+  <rect x="505" y="140" width="160" height="150" rx="12" fill="#fef3c7" stroke="#b45309" stroke-width="1.8"/>
+  <text x="585" y="166" font-size="13" font-weight="700" fill="#475569" text-anchor="middle" letter-spacing="0.6">2. CATEGORÍA</text>
+  <text x="585" y="214" font-size="30" font-weight="800" fill="#b45309" text-anchor="middle">MEDIA</text>
+  <text x="585" y="244" font-size="13" fill="#1f2937" text-anchor="middle">el nivel más alto</text>
+  <text x="585" y="262" font-size="13" fill="#1f2937" text-anchor="middle">es MEDIO y</text>
+  <text x="585" y="280" font-size="13" fill="#1f2937" text-anchor="middle">ninguno es ALTO</text>
+
+  <!-- Reglas -->
+  <rect x="690" y="84" width="180" height="262" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="706" y="110" font-size="13" font-weight="700" fill="#475569" letter-spacing="0.6">REGLA</text>
+  <rect x="706" y="124" width="148" height="62" rx="8" fill="#ffe4e6"/>
+  <text x="718" y="146" font-size="14" font-weight="700" fill="#be123c">ALTA</text>
+  <text x="718" y="166" font-size="13" fill="#1f2937">alguna dimensión</text>
+  <text x="718" y="181" font-size="13" fill="#1f2937">es ALTA</text>
+  <rect x="706" y="196" width="148" height="62" rx="8" fill="#fef3c7"/>
+  <text x="718" y="218" font-size="14" font-weight="700" fill="#b45309">MEDIA</text>
+  <text x="718" y="238" font-size="13" fill="#1f2937">alguna es MEDIA y</text>
+  <text x="718" y="253" font-size="13" fill="#1f2937">ninguna es ALTA</text>
+  <rect x="706" y="268" width="148" height="62" rx="8" fill="#d1fae5"/>
+  <text x="718" y="290" font-size="14" font-weight="700" fill="#059669">BÁSICA</text>
+  <text x="718" y="310" font-size="13" fill="#1f2937">alguna es BAJA y</text>
+  <text x="718" y="325" font-size="13" fill="#1f2937">ninguna superior</text>
+
+  <!-- Notas -->
+  <rect x="30" y="366" width="840" height="92" rx="12" fill="#f8fafc"/>
+  <g font-size="13" fill="#1f2937">
+    <text x="48" y="392"><tspan font-weight="700" fill="#1f2937">Niveles según el perjuicio:</tspan> BAJO, limitado · MEDIO, grave · ALTO, muy grave. Si una dimensión no se ve afectada, no recibe nivel.</text>
+    <text x="48" y="414"><tspan font-weight="700" fill="#1f2937">Quién decide (art. 41):</tspan> el responsable de la información o del servicio valora cada dimensión;</text>
+    <text x="48" y="432">el responsable de la seguridad determina la categoría del sistema. Si hay varias informaciones o servicios, en</text>
+    <text x="48" y="450">cada dimensión se toma el nivel mayor. La categoría se reevalúa anualmente.</text>
+  </g>
+</svg>

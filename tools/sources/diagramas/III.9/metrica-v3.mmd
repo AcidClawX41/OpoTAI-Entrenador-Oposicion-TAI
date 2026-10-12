@@ -1,0 +1,28 @@
+%% III.9 · Procesos principales e interfaces de Métrica v3.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+flowchart TB
+    PSI["PSI · Planificación de<br/>Sistemas de Información"]
+
+    subgraph DES["Desarrollo de Sistemas de Información"]
+        direction LR
+        EVS["EVS<br/>Estudio de<br/>Viabilidad"]
+        ASI["ASI<br/>Análisis"]
+        DSI["DSI<br/>Diseño"]
+        CSI["CSI<br/>Construcción"]
+        IAS["IAS<br/>Implantación<br/>y Aceptación"]
+        EVS --> ASI --> DSI --> CSI --> IAS
+    end
+
+    MSI["MSI · Mantenimiento de<br/>Sistemas de Información<br/>(correctivo y evolutivo)"]
+
+    subgraph INT["Interfaces: acompañan a todos los procesos"]
+        direction LR
+        GP["GP<br/>Gestión de<br/>Proyectos"]
+        SEG["SEG<br/>Seguridad"]
+        GC["GC<br/>Gestión de la<br/>Configuración"]
+        CAL["CAL<br/>Aseguramiento<br/>de la Calidad"]
+        GP ~~~ SEG ~~~ GC ~~~ CAL
+    end
+
+    PSI --> DES --> MSI
+    MSI ~~~ INT

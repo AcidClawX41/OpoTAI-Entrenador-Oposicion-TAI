@@ -1,0 +1,59 @@
+{
+  "topic": "III.3",
+  "summary": "Lenguajes de consulta y SQL estándar (ISO/IEC 9075, SQL:2023): sublenguajes DDL, DML, DCL y TCL, sintaxis de SELECT con JOIN, GROUP BY, HAVING, subconsultas y funciones de ventana, transacciones y niveles de aislamiento, permisos, procedimientos almacenados (SQL/PSM, PL/SQL, Transact-SQL), eventos programados y disparadores, con un ejercicio tipo supuesto.",
+  "key_points": [
+    "SQL: SEQUEL de IBM (1974), ANSI 1986 e ISO 1987; edición vigente SQL:2023 (ISO/IEC 9075), con JSON y consultas de grafos SQL/PGQ; GQL es ISO/IEC 39075:2024.",
+    "DDL: CREATE, ALTER, DROP, TRUNCATE; DML: SELECT, INSERT, UPDATE, DELETE, MERGE; DCL: GRANT, REVOKE (DENY en T-SQL); TCL: COMMIT, ROLLBACK, SAVEPOINT.",
+    "Orden lógico: FROM, WHERE, GROUP BY, HAVING, SELECT, DISTINCT, ORDER BY; los agregados no van en WHERE sino en HAVING.",
+    "DELETE borra filas (admite WHERE y dispara triggers); TRUNCATE vacía la tabla; DROP elimina estructura y datos.",
+    "INNER JOIN devuelve coincidencias; LEFT JOIN + IS NULL, las filas sin correspondencia; FROM a, b sin condición es un producto cartesiano.",
+    "Aislamiento: READ UNCOMMITTED, READ COMMITTED (evita lecturas sucias), REPEATABLE READ (evita también las no repetibles, no las fantasma) y SERIALIZABLE.",
+    "Procedimientos almacenados: compilados en el servidor, parámetros IN, OUT e INOUT; SQL/PSM (ISO/IEC 9075-4), PL/SQL, Transact-SQL, PL/pgSQL; tipos en SQL Server: definidos por el usuario, temporales, del sistema y extendidos.",
+    "Eventos de MySQL: CREATE EVENT … ON SCHEDULE AT | EVERY; uno puntual se elimina solo salvo ON COMPLETION PRESERVE.",
+    "Disparadores: modelo evento-condición-acción; CREATE TRIGGER nombre BEFORE UPDATE OF col ON tabla FOR EACH ROW; BEFORE, AFTER e INSTEAD OF; un error aborta la sentencia que lo activó.",
+    "SQL Server no tiene triggers BEFORE y sus tipos son DML, DDL y LOGON (pseudotablas inserted y deleted); MySQL solo tiene triggers de fila."
+  ],
+  "sources": [
+    {
+      "title": "ISO/IEC 9075-1:2023, SQL/Framework",
+      "url": "https://www.iso.org/standard/76583.html"
+    },
+    {
+      "title": "ISO/IEC 39075:2024, GQL",
+      "url": "https://www.iso.org/standard/76120.html"
+    },
+    {
+      "title": "Oracle Database SQL Language Reference",
+      "url": "https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/"
+    },
+    {
+      "title": "Oracle PL/SQL Language Reference",
+      "url": "https://docs.oracle.com/en/database/oracle/oracle-database/23/lnpls/"
+    },
+    {
+      "title": "Microsoft Learn · Procedimientos almacenados (motor de base de datos)",
+      "url": "https://learn.microsoft.com/es-es/sql/relational-databases/stored-procedures/stored-procedures-database-engine"
+    },
+    {
+      "title": "Microsoft Learn · CREATE TRIGGER (Transact-SQL)",
+      "url": "https://learn.microsoft.com/es-es/sql/t-sql/statements/create-trigger-transact-sql"
+    },
+    {
+      "title": "Microsoft Learn · SET TRANSACTION ISOLATION LEVEL",
+      "url": "https://learn.microsoft.com/es-es/sql/t-sql/statements/set-transaction-isolation-level-transact-sql"
+    },
+    {
+      "title": "MySQL 8.4 Reference Manual · CREATE EVENT",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/create-event.html"
+    },
+    {
+      "title": "PostgreSQL · CREATE TRIGGER",
+      "url": "https://www.postgresql.org/docs/current/sql-createtrigger.html"
+    },
+    {
+      "title": "OWASP · SQL Injection Prevention Cheat Sheet",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+    }
+  ],
+  "updated": "2026-10-11"
+}

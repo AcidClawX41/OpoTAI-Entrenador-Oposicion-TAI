@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-labelledby="t d">
+  <title id="t">Dominios de colisión y de difusión</title>
+  <desc id="d">Un router con dos interfaces. En la primera hay un concentrador (hub) con tres equipos: todo él, incluido el enlace con el router, es un único dominio de colisión. En la segunda hay un conmutador (switch) con cuatro equipos: cada puerto es su propio dominio de colisión, cuatro para los equipos y uno para el enlace con el router. En total, seis dominios de colisión. Cada interfaz del router delimita un dominio de difusión: dos en total.</desc>
+  <defs>
+    <marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <text x="20" y="34" font-size="20" font-weight="700" fill="#1f2937">Dominios de colisión y de difusión</text>
+    <text x="20" y="56" font-size="13" fill="#475569">Un router con dos interfaces: en una cuelga un hub y en la otra, un switch</text>
+    <rect x="30" y="150" width="380" height="248" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8" stroke-dasharray="8 5"/>
+    <rect x="490" y="150" width="380" height="248" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8" stroke-dasharray="8 5"/>
+    <text x="46" y="388" font-size="13" font-weight="700" fill="#1d4ed8">Dominio de difusión A</text>
+    <text x="854" y="388" font-size="13" text-anchor="end" font-weight="700" fill="#1d4ed8">Dominio de difusión B</text>
+    <rect x="48" y="166" width="344" height="196" rx="12" fill="#fff1f2" stroke="#e11d48" stroke-width="1.8" stroke-dasharray="4 4"/>
+    <rect x="380" y="78" width="140" height="44" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="450" y="106" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Router (capa 3)</text>
+    <rect x="190" y="196" width="120" height="40" rx="8" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5"/>
+    <text x="250" y="221" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Hub (capa 1)</text>
+    <rect x="620" y="196" width="120" height="40" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="680" y="221" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Switch (capa 2)</text>
+    <path d="M420,122 L420,160 L290,160 L290,196" fill="none" stroke="#475569" stroke-width="2"/>
+    <path d="M480,122 L480,160 L680,160 L680,196" fill="none" stroke="#475569" stroke-width="2"/>
+    <path d="M250,236 L250,262 L150,262 L150,296" fill="none" stroke="#475569" stroke-width="2"/>
+    <rect x="120" y="296" width="60" height="32" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="150" y="317" font-size="13" text-anchor="middle" font-weight="600" fill="#475569">PC</text>
+    <path d="M250,236 L250,262 L250,262 L250,296" fill="none" stroke="#475569" stroke-width="2"/>
+    <rect x="220" y="296" width="60" height="32" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="250" y="317" font-size="13" text-anchor="middle" font-weight="600" fill="#475569">PC</text>
+    <path d="M250,236 L250,262 L350,262 L350,296" fill="none" stroke="#475569" stroke-width="2"/>
+    <rect x="320" y="296" width="60" height="32" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="350" y="317" font-size="13" text-anchor="middle" font-weight="600" fill="#475569">PC</text>
+    <path d="M680,236 L680,262 L545,262 L545,296" fill="none" stroke="#475569" stroke-width="2"/>
+    <rect x="515" y="296" width="60" height="32" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="545" y="317" font-size="13" text-anchor="middle" font-weight="600" fill="#475569">PC</text>
+    <path d="M680,236 L680,262 L635,262 L635,296" fill="none" stroke="#475569" stroke-width="2"/>
+    <rect x="605" y="296" width="60" height="32" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="635" y="317" font-size="13" text-anchor="middle" font-weight="600" fill="#475569">PC</text>
+    <path d="M680,236 L680,262 L725,262 L725,296" fill="none" stroke="#475569" stroke-width="2"/>
+    <rect x="695" y="296" width="60" height="32" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="725" y="317" font-size="13" text-anchor="middle" font-weight="600" fill="#475569">PC</text>
+    <path d="M680,236 L680,262 L815,262 L815,296" fill="none" stroke="#475569" stroke-width="2"/>
+    <rect x="785" y="296" width="60" height="32" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="815" y="317" font-size="13" text-anchor="middle" font-weight="600" fill="#475569">PC</text>
+    <circle cx="70" cy="184" r="11" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="70" y="189" font-size="13" text-anchor="middle" font-weight="700" fill="#be123c">1</text>
+    <text x="86" y="189" font-size="13" font-weight="600" fill="#be123c">un solo dominio de colisión</text>
+    <text x="220" y="352" font-size="13" text-anchor="middle" fill="#475569">el hub repite cada bit por todos los puertos</text>
+    <circle cx="563" cy="280" r="11" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="563" y="285" font-size="13" text-anchor="middle" font-weight="700" fill="#be123c">2</text>
+    <circle cx="653" cy="280" r="11" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="653" y="285" font-size="13" text-anchor="middle" font-weight="700" fill="#be123c">3</text>
+    <circle cx="743" cy="280" r="11" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="743" y="285" font-size="13" text-anchor="middle" font-weight="700" fill="#be123c">4</text>
+    <circle cx="833" cy="280" r="11" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="833" y="285" font-size="13" text-anchor="middle" font-weight="700" fill="#be123c">5</text>
+    <circle cx="600" cy="160" r="11" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="600" y="165" font-size="13" text-anchor="middle" font-weight="700" fill="#be123c">6</text>
+    <text x="680" y="352" font-size="13" text-anchor="middle" fill="#475569">cada puerto del switch es un dominio de colisión</text>
+    <rect x="16" y="412" width="868" height="76" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="32" y="438" font-size="15" font-weight="700" fill="#be123c">Colisión: 6</text>
+    <text x="150" y="438" font-size="13" fill="#475569">1 del hub (con su enlace al router) + 4 puertos del switch con equipos + 1 enlace switch–router</text>
+    <text x="32" y="470" font-size="15" font-weight="700" fill="#1d4ed8">Difusión: 2</text>
+    <text x="150" y="470" font-size="13" fill="#475569">una por interfaz del router: el router no reenvía difusiones; hub y switch sí (salvo VLAN)</text>
+  </g>
+</svg>

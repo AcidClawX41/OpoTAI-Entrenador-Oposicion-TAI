@@ -1,0 +1,190 @@
+{
+  "bank_id": "tai-pi-2018",
+  "title": "TAI · Promoción interna · Convocatoria 2018 (OEP 2017) · ejercicio único",
+  "description": "Proceso selectivo de acceso por promoción interna (personal funcionario y laboral fijo) al Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2017). Ejercicio único en dos partes: cuestionario de 50 preguntas (+3 de reserva) y un supuesto práctico a elegir entre dos (bloques III y IV), de 12 preguntas (+3 de reserva) cada uno; 90 minutos. Cuadernillo escaneado: transcrito por OCR y corregido tras revisarlo.",
+  "access": "promocion_interna",
+  "year": 2018,
+  "convocatoria": "pi-2018",
+  "exam_date": null,
+  "model": null,
+  "duration_minutes": 90,
+  "scoring_scheme": "tai-pi-2018",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 25 de enero de 2018 de la Secretaría de Estado de Función Pública (BOE 29/01/2018), OEP 2017; el id usa el año de la resolución (2018). La sede del INAP ya no publica los documentos de este proceso: se usan copias públicas de los PDF oficiales (cuestionario «17/TAI-PI» y plantilla definitiva del INAP, sin alterar) archivadas en baquedano.es. El cuadernillo es un escaneo sin capa de texto: el texto procede de OCR (Tesseract, una pasada a 300 ppp, caché versionada en tools/sources/ocr/) corregido después (ortografía, siglas y erratas del OCR, revisando la imagen en los casos dudosos); las preguntas con dudas de lectura llevan needs_review. Se pierde la negrita del original. Se omiten la portada de instrucciones y las páginas en blanco. Respuestas según la plantilla definitiva (preguntas 20 y 46 de la primera parte, anuladas). Fecha del examen no localizada.",
+    "documents": [
+      "cuadernillo.pdf",
+      "plantilla-definitiva.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Cuestionario",
+      "block": null,
+      "questions": 50,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto del bloque III",
+      "block": "III",
+      "questions": 12,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto del bloque IV",
+      "block": "IV",
+      "questions": 12,
+      "reserve": 3
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo.pdf",
+      "ocr": true,
+      "skip_pages": [
+        1,
+        2,
+        12
+      ],
+      "start_section": "p1",
+      "para_gap": 5.0,
+      "ignore": [],
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque [il1|!]{3}\\W*$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque [il1|!]v\\W*$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^preguntas de reserva$",
+          "reserve": true
+        }
+      ],
+      "question_x_max": 45.0,
+      "ocr_word_fixes": [
+        {
+          "page": 7,
+          "old": "a",
+          "new": "a)",
+          "y": 267.7,
+          "note": "Reserva 3 de la primera parte: etiqueta a) leída sin paréntesis."
+        },
+        {
+          "page": 7,
+          "old": "bc",
+          "new": "b) c",
+          "note": "Reserva 3 de la primera parte: «b) c» leído como «bc»."
+        },
+        {
+          "page": 7,
+          "old": "d",
+          "new": "d)",
+          "x": 303.4,
+          "note": "Reserva 3 de la primera parte: etiqueta d) leída sin paréntesis."
+        },
+        {
+          "page": 7,
+          "old": "|",
+          "new": "l",
+          "x": 325.0,
+          "note": "Reserva 3 de la primera parte: opción «l» leída como «|»."
+        }
+      ],
+      "bottom": 795.0,
+      "figures": [
+        {
+          "page": 8,
+          "rect": [
+            25,
+            288,
+            580,
+            614
+          ]
+        }
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "file": "plantilla-definitiva.pdf",
+      "status": "definitiva",
+      "segment_gap": 35.0,
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque iii$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto bloque iv$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "verify_text": false,
+  "spot_checks": {
+    "p1-001": "C",
+    "p1-023": "C",
+    "p1-050": "B",
+    "p1-r3": "B",
+    "p2-s1-001": "C",
+    "p2-s1-008": "B",
+    "p2-s1-012": "B",
+    "p2-s1-r3": "B",
+    "p2-s2-001": "A",
+    "p2-s2-012": "D",
+    "p2-s2-r3": "C"
+  },
+  "figures": {
+    "p2-s1-statement-1": {
+      "redraw": "p2-s1-statement-1.svg",
+      "enhance": true,
+      "alt": "Borrador del diagrama E/R extendido: Usuario (NIF) con la relación reflexiva «Es responsable de», Usuario –Hace– Pedido (Aprobado, Fecha), Pedido –Tiene (Cantidad)– Artículo (Stock, Desc., Límite Máx.) y la jerarquía «ES UN» de Usuario en Gestor y Solicitante.",
+      "transcription": [
+        "*Transcripción del diagrama (sin cardinalidades: es un borrador):*",
+        "",
+        "| Entidad | Atributos |",
+        "|---|---|",
+        "| Usuario | NIF |",
+        "| Pedido | Aprobado · Fecha |",
+        "| Artículo | Stock · Desc. · Límite Máx. |",
+        "| Gestor | — |",
+        "| Solicitante | — |",
+        "",
+        "| Relación | Entidades | Atributos |",
+        "|---|---|---|",
+        "| Es responsable de | Usuario – Usuario (reflexiva) | — |",
+        "| Hace | Usuario – Pedido | — |",
+        "| Tiene | Pedido – Artículo | Cantidad |",
+        "",
+        "Jerarquía «ES UN»: Usuario (unido con una línea discontinua a un pequeño óvalo relleno sobre el lado superior del triángulo) se especializa en Gestor y Solicitante."
+      ]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "bank_id": "tai-li-2021",
+  "title": "TAI · Ingreso libre · Convocatoria 2021 [INAP: «Convocatoria 2019», OEP 2019] (examen 06/11/2021)",
+  "description": "Ejercicio único del proceso selectivo de ingreso libre en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2019). Primera parte: cuestionario de 80 preguntas (+5 de reserva). Segunda parte: un supuesto práctico a elegir entre dos (bloques III y IV), de 20 preguntas (+5 de reserva) cada uno. Cuadernillo 19/TAI-LI (sin modelos).",
+  "access": "libre",
+  "year": 2021,
+  "convocatoria": "li-2021",
+  "exam_date": "2021-11-06",
+  "model": null,
+  "duration_minutes": 120,
+  "scoring_scheme": "tai-li-2021",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 26 de mayo de 2021 de la Secretaría de Estado de Política Territorial y Función Pública (BOE 28/05/2021), rotulada por el INAP como «Convocatoria 2019» (OEP 2019); el id usa el año de la resolución (2021). Transcripción del cuadernillo con la plantilla definitiva. Se omite la portada de instrucciones. El bloque de cada supuesto (I → bloque III, II → bloque IV) se asigna según las normas de la convocatoria («a elegir entre dos propuestos correspondientes a los Bloques III y IV del programa respectivamente») y su contenido.",
+    "documents": [
+      "cuadernillo.pdf",
+      "plantilla-definitiva.pdf",
+      "plantilla-provisional.pdf",
+      "criterios.pdf",
+      "normas-especificas.pdf",
+      "fecha-lugar.pdf",
+      "puntuaciones-minimas.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Cuestionario",
+      "block": null,
+      "questions": 80,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto I",
+      "block": "III",
+      "questions": 20,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto II",
+      "block": "IV",
+      "questions": 20,
+      "reserve": 5
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo.pdf",
+      "bottom": 793,
+      "ignore": [
+        "^2019 – TAI - LI$",
+        "^Página \\d+ de \\d+$"
+      ],
+      "markers": [
+        {
+          "pattern": "^PRIMERA PARTE$",
+          "section": "p1"
+        },
+        {
+          "pattern": "^SUPUESTO I$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "^SUPUESTO II$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "^Preguntas de reserva$",
+          "reserve": true
+        }
+      ],
+      "skip_pages": [
+        1
+      ],
+      "figures": [
+        {
+          "page": 9,
+          "rect": [
+            104,
+            207,
+            491,
+            432
+          ]
+        }
+      ]
+    }
+  ],
+  "spot_checks": {
+    "p2-s1-004": "B",
+    "p2-s1-005": "A",
+    "p2-s1-008": "B",
+    "p2-s1-011": "C",
+    "p2-s1-012": "B",
+    "p2-s1-017": "D",
+    "p2-s1-018": "B",
+    "p2-s1-019": "C",
+    "p2-s1-020": "D",
+    "p2-s1-r3": "A",
+    "p2-s1-r5": "D",
+    "p2-s2-001": "C",
+    "p2-s2-002": "A",
+    "p2-s2-003": "B",
+    "p2-s2-004": "D",
+    "p2-s2-007": "C",
+    "p2-s2-009": "A",
+    "p2-s2-012": "B",
+    "p2-s2-014": "B",
+    "p2-s2-020": "B",
+    "p2-s2-r5": "D"
+  },
+  "figures": {
+    "p2-s1-statement-1": {
+      "alt": "Diagrama de clases simplificado: Solicitud (+IdSolicitud, +IdOpositor, +IdProceso) «Presentada por» Opositor (+IdOpositor, +NIF) con multiplicidades 1..N y 1; Solicitud «Pertenece a» Proceso (+IdProceso, +IdFormaAcceso) con 1..N y 1; Proceso «Consta» de Ejercicio (+IdEjercicio, +IdProceso, +Duracion) con 1 y 1..N.",
+      "transcription": [
+        "*Transcripción del diagrama de clases:*",
+        "",
+        "| Clase | Atributos |",
+        "|---|---|",
+        "| Solicitud | +IdSolicitud · +IdOpositor · +IdProceso |",
+        "| Opositor | +IdOpositor · +NIF |",
+        "| Proceso | +IdProceso · +IdFormaAcceso |",
+        "| Ejercicio | +IdEjercicio · +IdProceso · +Duracion |",
+        "",
+        "| Asociación | Multiplicidades |",
+        "|---|---|",
+        "| Solicitud «Presentada por» Opositor | 1..N junto a Solicitud · 1 junto a Opositor |",
+        "| Solicitud «Pertenece a» Proceso | 1..N junto a Solicitud · 1 junto a Proceso |",
+        "| Proceso «Consta» Ejercicio | 1 junto a Proceso · 1..N junto a Ejercicio |"
+      ]
+    }
+  },
+  "answer_keys": [
+    {
+      "file": "plantilla-definitiva.pdf",
+      "status": "definitiva",
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto i$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto ii$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    },
+    {
+      "file": "plantilla-provisional.pdf",
+      "status": "provisional",
+      "compare_only": true,
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto i$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto ii$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ]
+}

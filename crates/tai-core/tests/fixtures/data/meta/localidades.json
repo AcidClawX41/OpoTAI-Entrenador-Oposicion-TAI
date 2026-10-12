@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "source": {
+    "title": "INE (sintético)",
+    "url": "https://example.org/ine"
+  },
+  "population_year": 2025,
+  "tiers": [
+    {
+      "id": "gran_ciudad",
+      "order": 1,
+      "label": "Grandes ciudades",
+      "description": "≥ 300.000 hab."
+    },
+    {
+      "id": "ciudad_media",
+      "order": 2,
+      "label": "Capitales y ciudades medias",
+      "description": "Capitales y ≥ 50.000 hab."
+    },
+    {
+      "id": "pueblo",
+      "order": 3,
+      "label": "Pueblos y zonas menos pobladas",
+      "description": "Resto"
+    }
+  ],
+  "localities": [
+    {
+      "name": "Madrid",
+      "province": "Madrid",
+      "population": 3500000,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Barcelona",
+      "province": "Barcelona",
+      "population": 1700000,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Sevilla",
+      "province": "Sevilla",
+      "population": 680000,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Toledo",
+      "province": "Toledo",
+      "population": 86000,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Soria",
+      "province": "Soria",
+      "population": 40000,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Leioa",
+      "province": "Bizkaia",
+      "population": 32000,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    }
+  ]
+}

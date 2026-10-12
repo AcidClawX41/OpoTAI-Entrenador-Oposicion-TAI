@@ -1,0 +1,639 @@
+{
+  "schema_version": 1,
+  "source": {
+    "title": "INE · Cifras oficiales de población de los municipios españoles: Revisión del Padrón municipal a 1 de enero de 2025 (fichero pobmun25.xlsx)",
+    "url": "https://www.ine.es/pob_xls/pobmun.zip"
+  },
+  "population_year": 2025,
+  "tiers": [
+    {
+      "id": "gran_ciudad",
+      "order": 1,
+      "label": "Grandes ciudades",
+      "description": "Municipios con 300.000 habitantes o más (padrón INE a 1/1/2025)."
+    },
+    {
+      "id": "ciudad_media",
+      "order": 2,
+      "label": "Capitales y ciudades medias",
+      "description": "Capitales de provincia y municipios con 50.000 habitantes o más (incluye Ceuta y Melilla)."
+    },
+    {
+      "id": "pueblo",
+      "order": 3,
+      "label": "Pueblos y zonas menos pobladas",
+      "description": "Resto de municipios (menos de 50.000 habitantes y no capitales de provincia)."
+    }
+  ],
+  "localities": [
+    {
+      "name": "Madrid",
+      "province": "Madrid",
+      "population": 3506730,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Barcelona",
+      "province": "Barcelona",
+      "population": 1731649,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "València",
+      "province": "Valencia",
+      "population": 840792,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Zaragoza",
+      "province": "Zaragoza",
+      "population": 693091,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Sevilla",
+      "province": "Sevilla",
+      "population": 689423,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Málaga",
+      "province": "Málaga",
+      "population": 599063,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Murcia",
+      "province": "Murcia",
+      "population": 479405,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Palma",
+      "province": "Illes Balears",
+      "population": 434786,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Las Palmas de Gran Canaria",
+      "province": "Las Palmas",
+      "population": 381868,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Alacant/Alicante",
+      "province": "Alicante",
+      "population": 366221,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Bilbao",
+      "province": "Bizkaia",
+      "population": 351124,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Córdoba",
+      "province": "Córdoba",
+      "population": 323262,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Valladolid",
+      "province": "Valladolid",
+      "population": 302614,
+      "is_provincial_capital": true,
+      "tier": "gran_ciudad"
+    },
+    {
+      "name": "Vigo",
+      "province": "Pontevedra",
+      "population": 294489,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Vitoria-Gasteiz",
+      "province": "Álava",
+      "population": 260699,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "A Coruña",
+      "province": "A Coruña",
+      "population": 251543,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Granada",
+      "province": "Granada",
+      "population": 233975,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Terrassa",
+      "province": "Barcelona",
+      "population": 233270,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Sabadell",
+      "province": "Barcelona",
+      "population": 225368,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Oviedo",
+      "province": "Asturias",
+      "population": 223968,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Cartagena",
+      "province": "Murcia",
+      "population": 220704,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Santa Cruz de Tenerife",
+      "province": "Santa Cruz de Tenerife",
+      "population": 211957,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Pamplona/Iruña",
+      "province": "Navarra",
+      "population": 209094,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Almería",
+      "province": "Almería",
+      "population": 205468,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Alcalá de Henares",
+      "province": "Madrid",
+      "population": 203208,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Donostia/San Sebastián",
+      "province": "Gipuzkoa",
+      "population": 189866,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Castelló de la Plana/Castellón de la Plana",
+      "province": "Castellón",
+      "population": 183711,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Burgos",
+      "province": "Burgos",
+      "population": 177402,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Santander",
+      "province": "Cantabria",
+      "population": 175425,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Albacete",
+      "province": "Albacete",
+      "population": 175400,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "San Cristóbal de La Laguna",
+      "province": "Santa Cruz de Tenerife",
+      "population": 161108,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Logroño",
+      "province": "La Rioja",
+      "population": 152150,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Badajoz",
+      "province": "Badajoz",
+      "population": 150209,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Lleida",
+      "province": "Lleida",
+      "population": 146266,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Salamanca",
+      "province": "Salamanca",
+      "population": 146110,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Tarragona",
+      "province": "Tarragona",
+      "population": 143649,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Torrejón de Ardoz",
+      "province": "Madrid",
+      "population": 143526,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Huelva",
+      "province": "Huelva",
+      "population": 143215,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Mataró",
+      "province": "Barcelona",
+      "population": 131683,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Algeciras",
+      "province": "Cádiz",
+      "population": 126589,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "León",
+      "province": "León",
+      "population": 123446,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Alcobendas",
+      "province": "Madrid",
+      "population": 123342,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Jaén",
+      "province": "Jaén",
+      "population": 112235,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Cádiz",
+      "province": "Cádiz",
+      "population": 109950,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Girona",
+      "province": "Girona",
+      "population": 108666,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Ourense",
+      "province": "Ourense",
+      "population": 105769,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Barakaldo",
+      "province": "Bizkaia",
+      "population": 102986,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Santiago de Compostela",
+      "province": "A Coruña",
+      "population": 100965,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Lugo",
+      "province": "Lugo",
+      "population": 100143,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Las Rozas de Madrid",
+      "province": "Madrid",
+      "population": 99037,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Cáceres",
+      "province": "Cáceres",
+      "population": 96651,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Guadalajara",
+      "province": "Guadalajara",
+      "population": 92834,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Torrent",
+      "province": "Valencia",
+      "population": 90928,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Pozuelo de Alarcón",
+      "province": "Madrid",
+      "population": 89770,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Toledo",
+      "province": "Toledo",
+      "population": 87216,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Melilla",
+      "province": "Melilla",
+      "population": 86780,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Ceuta",
+      "province": "Ceuta",
+      "population": 83595,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Pontevedra",
+      "province": "Pontevedra",
+      "population": 83316,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Palencia",
+      "province": "Palencia",
+      "population": 77466,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Ciudad Real",
+      "province": "Ciudad Real",
+      "population": 76217,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Paterna",
+      "province": "Valencia",
+      "population": 76019,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Majadahonda",
+      "province": "Madrid",
+      "population": 73625,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Sagunt/Sagunto",
+      "province": "Valencia",
+      "population": 73031,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Arrecife",
+      "province": "Las Palmas",
+      "population": 70811,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Ferrol",
+      "province": "A Coruña",
+      "population": 64367,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Ponferrada",
+      "province": "León",
+      "population": 63186,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Mérida",
+      "province": "Badajoz",
+      "population": 60225,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Zamora",
+      "province": "Zamora",
+      "population": 59815,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Ávila",
+      "province": "Ávila",
+      "population": 59107,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Cerdanyola del Vallès",
+      "province": "Barcelona",
+      "population": 58528,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Huesca",
+      "province": "Huesca",
+      "population": 55454,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Eivissa",
+      "province": "Illes Balears",
+      "population": 55337,
+      "is_provincial_capital": false,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Cuenca",
+      "province": "Cuenca",
+      "population": 53600,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Segovia",
+      "province": "Segovia",
+      "population": 52375,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Dénia",
+      "province": "Alicante",
+      "population": 47261,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "Puerto del Rosario",
+      "province": "Las Palmas",
+      "population": 46150,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "Soria",
+      "province": "Soria",
+      "population": 41025,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Plasencia",
+      "province": "Cáceres",
+      "population": 40132,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "Teruel",
+      "province": "Teruel",
+      "population": 36655,
+      "is_provincial_capital": true,
+      "tier": "ciudad_media"
+    },
+    {
+      "name": "Leioa",
+      "province": "Bizkaia",
+      "population": 32748,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "Maó",
+      "province": "Illes Balears",
+      "population": 30666,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "Sant Joan d'Alacant",
+      "province": "Alicante",
+      "population": 26834,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "San Sebastián de la Gomera",
+      "province": "Santa Cruz de Tenerife",
+      "population": 9574,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "Algarrobo",
+      "province": "Málaga",
+      "population": 7103,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "Valverde",
+      "province": "Santa Cruz de Tenerife",
+      "population": 5338,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "Esporles",
+      "province": "Illes Balears",
+      "population": 5264,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    },
+    {
+      "name": "Cabanes",
+      "province": "Castellón",
+      "population": 3475,
+      "is_provincial_capital": false,
+      "tier": "pueblo"
+    }
+  ]
+}

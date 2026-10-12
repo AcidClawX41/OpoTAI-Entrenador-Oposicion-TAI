@@ -1,0 +1,25 @@
+{
+  "topic": "II.1",
+  "summary": "Conceptos básicos de informática, representación de la información (unidades SI e IEC, sistemas de numeración, enteros, IEEE 754, caracteres y lógica binaria), comunicación de la información, elementos y funciones de un sistema de información, arquitectura de ordenadores (Von Neumann, Harvard, CPU, CISC y RISC, Flynn, jerarquía de memoria y buses) y componentes internos del PC.",
+  "key_points": [
+    "Prefijos SI decimales (k = 10^3 … quetta = 10^30, con ronna y quetta desde 2022) frente a prefijos binarios IEC (Ki = 2^10 … Yi = 2^80), que no forman parte del SI.",
+    "Nibble = 4 bits, byte = 8 bits; hexadecimal con dígitos 0-9 y A-F (4 bits por dígito) y octal con 3 bits por dígito; 1C9 en hexadecimal = 457.",
+    "Complemento a dos: rango de -2^(n-1) a 2^(n-1)-1 y un único cero; signo y magnitud y complemento a uno tienen dos ceros.",
+    "IEEE 754-2019: simple precisión de 32 bits (1+8+23, sesgo 127) y doble de 64 bits (1+11+52, sesgo 1023), con infinitos, NaN y subnormales.",
+    "ASCII es de 7 bits; Unicode (versión 18.0 de septiembre de 2026) llega hasta U+10FFFF y UTF-8 usa de 1 a 4 bytes, compatible con ASCII.",
+    "Von Neumann: programa almacenado en una memoria única; Harvard: memorias separadas de instrucciones y datos.",
+    "Registros: el contador de programa guarda la dirección de la siguiente instrucción y el registro de instrucción la instrucción en curso; la ALU forma parte de la CPU.",
+    "CISC (x86) es microprogramado con instrucciones complejas; RISC (ARM, RISC-V) usa instrucciones simples de longitud fija, arquitectura load/store y segmentación.",
+    "Taxonomía de Flynn: SISD, SIMD, MISD y MIMD según los flujos de instrucciones y datos; la potencia de cálculo se mide en FLOPS.",
+    "Jerarquía de memoria: registros, caché L1 (en el núcleo, la más rápida y pequeña), L2, L3 compartida, RAM (DRAM, volátil) y almacenamiento; el bus del sistema transfiere datos, direcciones y control."
+  ],
+  "sources": [
+    { "title": "BIPM: prefijos del Sistema Internacional", "url": "https://www.bipm.org/en/measurement-units/si-prefixes" },
+    { "title": "NIST: prefijos para múltiplos binarios", "url": "https://physics.nist.gov/cuu/Units/binary.html" },
+    { "title": "IEEE 754-2019, Standard for Floating-Point Arithmetic", "url": "https://standards.ieee.org/ieee/754/6210/" },
+    { "title": "Unicode 18.0.0", "url": "https://www.unicode.org/versions/Unicode18.0.0/" },
+    { "title": "RFC 3629, UTF-8", "url": "https://www.rfc-editor.org/rfc/rfc3629" },
+    { "title": "JEDEC publica la norma DDR5 (JESD79-5)", "url": "https://www.jedec.org/news/pressreleases/jedec-publishes-new-ddr5-standard-advancing-next-generation-high-performance" }
+  ],
+  "updated": "2026-10-11"
+}

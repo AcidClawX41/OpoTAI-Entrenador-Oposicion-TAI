@@ -1,0 +1,31 @@
+{
+  "topic": "IV.9",
+  "summary": "Seguridad de las redes de comunicaciones con el marco del ENS y las guías del CCN: ataques por capas e inalámbricos y su protección, seguridad perimetral (cortafuegos, DMZ, proxies, IDS/IPS, honeypots, SIEM, herramientas del CCN-CERT y configuración con iptables, firewalld y netsh), acceso remoto seguro (AAA, MFA, confianza cero), VPN (IPsec, TLS, WireGuard, MACsec, PPTP, L2TP) y seguridad del puesto de usuario.",
+  "key_points": [
+    "ENS: líneas de defensa (art. 9), mínimo privilegio (art. 20), perímetro seguro [mp.com.1], VPN cifradas fuera del dominio [mp.com.2], segmentación [mp.com.4] y acceso remoto autorizado, cifrado, desactivado si no se usa y registrado [op.acc.6.r9] con doble factor desde zonas no controladas [op.acc.6.r8].",
+    "Cortafuegos: sin estado (no guarda sesiones), con estado, pasarela de aplicación, DPI (contenido completo), NGFW (con IPS, NAT y VPN), UTM, WAF (tráfico HTTP hacia los servidores web) y de host; política de denegar por defecto.",
+    "La DMZ (subred protegida) aísla los servidores que dan servicio al exterior; el CCN recomienda el concentrador VPN en una DMZ dedicada.",
+    "IDS/IPS según NIST SP 800-94: de red (Snort, Suricata), inalámbricos (WIPS), NBA (comportamiento de la red) y de host (OSSEC); honeypot = señuelo; DNS sinkhole = redirigir dominios maliciosos a una IP controlada.",
+    "CCN-CERT: EMMA (visibilidad y control de la red), CARMEN (APT en el tráfico), GLORIA y MÓNICA (SIEM), CLAUDIA (puesto) y SAT INET, cuya sonda inicia un túnel cifrado hacia el sistema central.",
+    "Órdenes: iptables -A INPUT -i eth1 -p tcp --dport 443 -j DROP, iptables --flush, firewall-cmd --zone=public --list-services, reglas enriquecidas con source address, netsh advfirewall set allprofiles state on y firewall add rule … action=allow; rp_filter=1 contra el IP spoofing.",
+    "VPN por niveles: aplicación (SSH), transporte (TLS, el más usado), red (IPsec, WireGuard) y enlace (MACsec, IEEE 802.1AE; evitar PPTP, L2F y L2TP); PPTP está en la RFC 2637 y es el más débil.",
+    "IPsec: AH (protocolo 51, sin cifrado) y ESP (protocolo 50, con confidencialidad), modos transporte y túnel, SA con SPI e IKEv2 (RFC 7296) por UDP 500 y 4500; el CCN recomienda IKEv2, ESP, modo túnel, certificados, PFS y sin túnel dividido.",
+    "AAA = autenticación, autorización y contabilización (RADIUS, TACACS+); 802.1X con EAP-TLS; MFA combina factores de tipos distintos (contraseña + SMS es doble factor); confianza cero (NIST SP 800-207), ZTNA y SASE.",
+    "Puesto: bastionado, parches, usuario sin privilegios (LAPS), antimalware y EDR, lista blanca (AppLocker, App Control), cifrado (BitLocker, FileVault), bloqueo por inactividad y concienciación frente a phishing, vishing, pharming y clickjacking."
+  ],
+  "sources": [
+    { "title": "Real Decreto 311/2022 · Esquema Nacional de Seguridad", "url": "https://www.boe.es/eli/es/rd/2022/05/03/311/con" },
+    { "title": "CCN-STIC-836 · Seguridad en redes privadas virtuales", "url": "https://www.ccn-cert.cni.es/es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/2299-ccn-stic-836-seguridad-en-vpn-en-el-marco-del-ens/file.html" },
+    { "title": "CCN-CERT · Soluciones de ciberseguridad", "url": "https://www.ccn-cert.cni.es/es/soluciones-seguridad.html" },
+    { "title": "CCN-CERT · SAT INET", "url": "https://www.ccn-cert.cni.es/es/gestion-de-incidentes/sistema-de-alerta-temprana-sat/sat-inet.html" },
+    { "title": "NIST SP 800-41 Rev. 1 · Cortafuegos", "url": "https://csrc.nist.gov/pubs/sp/800/41/r1/final" },
+    { "title": "NIST SP 800-94 · IDS/IPS", "url": "https://csrc.nist.gov/pubs/sp/800/94/final" },
+    { "title": "NIST SP 800-207 · Zero Trust Architecture", "url": "https://csrc.nist.gov/pubs/sp/800/207/final" },
+    { "title": "RFC 4301 · Arquitectura de IPsec", "url": "https://www.rfc-editor.org/rfc/rfc4301" },
+    { "title": "RFC 7296 · IKEv2", "url": "https://www.rfc-editor.org/rfc/rfc7296" },
+    { "title": "RFC 2637 · PPTP", "url": "https://www.rfc-editor.org/rfc/rfc2637" },
+    { "title": "WireGuard · whitepaper", "url": "https://www.wireguard.com/papers/wireguard.pdf" },
+    { "title": "firewalld · documentación", "url": "https://firewalld.org/documentation/" }
+  ],
+  "updated": "2026-10-11"
+}

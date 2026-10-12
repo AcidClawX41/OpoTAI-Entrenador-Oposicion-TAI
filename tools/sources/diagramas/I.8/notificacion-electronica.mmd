@@ -1,0 +1,16 @@
+%% I.8 · Notificación electrónica (arts. 40–43 LPAC; arts. 42–45 RD 203/2021).
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+flowchart TD
+    A["Acto que debe notificarse"]
+    B["Puesta a disposición en<br/>10 días en la sede o la DEHú<br/>(cumple el plazo de resolver)"]
+    AV["Aviso al correo o móvil:<br/>informativo; su falta no<br/>invalida (art. 41.6)"]
+    Q{"¿Qué hace el<br/>interesado?"}
+    P("Practicada al acceder<br/>al contenido")
+    RX("Rechazada: se tiene<br/>por efectuado el trámite<br/>(arts. 41.5 y 43.2)")
+
+    A --> B
+    B -.-> AV
+    B --> Q
+    Q -- "accede" --> P
+    Q -- "rechaza" --> RX
+    Q -- "no accede en<br/>10 días naturales" --> RX

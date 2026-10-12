@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Topologías de red local</title>
+  <desc id="d">Bus: estaciones colgadas de un único cable troncal con terminadores en los extremos. Anillo: cada estación unida a sus dos vecinas y la información circula en un solo sentido. Estrella: todos los nodos unidos a un nodo central. Árbol: estrellas conectadas jerárquicamente. Malla completa: con 5 nodos, 10 enlaces (n(n − 1)/2). Malla parcial: solo algunos caminos redundantes.</desc>
+  <rect x="0" y="0" width="900" height="460" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <rect x="15.0" y="10" width="282" height="214" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="29.0" y="36" font-size="16" font-weight="700">Bus</text>
+    <text x="156.0" y="210" font-size="13" fill="#475569" text-anchor="middle">cable común con terminadores</text>
+    <line x1="43.0" y1="120.0" x2="269.0" y2="120.0" stroke="#475569" stroke-width="3"/>
+    <line x1="67.0" y1="120.0" x2="67.0" y2="82.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="111.0" y1="120.0" x2="111.0" y2="158.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="155.0" y1="120.0" x2="155.0" y2="82.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="199.0" y1="120.0" x2="199.0" y2="158.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="243.0" y1="120.0" x2="243.0" y2="82.0" stroke="#64748b" stroke-width="2"/>
+    <circle cx="67.0" cy="82.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="111.0" cy="158.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="155.0" cy="82.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="199.0" cy="158.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="243.0" cy="82.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="37.0" y="111" width="12" height="18" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <rect x="263.0" y="111" width="12" height="18" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <rect x="309.0" y="10" width="282" height="214" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="323.0" y="36" font-size="16" font-weight="700">Anillo</text>
+    <text x="450.0" y="210" font-size="13" fill="#475569" text-anchor="middle">punto a punto; circula en un solo sentido</text>
+    <line x1="450.0" y1="60.0" x2="500.2" y2="89.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="500.2" y1="89.0" x2="500.2" y2="147.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="500.2" y1="147.0" x2="450.0" y2="176.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="450.0" y1="176.0" x2="399.8" y2="147.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="399.8" y1="147.0" x2="399.8" y2="89.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="399.8" y1="89.0" x2="450.0" y2="60.0" stroke="#64748b" stroke-width="2"/>
+    <path d="M428.0 106.0 A 25 25 0 1 1 426.0 126.0" fill="none" stroke="#7c3aed" stroke-width="2"/><path d="M426.0 126.0 l -6 -8 l 10 0 z" fill="#7c3aed"/>
+    <circle cx="450.0" cy="60.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="500.2" cy="89.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="500.2" cy="147.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="450.0" cy="176.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="399.8" cy="147.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="399.8" cy="89.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="603.0" y="10" width="282" height="214" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="617.0" y="36" font-size="16" font-weight="700">Estrella</text>
+    <text x="744.0" y="210" font-size="13" fill="#475569" text-anchor="middle">nodo central: punto único de fallo</text>
+    <line x1="744.0" y1="118.0" x2="744.0" y2="59.1" stroke="#64748b" stroke-width="2"/>
+    <line x1="744.0" y1="118.0" x2="799.4" y2="88.6" stroke="#64748b" stroke-width="2"/>
+    <line x1="744.0" y1="118.0" x2="799.4" y2="147.4" stroke="#64748b" stroke-width="2"/>
+    <line x1="744.0" y1="118.0" x2="744.0" y2="176.9" stroke="#64748b" stroke-width="2"/>
+    <line x1="744.0" y1="118.0" x2="688.6" y2="147.4" stroke="#64748b" stroke-width="2"/>
+    <line x1="744.0" y1="118.0" x2="688.6" y2="88.6" stroke="#64748b" stroke-width="2"/>
+    <circle cx="744.0" cy="59.1" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="799.4" cy="88.6" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="799.4" cy="147.4" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="744.0" cy="176.9" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="688.6" cy="147.4" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="688.6" cy="88.6" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="721.0" y="106.0" width="46" height="24" rx="5" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <rect x="15.0" y="236" width="282" height="214" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="29.0" y="262" font-size="16" font-weight="700">Árbol (estrella jerárquica)</text>
+    <text x="156.0" y="436" font-size="13" fill="#475569" text-anchor="middle">núcleo, distribución y acceso</text>
+    <line x1="156.0" y1="292.0" x2="86.0" y2="340.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="156.0" y1="292.0" x2="226.0" y2="340.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="86.0" y1="340.0" x2="50.0" y2="394.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="86.0" y1="340.0" x2="86.0" y2="394.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="86.0" y1="340.0" x2="122.0" y2="394.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="226.0" y1="340.0" x2="190.0" y2="394.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="226.0" y1="340.0" x2="226.0" y2="394.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="226.0" y1="340.0" x2="262.0" y2="394.0" stroke="#64748b" stroke-width="2"/>
+    <circle cx="50.0" cy="394.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="86.0" cy="394.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="122.0" cy="394.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="190.0" cy="394.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="226.0" cy="394.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="262.0" cy="394.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="133.0" y="280.0" width="46" height="24" rx="5" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <rect x="66.0" y="329.0" width="40" height="22" rx="5" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <rect x="206.0" y="329.0" width="40" height="22" rx="5" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <rect x="309.0" y="236" width="282" height="214" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="323.0" y="262" font-size="16" font-weight="700">Malla completa</text>
+    <text x="450.0" y="436" font-size="13" fill="#475569" text-anchor="middle">n = 5 → n(n − 1)/2 = 10 enlaces</text>
+    <line x1="450.0" y1="284.0" x2="509.0" y2="326.8" stroke="#64748b" stroke-width="2"/>
+    <line x1="450.0" y1="284.0" x2="486.4" y2="396.2" stroke="#64748b" stroke-width="2"/>
+    <line x1="450.0" y1="284.0" x2="413.6" y2="396.2" stroke="#64748b" stroke-width="2"/>
+    <line x1="450.0" y1="284.0" x2="391.0" y2="326.8" stroke="#64748b" stroke-width="2"/>
+    <line x1="509.0" y1="326.8" x2="486.4" y2="396.2" stroke="#64748b" stroke-width="2"/>
+    <line x1="509.0" y1="326.8" x2="413.6" y2="396.2" stroke="#64748b" stroke-width="2"/>
+    <line x1="509.0" y1="326.8" x2="391.0" y2="326.8" stroke="#64748b" stroke-width="2"/>
+    <line x1="486.4" y1="396.2" x2="413.6" y2="396.2" stroke="#64748b" stroke-width="2"/>
+    <line x1="486.4" y1="396.2" x2="391.0" y2="326.8" stroke="#64748b" stroke-width="2"/>
+    <line x1="413.6" y1="396.2" x2="391.0" y2="326.8" stroke="#64748b" stroke-width="2"/>
+    <circle cx="450.0" cy="284.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="509.0" cy="326.8" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="486.4" cy="396.2" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="413.6" cy="396.2" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="391.0" cy="326.8" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="603.0" y="236" width="282" height="214" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="617.0" y="262" font-size="16" font-weight="700">Malla parcial</text>
+    <text x="744.0" y="436" font-size="13" fill="#475569" text-anchor="middle">varios caminos solo donde hacen falta</text>
+    <line x1="663.0" y1="306.0" x2="743.0" y2="294.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="743.0" y1="294.0" x2="825.0" y2="312.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="663.0" y1="306.0" x2="691.0" y2="386.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="743.0" y1="294.0" x2="691.0" y2="386.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="743.0" y1="294.0" x2="779.0" y2="386.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="825.0" y1="312.0" x2="779.0" y2="386.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="691.0" y1="386.0" x2="779.0" y2="386.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="779.0" y1="386.0" x2="843.0" y2="386.0" stroke="#64748b" stroke-width="2"/>
+    <line x1="825.0" y1="312.0" x2="843.0" y2="386.0" stroke="#64748b" stroke-width="2"/>
+    <circle cx="663.0" cy="306.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="743.0" cy="294.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="825.0" cy="312.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="691.0" cy="386.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="779.0" cy="386.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="843.0" cy="386.0" r="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  </g>
+</svg>

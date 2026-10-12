@@ -1,0 +1,77 @@
+<!-- opotai.diagrams: tools/sources/diagramas/III.6/niveles-arquitectura.svg sha256=92b1860bdad5f954 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 546" width="900" height="546" font-family="Inter, system-ui, sans-serif" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Arquitecturas en dos, tres y n niveles</title>
+  <desc id="desc">En dos niveles el cliente pesado lleva presentación y lógica y el servidor guarda los datos; en tres niveles el navegador presenta, el servidor de aplicaciones ejecuta la lógica y el servidor de base de datos guarda los datos; en n niveles se añaden CDN, cortafuegos, balanceador, servidor web, cachés y colas.</desc>
+  <defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+  <rect x="0" y="0" width="900" height="546" rx="14" fill="#ffffff"/>
+  <text x="30" y="40" font-size="21" font-weight="700" fill="#1f2937">Arquitecturas en dos, tres y n niveles</text>
+  <text x="30" y="62" font-size="13" fill="#475569">Los colores son las capas lógicas (layers); cada recuadro, un nivel físico (tier): una máquina o un proceso aparte</text>
+  <text x="30" y="98" font-size="15" font-weight="700" fill="#1f2937">Dos niveles: cliente/servidor clásico</text>
+  <rect x="30" y="110" width="400" height="76" rx="10" fill="#ffffff" stroke="#64748b" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="42" y="128" font-size="13" font-weight="600" fill="#475569">Cliente pesado (cada puesto)</text>
+  <rect x="42" y="136" width="180" height="42" rx="9" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="132.0" y="162.0" font-size="13" text-anchor="middle" fill="#1f2937">Presentación</text>
+  <rect x="236" y="136" width="182" height="42" rx="9" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="327.0" y="162.0" font-size="13" text-anchor="middle" fill="#1f2937">Lógica de negocio</text>
+  <line x1="434" y1="148" x2="606" y2="148" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)" marker-start="url(#fl)"/>
+  <text x="520.0" y="140" font-size="13" text-anchor="middle" fill="#475569">red: SQL (ODBC, JDBC)</text>
+  <rect x="610" y="110" width="260" height="76" rx="9" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="740.0" y="144.0" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">Servidor de base de datos</text>
+  <text x="740.0" y="162.0" font-size="13" text-anchor="middle" fill="#1f2937">Datos</text>
+  <text x="30" y="226" font-size="15" font-weight="700" fill="#1f2937">Tres niveles</text>
+  <rect x="30" y="238" width="230" height="76" rx="9" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="145.0" y="272.0" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">Cliente ligero (navegador)</text>
+  <text x="145.0" y="290.0" font-size="13" text-anchor="middle" fill="#1f2937">Presentación</text>
+  <line x1="264" y1="276" x2="346" y2="276" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)" marker-start="url(#fl)"/>
+  <text x="305.0" y="268" font-size="13" text-anchor="middle" fill="#475569">HTTPS</text>
+  <rect x="350" y="238" width="230" height="76" rx="9" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="465.0" y="272.0" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">Servidor de aplicaciones</text>
+  <text x="465.0" y="290.0" font-size="13" text-anchor="middle" fill="#1f2937">Lógica de negocio</text>
+  <line x1="584" y1="276" x2="636" y2="276" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)" marker-start="url(#fl)"/>
+  <text x="610.0" y="268" font-size="13" text-anchor="middle" fill="#475569">SQL</text>
+  <rect x="640" y="238" width="230" height="76" rx="9" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="755.0" y="272.0" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">Servidor de base de datos</text>
+  <text x="755.0" y="290.0" font-size="13" text-anchor="middle" fill="#1f2937">Datos</text>
+  <text x="30" y="354" font-size="15" font-weight="700" fill="#1f2937">N niveles: arquitectura web actual</text>
+  <rect x="30" y="366" width="108" height="84" rx="9" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="84.0" y="404.5" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Navegador o</text>
+  <text x="84.0" y="421.5" font-size="13" text-anchor="middle" fill="#1f2937">app móvil</text>
+  <line x1="139" y1="408" x2="151" y2="408" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="152" y="366" width="108" height="84" rx="9" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="206.0" y="396.0" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">CDN y</text>
+  <text x="206.0" y="413.0" font-size="13" text-anchor="middle" fill="#1f2937">cortafuegos</text>
+  <text x="206.0" y="430.0" font-size="13" text-anchor="middle" fill="#1f2937">(WAF)</text>
+  <line x1="261" y1="408" x2="273" y2="408" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="274" y="366" width="108" height="84" rx="9" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="328.0" y="404.5" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Balanceador</text>
+  <text x="328.0" y="421.5" font-size="13" text-anchor="middle" fill="#1f2937">de carga</text>
+  <line x1="383" y1="408" x2="395" y2="408" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="396" y="366" width="108" height="84" rx="9" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="450.0" y="396.0" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Servidor web</text>
+  <text x="450.0" y="413.0" font-size="13" text-anchor="middle" fill="#1f2937">(contenido</text>
+  <text x="450.0" y="430.0" font-size="13" text-anchor="middle" fill="#1f2937">estático, TLS)</text>
+  <line x1="505" y1="408" x2="517" y2="408" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="518" y="366" width="108" height="84" rx="9" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="572.0" y="396.0" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Servidor de</text>
+  <text x="572.0" y="413.0" font-size="13" text-anchor="middle" fill="#1f2937">aplicaciones</text>
+  <text x="572.0" y="430.0" font-size="13" text-anchor="middle" fill="#1f2937">(API, negocio)</text>
+  <line x1="627" y1="408" x2="639" y2="408" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="640" y="366" width="108" height="84" rx="9" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="694.0" y="396.0" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Caché y</text>
+  <text x="694.0" y="413.0" font-size="13" text-anchor="middle" fill="#1f2937">colas de</text>
+  <text x="694.0" y="430.0" font-size="13" text-anchor="middle" fill="#1f2937">mensajes</text>
+  <line x1="749" y1="408" x2="761" y2="408" stroke="#64748b" stroke-width="1.6" marker-end="url(#fl)"/>
+  <rect x="762" y="366" width="108" height="84" rx="9" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="816.0" y="396.0" font-size="13" font-weight="600" text-anchor="middle" fill="#1f2937">Servidores</text>
+  <text x="816.0" y="413.0" font-size="13" text-anchor="middle" fill="#1f2937">de bases</text>
+  <text x="816.0" y="430.0" font-size="13" text-anchor="middle" fill="#1f2937">de datos</text>
+  <rect x="30" y="482" width="22" height="16" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="60" y="495" font-size="13" fill="#1f2937">Presentación</text>
+  <rect x="220" y="482" width="22" height="16" rx="4" fill="#d1fae5" stroke="#059669"/>
+  <text x="250" y="495" font-size="13" fill="#1f2937">Lógica de negocio</text>
+  <rect x="410" y="482" width="22" height="16" rx="4" fill="#fef3c7" stroke="#d97706"/>
+  <text x="440" y="495" font-size="13" fill="#1f2937">Datos</text>
+  <rect x="600" y="482" width="22" height="16" rx="4" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="630" y="495" font-size="13" fill="#1f2937">Infraestructura</text>
+  <text x="30" y="526" font-size="13" fill="#475569">Más niveles: más escalabilidad, seguridad y mantenibilidad, a cambio de más complejidad, latencia y tráfico de red.</text>
+</svg>

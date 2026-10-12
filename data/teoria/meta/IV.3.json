@@ -1,0 +1,63 @@
+{
+  "topic": "IV.3",
+  "summary": "Arquitectura y protocolos del correo electrónico (SMTP, envío en 587 y 465, POP3, IMAP, MIME), registros DNS y autenticación (MX, SPF, DKIM, DMARC), administración de servidores (Postfix, Dovecot, Exchange, ENS mp.s.1), contenedores (namespaces, cgroups, OCI, Docker, Podman, LXC), orquestación con Kubernetes y arquitectura de microservicios con sus patrones.",
+  "key_points": [
+    "SMTP envía del cliente a su servidor y entre servidores; POP3 o IMAP llevan el correo del servidor de destino al cliente del destinatario.",
+    "Puertos: 25 entre servidores, 587 envío autenticado con STARTTLS, 465 SMTPS, 993 IMAPS, 995 POP3S, 143 IMAP y 110 POP3; la RFC 8314 recomienda TLS implícito.",
+    "IMAP (RFC 9051) deja mensajes, carpetas y marcas en el servidor y sincroniza todos los dispositivos; POP3 (RFC 1939) descarga y no replica las carpetas.",
+    "DNS del correo: MX dirige el correo entrante, SPF autoriza servidores emisores, DKIM firma los mensajes con una clave publicada en DNS y DMARC (RFC 9989, 2026) fija la política y los informes.",
+    "Postfix: parámetros en main.cf (smtp_helo_name, smtpd_banner, mynetworks) y servicios en master.cf; postconf, postqueue -p y postsuper -d; nunca un relé abierto.",
+    "ENS mp.s.1 protege cuerpo y anexos, la información de encaminamiento y frente a spam, código dañino y código móvil, con normas de uso y concienciación.",
+    "Contenedor = proceso aislado con namespaces y cgroups sobre el núcleo del anfitrión; LXC es virtualización a nivel de sistema operativo; Docker, containerd, CRI-O y Podman siguen las especificaciones OCI.",
+    "Docker: run crea, arranca y descarga si hace falta; ps -a lista todos; kill corta al instante; rm elimina; pull descarga; info da la información de todo el sistema.",
+    "Kubernetes: apiserver, etcd, kube-scheduler (elige el nodo del Pod) y controller-manager; kubelet y kube-proxy en los nodos; objetos básicos Pod, Service, Volume y Namespace; metadata identifica al objeto; Service con TCP, UDP o SCTP.",
+    "Microservicios: servicios pequeños, desplegables por separado y con sus datos; composición por orquestación o coreografía; escalado flexible, CI/CD, resistencia a fallos y libertad tecnológica."
+  ],
+  "sources": [
+    {
+      "title": "RFC 5321 · Simple Mail Transfer Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc5321"
+    },
+    {
+      "title": "RFC 8314 · Use of TLS for Email Submission and Access",
+      "url": "https://www.rfc-editor.org/rfc/rfc8314"
+    },
+    {
+      "title": "RFC 9051 · IMAP4rev2",
+      "url": "https://www.rfc-editor.org/rfc/rfc9051"
+    },
+    {
+      "title": "RFC 9989 · DMARC",
+      "url": "https://www.rfc-editor.org/rfc/rfc9989"
+    },
+    {
+      "title": "Postfix · postconf(5)",
+      "url": "https://www.postfix.org/postconf.5.html"
+    },
+    {
+      "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191"
+    },
+    {
+      "title": "Docker Docs · Referencia de la CLI",
+      "url": "https://docs.docker.com/reference/cli/docker/"
+    },
+    {
+      "title": "Kubernetes · Componentes",
+      "url": "https://kubernetes.io/docs/concepts/overview/components/"
+    },
+    {
+      "title": "Kubernetes · Objetos",
+      "url": "https://kubernetes.io/docs/concepts/overview/working-with-objects/"
+    },
+    {
+      "title": "Lewis y Fowler · Microservices",
+      "url": "https://martinfowler.com/articles/microservices.html"
+    },
+    {
+      "title": "NIST SP 800-190 · Application Container Security Guide",
+      "url": "https://csrc.nist.gov/pubs/sp/800/190/final"
+    }
+  ],
+  "updated": "2026-10-11"
+}

@@ -1,0 +1,53 @@
+<!-- opotai.diagrams: tools/sources/diagramas/I.6/niveles-firma.svg sha256=4e3fde4b85b77ac6 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" font-family="Inter, system-ui, sans-serif" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Niveles de firma electrónica en el Reglamento eIDAS</title>
+  <desc id="desc">Tres niveles anidados: toda firma cualificada es avanzada y toda avanzada es firma electrónica. A la derecha, sus efectos jurídicos y su uso en las Administraciones públicas.</desc>
+  <rect x="0" y="0" width="900" height="440" rx="14" fill="#ffffff"/>
+
+  <text x="30" y="40" font-size="21" font-weight="700" fill="#1f2937">Niveles de firma electrónica (Reglamento eIDAS)</text>
+  <text x="30" y="62" font-size="13" fill="#475569">Cada nivel incluye al anterior: toda firma cualificada es avanzada, y toda avanzada es firma electrónica</text>
+
+  <!-- Simple -->
+  <rect x="30" y="84" width="530" height="326" rx="14" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="50" y="110" font-size="15.5" font-weight="700" fill="#1f2937">Firma electrónica (simple)</text>
+  <text x="50" y="130" font-size="13" fill="#1f2937">Datos electrónicos anejos o asociados a otros que el firmante</text>
+  <text x="50" y="147" font-size="13" fill="#1f2937">(siempre persona física) utiliza para firmar (art. 3.10)</text>
+
+  <!-- Avanzada -->
+  <rect x="50" y="164" width="490" height="228" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="70" y="190" font-size="15.5" font-weight="700" fill="#1f2937">Firma electrónica avanzada (art. 26)</text>
+  <g font-size="13" fill="#1f2937">
+    <text x="70" y="212">• Vinculada al firmante de manera única</text>
+    <text x="70" y="230">• Permite identificar al firmante</text>
+    <text x="70" y="248">• Creada con datos que el firmante usa bajo su control exclusivo</text>
+    <text x="70" y="266">• Detecta cualquier modificación posterior de los datos firmados</text>
+  </g>
+
+  <!-- Cualificada -->
+  <rect x="70" y="284" width="450" height="90" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="90" y="310" font-size="15.5" font-weight="700" fill="#1f2937">Firma electrónica cualificada</text>
+  <text x="90" y="331" font-size="13" fill="#1f2937">Avanzada + creada con un dispositivo cualificado de creación</text>
+  <text x="90" y="349" font-size="13" fill="#1f2937">de firma + basada en un certificado cualificado de firma</text>
+
+  <!-- Efectos -->
+  <rect x="585" y="84" width="285" height="326" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="603" y="110" font-size="13" font-weight="700" fill="#475569" letter-spacing="0.6">EFECTOS JURÍDICOS</text>
+  <g font-size="13" fill="#1f2937">
+    <text x="603" y="134">No se niegan efectos ni valor de</text>
+    <text x="603" y="151">prueba a una firma por ser electrónica</text>
+    <text x="603" y="168">o no cualificada (art. 25.1)</text>
+    <text x="603" y="196"><tspan font-weight="700" fill="#059669">Solo la cualificada equivale</tspan></text>
+    <text x="603" y="213"><tspan font-weight="700" fill="#059669">a la firma manuscrita</tspan> (art. 25.2)</text>
+    <text x="603" y="230">y se reconoce en toda la UE (25.3)</text>
+  </g>
+  <line x1="603" y1="250" x2="852" y2="250" stroke="#cbd5e1"/>
+  <text x="603" y="274" font-size="13" font-weight="700" fill="#475569" letter-spacing="0.6">EN LAS ADMINISTRACIONES</text>
+  <g font-size="13" fill="#1f2937">
+    <text x="603" y="296">Art. 10 LPAC: firma cualificada y</text>
+    <text x="603" y="313">avanzada basada en certificado</text>
+    <text x="603" y="330">cualificado, sellos y otros sistemas</text>
+    <text x="603" y="347">válidos que admita cada Administración</text>
+    <text x="603" y="375">El sello electrónico sigue el mismo</text>
+    <text x="603" y="392">esquema para personas jurídicas</text>
+  </g>
+</svg>

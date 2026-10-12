@@ -1,0 +1,47 @@
+{
+  "topic": "III.4",
+  "summary": "Diseño y programación orientada a objetos: objeto, clase e instancia, encapsulamiento, herencia, clases abstractas e interfaces, polimorfismo, sobrecarga frente a sobrescritura, relaciones entre clases, componentes, principios SOLID y GRASP, ventajas e inconvenientes, los 23 patrones GoF con ejemplos en Java y UML 2.5.1 con sus 14 diagramas y su uso en Métrica v3.",
+  "key_points": [
+    "Objeto = estado + comportamiento + identidad; instancia = ejemplar concreto de una clase con su propio estado.",
+    "Elementos fundamentales del modelo de objetos (Booch): abstracción, encapsulamiento, modularidad y jerarquía; la durabilidad no lo es.",
+    "Sobrecarga: mismo nombre y distintos parámetros (ligadura estática); sobrescritura: misma firma en la subclase (ligadura dinámica).",
+    "Clase abstracta: no instanciable y puede estar incompleta; Java y C# tienen herencia simple de clases y múltiple de interfaces (implements); final/sealed impide heredar.",
+    "Relaciones UML: asociación, agregación (rombo blanco), composición (rombo negro, mismo ciclo de vida), generalización (línea continua y triángulo), realización y dependencia (líneas discontinuas).",
+    "SOLID: SRP, OCP, LSP, ISP y DIP (alto y bajo nivel dependen de abstracciones); GRASP asigna responsabilidades (Experto, Creador, Controlador…).",
+    "GoF (1994): 5 creacionales (Abstract Factory, Builder, Factory Method, Prototype, Singleton), 7 estructurales (Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy) y 11 de comportamiento (Observer, Iterator, Strategy…).",
+    "Decorator añade responsabilidades dinámicamente; Composite forma árboles; Adapter adapta interfaces; Observer notifica cambios con bajo acoplamiento; Abstract Factory crea familias de objetos.",
+    "UML (OMG, versión vigente 2.5.1 de 2017) es estático y dinámico: 7 diagramas estructurales y 7 de comportamiento; visibilidad + pública, - privada, # protegida.",
+    "Secuencia = mensajes en el tiempo; máquina de estados = estados y eventos; componentes = módulos y dependencias; en Métrica v3 el diagrama de interacción describe un escenario de un caso de uso."
+  ],
+  "sources": [
+    {
+      "title": "Object Management Group · Unified Modeling Language",
+      "url": "https://www.omg.org/spec/UML/"
+    },
+    {
+      "title": "ISO/IEC 19505-2:2012, UML superestructura",
+      "url": "https://www.iso.org/standard/52854.html"
+    },
+    {
+      "title": "Métrica v3 · Técnicas y prácticas (PDF)",
+      "url": "https://administracionelectronica.gob.es/pae_Home/va/dam/jcr:da7d91fa-d6bd-467c-be32-a72e27c603b3/METRICA_V3_Tecnicas.pdf"
+    },
+    {
+      "title": "Oracle · The Java Tutorials: Object-Oriented Programming Concepts",
+      "url": "https://docs.oracle.com/javase/tutorial/java/concepts/"
+    },
+    {
+      "title": "Oracle · The Java Tutorials: Interfaces and Inheritance",
+      "url": "https://docs.oracle.com/javase/tutorial/java/IandI/"
+    },
+    {
+      "title": "Microsoft Learn · Programación orientada a objetos en C#",
+      "url": "https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop"
+    },
+    {
+      "title": "Cardelli y Wegner (1985), On understanding types, data abstraction, and polymorphism",
+      "url": "https://doi.org/10.1145/6041.6042"
+    }
+  ],
+  "updated": "2026-10-11"
+}

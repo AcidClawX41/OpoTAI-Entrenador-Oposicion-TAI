@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "opotai/destinos.schema.json",
+  "title": "OpoTAI · Destinos adjudicados anonimizados (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "convocatoria", "source", "anonymized", "total", "assignments"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "convocatoria": { "type": "string" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url"],
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string" },
+        "boe_id": { "type": ["string", "null"] }
+      }
+    },
+    "anonymized": { "const": true },
+    "total": { "type": "integer", "minimum": 0 },
+    "notes": { "type": ["string", "null"] },
+    "assignments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["order", "province", "locality"],
+        "properties": {
+          "order": { "type": "integer", "minimum": 1 },
+          "organism": { "type": ["string", "null"] },
+          "unit": { "type": ["string", "null"] },
+          "province": { "type": "string" },
+          "locality": { "type": "string" }
+        }
+      }
+    }
+  }
+}

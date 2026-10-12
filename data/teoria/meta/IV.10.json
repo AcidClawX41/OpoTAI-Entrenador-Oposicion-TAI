@@ -1,0 +1,27 @@
+{
+  "topic": "IV.10",
+  "summary": "Redes de área local: concepto y modelo IEEE 802 (LLC y MAC) con sus grupos de trabajo; tipología (topologías bus, anillo, estrella, árbol y malla, otras clasificaciones y cableado estructurado); técnicas de transmisión (banda base y banda ancha, codificación, trama Ethernet, 802.1Q, capas físicas, transceptores y PoE); métodos de acceso al medio (ALOHA, CSMA/CD, CSMA/CA, paso de testigo, sondeo y reserva) y dispositivos de interconexión con dominios de colisión y difusión, STP, VLAN y agregación de enlaces.",
+  "key_points": [
+    "IEEE 802 divide la capa de enlace en LLC (802.2, independiente del medio) y MAC (dependiente del medio, control de acceso); 802.3 = Ethernet, 802.11 = WLAN, 802.1 = puentes, VLAN y STP, 802.5 = Token Ring, 802.6 = DQDB.",
+    "Topologías: bus con terminadores que absorben la señal, anillo con enlaces punto a punto en un sentido, estrella con nodo central, árbol jerárquico y malla (n(n − 1)/2 enlaces si es completa); física frente a lógica.",
+    "Banda base (señal digital que ocupa todo el medio, Ethernet) frente a banda ancha (portadoras moduladas y FDM); Ethernet dúplex conmutada no tiene colisiones.",
+    "Trama Ethernet: MAC de 48 bits, EtherType, 46 a 1500 bytes de datos, FCS CRC-32; mínimo 64 y máximo 1518 bytes; tramas jumbo de unos 9000 bytes.",
+    "Etiqueta 802.1Q de 4 bytes: TPID 0x8100, PCP de 3 bits (8 prioridades), DEI y VID de 12 bits (4094 VLAN).",
+    "Capas físicas: 1000BASE-SX solo multimodo, 1000BASE-LX hasta 5 km, 1000BASE-T en Cat 5e, 10GBASE-T en Cat 6A; QSFP+ = 40 Gbit/s; PoE 802.3af, at y bt (hasta 71,3 W).",
+    "Acceso al medio: contienda (ALOHA 18,4 % y ranurado 36,8 %, CSMA, CSMA/CD de Ethernet, CSMA/CA de Wi-Fi) frente a acceso controlado (testigo, sondeo, reserva como DQDB).",
+    "CSMA/CD: escuchar, transmitir y detectar la colisión, señal de atasco y retroceso exponencial binario; trama mínima de 64 bytes ligada al tiempo de ranura de 512 bits.",
+    "Repetidor y concentrador (nivel 1), puente y conmutador (nivel 2, separan dominios de colisión), router (nivel 3, tablas de encaminamiento, separa dominios de difusión) y pasarela (traduce protocolos).",
+    "STP (802.1D) usa BPDU y elige como raíz el menor Bridge ID; RSTP es 802.1w y MSTP 802.1s; las VLAN 802.1Q separan dominios de difusión y se comunican a través del nivel 3."
+  ],
+  "sources": [
+    { "title": "IEEE 802 LAN/MAN Standards Committee", "url": "https://www.ieee802.org/" },
+    { "title": "IEEE 802.3-2022 · Ethernet", "url": "https://standards.ieee.org/ieee/802.3/10422/" },
+    { "title": "IEEE 802.3bt-2018 · PoE de cuatro pares", "url": "https://standards.ieee.org/ieee/802.3bt/6749/" },
+    { "title": "IEEE 802.1Q-2022 · Puentes y VLAN", "url": "https://standards.ieee.org/ieee/802.1Q/10323/" },
+    { "title": "IEEE 802.1AX-2020 · Agregación de enlaces", "url": "https://standards.ieee.org/ieee/802.1AX/6768/" },
+    { "title": "IEEE P802.3dj · Ethernet de hasta 1,6 Tbit/s", "url": "https://www.ieee802.org/3/dj/" },
+    { "title": "Cisco · Rapid Spanning Tree Protocol (802.1w)", "url": "https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/24062-146.html" },
+    { "title": "RFC 7348 · VXLAN", "url": "https://www.rfc-editor.org/rfc/rfc7348" }
+  ],
+  "updated": "2026-10-11"
+}

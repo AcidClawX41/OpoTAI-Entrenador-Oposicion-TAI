@@ -1,0 +1,21 @@
+%% IV.4 · Operaciones SNMP entre el gestor y el agente, con sus puertos (RFC 3416).
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+sequenceDiagram
+    participant G as Gestor (NMS)
+    participant A as Agente (switch, router, servidor)
+    rect rgb(219, 234, 254)
+        Note over G,A: Sondeo: el agente escucha en UDP 161
+        G->>A: GetRequest sysName.0 (OID 1.3.6.1.2.1.1.5.0)
+        A-->>G: Response: el valor leído de su MIB
+        G->>A: GetNextRequest / GetBulkRequest (v2c, v3)
+        A-->>G: Response: objetos siguientes de la tabla
+        G->>A: SetRequest: cambiar un valor
+        A-->>G: Response: hecho o error
+    end
+    rect rgb(209, 250, 229)
+        Note over G,A: Notificaciones: el gestor escucha en UDP 162
+        A-)G: Trap: enlace caído (sin confirmación)
+        A->>G: InformRequest (v2c, v3)
+        G-->>A: Response: recibido
+    end
+    Note over G,A: SNMPv3 (modelo USM): nivel authPriv<br/>con autenticación y cifrado por usuario

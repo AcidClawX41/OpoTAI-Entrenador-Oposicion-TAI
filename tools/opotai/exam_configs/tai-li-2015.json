@@ -1,0 +1,282 @@
+{
+  "bank_id": "tai-li-2015",
+  "title": "TAI · Ingreso libre · Convocatoria 2015 (OEP 2015) (primer ejercicio febrero de 2016)",
+  "description": "Proceso selectivo de ingreso libre en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2015), con dos ejercicios en días distintos. Primer ejercicio (90 minutos): 50 preguntas comunes de los bloques I y II y 50 del bloque III o del bloque IV, a elegir (+3 de reserva cada uno). Segundo ejercicio (90 minutos): un cuestionario práctico a elegir entre los bloques III y IV, de 40 preguntas (+3 de reserva) cada uno. Cuadernillos escaneados: transcritos por OCR y corregidos tras revisarlos. Respuestas de las plantillas provisionales (no se ha localizado la definitiva).",
+  "access": "libre",
+  "year": 2015,
+  "convocatoria": "li-2015",
+  "exam_date": null,
+  "model": null,
+  "duration_minutes": 180,
+  "scoring_scheme": "tai-li-2015",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "provisional",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Orden HAP/2294/2015, de 21 de octubre (BOE 3/11/2015), anexo IV, corregido por la Orden HAP/2666/2015 (BOE 12/12/2015); OEP 2015. Primer ejercicio en febrero de 2016 y segundo en mayo de 2016 (fechas exactas no localizadas: los escaneos son del 22/02/2016 y del 13/05/2016). La sede del INAP ya no publica los documentos de este proceso: se usan copias públicas de los PDF oficiales (cuestionarios «15/TAI-LI» del primer y segundo ejercicio y plantillas provisionales del INAP, sin alterar) archivadas en baquedano.es; no se ha localizado la plantilla definitiva. En el primer ejercicio, la sección p1 (bloques I y II, sin preguntas de reserva) es común y p1-b3/p1-b4 son los bloques a elegir; el segundo ejercicio ofrece dos cuestionarios prácticos (p2-s1, bloque III; p2-s2, bloque IV), uno a elegir. Los cuadernillos son escaneos sin capa de texto: el texto procede de OCR (Tesseract, una pasada a 300 ppp, caché versionada en tools/sources/ocr/) corregido después (ortografía, siglas y erratas del OCR, revisando la imagen en los casos dudosos); los fragmentos de código se transcriben desde la imagen, el modelo de datos y el esquema de red se recortan como figura. Las preguntas con dudas de lectura o cuya respuesta provisional parece discutible llevan needs_review. Se pierde la negrita del original. Se omiten las portadas y las páginas en blanco. exam_date queda nulo y duration_minutes suma ambos ejercicios (90 + 90).",
+    "documents": [
+      "cuadernillo-1.pdf",
+      "plantilla-provisional-1.pdf",
+      "cuadernillo-2.pdf",
+      "plantilla-provisional-2.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primer ejercicio · Bloques I y II (comunes)",
+      "block": null,
+      "questions": 50,
+      "reserve": 0
+    },
+    {
+      "id": "p1-b3",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primer ejercicio · Bloque III (a elegir)",
+      "block": "III",
+      "questions": 50,
+      "reserve": 3
+    },
+    {
+      "id": "p1-b4",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primer ejercicio · Bloque IV (a elegir)",
+      "block": "IV",
+      "questions": 50,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segundo ejercicio · Cuestionario práctico del bloque III",
+      "block": "III",
+      "questions": 40,
+      "reserve": 3
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segundo ejercicio · Cuestionario práctico del bloque IV",
+      "block": "IV",
+      "questions": 40,
+      "reserve": 3
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo-1.pdf",
+      "ocr": true,
+      "ocr_skip_pages": [
+        1,
+        2,
+        16
+      ],
+      "skip_pages": [
+        1,
+        2,
+        16
+      ],
+      "start_section": "p1",
+      "para_gap": 5.0,
+      "ignore": [
+        "(?i)TEST.*P[áa]gina ?\\d+ ?de ?13$",
+        "(?i)^bloque [il1|]{1,2}$"
+      ],
+      "markers": [
+        {
+          "pattern": "(?i)^bloque [il1|]{3}$",
+          "section": "p1-b3"
+        },
+        {
+          "pattern": "(?i)^bloque [il1|]v$",
+          "section": "p1-b4"
+        },
+        {
+          "pattern": "(?i)^preguntas ?de ?reserva$",
+          "reserve": true
+        }
+      ],
+      "question_x_max": 45.0,
+      "ocr_word_fixes": [
+        {
+          "page": 11,
+          "old": null,
+          "new": "BLOQUE IV",
+          "x": 250.0,
+          "y": 442.0,
+          "note": "Cabecera del bloque IV (recuadro) que el OCR no lee."
+        }
+      ]
+    },
+    {
+      "file": "cuadernillo-2.pdf",
+      "ocr": true,
+      "ocr_skip_pages": [
+        1
+      ],
+      "skip_pages": [
+        1
+      ],
+      "para_gap": 5.0,
+      "ignore": [],
+      "markers": [
+        {
+          "pattern": "(?i)^bloque [il1|]{3}$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^bloque [il1|]v$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^preguntas ?de ?reserva$",
+          "reserve": true
+        }
+      ],
+      "question_x_max": 45.0,
+      "ocr_word_fixes": [
+        {
+          "page": 2,
+          "old": null,
+          "new": "BLOQUE III",
+          "x": 250.0,
+          "y": 42.0,
+          "note": "Cabecera del bloque III (recuadro) que el OCR no lee."
+        },
+        {
+          "page": 9,
+          "old": null,
+          "new": "BLOQUE IV",
+          "x": 250.0,
+          "y": 32.0,
+          "note": "Cabecera del bloque IV (recuadro) que el OCR no lee."
+        }
+      ],
+      "figures": [
+        {
+          "page": 2,
+          "rect": [
+            75,
+            185,
+            515,
+            490
+          ]
+        },
+        {
+          "page": 11,
+          "rect": [
+            82,
+            52,
+            515,
+            403
+          ]
+        }
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "file": "plantilla-provisional-1.pdf",
+      "status": "provisional",
+      "segment_gap": 35.0,
+      "markers": [
+        {
+          "pattern": "(?i)^bloque i$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^bloque ii$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^bloque iii$",
+          "section": "p1-b3"
+        },
+        {
+          "pattern": "(?i)^bloque iv$",
+          "section": "p1-b4"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    },
+    {
+      "file": "plantilla-provisional-2.pdf",
+      "status": "provisional",
+      "segment_gap": 35.0,
+      "markers": [
+        {
+          "pattern": "(?i)^bloque iii$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^bloque iv$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "verify_text": false,
+  "spot_checks": {
+    "p1-007": "A",
+    "p1-008": "B",
+    "p1-023": "C",
+    "p1-030": "C",
+    "p1-b3-016": "C",
+    "p1-b4-011": "B",
+    "p1-b4-012": "A",
+    "p1-b4-035": "C",
+    "p1-b4-039": "A",
+    "p2-s1-012": "D",
+    "p2-s2-010": "A",
+    "p2-s2-013": "C",
+    "p2-s2-036": "B"
+  },
+  "figures": {
+    "p2-s1-statement-1": {
+      "redraw": "p2-s1-statement-1.svg",
+      "enhance": true,
+      "alt": "Modelo de datos de la aplicación del Museo: tablas ACTIV_ESPAC, ACTIVIDADES, ESPACIOS, SESIONES, ENTIDADES_EXTERNAS, RESERVAS y CLIENTES con sus columnas y tipos, unidas por líneas de relación.",
+      "transcription": [
+        "*Transcripción del modelo (las claves primarias, subrayadas en el original, llevan «(PK)»; las columnas marcadas como opcionales, con «°» en lugar de «*», se indican):*",
+        "",
+        "| Tabla | Columnas |",
+        "|---|---|",
+        "| ACTIV_ESPAC | idactividad (PK) · idespacio (PK) |",
+        "| ACTIVIDADES | id (PK) · nombre text · capacidad int8 · fecha_inicio date · fecha_fin date · llevacanon varchar(1) · identidadexterna (FK) int8 |",
+        "| ESPACIOS | id (PK) · nombre text · capacidad int8 |",
+        "| SESIONES | id (PK) · idactividad (FK) int8 · inicio date · fin date |",
+        "| ENTIDADES_EXTERNAS | id (PK) · razonsocial text · cif text · datoscontacto text |",
+        "| RESERVAS | id (PK) · idsesion (FK) int8 · fecha date · asistentes int8 · importe_as int8 · idcliente (FK) int8 |",
+        "| CLIENTES | id (PK) · nombre text · cif text · grupoedad text (opcional) · direccion text (opcional) · activo varchar(1) |",
+        "",
+        "Líneas de relación (sin cardinalidades rotuladas): ACTIV_ESPAC – ACTIVIDADES, ACTIV_ESPAC – ESPACIOS, ACTIVIDADES – SESIONES, ACTIVIDADES – ENTIDADES_EXTERNAS, SESIONES – RESERVAS y RESERVAS – CLIENTES."
+      ]
+    },
+    "p2-s2-statement-1": {
+      "redraw": "p2-s2-statement-1.svg",
+      "enhance": true,
+      "erase": [
+        [
+          78,
+          40,
+          520,
+          52
+        ]
+      ],
+      "alt": "Diagrama de la red del organismo: la nube INTERNET con ROUTER_INTERNET_1 y ROUTER_INTERNET_2 y la nube RED SARA con ROUTER_SARA_1 y ROUTER_SARA_2 llegan a un cortafuegos que da paso a la RED DE SERVIDORES (sistema de virtualización, servidor Linux y servidor Oracle); un segundo cortafuegos separa la RED DE USUARIOS, con tres puestos de trabajo."
+    }
+  }
+}

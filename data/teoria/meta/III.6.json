@@ -1,0 +1,59 @@
+{
+  "topic": "III.6",
+  "summary": "Arquitectura cliente/servidor (componentes, middleware, sockets, modelos de Gartner), arquitecturas de dos, tres y n niveles, sistemas distribuidos, SOA y microservicios, y servicios web: SOAP 1.2, WSDL 2.0, UDDI, WSIL y especificaciones WS-*, REST con métodos y códigos HTTP, JSON y OpenAPI, seguridad con OAuth 2.0, JWT y SAML, y otras tecnologías (GraphQL, gRPC, WebSocket, mensajería).",
+  "key_points": [
+    "Cliente/servidor: el cliente inicia (activo) y el servidor atiende a muchos clientes (pasivo); el middleware (RPC, CORBA, RMI, MOM, ODBC/JDBC) oculta la red y la heterogeneidad.",
+    "Modelos de Gartner: presentación distribuida, presentación remota, lógica distribuida, gestión de datos remota y base de datos distribuida.",
+    "Tres niveles: presentación, lógica de negocio y datos; las arquitecturas multinivel ganan flexibilidad, escalabilidad y extensibilidad, pero aumentan las comunicaciones.",
+    "SOA: servicio, proveedor, consumidor y registro (publicar, buscar, enlazar); SOAP transporta, WSDL describe y UDDI registra; WSIL es un descubrimiento alternativo.",
+    "SOAP 1.2 (W3C) es la última versión: mensajes XML con Envelope, Header, Body y Fault; MTOM/XOP para binarios; WS-Security firma y cifra mensajes.",
+    "WSDL 2.0 describe servicios a partir de un modelo abstracto (interface, binding, service/endpoint); wsimport genera el cliente Java desde un WSDL.",
+    "REST (Fielding, 2000) es un estilo arquitectónico: cliente-servidor, sin estado, cacheable, interfaz uniforme con URI y representaciones, sistema en capas y código bajo demanda.",
+    "Métodos HTTP (RFC 9110): GET, HEAD y OPTIONS son seguros; PUT y DELETE idempotentes pero no seguros; POST ninguna de las dos cosas.",
+    "Códigos: 201 Created al crear, 204 sin contenido, 401 sin autenticar, 403 sin permiso, 404, 429 Too Many Requests por límite de peticiones, 503 no disponible.",
+    "OpenAPI 3.2.0 documenta API REST en YAML o JSON; OAuth 2.0 autoriza, OpenID Connect autentica, JWT (RFC 7519) viaja como Bearer token y SAML 2.0 lo usa Cl@ve."
+  ],
+  "sources": [
+    {
+      "title": "W3C · SOAP Version 1.2 Part 1",
+      "url": "https://www.w3.org/TR/soap12-part1/"
+    },
+    {
+      "title": "W3C · WSDL Version 2.0 Part 1",
+      "url": "https://www.w3.org/TR/wsdl20/"
+    },
+    {
+      "title": "W3C · XML-binary Optimized Packaging (XOP)",
+      "url": "https://www.w3.org/TR/xop10/"
+    },
+    {
+      "title": "OASIS · UDDI Version 3.0.2",
+      "url": "https://www.oasis-open.org/committees/uddi-spec/doc/spec/v3/uddi-v3.0.2-20041019.htm"
+    },
+    {
+      "title": "OASIS · WS-SecureConversation 1.4",
+      "url": "https://docs.oasis-open.org/ws-sx/ws-secureconversation/v1.4/ws-secureconversation.html"
+    },
+    {
+      "title": "R. T. Fielding (2000), tesis doctoral sobre REST",
+      "url": "https://ics.uci.edu/~fielding/pubs/dissertation/top.htm"
+    },
+    {
+      "title": "RFC 9110, HTTP Semantics",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110"
+    },
+    {
+      "title": "RFC 6585, Additional HTTP Status Codes",
+      "url": "https://www.rfc-editor.org/rfc/rfc6585"
+    },
+    {
+      "title": "RFC 7519, JSON Web Token",
+      "url": "https://www.rfc-editor.org/rfc/rfc7519"
+    },
+    {
+      "title": "OpenAPI Specification",
+      "url": "https://spec.openapis.org/oas/latest.html"
+    }
+  ],
+  "updated": "2026-10-11"
+}

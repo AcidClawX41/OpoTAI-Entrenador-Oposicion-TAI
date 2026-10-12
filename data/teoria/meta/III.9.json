@@ -1,0 +1,59 @@
+{
+  "topic": "III.9",
+  "summary": "Repositorios (de código, artefactos, CASE y el CTT de las Administraciones) y su actualización, generación de código (CASE, MDA, andamiaje) y documentación (Javadoc, OpenAPI, README), metodologías (cascada, espiral, RUP, Métrica v3, Manifiesto Ágil, Scrum, XP, Kanban, DevOps), pruebas según Métrica v3 y sus técnicas y herramientas, control de versiones con Git y Subversion, y plataformas colaborativas con CI/CD.",
+  "key_points": [
+    "Repositorio = archivos del proyecto + historial completo; un repositorio bare no tiene directorio de trabajo y se usa como remoto central; Git usa objetos, referencias, índice y reflogs.",
+    "Ley 40/2015: antes de desarrollar o adquirir hay que consultar el directorio general de aplicaciones (CTT) y reutilizar si existe solución (art. 157); directorios actualizados e interoperables (art. 158).",
+    "Métrica v3 (basada en ISO 12207): PSI, EVS, ASI, DSI, CSI, IAS y MSI con las interfaces GP, SEG, GC y CAL; los manuales de usuario (CSI 6.1) los hace el Equipo del Proyecto; mantenimiento correctivo y evolutivo.",
+    "Pruebas de Métrica: unitarias, de integración (ensamblaje e interfaces), del sistema (funcionales, rendimiento = tiempos de respuesta, volumen, sobrecarga…), de implantación, de aceptación y de regresión (efecto onda).",
+    "Caja blanca mira la estructura interna (cobertura, complejidad ciclomática); caja negra solo entradas y salidas (clases de equivalencia, valores límite).",
+    "Manifiesto Ágil (2001): 4 valores y 12 principios; software funcionando como medida del progreso, cambios bienvenidos incluso tarde, simplicidad = maximizar el trabajo no realizado.",
+    "Scrum (Guía 2020): Product Owner, Scrum Master y Developers; Sprint ≤ 1 mes, Planning, Daily de 15 minutos, Review y Retrospective (mejora del proceso); artefactos con sus compromisos.",
+    "Git: modificado → add (staged) → commit (local) → push; fetch descarga sin integrar y pull integra; merge, rebase, cherry-pick, clone, log.",
+    "Plataformas colaborativas: GitHub, GitLab, Bitbucket, Azure DevOps; pull/merge request = propuesta de fusión con revisión; GitHub Actions en .github/workflows/*.yml.",
+    "Herramientas: JUnit/NUnit (unitarias), Mockito, Jest y .spec.ts, Selenium (navegador), Cucumber (BDD), JMeter (carga), TestLink (gestión), SonarQube y Prettier (calidad y formato), Jenkins (pipelines), Maven (pom.xml)."
+  ],
+  "sources": [
+    {
+      "title": "Portal de Administración Electrónica · Métrica v3",
+      "url": "https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html"
+    },
+    {
+      "title": "Ley 40/2015, de Régimen Jurídico del Sector Público (BOE-A-2015-10566)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "title": "PAe · Centro de Transferencia de Tecnología",
+      "url": "https://administracionelectronica.gob.es/ctt"
+    },
+    {
+      "title": "Git · gitdatamodel",
+      "url": "https://git-scm.com/docs/gitdatamodel"
+    },
+    {
+      "title": "Pro Git (edición en español)",
+      "url": "https://git-scm.com/book/es/v2"
+    },
+    {
+      "title": "Manifiesto Ágil · Principios",
+      "url": "https://agilemanifesto.org/iso/es/principles.html"
+    },
+    {
+      "title": "The Scrum Guide (2020)",
+      "url": "https://scrumguides.org/scrum-guide.html"
+    },
+    {
+      "title": "GitHub Docs · Sintaxis de workflows",
+      "url": "https://docs.github.com/es/actions/reference/workflows-and-actions/workflow-syntax"
+    },
+    {
+      "title": "ISO/IEC/IEEE 29119-1:2022",
+      "url": "https://www.iso.org/standard/81291.html"
+    },
+    {
+      "title": "Semantic Versioning 2.0.0",
+      "url": "https://semver.org/lang/es/"
+    }
+  ],
+  "updated": "2026-10-11"
+}

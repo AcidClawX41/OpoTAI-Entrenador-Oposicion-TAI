@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 886 462" width="886" height="462" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Reconstrucción de OpoTAI: tablas de la base de datos antigua (USUARIOS, PETICIONES, TRABAJADORES y UBICACIONES)</title>
+  <desc id="descripcion">Redibujo del diagrama escaneado: cuatro tablas con su cabecera; claves primarias en negrita con «(PK)»; cada tabla termina en una fila «...». Líneas: USUARIOS.IdUsuario (PK) con PETICIONES.IdCliente; TRABAJADORES.CodTrabajador (PK) con UBICACIONES.Director; TRABAJADORES.Ubicacion con UBICACIONES.Ubicacion (PK) (las dos últimas se cruzan).</desc>
+  <rect x="1" y="1" width="884" height="460" rx="14" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937">
+    <g aria-label="Tabla USUARIOS">
+      <rect x="14.0" y="12.9" width="237.6" height="199.1" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+      <rect x="14.0" y="12.9" width="237.6" height="34.1" fill="#7c3aed" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="23.0" y="37.0" font-weight="700" fill="#ffffff">USUARIOS</text>
+      <path d="M14.0 80.0H251.6M14.0 113.0H251.6M14.0 146.0H251.6M14.0 180.1H251.6" stroke="#1f2937" stroke-width="1"/>
+      <text x="23.0" y="70.0" font-weight="700">IdUsuario (PK)</text>
+      <text x="23.0" y="103.0">Usuario</text>
+      <text x="23.0" y="136.0">Representante</text>
+      <text x="23.0" y="170.1">TlfnoRepresentante</text>
+      <text x="23.0" y="202.0">...</text>
+    </g>
+    <g aria-label="Tabla PETICIONES">
+      <rect x="402.3" y="14.0" width="250.8" height="199.1" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+      <rect x="402.3" y="14.0" width="250.8" height="34.1" fill="#7c3aed" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="411.3" y="38.1" font-weight="700" fill="#ffffff">PETICIONES</text>
+      <path d="M402.3 81.1H653.1M402.3 114.1H653.1M402.3 147.1H653.1M402.3 181.2H653.1" stroke="#1f2937" stroke-width="1"/>
+      <text x="411.3" y="71.1" font-weight="700">CodigoPeticion (PK)</text>
+      <text x="411.3" y="104.1">Peticion</text>
+      <text x="411.3" y="137.1">Fecha</text>
+      <text x="411.3" y="171.2">IdCliente</text>
+      <text x="411.3" y="203.1">...</text>
+    </g>
+    <g aria-label="Tabla TRABAJADORES">
+      <rect x="188.9" y="242.8" width="255.2" height="198.0" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+      <rect x="188.9" y="242.8" width="255.2" height="35.2" fill="#7c3aed" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="197.9" y="268.0" font-weight="700" fill="#ffffff">TRABAJADORES</text>
+      <path d="M188.9 311.0H444.1M188.9 344.0H444.1M188.9 377.0H444.1M188.9 410.0H444.1" stroke="#1f2937" stroke-width="1"/>
+      <text x="197.9" y="301.0" font-weight="700">CodTrabajador (PK)</text>
+      <text x="197.9" y="334.0">Nombre</text>
+      <text x="197.9" y="367.0">Edad</text>
+      <text x="197.9" y="400.0">Ubicacion</text>
+      <text x="197.9" y="430.8">...</text>
+    </g>
+    <g aria-label="Tabla UBICACIONES">
+      <rect x="621.2" y="248.3" width="239.8" height="198.0" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+      <rect x="621.2" y="248.3" width="239.8" height="34.1" fill="#7c3aed" stroke="#1f2937" stroke-width="1.6"/>
+      <text x="630.2" y="272.4" font-weight="700" fill="#ffffff">UBICACIONES</text>
+      <path d="M621.2 315.4H861.0M621.2 348.4H861.0M621.2 381.4H861.0M621.2 414.4H861.0" stroke="#1f2937" stroke-width="1"/>
+      <text x="630.2" y="305.4" font-weight="700">Ubicacion (PK)</text>
+      <text x="630.2" y="338.4">Ciudad</text>
+      <text x="630.2" y="371.4">Provincia</text>
+      <text x="630.2" y="404.4">Director</text>
+      <text x="630.2" y="436.3">...</text>
+    </g>
+    <path d="M251.6 63.5L402.3 164.2M444.1 294.5L621.2 397.9M444.1 393.5L621.2 298.9" fill="none" stroke="#1f2937" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+</svg>

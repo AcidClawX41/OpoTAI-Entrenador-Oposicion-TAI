@@ -1,0 +1,1098 @@
+[
+  {
+    "id": "tai-pi-2023-p1-009",
+    "explanation": "El **art. 9 de la LO 3/2007** (indemnidad frente a represalias) establece que «también se considerará **discriminación por razón de sexo** cualquier trato adverso o efecto negativo» que sufra una persona por haber presentado una queja, reclamación, denuncia, demanda o recurso para impedir su discriminación. La ley no lo califica de directa ni de indirecta: estas se definen en el art. 6, y el art. 8 considera discriminación **directa** el trato desfavorable por embarazo o maternidad.",
+    "option_notes": [
+      "La discriminación directa (art. 6.1) es el trato menos favorable por razón de sexo; el art. 9 no califica así las represalias.",
+      "La discriminación indirecta (art. 6.2) nace de una disposición, criterio o práctica aparentemente neutros.",
+      null,
+      "El art. 9 solo habla de «discriminación por razón de sexo», sin calificarla de directa."
+    ],
+    "topic": "I.5",
+    "references": [
+      "LO 3/2007, arts. 6, 8 y 9"
+    ],
+    "tags": [
+      "igualdad",
+      "discriminacion",
+      "represalias"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-011",
+    "explanation": "**FLOPS** (*FLoating-point Operations Per Second*) mide el número de **operaciones en coma flotante por segundo** que puede realizar un procesador o un sistema; es la unidad de referencia de la supercomputación (la lista TOP500 se mide en petaFLOPS y exaFLOPS). Las **instrucciones por segundo** se miden en **MIPS** y la **frecuencia de reloj**, en hercios (GHz).",
+    "option_notes": [
+      "Las instrucciones por segundo se miden en MIPS, no en FLOPS.",
+      "Los accesos a memoria no se miden en FLOPS; el ancho de banda de memoria se mide en bytes por segundo.",
+      "La frecuencia de reloj se mide en hercios (MHz, GHz).",
+      null
+    ],
+    "topic": "II.1",
+    "references": [],
+    "tags": [
+      "arquitectura-de-ordenadores",
+      "rendimiento",
+      "flops"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-012",
+    "explanation": "Un grupo de **4 bits** se llama **nibble** (medio byte): cada dígito hexadecimal representa exactamente un nibble, y un byte (8 bits) contiene dos. Discutible: «half-byte» (medio byte) y «quartet» (cuarteto) también se usan como sinónimos de nibble, este último sobre todo en telecomunicaciones; la plantilla eligió el término más habitual.",
+    "option_notes": [
+      "Un byte tiene 8 bits, no 4.",
+      null,
+      "«Half-byte» (medio byte) también designa los 4 bits, aunque el término habitual es nibble: por eso la pregunta es discutible.",
+      "«Quartet» (cuarteto) se usa en telecomunicaciones para los 4 bits, aunque el término habitual es nibble."
+    ],
+    "topic": "II.1",
+    "references": [],
+    "tags": [
+      "representacion-de-la-informacion",
+      "unidades"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": true
+  },
+  {
+    "id": "tai-pi-2023-p1-013",
+    "explanation": "**JPEG** es un **estándar internacional** (ISO/IEC 10918-1 y Recomendación UIT-T T.81) de compresión **con pérdida** pensado para fotografías. Por eso los ficheros JPG son **pequeños**, pero cada vez que se edita y se vuelve a guardar la imagen **pierde calidad** (pérdida generacional). JPEG **no admite transparencias**: para eso se usan PNG, GIF o WebP.",
+    "option_notes": [
+      null,
+      "Al revés: al ser con pérdida, cada nuevo guardado en JPEG pierde algo de calidad.",
+      "Al revés: su compresión con pérdida genera ficheros pequeños.",
+      "JPEG no admite transparencia; sí la admiten PNG, GIF o WebP."
+    ],
+    "topic": "II.3",
+    "references": [
+      "ISO/IEC 10918-1 (JPEG)"
+    ],
+    "tags": [
+      "formatos-de-fichero",
+      "imagen-digital",
+      "jpeg"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-014",
+    "explanation": "En una **lista simplemente enlazada** cada nodo tiene **un único enlace**, al siguiente, y el último apunta a nulo: el primero y el último **no están unidos** (si lo estuvieran, sería una **lista circular**). En una **lista doblemente enlazada** cada nodo apunta al siguiente y al anterior, lo que permite recorrerla en ambos sentidos, y normalmente se guardan punteros al primero y al último nodo, accesibles de inmediato.",
+    "option_notes": [
+      "Se da por cierta: la lista doble suele mantener punteros a la cabeza y a la cola.",
+      "Es cierta: el doble enlace permite recorrerla hacia delante y hacia atrás.",
+      "Es cierta: en la lista simple cada nodo solo enlaza con el siguiente.",
+      null
+    ],
+    "topic": "II.3",
+    "references": [],
+    "tags": [
+      "estructuras-de-datos",
+      "listas-enlazadas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-015",
+    "explanation": "**OpenDocument (ODF) 1.0**, el formato abierto de documentos ofimáticos de OASIS (`.odt`, `.ods`, `.odp`), se aprobó como norma internacional **ISO/IEC 26300:2006**; la versión 1.2 se publicó como ISO/IEC 26300:2015. Su competidor, **Office Open XML** (OOXML, formatos `.docx`, `.xlsx`, `.pptx`), es la norma **ISO/IEC 29500**.",
+    "option_notes": [
+      "ISO/IEC 14977:1996 normaliza la notación EBNF, no ODF.",
+      "No es la norma de ODF; ODF 1.0 es la ISO/IEC 26300:2006.",
+      null,
+      "No es la norma de ODF; ODF 1.0 es la ISO/IEC 26300:2006."
+    ],
+    "topic": "II.3",
+    "references": [
+      "ISO/IEC 26300:2006"
+    ],
+    "tags": [
+      "formatos-de-fichero",
+      "odf",
+      "estandares"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-017",
+    "explanation": "En el modelo E/R extendido de **Métrica v3**, el **tipo de correspondencia** es «el número máximo de ocurrencias de cada tipo de entidad que pueden intervenir en una ocurrencia de la relación que se está tratando»: 1:1, 1:N o M:N. La **cardinalidad** añade el **mínimo** (la participación de cada entidad), y su máximo coincide con el tipo de correspondencia.",
+    "option_notes": [
+      null,
+      "La cardinalidad da el mínimo y el máximo de ocurrencias de cada entidad; solo el máximo es el tipo de correspondencia.",
+      "La especialización descompone un supertipo en subtipos.",
+      "La agregación construye un tipo de entidad como composición de otros y de su relación."
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: modelo entidad/relación extendido"
+    ],
+    "tags": [
+      "metrica-v3",
+      "modelo-entidad-relacion",
+      "tipo-de-correspondencia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-019",
+    "explanation": "**CRUD** son las cuatro operaciones básicas sobre datos persistentes: **Create** (crear), **Read** (leer), **Update** (actualizar) y **Delete** (borrar). En SQL equivalen a `INSERT`, `SELECT`, `UPDATE` y `DELETE`, y en una API REST, a los métodos `POST`, `GET`, `PUT`/`PATCH` y `DELETE`.",
+    "option_notes": [
+      "La R es Read y la U es Update; «Rename» y «Used» no forman parte de CRUD.",
+      "La U es Update y la D es Delete (no Drop, que borra objetos).",
+      null,
+      "La R es Read, no Reload."
+    ],
+    "topic": "III.3",
+    "references": [],
+    "tags": [
+      "crud",
+      "sql",
+      "operaciones-basicas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-020",
+    "explanation": "Un **array** o vector es un tipo **estructurado** que agrupa datos **homogéneos** (del mismo tipo) almacenados de forma **contigua** en memoria y accesibles por índice. En C++, `int vector2[] = {1,2,3,4,10,9,80,70,19};` es **correcta**: el compilador deduce el tamaño (9) de la lista. El **bytecode** de Java es código intermedio para la JVM, no código máquina, y C++ es un lenguaje de **tercera generación** (alto nivel).",
+    "option_notes": [
+      null,
+      "El bytecode es código intermedio para la máquina virtual de Java, no binario nativo.",
+      "C++ es un lenguaje de tercera generación; la segunda generación es el ensamblador.",
+      "Es correcta: si se omite el tamaño, el compilador lo deduce de la lista de inicialización."
+    ],
+    "topic": "III.2",
+    "references": [],
+    "tags": [
+      "arrays",
+      "estructuras-de-datos",
+      "cpp"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-022",
+    "explanation": "La cláusula **`ORDER BY`** ordena el resultado de una consulta por una o varias columnas o expresiones, de forma ascendente (`ASC`, por defecto) o descendente (`DESC`): `SELECT * FROM t ORDER BY apellido, nombre DESC;`. Va al final del `SELECT`, después de `WHERE`, `GROUP BY` y `HAVING`.",
+    "option_notes": [
+      "ORDER TO no existe en SQL.",
+      null,
+      "ORDER WHERE no existe: WHERE filtra filas y ORDER BY ordena.",
+      "ORDER, sola, no es válida: hay que escribir ORDER BY."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075 (SQL): ORDER BY"
+    ],
+    "tags": [
+      "sql",
+      "select",
+      "ordenacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-023",
+    "explanation": "Según Booch, los elementos fundamentales del **modelo de objetos** son **abstracción, encapsulamiento, modularidad y jerarquía** (herencia), a los que se suman tipificación, concurrencia y persistencia; otros autores añaden el polimorfismo. La **durabilidad** es una propiedad **ACID** de las transacciones de bases de datos, no del modelo orientado a objetos.",
+    "option_notes": [
+      "La abstracción es un elemento fundamental del modelo orientado a objetos.",
+      null,
+      "La modularidad es un elemento fundamental del modelo orientado a objetos.",
+      "El encapsulamiento es un elemento fundamental del modelo orientado a objetos."
+    ],
+    "topic": "III.4",
+    "references": [
+      "G. Booch, «Análisis y diseño orientado a objetos»"
+    ],
+    "tags": [
+      "poo",
+      "modelo-de-objetos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-025",
+    "explanation": "**ADO.NET** es el componente de **.NET** para el **acceso a datos**: proveedores de datos (`SqlClient`, `OleDb`, `Odbc`…) con objetos como `Connection`, `Command`, `DataReader` y `DataAdapter`, y el `DataSet` para trabajar con datos desconectados. Sobre él se apoyan ORM como **Entity Framework**. Las demás opciones son inventadas.",
+    "option_notes": [
+      "Distractor absurdo: ADO.NET es una tecnología de Microsoft.",
+      "Inventado: ADO.NET no es un componente de Java ni de Jakarta EE.",
+      null,
+      "Inventado: ADO.NET no es un entorno gráfico ni procede de Python."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Learn: ADO.NET"
+    ],
+    "tags": [
+      "dotnet",
+      "ado-net",
+      "acceso-a-datos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-026",
+    "explanation": "En Java, un identificador puede contener **letras, dígitos, `_` y `$`**, pero **no puede empezar por un dígito** ni coincidir con una **palabra reservada** como `static`. Los comentarios de una línea empiezan por `//` y los **multilínea** van entre `/*` y `*/` (los de documentación, entre `/**` y `*/`). «Java 2» es la denominación comercial que Sun usó desde la versión 1.2.",
+    "option_notes": [
+      "// inicia un comentario de una sola línea; los multilínea van entre /* y */.",
+      "Un identificador no puede empezar por un dígito.",
+      null,
+      "static es una palabra reservada y no puede usarse como identificador."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Java Language Specification, 3.8 (identificadores)"
+    ],
+    "tags": [
+      "java",
+      "sintaxis",
+      "identificadores"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-027",
+    "explanation": "Las arquitecturas **multinivel** (presentación, lógica de negocio y datos en capas separadas) aportan **flexibilidad y modularidad**, **escalabilidad** (añadir servidores a la capa que lo necesite) y **extensibilidad** (nuevas funciones sin tocar los clientes), además de mejor mantenimiento y seguridad. Lo que **no** aportan es un menor coste de comunicaciones: al repartir el sistema en más niveles aumentan el tráfico entre ellos y la latencia.",
+    "option_notes": [
+      "Es una ventaja real: cada capa puede cambiarse o reutilizarse por separado.",
+      "Es una ventaja real: se escala añadiendo recursos a la capa que lo necesite.",
+      "Es una ventaja real: las nuevas funciones se añaden en el servidor sin afectar a los clientes.",
+      null
+    ],
+    "topic": "III.6",
+    "references": [],
+    "tags": [
+      "cliente-servidor",
+      "arquitectura-multicapa"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-029",
+    "explanation": "**CSS** (*Cascading Style Sheets*) define la **presentación y los estilos** de una página web (colores, tipografía, disposición, diseño adaptable), separados del contenido HTML. **XSS** (*Cross-Site Scripting*) es un **ataque** de inyección de scripts, y **OSS/BSS** son los sistemas de soporte a la operación y al negocio de los operadores de telecomunicaciones.",
+    "option_notes": [
+      null,
+      "XSS (Cross-Site Scripting) es un ataque que inyecta scripts maliciosos en una web.",
+      "CSI no es una tecnología de presentación web.",
+      "OSS/BSS son los sistemas de soporte a la operación y al negocio de los operadores de telecomunicaciones."
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C CSS"
+    ],
+    "tags": [
+      "css",
+      "desarrollo-web"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-030",
+    "explanation": "XHTML aplica la sintaxis estricta de **XML**: todo elemento debe **cerrarse**, también los **vacíos**, con etiqueta final o con la forma abreviada `<br />`. Otras reglas: nombres de elementos y atributos en **minúscula**, elementos **anidados correctamente**, valores de atributo **entre comillas** y **sin minimizar atributos** (`checked=\"checked\"`, no `checked`).",
+    "option_notes": [
+      "En XHTML los nombres de etiquetas y atributos deben escribirse en minúscula.",
+      "En XHTML los elementos anidados deben cerrarse en orden inverso al de apertura.",
+      "XHTML no permite minimizar atributos: hay que escribir checked=\"checked\".",
+      null
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C XHTML 1.0, sección 4"
+    ],
+    "tags": [
+      "xhtml",
+      "html"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-031",
+    "explanation": "Jakob Nielsen definió **10 heurísticas** (principios generales) de usabilidad en 1994: visibilidad del estado del sistema; relación con el mundo real; control y libertad del usuario; consistencia y estándares; prevención de errores; reconocimiento antes que recuerdo; flexibilidad y eficiencia; diseño estético y minimalista; ayuda para reconocer y recuperarse de los errores; y ayuda y documentación.",
+    "option_notes": [
+      "No son 7 (siete son, por ejemplo, los principios del Diseño Universal).",
+      "No son 4 (cuatro son los principios de las WCAG: perceptible, operable, comprensible y robusto).",
+      null,
+      "No son 8 (ocho son las «reglas de oro» de Shneiderman)."
+    ],
+    "topic": "III.8",
+    "references": [
+      "J. Nielsen, «10 Usability Heuristics for User Interface Design»"
+    ],
+    "tags": [
+      "usabilidad",
+      "heuristicas-de-nielsen"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-032",
+    "explanation": "Las recomendaciones de seguridad para el **acceso remoto** (por ejemplo, las del CCN para el teletrabajo) aplican el **mínimo privilegio**: el teletrabajador solo debe acceder a los recursos imprescindibles, normalmente con **menos** privilegios que en local. Sí son recomendaciones: un canal **cifrado** que termine en un cortafuegos (VPN), un **segundo factor de autenticación** y el **registro** de las conexiones para su auditoría.",
+    "option_notes": [
+      null,
+      "Sí es una recomendación: el túnel cifrado (VPN) debe terminar en un cortafuegos que controle el tráfico.",
+      "Sí es una recomendación: el doble factor reduce el riesgo de robo de credenciales.",
+      "Sí es una recomendación: registrar las conexiones permite la trazabilidad y la auditoría."
+    ],
+    "topic": "IV.9",
+    "references": [],
+    "tags": [
+      "acceso-remoto",
+      "teletrabajo",
+      "minimo-privilegio"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-033",
+    "explanation": "El **sistema operativo** es **software**: el programa que gestiona los recursos del ordenador y hace de intermediario entre el hardware y los usuarios y aplicaciones. Entre sus funciones están controlar usuarios y permisos, **planificar la CPU** y **atender las interrupciones**. El conjunto de **hardware y software** necesario para que funcione el ordenador es el **sistema informático**, no el sistema operativo.",
+    "option_notes": [
+      "Sí es función del SO: gestionar usuarios, permisos y autorizaciones de acceso.",
+      "Sí es función del SO: el planificador reparte la CPU entre los procesos.",
+      "Sí es función del SO: ejecutar las rutinas de servicio de las interrupciones.",
+      null
+    ],
+    "topic": "II.4",
+    "references": [],
+    "tags": [
+      "sistemas-operativos",
+      "funciones"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-034",
+    "explanation": "Los algoritmos clásicos de **planificación de la CPU** son **FCFS** (*First Come, First Served*), **SJF** (*Shortest Job First*), **Round Robin** (turno rotatorio con *quantum*), por **prioridades** y de **colas multinivel**. Windows usa planificación por prioridades expulsiva, con turno rotatorio dentro de cada nivel, y Linux ofrece políticas como `SCHED_FIFO` y `SCHED_RR`. Un «algoritmo de agrupación» (*clustering*) es una técnica de análisis de datos, no de planificación.",
+    "option_notes": [
+      null,
+      "FCFS (primero en llegar, primero en ser servido) es un algoritmo de planificación clásico.",
+      "SJF (primero el trabajo más corto) es un algoritmo de planificación clásico.",
+      "Round Robin (turno rotatorio con quantum) es un algoritmo de planificación clásico."
+    ],
+    "topic": "II.4",
+    "references": [],
+    "tags": [
+      "sistemas-operativos",
+      "planificacion-de-procesos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-035",
+    "explanation": "En la **virtualización del escritorio** (**VDI**), el escritorio se ejecuta en servidores del centro de datos y al usuario solo le llega la imagen mediante un protocolo de visualización remota. Por eso **no hace falta un equipo potente**: basta un cliente ligero, un PC modesto, una tableta o incluso un móvil. Lo demás es cierto: hay aceleración gráfica (vGPU) y varios fabricantes ofrecen soluciones VDI.",
+    "option_notes": [
+      "Es cierta: las soluciones VDI aceleran los gráficos (vGPU) para acercarse a la experiencia de un equipo físico.",
+      "Es cierta: hay distintos fabricantes de soluciones VDI (Citrix, Microsoft, VMware…).",
+      "Es cierta: se accede desde PCs, clientes ligeros, tabletas o móviles.",
+      null
+    ],
+    "topic": "IV.2",
+    "references": [],
+    "tags": [
+      "virtualizacion",
+      "vdi",
+      "puesto-de-usuario"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-037",
+    "explanation": "Es casi literal de la documentación oficial de Kubernetes («Qué no es Kubernetes»): Kubernetes **no** despliega código fuente ni compila la aplicación, **no** impone soluciones de registro, monitorización o alertas, **no** limita los tipos de aplicaciones que admite y **no provee ni adopta un sistema exhaustivo** de configuración, mantenimiento, administración o **corrección automática** de máquinas. Es un orquestador de contenedores, no un PaaS cerrado.",
+    "option_notes": [
+      "La documentación dice lo contrario: Kubernetes no despliega código fuente ni compila la aplicación.",
+      "La documentación dice lo contrario: no impone soluciones de registro, monitorización o alertas.",
+      null,
+      "La documentación dice lo contrario: no limita los tipos de aplicaciones que admite."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "Kubernetes Documentation: Overview («What Kubernetes is not»)"
+    ],
+    "tags": [
+      "kubernetes",
+      "contenedores"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-039",
+    "explanation": "En la topología en **anillo**, cada equipo terminal de datos (DTE) se une a sus dos vecinos mediante **enlaces punto a punto**, y la información **circula en un solo sentido** de equipo en equipo hasta volver al origen (por ejemplo, Token Ring; FDDI usa un doble anillo). En la **estrella** todos se conectan a un nodo central, en el **bus** comparten un medio común y el **árbol** es una jerarquía de estrellas.",
+    "option_notes": [
+      "En estrella cada equipo se conecta a un nodo central, no a sus vecinos.",
+      null,
+      "El árbol es una jerarquía de estrellas, sin circulación en un solo sentido entre vecinos.",
+      "En bus todos los equipos comparten un único medio de difusión."
+    ],
+    "topic": "IV.10",
+    "references": [],
+    "tags": [
+      "topologias",
+      "redes-locales",
+      "anillo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-041",
+    "explanation": "**AAA** son las tres funciones del control de acceso: **Autenticación** (quién eres), **Autorización** (qué puedes hacer) y **Contabilización** (*Accounting*: registro de lo que se ha hecho y de los recursos consumidos, para auditoría o facturación). Protocolos AAA típicos: **RADIUS**, **TACACS+** y **Diameter**.",
+    "option_notes": [
+      "La tercera A es Accounting (contabilización), no aislamiento.",
+      "La tercera A es Accounting (contabilización), no seguridad.",
+      "La tercera A es Accounting (contabilización), no control.",
+      null
+    ],
+    "topic": "IV.9",
+    "references": [
+      "RFC 2865 (RADIUS)"
+    ],
+    "tags": [
+      "aaa",
+      "radius",
+      "control-de-acceso"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-043",
+    "explanation": "Una **POLAN** (*Passive Optical LAN*) lleva a la red local corporativa la tecnología **PON** (como GPON): un **OLT** en el centro de datos, **divisores ópticos pasivos** y un **ONT** junto a los usuarios, de modo que la fibra sustituye al cableado de cobre y a los **conmutadores intermedios** de planta. Ahorra espacio, energía y equipos activos.",
+    "option_notes": [
+      "Eso describe una WAN (red de área extensa).",
+      "Eso describe una GAN (red generativa adversarial) de inteligencia artificial.",
+      null,
+      "Eso describe una SAN (red de área de almacenamiento)."
+    ],
+    "topic": "IV.10",
+    "references": [
+      "UIT-T G.984 (GPON)"
+    ],
+    "tags": [
+      "redes-locales",
+      "fibra-optica",
+      "polan"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-044",
+    "explanation": "El cable **UTP** (*Unshielded Twisted Pair*) es par trenzado **sin apantallar**: se protege de las interferencias solo gracias al **trenzado**. El **FTP** (*Foiled Twisted Pair*) añade una **lámina** metálica que envuelve todos los pares, y el **STP** (*Shielded Twisted Pair*) un **apantallamiento** (malla o lámina) por pares o global. La norma ISO/IEC 11801 los designa como U/UTP, F/UTP, S/FTP, etc.",
+    "option_notes": [
+      "El FTP lleva una lámina (foil) que envuelve los pares.",
+      "El STP está apantallado (malla o lámina).",
+      null,
+      "Falso: el UTP no tiene ningún apantallamiento."
+    ],
+    "topic": "IV.6",
+    "references": [
+      "ISO/IEC 11801"
+    ],
+    "tags": [
+      "cableado",
+      "par-trenzado",
+      "medios-de-transmision"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-045",
+    "explanation": "**FTP** (transferencia de ficheros) es un protocolo de **nivel de aplicación** (7) que funciona sobre TCP (puertos 20 y 21). Los demás tienen que ver con el **nivel de red**: **RIP** y **BGP** son protocolos de **encaminamiento**, aunque viajen sobre UDP y TCP respectivamente, y **ARP** resuelve direcciones IP en MAC, a caballo entre los niveles 2 y 3.",
+    "option_notes": [
+      "BGP es el protocolo de encaminamiento entre sistemas autónomos de Internet (función de nivel de red).",
+      "ARP resuelve IP en MAC; suele situarse entre los niveles 2 y 3, al servicio del nivel de red.",
+      null,
+      "RIP es un protocolo de encaminamiento de vector distancia (función de nivel de red)."
+    ],
+    "topic": "IV.7",
+    "references": [],
+    "tags": [
+      "modelo-osi",
+      "protocolos",
+      "encaminamiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-046",
+    "explanation": "En IPv6 las direcciones **multicast** empiezan por **FF**: prefijo **FF00::/8** (por ejemplo, FF02::1 = todos los nodos del enlace). Otros prefijos clave: **::1/128** (loopback), **FE80::/10** (enlace local), **FC00::/7** (únicas locales, ULA) y **2000::/3** (unicast global). IPv6 no tiene broadcast: lo sustituye el multicast.",
+    "option_notes": [
+      "::1/128 es la dirección de loopback de IPv6.",
+      "224.0.0.0/4 es el rango multicast de IPv4 (clase D).",
+      null,
+      "FC00::/7 son las direcciones únicas locales (ULA), equivalentes a las privadas de IPv4."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 4291 (arquitectura de direccionamiento IPv6)"
+    ],
+    "tags": [
+      "ipv6",
+      "multicast",
+      "direccionamiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-047",
+    "explanation": "Un certificado **X.509** de servidor SSL/TLS contiene, entre otros datos, el **sujeto** (nombres de dominio, en el CN o en la extensión SAN), el **emisor** (la autoridad de certificación), el **periodo de validez** (fechas de emisión y caducidad), el número de serie, la **clave pública** y la **firma** de la CA. **Nunca contiene la clave privada**, que debe permanecer en secreto en el servidor.",
+    "option_notes": [
+      "Sí lo contiene: el nombre de dominio figura en el sujeto (CN) o en la extensión SAN.",
+      "Sí lo contiene: el campo emisor identifica a la autoridad de certificación.",
+      null,
+      "Sí lo contiene: el periodo de validez incluye la fecha de inicio (emisión) y la de caducidad."
+    ],
+    "topic": "IV.8",
+    "references": [
+      "RFC 5280 (certificados X.509)"
+    ],
+    "tags": [
+      "certificados",
+      "tls",
+      "pki"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-049",
+    "explanation": "La guía **CCN-STIC-836** del Centro Criptológico Nacional trata la **seguridad en redes privadas virtuales (VPN)** en el marco del ENS. Las guías de la **serie 800** desarrollan el Esquema Nacional de Seguridad: por ejemplo, la 812 trata la seguridad en entornos y aplicaciones web, y la 814, la del correo electrónico.",
+    "option_notes": [
+      "La CCN-STIC-837 no es la guía de VPN (que es la 836).",
+      "La CCN-STIC-814 trata la seguridad del correo electrónico.",
+      null,
+      "La CCN-STIC-812 trata la seguridad en entornos y aplicaciones web."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "CCN-STIC-836"
+    ],
+    "tags": [
+      "vpn",
+      "ccn-stic",
+      "ens"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-050",
+    "explanation": "Las **VPN de nivel de transporte** (VPN SSL) cifran con **TLS**: es lo que usan OpenVPN y la mayoría de VPN de acceso remoto con cliente ligero o desde el navegador. **IPsec** trabaja en el **nivel de red**, **MACsec** (IEEE 802.1AE) en el **nivel de enlace** y **SSH** puede crear túneles (redirección de puertos), pero no es el protocolo habitual de estas VPN.",
+    "option_notes": [
+      null,
+      "SSH permite túneles puntuales (redirección de puertos), pero no es el protocolo habitual de las VPN de transporte.",
+      "IPsec cifra en el nivel de red, no en el de transporte.",
+      "MACsec (IEEE 802.1AE) cifra en el nivel de enlace, dentro de la LAN."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "RFC 8446 (TLS 1.3)"
+    ],
+    "tags": [
+      "vpn",
+      "tls",
+      "acceso-remoto"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-r1",
+    "explanation": "**KRACK** (*Key Reinstallation Attack*, Vanhoef, 2017) ataca el **saludo de cuatro vías** de WPA2: fuerza a la víctima a **reinstalar la misma clave** ya en uso, lo que reinicia los contadores y hace que esa **misma clave** se use con valores **nonce repetidos**, con lo que el cifrado puede romperse. Por eso la C, que habla de una clave «distinta», es incorrecta. Discutible: la D tampoco es exacta, porque según sus descubridores KRACK afecta también a WPA1, no solo a WPA2.",
+    "option_notes": [
+      "Es cierta: KRACK son las siglas de Key Reinstallation Attack.",
+      "Es cierta: el ataque se dirige al saludo de cuatro vías con el que WPA2 negocia las claves.",
+      null,
+      "El tribunal la da por cierta, aunque KRACK también afecta a WPA1: la pregunta es discutible."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "M. Vanhoef y F. Piessens, «Key Reinstallation Attacks» (2017)"
+    ],
+    "tags": [
+      "wifi",
+      "wpa2",
+      "krack"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": true
+  },
+  {
+    "id": "tai-pi-2023-p1-r2",
+    "explanation": "**LXC** (*LinuX Containers*) es una tecnología de **virtualización a nivel de sistema operativo** para Linux: ejecuta varios sistemas Linux aislados (contenedores) sobre un mismo kernel, usando *cgroups* y *namespaces*. Es anterior a Docker (2008), que en sus primeras versiones lo usaba como motor de ejecución, y no al revés.",
+    "option_notes": [
+      null,
+      "LXC significa Linux Containers, no «Linux Exchange Container».",
+      "No es una versión de Linux Mint (cuyas versiones llevan nombres femeninos).",
+      "Al revés: las primeras versiones de Docker usaban LXC como motor de ejecución."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "linuxcontainers.org"
+    ],
+    "tags": [
+      "contenedores",
+      "lxc",
+      "linux"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-r3",
+    "explanation": "**OSSEC** es un **HIDS** (sistema de detección de intrusiones en host) de código abierto: analiza registros, comprueba la **integridad de los ficheros**, detecta *rootkits* y puede responder activamente (por ejemplo, bloqueando una IP). **Git** es control de versiones, **SonarQube** analiza la calidad del código y **Checkstyle** comprueba el estilo del código Java.",
+    "option_notes": [
+      null,
+      "Git es un sistema de control de versiones.",
+      "Sonar (SonarQube) analiza la calidad y la seguridad del código fuente; no detecta intrusiones.",
+      "Checkstyle comprueba que el código Java siga unas normas de estilo."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "OSSEC"
+    ],
+    "tags": [
+      "ids",
+      "hids",
+      "deteccion-de-intrusiones"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-r4",
+    "explanation": "Grupos de trabajo de **IEEE 802** que conviene memorizar: **802.1**, protocolos de capas superiores de LAN (puentes, VLAN 802.1Q, 802.1X); **802.3**, **Ethernet**; **802.11**, **LAN inalámbricas (Wi-Fi)**; **802.15**, redes de área personal (Bluetooth, Zigbee); **802.16**, WiMAX; y **802.19**, coexistencia inalámbrica.",
+    "option_notes": [
+      "802.1 son los protocolos de capas superiores (puentes, VLAN, seguridad); Ethernet es el 802.3.",
+      "802.3 es Ethernet; la coexistencia inalámbrica es el 802.19.",
+      "Los protocolos de capas superiores de LAN son el grupo 802.1, no el 802.25.",
+      null
+    ],
+    "topic": "IV.10",
+    "references": [
+      "IEEE 802 LAN/MAN Standards Committee"
+    ],
+    "tags": [
+      "ieee-802",
+      "redes-locales"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p1-r5",
+    "explanation": "En **ICMPv6** (RFC 4443) los mensajes de **error** usan los tipos 0 a 127: **1**, destino inalcanzable; **2**, paquete demasiado grande (*Packet Too Big*); **3**, tiempo excedido; y **4**, problema de parámetros. Los **informativos** van del 128 al 255 (128 Echo Request, 129 Echo Reply). El tipo 2 es clave para el **descubrimiento de la MTU de la ruta**, porque en IPv6 los routers no fragmentan.",
+    "option_notes": [
+      null,
+      "El tipo 4 es Parameter Problem (problema de parámetros).",
+      "El tipo 1 es Destination Unreachable (destino inalcanzable).",
+      "El tipo 3 es Time Exceeded (tiempo excedido)."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 4443 (ICMPv6)"
+    ],
+    "tags": [
+      "ipv6",
+      "icmpv6",
+      "mtu"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s1-002",
+    "explanation": "El producto más característico de **Oracle** es su **sistema gestor de bases de datos** (Oracle Database), uno de los SGBD relacionales más usados en las Administraciones. Oracle también tiene servidores de aplicaciones (WebLogic) y de directorio, pero lo «habitual» en un sistema como el del supuesto es el SGBD; Oracle no desarrolla navegadores web.",
+    "option_notes": [
+      "Oracle tiene servidores web y de aplicaciones, pero su producto característico es el SGBD.",
+      "Oracle tiene productos de directorio, pero su producto característico es el SGBD.",
+      null,
+      "Oracle no desarrolla navegadores web."
+    ],
+    "topic": "II.5",
+    "references": [],
+    "tags": [
+      "oracle",
+      "sgbd"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s1-005",
+    "explanation": "El **diagrama de estados** (o de máquina de estados; en Métrica v3, **diagrama de transición de estados**) se centra en **un objeto de una clase** y muestra los **estados** por los que pasa a lo largo de su vida, las **transiciones** entre ellos y los **eventos** que las provocan; por ejemplo, una Notificación: creada → enviada → leída o caducada. Los diagramas de clases, de despliegue y de objetos son estructurales.",
+    "option_notes": [
+      "El diagrama de clases muestra la estructura estática (clases, atributos y relaciones), no los estados.",
+      null,
+      "El diagrama de despliegue muestra los nodos de hardware y lo que se ejecuta en ellos.",
+      "El diagrama de objetos es una instantánea de instancias y enlaces, sin estados ni transiciones."
+    ],
+    "topic": "III.4",
+    "references": [
+      "Métrica v3, Técnicas: diagrama de transición de estados",
+      "OMG UML 2.5.1"
+    ],
+    "tags": [
+      "uml",
+      "diagrama-de-estados",
+      "metrica-v3"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s1-006",
+    "explanation": "La versión vigente de **UML** es la de la serie **2.5**: UML 2.5 se publicó en 2015 y su revisión **2.5.1** (diciembre de 2017) sigue siendo la última especificación formal del OMG. Las versiones 2.4 y 2.4.1 son de 2010-2011, y **UML 3.0 no existe**.",
+    "option_notes": [
+      null,
+      "UML 2.4.1 (2011) es anterior a la 2.5.",
+      "UML 2.4 (2010) es anterior a la 2.5.",
+      "UML 3.0 no existe."
+    ],
+    "topic": "III.4",
+    "references": [
+      "OMG Unified Modeling Language 2.5.1 (2017)"
+    ],
+    "tags": [
+      "uml",
+      "versiones"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s1-007",
+    "explanation": "**Jakarta EE** (antes Java EE y J2EE) es el **conjunto de especificaciones** para desarrollar **aplicaciones Java empresariales**: servlets, JPA, CDI, JAX-RS, Bean Validation, etc. Desde 2017 lo gestiona la **Eclipse Foundation** (por eso cambió de nombre) y lo implementan servidores como WildFly, Payara, Open Liberty o GlassFish.",
+    "option_notes": [
+      "Jakarta EE no se orienta al tiempo real ni a sistemas embebidos (para eso están Java ME o RTSJ).",
+      "Distractor por el nombre: Yakarta es la capital de Indonesia, pero Jakarta EE no es un congreso.",
+      null,
+      "No es un IDE; IDE de Java son, por ejemplo, Eclipse, IntelliJ IDEA o NetBeans."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Eclipse Foundation: Jakarta EE"
+    ],
+    "tags": [
+      "jakarta-ee",
+      "java"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s1-008",
+    "explanation": "**.NET** es una plataforma de desarrollo **gratuita, de código abierto y multiplataforma** creada por **Microsoft** para generar aplicaciones de muchos tipos: web (ASP.NET Core), escritorio, móviles (.NET MAUI), nube, juegos e IoT. Se ejecuta en **Windows, Linux y macOS**, se programa con **C#, F# y Visual Basic** y es muy común en **microservicios en contenedores Docker**.",
+    "option_notes": [
+      "Falso: desde .NET Core la plataforma se ejecuta en Linux (y en macOS).",
+      null,
+      "PHP no es un lenguaje de .NET; sus lenguajes son C#, F# y Visual Basic.",
+      "Falso: Microsoft publica imágenes oficiales de .NET para Docker y es habitual en microservicios."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Learn: ¿Qué es .NET?"
+    ],
+    "tags": [
+      "dotnet",
+      "multiplataforma"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s1-010",
+    "explanation": "**SOAP** es un protocolo de mensajería basado en **XML**: cada mensaje es un **sobre** (`Envelope`) XML con una cabecera opcional (`Header`, donde viaja, por ejemplo, la firma WS-Security) y un cuerpo (`Body`). Los servicios SOAP se describen con **WSDL**, también en XML. JSON y YAML son propios de REST y de la configuración, y **RDF** es un modelo de datos de la web semántica.",
+    "option_notes": [
+      "JSON es el formato habitual de las APIs REST, no de SOAP.",
+      "YAML se usa sobre todo en ficheros de configuración, no en mensajes SOAP.",
+      null,
+      "RDF es el modelo de datos de la web semántica, no el formato de los mensajes SOAP."
+    ],
+    "topic": "III.6",
+    "references": [
+      "W3C SOAP 1.2"
+    ],
+    "tags": [
+      "soap",
+      "xml",
+      "servicios-web"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s1-011",
+    "explanation": "El atributo **`HttpOnly`** impide que **JavaScript** lea la cookie (no aparece en `document.cookie`), lo que mitiga el robo de cookies de sesión mediante **XSS**. Los demás atributos de seguridad: **`Secure`** (solo se envía por HTTPS), **`SameSite`** (no se envía en peticiones desde otros sitios, contra CSRF) y **`Domain`** (qué hosts la reciben).",
+    "option_notes": [
+      "Domain indica a qué dominios se envía la cookie; no impide el acceso desde JavaScript.",
+      "SameSite limita el envío de la cookie en peticiones desde otros sitios (protección frente a CSRF).",
+      "Secure obliga a enviar la cookie solo por HTTPS, pero JavaScript puede seguir leyéndola.",
+      null
+    ],
+    "topic": "III.8",
+    "references": [
+      "RFC 6265 (cookies)"
+    ],
+    "tags": [
+      "cookies",
+      "seguridad-web",
+      "httponly"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s1-012",
+    "explanation": "**`git merge <rama>`** integra en la rama actual los cambios de otra rama: si ambas han avanzado, crea un **commit de fusión** con las dos historias (y si tocan las mismas líneas, hay que resolver los conflictos). Las demás órdenes hacen otra cosa: `git reset` mueve HEAD o saca cambios del área de preparación, `git checkout` cambia de rama o restaura ficheros y `git stash` guarda temporalmente cambios sin confirmar.",
+    "option_notes": [
+      "git reset mueve HEAD (y, según la opción, el índice y el directorio de trabajo); no fusiona ramas.",
+      "git checkout cambia de rama o restaura ficheros; no fusiona.",
+      null,
+      "git stash aparca temporalmente cambios sin confirmar; no fusiona ramas."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Pro Git, cap. 3 (ramas)"
+    ],
+    "tags": [
+      "git",
+      "ramas",
+      "control-de-versiones"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s1-r3",
+    "explanation": "**Git** y **Mercurial** (distribuidos) y **Subversion (SVN)** y **CVS** (centralizados) son **sistemas de control de versiones**: registran el historial de cambios del código, permiten volver a versiones anteriores, trabajar con ramas y colaborar entre varios desarrolladores.",
+    "option_notes": [
+      "No son gestores de contenidos web (como WordPress o Drupal).",
+      null,
+      "No los desarrolló la Administración española: Git lo creó Linus Torvalds y SVN es un proyecto de Apache.",
+      "No son sistemas gestores de bases de datos."
+    ],
+    "topic": "III.9",
+    "references": [],
+    "tags": [
+      "control-de-versiones",
+      "git",
+      "svn"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s2-003",
+    "explanation": "El puerto por defecto de **MySQL** (y de MariaDB) es el **TCP 3306**; el protocolo X de MySQL usa el 33060. Otros puertos de bases de datos que conviene recordar: **1521** Oracle, **1433** SQL Server, **5432** PostgreSQL y **27017** MongoDB.",
+    "option_notes": [
+      "3006 no es el puerto de MySQL; es el 3306.",
+      "3603 no es el puerto de MySQL; es el 3306.",
+      null,
+      "3606 no es el puerto de MySQL; es el 3306."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "MySQL Reference Manual: puertos"
+    ],
+    "tags": [
+      "mysql",
+      "puertos",
+      "cortafuegos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s2-006",
+    "explanation": "Una red **/24** tiene 32 − 24 = **8 bits de host**: 2⁸ = 256 direcciones, menos la de **red** (10.20.30.0) y la de **difusión** (10.20.30.255), dan **254 hosts** (10.20.30.1 – 10.20.30.254). Fórmula general: **2ⁿ − 2** hosts, siendo n el número de bits de host.",
+    "option_notes": [
+      "126 hosts corresponden a una /25 (2⁷ − 2).",
+      "62 hosts corresponden a una /26 (2⁶ − 2), como cada subred del modelo B.",
+      "32 no es un número de hosts válido: una /27 tiene 32 direcciones, pero 30 hosts.",
+      null
+    ],
+    "topic": "IV.7",
+    "references": [],
+    "tags": [
+      "ipv4",
+      "subnetting"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s2-007",
+    "explanation": "En **10.20.30.0/26** hay 2⁶ = 64 direcciones, de la .0 a la .63: la **dirección de red** es **10.20.30.0** (todos los bits de host a 0) y la de **broadcast**, **10.20.30.63** (todos a 1). Los hosts válidos van de la .1 a la .62, y la siguiente subred empieza en la .64.",
+    "option_notes": [
+      "10.20.30.255 sería el broadcast de la /24 original, no de la /26.",
+      "Son la primera y la última dirección de host, no la de red y la de broadcast.",
+      null,
+      "Son la red y el broadcast de la segunda subred (10.20.30.64/26)."
+    ],
+    "topic": "IV.7",
+    "references": [],
+    "tags": [
+      "ipv4",
+      "subnetting"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s2-008",
+    "explanation": "**Squid** es un **proxy-caché** de código abierto para HTTP, HTTPS (mediante túnel `CONNECT` o inspección) y FTP: guarda en caché los contenidos más pedidos para acelerar el acceso a Internet y ahorrar ancho de banda, y permite controlar y registrar ese acceso. **InfluxDB** es una base de datos de series temporales, **Grafana** una herramienta de paneles de visualización y **Checkmk** un software de monitorización.",
+    "option_notes": [
+      "InfluxDB es una base de datos de series temporales (métricas), no un proxy.",
+      "Grafana sirve para crear paneles de visualización de métricas; no es un proxy.",
+      "Checkmk es un software de monitorización, no un proxy-caché.",
+      null
+    ],
+    "topic": "IV.8",
+    "references": [
+      "Squid Cache"
+    ],
+    "tags": [
+      "proxy",
+      "cache",
+      "squid"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s2-009",
+    "explanation": "Combinar la contraseña de la VPN (**algo que se sabe**) con un código enviado por SMS al móvil (**algo que se tiene**) es **autenticación de doble factor** (2FA), un caso de autenticación multifactor (MFA): exige factores de **categorías distintas** (conocimiento, posesión e inherencia o biometría). Ojo: el SMS es un segundo factor débil (riesgo de duplicado de SIM), y hoy se prefieren las apps de autenticación o las llaves FIDO2.",
+    "option_notes": [
+      "«Factor electrónico de autenticación» no es una denominación técnica.",
+      "Es un término genérico; no indica que se combinen dos factores.",
+      null,
+      "Se usan dos factores (contraseña y código SMS), no uno."
+    ],
+    "topic": "IV.9",
+    "references": [],
+    "tags": [
+      "autenticacion",
+      "2fa",
+      "teletrabajo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s2-010",
+    "explanation": "Puertos de correo con **TLS implícito**: **POP3S 995**, **SMTPS 465** (envío de mensajes, recuperado por el RFC 8314) e **IMAPS 993**. Sin cifrado implícito: POP3 110, IMAP 143, SMTP 25 (entre servidores) y 587 (envío con STARTTLS). Truco: 99**5** para POP y 99**3** para IMAP.",
+    "option_notes": [
+      "Los puertos de POP y de IMAP están intercambiados: POP3S es el 995 e IMAPS el 993.",
+      "SMTPS es el 465 (no el 495) e IMAPS el 993 (no el 963).",
+      null,
+      "POP3S es el 995 (no el 965) y SMTPS el 465 (no el 495)."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "RFC 8314 (TLS implícito para el correo)"
+    ],
+    "tags": [
+      "correo-electronico",
+      "puertos",
+      "tls"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2023-p2-s2-012",
+    "explanation": "**IEEE 802.11be (Wi-Fi 7)** trabaja en las bandas de **2,4, 5 y 6 GHz** y puede usarlas a la vez (operación multienlace, MLO). **802.11ac (Wi-Fi 5)** solo usa 5 GHz, y la banda de **6 GHz** existe: en Europa está abierta al Wi-Fi desde 2021. Discutible: el estándar **802.11ax** también contempla la banda de 6 GHz (dispositivos certificados como **Wi-Fi 6E**), así que la B también podría defenderse; la plantilla mantuvo la D.",
+    "option_notes": [
+      "Sí existe: la banda de 6 GHz se abrió al Wi-Fi (en Europa, 5945–6425 MHz desde 2021).",
+      "802.11ax (Wi-Fi 6) usa 2,4 y 5 GHz y, en su variante Wi-Fi 6E, también 6 GHz: por eso la pregunta es discutible.",
+      "802.11ac (Wi-Fi 5) solo trabaja en la banda de 5 GHz.",
+      null
+    ],
+    "topic": "IV.6",
+    "references": [
+      "IEEE 802.11be",
+      "IEEE 802.11ax",
+      "Decisión de Ejecución (UE) 2021/1067"
+    ],
+    "tags": [
+      "wifi",
+      "ieee-802",
+      "bandas-de-frecuencia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": true
+  }
+]

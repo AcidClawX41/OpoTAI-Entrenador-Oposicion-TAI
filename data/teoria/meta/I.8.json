@@ -1,0 +1,29 @@
+{
+  "topic": "I.8",
+  "summary": "Régimen de la Administración electrónica: derechos y obligación de relacionarse electrónicamente, registros, cómputo de plazos, notificaciones, documentos, copias, expediente y archivo electrónicos (Leyes 39/2015 y 40/2015 y RD 203/2021), junto con el Esquema Nacional de Seguridad (RD 311/2022), el Esquema Nacional de Interoperabilidad (RD 4/2010) y sus normas técnicas de interoperabilidad.",
+  "key_points": [
+    "Las personas físicas eligen y pueden cambiar en todo momento el medio de relación (art. 14.1 LPAC); están obligadas las personas jurídicas, las entidades sin personalidad, los profesionales colegiados, los representantes de obligados y los empleados públicos.",
+    "La firma solo es obligatoria para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir y renunciar (art. 11.2 LPAC); para consultar o acceder a notificaciones basta identificarse.",
+    "Registro electrónico abierto 24 horas todos los días; lo presentado en día inhábil se entiende en la primera hora del primer día hábil siguiente y se aplica solo el calendario de la sede (art. 31 LPAC).",
+    "Notificaciones preferentemente electrónicas por sede, DEHú o ambas; rechazo a los 10 días naturales; en papel, mayor de 14 años y segundo intento en 3 días; si es infructuosa, anuncio en el BOE.",
+    "ENS (RD 311/2022): 7 principios, 15 requisitos mínimos, 4 roles (información, servicio, seguridad y sistema) y responsable de la seguridad distinto del responsable del sistema y sin dependencia jerárquica.",
+    "Categorización ENS: dimensiones C, I, T, A y D; niveles bajo, medio y alto; la categoría (BÁSICA, MEDIA o ALTA) la fija el responsable de la seguridad según la dimensión de mayor nivel.",
+    "Anexo II del ENS: 73 medidas en marco organizativo, marco operacional y medidas de protección; trazabilidad con sellos de tiempo y registro de la actividad, disponibilidad con análisis de impacto y copias, confidencialidad con criptografía.",
+    "Auditoría del ENS al menos cada 2 años; los sistemas BÁSICOS se autoevalúan (Declaración de Conformidad) y los MEDIOS y ALTOS se auditan (Certificación de Conformidad).",
+    "ENI (RD 4/2010): principios de cualidad integral, carácter multidimensional (organizativa, semántica y técnica) y soluciones multilaterales; instrumentos SIA, CISE, CTT y DIR3; Red SARA; hora del ROA.",
+    "NTI: digitalización a 200 ppp en todos los casos, intermediación con SCSP 3.0, metadatos mínimos del documento (incluida la fecha de captura), catálogo de estándares sin BMP y SICRES 4.0 desde 2021."
+  ],
+  "sources": [
+    { "title": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565" },
+    { "title": "Ley 40/2015, de Régimen Jurídico del Sector Público", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566" },
+    { "title": "Real Decreto 203/2021, Reglamento de actuación y funcionamiento del sector público por medios electrónicos", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032" },
+    { "title": "Real Decreto 311/2022, Esquema Nacional de Seguridad", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191" },
+    { "title": "Real Decreto 4/2010, Esquema Nacional de Interoperabilidad", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331" },
+    { "title": "NTI de Catálogo de estándares", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-13501" },
+    { "title": "NTI de Documento Electrónico", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13169" },
+    { "title": "NTI de Protocolos de intermediación de datos", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-10049" },
+    { "title": "Real Decreto 1118/2024, Estatuto de la Agencia Estatal de Administración Digital", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-22929" },
+    { "title": "Reglamento (UE) 2024/903, sobre la Europa Interoperable", "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R0903" }
+  ],
+  "updated": "2026-10-11"
+}

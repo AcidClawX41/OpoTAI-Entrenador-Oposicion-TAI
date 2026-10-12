@@ -1,0 +1,25 @@
+{
+  "topic": "I.3",
+  "summary": "El Gobierno según la Constitución y la Ley 50/1997: composición y órganos (Consejo de Ministros, Comisiones Delegadas y órganos de apoyo), nombramiento por investidura, cese y Gobierno en funciones, funciones políticas, normativas y ejecutivas, y relaciones con las Cortes (control, cuestión de confianza, moción de censura y disolución).",
+  "key_points": [
+    "Miembros del Gobierno: Presidente, Vicepresidentes (en su caso) y Ministros; los Secretarios de Estado no lo son.",
+    "El Presidente convoca y preside el Consejo de Ministros; actúa como Secretario el Ministro de la Presidencia; deliberaciones secretas.",
+    "Investidura: mayoría absoluta en primera votación y simple 48 horas después; a los 2 meses de la primera votación sin investidura, disolución refrendada por el Presidente del Congreso.",
+    "El Gobierno cesa tras elecciones generales, por pérdida de la confianza parlamentaria o por dimisión o fallecimiento de su Presidente.",
+    "En funciones: despacho ordinario de los asuntos públicos; no puede aprobar el proyecto de Presupuestos ni presentar proyectos de ley; su Presidente no puede disolver, plantear la cuestión de confianza ni proponer referéndum.",
+    "Moción de censura: 1/10 de los diputados, con candidato, 5 días de espera, alternativas en los 2 primeros días y mayoría absoluta.",
+    "Cuestión de confianza: la plantea el Presidente previa deliberación del Consejo de Ministros; se gana por mayoría simple.",
+    "Disolución (art. 115): propuesta del Presidente bajo su exclusiva responsabilidad; no con moción de censura en trámite ni antes de un año desde la anterior.",
+    "Jerarquía reglamentaria: Reales Decretos (del Presidente o del Consejo de Ministros) y después Órdenes Ministeriales.",
+    "Art. 103.1 CE: eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho."
+  ],
+  "sources": [
+    { "title": "Constitución Española, Títulos IV y V", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229" },
+    { "title": "Ley 50/1997, de 27 de noviembre, del Gobierno", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336" },
+    { "title": "Ley 40/2015, de Régimen Jurídico del Sector Público", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566" },
+    { "title": "Ley Orgánica 3/1980, del Consejo de Estado", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-8648" },
+    { "title": "Reglamento del Congreso de los Diputados", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196" },
+    { "title": "Ley 3/2015, reguladora del ejercicio del alto cargo de la AGE", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3444" }
+  ],
+  "updated": "2026-10-11"
+}

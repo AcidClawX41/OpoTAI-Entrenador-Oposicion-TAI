@@ -1,0 +1,20 @@
+%% IV.8 · Resolución DNS de www.sede.organismo.es (RFC 1034 y 1035).
+%% Consulta recursiva del cliente al resolvedor e iterativas del resolvedor.
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+sequenceDiagram
+    participant C as Cliente
+    participant R as Resolvedor<br/>recursivo
+    participant Raiz as Raíz
+    participant TLD as TLD .es
+    participant A as Autoritativo<br/>organismo.es
+    Note over C: caché local<br/>y fichero hosts
+    C->>R: A de www.sede.organismo.es
+    Note over R: si lo tiene en caché<br/>(TTL vigente), responde
+    R->>Raiz: consulta
+    Raiz-->>R: NS de .es
+    R->>TLD: consulta
+    TLD-->>R: NS de organismo.es
+    R->>A: consulta
+    A-->>R: A / AAAA
+    R-->>C: IP (guardada en caché)
+    Note over R,A: iterativas: cada servidor da la<br/>respuesta o una referencia

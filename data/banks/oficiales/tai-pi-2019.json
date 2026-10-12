@@ -1,0 +1,2936 @@
+{
+  "schema_version": 1,
+  "id": "tai-pi-2019",
+  "kind": "official",
+  "title": "TAI · Promoción interna · Convocatoria 2019 [INAP: «Convocatoria 2018», OEP 2018] (examen 19/10/2019)",
+  "description": "Ejercicio único del proceso selectivo de promoción interna en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2018). Primera parte: cuestionario de 50 preguntas (+5 de reserva). Segunda parte: un supuesto práctico a elegir entre dos (bloques III y IV), de 12 preguntas (+3 de reserva) cada uno. 90 minutos. Cuadernillo escaneado: transcrito por OCR y revisado a mano contra la imagen de cada página.",
+  "access": "promocion_interna",
+  "year": 2019,
+  "convocatoria": "pi-2019",
+  "exam_date": "2019-10-19",
+  "model": null,
+  "duration_minutes": 90,
+  "scoring_scheme": "tai-pi-2019",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "documents": [
+      {
+        "kind": "cuadernillo",
+        "title": "Cuestionario ejercicio único",
+        "url": "https://www.inap.es/documents/59312/1777270/08TAIPI_154AB89SD658.pdf/5b93e5e5-86bc-a169-8128-d3f8f073d9f2",
+        "sha256": "99abc22c9c8f3892b7e53e3a9f205f650150530cbef0a2f0b1753dda1052dbf8"
+      },
+      {
+        "kind": "plantilla_definitiva",
+        "title": "Plantilla definitiva de respuestas",
+        "url": "https://www.inap.es/documents/59312/1777270/Plantilla_defTAI-Pejerunico_154AB89SD658.pdf/0120eadc-9877-2a4c-51dd-02b625d9ef79",
+        "sha256": "7784c87aac24ab4fb81e85ab225c7ae9fe8170cc6b085762b1d84245583224a5"
+      },
+      {
+        "kind": "plantilla_provisional",
+        "title": "Plantilla provisional de respuestas",
+        "url": "https://www.inap.es/documents/59312/1777270/08-Plantilla_provisionalTAI-PEjercicionico2018_154AB89SD658.pdf/5d446263-1325-2a6c-2121-f3fd966c4bca",
+        "sha256": "5831c7b6bdb56c2e3850f15cd579069ceeaf4975d2e8aaa096180e77451f9195"
+      },
+      {
+        "kind": "criterios",
+        "title": "Criterios de corrección, valoración y superación",
+        "url": "https://www.inap.es/documents/59312/1777270/8OEP2018TAIPI_154AB89SD658.pdf/f4857b8c-0a2e-01a1-cd0c-70e920fe73f6",
+        "sha256": "670b5e601a454653dfac092ab3e205dfcad916e218684b5bcbe07e3045144787"
+      },
+      {
+        "kind": "otro",
+        "title": "Lugar, día y hora de examen",
+        "url": "https://www.inap.es/documents/59312/1747284/LUGAR_DIA_HORA_EXAMEN.pdf/aabf689e-5098-67e3-bbbf-57aacbb817bc",
+        "sha256": "3a7f23b415f2ae16d54e21534b94d557936496862eba3334c6ba7e0d0d4d010f"
+      }
+    ],
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 14 de junio de 2019 de la Secretaría de Estado de Función Pública (BOE 17/06/2019), rotulada por el INAP como «Convocatoria 2018» (OEP 2018); el id usa el año de la resolución (2019). El cuadernillo publicado es un escaneo sin capa de texto: el texto procede de OCR (Tesseract, caché versionada en tools/sources/ocr/) corregido tras revisar cada página contra su imagen. Se pierde la negrita del original. Se omite la portada de instrucciones. Respuestas según la plantilla definitiva. Anuladas en la plantilla definitiva: p2-s1-011. Cambios respecto a la plantilla provisional: p2-s1-011: provisional A → definitiva ANULADA."
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Cuestionario",
+      "block": null,
+      "statement": null,
+      "media": [],
+      "questions": [
+        {
+          "id": "tai-pi-2019-p1-001",
+          "number": 1,
+          "text": "Según el artículo 11 de la ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas, ¿para cuál de los siguientes supuestos NO se requiere a los interesados el uso obligatorio de firma?",
+          "options": [
+            "Formular solicitudes.",
+            "Interponer recursos.",
+            "Desistir de acciones.",
+            "Consultar datos fiscales."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "I.6",
+          "explanation": "Según el **art. 11.2 de la Ley 39/2015**, las Administraciones **solo** exigen **firma** para: **formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos**. Para cualquier otra actuación basta con **acreditar la identidad** (art. 11.1). Consultar datos fiscales es una consulta: solo exige identificarse (por ejemplo, con Cl@ve). Regla mnemotécnica: hay firma cuando *pides, declaras, recurres, desistes o renuncias*.",
+          "option_notes": [
+            "Sí exige firma: formular solicitudes es la letra a) del art. 11.2.",
+            "Sí exige firma: interponer recursos es la letra c) del art. 11.2.",
+            "Sí exige firma: desistir de acciones es la letra d) del art. 11.2.",
+            null
+          ],
+          "references": [
+            "Ley 39/2015, art. 11"
+          ],
+          "tags": [
+            "firma-electronica",
+            "procedimiento-administrativo",
+            "ley-39-2015"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-002",
+          "number": 2,
+          "text": "¿Qué nombre recibe el proyecto europeo que supuso el establecimiento de una plataforma europea de interoperabilidad de identidades electrónicas?",
+          "options": [
+            "sTESTA.",
+            "INSIDE.",
+            "STORK.",
+            "INSPIRE."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "I.6",
+          "explanation": "**STORK** (*Secure idenTity acrOss boRders linKed*, 2008-2011, y STORK 2.0, 2012-2015) fue el proyecto piloto europeo que creó una **plataforma de interoperabilidad de identidades electrónicas**: permitía usar el eID de un país (por ejemplo, el DNIe) en servicios de otro Estado miembro. Sus resultados sirvieron de base a los **nodos eIDAS** del Reglamento (UE) 910/2014, que en España se integran a través de Cl@ve.",
+          "option_notes": [
+            "sTESTA es la red telemática segura que interconecta las administraciones europeas, no una plataforma de identidades.",
+            "InSide es la solución de la AGE para gestionar documentos y expedientes electrónicos conforme al ENI.",
+            null,
+            "INSPIRE es la Directiva 2007/2/CE sobre infraestructura de información espacial (datos geográficos)."
+          ],
+          "references": [
+            "Proyecto STORK (programa CIP ICT-PSP de la Comisión Europea)",
+            "Reglamento (UE) 910/2014 (eIDAS)"
+          ],
+          "tags": [
+            "stork",
+            "identidad-electronica",
+            "eidas"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-003",
+          "number": 3,
+          "text": "Según el Reglamento (UE) 2016/679 sobre tratamiento de datos personales (RGPD), ¿sigue siendo obligatoria la inscripción de ficheros a la AEPD?",
+          "options": [
+            "Sí.",
+            "No.",
+            "Solamente sigue siendo obligatoria en el caso de ficheros de responsables públicos.",
+            "Solamente sigue siendo obligatoria en el caso de ficheros de responsables privados."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "I.7",
+          "explanation": "El **RGPD**, aplicable desde el **25 de mayo de 2018**, suprimió la obligación de **notificar e inscribir ficheros** en la AEPD que exigía la LOPD 15/1999. Se sustituye por la **responsabilidad proactiva**: el responsable y el encargado llevan su propio **registro de actividades de tratamiento** (art. 30 RGPD; art. 31 LOPDGDD), que deben poner a disposición de la autoridad de control si se lo pide. Además, las entidades públicas del art. 77.1 LOPDGDD deben **publicar** un inventario de sus actividades de tratamiento, pero no inscribirlo.",
+          "option_notes": [
+            "La inscripción de ficheros era propia de la LOPD 15/1999 y desapareció con el RGPD.",
+            null,
+            "Los responsables públicos tampoco inscriben ficheros: publican un inventario de actividades de tratamiento (art. 31.2 LOPDGDD).",
+            "Los responsables privados solo llevan su registro de actividades de tratamiento, sin inscribirlo en la AEPD."
+          ],
+          "references": [
+            "Reglamento (UE) 2016/679 (RGPD), art. 30",
+            "LO 3/2018 (LOPDGDD), art. 31"
+          ],
+          "tags": [
+            "rgpd",
+            "registro-de-actividades",
+            "responsabilidad-proactiva"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-004",
+          "number": 4,
+          "text": "La práctica de las notificaciones por medios electrónicos se realizará:",
+          "options": [
+            "Mediante comparecencia en la sede electrónica de la Administración, a través de la dirección electrónica habilitada única o mediante ambos sistemas.",
+            "A través del dispositivo electrónico identificado por el interesado (fundamentalmente teléfono móvil).",
+            "A través de dirección de correo electrónico identificada por el interesado para el envío de los avisos.",
+            "A través de dispositivo electrónico o dirección de correo electrónico identificada por el interesado para el envío de los avisos."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "I.8",
+          "explanation": "**Art. 43.1 de la Ley 39/2015**: las notificaciones electrónicas se practican «mediante **comparecencia en la sede electrónica** de la Administración u Organismo actuante, a través de la **dirección electrónica habilitada única** o mediante **ambos sistemas**». En la AGE la dirección habilitada única es la **DEHú**. El móvil o el correo electrónico que comunica el interesado solo reciben un **aviso** de puesta a disposición (art. 41.6), y la falta de aviso no invalida la notificación.",
+          "option_notes": [
+            null,
+            "Al dispositivo electrónico solo se envía el aviso de puesta a disposición (art. 41.6); no es un medio de práctica.",
+            "El correo electrónico del interesado solo recibe el aviso (art. 41.6), no la notificación.",
+            "Dispositivo y correo sirven para avisar de la puesta a disposición, no para practicar la notificación."
+          ],
+          "references": [
+            "Ley 39/2015, arts. 41.6 y 43.1",
+            "RD 203/2021, art. 42"
+          ],
+          "tags": [
+            "notificaciones",
+            "ley-39-2015",
+            "dehu"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-005",
+          "number": 5,
+          "text": "Conforme a la Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas, las personas físicas que no estén obligadas a relacionarse a través de medios electrónicos con las Administraciones Públicas:",
+          "options": [
+            "Podrán elegir al principio de un procedimiento si desean comunicarse con las Administraciones Públicas para el ejercicio de sus derechos y obligaciones a través de medios electrónicos o no, y dicha opción se mantendrá necesariamente hasta el final del procedimiento.",
+            "Deberán comunicarse en todo caso con las Administraciones Públicas para el ejercicio de sus derechos y obligaciones a través de medios no electrónicos.",
+            "Podrán elegir en todo momento si se comunican con las Administraciones Públicas para el ejercicio de sus derechos y obligaciones a través de medios electrónicos o no, y modificar el medio elegido en cualquier momento del procedimiento.",
+            "No podrán comunicarse con las Administraciones Públicas para el ejercicio de sus derechos y obligaciones a través de medios electrónicos salvo que reglamentariamente se declare que pertenecen a un colectivo de personas físicas que por razón de su capacidad económica, técnica, dedicación profesional u otros motivos quede acreditado que tienen acceso y disponibilidad de los medios electrónicos necesarios."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "I.8",
+          "explanation": "El **art. 14.1 de la Ley 39/2015** reconoce a las **personas físicas** el derecho a **elegir en todo momento** si se comunican con las Administraciones por medios electrónicos o no, salvo que estén obligadas, y a **modificar el medio elegido en cualquier momento**. Están obligados a relacionarse electrónicamente las personas jurídicas, las entidades sin personalidad, los profesionales colegiados en su actividad, quienes representen a un obligado y los empleados públicos (art. 14.2), además de los colectivos que se fijen **reglamentariamente** por su capacidad económica o técnica (art. 14.3).",
+          "option_notes": [
+            "La elección no es irrevocable: el medio elegido puede cambiarse en cualquier momento.",
+            "Al contrario: pueden comunicarse por medios electrónicos si lo desean.",
+            null,
+            "Desfigura el art. 14.3: lo que se fija reglamentariamente es la obligación de relacionarse electrónicamente para ciertos colectivos."
+          ],
+          "references": [
+            "Ley 39/2015, art. 14"
+          ],
+          "tags": [
+            "ley-39-2015",
+            "relacion-electronica"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-006",
+          "number": 6,
+          "text": "Según se establece en la Ley 19/2013, de Transparencia, Acceso a la Información Pública y Buen Gobierno, en su artículo 11 se establecen los principios a los que tendrá que adecuarse la información publicada en el Portal de Transparencia. Estos principios son:",
+          "options": [
+            "Accesibilidad, integridad e interoperabilidad.",
+            "Accesibilidad, reutilización e interoperabilidad.",
+            "Accesibilidad, disponibilidad y reutilización.",
+            "Accesibilidad, disponibilidad e integridad."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "I.4",
+          "explanation": "El **art. 11 de la Ley 19/2013** («Principios técnicos») exige que la información del **Portal de la Transparencia** se ajuste a tres principios: **accesibilidad** (información estructurada que facilite su identificación y búsqueda), **interoperabilidad** (conforme al Esquema Nacional de Interoperabilidad y sus normas técnicas) y **reutilización** (formatos reutilizables, según la Ley 37/2007). Mnemotecnia: **A-I-R**. Integridad y disponibilidad son dimensiones de seguridad del ENS, no principios del Portal.",
+          "option_notes": [
+            "La integridad es una dimensión de seguridad del ENS; falta la reutilización.",
+            null,
+            "Falta la interoperabilidad; la disponibilidad no figura entre los principios del art. 11.",
+            "Disponibilidad e integridad son dimensiones de seguridad, no principios técnicos del art. 11."
+          ],
+          "references": [
+            "Ley 19/2013, art. 11"
+          ],
+          "tags": [
+            "transparencia",
+            "portal-de-transparencia",
+            "ley-19-2013"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-007",
+          "number": 7,
+          "text": "¿En qué año se aprobó la Agenda 2030 para el desarrollo sostenible?",
+          "options": [
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "I.4",
+          "explanation": "La **Agenda 2030 para el Desarrollo Sostenible** («Transformar nuestro mundo») la aprobó la **Asamblea General de las Naciones Unidas el 25 de septiembre de 2015** (Resolución A/RES/70/1). Contiene **17 Objetivos de Desarrollo Sostenible (ODS)** y **169 metas**, y sustituye a los Objetivos de Desarrollo del Milenio (2000-2015). Los ODS empezaron a aplicarse el 1 de enero de 2016.",
+          "option_notes": [
+            null,
+            "En 2016 empezaron a aplicarse los ODS (1 de enero), pero la Agenda se aprobó en septiembre de 2015.",
+            "Fecha errónea: la Agenda se adoptó en la cumbre de la ONU de septiembre de 2015.",
+            "En 2018 España aprobó su Plan de Acción para la implementación de la Agenda 2030, no la Agenda."
+          ],
+          "references": [
+            "Resolución A/RES/70/1 de la Asamblea General de la ONU (25-9-2015)"
+          ],
+          "tags": [
+            "agenda-2030",
+            "ods"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-008",
+          "number": 8,
+          "text": "A los efectos de lo dispuesto en la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, se entenderá por composición equilibrada:",
+          "options": [
+            "La presencia de mujeres y hombres de forma que, en el conjunto a que se refiera, haya un cincuenta por ciento de cada sexo.",
+            "La presencia de mujeres y hombres de forma que, en el conjunto a que se refiera, las personas de cada sexo no superen el ochenta por ciento ni sean menos del veinte por ciento.",
+            "La presencia de mujeres y hombres de forma que, en el conjunto a que se refiera, ambos sexos estén suficientemente representados.",
+            "La presencia de mujeres y hombres de forma que, en el conjunto a que se refiera, las personas de cada sexo no superen el sesenta por ciento ni sean menos del cuarenta por ciento."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "I.5",
+          "explanation": "La **disposición adicional primera de la LO 3/2007** define la **composición equilibrada** como la presencia de mujeres y hombres de forma que, en el conjunto a que se refiera, **las personas de cada sexo no superen el sesenta por ciento ni sean menos del cuarenta por ciento**. Es la horquilla **40/60** que se aplica, por ejemplo, a los órganos de selección (art. 53) y a los nombramientos. La LO 2/2024, de paridad, utiliza el mismo concepto.",
+          "option_notes": [
+            "Un 50 % de cada sexo sería paridad estricta; la ley define una horquilla del 40 al 60 %.",
+            "Los límites son 60 % y 40 %, no 80 % y 20 %.",
+            "La ley no usa un criterio indeterminado («suficientemente representados»), sino porcentajes concretos.",
+            null
+          ],
+          "references": [
+            "LO 3/2007, DA 1.ª"
+          ],
+          "tags": [
+            "igualdad",
+            "composicion-equilibrada"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-009",
+          "number": 9,
+          "text": "Según la Ley de Dependencia, ésta se puede definir como:",
+          "options": [
+            "Estado de carácter permanente en que se encuentran las personas que, por distintas razones y ligadas a la falta o a la pérdida de autonomía física, mental, intelectual o sensorial, precisan de la atención de otra u otras personas o ayudas importantes para realizar actividades básicas de la vida diaria.",
+            "Estado de carácter permanente o temporal en que se encuentran las personas que, por razones de enfermedad, precisan de la atención de cuidados no profesionales para obtener información en términos comprensibles y accesibles.",
+            "Condición bajo la cual ciertas personas presentan alguna deficiencia física, mental, intelectual o sensorial, temporal o permanente.",
+            "Situación debida a enfermedad común o profesional y a accidente, sea o no de trabajo, durante el tiempo en que el trabajador reciba asistencia sanitaria de la Seguridad Social y esté impedido para el trabajo."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "I.5",
+          "explanation": "La opción A reproduce el **art. 2.2 de la Ley 39/2006** en su redacción original: dependencia es el **estado de carácter permanente** de quienes, por la falta o pérdida de autonomía física, mental, intelectual o sensorial, **precisan de la atención de otra u otras personas o ayudas importantes** para realizar **actividades básicas de la vida diaria**. Las claves: **permanente** y **necesidad de ayuda de terceros**. La Ley 4/2026 la reformula como «situación de dependencia», con las mismas claves.",
+          "option_notes": [
+            null,
+            "Mezcla «temporal» y «cuidados no profesionales» con el acceso a información: la dependencia es permanente y requiere ayuda para las actividades de la vida diaria.",
+            "Se parece a la definición de persona con discapacidad (art. 4.1 TRLGDPD), no a la de dependencia.",
+            "Es la definición de incapacidad temporal de la Ley General de la Seguridad Social, no la de dependencia."
+          ],
+          "references": [
+            "Ley 39/2006, art. 2.2",
+            "Ley 4/2026, de 1 de octubre"
+          ],
+          "tags": [
+            "dependencia",
+            "ley-39-2006",
+            "definiciones"
+          ],
+          "media": [],
+          "outdated": true,
+          "outdated_note": "La Ley 4/2026, de 1 de octubre (en vigor desde el 23-10-2026), reescribe el art. 2.2: «Situación de dependencia: el estado de carácter permanente en el que las personas, debido a dificultades que afectan a su autonomía, precisan de cuidados y apoyos de otra u otras personas o ayudas importantes para realizar actividades de la vida diaria» (ya no «básicas»), y añade que puede asociarse a la edad, la discapacidad o la enfermedad y agravarse por factores sociales o contextuales. La A sigue siendo la opción correcta.",
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-010",
+          "number": 10,
+          "text": "Indique qué ordenación es correcta respecto a la velocidad de acceso a los datos en distintos tipos de memoria de más rápida a menos rápida:",
+          "options": [
+            "Registros de la CPU, Memoria Caché, Memoria Principal (RAM), Discos magnéticos.",
+            "Registros de la CPU, Memoria SSD. Memoria Caché, Discos magnéticos.",
+            "Memoria Principal (RAM), Registros de la CPU, Memoria Caché, Memoria SSD.",
+            "Registros de la CPU, Memoria Principal (RAM), Memoria SSD. Memoria Caché, Discos magnéticos."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.1",
+          "explanation": "En la **jerarquía de memoria**, cuanto más cerca de la CPU, más rápida, más cara y de menor capacidad: **registros** (dentro del procesador) → **caché** (L1, L2, L3) → **memoria principal (RAM)** → almacenamiento secundario (**SSD** y, aún más lento, **discos magnéticos**) → cintas. La caché es mucho más rápida que cualquier SSD y la RAM nunca supera a los registros.",
+          "option_notes": [
+            null,
+            "Coloca el SSD por delante de la caché: un SSD es almacenamiento secundario, más lento que la caché y la RAM.",
+            "Los registros de la CPU son la memoria más rápida; la RAM no puede ir delante de ellos ni de la caché.",
+            "Sitúa la RAM y el SSD por delante de la caché, que es más rápida que ambos."
+          ],
+          "references": [
+            "Arquitectura de computadores: jerarquía de memoria"
+          ],
+          "tags": [
+            "jerarquia-de-memoria",
+            "memoria-cache",
+            "arquitectura-de-ordenadores"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-011",
+          "number": 11,
+          "text": "La especificación USB 3.2:",
+          "options": [
+            "Deja de usar los cables USB Tipo C.",
+            "No existe, la última es la 3.1",
+            "Aumenta la velocidad de transferencia de datos sobre la versión anterior.",
+            "Ofrece velocidades de hasta 40 Gbps."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "II.2",
+          "explanation": "**USB 3.2** (USB-IF, 2017) introduce el funcionamiento **multicarril** sobre el conector **USB-C**: el modo **Gen 2x2** alcanza **20 Gbit/s**, el doble de los 10 Gbit/s de USB 3.1 Gen 2. Por eso **aumenta la velocidad** respecto a la versión anterior. Los **40 Gbit/s** llegaron con **USB4** (2019), y USB4 versión 2.0 (2022) llega a 80 Gbit/s. Denominaciones: Gen 1 = 5, Gen 2 = 10 y Gen 2x2 = 20 Gbit/s.",
+          "option_notes": [
+            "Al contrario: el modo de 20 Gbit/s (Gen 2x2) exige USB Tipo C, que usa los dos carriles del cable.",
+            "USB 3.2 existe desde 2017 y sustituye a USB 3.1.",
+            null,
+            "El máximo de USB 3.2 son 20 Gbit/s; los 40 Gbit/s son de USB4 (y de Thunderbolt 3)."
+          ],
+          "references": [
+            "USB-IF: Universal Serial Bus 3.2 Specification (2017)",
+            "USB-IF: USB4 Specification (2019)"
+          ],
+          "tags": [
+            "usb",
+            "perifericos",
+            "conectividad"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-012",
+          "number": 12,
+          "text": "En relación con las funciones lógicas básicas. Suponiendo que a=1 y b=1, ¿cuál de las siguientes sentencias es correcta?",
+          "options": [
+            "`a XNOR b = 1`",
+            "`a XOR b = 1`",
+            "`a NOR b = 1`",
+            "`a NAND b = 1`"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.1",
+          "explanation": "Con **a = 1** y **b = 1**: **XNOR** (equivalencia) vale 1 cuando las entradas son **iguales**, así que **a XNOR b = 1**. Las demás valen 0: **XOR** = 0 (solo da 1 si las entradas son distintas); **NOR** = NOT(1 OR 1) = **0**; **NAND** = NOT(1 AND 1) = **0**. Truco: NAND solo da 0 si todas las entradas son 1; NOR solo da 1 si todas son 0.",
+          "option_notes": [
+            null,
+            "Con entradas iguales XOR vale 0.",
+            "NOR = NOT(1 OR 1) = NOT 1 = 0; NOR solo vale 1 si todas las entradas son 0.",
+            "NAND = NOT(1 AND 1) = NOT 1 = 0; es el único caso en que NAND vale 0."
+          ],
+          "references": [
+            "Álgebra de Boole: puertas lógicas"
+          ],
+          "tags": [
+            "algebra-de-boole",
+            "puertas-logicas"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-013",
+          "number": 13,
+          "text": "En relación a la teoría de grafos, indique la afirmación correcta:",
+          "options": [
+            "El grado de un nodo es el número de aristas que inciden a ese nodo.",
+            "Un grafo es conectado si cada nodo del grafo es adyacente a todos los demás.",
+            "Un grafo es completo si no tiene bucles ni aristas múltiples.",
+            "Un grafo es dirigido si la arista está definida por un par no ordenado."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.3",
+          "explanation": "El **grado** de un nodo (vértice) es el **número de aristas que inciden en él** (en grafos no dirigidos, un bucle cuenta dos veces; en los dirigidos se distingue grado de entrada y de salida). Conviene no confundir: grafo **conexo** = existe un camino entre cualquier par de nodos; grafo **completo** = cada nodo es adyacente a todos los demás; grafo **simple** = sin bucles ni aristas múltiples; grafo **dirigido** = aristas como pares **ordenados** (arcos).",
+          "option_notes": [
+            null,
+            "Esa es la definición de grafo completo; conexo solo exige un camino entre cada par de nodos.",
+            "Un grafo sin bucles ni aristas múltiples es un grafo simple, no completo.",
+            "En un grafo dirigido la arista es un par ordenado; el par no ordenado define el grafo no dirigido."
+          ],
+          "references": [
+            "Teoría de grafos: definiciones básicas"
+          ],
+          "tags": [
+            "grafos",
+            "estructuras-de-datos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-014",
+          "number": 14,
+          "text": "Un algoritmo de ordenación cuyo funcionamiento se basa en la elección de un elemento llamado pivote es:",
+          "options": [
+            "Selección directa.",
+            "Bubble sort.",
+            "Quicksort.",
+            "Backtracking."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "II.3",
+          "explanation": "**Quicksort** (C. A. R. Hoare, 1961) elige un elemento **pivote** y **particiona** el vector: a un lado los menores y al otro los mayores; después ordena cada parte **recursivamente** (divide y vencerás). Coste medio **O(n log n)** y peor caso **O(n²)** con una mala elección del pivote. La selección directa y la burbuja son algoritmos **O(n²)** sin pivote.",
+          "option_notes": [
+            "La selección directa busca en cada pasada el mínimo y lo intercambia con la primera posición; no usa pivote.",
+            "La burbuja compara e intercambia elementos adyacentes; no usa pivote.",
+            null,
+            "Backtracking (vuelta atrás) es una técnica de diseño para explorar soluciones, no un algoritmo de ordenación."
+          ],
+          "references": [
+            "C. A. R. Hoare, «Quicksort», The Computer Journal 5(1), 1962"
+          ],
+          "tags": [
+            "algoritmos-de-ordenacion",
+            "quicksort"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-015",
+          "number": 15,
+          "text": "Señale cuál de los siguientes formatos de archivo de configuración de inicialización de Windows 10:",
+          "options": [
+            ".ini",
+            ".conf",
+            ".msi",
+            ".wconf"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.4",
+          "explanation": "Los ficheros **.ini** (*initialization*) son el formato clásico de **configuración de inicialización de Windows**: texto plano con **secciones** entre corchetes y pares **clave=valor** (por ejemplo, `desktop.ini`, `win.ini` o `system.ini`). Desde Windows 95/NT el **Registro** asumió casi toda la configuración del sistema, pero Windows 10 y muchas aplicaciones siguen usando ficheros .ini. La extensión **.conf** es la convención de Unix/Linux (`/etc/*.conf`).",
+          "option_notes": [
+            null,
+            ".conf es la convención de los ficheros de configuración en Unix/Linux, no el formato de inicialización de Windows.",
+            ".msi es un paquete de instalación de Windows Installer, no un fichero de configuración.",
+            "No existe ningún formato .wconf en Windows."
+          ],
+          "references": [
+            "Microsoft Learn: archivos de inicialización (.ini) y Registro de Windows"
+          ],
+          "tags": [
+            "windows",
+            "ficheros-de-configuracion"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-016",
+          "number": 16,
+          "text": "En Linux, el directorio /boot:",
+          "options": [
+            "Es el directorio que almacena los archivos de configuración, tanto a nivel de componente como de las aplicaciones instaladas a posteriori.",
+            "Es el directorio que incluye todos los ejecutables y archivos necesarios en el proceso de arranque del sistema.",
+            "Es el directorio del superusuario 'root'.",
+            "Es el directorio que contiene información de los procesos y aplicaciones que se están ejecutando."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "II.4",
+          "explanation": "Según el **FHS** (*Filesystem Hierarchy Standard*), **/boot** contiene los **ficheros estáticos del cargador de arranque** y todo lo necesario para el arranque: la imagen del **núcleo** (`vmlinuz`), el **initramfs**/initrd, `System.map` y la configuración de **GRUB** (`/boot/grub`). Otros directorios clave: **/etc** (configuración), **/root** (hogar del superusuario), **/proc** (sistema de ficheros virtual con información de procesos y del núcleo), **/bin** y **/sbin** (ejecutables).",
+          "option_notes": [
+            "Describe /etc, donde se guardan los ficheros de configuración del sistema y de las aplicaciones.",
+            null,
+            "El directorio personal del superusuario es /root.",
+            "Describe /proc, sistema de ficheros virtual con información sobre los procesos en ejecución."
+          ],
+          "references": [
+            "Filesystem Hierarchy Standard 3.0 (Linux Foundation), /boot"
+          ],
+          "tags": [
+            "linux",
+            "fhs",
+            "directorios"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-017",
+          "number": 17,
+          "text": "La utilidad del comando 'tail' en UNIX es:",
+          "options": [
+            "Permite ver las últimas líneas de un fichero.",
+            "Busca en las últimas 10 líneas de un fichero un patrón dado.",
+            "Lista los últimos archivos creados en el directorio actual del usuario.",
+            "Realiza una búsqueda recursiva, comenzando por el directorio especificado y descendiendo por los subdirectorios."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "II.4",
+          "explanation": "**`tail`** muestra las **últimas líneas** de un fichero: **10 por defecto**, `-n N` para elegir cuántas y **`-f`** para seguir el fichero en tiempo real (muy usado con logs: `tail -f /var/log/syslog`). Su pareja es **`head`**, que muestra las primeras. Para buscar un patrón se usa **`grep`** (por ejemplo, `tail -n 10 fichero | grep patrón`) y para buscar recursivamente en un árbol de directorios, **`find`**.",
+          "option_notes": [
+            null,
+            "Buscar un patrón es tarea de grep; tail solo muestra el final del fichero.",
+            "Listar por fecha de modificación se hace con ls -t; tail no lista archivos.",
+            "Describe find, que busca recursivamente a partir de un directorio."
+          ],
+          "references": [
+            "POSIX.1-2017: tail",
+            "GNU coreutils: tail"
+          ],
+          "tags": [
+            "unix",
+            "comandos",
+            "tail"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-018",
+          "number": 18,
+          "text": "La versión Pie de Android se corresponde con la versión:",
+          "options": [
+            "7.0",
+            "8.0",
+            "9.0",
+            "10.0"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "II.4",
+          "explanation": "**Android 9 Pie** se publicó en **agosto de 2018**. Secuencia: 7 **Nougat** (2016), 8 **Oreo** (2017), **9 Pie** (2018) y **10** (2019), la primera sin nombre de postre en su denominación comercial (internamente, *Q*). Desde entonces las versiones se identifican por número: Android 11, 12…",
+          "option_notes": [
+            "Android 7.0 es Nougat (2016).",
+            "Android 8.0 es Oreo (2017).",
+            null,
+            "Android 10 (2019) ya no lleva nombre comercial de postre; internamente era Q."
+          ],
+          "references": [
+            "Android Developers: versiones de la plataforma"
+          ],
+          "tags": [
+            "android",
+            "versiones"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-019",
+          "number": 19,
+          "text": "Respecto a la descomposición en niveles de un DFD podemos decir que:",
+          "options": [
+            "Sigue una aproximación “bottom-up” en la que cada nivel proporciona una visión más detallada de una parte definida en el nivel anterior.",
+            "La descomposición se realiza en: diagrama de contexto y funciones primitivas (procesos primitivos).",
+            "El diagrama de contexto es el nivel más alto y delimita la frontera entre el sistema y el mundo exterior.",
+            "El almacén de datos representa el movimiento de los datos, y establece la comunicación entre los procesos y entidades externas."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "En **Métrica v3** los DFD se descomponen **de arriba abajo** (*top-down*): **diagrama de contexto (nivel 0)** → **diagrama 0 (nivel 1)** → diagramas de nivel 2 → los **niveles intermedios** necesarios → **procesos primitivos**. El **diagrama de contexto** es el nivel más alto: tiene un único proceso (el sistema) y sus entidades externas, y sirve para **delimitar el ámbito del sistema con el mundo exterior**, definiendo sus interfaces.",
+          "option_notes": [
+            "La descomposición es top-down (de lo general a lo detallado), no bottom-up.",
+            "Omite el diagrama 0 (nivel 1) y los niveles intermedios entre el contexto y los procesos primitivos.",
+            null,
+            "Eso define el flujo de datos; el almacén representa información en reposo."
+          ],
+          "references": [
+            "Métrica v3, Técnicas: Diagrama de Flujo de Datos (descomposición por niveles)"
+          ],
+          "tags": [
+            "dfd",
+            "metrica-v3",
+            "descomposicion-en-niveles"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-020",
+          "number": 20,
+          "text": "Según Métrica v3, en el modelo Entidad/Relación extendido las relaciones se definen por:",
+          "options": [
+            "Categoría, nombre, tipo de correspondencia.",
+            "Atributo, cardinalidad, nombre.",
+            "Atributo, dominio, nombre.",
+            "Cardinalidad, nombre, tipo de correspondencia."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "En la técnica del **Modelo Entidad/Relación extendido** de **Métrica v3**, una **relación** se caracteriza por su **nombre**, su **tipo de correspondencia** (número máximo de ocurrencias de cada entidad en la relación: 1:1, 1:N, M:N) y su **cardinalidad** (mínimo y máximo de ocurrencias de una entidad asociadas a una ocurrencia de la otra), además del **grado** (número de entidades que participan). La única opción formada solo por estos elementos es la D.",
+          "option_notes": [
+            "La «categoría» es una extensión del modelo (jerarquías con supertipos distintos), no un elemento que defina una relación.",
+            "Los atributos son propiedades, sobre todo de las entidades; no es lo que define una relación en Métrica.",
+            "Atributo y dominio describen las propiedades y sus valores posibles, no las relaciones.",
+            null
+          ],
+          "references": [
+            "Métrica v3, Técnicas: Modelo Entidad/Relación extendido"
+          ],
+          "tags": [
+            "metrica-v3",
+            "modelo-entidad-relacion",
+            "cardinalidad"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-021",
+          "number": 21,
+          "text": "En un diagrama de flujo de datos, una entidad externa:",
+          "options": [
+            "Representa la información en reposo utilizada por el sistema independientemente del sistema de gestión de datos (por ejemplo un fichero, base de datos, archivador, etc.). Contiene la información necesaria para la ejecución del proceso.",
+            "Representa una funcionalidad que tiene que llevar a cabo el sistema para transformar o manipular datos.",
+            "Representa procesos que coordinan y sincronizan las actividades de otros procesos del diagrama de flujo de datos.",
+            "Representa un ente ajeno al sistema que proporciona o recibe información del mismo. Puede hacer referencia a departamentos, personas, máquinas, recursos u otros sistemas."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "Métrica v3 define la **entidad externa** como «un **ente ajeno al sistema** que **proporciona o recibe información** del mismo. Puede hacer referencia a departamentos, personas, máquinas, recursos u otros sistemas». Las relaciones entre entidades externas no forman parte del modelo, y una misma entidad puede dibujarse varias veces para dar claridad al diagrama. Las demás opciones copian las definiciones de **almacén de datos**, **proceso** y **proceso de control**.",
+          "option_notes": [
+            "Es la definición de almacén de datos: información en reposo.",
+            "Es la definición de proceso: transforma o manipula datos.",
+            "Es la definición de proceso de control, extensión del DFD para sistemas que requieren control.",
+            null
+          ],
+          "references": [
+            "Métrica v3, Técnicas: Diagrama de Flujo de Datos (elementos)"
+          ],
+          "tags": [
+            "dfd",
+            "metrica-v3",
+            "entidad-externa"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-022",
+          "number": 22,
+          "text": "Según Métrica v3, en el diagrama entidad relación extendido, para representar una jerarquía con subtipos que pueden solaparse, en el triángulo invertido hay que incluir el texto:",
+          "options": [
+            "D",
+            "O",
+            "U",
+            "Es_un"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "En el **modelo E/R extendido de Métrica v3**, una jerarquía se dibuja con un **triángulo invertido** entre el supertipo y los subtipos. Dentro se indica: **d** si los subtipos son **disjuntos**, **un círculo o una O** si **pueden solaparse** y **U** para las **uniones por categorías**. La **jerarquía total** se marca con una **doble línea** entre el supertipo y el triángulo. «Es_un» es la etiqueta genérica de la relación de jerarquía.",
+          "option_notes": [
+            "La d indica subtipos disjuntos (exclusivos), no solapados.",
+            null,
+            "La U representa una categoría (unión de varios supertipos en un subtipo).",
+            "«Es_un» rotula la relación de jerarquía, pero no indica si los subtipos se solapan."
+          ],
+          "references": [
+            "Métrica v3, Técnicas: Modelo Entidad/Relación extendido (jerarquías)"
+          ],
+          "tags": [
+            "modelo-entidad-relacion",
+            "metrica-v3",
+            "jerarquias"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-023",
+          "number": 23,
+          "text": "Cuál de los siguientes NO es un lenguaje de programación orientado a objetos:",
+          "options": [
+            "C++",
+            "Objetive-C",
+            "Oz",
+            "Pascal"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.4",
+          "explanation": "**Pascal** (Niklaus Wirth, 1970) es un lenguaje **imperativo y estructurado** (procedimental), pensado para enseñar programación; la orientación a objetos llegó con sus derivados **Object Pascal** y **Delphi**. **C++** (Stroustrup) y **Objective-C** (base de las aplicaciones de Apple antes de Swift) son orientados a objetos, y **Oz** (sistema Mozart) es **multiparadigma**: funcional, lógico, concurrente y orientado a objetos.",
+          "option_notes": [
+            "C++ añade a C clases, herencia y polimorfismo: es orientado a objetos.",
+            "Objective-C (en el cuadernillo, «Objetive-C») añade objetos y mensajes al estilo Smalltalk a C.",
+            "Oz es multiparadigma e incluye la programación orientada a objetos.",
+            null
+          ],
+          "references": [
+            "N. Wirth, «The Programming Language Pascal», 1971"
+          ],
+          "tags": [
+            "lenguajes-de-programacion",
+            "orientacion-a-objetos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-024",
+          "number": 24,
+          "text": "En PHP el operador de comparación ' === ' entre dos valores devuelve TRUE si:",
+          "options": [
+            "Ambos valores son iguales.",
+            "Si ambos valores son iguales después de la manipulación de tipos.",
+            "Si ambos valores son iguales y son del mismo tipo.",
+            "Si ambos valores son iguales o son del mismo tipo."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "En PHP, **`===`** es el operador **idéntico**: devuelve `true` si los valores son **iguales y del mismo tipo**, sin conversión. **`==`** (igual) compara **tras la conversión de tipos** (*type juggling*), por eso `1 == \"1\"` es `true`, pero `1 === \"1\"` es `false`. Sus negaciones son `!=` (o `<>`) y **`!==`** (no idéntico).",
+          "option_notes": [
+            "Ignora el tipo: dos valores iguales de distinto tipo (1 y \"1\") no son idénticos.",
+            "Describe el operador ==, que compara tras la conversión de tipos.",
+            null,
+            "Exige las dos condiciones a la vez (valor y tipo), no una u otra."
+          ],
+          "references": [
+            "Manual de PHP: operadores de comparación"
+          ],
+          "tags": [
+            "php",
+            "operadores-de-comparacion"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-025",
+          "number": 25,
+          "text": "En el contexto del lenguaje C de ANSI, indique cuales serían los valores de “i” y “s” a la salida del siguiente bucle:\n\n```c\nint n,i,s; s=1;n=5; for (i=1; i<=n; i++) { s=s*i;}\n```",
+          "options": [
+            "i=5 ; s=720",
+            "i=6 ; s=720",
+            "i=6 ; s=120",
+            "i=5 ; s=120"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.2",
+          "explanation": "El bucle multiplica `s` por `i` para i = 1, 2, 3, 4 y 5: s = 1·1·2·3·4·5 = **120** (5!, el factorial de n). Tras la última iteración se ejecuta `i++` y `i` vale **6**; la condición `i<=n` (6 ≤ 5) es falsa y el bucle termina. Por tanto, **i = 6 y s = 120**. Error típico: pensar que `i` se queda en 5 o calcular 6! = 720.",
+          "option_notes": [
+            "i termina en 6 (el incremento se hace antes de la comprobación que sale), y 720 sería 6!.",
+            "i = 6 es correcto, pero 720 = 6!: el bucle solo multiplica hasta 5.",
+            null,
+            "s = 120 es correcto, pero i vale 6 al salir del bucle, no 5."
+          ],
+          "references": [
+            "ISO/IEC 9899 (C): sentencia for"
+          ],
+          "tags": [
+            "lenguaje-c",
+            "bucles",
+            "traza-de-codigo"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-026",
+          "number": 26,
+          "text": "En el estándar ANSI SQL, la cláusula HAVING:",
+          "options": [
+            "Elimina los registros duplicados en los resultados de una consulta.",
+            "Permite emparejar filas de distintas tablas de forma más eficiente.",
+            "Es equivalente a la cláusula WHERE en caso de usar OUTER JOIN.",
+            "Permite incluir condiciones en las consultas a los grupos definidos."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.3",
+          "explanation": "**HAVING** aplica condiciones a los **grupos** formados con **GROUP BY**, normalmente sobre funciones de agregado: `SELECT dpto, COUNT(*) FROM empleado GROUP BY dpto HAVING COUNT(*) > 5`. Diferencia clave: **WHERE filtra filas antes de agrupar** y no admite agregados; **HAVING filtra grupos después de agrupar**. Orden lógico: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY.",
+          "option_notes": [
+            "Eliminar duplicados es tarea de DISTINCT.",
+            "Emparejar filas de distintas tablas es tarea de JOIN; HAVING no mejora la eficiencia de la combinación.",
+            "HAVING no equivale a WHERE en ningún tipo de JOIN: filtra grupos, no filas.",
+            null
+          ],
+          "references": [
+            "ISO/IEC 9075-2 (SQL): <having clause>"
+          ],
+          "tags": [
+            "sql",
+            "having",
+            "group-by"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-027",
+          "number": 27,
+          "text": "En ANSI SQL. De entre los siguientes, ¿qué privilegio NO es posible asignar utilizando el comando GRANT?",
+          "options": [
+            "EXECUTE",
+            "UPDATE",
+            "RESOURCES",
+            "REFERENCES"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.3",
+          "explanation": "En el estándar SQL, **GRANT** concede **privilegios sobre objetos**: **SELECT, INSERT, UPDATE, DELETE, REFERENCES** (crear claves ajenas que apunten a la tabla), **USAGE, TRIGGER, UNDER** y **EXECUTE** (ejecutar rutinas y procedimientos). **RESOURCES** no es un privilegio: recuerda a **RESOURCE**, un **rol predefinido de Oracle** (junto a CONNECT y DBA), no al estándar. Sintaxis: `GRANT privilegios ON objeto TO usuario [WITH GRANT OPTION]`.",
+          "option_notes": [
+            "EXECUTE es un privilegio estándar para ejecutar rutinas (procedimientos y funciones).",
+            "UPDATE es un privilegio estándar, incluso limitado a columnas concretas.",
+            null,
+            "REFERENCES es un privilegio estándar para definir claves ajenas que referencien la tabla."
+          ],
+          "references": [
+            "ISO/IEC 9075-2 (SQL): <grant statement> y <privileges>"
+          ],
+          "tags": [
+            "sql",
+            "grant",
+            "privilegios"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-028",
+          "number": 28,
+          "text": "El patrón de diseño que permite disponer de varios métodos y posibilita elegir cuál utilizar en tiempo de ejecución es:",
+          "options": [
+            "Builder",
+            "Interpreter",
+            "Observer",
+            "Strategy"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.4",
+          "explanation": "**Strategy** (patrón de comportamiento GoF) define una **familia de algoritmos**, encapsula cada uno en su propia clase y los hace **intercambiables**: el cliente elige en **tiempo de ejecución** cuál usar sin cambiar su código (por ejemplo, distintas formas de calcular un precio o de ordenar). Favorece la composición frente a la herencia y evita condicionales del tipo `if/switch` para elegir el algoritmo.",
+          "option_notes": [
+            "Builder (creacional) separa la construcción de un objeto complejo de su representación, paso a paso.",
+            "Interpreter representa la gramática de un lenguaje y ofrece un intérprete para sus sentencias.",
+            "Observer notifica automáticamente a los objetos dependientes cuando cambia el estado de otro (relación uno a muchos).",
+            null
+          ],
+          "references": [
+            "Gamma, Helm, Johnson y Vlissides, «Design Patterns» (1994): Strategy"
+          ],
+          "tags": [
+            "patrones-de-diseno",
+            "strategy",
+            "gof"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-029",
+          "number": 29,
+          "text": "En la plataforma .NET, ¿cuál es la unidad mínima de ejecución en el CLR?",
+          "options": [
+            "Assembly",
+            "MSIL",
+            "Manifest",
+            "Entity"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.5",
+          "explanation": "En .NET, el **ensamblado** (*assembly*, un .dll o .exe) es la **unidad fundamental de implementación, versionado, reutilización y seguridad**, y la unidad mínima que carga y ejecuta el **CLR**. Contiene el código en **MSIL/CIL**, los **metadatos** de los tipos, los recursos y un **manifiesto** que lo describe (nombre, versión, referencias…). El compilador JIT traduce el CIL a código nativo al ejecutarlo.",
+          "option_notes": [
+            null,
+            "MSIL (CIL) es el lenguaje intermedio que contiene el ensamblado, no la unidad de ejecución.",
+            "El manifiesto es la parte del ensamblado que lo describe (nombre, versión, referencias), no una unidad ejecutable.",
+            "«Entity» remite a Entity Framework, el ORM de .NET, no a una unidad de ejecución del CLR."
+          ],
+          "references": [
+            "Microsoft Learn: Assemblies in .NET"
+          ],
+          "tags": [
+            "dotnet",
+            "clr",
+            "ensamblados"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-030",
+          "number": 30,
+          "text": "La API de Java para la implementación de servicios web RestFul es:",
+          "options": [
+            "JAX-RS",
+            "JTA",
+            "JPA",
+            "JSTL"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.5",
+          "explanation": "**JAX-RS** (*Java API for RESTful Web Services*, JSR 311/339/370; hoy **Jakarta RESTful Web Services**) define cómo exponer recursos REST con anotaciones como `@Path`, `@GET`, `@POST`, `@Produces` o `@PathParam`. Implementaciones: Jersey, RESTEasy o Apache CXF. Para servicios **SOAP** la API equivalente es **JAX-WS**.",
+          "option_notes": [
+            null,
+            "JTA (Java Transaction API, hoy Jakarta Transactions) gestiona transacciones distribuidas.",
+            "JPA (Java Persistence API, hoy Jakarta Persistence) es la API de persistencia y mapeo objeto-relacional.",
+            "JSTL es la biblioteca estándar de etiquetas para páginas JSP."
+          ],
+          "references": [
+            "JSR 370: JAX-RS 2.1",
+            "Jakarta RESTful Web Services"
+          ],
+          "tags": [
+            "java",
+            "jax-rs",
+            "rest"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-031",
+          "number": 31,
+          "text": "De la pila de especificaciones de los servicios web, indique cuál de los siguientes lenguajes se utiliza para la descripción de los mismos:",
+          "options": [
+            "WSIJ",
+            "WSDL",
+            "SOAP",
+            "UDDI"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.6",
+          "explanation": "**WSDL** (*Web Services Description Language*, W3C) es el lenguaje XML que **describe un servicio web**: sus **operaciones**, los **mensajes** de entrada y salida, los **tipos** de datos, el **binding** (protocolo y formato) y la **dirección** del punto final. En la pila clásica: **SOAP** = protocolo de mensajes, **WSDL** = descripción y **UDDI** = registro para publicar y descubrir servicios.",
+          "option_notes": [
+            "WSIJ no existe; quizá recuerda a WS-I, la organización que publicaba perfiles de interoperabilidad.",
+            null,
+            "SOAP es el protocolo de intercambio de mensajes XML, no el lenguaje de descripción.",
+            "UDDI es el registro o directorio para publicar y descubrir servicios web."
+          ],
+          "references": [
+            "W3C: Web Services Description Language (WSDL) 1.1 y 2.0"
+          ],
+          "tags": [
+            "servicios-web",
+            "wsdl",
+            "soap"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-032",
+          "number": 32,
+          "text": "Señale cuál de las siguientes es una plataforma para el desarrollo de apps multiplataforma de Microsoft:",
+          "options": [
+            "Xamarin",
+            "PhoneGap",
+            "Titanium",
+            "Ionic"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.5",
+          "explanation": "**Xamarin**, adquirida por **Microsoft** en 2016, permitía crear apps nativas para Android, iOS y Windows en **C#/.NET** compartiendo la mayor parte del código. Las demás opciones no eran de Microsoft: **PhoneGap** (Adobe, sobre Apache Cordova), **Titanium** (Appcelerator, JavaScript) e **Ionic** (tecnologías web sobre Cordova/Capacitor). Hoy su sucesor es **.NET MAUI**.",
+          "option_notes": [
+            null,
+            "PhoneGap era de Adobe (basado en Apache Cordova) y Adobe lo abandonó en 2020.",
+            "Titanium es de Appcelerator (luego Axway) y usa JavaScript.",
+            "Ionic es de la empresa Ionic (antes Drifty) y usa HTML, CSS y JavaScript."
+          ],
+          "references": [
+            "Microsoft: Xamarin support policy",
+            "Microsoft Learn: .NET MAUI"
+          ],
+          "tags": [
+            "xamarin",
+            "desarrollo-multiplataforma",
+            "dotnet"
+          ],
+          "media": [],
+          "outdated": true,
+          "outdated_note": "Microsoft dejó de dar soporte a Xamarin el 1 de mayo de 2024. Su sucesor es .NET MAUI (Multi-platform App UI), incluido en .NET desde la versión 6, que es hoy la plataforma multiplataforma de Microsoft.",
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-033",
+          "number": 33,
+          "text": "En el lenguaje de script Powershell, indique qué comando (cmdlet) utilizaría si quisiera crear un alias de otro cmdlet:",
+          "options": [
+            "`create-alias`",
+            "`show-alias`",
+            "`add-alias`",
+            "`set-alias`"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "En PowerShell, **`Set-Alias`** **crea o cambia** un alias de un cmdlet u otro comando en la sesión actual: `Set-Alias -Name lista -Value Get-ChildItem`. También existe **`New-Alias`**, que solo crea alias nuevos. Para consultarlos se usa **`Get-Alias`**, y para guardarlos o cargarlos, `Export-Alias` e `Import-Alias`. Los cmdlets siguen el patrón **Verbo-Sustantivo** con verbos aprobados (Get, Set, New, Add, Remove…).",
+          "option_notes": [
+            "No existe Create-Alias: «Create» no es un verbo aprobado de PowerShell; se usa New-Alias.",
+            "No existe Show-Alias; para ver los alias se usa Get-Alias.",
+            "No existe Add-Alias; los alias se crean con Set-Alias o New-Alias.",
+            null
+          ],
+          "references": [
+            "Microsoft Learn: Set-Alias (Microsoft.PowerShell.Utility)"
+          ],
+          "tags": [
+            "powershell",
+            "cmdlets",
+            "alias"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-034",
+          "number": 34,
+          "text": "Indique cuál de las siguientes herramientas se utilizaría en caso de querer garantizar la confidencialidad de la información:",
+          "options": [
+            "Firma electrónica.",
+            "Código CSV.",
+            "Función HASH.",
+            "Cifrado."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.5",
+          "explanation": "La **confidencialidad** (que solo accedan a la información las personas autorizadas) se garantiza con el **cifrado**. Cada herramienta protege una dimensión distinta: la **función hash** garantiza la **integridad** (detecta cambios); la **firma electrónica** aporta **autenticidad, integridad y no repudio**, pero el documento firmado sigue siendo legible; y el **CSV** (código seguro de verificación) permite **comprobar la integridad y autenticidad** de un documento en la sede electrónica.",
+          "option_notes": [
+            "La firma garantiza autenticidad, integridad y no repudio, pero no oculta el contenido.",
+            "El CSV sirve para cotejar un documento en la sede electrónica (integridad y autenticidad), no para ocultarlo.",
+            "El hash garantiza la integridad: cualquier cambio altera el resumen, pero no oculta la información.",
+            null
+          ],
+          "references": [
+            "RD 311/2022 (ENS), dimensiones de seguridad",
+            "Ley 40/2015, art. 42.b) (CSV)"
+          ],
+          "tags": [
+            "confidencialidad",
+            "cifrado",
+            "dimensiones-de-seguridad"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-035",
+          "number": 35,
+          "text": "En sistemas Linux, ¿qué comando muestra en pantalla por cada archivo el nombre de archivo, propietario y grupo, entre otra información?",
+          "options": [
+            "`file`",
+            "`gawk`",
+            "`getfacl`",
+            "`modprobe`"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "II.4",
+          "explanation": "**`getfacl`** muestra, para cada fichero, su **nombre, propietario y grupo** y su **lista de control de acceso (ACL)**; si un directorio tiene ACL por defecto, también la muestra. Las ACL se modifican con **`setfacl`** (por ejemplo, `setfacl -m u:ana:rw fichero`) y amplían los permisos clásicos de `chmod`, que solo distinguen propietario, grupo y otros.",
+          "option_notes": [
+            "file determina el tipo de contenido de un fichero (texto, ELF, imagen…), no su propietario ni su grupo.",
+            "gawk es la versión GNU de awk, para procesar texto por patrones y campos.",
+            null,
+            "modprobe carga o descarga módulos del núcleo de Linux."
+          ],
+          "references": [
+            "Página de manual getfacl(1)"
+          ],
+          "tags": [
+            "linux",
+            "acl",
+            "comandos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-036",
+          "number": 36,
+          "text": "Indique cuál de los siguientes términos se corresponde con un servicio que permite a los administradores de tecnologías de la información implementar las actualizaciones de productos de Microsoft más recientes:",
+          "options": [
+            "APT-GET",
+            "YUM",
+            "WSUS",
+            "MOJAVE"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "**WSUS** (*Windows Server Update Services*) es el rol de Windows Server que permite a los administradores **descargar, aprobar y distribuir de forma centralizada las actualizaciones de productos Microsoft** en su red. En septiembre de 2024 Microsoft lo declaró **obsoleto** (*deprecated*): sigue disponible en Windows Server 2025, pero sin nuevas funciones, y recomienda Windows Autopatch, Intune y Azure Update Manager.",
+          "option_notes": [
+            "apt-get es el gestor de paquetes de Debian y Ubuntu, no un servicio de actualizaciones de Microsoft.",
+            "YUM es el gestor de paquetes de Red Hat y derivadas (hoy sustituido por DNF).",
+            null,
+            "Mojave es la versión 10.14 de macOS (2018), no un servicio de actualizaciones."
+          ],
+          "references": [
+            "Microsoft Learn: Windows Server Update Services (WSUS) overview",
+            "Microsoft Tech Community: WSUS deprecation (20-9-2024)"
+          ],
+          "tags": [
+            "wsus",
+            "actualizaciones",
+            "windows-server"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-037",
+          "number": 37,
+          "text": "En el contexto de la virtualización de sistemas, indique cuál de los siguientes hipervisores se comportaría como un programa más ejecutándose sobre el sistema operativo instalado sobre la máquina real:",
+          "options": [
+            "Hipervisor tipo 2.",
+            "Hipervisor bare-metal.",
+            "Hipervisor unhosted.",
+            "Hipervisor nativo."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "El **hipervisor de tipo 2** (*hosted*, alojado) se instala **como una aplicación más sobre un sistema operativo anfitrión**: VirtualBox, VMware Workstation o Parallels. El **de tipo 1** (*bare-metal*, nativo o *unhosted*) se ejecuta **directamente sobre el hardware**, sin SO anfitrión, y es el habitual en servidores: VMware ESXi, Microsoft Hyper-V, Xen o KVM. Las opciones B, C y D son tres nombres del tipo 1.",
+          "option_notes": [
+            null,
+            "Bare-metal es el tipo 1: se ejecuta directamente sobre el hardware.",
+            "Unhosted (no alojado) es otro nombre del tipo 1, sin sistema operativo anfitrión.",
+            "Nativo es otro nombre del tipo 1, que corre directamente sobre el hardware."
+          ],
+          "references": [
+            "Clasificación de hipervisores: tipo 1 (bare-metal) y tipo 2 (hosted)"
+          ],
+          "tags": [
+            "virtualizacion",
+            "hipervisores"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-038",
+          "number": 38,
+          "text": "¿A qué se corresponden las siglas del protocolo IMAP?",
+          "options": [
+            "Internet Mail Access Protocol.",
+            "Internet Mail Auth Protocol.",
+            "Internet Message Auth Protocol.",
+            "Internet Message Access Protocol."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.3",
+          "explanation": "**IMAP** = *Internet Message Access Protocol*. Permite al cliente **acceder al buzón en el servidor** (carpetas, marcas de leído, búsquedas) sin descargar y borrar los mensajes, a diferencia de POP3. Puertos: **143** (en claro o con STARTTLS) y **993** (IMAPS, TLS implícito). La versión actual es **IMAP4rev2** (RFC 9051, 2021), que sustituye a IMAP4rev1 (RFC 3501).",
+          "option_notes": [
+            "Es «Message», no «Mail» (aunque sus primeras versiones, en los años ochenta, sí usaban «Mail»).",
+            "Ni «Mail» ni «Auth»: la A es de Access.",
+            "La M es de Message, pero la A es de Access, no de Auth.",
+            null
+          ],
+          "references": [
+            "RFC 9051 (IMAP4rev2)",
+            "RFC 3501 (IMAP4rev1)"
+          ],
+          "tags": [
+            "imap",
+            "correo-electronico",
+            "siglas"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-039",
+          "number": 39,
+          "text": "Seleccione entre los protocolos siguientes aquel que se emplea en el envío de correos electrónicos entre servidores de correo:",
+          "options": [
+            "POP3",
+            "SMTP",
+            "IMAP",
+            "MX"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.3",
+          "explanation": "**SMTP** (*Simple Mail Transfer Protocol*, RFC 5321) transfiere el correo **entre servidores** (MTA a MTA, puerto **25**) y también se usa para el **envío** desde el cliente al servidor (*submission*, puerto **587** o **465** con TLS). **POP3** e **IMAP** sirven al cliente para **recuperar o consultar** el correo de su buzón. Los servidores localizan el servidor de destino de un dominio mediante el registro DNS **MX**.",
+          "option_notes": [
+            "POP3 lo usa el cliente para descargar el correo de su buzón, no para enviarlo entre servidores.",
+            null,
+            "IMAP lo usa el cliente para acceder a su buzón en el servidor.",
+            "MX es un tipo de registro DNS que indica el servidor de correo de un dominio, no un protocolo."
+          ],
+          "references": [
+            "RFC 5321 (SMTP)",
+            "RFC 6409 (Message Submission)"
+          ],
+          "tags": [
+            "smtp",
+            "correo-electronico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-040",
+          "number": 40,
+          "text": "¿Desde línea de comandos, en Windows 10, con los privilegios adecuados, cómo podemos cambiar la contraseña de un usuario llamado \"pepe\"?",
+          "options": [
+            "`net user --change pepe`",
+            "`net user --passwd pepe`",
+            "`net user pepe`",
+            "`net user pepe *`"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.4",
+          "explanation": "En Windows, **`net user pepe *`** pide por consola la **nueva contraseña** de la cuenta (dos veces, sin mostrarla); también puede escribirse en la propia orden: `net user pepe NuevaClave`. **`net user pepe`** sin más **muestra la información** de la cuenta. Las opciones de `net` usan barra (`/add`, `/delete`, `/active:no`), no los guiones dobles al estilo Linux.",
+          "option_notes": [
+            "net user no tiene ninguna opción --change: la sintaxis de net usa barras (/add, /delete…).",
+            "--passwd no existe en net user; recuerda al comando passwd de Linux.",
+            "Sin más parámetros, net user pepe solo muestra la información de la cuenta.",
+            null
+          ],
+          "references": [
+            "Microsoft Learn: net user"
+          ],
+          "tags": [
+            "windows",
+            "gestion-de-usuarios",
+            "comandos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-041",
+          "number": 41,
+          "text": "¿Cuál de los siguientes es un algoritmo de cifrado asimétrico?",
+          "options": [
+            "AES",
+            "Blowfish",
+            "ElGamal",
+            "TDES"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.5",
+          "explanation": "**ElGamal** (Taher ElGamal, 1985) es un algoritmo de **cifrado asimétrico** (de clave pública) basado en el **problema del logaritmo discreto**, como Diffie-Hellman; también existe un esquema de firma ElGamal, base del DSA. Otros asimétricos: **RSA**, **DSA** y los de **curva elíptica** (ECC). **AES, Blowfish y 3DES** son **simétricos**: usan la misma clave para cifrar y descifrar.",
+          "option_notes": [
+            "AES (Rijndael) es el estándar de cifrado simétrico por bloques del NIST.",
+            "Blowfish (Schneier, 1993) es un cifrado simétrico por bloques.",
+            null,
+            "TDES (Triple DES) es simétrico: aplica DES tres veces; el NIST ya no lo admite para cifrar."
+          ],
+          "references": [
+            "T. ElGamal, «A public key cryptosystem and a signature scheme based on discrete logarithms», IEEE Trans. IT, 1985"
+          ],
+          "tags": [
+            "criptografia",
+            "cifrado-asimetrico",
+            "elgamal"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-042",
+          "number": 42,
+          "text": "Indique qué longitudes de onda son las apropiadas para utilizar con fibra monomodo:",
+          "options": [
+            "1310 y 1550 nm.",
+            "850 y 1310 nm.",
+            "850 y 1300 nm.",
+            "650 y 850 nm."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.6",
+          "explanation": "La **fibra monomodo** trabaja en las ventanas de **1310 nm** (2.ª ventana, mínima dispersión) y **1550 nm** (3.ª ventana, mínima atenuación), con láser, y sirve para largas distancias. La **fibra multimodo** usa **850 nm** y **1300 nm** (con LED o VCSEL) en distancias cortas. Los **650 nm** (luz roja) son propios de la **fibra óptica de plástico** (POF).",
+          "option_notes": [
+            null,
+            "850 nm es una ventana de la fibra multimodo, no de la monomodo.",
+            "850 y 1300 nm son las ventanas típicas de la fibra multimodo.",
+            "650 nm se usa en fibra óptica de plástico y 850 nm en multimodo."
+          ],
+          "references": [
+            "ITU-T G.652 (fibra monomodo)",
+            "ITU-T G.651.1 (fibra multimodo)"
+          ],
+          "tags": [
+            "fibra-optica",
+            "medios-de-transmision",
+            "ventanas-de-transmision"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-043",
+          "number": 43,
+          "text": "En una transmisión se envían secuencialmente dos tramas (A:0111011 ; B:0011100). Para incorporar un mecanismo de detección de errores se va a añadir un bit de paridad impar a cada una. ¿Cuáles serían los bits de paridad impar en cada caso?",
+          "options": [
+            "A:0 ; B:0",
+            "A:1 ; B:0",
+            "A:0 ; B:1",
+            "A:1 ; B:1"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.6",
+          "explanation": "Con **paridad impar**, el bit de paridad se elige para que el **total de unos** (datos + paridad) sea **impar**. Trama A, `0111011`: tiene **5 unos** (ya es impar), así que su bit de paridad es **0**. Trama B, `0011100`: tiene **3 unos** (impar), así que su bit también es **0**. Con paridad par ambos serían 1. La paridad simple detecta un número impar de bits erróneos, pero no los corrige.",
+          "option_notes": [
+            null,
+            "La trama A ya tiene 5 unos (impar): un 1 la haría par.",
+            "La trama B ya tiene 3 unos (impar): un 1 la haría par.",
+            "Serían los bits de paridad par, no impar: ambas tramas ya tienen un número impar de unos."
+          ],
+          "references": [
+            "Detección de errores: bit de paridad"
+          ],
+          "tags": [
+            "deteccion-de-errores",
+            "paridad"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-044",
+          "number": 44,
+          "text": "Señale la respuesta INCORRECTA en relación con la tecnología Bluetooth:",
+          "options": [
+            "Se engloba dentro de las tecnologías WPAN.",
+            "Varios equipos Bluetooth conectados entre sí pueden formar una red piconet.",
+            "La pila de protocolos Bluetooth incluye, entre otros, LMP y L2CAP.",
+            "Los sistemas Bluetooth operan en la banda ISM de los 5 GHz."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.6",
+          "explanation": "**Bluetooth** opera en la banda **ISM de 2,4 GHz** (2,402-2,480 GHz) con saltos de frecuencia; los **5 GHz** son una banda de **Wi-Fi** (802.11a/n/ac/ax). El resto es cierto: es una tecnología **WPAN** (IEEE 802.15.1); un maestro y hasta **7 esclavos activos** forman una **piconet**, y varias piconets enlazadas, una **scatternet**; su pila incluye **LMP**, **L2CAP**, RFCOMM y SDP.",
+          "option_notes": [
+            "Es cierta: Bluetooth es una red de área personal inalámbrica (WPAN, IEEE 802.15.1).",
+            "Es cierta: una piconet la forman un maestro y hasta 7 esclavos activos.",
+            "Es cierta: LMP (gestor de enlace) y L2CAP (adaptación y control del enlace lógico) son protocolos de la pila.",
+            null
+          ],
+          "references": [
+            "Bluetooth Core Specification (Bluetooth SIG)",
+            "IEEE 802.15.1"
+          ],
+          "tags": [
+            "bluetooth",
+            "wpan",
+            "redes-inalambricas"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-045",
+          "number": 45,
+          "text": "En IPv6, el campo \"Clase de Tráfico\" tiene un tamaño de:",
+          "options": [
+            "6 bits.",
+            "8 bits.",
+            "10 bits.",
+            "12 bits."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.7",
+          "explanation": "La cabecera fija de **IPv6** (RFC 8200) mide **40 bytes**: **Versión (4 bits)**, **Clase de tráfico (8 bits)**, **Etiqueta de flujo (20 bits)**, Longitud de la carga útil (16), Siguiente cabecera (8), Límite de saltos (8) y las direcciones de origen y destino (128 bits cada una). Los 8 bits de clase de tráfico se dividen en **DSCP (6 bits)** y **ECN (2 bits)**, como el antiguo campo ToS de IPv4.",
+          "option_notes": [
+            "6 bits es el subcampo DSCP; la clase de tráfico completa suma 8 bits con los 2 de ECN.",
+            null,
+            "Ningún campo de la cabecera IPv6 mide 10 bits; la clase de tráfico tiene 8.",
+            "La clase de tráfico tiene 8 bits; el campo de 20 bits es la etiqueta de flujo."
+          ],
+          "references": [
+            "RFC 8200 (IPv6), sección 3",
+            "RFC 2474 (DSCP) y RFC 3168 (ECN)"
+          ],
+          "tags": [
+            "ipv6",
+            "cabecera-ip"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-046",
+          "number": 46,
+          "text": "Según el modelo OSI, ¿en qué capa quedaría encuadrado el protocolo RPC?",
+          "options": [
+            "Capa red.",
+            "Capa transporte.",
+            "Capa sesión.",
+            "Capa presentación."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.7",
+          "explanation": "En el modelo **OSI**, **RPC** (*Remote Procedure Call*) se sitúa en la **capa de sesión (nivel 5)**: establece y gestiona el diálogo entre procesos remotos para que un programa invoque un procedimiento en otra máquina como si fuera local. En las clasificaciones habituales, la representación de los datos (por ejemplo, XDR en ONC RPC) es de **presentación (nivel 6)**, y el transporte lo aportan TCP o UDP (nivel 4). Otros ejemplos de sesión: NetBIOS y SOCKS.",
+          "option_notes": [
+            "La capa de red (nivel 3) se ocupa del direccionamiento y el encaminamiento (IP).",
+            "La capa de transporte (nivel 4) corresponde a TCP y UDP, sobre los que se apoya RPC.",
+            null,
+            "La capa de presentación se ocupa de la representación de los datos (por ejemplo, XDR), no de la llamada remota."
+          ],
+          "references": [
+            "ISO/IEC 7498-1 (modelo OSI)",
+            "RFC 5531 (ONC RPC v2)"
+          ],
+          "tags": [
+            "modelo-osi",
+            "rpc",
+            "capa-de-sesion"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-047",
+          "number": 47,
+          "text": "Indique cuál de las siguientes direcciones IPv4 es una dirección IP clase B asignable:",
+          "options": [
+            "10.16.7.2",
+            "192.168.25.34",
+            "172.16.256.22",
+            "183.45.33.12"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.7",
+          "explanation": "La **clase B** abarca de **128.0.0.0 a 191.255.255.255** (primer octeto 128-191; bits iniciales `10`). **183.45.33.12** está en ese rango, es pública y es una dirección de host válida. Repaso: **clase A** 1-126, **clase B** 128-191, **clase C** 192-223, **D** (multidifusión) 224-239 y **E** 240-255. Privadas (RFC 1918): 10.0.0.0/8, **172.16.0.0/12** y 192.168.0.0/16. Y ningún octeto puede superar 255.",
+          "option_notes": [
+            "10.16.7.2 es de clase A (primer octeto 10) y además privada.",
+            "192.168.25.34 es de clase C (primer octeto 192) y además privada.",
+            "Dirección inválida: el tercer octeto (256) supera el máximo de 255.",
+            null
+          ],
+          "references": [
+            "RFC 791 (IPv4)",
+            "RFC 1918 (direcciones privadas)"
+          ],
+          "tags": [
+            "ipv4",
+            "clases-de-direcciones",
+            "direccionamiento-ip"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-048",
+          "number": 48,
+          "text": "¿Qué puerto utiliza por defecto HTTPS?",
+          "options": [
+            "25",
+            "80",
+            "143",
+            "443"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.8",
+          "explanation": "**HTTPS** (HTTP sobre TLS) usa por defecto el **puerto TCP 443**. Puertos que conviene memorizar: **25** SMTP, **80** HTTP, **110** POP3, **143** IMAP, **465/587** envío de correo (SMTPS/*submission*), **993** IMAPS, **995** POP3S, **22** SSH y **53** DNS. HTTP/3 también usa el 443, pero sobre **UDP** (QUIC).",
+          "option_notes": [
+            "El 25 es el puerto de SMTP (transferencia de correo entre servidores).",
+            "El 80 es el puerto por defecto de HTTP sin cifrar.",
+            "El 143 es el puerto de IMAP.",
+            null
+          ],
+          "references": [
+            "RFC 9110 (HTTP Semantics), esquema https",
+            "IANA Service Name and Transport Protocol Port Number Registry"
+          ],
+          "tags": [
+            "https",
+            "puertos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-049",
+          "number": 49,
+          "text": "Señale cuál de las siguientes etiquetas ha sido eliminada en HTML5:",
+          "options": [
+            "`<big>`",
+            "`<div>`",
+            "`<article>`",
+            "`<a>`"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "HTML5 declaró **obsoletos** los elementos puramente **presentacionales**, cuyo papel pasa a CSS: **`<big>`**, `<center>`, `<font>`, `<basefont>`, `<strike>` y `<tt>`, además de `<frame>`, `<frameset>`, `<noframes>`, `<applet>`, `<acronym>` y `<dir>`. En su lugar se usa CSS (por ejemplo, `font-size`) o elementos con significado. **`<div>`** y **`<a>`** se mantienen, y **`<article>`** es precisamente **nuevo** en HTML5.",
+          "option_notes": [
+            null,
+            "<div> sigue vigente como contenedor genérico de bloque.",
+            "<article> no se eliminó: es uno de los elementos semánticos que introdujo HTML5.",
+            "<a> (enlace) sigue siendo un elemento básico de HTML5."
+          ],
+          "references": [
+            "W3C: HTML5 Differences from HTML4 (elementos obsoletos)",
+            "WHATWG HTML Living Standard: Obsolete features"
+          ],
+          "tags": [
+            "html5",
+            "elementos-obsoletos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-050",
+          "number": 50,
+          "text": "En un protocolo de conexión TLS v1.3, ¿quién inicia la conexión en el proceso Handshake?",
+          "options": [
+            "El servidor.",
+            "El cliente.",
+            "La puede iniciar tanto el cliente como el servidor.",
+            "El que tenga el certificado digital que acredita su identidad."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.8",
+          "explanation": "En **TLS 1.3** (RFC 8446), el *handshake* **siempre lo inicia el cliente** con un mensaje **ClientHello** (versiones, suites de cifrado y su parte del intercambio de claves, `key_share`). El servidor responde con **ServerHello** y, ya cifrados, sus extensiones, su certificado, CertificateVerify y Finished. Gracias a ello el *handshake* completo dura **1 RTT** (o 0-RTT al reanudar una sesión). El servidor solo puede pedir al cliente que repita el saludo (**HelloRetryRequest**).",
+          "option_notes": [
+            "El servidor nunca inicia el handshake: responde al ClientHello con ServerHello.",
+            null,
+            "En TLS el handshake siempre lo inicia el cliente; el servidor solo responde.",
+            "Quién inicia no depende del certificado: lo suele presentar el servidor, pero el handshake lo abre el cliente."
+          ],
+          "references": [
+            "RFC 8446 (TLS 1.3), sección 2"
+          ],
+          "tags": [
+            "tls",
+            "handshake",
+            "protocolos-seguros"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": "tai-pi-2019-p1-r1",
+          "number": 1,
+          "text": "Según la Ley Orgánica 3/2018, de Protección de Datos Personales y Garantía de los Derechos Digitales, ¿en cuál de los siguientes entidades los responsables y encargados del tratamiento NO están obligados a la designación de un Delegado de Protección de Datos?",
+          "options": [
+            "Los establecimientos financieros de crédito.",
+            "Los colegios profesionales.",
+            "Las federaciones deportivas cuando traten datos de menores de edad.",
+            "Los profesionales de la salud que ejerzan su actividad a título individual."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "I.7",
+          "explanation": "El **art. 34.1 LOPDGDD** enumera las entidades que deben designar **delegado de protección de datos (DPD)** además de los casos del art. 37.1 RGPD. Entre ellas: **colegios profesionales** (a), **establecimientos financieros de crédito** (f), **centros sanitarios** obligados a mantener historias clínicas (l) y **federaciones deportivas cuando traten datos de menores** (o). Pero la letra l) **exceptúa a los profesionales de la salud que ejerzan a título individual**, aunque deban llevar historias clínicas.",
+          "option_notes": [
+            "Están obligados: los establecimientos financieros de crédito son la letra f) del art. 34.1.",
+            "Están obligados: los colegios profesionales y sus consejos generales son la letra a).",
+            "Están obligadas: las federaciones deportivas que traten datos de menores son la letra o).",
+            null
+          ],
+          "references": [
+            "LO 3/2018 (LOPDGDD), art. 34.1",
+            "Reglamento (UE) 2016/679 (RGPD), art. 37.1"
+          ],
+          "tags": [
+            "lopdgdd",
+            "delegado-de-proteccion-de-datos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-r2",
+          "number": 2,
+          "text": "Seleccione, de entre los siguientes niveles de array de discos RAID, aquel que emplee códigos Hamming para la corrección de errores en disco:",
+          "options": [
+            "RAID 1",
+            "RAID 2",
+            "RAID 4",
+            "RAID 5"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "**RAID 2** reparte los datos **a nivel de bit** entre los discos y dedica varios discos a un **código Hamming** que permite **detectar y corregir errores**. Hoy no se usa, porque los discos ya llevan su propia corrección de errores (ECC). Repaso: **RAID 1** = espejo; **RAID 3** = bandas de bytes con paridad en un disco dedicado; **RAID 4** = bandas de bloques con **paridad dedicada**; **RAID 5** = **paridad distribuida**; **RAID 6** = doble paridad.",
+          "option_notes": [
+            "RAID 1 duplica los datos en discos espejo; no usa códigos Hamming.",
+            null,
+            "RAID 4 usa bloques con paridad XOR en un disco dedicado, no códigos Hamming.",
+            "RAID 5 usa paridad XOR distribuida entre todos los discos, no códigos Hamming."
+          ],
+          "references": [
+            "Patterson, Gibson y Katz, «A Case for Redundant Arrays of Inexpensive Disks (RAID)», 1988"
+          ],
+          "tags": [
+            "raid",
+            "almacenamiento",
+            "codigo-hamming"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-r3",
+          "number": 3,
+          "text": "El estándar de accesibilidad para productos y servicios TIC que aplica a las Administraciones Públicas españolas es:",
+          "options": [
+            "UNE-EN 301549:2019",
+            "UNE-EN 301341:2019",
+            "UNE-EN 301876:2019",
+            "UNE-EN 301803:2019"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.8",
+          "explanation": "La norma de **requisitos de accesibilidad de productos y servicios TIC** es la **EN 301 549**, cuya versión española en el examen era la **UNE-EN 301549:2019** (EN 301 549 V2.1.2). El **RD 1112/2018**, sobre accesibilidad de sitios web y aplicaciones móviles del sector público, presume la conformidad con la norma armonizada, que incorpora los criterios **WCAG 2.1** de nivel AA. Los demás números no corresponden a normas de accesibilidad.",
+          "option_notes": [
+            null,
+            "La UNE-EN 301341 no es la norma de accesibilidad de productos y servicios TIC; esa es la 301549.",
+            "La UNE-EN 301876 no es la norma de accesibilidad TIC: el número que hay que memorizar es 301549.",
+            "La UNE-EN 301803 no es la norma de accesibilidad TIC; la que cita el RD 1112/2018 es la 301549."
+          ],
+          "references": [
+            "UNE-EN 301549 (EN 301 549)",
+            "RD 1112/2018"
+          ],
+          "tags": [
+            "accesibilidad",
+            "en-301-549"
+          ],
+          "media": [],
+          "outdated": true,
+          "outdated_note": "La EN 301 549 se actualizó a la versión V3.2.1 (2021), publicada en España como UNE-EN 301549:2022 y referenciada por la Decisión de Ejecución (UE) 2021/1339. La norma aplicable sigue siendo la EN 301 549, pero en su versión vigente.",
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-r4",
+          "number": 4,
+          "text": "Cuál de los siguientes sistemas de archivos, especialmente diseñado para optimizar dispositivos con memorias SSD, es el sucesor de HFS+",
+          "options": [
+            "NTFS",
+            "APFS",
+            "Ext4",
+            "exFAT"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "**APFS** (*Apple File System*) sustituyó a **HFS+** en 2017 (iOS 10.3 y macOS High Sierra). Está **optimizado para memorias flash y SSD** e incorpora **clones** de ficheros, **instantáneas** (*snapshots*), **cifrado nativo**, uso compartido del espacio entre volúmenes y protección de metadatos ante caídas (*copy-on-write*). **NTFS** es de Windows, **ext4** de Linux y **exFAT** es el formato de Microsoft para memorias USB y tarjetas SDXC.",
+          "option_notes": [
+            "NTFS es el sistema de archivos de Windows (desde Windows NT), no sucesor de HFS+.",
+            null,
+            "Ext4 es el sistema de archivos habitual de Linux, sucesor de ext3.",
+            "exFAT es el formato de Microsoft para memorias flash extraíbles, sucesor de FAT32."
+          ],
+          "references": [
+            "Apple Platform Security / Apple File System Guide"
+          ],
+          "tags": [
+            "sistemas-de-archivos",
+            "apfs",
+            "macos"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p1-r5",
+          "number": 5,
+          "text": "Según estándar ANSI/TIA 942, ¿a qué TIER debe corresponderse un CPD para cumplir con un grado de disponibilidad del 99,741%?",
+          "options": [
+            "TIER 1",
+            "TIER 2",
+            "TIER 3",
+            "TIER 4"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.5",
+          "explanation": "La norma **ANSI/TIA-942** clasifica los CPD en cuatro niveles de disponibilidad: **Tier I** ≈ **99,671 %** (básico, sin redundancia; unas 28,8 h de parada al año), **Tier II ≈ 99,741 %** (componentes redundantes; unas 22 h), **Tier III** ≈ **99,982 %** (mantenimiento sin parada; 1,6 h) y **Tier IV** ≈ **99,995 %** (tolerante a fallos; unos 26 min). En las revisiones recientes de la norma los niveles se llaman **Rated-1 a Rated-4**, para distinguirlos de los Tier del Uptime Institute.",
+          "option_notes": [
+            "El Tier I corresponde a ≈ 99,671 %, sin componentes redundantes.",
+            null,
+            "El Tier III corresponde a ≈ 99,982 % (mantenible sin parada).",
+            "El Tier IV corresponde a ≈ 99,995 % (tolerante a fallos)."
+          ],
+          "references": [
+            "ANSI/TIA-942 (Telecommunications Infrastructure Standard for Data Centers)",
+            "Uptime Institute: Tier Classification System"
+          ],
+          "tags": [
+            "cpd",
+            "tia-942",
+            "disponibilidad"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto del bloque III",
+      "block": "III",
+      "statement": "Con la finalidad de informar a los ciudadanos acerca de la zona de estacionamiento regulado en todos los municipios de España, se propone la creación de un registro, donde los ayuntamientos deberán publicar su normativa al respecto reflejando para cada tramo de calle cual es la tipología de zona que le corresponde (verde/azul/..).\n\nPor otro lado también se deberá tener en cuenta las franjas horarias y la tarifa asociada a cada zona.\n\nA efectos de este supuesto se consideran las siguientes premisas:\n\n- Todos los días, incluyendo los festivos, el estacionamiento es regulado.\n- Cada tramo de calle está definido por la numeración que la delimita.\n- El SGBD utilizado será SQL Server.\n- El lenguaje de programación empleado en el desarrollo del sistema de información será orientado a objetos (JAVA).\n\nA continuación, se presenta un modelo Entidad Relación extendido inacabado, en lo sucesivo E/R, que representa parte del dominio de la información.\n\n![Reconstrucción de OpoTAI: Modelo Entidad-Relación extendido inacabado del registro de estacionamiento: Municipio (1) – Calle (1..N), Calle (1) – TramoCalle (1..N), TipoZona (1) – Tarifa (1), y las relaciones FranjaHoraria – TipoZona y TipoZona – TramoCalle con cardinalidades por determinar (¿?); cada entidad con sus atributos.](assets/tai-pi-2019/p2-s1-statement-1-redibujo.svg)\n\n*Original escaneado del cuadernillo:*\n\n![Modelo Entidad-Relación extendido inacabado del registro de estacionamiento: Municipio (1) – Calle (1..N), Calle (1) – TramoCalle (1..N), TipoZona (1) – Tarifa (1), y las relaciones FranjaHoraria – TipoZona y TipoZona – TramoCalle con cardinalidades por determinar (¿?); cada entidad con sus atributos.](assets/tai-pi-2019/p2-s1-statement-1.png)\n\n*Transcripción del modelo (los atributos identificadores aparecen con el círculo relleno):*\n\n| Entidad | Atributos |\n|---|---|\n| Municipio | idMunicipio (identificador) · nombre |\n| FranjaHoraria | idFranja (identificador) · horaInicio · horaFin · diaSem |\n| Calle | idCalle (identificador) · nombre |\n| TipoZona | idZona (identificador) · nombre · tiempoMin · tiempoMax |\n| Tarifa | idTarifa (identificador) · precio |\n| TramoCalle | idTramoCalle (identificador) · desde · hasta · parImpar |\n\n| Relación | Cardinalidades rotuladas en cada extremo |\n|---|---|\n| Municipio – Calle | 1 junto a Municipio · 1..N junto a Calle |\n| Calle – TramoCalle | 1 junto a Calle · 1..N junto a TramoCalle |\n| FranjaHoraria – TipoZona | ¿? junto a FranjaHoraria · ¿? junto a TipoZona |\n| TipoZona – TramoCalle | ¿? junto a TipoZona · ¿? junto a TramoCalle |\n| TipoZona – Tarifa | 1 junto a TipoZona · 1 junto a Tarifa |",
+      "media": [],
+      "questions": [
+        {
+          "id": "tai-pi-2019-p2-s1-001",
+          "number": 1,
+          "text": "Indique el tipo de correspondencia necesaria para representar en el diagrama E/R la relación que falta entre los tipos de zona y los tramos de las calles.",
+          "options": [
+            "A través de una relación 0:1 entre TipoZona y TramoCalle.",
+            "A través de una relación N:M entre TipoZona y TramoCalle.",
+            "A través de una relación 1:1 entre TipoZona y TramoCalle.",
+            "A través de una relación 1:N entre TipoZona y TramoCalle."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "Según el enunciado, cada ayuntamiento indica **para cada tramo de calle qué tipo de zona le corresponde**: un tramo tiene **un único** tipo de zona (verde, azul…), y un mismo tipo de zona se aplica a **muchos** tramos. Es una correspondencia **1:N entre TipoZona y TramoCalle**. Al pasar al modelo relacional, la clave de TipoZona (`idZona`) se propagará como **clave ajena** a TramoCalle, el lado N.",
+          "option_notes": [
+            "0:1 no es un tipo de correspondencia: el 0 expresa una cardinalidad mínima (participación opcional).",
+            "N:M exigiría que un tramo pudiera tener varios tipos de zona a la vez, y el enunciado asigna uno por tramo.",
+            "1:1 obligaría a que cada tipo de zona se aplicara a un solo tramo, y la zona azul abarca muchos.",
+            null
+          ],
+          "references": [
+            "Métrica v3, Técnicas: Modelo Entidad/Relación extendido (tipo de correspondencia)"
+          ],
+          "tags": [
+            "modelo-entidad-relacion",
+            "tipo-de-correspondencia",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-002",
+          "number": 2,
+          "text": "Si para un municipio, tenemos la zona Azul, definida por las franjas horarias de 9:00 a 15:00 y de 17:00 a 20:00, ¿qué tipo de correspondencia se debería emplear en la relación?",
+          "options": [
+            "Sería una relación 1:N entre TipoZona y FranjaHoraria.",
+            "Sería una relación 1:N entre FranjaHoraria y TipoZona.",
+            "Sería una relación 1:1 entre TipoZona y FranjaHoraria.",
+            "Sería una relación 1:0 entre TipoZona y FranjaHoraria."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "Si la zona azul se define con **dos franjas** (9:00-15:00 y 17:00-20:00), un mismo **TipoZona** se relaciona con **varias** FranjaHoraria, y cada franja pertenece a un tipo de zona concreto: correspondencia **1:N entre TipoZona y FranjaHoraria**, con el lado N en FranjaHoraria. Al pasar a tablas, `idZona` irá como clave ajena en FranjaHoraria. Ojo al orden: «1:N entre X e Y» significa un X con muchos Y.",
+          "option_notes": [
+            null,
+            "Invierte el sentido: significaría que una franja tiene muchos tipos de zona y cada zona una sola franja, pero la zona azul tiene dos.",
+            "1:1 solo admitiría una franja por tipo de zona, y la zona azul tiene dos.",
+            "1:0 no es un tipo de correspondencia; el 0 solo expresa participación opcional."
+          ],
+          "references": [
+            "Métrica v3, Técnicas: Modelo Entidad/Relación extendido (tipo de correspondencia)"
+          ],
+          "tags": [
+            "modelo-entidad-relacion",
+            "tipo-de-correspondencia",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-003",
+          "number": 3,
+          "text": "¿Cuál de las siguientes tablas se obtiene de transformar la entidad Calle del modelo E/R al modelo físico, teniendo en cuenta las asociaciones que tiene? (PK es Primary Key y FK es Foreign Key)",
+          "options": [
+            "calle(idCalle (PK), nombre)",
+            "calle(idCalle (PK), idTramoCalle (FK), nombre)",
+            "calle(idCalle (PK), idMunicipio (FK), nombre)",
+            "calle(idCalle (PK), idMunicipio (FK), idTramoCalle(FK), nombre)"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.1",
+          "explanation": "En una relación **1:N**, la clave primaria del lado **1** se propaga como **clave ajena** al lado **N**. Calle participa en dos relaciones: **Municipio (1) – Calle (N)**, por lo que Calle recibe **`idMunicipio` (FK)**; y **Calle (1) – TramoCalle (N)**, por lo que es **TramoCalle** quien recibe `idCalle` como FK. Resultado: `calle(idCalle (PK), idMunicipio (FK), nombre)`.",
+          "option_notes": [
+            "Falta la clave ajena idMunicipio: sin ella no se sabe a qué municipio pertenece cada calle.",
+            "La FK va en el lado N: es TramoCalle quien recibe idCalle, no Calle quien recibe idTramoCalle.",
+            null,
+            "idMunicipio es correcta, pero idTramoCalle sobra: una calle tiene muchos tramos y no cabe en una sola columna."
+          ],
+          "references": [
+            "Métrica v3, Técnicas: transformación del modelo E/R al modelo relacional"
+          ],
+          "tags": [
+            "modelo-relacional",
+            "clave-ajena",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-004",
+          "number": 4,
+          "text": "Se ha podido cometer un error en el traspaso del diagrama E/R al modelo físico en relación a la cardinalidad de las entidades de las calles y sus tramos. Para ello se quiere realizar una comprobación básica entre ambas tablas. ¿Qué resultado obtendremos de la siguiente sentencia ejecutada en SQL Server?\n\n```sql\nSELECT Calle.nombre, count(TramoCalle.idTramoCalle)\nFROM TramoCalle RIGHT JOIN Calle ON Calle.idCalle = TramoCalle.idCalle\nGROUP BY Calle.idCalle, Calle.nombre\n```",
+          "options": [
+            "Una fila por cada tramo que tenga al menos una calle asignada. Y se mostrará el nombre de la calle y el número de tramos de dicho calle.",
+            "Una fila por cada tramo que tenga o no tenga calles asignadas. Y se mostrará el nombre de la calle y el número de tramos de dicho calle.",
+            "Una fila por cada calle, tenga o no tenga tramos asignados. Y se mostrará el nombre de la calle y el número de tramos de dicho calle.",
+            "Una fila por cada calle que tenga al menos un tramo asignado. Y se mostrará el nombre de la calle y el número de tramos de dicho calle."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.3",
+          "explanation": "`TramoCalle RIGHT JOIN Calle` conserva **todas las filas de la tabla de la derecha (Calle)**; las calles sin tramos aparecen con NULL en las columnas de TramoCalle. Al agrupar por `Calle.idCalle, Calle.nombre` sale **una fila por calle**, y **`COUNT(TramoCalle.idTramoCalle)`** cuenta solo los valores no nulos: da el número de tramos y **0** en las calles sin tramos. `COUNT(*)` contaría 1 para ellas.",
+          "option_notes": [
+            "Al agrupar por calle sale una fila por calle, no por tramo.",
+            "La agrupación es por calle; además, el RIGHT JOIN conserva las calles, no los tramos sin calle.",
+            null,
+            "Así se comportaría un INNER JOIN; el RIGHT JOIN incluye también las calles sin tramos (con recuento 0)."
+          ],
+          "references": [
+            "Microsoft Learn: FROM (Transact-SQL), RIGHT OUTER JOIN",
+            "Microsoft Learn: COUNT (Transact-SQL)"
+          ],
+          "tags": [
+            "sql",
+            "right-join",
+            "count",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-005",
+          "number": 5,
+          "text": "En el SGBD tiene que crear un procedimiento almacenado \"calcularTarifa\" cuyos parámetros de entrada sean tipo de zona (idZona) y el número de minutos (Minutos), ambos tipo entero. ¿Cuál de las siguientes declaraciones de cabecera sería correcta?",
+          "options": [
+            "`CREATE PROCEDURE calcularTarifa @idZona int, @Minutos int`",
+            "`CREATE PROCEDURE calcularTarifa @idZona, @Minutos`",
+            "`CREATE PROCED calcularTarifa (@idZona int, @Minutos int)`",
+            "`CREATE PROCED calcularTarifa @TipoZona int, @Minutos int`"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.3",
+          "explanation": "En **Transact-SQL** (SQL Server) un procedimiento se crea con **`CREATE PROCEDURE`** (o su abreviatura **`CREATE PROC`**), y cada parámetro se declara con **`@nombre tipo`**, separados por comas: `CREATE PROCEDURE calcularTarifa @idZona int, @Minutos int AS ...`. Los paréntesis alrededor de la lista de parámetros son opcionales, y pueden añadirse un valor por defecto (`= 0`) u `OUTPUT`.",
+          "option_notes": [
+            null,
+            "Falta el tipo de dato de cada parámetro, que es obligatorio en T-SQL.",
+            "«PROCED» no es una palabra reservada: se escribe PROCEDURE o PROC (los paréntesis sí serían válidos).",
+            "«PROCED» no es válido y el parámetro debe llamarse @idZona, como pide el enunciado."
+          ],
+          "references": [
+            "Microsoft Learn: CREATE PROCEDURE (Transact-SQL)"
+          ],
+          "tags": [
+            "sql-server",
+            "procedimientos-almacenados",
+            "transact-sql",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-006",
+          "number": 6,
+          "text": "Le piden que ejecute el anterior procedimiento que ha creado. ¿Cuál de las siguientes sentencias es INCORRECTA?",
+          "options": [
+            "`EXECUTE calcularTarifa @idZona = 1, @Minutos = 50;`",
+            "`EXECUTE calcularTarifa @Minutos = 50, @idZona = 1;`",
+            "`EXECUTE calcularTarifa 1, 50;`",
+            "`EXECUTE calcularTarifa @Minutos = 50, 1;`"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.3",
+          "explanation": "En **`EXECUTE`** los parámetros pueden pasarse **por posición** (en el orden en que se declararon: `EXECUTE calcularTarifa 1, 50`) o **por nombre** (`@parametro = valor`), y en este caso **en cualquier orden**. Pero, según la documentación de SQL Server, **en cuanto se usa la forma `@parametro = valor` en un parámetro, todos los siguientes deben pasarse también por nombre**. Por eso `@Minutos = 50, 1` es incorrecta.",
+          "option_notes": [
+            "Correcta: todos los parámetros se pasan por nombre.",
+            "Correcta: por nombre, el orden de los parámetros es indiferente.",
+            "Correcta: por posición, en el orden de declaración (@idZona y después @Minutos).",
+            null
+          ],
+          "references": [
+            "Microsoft Learn: EXECUTE (Transact-SQL)"
+          ],
+          "tags": [
+            "sql-server",
+            "procedimientos-almacenados",
+            "execute",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-007",
+          "number": 7,
+          "text": "Teniendo en cuenta que el SGBD es SQL Server sobre JAVA, debe realizar una conexión JDBC. ¿Cuál sería la URL correcta para establecer la conexión con la base de datos si el servidor se encuentra en la IP 10.10.1.124 y el puerto 3306?",
+          "options": [
+            "`jdbc:sql://10.10.1.124:3306;user=MyUserName;password=*****;`",
+            "`sqlserver:jdbc://10.10.1.124:3306;user=MyUserName;password=*****;`",
+            "`sqlserver:ansi:10.10.124:3306;user=MyUserName;password=*****;`",
+            "`jdbc:sqlserver://10.10.1.124:3306;user=MyUserName;password=*****;`"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.5",
+          "explanation": "El controlador JDBC de Microsoft usa URL del tipo **`jdbc:sqlserver://servidor[\\instancia][:puerto][;propiedad=valor…]`**: siempre empieza por el protocolo **`jdbc:`**, seguido del subprotocolo del controlador (**`sqlserver`**). La D sigue ese formato. Ojo: el puerto por defecto de SQL Server es el **1433**; el **3306** es el de **MySQL**, pero el enunciado lo fija así y lo que se pregunta es el formato.",
+          "option_notes": [
+            "«sql» no es el subprotocolo del controlador de SQL Server: debe ser jdbc:sqlserver://.",
+            "El orden está invertido: la URL empieza siempre por «jdbc:».",
+            "Formato inexistente («sqlserver:ansi:») y además la IP está mal escrita: 10.10.124 solo tiene tres octetos.",
+            null
+          ],
+          "references": [
+            "Microsoft Learn: Building the connection URL (Microsoft JDBC Driver for SQL Server)"
+          ],
+          "tags": [
+            "jdbc",
+            "sql-server",
+            "java",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-008",
+          "number": 8,
+          "text": "Le han pedido que elabore los esquemas de mensajes de respuesta de un servicio web. ¿Qué deben contener las etiquetas Z1 y Z2 en el siguiente párrafo del esquema para que los elementos Nombre de Calle (nc) y Número de Calle (numc) aparezcan en el XML en el mismo orden en el que han sido declarados?\n\n```xml\n<xs:complexType>\n<Z1>\n    <xsd:element name=\"nc\" type=\"nc\">\n        <xsd:annotation>\n            <xsd:documentation>Nombre de Calle</xsd:documentation>\n        </xsd:annotation>\n    </xsd:element>\n    <xsd:element name=\"numc\" type=\"numc\">\n        <xsd:annotation>\n            <xsd:documentation>Numero de Calle</xsd:documentation>\n        </xsd:annotation>\n    </xsd:element>\n<Z2>\n</xs:complexType>\n```",
+          "options": [
+            "`Z1=xsd:grouptype ; Z2=/xsd:grouptype`",
+            "`Z1= xsd:sequence ; Z2=/xsd:sequence`",
+            "`Z1=xsd:elementLocation ; Z2=/xsd:elementLocation`",
+            "`Z1=xsd:elementOrder ; Z2=/xsd:elementOrder`"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.7",
+          "explanation": "En **XML Schema (XSD)**, el compositor **`xsd:sequence`** obliga a que los elementos hijos aparezcan **en el mismo orden en que se declaran**. Los otros compositores son **`xsd:all`** (cualquier orden, cada elemento como mucho una vez) y **`xsd:choice`** (solo uno de los elementos). Los prefijos `xs:` y `xsd:` son equivalentes si se asocian al espacio de nombres de XML Schema.",
+          "option_notes": [
+            "No existe xsd:grouptype; xsd:group sirve para definir grupos de elementos con nombre y reutilizarlos.",
+            null,
+            "No existe ningún elemento xsd:elementLocation en XML Schema.",
+            "No existe xsd:elementOrder; el orden se impone con xsd:sequence."
+          ],
+          "references": [
+            "W3C XML Schema 1.1 Part 1: Structures (model groups: sequence, choice, all)"
+          ],
+          "tags": [
+            "xml-schema",
+            "xsd",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-009",
+          "number": 9,
+          "text": "Se quieren realizar modificaciones en el sistema para posibilitar la aplicación de bonificaciones a los vehículos menos contaminantes. Para ello se debe ampliar la funcionalidad, incorporando la matrícula como nuevo parámetro a un método ya existente. ¿Cómo añadiríamos este parámetro?",
+          "options": [
+            "Sobrecargando el método incorporando un parámetro más con la matrícula del vehículo.",
+            "Sobreescribiendo el método incorporando un parámetro más con la matrícula del vehículo.",
+            "Definiendo una nueva clase abstracta como pública donde se definirá un nuevo evento que envíe la matrícula al método que ya existe.",
+            "Remitiendo la matrícula en alguno de los parámetros ya definidos, e incorporando la lógica pertinente en el método para que si el formato de la cadena de texto encaja con el de una matrícula se tenga en cuenta dicha información."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.4",
+          "explanation": "La **sobrecarga** (*overloading*) consiste en definir **varios métodos con el mismo nombre y distinta lista de parámetros** (número o tipo) en la misma clase; el compilador elige cuál llamar según los argumentos. Así se añade la versión con matrícula **sin romper las llamadas existentes**. La **sobrescritura** (*overriding*) es otra cosa: una subclase **redefine** un método heredado con la **misma firma**.",
+          "option_notes": [
+            null,
+            "Sobrescribir es redefinir en una subclase un método con la misma firma; añadir un parámetro es sobrecargar.",
+            "Crear una clase abstracta con un evento complica el diseño y no añade el parámetro al método.",
+            "Reutilizar un parámetro con otro significado es una mala práctica: oculta la intención y genera errores."
+          ],
+          "references": [
+            "The Java Language Specification, §8.4.9 (Overloading)"
+          ],
+          "tags": [
+            "sobrecarga",
+            "programacion-orientada-a-objetos",
+            "java",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-010",
+          "number": 10,
+          "text": "La herramienta empleada para realizar el control de versiones del proyecto será Apache Subversion. Si vamos a realizar un evolutivo con nuevas funcionalidades, sin haber finalizado el desarrollo del sistema actual, ¿qué elemento SVN utilizaríamos para aislar el nuevo evolutivo del desarrollo principal?",
+          "options": [
+            "Aislaríamos los desarrollos a través de transacciones del SVN.",
+            "Se crearía un paquete con aquellos componentes a modificar y se marcarían a través de etiquetas “modified”.",
+            "Se emplearía el concepto “dependency” que permite conocer las dependencias en el código fuente.",
+            "Se crearía una rama “Branch” paralela al “Trunk” que posteriormente sería mezclada."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.9",
+          "explanation": "En **Subversion** el repositorio se organiza por convenio en **`trunk`** (línea principal), **`branches`** (ramas) y **`tags`** (instantáneas). Para aislar un evolutivo sin interferir en el desarrollo principal se crea una **rama** (`svn copy` del trunk a `branches/evolutivo`, una copia barata), se trabaja en ella y, al terminar, se **fusiona** con el trunk (`svn merge`).",
+          "option_notes": [
+            "Las transacciones de SVN garantizan que cada commit sea atómico; no sirven para aislar desarrollos paralelos.",
+            "SVN no tiene etiquetas «modified»; los tags son instantáneas fijas, no líneas de desarrollo.",
+            "SVN no tiene ningún concepto «dependency»; las dependencias externas se gestionan con svn:externals.",
+            null
+          ],
+          "references": [
+            "Version Control with Subversion (Red Bean): Branching and Merging"
+          ],
+          "tags": [
+            "subversion",
+            "control-de-versiones",
+            "ramas",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-011",
+          "number": 11,
+          "text": "¿Cuál de las siguientes sentencias deberá añadir en la cabecera HTML5 para ajustar el contenido de la página web al tamaño de la pantalla de los diferentes dispositivos?",
+          "options": [
+            "`<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">`",
+            "`<Link rel=StyleSheet HREF=\"estiloapps.css\" TYPE=\"text/css\" MEDIA=screen>`",
+            "`<meta http-equiv=\"Content-Style-Type\" CONTENT=\"text/css\">`",
+            "`<link rel=\"responsive icon\" href=\"/estiloapps.ico\" content=\"width=device-width, initial-scale=1.0\">`"
+          ],
+          "answer": null,
+          "annulled": true,
+          "topic": "III.7",
+          "explanation": "Pregunta **anulada** en la plantilla definitiva (la provisional daba la **A**). La etiqueta habitual para adaptar una página a la pantalla de cada dispositivo es `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">`: ajusta el ancho del *viewport* al del dispositivo y fija el zoom inicial. El tribunal no publicó el motivo; uno plausible es que el viewport por sí solo no «ajusta el contenido»: el diseño adaptable (*responsive*) necesita además CSS con *media queries*.",
+          "option_notes": [
+            "Era la respuesta provisional: el meta viewport es la etiqueta estándar del diseño adaptable.",
+            "Enlaza una hoja de estilos para pantallas (media=screen), pero no adapta el viewport al dispositivo.",
+            "Content-Style-Type indicaba el lenguaje de estilos por defecto (HTML 4.01); no adapta la página al dispositivo.",
+            "No existe rel=\"responsive icon\"; un elemento link no lleva atributo content."
+          ],
+          "references": [
+            "CSS Viewport Module Level 1 (W3C), meta viewport",
+            "MDN: Viewport meta tag"
+          ],
+          "tags": [
+            "html5",
+            "viewport",
+            "diseno-adaptable",
+            "anulada"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-012",
+          "number": 12,
+          "text": "Nuestra aplicación deberá interactuar con otros sistemas de información, para ello hará uso de servicios web bajo el estándar Web Services Security. ¿Cuál de los siguientes mecanismos del estándar WS-Security podríamos utilizar para garantizar la identidad del actor?",
+          "options": [
+            "BinarySecurityToken, que describe cómo codificar certificados X.509 y tickets de Kerberos así como la inclusión de claves cifradas opacas.",
+            "CriptToken, que permite intercambiar tokens de identificación basados en usuario y contraseña.",
+            "El establecimiento de conexiones VPN que garantizan la identidad y autenticidad de los actores.",
+            "Gracias a que disponemos de la clave privada del actor, tenemos la certeza de la identidad de este."
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "III.6",
+          "explanation": "**WS-Security** (OASIS) protege los mensajes SOAP de extremo a extremo: firma XML (integridad), cifrado XML (confidencialidad) y **tokens de seguridad** para acreditar la **identidad**. Para tokens binarios define el elemento **`BinarySecurityToken`**, que codifica **certificados X.509** y **tickets Kerberos** (además de permitir incluir claves cifradas opacas). Para usuario y contraseña existe el **`UsernameToken`**, y los perfiles de token cubren también SAML.",
+          "option_notes": [
+            null,
+            "No existe «CriptToken»: el token de usuario y contraseña de WS-Security es UsernameToken.",
+            "Una VPN protege la red, no el mensaje; WS-Security actúa a nivel de mensaje SOAP.",
+            "Nunca se dispone de la clave privada de otro actor: es secreta; su identidad se verifica con su certificado y su clave pública."
+          ],
+          "references": [
+            "OASIS Web Services Security: SOAP Message Security 1.1",
+            "OASIS WSS X.509 Certificate Token Profile"
+          ],
+          "tags": [
+            "ws-security",
+            "servicios-web",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": "tai-pi-2019-p2-s1-r1",
+          "number": 1,
+          "text": "Para garantizar la persistencia, deberá utilizar alguna implementación de la especificación de JPA. ¿Cuál de los siguientes frameworks nos ofrecen una implementación de dicha especificación?",
+          "options": [
+            "DataSource.",
+            "Top ORM.",
+            "Java persistence implementation.",
+            "EclipseLink."
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "III.5",
+          "explanation": "**EclipseLink** (proyecto de la Eclipse Foundation, derivado de Oracle TopLink) es la **implementación de referencia de JPA** desde la versión 2.0 y de **Jakarta Persistence**. Otras implementaciones de JPA son **Hibernate ORM**, **Apache OpenJPA** y DataNucleus. La especificación define la API (`EntityManager`, anotaciones `@Entity`, JPQL) y cada proveedor la implementa.",
+          "option_notes": [
+            "DataSource es una interfaz de JDBC (javax.sql.DataSource) para obtener conexiones, no un proveedor JPA.",
+            "No existe «Top ORM»; recuerda a Oracle TopLink, del que procede EclipseLink.",
+            "«Java persistence implementation» no es ningún framework: es una descripción genérica.",
+            null
+          ],
+          "references": [
+            "Jakarta Persistence (JPA) specification",
+            "Eclipse Foundation: EclipseLink"
+          ],
+          "tags": [
+            "jpa",
+            "eclipselink",
+            "persistencia",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-r2",
+          "number": 2,
+          "text": "Nuestro sistema de información estará formado por diversas capas, independizando la capa de presentación, de la lógica de negocio y de acceso a datos. ¿Qué elemento emplearemos para transferir los datos de una capa a otra?",
+          "options": [
+            "POJOO (Plain Old Java Object Oriented).",
+            "DTO (Data Transfer Object).",
+            "DAO (Data Access Object).",
+            "DCA (Data Connected Architecture)."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "III.6",
+          "explanation": "El **DTO** (*Data Transfer Object*; en Java EE, *Transfer Object*) es un objeto sin lógica de negocio que **agrupa datos para transferirlos entre capas** o procesos (por ejemplo, de la lógica de negocio a la presentación), reduciendo el número de llamadas. No confundir con el **DAO** (*Data Access Object*), que **encapsula el acceso a la base de datos** dentro de la capa de persistencia.",
+          "option_notes": [
+            "No existe «POJOO»: el término es POJO (Plain Old Java Object), un objeto Java simple.",
+            null,
+            "El DAO encapsula el acceso a los datos (persistencia), no transporta datos entre capas.",
+            "«DCA (Data Connected Architecture)» no es ningún patrón conocido."
+          ],
+          "references": [
+            "M. Fowler, «Patterns of Enterprise Application Architecture» (2002): Data Transfer Object",
+            "Core J2EE Patterns: Transfer Object y Data Access Object"
+          ],
+          "tags": [
+            "dto",
+            "arquitectura-multicapa",
+            "patrones-de-diseno",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s1-r3",
+          "number": 3,
+          "text": "Atendiendo al enunciado propuesto, en el diagrama de casos de uso del sistema, ¿cuáles serían los actores?",
+          "options": [
+            "Ayuntamiento, ciudadano, base de datos y sistemas móviles",
+            "Terminal móvil, antenas de telefonía móvil y parquímetro.",
+            "Ayuntamiento, ciudadano y administrador del sistema.",
+            "Sistema de geolocalización, base de datos del INE y librerías de componentes internas."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "III.4",
+          "explanation": "En **UML**, un **actor** es un **rol externo al sistema** que interactúa con él: una persona, una organización u otro sistema. Según el enunciado, el **ayuntamiento** publica su normativa de estacionamiento, el **ciudadano** la consulta y el **administrador del sistema** lo gestiona. La base de datos y las librerías son **partes internas** del sistema, y el hardware (antenas, parquímetros) no interactúa con este registro.",
+          "option_notes": [
+            "La base de datos forma parte del propio sistema, no es un actor; «sistemas móviles» no aparece en el enunciado.",
+            "Antenas, terminales y parquímetros son infraestructura ajena a este registro, no actores de sus casos de uso.",
+            null,
+            "Las librerías internas son parte del sistema, y ni la geolocalización ni el INE aparecen en el enunciado."
+          ],
+          "references": [
+            "OMG UML 2.5.1: Use Cases (Actor)",
+            "Métrica v3, Técnicas: Casos de uso"
+          ],
+          "tags": [
+            "uml",
+            "casos-de-uso",
+            "actores",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto del bloque IV",
+      "block": "IV",
+      "statement": "Trabaja en la unidad de informática de una empresa pública que presta servicios para la administración electrónica y para ello cuenta con dos CPDs, uno principal dentro de las instalaciones de la empresa y otro de respaldo situado en un Ministerio cercano.\n\nEl edificio en el que se encuentra la empresa se ha quedado pequeño debido al crecimiento de la misma y se le ha comunicado que se va a proceder al traslado del personal y del CPD a otro edificio situado a una calle de distancia.\n\nAprovechando el traslado se quieren modernizar las infraestructuras y ampliar la capacidad de algunos de los sistemas.\n\nComo personal informático se le nombra parte del comité de traslado para la resolución de las cuestiones técnicas.",
+      "media": [],
+      "questions": [
+        {
+          "id": "tai-pi-2019-p2-s2-001",
+          "number": 1,
+          "text": "En el nuevo CPD tenemos un servidor con Linux llamado \"servidor_del_traslado\" y se ha decidido crear un usuario específico que se llamará \"traslado\" con contraseña \"zzzz\", que pertenezca al grupo ya existente \"migracion\" y cuyo directorio principal (HOME_DIR) sea /traslado/respaldo ¿Cómo lo haría?",
+          "options": [
+            "`useradd traslado -d /traslado/respaldo -p migracion -g zzzz`",
+            "`useradd -d /traslado/respaldo -g migracion -p zzzz traslado`",
+            "`useradd -g /traslado/respaldo -d migracion -p zzzz traslado`",
+            "`useradd -p /traslado/respaldo -g migracion -d zzzz traslado`"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "La sintaxis es **`useradd [opciones] LOGIN`**, con el nombre de usuario **al final**. Opciones: **`-d`** directorio personal (`/traslado/respaldo`), **`-g`** grupo principal, que debe existir (`migracion`), y **`-p`** contraseña. Ojo: `-p` espera la contraseña **ya cifrada** con crypt(3); en la práctica se crea el usuario y se le asigna la contraseña con `passwd traslado` o `chpasswd`. Para crear además el directorio se añade `-m`.",
+          "option_notes": [
+            "Intercambia los valores: -p recibe el grupo y -g la contraseña.",
+            null,
+            "Intercambia los valores: -g recibe la ruta y -d el grupo.",
+            "Intercambia los valores: -p recibe la ruta y -d la contraseña."
+          ],
+          "references": [
+            "Página de manual useradd(8) (shadow-utils)"
+          ],
+          "tags": [
+            "linux",
+            "useradd",
+            "gestion-de-usuarios",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-002",
+          "number": 2,
+          "text": "Para ver que todo es correcto, compruebe remotamente el uid y el gid del usuario \"traslado\" en el \"servidor_del_traslado\", que se ha creado anteriormente.",
+          "options": [
+            "`ssh servidor_del_traslado -l traslado id uid gid`",
+            "`ssh -host servidor_del_traslado -l traslado id`",
+            "`ssh servidor_del_traslado traslado id`",
+            "`ssh servidor_del_traslado -l traslado id`"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.1",
+          "explanation": "`ssh` admite el usuario remoto con **`-l usuario`** (equivale a `usuario@servidor`) y, tras el destino, **la orden que se ejecutará en el equipo remoto**. OpenSSH acepta opciones también detrás del destino. **`id`** sin argumentos muestra el **uid**, el **gid** y los grupos del usuario con el que se ha entrado, por ejemplo `uid=1001(traslado) gid=1002(migracion) grupos=1002(migracion)`. Forma equivalente: `ssh traslado@servidor_del_traslado id`.",
+          "option_notes": [
+            "id no admite «uid gid» como argumentos: los tomaría como nombres de usuario y daría error.",
+            "-host no es una opción de ssh: el destino se escribe sin opción.",
+            "Sin -l, «traslado» se interpretaría como la orden remota, no como el usuario.",
+            null
+          ],
+          "references": [
+            "Página de manual ssh(1) (OpenSSH)",
+            "Página de manual id(1) (GNU coreutils)"
+          ],
+          "tags": [
+            "ssh",
+            "linux",
+            "comandos",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-003",
+          "number": 3,
+          "text": "Le piden que en el servidor Linux añada una ruta que permita ir al destino 10.254.252.4 a través del gateway 10.253.1.254 que está conectado a un firewall. ¿Cómo lo haría?",
+          "options": [
+            "`route new-net 10.254.252.4 netmask 255.255.255.0 gw 10.253.1.254`",
+            "`route add -net 10.254.252.4 netmask 255.255.255.0 gw via 10.253.1.254`",
+            "`route add -net 10.254.252.4 netmask 255.255.255.0 gw add 10.253.1.254`",
+            "`route add -net 10.254.252.4 netmask 255.255.255.0 gw 10.253.1.254`"
+          ],
+          "answer": "D",
+          "annulled": false,
+          "topic": "IV.4",
+          "explanation": "Con el clásico `route` (net-tools) se añade una ruta con **`route add -net <red> netmask <máscara> gw <pasarela>`**: la D es la única con la sintaxis correcta. Matiz: con `-net` y máscara /24 la dirección debería ser la de **red** (`10.254.252.0`); con `10.254.252.4`, `route` responde «netmask doesn't match route address». Para un único equipo se usaría `route add -host 10.254.252.4 gw 10.253.1.254`. Hoy se prefiere iproute2: `ip route add 10.254.252.0/24 via 10.253.1.254`.",
+          "option_notes": [
+            "new-net no existe: se usa route add -net.",
+            "«gw via» mezcla dos sintaxis: via es de ip route; route solo usa gw.",
+            "«gw add» no es válido: tras gw va directamente la dirección de la pasarela.",
+            null
+          ],
+          "references": [
+            "Página de manual route(8) (net-tools)",
+            "Página de manual ip-route(8) (iproute2)"
+          ],
+          "tags": [
+            "linux",
+            "enrutamiento",
+            "route",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": true
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-004",
+          "number": 4,
+          "text": "¿Cómo podría listar las rutas existentes y así cerciorarse de que la ruta anterior está bien añadida?",
+          "options": [
+            "`ip route path`",
+            "`ip route list`",
+            "`ip show route`",
+            "`ip view route`"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.4",
+          "explanation": "Con **iproute2** la sintaxis es **`ip [opciones] OBJETO COMANDO`**: primero el objeto (`route`, `addr`, `link`, `neigh`) y después la acción. **`ip route list`** muestra la tabla de rutas; **`list`** es sinónimo de **`show`** (`ip route show`, abreviado `ip r`). Con net-tools se obtenía lo mismo con `route -n` o `netstat -rn`.",
+          "option_notes": [
+            "path no es un comando de ip route; para listar se usa list o show.",
+            null,
+            "Orden incorrecto: primero va el objeto (route) y después el comando (show).",
+            "view no es un comando de ip; se usa list o show."
+          ],
+          "references": [
+            "Página de manual ip-route(8) (iproute2)"
+          ],
+          "tags": [
+            "linux",
+            "iproute2",
+            "enrutamiento",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-005",
+          "number": 5,
+          "text": "Se va a dar un nuevo direccionamiento temporal para la migración. Se trata de la red 10.1.248.0 / 21. ¿Cuál es la dirección de broadcast?",
+          "options": [
+            "10.255.255.255",
+            "10.1.255.255",
+            "10.1.254.255",
+            "10.1.248.255"
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.7",
+          "explanation": "Un prefijo **/21** equivale a la máscara **255.255.248.0**: en el tercer octeto quedan 3 bits de host, así que las redes van de **8 en 8** (…, 240, 248). La red **10.1.248.0/21** abarca los terceros octetos **248 a 255** (248 + 7). La **difusión** pone a 1 todos los bits de host: **10.1.255.255**. Hosts útiles: de 10.1.248.1 a 10.1.255.254 (2¹¹ − 2 = 2046).",
+          "option_notes": [
+            "10.255.255.255 sería la difusión de toda la red 10.0.0.0/8, no la de una /21.",
+            null,
+            "10.1.254.255 sería la difusión de 10.1.254.0/23, no de una /21 que empieza en 248.",
+            "10.1.248.255 sería la difusión de una /24 (10.1.248.0/24)."
+          ],
+          "references": [
+            "RFC 4632 (CIDR)",
+            "RFC 950 (subredes IPv4)"
+          ],
+          "tags": [
+            "subredes",
+            "cidr",
+            "difusion",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-006",
+          "number": 6,
+          "text": "Parece que hay problemas a nivel 2 debido a unas MAC antiguas. ¿Qué parámetro del comando ARP hay que usar para mostrar la tabla ARP?",
+          "options": [
+            "`arp -all`",
+            "`arp -i`",
+            "`arp -a`",
+            "`arp -g`"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.4",
+          "explanation": "**`arp -a`** muestra la **tabla (caché) ARP** con las correspondencias IP-MAC, y funciona en Linux, Windows y BSD/macOS. En Linux, `arp` sin opciones también la muestra, y `arp -d` borra una entrada (útil con MAC antiguas). Discrepancia: en **Windows, `arp -g` funciona igual que `-a`**, así que la D también mostraría la tabla. Como el supuesto trata de servidores Linux, donde `-g` no existe, la plantilla da la C.",
+          "option_notes": [
+            "-all no es una opción de arp.",
+            "En Linux -i solo filtra por interfaz y exige su nombre (-i eth0); no es la opción para mostrar la tabla.",
+            null,
+            "En Linux no existe; en Windows, -g es idéntica a -a, por lo que esta opción sería defendible allí."
+          ],
+          "references": [
+            "Página de manual arp(8) (net-tools)",
+            "Microsoft Learn: arp (Windows commands)"
+          ],
+          "tags": [
+            "arp",
+            "comandos",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": true
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-007",
+          "number": 7,
+          "text": "Se va a instalar el protocolo SMTP en un servidor y debe indicar qué puerto por defecto debería abrirse en el firewall.",
+          "options": [
+            "53",
+            "110",
+            "25",
+            "138"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.3",
+          "explanation": "**SMTP** usa por defecto el **puerto TCP 25** para la transferencia de correo entre servidores; es el que hay que abrir para recibir correo de Internet. Para el envío desde clientes autenticados se usan el **587** (*submission*, con STARTTLS) y el **465** (SMTPS, TLS implícito). Repaso: **53** DNS, **110** POP3, **143** IMAP y **137-139** NetBIOS.",
+          "option_notes": [
+            "El 53 es el puerto de DNS.",
+            "El 110 es el puerto de POP3, para descargar el correo del buzón.",
+            null,
+            "El 138 es el servicio de datagramas de NetBIOS (UDP), propio de las redes Windows."
+          ],
+          "references": [
+            "RFC 5321 (SMTP)",
+            "RFC 8314 (uso de TLS en el correo)"
+          ],
+          "tags": [
+            "smtp",
+            "puertos",
+            "cortafuegos",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-008",
+          "number": 8,
+          "text": "En el nuevo CPD se está valorando la instalación de un Cloud Computing de software libre. ¿Cuál podría utilizarse?",
+          "options": [
+            "Openstack",
+            "Azure",
+            "Salesforce",
+            "AWS"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "**OpenStack** es una plataforma de **software libre** (licencia **Apache 2.0**) para crear **nubes privadas o públicas** de tipo **IaaS** en el propio CPD. Nació en 2010, impulsada por Rackspace y la NASA, y se organiza en servicios: **Nova** (cómputo), **Neutron** (red), **Cinder** (bloques), **Swift** (objetos), **Keystone** (identidad), **Glance** (imágenes) y **Horizon** (panel web). Azure, AWS y Salesforce son **servicios comerciales propietarios** de nube pública.",
+          "option_notes": [
+            null,
+            "Azure es la nube pública propietaria de Microsoft.",
+            "Salesforce es un proveedor comercial de software como servicio (SaaS), sobre todo de CRM.",
+            "AWS es la nube pública propietaria de Amazon."
+          ],
+          "references": [
+            "OpenStack: documentación oficial (openstack.org)"
+          ],
+          "tags": [
+            "cloud-computing",
+            "openstack",
+            "software-libre",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-009",
+          "number": 9,
+          "text": "Le han solicitado información sobre virtualización, ¿a qué se refieren las siglas VDI?",
+          "options": [
+            "Virtual Disk Infrastructure.",
+            "Virtual Definition Infraestructure.",
+            "Virtual Desktop Infrastructure.",
+            "Virtual Desktop Interface."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "**VDI** = *Virtual Desktop Infrastructure* (**infraestructura de escritorios virtuales**). Los escritorios de los usuarios se ejecutan como **máquinas virtuales en servidores del CPD**, y el usuario accede a ellos en remoto desde un PC, un cliente ligero o una tableta mediante un protocolo de visualización (RDP, ICA/HDX, PCoIP, Blast). Ventajas: gestión centralizada, seguridad (los datos no salen del CPD) y movilidad.",
+          "option_notes": [
+            "La D es de Desktop (escritorio), no de Disk.",
+            "No existe «Virtual Definition Infrastructure».",
+            null,
+            "La I es de Infrastructure, no de Interface."
+          ],
+          "references": [
+            "Microsoft Azure: What is virtual desktop infrastructure (VDI)?"
+          ],
+          "tags": [
+            "vdi",
+            "virtualizacion-de-escritorios",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-010",
+          "number": 10,
+          "text": "Para evitar problemas debido a las latencias, se ha decidido aumentar en el Apache a 500 el número de segundos antes de que la sesión SSL expire en la Cache de Sesión. ¿Qué variable habría que modificar?",
+          "options": [
+            "SSLSessionCacheTimeout",
+            "SSLOCSessionCacheTimeout",
+            "SSLSessionTimeoutCache",
+            "SSLStaplingErrorCacheTimeout"
+          ],
+          "answer": "A",
+          "annulled": false,
+          "topic": "IV.8",
+          "explanation": "En **mod_ssl** de Apache, la directiva **`SSLSessionCacheTimeout`** fija el «número de segundos antes de que una sesión SSL expire en la caché de sesiones» (por defecto, **300**). Para el caso: `SSLSessionCacheTimeout 500`. La caché se configura con `SSLSessionCache` (por ejemplo, `shmcb:`) y permite **reanudar sesiones TLS** sin repetir el *handshake* completo, lo que reduce la latencia.",
+          "option_notes": [
+            null,
+            "No existe SSLOCSessionCacheTimeout; las directivas OCSP de mod_ssl son SSLOCSPEnable, SSLOCSPResponderTimeout, etc.",
+            "No existe SSLSessionTimeoutCache: el orden correcto es SSLSessionCacheTimeout.",
+            "SSLStaplingErrorCacheTimeout existe, pero fija cuánto se guardan las respuestas OCSP erróneas en la caché de stapling."
+          ],
+          "references": [
+            "Apache HTTP Server 2.4: mod_ssl, SSLSessionCacheTimeout"
+          ],
+          "tags": [
+            "apache",
+            "mod-ssl",
+            "tls",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-011",
+          "number": 11,
+          "text": "Le informan de que se está obteniendo un código 405 al intentar conectarse a ciertos servicios migrados. ¿Qué significa ese código de estado de respuesta http?",
+          "options": [
+            "El servidor no pudo interpretar la solicitud dada una sintaxis inválida.",
+            "El cliente no posee los permisos necesarios para cierto contenido, por lo que el servidor está rechazando otorgar una respuesta apropiada.",
+            "El método solicitado es conocido por el servidor pero ha sido deshabilitado y no puede ser utilizado.",
+            "El cliente ha indicado pre-condiciones en sus encabezados la cual el servidor no cumple."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.8",
+          "explanation": "**405 Method Not Allowed** (RFC 9110, §15.5.6): el servidor **conoce el método** de la petición (por ejemplo, PUT o DELETE), pero **el recurso no lo admite**. La respuesta debe incluir la cabecera **`Allow`** con los métodos permitidos. En una migración suele aparecer cuando el nuevo servidor no tiene habilitado un método que el servicio usaba. No confundir con **400** (sintaxis inválida), **403** (sin permiso) o **412** (precondición fallida).",
+          "option_notes": [
+            "Es el 400 Bad Request: la petición tiene una sintaxis inválida.",
+            "Es el 403 Forbidden: el cliente no tiene permiso para ese contenido.",
+            null,
+            "Es el 412 Precondition Failed: no se cumple una precondición de las cabeceras (If-Match…)."
+          ],
+          "references": [
+            "RFC 9110 (HTTP Semantics), §15.5.6"
+          ],
+          "tags": [
+            "http",
+            "codigos-de-estado",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-012",
+          "number": 12,
+          "text": "Le han enviado una alerta de seguridad sobre un posible ataque de Fraggle. ¿En qué consiste?",
+          "options": [
+            "El atacante bloquea la pila TCP con peticiones de Ips.",
+            "El atacante envía peticiones RCK y el sistema operativo se desborda.",
+            "El atacante envía una gran cantidad de tráfico de solicitudes \"echo UDP\" a una dirección IP de Difusión.",
+            "El atacante bloquea el reloj de la placa base mediante peticiones de números aleatorios."
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.9",
+          "explanation": "El ataque **Fraggle** es una **denegación de servicio por amplificación**, variante del **Smurf**: el atacante envía mucho tráfico **UDP** a los servicios **echo (puerto 7)** y **chargen (19)** de una **dirección de difusión**, falseando como origen la IP de la víctima. Todos los equipos de la red responden a la víctima y la saturan. El Smurf hace lo mismo con **ICMP echo** (ping). Defensa: no reenviar difusiones dirigidas y deshabilitar echo y chargen.",
+          "option_notes": [
+            "No describe Fraggle; saturar la pila TCP con peticiones de conexión es propio del SYN flood.",
+            "Las «peticiones RCK» no existen: la opción describe un ataque inventado.",
+            null,
+            "No existe ese ataque: Fraggle satura la red con tráfico UDP a una difusión, no afecta al reloj de la placa."
+          ],
+          "references": [
+            "RFC 2644 (no reenviar difusiones dirigidas)",
+            "RFC 4732 (denegación de servicio en Internet)"
+          ],
+          "tags": [
+            "fraggle",
+            "denegacion-de-servicio",
+            "ataques-de-red",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": "tai-pi-2019-p2-s2-r1",
+          "number": 1,
+          "text": "Antes de comenzar a apagar servidores se quiere hacer, a modo de backup local, un tar.gz de las configuraciones de los servidores ubicadas en la carpeta /backup/tomcat ¿Cómo lo haría?",
+          "options": [
+            "`tar.gz -czvf configuraciones.tar.gz /backup/tomcat/`",
+            "`tar -czvf /backup/tomcat/ configuraciones.tar.gz`",
+            "`tar -czvf configuraciones.tar.gz /backup/tomcat/`",
+            "`tar -xvf configuraciones.tar.gz /backup/tomcat/`"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.2",
+          "explanation": "`tar -czvf configuraciones.tar.gz /backup/tomcat/` empaqueta y comprime la carpeta: **`-c`** crea el archivo, **`-z`** lo comprime con gzip, **`-v`** muestra los ficheros procesados y **`-f`** indica el **nombre del archivo**, que debe ir **justo detrás** y antes de lo que se empaqueta. Para extraer se usa **`-x`** (`tar -xzvf configuraciones.tar.gz`) y para ver el contenido, **`-t`**.",
+          "option_notes": [
+            "tar.gz no es un comando: el programa es tar, con -z para comprimir con gzip.",
+            "Orden incorrecto: tras -f va el nombre del archivo; aquí se intentaría crear un archivo llamado /backup/tomcat/.",
+            null,
+            "-x extrae el contenido de un archivo; no crea la copia (y faltaría -z para el gzip)."
+          ],
+          "references": [
+            "GNU tar manual"
+          ],
+          "tags": [
+            "tar",
+            "backup",
+            "linux",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-r2",
+          "number": 2,
+          "text": "Le indican que no se llega al servidor por el puerto 777 y las comunicaciones ya están comprobadas. ¿Cómo podría saber si el servidor está escuchando por el puerto 777?",
+          "options": [
+            "`netstat -i :777`",
+            "`ip port :777`",
+            "`lsof -i :777`",
+            "`listen -i :777`"
+          ],
+          "answer": "C",
+          "annulled": false,
+          "topic": "IV.4",
+          "explanation": "**`lsof -i :777`** lista los procesos que tienen **sockets de red abiertos en el puerto 777**; si aparece uno en estado **LISTEN**, el servidor está escuchando (ejecútalo como root para ver todos los procesos). Alternativas habituales: **`ss -ltnp | grep :777`** o `netstat -ltnp | grep 777` (net-tools). `lsof` (*list open files*) aprovecha que en Unix los sockets también son ficheros.",
+          "option_notes": [
+            "netstat -i muestra estadísticas de las interfaces de red; para puertos se usa netstat -ltn.",
+            "ip no tiene ningún objeto «port»; para ver sockets se usa ss.",
+            null,
+            "listen no es un comando de Linux."
+          ],
+          "references": [
+            "Página de manual lsof(8)",
+            "Página de manual ss(8) (iproute2)"
+          ],
+          "tags": [
+            "lsof",
+            "puertos",
+            "linux",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        },
+        {
+          "id": "tai-pi-2019-p2-s2-r3",
+          "number": 3,
+          "text": "La seguridad es clave y por ello le han dicho que hay que securizar las redes filtrando las conexiones por IP y puerto. ¿Qué hardware necesita?",
+          "options": [
+            "Host IDS.",
+            "Cortafuegos de capa de red.",
+            "Network PIDS.",
+            "Honeypot."
+          ],
+          "answer": "B",
+          "annulled": false,
+          "topic": "IV.9",
+          "explanation": "Para **filtrar conexiones por IP y puerto** se necesita un **cortafuegos de filtrado de paquetes** (de capa de red): examina las cabeceras IP (origen y destino) y TCP/UDP (puertos) de cada paquete y lo **acepta o descarta** según sus reglas. Los de **inspección de estado** (*stateful*) además siguen las conexiones. Los **IDS** solo **detectan** y alertan, y un **honeypot** es un señuelo para atraer y estudiar a los atacantes.",
+          "option_notes": [
+            "Un HIDS detecta intrusiones en un equipo concreto, pero no filtra el tráfico por IP y puerto.",
+            null,
+            "Un sistema de detección de intrusiones vigila y alerta; no filtra conexiones por IP y puerto.",
+            "Un honeypot es un sistema señuelo para atraer atacantes, no un filtro de conexiones."
+          ],
+          "references": [
+            "NIST SP 800-41 Rev. 1 (Guidelines on Firewalls and Firewall Policy)"
+          ],
+          "tags": [
+            "cortafuegos",
+            "seguridad-perimetral",
+            "supuesto-practico"
+          ],
+          "media": [],
+          "outdated": false,
+          "outdated_note": null,
+          "needs_review": false
+        }
+      ]
+    }
+  ]
+}

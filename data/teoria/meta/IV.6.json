@@ -1,0 +1,59 @@
+{
+  "topic": "IV.6",
+  "summary": "Fundamentos de comunicaciones (señal, ancho de banda, Nyquist y Shannon, perturbaciones, modulación y multiplexación), medios guiados y no guiados (par trenzado y categorías, coaxial, fibra, radio, satélite), modos de comunicación, equipos terminales y de interconexión por nivel OSI, redes de operadores y de acceso, conmutación de circuitos y de paquetes frente a difusión, y comunicaciones móviles (2G a 5G, TETRA) e inalámbricas (802.11 y Wi-Fi 4 a 7, WPA3, Bluetooth, IoT, LPWAN).",
+  "key_points": [
+    "Capacidad: Nyquist C = 2B·log2 M sin ruido y Shannon C = B·log2(1 + S/N) con ruido; bit/s = baudios × bits por símbolo.",
+    "Perturbaciones: atenuación (pérdida de energía con la distancia), distorsión de retardo, ruido, diafonía (un par induce señal en otro) y jitter.",
+    "CDMA separa las señales con códigos (chips) en la misma banda; FDMA por frecuencias, TDMA por tiempo y OFDMA por subportadoras.",
+    "Par trenzado: UTP sin pantalla, FTP con lámina global, STP con pantalla por par; Cat 6A para 10 Gbit/s a 100 m y Cat 8 para 25-40 Gbit/s a 30 m.",
+    "Fibra multimodo para distancias cortas y monomodo para largas; la fibra plástica (POF) tiene núcleo grande, es flexible y de corto alcance.",
+    "Equipos: hub y repetidor en el nivel 1, switch y bridge en el 2, router en el 3 (separa dominios de difusión) y pasarela para traducir entre redes de protocolos distintos.",
+    "Conmutación de circuitos = camino dedicado y exclusivo; paquetes con datagramas (rutas distintas) o circuitos virtuales; las redes de difusión comparten el medio y necesitan control de acceso.",
+    "Redes: RDSI 2B+D, ATM con celdas de 53 bytes, SDH, MPLS, VPLS (Ethernet dispersa en un mismo dominio de difusión), SD-WAN, GPON y XGS-PON; H.245 es el control multimedia de H.323.",
+    "Móviles: GSM (TDMA), UMTS (CDMA), LTE (OFDMA) y 5G NR con eMBB, URLLC y mMTC; la UIT es la agencia de la ONU para las telecomunicaciones y el 3GPP elabora las especificaciones.",
+    "Wi-Fi 4/5/6/7 = 802.11n/ac/ax/be (Wi-Fi 7 en 2,4, 5 y 6 GHz); WEP roto, WPA3 con SAE; WPS con PIN, PBC, NFC y USB; scatternet = grupo de piconets; Bluetooth LE con 40 canales; LPWAN = LoRaWAN, Sigfox, NB-IoT, LTE-M."
+  ],
+  "sources": [
+    {
+      "title": "UIT · Acerca de la UIT",
+      "url": "https://www.itu.int/es/about/Pages/default.aspx"
+    },
+    {
+      "title": "UIT-T H.245",
+      "url": "https://www.itu.int/rec/T-REC-H.245"
+    },
+    {
+      "title": "IEEE 802.11 Working Group",
+      "url": "https://www.ieee802.org/11/"
+    },
+    {
+      "title": "Wi-Fi Alliance · Wi-Fi CERTIFIED 7",
+      "url": "https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7"
+    },
+    {
+      "title": "Wi-Fi Alliance · Seguridad",
+      "url": "https://www.wi-fi.org/discover-wi-fi/security"
+    },
+    {
+      "title": "Bluetooth SIG · Especificaciones",
+      "url": "https://www.bluetooth.com/specifications/specs/"
+    },
+    {
+      "title": "RFC 4761 · VPLS",
+      "url": "https://www.rfc-editor.org/rfc/rfc4761"
+    },
+    {
+      "title": "LoRa Alliance · LoRaWAN",
+      "url": "https://lora-alliance.org/about-lorawan/"
+    },
+    {
+      "title": "Ley 11/2022, General de Telecomunicaciones",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-10757"
+    },
+    {
+      "title": "PAe · Red SARA",
+      "url": "https://administracionelectronica.gob.es/ctt/redsara"
+    }
+  ],
+  "updated": "2026-10-11"
+}

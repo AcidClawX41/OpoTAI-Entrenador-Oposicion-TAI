@@ -1,0 +1,19 @@
+%% I.4 · Procedimiento de acceso a la información pública (arts. 17–24 Ley 19/2013).
+%% Fuente de OpoTAI: se puede pegar tal cual en https://mermaid.live
+flowchart TD
+    S["Solicitud (art. 17)<br/>sin necesidad de motivar"]
+    I{"¿Causa de<br/>inadmisión?<br/>(art. 18)"}
+    T["Tramitación (art. 19)<br/>10 días para concretar;<br/>15 días a terceros"]
+    R{"Resolución en 1 mes,<br/>ampliable otro<br/>(art. 20)"}
+    F("Acceso, preferentemente<br/>electrónico (art. 22)")
+    D["Inadmisión, denegación<br/>o silencio negativo"]
+    CT["Reclamación ante el CTBG<br/>potestativa, en 1 mes;<br/>resuelve en 3 (art. 24)"]
+    CA("Contencioso-<br/>administrativo")
+
+    S --> I
+    I -- "no" --> T --> R
+    I -- "sí" --> D
+    R -- "concede" --> F
+    R -- "deniega o<br/>no resuelve" --> D
+    D --> CT --> CA
+    D -- "o directamente" --> CA

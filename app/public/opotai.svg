@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>OpoTAI</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="0.55" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="208" fill="url(#bg)"/>
+  <rect x="64" y="64" width="896" height="896" rx="208" fill="url(#shine)"/>
+  <!-- Opciones de respuesta tipo test -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+    <circle cx="300" cy="330" r="50" stroke-width="30" opacity="0.85"/>
+    <line x1="410" y1="330" x2="760" y2="330" stroke-width="44" opacity="0.85"/>
+    <line x1="410" y1="512" x2="700" y2="512" stroke-width="44"/>
+    <circle cx="300" cy="694" r="50" stroke-width="30" opacity="0.85"/>
+    <line x1="410" y1="694" x2="730" y2="694" stroke-width="44" opacity="0.85"/>
+  </g>
+  <!-- Opción marcada (correcta) -->
+  <circle cx="300" cy="512" r="72" fill="#FFFFFF"/>
+  <path d="M262 514 L292 544 L342 488" fill="none" stroke="#7C3AED" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

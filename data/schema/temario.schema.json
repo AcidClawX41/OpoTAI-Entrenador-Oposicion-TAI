@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "opotai/temario.schema.json",
+  "title": "OpoTAI · Temario (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "convocatoria", "source", "blocks"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "convocatoria": { "type": "string" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url"],
+      "properties": { "title": { "type": "string" }, "url": { "type": "string" } }
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "topics"],
+        "properties": {
+          "id": { "enum": ["I", "II", "III", "IV"] },
+          "title": { "type": "string" },
+          "topics": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "number", "title"],
+              "properties": {
+                "id": { "type": "string", "pattern": "^(I|II|III|IV)\\.[0-9]{1,2}$" },
+                "number": { "type": "integer", "minimum": 1 },
+                "title": { "type": "string" },
+                "keywords": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

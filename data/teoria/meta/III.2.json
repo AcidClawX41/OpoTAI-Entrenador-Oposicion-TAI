@@ -1,0 +1,55 @@
+{
+  "topic": "III.2",
+  "summary": "Fundamentos de los lenguajes de programación: generaciones, paradigmas, traductores (compilador, intérprete, transpilador, JIT), representación de tipos (complemento a 2, IEEE 754, Unicode), operadores y precedencia, estructuras de control, recursividad, subprogramas y paso de parámetros, vectores y registros, estructura de un programa, cohesión y acoplamiento, con trazas resueltas tipo examen.",
+  "key_points": [
+    "Generaciones: 1GL máquina, 2GL ensamblador, 3GL alto nivel (C, C++, Java), 4GL (SQL), 5GL (Prolog).",
+    "Transpilador: traduce entre lenguajes de alto nivel (TypeScript → JavaScript); el bytecode de Java es código intermedio para la JVM, que lo interpreta y compila con JIT.",
+    "IEEE 754: simple precisión 32 bits (1+8+23) y doble precisión 64 bits (1+11+52); revisión vigente de 2019; 0.1 + 0.2 no es exactamente 0.3.",
+    "En Java, C y JavaScript ^ es XOR bit a bit (6 ^ 3 = 5), no potencia; ** es la potencia en Python y JavaScript y asocia por la derecha.",
+    "Böhm-Jacopini: secuencia, selección e iteración bastan; do-while ejecuta el cuerpo al menos una vez.",
+    "Recursión: caso base y caso recursivo, pila de llamadas; recursión de cola optimizable (no en Java ni Python).",
+    "Función devuelve valor y puede ser operando; procedimiento no. Paso por valor = copia; por referencia = parámetros de entrada/salida; Java pasa siempre por valor; C# usa ref, out e in.",
+    "Vector: estático, homogéneo, contiguo en memoria, índice desde 0 y acceso O(1); slice = subestructura del array; registro: campos heterogéneos con nombre.",
+    "Partes de un programa: cabecera, declaraciones e instrucciones de entrada, proceso, control (alternativas e iterativas) y salida.",
+    "Acoplamiento de mejor a peor: datos, marca, control, externo, común (datos globales) y contenido; cohesión ideal: funcional."
+  ],
+  "sources": [
+    {
+      "title": "IEEE 754-2019, Standard for Floating-Point Arithmetic",
+      "url": "https://grouper.ieee.org/groups/msc/ANSI_IEEE-Std-754-2019/background/"
+    },
+    {
+      "title": "ECMA-262, ECMAScript Language Specification",
+      "url": "https://262.ecma-international.org/"
+    },
+    {
+      "title": "The Java Language Specification (Java SE)",
+      "url": "https://docs.oracle.com/javase/specs/"
+    },
+    {
+      "title": "OpenJDK · JDK project releases",
+      "url": "https://openjdk.org/projects/jdk/"
+    },
+    {
+      "title": "Microsoft Learn · Parámetros de métodos en C#",
+      "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/method-parameters"
+    },
+    {
+      "title": "The Python Language Reference",
+      "url": "https://docs.python.org/3/reference/"
+    },
+    {
+      "title": "ISO/IEC 9899:2024 (C23)",
+      "url": "https://www.iso.org/standard/82075.html"
+    },
+    {
+      "title": "RFC 3629, UTF-8",
+      "url": "https://www.rfc-editor.org/rfc/rfc3629"
+    },
+    {
+      "title": "Böhm y Jacopini (1966), Flow diagrams, Turing machines and languages with only two formation rules",
+      "url": "https://doi.org/10.1145/355592.365646"
+    }
+  ],
+  "updated": "2026-10-11"
+}

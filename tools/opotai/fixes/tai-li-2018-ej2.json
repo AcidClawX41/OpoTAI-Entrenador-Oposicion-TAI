@@ -1,0 +1,319 @@
+{
+  "bank_id": "tai-li-2018-ej2",
+  "global": {
+    "note": "Errores recurrentes del OCR (palabras pegadas) corregidos tras la pasada ortográfica.",
+    "replace": [
+      {
+        "old": "mismoy",
+        "new": "mismo y",
+        "word": true
+      },
+      {
+        "old": "sistemay",
+        "new": "sistema y",
+        "word": true
+      },
+      {
+        "old": "Delos",
+        "new": "De los",
+        "word": true
+      },
+      {
+        "old": "Enel",
+        "new": "En el",
+        "word": true
+      },
+      {
+        "old": "procedera",
+        "new": "proceder a",
+        "word": true
+      },
+      {
+        "old": "Ala",
+        "new": "A la",
+        "word": true
+      },
+      {
+        "old": "Alas",
+        "new": "A las",
+        "word": true
+      },
+      {
+        "old": "flaamework",
+        "new": "framework",
+        "word": true
+      },
+      {
+        "old": "Daun",
+        "new": "Da un",
+        "word": true
+      }
+    ]
+  },
+  "questions": {
+    "tai-li-2018-ej2-p2-s1-001": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Para la nueva aplicación se desea añadir una funcionalidad que le permita obtener un listado de cada uno de los trabajadores con el nombre del director de su centro de trabajo. Deberá tener en cuenta que el campo “Director” de la Tabla “Ubicaciones” contiene el código de trabajador del Director. Para obtener el listado se ejecutará la sentencia:",
+        "options": [
+          "SELECT j.nombre as “Director Centro”, t.nombre as “Empleado” FROM Trabajadores as t, Ubicaciones as u, Trabajadores as j where t.ubicacion = u.ubicacion and u.director = j.codTrabajador",
+          "SELECT t.nombre as “Director Centro”, t.nombre as “Empleado” FROM Trabajadores as t, Ubicaciones as u where t.ubicacion = u.ubicacion",
+          "SELECT j.nombre as “Director Centro”, t.nombre as “Empleado” FROM Trabajadores as t, Ubicaciones as u, Directores as j where t.ubicacion = u.ubicacion and u.director = j.codTrabajador",
+          "SELECT j.nombre as “Director Centro”, t.nombre as “Empleado” FROM Trabajadores as t, Ubicaciones as u, Trabajadores as j where t.ubicacion = u.ubicacion and t.codTrabajador = j.codTrabajador"
+        ]
+      }
+    },
+    "tai-li-2018-ej2-p2-s1-004": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "<figure src=\"imagen1.jpg\" alt=\"descripción imagen1\"/> <figure src=\"imagen2.jpg\" alt=\"descripción imagen2\"/>",
+          "<figcaption caption=\"Mis dos imágenes\"> <fig src=\"imagen1.jpg\" alt=\"descripción imagen1\"> <fig src=\"imagen2.jpg\" alt=\"descripción imagen2\"> </figcaption>",
+          "figure {  src: \"imagen1.jpg\"; src: \"imagen2.jpg\"; }",
+          "<figure> <figcaption>Mis dos imágenes</figcaption> <img src=\"imagen1.jpg\" alt=\"descripción imagen1\"> <img src=\"imagen2.jpg\" alt=\"descripción imagen2\"> </figure>"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2018-ej2-p2-s1-006": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Se ha adaptado el código PHP de la aplicación antigua (versión 5.4) a una versión actual. Observe el código PHP siguiente que se corresponde ya con el nuevo sistema:\n\n```php\n<?php\ntrait Peticion {\n    public function mostrarPeticion() {\n        $descripcion = 'informal';\n        echo \"La petición es $descripcion.\";\n    }\n}\nclass Reivindicacion {\n    use Peticion;\n    public function mostrarPeticion() {\n        $descripcion = 'formal';\n        echo \"La petición es $descripcion.\";\n    }\n}\n$o = new Reivindicacion();\n$o->mostrarPeticion();\n?>\n```\n\n¿Qué resultado se obtendrá de su ejecución?",
+        "options": [
+          "La petición es formal.",
+          "La petición es informal.",
+          "La petición es $descripcion.",
+          "Da un error de ejecución."
+        ]
+      }
+    },
+    "tai-li-2018-ej2-p2-s1-010": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "€e=5",
+          "new": "c=5"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s1-015": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Para un párrafo <p> de la aplicación web dado, señale cuál es la respuesta correcta en base a las siguientes opciones de estilos CSS que aplican a dicha etiqueta:\n\n**Opción 1:**\n\nEn las hojas de estilo de autor se ha definido el estilo: `P {color: black;}`\n\nEn las hojas de estilo de usuario se ha definido el estilo: `P {color : red;}`\n\n**Opción 2:**\n\nEn las hojas de estilo de autor se ha definido el estilo: `P {color: black;}`\n\nEn las hojas de estilo de usuario se ha definido el estilo: `P {color : red !important;}`"
+      }
+    },
+    "tai-li-2018-ej2-p2-s1-018": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "C+f o Visual",
+          "new": "C# o Visual"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s1-024": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "<?manifest appcahe = \"ejemplo.appcache\">",
+          "<html5 appcache=\"manifest.appcache\">",
+          "<html text/cache-manifest=\"ejemplo.appcache\"/>",
+          "<html manifest=\"ejemplo.appcache\">"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2018-ej2-p2-s1-026": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Respecto al siguiente código Java, ¿cuál es sería la afirmación correcta?\n\n```java\nPublic class Peticion {\n    public static void main(String[] args) {\n        String opcion=\"anulada\";\n        switch(opcion){\n                case \"anulada\":\n                        System.out.println(\"opción anulada\");\n                        break;\n                case \"cursada\":\n                        System.out.println(\"opción cursada\");\n                        break;\n        }\n}}\n```"
+      }
+    },
+    "tai-li-2018-ej2-p2-s1-029": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "Arrays.asList(3,0,1,8,7,2,5,4,9,6).forEach(numero-> System.out.print (numero + \" \"));",
+          "Arrays.asList(3,0,1,8,7,2,5,4,9,6).forEach(System.out.print (numero + \" \"));",
+          "Arrays.asList(3,0,1,8,7,2,5,4,9,6).for (numero-> System.out.print (numero + \" \"));",
+          "Arrays.asList(3,0,1,8,7,2,5,4,9,6).forEach(n-> System.out.print (numero + \" \"));"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2018-ej2-p2-s1-030": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "2 8 22 52",
+          "0 4 14 32",
+          "0 4 14",
+          "Da un error de compilación."
+        ]
+      }
+    },
+    "tai-li-2018-ej2-p2-s1-r2": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "O(n * log n) en el caso promedio.",
+          "O(n²) en el mejor caso.",
+          "O(n²) en el caso promedio.",
+          "O(n * log n) en el peor caso."
+        ]
+      }
+    },
+    "tai-li-2018-ej2-p2-s1-r3": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "class ServerCreated implements SerializesModel {...",
+          "class ServerCreated implements BroadcastOn {...",
+          "class ServerCreated implements ShouldBroadcast {...",
+          "class ServerCreated implements BroadcastServiceProvider {..."
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2018-ej2-p2-s2-004": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "ps -ef postgres",
+          "ps -v server",
+          "ps -U postgres -u postgres u",
+          "ps --process=postgres"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2018-ej2-p2-s2-003": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "¡otop",
+          "new": "iotop"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s2-010": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "mysql_secure_ installation",
+          "new": "mysql_secure_installation"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s2-012": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "ifconfig --list --port=3306",
+          "ss -l | grep mysql",
+          "netstat -g | grep 3306",
+          "netstat -i | grep mysql"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2018-ej2-p2-s2-013": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "S$BashPID",
+          "new": "$BashPID"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s2-018": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "primera 1P",
+          "new": "primera IP"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s2-019": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "10.31:93.21/29",
+          "new": "10.31.93.21/29"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s2-020": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "Isb_release -a",
+          "new": "lsb_release -a"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s2-021": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "—SSH permite",
+          "new": "SSH permite"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s2-023": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "al sistema? 7",
+          "new": "al sistema?"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s2-025": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "pvcreate -l",
+          "lvm-add-logical",
+          "lvcreate",
+          "lvadd"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2018-ej2-p2-s2-r1": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "restauración: y",
+          "new": "restauración:"
+        }
+      ]
+    },
+    "tai-li-2018-ej2-p2-s2-r2": {
+      "note": "Errata del OCR corregida (revisada contra la imagen del cuadernillo).",
+      "replace": [
+        {
+          "old": "Ivm-extend-volume",
+          "new": "lvm-extend-volume"
+        }
+      ]
+    }
+  },
+  "sections": {
+    "p2-s1": {
+      "note": "Enunciado transcrito de la imagen: viñetas, diagramas recortados como figura (con transcripción) y listado Java (excluido del OCR) escrito como bloques de código.",
+      "set": {
+        "statement": "El nuevo Organismo al que pertenece, está revisando una aplicación desarrollada hace varios años para introducir nuevas funcionalidades. Como técnico de informática se le solicitará que ayude en la valoración de los esfuerzos para la inclusión de estas nuevas funcionalidades. Se mostrarán a continuación partes de esta aplicación antigua para que analice la funcionalidad de la misma.\n\n- El sistema antiguo usaba la versión 6 de Java, pero el nuevo sistema se desarrollará con la versión Java 8.\n- Hay partes de la aplicación desarrolladas en otros lenguajes diferentes a Java como puede ser: PHP, C++, C#, etc.\n- La aplicación antigua dispone de una parte web, el nuevo sistema dispondrá también de una aplicación para dispositivos móviles.\n\nSe recuperan unos diagramas de la base de datos relacional antigua, las claves primarias están en negrita:\n\n⟦FIG:0⟧\n\n*Texto que precede a la pregunta 10:*\n\nEn relación a los algoritmos y código del antiguo sistema, se proponen las siguientes preguntas para poder analizar en mayor profundidad el mismo y facilitar su conocimiento para favorecer el desarrollo del nuevo sistema:\n\n*Texto que precede a la pregunta 12:*\n\nBorrador del modelo entidad/relación extendido del nuevo sistema:\n\n⟦FIG:1⟧\n\n*Texto que precede a la pregunta 27:*\n\n⟦FIG:2⟧\n\n*Texto que precede a la pregunta 29:*\n\n**Código JAVA:**\n\n**Funcionalidad 1:**\n\n```java\n1 import java.util.Arrays;\n2\n3 public class QuickSort {\n4     public static void main (String[] args){\n5           for (Integer numero : Arrays.asList(3,0,1,8,7,2,5,4,9,6)){\n6               System.out.print(numero + \" \");\n7            }\n8           }\n9 }\n```\n\n**Funcionalidad 2:**\n\n```java\n10 public static void main(String[] args) {\n11     for (int indice=0,selector=1,eleccion=2;indice<20;indice=(indice+selector)*eleccion){\n12                 System.out.println(indice);\n13                 selector++;\n14     }\n15 }\n```"
+      }
+    },
+    "p2-s2": {
+      "note": "Enunciado transcrito de la imagen (el OCR leía las viñetas como «e», «+» o «Y”»).",
+      "set": {
+        "statement": "Ha entrado a formar parte del personal de informática de una unidad administrativa de un Ministerio. Para dar servicio a las necesidades de la propia oficina se dispone de un Centro de Proceso de Datos (CPD). A su llegada, se le traslada una serie de deficiencias en el CPD y en el servicio que se está dando:\n\n- El servidor de base de datos de la aplicación corporativa es un servidor físico que está fuera de garantía y mantenimiento. De forma periódica el servidor de reinicia o se queda colgado, con lo que es necesario apagarlo y volver a encenderlo con el consiguiente riesgo de pérdida de datos.\n- No existe ningún tipo de herramienta de monitorización que permita detectar posibles problemas.\n- Los sistemas están desactualizados.\n\nSe le pide a usted, junto con el resto de funcionarios del Área de Informática, que trabajen juntos para solventarlas a la mayor brevedad posible:\n\n- Deberá instalar, un nuevo servidor de base de datos, para lo cual, fuera de horario de servicio de los aplicativos dependientes, deberá cortar el acceso a dicho servidor de bases de datos y realizar un volcado de la información para volver a importarla en la nueva máquina.\n- Seleccionar e instalar un sistema de monitorización.\n- En relación a los puestos de usuario final, deberá realizar la siguiente tarea: aplicar parches de seguridad y actualizar los equipos. Y analizar y aplicar sus conocimientos para contribuir a disponer de un entorno más seguro.\n\nSe describe los elementos que forman parte del CPD actual:\n\n- ✓ Servidores con Debian GNU/Linux 9.4.0\n- ✓ PostgreSQL con la versión disponible en los repositorios del servidor Debian 9.4.0.\n\nEn relación con los puestos de usuario final, disponen de los siguientes sistemas operativos:\n\n- ✓ Windows 7 Enterprise - Service Pack 1\n- ✓ Debian GNU/Linux 9.4.0 con KDE\n- ✓ macOS 10.13.4"
+      }
+    }
+  }
+}

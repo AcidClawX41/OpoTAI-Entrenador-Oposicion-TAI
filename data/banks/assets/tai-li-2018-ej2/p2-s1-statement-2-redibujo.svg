@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 905 288" width="905" height="288" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Reconstrucción de OpoTAI: borrador del modelo entidad/relación extendido del nuevo sistema</title>
+  <desc id="descripcion">Redibujo del diagrama escaneado: Trabajador se une a «Relación 1» (rotulada 1:N encima), que lleva a UbicacionCentral, y a «Relación 2» (rotulada 1:1 debajo), que lleva a UbicacionExterior; un arco junto a Trabajador cruza las dos líneas. UbicacionCentral y UbicacionExterior se unen con un corchete al vértice de un triángulo cuya base se une a Ubicacion, que tiene los atributos Telefono y Direccion (elipses).</desc>
+  <rect x="1" y="1" width="903" height="286" rx="14" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937">
+    <path d="M156.5 89.2L249.4 89.2M350.2 89.2L435.1 89.2M156.5 89.2L249.4 206.6M350.2 206.6L435.1 206.6M582.0 90.6L595.0 90.6M595.0 90.6L595.0 213.8M582.0 213.8L595.0 213.8M637.4 153.3L662.6 153.3M734.6 128.8L761.3 87.8M717.4 179.2L749.8 219.5" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+    <path d="M201.5 76.3A46.8 46.8 0 0 1 168.6 134.4" fill="none" stroke="#7c3aed" stroke-width="2.2"/>
+    <path d="M595.7 153.3L637.4 132.4V173.4Z" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <rect x="21.1" y="63.3" width="135.4" height="50.4" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <text font-size="18" x="88.8" y="94.0" text-anchor="middle">Trabajador</text>
+    <path d="M245.0 89.2L299.8 38.8L354.5 89.2L299.8 139.6Z" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.8"/>
+    <text x="299.8" y="94.2" text-anchor="middle" font-weight="700" font-size="14">Relación 1</text>
+    <path d="M245.0 206.6L299.8 156.2L354.5 206.6L299.8 257.0Z" fill="#f5f3ff" stroke="#1f2937" stroke-width="1.8"/>
+    <text x="299.8" y="211.6" text-anchor="middle" font-weight="700" font-size="14">Relación 2</text>
+    <text x="299.8" y="31.6" text-anchor="middle" font-weight="700" fill="#7c3aed">1:N</text>
+    <text x="299.8" y="276.4" text-anchor="middle" font-weight="700" fill="#7c3aed">1:1</text>
+    <rect x="435.1" y="64.7" width="146.9" height="50.4" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <text font-size="14" x="508.6" y="95.4" text-anchor="middle">UbicacionCentral</text>
+    <rect x="435.1" y="182.1" width="146.9" height="50.4" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <text font-size="14" x="508.6" y="212.8" text-anchor="middle">UbicacionExterior</text>
+    <rect x="662.6" y="128.1" width="136.1" height="51.1" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+    <text x="672.7" y="159.1" text-anchor="start">Ubicacion</text>
+    <ellipse cx="812.4" cy="68.3" rx="76.3" ry="26.6" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <text x="812.4" y="73.3" text-anchor="middle">Telefono</text>
+    <ellipse cx="803.0" cy="239.0" rx="83.5" ry="25.9" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+    <text x="803.0" y="244.0" text-anchor="middle">Direccion</text>
+  </g>
+</svg>

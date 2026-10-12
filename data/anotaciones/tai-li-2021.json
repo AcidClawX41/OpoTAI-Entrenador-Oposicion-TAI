@@ -1,0 +1,2889 @@
+[
+  {
+    "id": "tai-li-2021-p1-001",
+    "explanation": "El **art. 30 CE** regula el derecho y el deber de defender a España (30.1), las obligaciones militares y la objeción de conciencia (30.2), el servicio civil (30.3) y, en su **apartado 4**, que **mediante ley podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública**. Fíjate en las dos claves: la fuente es la **ley** (reserva de ley) y el verbo es **regular**.",
+    "option_notes": [
+      "El art. 30.4 dice «regularse», no «ser de obligado cumplimiento».",
+      "La CE exige una ley, no un real decreto, para regular estos deberes.",
+      "La ley no elimina esos deberes: los regula.",
+      null
+    ],
+    "topic": "I.1",
+    "references": [
+      "CE, art. 30.4"
+    ],
+    "tags": [
+      "derechos-y-deberes",
+      "constitucion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-002",
+    "explanation": "El **art. 62 CE** enumera las funciones del Rey; según su letra **f)**, le corresponde **expedir los decretos acordados en el Consejo de Ministros**, conferir los empleos civiles y militares y conceder honores y distinciones con arreglo a las leyes. Son actos debidos que requieren **refrendo** (art. 64): sin él no son válidos, y de ellos responden quienes los refrendan.",
+    "option_notes": [
+      null,
+      "El Presidente del Gobierno dirige la acción del Gobierno y refrenda actos del Rey, pero no expide los decretos.",
+      "El Ministro de la Presidencia actúa como secretario del Consejo de Ministros; no expide los decretos.",
+      "El Presidente del Congreso, que preside su Mesa, no interviene en la expedición de los decretos del Gobierno."
+    ],
+    "topic": "I.1",
+    "references": [
+      "CE, arts. 62.f) y 64"
+    ],
+    "tags": [
+      "corona",
+      "funciones-del-rey"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-003",
+    "explanation": "Según el **art. 159.1 CE**, el Tribunal Constitucional se compone de **12 miembros nombrados por el Rey**: **4 a propuesta del Congreso** por mayoría de **tres quintos**, **4 a propuesta del Senado** con la misma mayoría, **2 a propuesta del Gobierno** y **2 a propuesta del CGPJ**. Se designan por **9 años** y se renuevan **por terceras partes cada 3 años** (art. 159.3). Nemotecnia: 4 + 4 + 2 + 2.",
+    "option_notes": [
+      "Son 12 miembros, pero el Congreso propone cuatro, no tres.",
+      null,
+      "El Tribunal Constitucional tiene 12 miembros, no 16.",
+      "Son 12 miembros, no 16, y el Congreso propone cuatro."
+    ],
+    "topic": "I.2",
+    "references": [
+      "CE, art. 159"
+    ],
+    "tags": [
+      "tribunal-constitucional",
+      "composicion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-004",
+    "explanation": "El **art. 68.1 CE** establece que el Congreso se compone de **un mínimo de 300 y un máximo de 400 Diputados**, elegidos por sufragio universal, libre, igual, directo y secreto. La **LOREG** (art. 162) fija el número en **350**. La circunscripción es la **provincia** (Ceuta y Melilla eligen un diputado cada una) y el mandato dura **cuatro años**.",
+    "option_notes": [
+      "El mínimo constitucional es 300, no 250, y el máximo 400, no 350 (350 es el número fijado por la LOREG).",
+      null,
+      "El máximo constitucional es 400; 350 es el número concreto que fija la LOREG.",
+      "El mínimo es 300; 350 es el número concreto que fija la LOREG, no el mínimo constitucional."
+    ],
+    "topic": "I.2",
+    "references": [
+      "CE, art. 68.1",
+      "LO 5/1985 (LOREG), art. 162"
+    ],
+    "tags": [
+      "congreso-de-los-diputados",
+      "composicion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-005",
+    "explanation": "Según el **art. 113.2 CE**, la moción de censura debe proponerla **al menos la décima parte de los Diputados** y **debe incluir un candidato a la Presidencia del Gobierno** (moción **constructiva**). No puede votarse hasta pasados **5 días** desde su presentación y se aprueba por **mayoría absoluta** del Congreso. Si no prospera, sus signatarios no pueden presentar otra en el mismo periodo de sesiones (art. 113.4).",
+    "option_notes": [
+      null,
+      "La CE exige la décima parte (10 %) de los Diputados, no un 20 %.",
+      "Solo interviene el Congreso: el Senado no participa en la moción de censura.",
+      "No interviene el Senado y la CE no fija un número de firmantes, sino la décima parte de los Diputados."
+    ],
+    "topic": "I.3",
+    "references": [
+      "CE, art. 113"
+    ],
+    "tags": [
+      "mocion-de-censura",
+      "relaciones-gobierno-cortes"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-006",
+    "explanation": "La **Agenda 2030** (ONU, 2015) tiene **17 Objetivos de Desarrollo Sostenible** y 169 metas. El **ODS 6** es «**Agua limpia y saneamiento**», no «aguas residuales y saneamiento». Entre los demás: 1 Fin de la pobreza, **2 Hambre cero**, 3 Salud y bienestar, **4 Educación de calidad**, 5 Igualdad de género, 7 Energía asequible y no contaminante y **8 Trabajo decente y crecimiento económico**.",
+    "option_notes": [
+      "Hambre cero es el ODS 2.",
+      "Educación de calidad es el ODS 4.",
+      null,
+      "Trabajo decente y crecimiento económico es el ODS 8."
+    ],
+    "topic": "I.4",
+    "references": [
+      "Agenda 2030 (Resolución 70/1 de la Asamblea General de la ONU)"
+    ],
+    "tags": [
+      "agenda-2030",
+      "ods"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-007",
+    "explanation": "Según el **art. 36.2 de la Ley 19/2013**, la **Comisión de Transparencia y Buen Gobierno** la forman: el **Presidente** (del Consejo), **un Diputado**, **un Senador** y un representante de cada uno de estos órganos: **Tribunal de Cuentas**, **Defensor del Pueblo**, **Agencia Española de Protección de Datos**, **Secretaría de Estado de Administraciones Públicas** y **Autoridad Independiente de Responsabilidad Fiscal**. El distractor cambia «Secretaría de Estado» por «Subsecretaría».",
+    "option_notes": [
+      "Un Diputado sí es miembro de la Comisión (art. 36.2.b).",
+      null,
+      "Un representante del Defensor del Pueblo sí es miembro (art. 36.2.e).",
+      "Un representante de la Autoridad Independiente de Responsabilidad Fiscal sí es miembro (art. 36.2.h)."
+    ],
+    "topic": "I.4",
+    "references": [
+      "Ley 19/2013, art. 36"
+    ],
+    "tags": [
+      "transparencia",
+      "consejo-de-transparencia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-008",
+    "explanation": "La CE tiene un título preliminar y **diez títulos**: I (derechos y deberes fundamentales), II (la Corona), III (las Cortes Generales), IV (el Gobierno y la Administración), V (relaciones entre el Gobierno y las Cortes), VI (el Poder Judicial), VII (economía y hacienda), **VIII (organización territorial del Estado)**, IX (el Tribunal Constitucional) y X (la reforma constitucional). El Título VIII (arts. 137 a 158) regula los municipios, las provincias y las comunidades autónomas.",
+    "option_notes": [
+      "El Título IV trata del Gobierno y de la Administración.",
+      "El Título VI trata del Poder Judicial.",
+      null,
+      "El Título X regula la reforma constitucional."
+    ],
+    "topic": "I.1",
+    "references": [
+      "CE, Título VIII"
+    ],
+    "tags": [
+      "constitucion",
+      "estructura"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-009",
+    "explanation": "El **art. 103.1 CE** dispone que la Administración Pública sirve con **objetividad** los intereses generales y actúa de acuerdo con los principios de **eficacia, jerarquía, descentralización, desconcentración y coordinación**, con **sometimiento pleno a la ley y al Derecho**. Nemotecnia: **E-J-D-D-C**. La **cooperación** no figura en este artículo (sí en el art. 3 de la Ley 40/2015).",
+    "option_notes": [
+      "Cambia jerarquía por eficiencia y coordinación por cooperación.",
+      null,
+      "Cambia desconcentración por concentración, y la fórmula final es «a la ley y al Derecho».",
+      "Cambia coordinación por cooperación."
+    ],
+    "topic": "I.3",
+    "references": [
+      "CE, art. 103.1"
+    ],
+    "tags": [
+      "administracion-publica",
+      "principios"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-010",
+    "explanation": "El **art. 82.2 CE** distingue dos formas de delegación legislativa: mediante una **ley de bases** cuando su objeto sea la formación de **textos articulados**, y mediante una **ley ordinaria** cuando se trate de **refundir varios textos legales en uno solo** (textos refundidos). En ambos casos el Gobierno aprueba un **decreto legislativo**. La delegación debe ser expresa, para materia concreta y con plazo, y no cabe en materias reservadas a ley orgánica.",
+    "option_notes": [
+      "La ley de bases se usa para los textos articulados, no para refundir textos.",
+      "La delegación legislativa no cabe en materias reservadas a ley orgánica (art. 82.1), ni se otorga mediante ella.",
+      null,
+      "El decreto legislativo es la norma que dicta el Gobierno en uso de la delegación, no el instrumento con el que las Cortes delegan."
+    ],
+    "topic": "I.3",
+    "references": [
+      "CE, art. 82"
+    ],
+    "tags": [
+      "delegacion-legislativa",
+      "decreto-legislativo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-011",
+    "explanation": "El **art. 51 de la LO 3/2007** obliga a las Administraciones, entre otras cosas, a: remover los obstáculos a la igualdad en el acceso al empleo público y en la carrera; facilitar la conciliación de la vida **personal, familiar y laboral**, sin menoscabo de la **promoción** profesional; fomentar la **formación** en igualdad; promover la presencia equilibrada en los órganos de selección; establecer medidas **efectivas** frente al acoso sexual y por razón de sexo; y **establecer medidas efectivas para eliminar cualquier discriminación retributiva, directa o indirecta, por razón de sexo** (letra f).",
+    "option_notes": [
+      "Altera la letra b): es la conciliación de la vida personal, familiar y laboral «sin menoscabo de la promoción profesional».",
+      "Altera la letra c): se fomenta la «formación» en igualdad, no la «participación».",
+      "Altera la letra e): son medidas «efectivas» (no cautelares) frente al acoso sexual y al acoso por razón de sexo.",
+      null
+    ],
+    "topic": "I.5",
+    "references": [
+      "LO 3/2007, art. 51"
+    ],
+    "tags": [
+      "igualdad",
+      "administraciones-publicas",
+      "lo-3-2007"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-012",
+    "explanation": "El **art. 8 de la LO 3/2007** establece que **constituye discriminación directa por razón de sexo todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad**. Así, despedir o no contratar a una mujer por estar embarazada es discriminación directa, sin necesidad de compararla con un hombre. Recuerda: la discriminación directa y la indirecta se definen en el art. 6, y la represalia por reclamar también es discriminación (art. 9).",
+    "option_notes": [
+      "La indirecta deriva de criterios aparentemente neutros; el trato desfavorable por embarazo o maternidad es discriminación directa.",
+      null,
+      "La LO 3/2007 no recoge la «discriminación por asociación»; esa figura aparece en la Ley 15/2022.",
+      "«Discriminación maternal» no es una categoría legal."
+    ],
+    "topic": "I.5",
+    "references": [
+      "LO 3/2007, art. 8"
+    ],
+    "tags": [
+      "igualdad",
+      "maternidad",
+      "discriminacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-013",
+    "explanation": "El **art. 26 de la Ley 39/2006** clasifica la dependencia en **tres grados**: **Grado I, moderada** (ayuda para varias actividades básicas de la vida diaria **al menos una vez al día**, o apoyo intermitente o limitado); **Grado II, severa** (ayuda **dos o tres veces al día**, sin apoyo permanente de un cuidador, o apoyo extenso); y **Grado III, gran dependencia** (ayuda **varias veces al día** y apoyo **indispensable y continuo** de otra persona por pérdida total de autonomía, o apoyo generalizado). No existen el grado IV ni la «dependencia total».",
+    "option_notes": [
+      null,
+      "El grado II es la dependencia severa (ayuda dos o tres veces al día); la gran dependencia es el grado III.",
+      "El grado III se llama «gran dependencia», no «dependencia total».",
+      "Solo hay tres grados: no existe un grado IV de «dependencia máxima»."
+    ],
+    "topic": "I.5",
+    "references": [
+      "Ley 39/2006, art. 26"
+    ],
+    "tags": [
+      "dependencia",
+      "ley-39-2006"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-014",
+    "explanation": "Según la información oficial del DNIe, sus certificados de **autenticación** y de **firma** tienen una **validez de 24 meses** (hoy el **RD 255/2025**, art. 11.3, fija dos años), mucho menos que la propia tarjeta. Se renuevan **presencialmente**, en los **Puntos de Actualización del DNIe (PAD)** de las oficinas de expedición, con verificación de la huella; no por Internet. El **PIN** tiene entre **8 y 16 caracteres**. Además de esos dos certificados del ciudadano, la tarjeta lleva un **certificado de componente** para establecer el canal seguro.",
+    "option_notes": [
+      "Los certificados de autenticación y de firma son del ciudadano, no «de componente»; el chip lleva aparte un certificado de componente.",
+      "La renovación de los certificados se hace en los PAD o en la oficina de expedición, no a través de Internet.",
+      null,
+      "El PIN tiene un mínimo de 8 caracteres, pero un máximo de 16, no de 12."
+    ],
+    "topic": "I.6",
+    "references": [
+      "dnielectronico.es",
+      "RD 255/2025, art. 11.3"
+    ],
+    "tags": [
+      "dnie",
+      "certificados"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-015",
+    "explanation": "**España Digital 2025** (julio de 2020) articulaba sus medidas, reformas e inversiones en **10 ejes estratégicos**: conectividad digital, despliegue del 5G, competencias digitales, ciberseguridad, transformación digital del sector público, transformación digital de la empresa y emprendimiento digital, proyectos tractores de digitalización sectorial, España como *hub* audiovisual, economía del dato e inteligencia artificial, y derechos digitales.",
+    "option_notes": [
+      "No son 6: España Digital 2025 se articula en 10 ejes estratégicos.",
+      "No son 9: son 10 ejes estratégicos.",
+      "No son 12: son 10 ejes (España Digital 2026 añadió después ejes transversales).",
+      null
+    ],
+    "topic": "I.6",
+    "references": [
+      "España Digital 2025",
+      "España Digital 2026"
+    ],
+    "tags": [
+      "agenda-digital",
+      "espana-digital-2025"
+    ],
+    "outdated": true,
+    "outdated_note": "En julio de 2022, España Digital 2025 se actualizó como España Digital 2026, que mantiene los 10 ejes estratégicos, los agrupa en tres dimensiones (infraestructuras y tecnología, economía y personas) y añade ejes transversales.",
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-016",
+    "explanation": "El chip del **DNIe 3.0** trabaja con **RSA** (claves de 2048 bits para autenticación y firma), la función resumen **SHA-256** y los cifrados simétricos **Triple DES y AES**, que se usan para establecer el **canal seguro** entre la tarjeta y el lector. MD5, RC5, Blowfish o ElGamal no forman parte de su especificación, y PGP no es un algoritmo, sino un sistema de cifrado y firma de correo y ficheros.",
+    "option_notes": [
+      "PGP es un sistema de cifrado, no un algoritmo del chip, y el DNIe no usa Blowfish.",
+      "Ni RC5 ni MD5 (obsoleto) figuran entre los algoritmos del DNIe 3.0.",
+      "El DNIe no usa ElGamal ni MD5; sí Triple DES, pero junto con RSA, SHA-256 y AES.",
+      null
+    ],
+    "topic": "I.6",
+    "references": [
+      "dnielectronico.es: características del DNIe 3.0"
+    ],
+    "tags": [
+      "dnie",
+      "criptografia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-017",
+    "explanation": "El **art. 78.1 de la LOPDGDD** fija la prescripción de las **sanciones** según su importe: **hasta 40.000 €, un año**; **de 40.001 a 300.000 €, dos años**; y **más de 300.000 €, tres años**. No la confundas con la prescripción de las **infracciones** (arts. 72 a 74): **muy graves, 3 años**; **graves, 2 años**; **leves, 1 año**.",
+    "option_notes": [
+      "No existe un plazo de diez meses: las sanciones de hasta 40.000 € prescriben al año.",
+      null,
+      "Dos años es el plazo de las sanciones de 40.001 a 300.000 €.",
+      "Tres años es el plazo de las sanciones de más de 300.000 €."
+    ],
+    "topic": "I.7",
+    "references": [
+      "LO 3/2018, arts. 72 a 74 y 78"
+    ],
+    "tags": [
+      "proteccion-de-datos",
+      "sanciones",
+      "prescripcion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-018",
+    "explanation": "El **art. 2.1 del RGPD** fija su ámbito material: se aplica al **tratamiento total o parcialmente automatizado** de datos personales y al **tratamiento no automatizado** de datos contenidos o destinados a incluirse **en un fichero**. Quedan fuera (art. 2.2), entre otros, el tratamiento por una persona física en actividades **exclusivamente personales o domésticas** y el que hacen las autoridades competentes con fines **penales** (regulado por la Directiva (UE) 2016/680, transpuesta por la LO 7/2021).",
+    "option_notes": [
+      "Ese tratamiento con fines penales está excluido del RGPD (art. 2.2.d) y lo regula la Directiva (UE) 2016/680.",
+      null,
+      "El tratamiento en actividades exclusivamente personales o domésticas está excluido (art. 2.2.c).",
+      "Es incompleta e inexacta: el RGPD se aplica al tratamiento total o parcialmente automatizado y al no automatizado de datos en ficheros."
+    ],
+    "topic": "I.7",
+    "references": [
+      "Reglamento (UE) 2016/679, art. 2"
+    ],
+    "tags": [
+      "rgpd",
+      "ambito-de-aplicacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-019",
+    "explanation": "Cada medida del anexo II del ENS indica qué dimensiones protege: **C**onfidencialidad, **I**ntegridad, **T**razabilidad, **A**utenticidad y **D**isponibilidad. Los **sellos de tiempo** acreditan el momento en que existía un documento o se hizo una operación, por lo que afectan a la **trazabilidad** (T). Las demás: copias de seguridad → **D**; cifrado → **C**; firma electrónica → **I** y **A**. En el ENS vigente (RD 311/2022), los sellos de tiempo son la medida **mp.info.4**.",
+    "option_notes": [
+      "Las copias de seguridad protegen la disponibilidad (D).",
+      null,
+      "El cifrado protege la confidencialidad (C).",
+      "La firma electrónica protege la integridad y la autenticidad (I y A)."
+    ],
+    "topic": "I.8",
+    "references": [
+      "RD 311/2022, anexo II (mp.info.4)",
+      "RD 3/2010 (derogado)"
+    ],
+    "tags": [
+      "ens",
+      "dimensiones-de-seguridad",
+      "trazabilidad"
+    ],
+    "outdated": true,
+    "outdated_note": "En 2021 regía el ENS del RD 3/2010, derogado por el RD 311/2022. La respuesta sigue siendo válida: los sellos de tiempo (mp.info.4) siguen asociados a la trazabilidad; el cifrado ya no es una medida mp.info, sino que se recoge en mp.si.2 (criptografía) y mp.com.2 (confidencialidad).",
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-020",
+    "explanation": "El **art. 30 de la Ley 39/2015** dispone que, salvo que una ley o el Derecho de la UE digan otra cosa, los plazos señalados **por días son hábiles** (se excluyen **sábados, domingos y festivos**) y se cuentan **a partir del día siguiente** a la notificación o publicación del acto. Si el plazo es en **meses o años**, se computa desde el día siguiente y vence el mismo día del mes o año correspondiente. Ojo: desde la Ley 39/2015, los **sábados son inhábiles**.",
+    "option_notes": [
+      null,
+      "El cómputo empieza el día siguiente a la notificación o publicación, no el mismo día.",
+      "Por regla general son días hábiles, no naturales (los naturales deben declararse expresamente).",
+      "Son días hábiles y se cuentan desde el día siguiente, no días naturales desde el mismo día."
+    ],
+    "topic": "I.8",
+    "references": [
+      "Ley 39/2015, art. 30"
+    ],
+    "tags": [
+      "computo-de-plazos",
+      "procedimiento-administrativo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-021",
+    "explanation": "La **Guía de auditoría de cumplimiento del ENI** (2016) recoge una lista de comprobación cuyos controles se agrupan en **tres categorías: marco organizativo, marco operacional y medidas técnicas**. No la confundas con el **ENS**, cuyas medidas de seguridad se agrupan en **marco organizativo, marco operacional y medidas de protección**. Recuerda también que el ENI trata la interoperabilidad en sus dimensiones **organizativa, semántica y técnica**.",
+    "option_notes": [
+      "Marco organizativo, operacional y medidas de protección son las categorías de medidas del ENS, no las de la guía de auditoría del ENI.",
+      "«Semántico» y «de seguridad» no son categorías de controles de la guía; lo semántico es una dimensión de la interoperabilidad.",
+      "No son las categorías de la guía; además, la «evaluación temporal» no existe como categoría.",
+      null
+    ],
+    "topic": "I.8",
+    "references": [
+      "Guía de auditoría de cumplimiento del ENI (PAe, 2016)",
+      "RD 4/2010"
+    ],
+    "tags": [
+      "eni",
+      "interoperabilidad",
+      "auditoria"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-022",
+    "explanation": "Las **Normas Técnicas de Interoperabilidad (NTI)** desarrollan el ENI (RD 4/2010, disposición adicional primera). Entre ellas: **Catálogo de estándares**, Documento electrónico, Digitalización de documentos, **Expediente electrónico**, Política de firma y sello electrónicos, Protocolos de intermediación de datos, Relación de modelos de datos, Política de gestión de documentos electrónicos, Requisitos de conexión a la Red SARA, Procedimientos de copiado auténtico y conversión, **Modelo de datos para el intercambio de asientos entre las entidades registrales** (SICRES 3.0) y Reutilización de recursos de información. «Protocolo de gestión de recursos de la Administración» no es una NTI.",
+    "option_notes": [
+      "El Catálogo de estándares sí es una NTI (Resolución de 3 de octubre de 2012).",
+      "Sí es una NTI: define el formato SICRES 3.0 para intercambiar asientos registrales (por ejemplo, a través del SIR).",
+      null,
+      "El Expediente electrónico sí es una NTI (Resolución de 19 de julio de 2011)."
+    ],
+    "topic": "I.8",
+    "references": [
+      "RD 4/2010, disposición adicional primera"
+    ],
+    "tags": [
+      "nti",
+      "interoperabilidad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-023",
+    "explanation": "**eVisor** es un servicio común de la AGE: una **aplicación web que genera copias auténticas en papel** de documentos con firma electrónica y **justificantes de firma**. Sirve, por ejemplo, para entregar en papel un documento firmado electrónicamente a quien no se relaciona electrónicamente con la Administración. Las demás opciones describen otros servicios: de mapas interactivos, de información geográfica (SIG) y de diagnóstico de accesibilidad web.",
+    "option_notes": [
+      "Describe un servicio de creación de mapas interactivos para portales web, no eVisor.",
+      null,
+      "Describe una herramienta de información geográfica (SIG) para georreferenciar información, no eVisor.",
+      "Describe el servicio de diagnóstico en línea del Observatorio de Accesibilidad Web, no eVisor."
+    ],
+    "topic": "I.9",
+    "references": [
+      "PAe: eVisor (Centro de Transferencia de Tecnología)"
+    ],
+    "tags": [
+      "servicios-comunes",
+      "firma-electronica",
+      "evisor"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-024",
+    "explanation": "**NEDAES** (*Nómina Estándar Descentralizada de la Administración del Estado*) es la solución común para **gestionar la nómina** de los empleados públicos, que el Ministerio de Hacienda pone a disposición de los departamentos y organismos. No la confundas con **SOROLLA2** (gestión económico-presupuestaria: gastos, contabilidad e inventario) ni con **BADARAL** (apoyo a la gestión de personal, integrado con el Registro Central de Personal).",
+    "option_notes": [
+      "SOROLLA2 es el sistema de gestión económico-presupuestaria (gastos, contabilidad, inventario), no de nóminas.",
+      "BADARAL es un sistema de apoyo a la gestión de personal, integrado con el Registro Central de Personal; no calcula nóminas.",
+      null,
+      "NOMINAe no es la solución común de nómina de la AGE; esa es NEDAES."
+    ],
+    "topic": "I.9",
+    "references": [
+      "PAe: NEDAES"
+    ],
+    "tags": [
+      "servicios-comunes",
+      "nomina",
+      "gestion-de-personal"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-025",
+    "explanation": "**ARM** (originalmente *Acorn RISC Machine*; hoy *Advanced RISC Machines*) es una familia de **arquitecturas de procesador RISC** (conjunto reducido de instrucciones): instrucciones sencillas de longitud fija, arquitectura de carga/almacenamiento y muchos registros, lo que permite un **bajo consumo**. Domina en móviles, tabletas e IoT, y hoy también está en portátiles (Apple M) y servidores. La empresa ARM no fabrica chips: **licencia** la arquitectura y sus diseños.",
+    "option_notes": [
+      null,
+      "ARM no es una arquitectura de computación en la nube, sino de procesadores.",
+      "ARM no tiene relación con el almacenamiento en redes de fibra óptica (eso recuerda a una SAN Fibre Channel).",
+      "ARM es una arquitectura clásica de procesadores RISC, no de computación cuántica."
+    ],
+    "topic": "II.1",
+    "references": [],
+    "tags": [
+      "arquitectura-de-ordenadores",
+      "arm",
+      "risc"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-026",
+    "explanation": "**USB4** (2019), basado en el protocolo **Thunderbolt 3**, alcanza **hasta 40 Gbps** en su versión 1.0, usa siempre el conector **USB-C** y permite túneles de DisplayPort y PCIe. Escala para memorizar: USB 2.0 → 480 Mbps; USB 3.2 Gen 1 → 5 Gbps; Gen 2 → 10 Gbps; Gen 2x2 → 20 Gbps; **USB4 → 40 Gbps**; **USB4 versión 2.0 (2022) → 80 Gbps** (hasta 120 Gbps en modo asimétrico).",
+    "option_notes": [
+      "20 Gbps es el máximo de USB 3.2 Gen 2x2 (y el modo básico de USB4), no el máximo de USB4.",
+      "30 Gbps no corresponde a ninguna versión de USB.",
+      null,
+      "50 Gbps no corresponde a ninguna versión de USB."
+    ],
+    "topic": "II.2",
+    "references": [
+      "USB-IF: USB4 Specification"
+    ],
+    "tags": [
+      "usb",
+      "perifericos",
+      "conectividad"
+    ],
+    "outdated": true,
+    "outdated_note": "La respuesta era correcta en 2021 (USB4 versión 1.0: 40 Gbps). En octubre de 2022 se publicó USB4 versión 2.0, que llega a 80 Gbps simétricos y hasta 120 Gbps en modo asimétrico.",
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-027",
+    "explanation": "**Thunderbolt** es una **interfaz de hardware** desarrollada por Intel (con Apple) que combina PCI Express, DisplayPort y alimentación en un único cable: Thunderbolt 3 y 4 alcanzan **40 Gbps** con conector **USB-C**, y Thunderbolt 5 (2023), hasta 80 Gbps (120 Gbps en modo asimétrico). Las demás opciones son un programa de correo (Thunderbird), unas siglas sin relación con interfaces (HIT) y un tipo de arquitectura de procesador (RISC).",
+    "option_notes": [
+      "Thunderbird es el cliente de correo electrónico de Mozilla, no una interfaz de hardware.",
+      "HIT no es ninguna tecnología de interfaz hardware conocida.",
+      null,
+      "RISC es un tipo de arquitectura de procesador (conjunto reducido de instrucciones), no una interfaz."
+    ],
+    "topic": "II.2",
+    "references": [],
+    "tags": [
+      "thunderbolt",
+      "interfaces",
+      "perifericos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-028",
+    "explanation": "**SSD** significa ***Solid State Drive*** (unidad de estado sólido): almacena los datos en **memoria no volátil**, de tipo **flash NAND**, sin piezas móviles. Frente a un disco duro (HDD) ofrece mucha menos latencia y más velocidad, menor consumo y más resistencia a los golpes, aunque sus celdas soportan un número limitado de escrituras. Se conecta por SATA o, los más rápidos, por **NVMe** sobre PCIe.",
+    "option_notes": [
+      "SSD no significa «Secure System Disk», y el cifrado no es lo que define a un SSD.",
+      "Los discos magnéticos son propios de los HDD; un SSD usa memoria flash.",
+      null,
+      "Usa memoria no volátil, que conserva los datos sin corriente; la volátil, como la RAM, los pierde."
+    ],
+    "topic": "II.2",
+    "references": [],
+    "tags": [
+      "almacenamiento",
+      "ssd"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-029",
+    "explanation": "**AV1** (*AOMedia Video 1*, 2018) es un **códec de vídeo abierto y libre de regalías** creado por la **Alliance for Open Media** (Google, Microsoft, Netflix, Amazon, Mozilla…) como sucesor de VP9 y alternativa a HEVC (H.265), a los que supera en compresión. Lo usan plataformas de *streaming* como YouTube o Netflix, y el formato de imagen **AVIF** se basa en él.",
+    "option_notes": [
+      "AV1 no es un sistema de realidad aumentada, sino un códec de vídeo.",
+      "AV1 no es un sistema operativo para IoT.",
+      null,
+      "La seguridad de las redes Wi-Fi la definen WPA2 y WPA3; AV1 es un códec de vídeo."
+    ],
+    "topic": "II.3",
+    "references": [
+      "Alliance for Open Media: AV1"
+    ],
+    "tags": [
+      "codecs",
+      "video",
+      "formatos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-030",
+    "explanation": "Los recorridos en profundidad de un árbol binario se distinguen por **cuándo se visita la raíz**: **preorden** = raíz → izquierdo → derecho; **inorden** = izquierdo → raíz → derecho (en un árbol binario de búsqueda da los elementos ordenados); **postorden** = izquierdo → derecho → raíz. El prefijo (*pre*, *in*, *post*) indica la posición de la raíz.",
+    "option_notes": [
+      null,
+      "El inorden visita primero el subárbol izquierdo, después la raíz y por último el derecho.",
+      "El postorden visita los dos subárboles y deja la raíz para el final.",
+      "«Reorden» no es un tipo de recorrido de árboles."
+    ],
+    "topic": "II.3",
+    "references": [],
+    "tags": [
+      "arboles",
+      "recorridos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-031",
+    "explanation": "Según el **FHS**, **`/etc`** contiene los **ficheros de configuración** del sistema y de las aplicaciones instaladas (`/etc/passwd`, `/etc/fstab`, `/etc/ssh/sshd_config`…). Otros directorios: `/root` es el directorio personal del administrador; `/bin` contiene los binarios esenciales, y `/dev`, los **ficheros de dispositivo** (discos, terminales…).",
+    "option_notes": [
+      "/root es el directorio personal del superusuario root, no el de configuración.",
+      "/bin contiene los programas ejecutables esenciales del sistema.",
+      "/dev contiene los ficheros especiales de dispositivo (discos, terminales, etc.).",
+      null
+    ],
+    "topic": "II.4",
+    "references": [
+      "Filesystem Hierarchy Standard 3.0"
+    ],
+    "tags": [
+      "linux",
+      "sistema-de-ficheros",
+      "fhs"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-032",
+    "explanation": "En notación octal, cada cifra de `chmod` corresponde a los permisos de **propietario, grupo y otros**, sumando **r = 4, w = 2 y x = 1**. **640** = 6 (4 + 2 → `rw-`) para el propietario, 4 (`r--`) para el grupo y 0 (`---`) para el resto: **`-rw-r-----`**. Otros valores típicos: 755 = `rwxr-xr-x`, 644 = `rw-r--r--` y 600 = `rw-------`.",
+    "option_notes": [
+      "Lectura, escritura y ejecución para el propietario sería un 7 (rwx), no un 6.",
+      "Eso sería 761 (rwx, rw-, --x), no 640.",
+      null,
+      "Ejecución para el grupo sería un 1; el 4 es solo lectura."
+    ],
+    "topic": "II.4",
+    "references": [
+      "man 1 chmod"
+    ],
+    "tags": [
+      "linux",
+      "permisos",
+      "chmod"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-033",
+    "explanation": "Un **ORM** (*Object-Relational Mapping*) relaciona las clases de un lenguaje orientado a objetos con las tablas de una base de datos relacional. Ejemplos: **Hibernate** (Java; implementa JPA/Jakarta Persistence), **NHibernate** (su versión para .NET) y **Entity Framework** (Microsoft .NET). En Ruby, el ORM más conocido es **Active Record**, de Ruby on Rails; «Ruby Hibernation» no existe.",
+    "option_notes": [
+      "ADO.NET Entity Framework (hoy Entity Framework Core) es el ORM de Microsoft para .NET.",
+      null,
+      "NHibernate es un ORM para .NET, adaptación de Hibernate.",
+      "Hibernate es el ORM más conocido de Java."
+    ],
+    "topic": "III.5",
+    "references": [],
+    "tags": [
+      "orm",
+      "persistencia",
+      "hibernate"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-034",
+    "explanation": "Las **reglas de Codd** (1985) definen cuándo un SGBD es relacional. Entre ellas: **tratamiento sistemático de valores nulos** (regla 3), catálogo dinámico en línea basado en el modelo relacional (regla 4), **independencia de la distribución** (regla 11: que la base de datos esté distribuida **no debe afectar** a los usuarios ni a las aplicaciones) y **no subversión** (regla 12). La opción C invierte la regla 11: habla de «dependencia», cuando la regla exige **independencia**.",
+    "option_notes": [
+      "Es la regla 12 de Codd (no subversión).",
+      "Es la regla 3 de Codd (tratamiento sistemático de los valores nulos).",
+      null,
+      "Es la regla 4 de Codd (catálogo dinámico en línea basado en el modelo relacional)."
+    ],
+    "topic": "II.5",
+    "references": [
+      "E. F. Codd (1985): reglas del modelo relacional"
+    ],
+    "tags": [
+      "modelo-relacional",
+      "reglas-de-codd"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-035",
+    "explanation": "En los **diagramas de flujo de datos (DFD)** de Métrica v3, el **proceso de control** representa procesos que **coordinan y sincronizan las actividades de otros procesos** del diagrama, y se comunica con ellos mediante **flujos de control**. El resto de elementos: **almacén de datos** (información **en reposo**), **flujo de datos** (datos **en movimiento** entre procesos, almacenes y entidades externas, nunca directamente entre dos almacenes), **proceso** y **entidad externa**.",
+    "option_notes": [
+      "El almacén de datos representa información en reposo (almacenada); la información en movimiento son los flujos de datos.",
+      null,
+      "Un flujo de control une un proceso de control con otro proceso, no necesariamente dos procesos de control.",
+      "Un flujo de datos comunica procesos con almacenes o entidades externas; dos almacenes nunca se comunican directamente."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Métrica v3: Técnicas, Diagrama de flujo de datos"
+    ],
+    "tags": [
+      "metrica-v3",
+      "dfd",
+      "analisis-estructurado"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-036",
+    "explanation": "Una relación está en **3FN** si está en **2FN** y **ningún atributo no principal depende transitivamente de una clave**: los atributos que no forman parte de ninguna clave dependen **solo de la clave**, no de otros atributos no clave. Repaso: **1FN**, valores atómicos; **2FN**, dependencia **completa** de la clave; **3FN**, sin dependencias **transitivas**; **FNBC**, todo determinante es clave candidata; **4FN**, sin dependencias multivaluadas; **5FN**, sin dependencias de reunión no implicadas por las claves.",
+    "option_notes": [
+      "Depender de la clave «al completo» (dependencia funcional completa) es la condición de la 2FN.",
+      null,
+      "Que no haya dependencias de reunión no triviales que no se deriven de las claves es la condición de la 5FN.",
+      "Que los atributos no clave dependan de la clave principal no excluye las dependencias transitivas, que es lo que exige la 3FN."
+    ],
+    "topic": "III.1",
+    "references": [],
+    "tags": [
+      "normalizacion",
+      "formas-normales"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-037",
+    "explanation": "Métrica v3 define la **dependencia funcional** así: un atributo **Y depende funcionalmente de X si, y solo si, a cada valor de X le corresponde un único valor de Y** (X → Y). Sobre ella se construyen las demás: dependencia funcional **completa** (Y depende de todo X y no de una parte; base de la 2FN) y dependencia **transitiva** (Y depende de X a través de otro atributo Z; la elimina la 3FN).",
+    "option_notes": [
+      "Depender de X en su totalidad, y no de una parte, es la definición de dependencia funcional completa.",
+      null,
+      "Depender de otro atributo a través de un tercero es la dependencia transitiva.",
+      "Tomar un único valor de un dominio simple es la condición de atomicidad de la 1FN, no una dependencia funcional."
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3: Técnicas, Normalización"
+    ],
+    "tags": [
+      "normalizacion",
+      "dependencia-funcional",
+      "metrica-v3"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-038",
+    "explanation": "El bucle **`do { … } while (condición);`** de C++ (y de C, Java o C#) **ejecuta primero el cuerpo y después evalúa la condición**: por eso se ejecuta **al menos una vez**, aunque la condición sea falsa desde el principio. En cambio, **`while`** evalúa la condición antes de cada iteración, de modo que puede no ejecutarse nunca.",
+    "option_notes": [
+      "Eso describe el bucle while, que comprueba la condición antes de ejecutar el cuerpo.",
+      "Invierte el orden: primero ejecuta el cuerpo y después evalúa la condición.",
+      null,
+      "Se repite mientras la condición sea verdadera, no una sola vez."
+    ],
+    "topic": "III.2",
+    "references": [],
+    "tags": [
+      "cpp",
+      "bucles",
+      "estructuras-de-control"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-039",
+    "explanation": "**Sass, Less y Stylus** son **preprocesadores de CSS**: añaden variables, anidamiento, *mixins* y funciones, y se compilan a CSS estándar. Las demás opciones confunden herramientas: **Postman** sirve precisamente para probar APIs y servicios REST; **Node.js** se construyó sobre el motor JavaScript **V8** de Chrome, no sobre Java; y **Bootstrap** es un *framework* CSS/JavaScript de componentes y rejilla para interfaces adaptables.",
+    "option_notes": [
+      null,
+      "Es al revés: Postman se usa sobre todo para probar y validar APIs y servicios REST.",
+      "Node.js se basa en el motor V8 de JavaScript de Google Chrome, no en Java.",
+      "Bootstrap es un framework de interfaz (CSS y JavaScript), no una herramienta para probar servicios REST."
+    ],
+    "topic": "III.7",
+    "references": [],
+    "tags": [
+      "front-end",
+      "css",
+      "herramientas-de-desarrollo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-040",
+    "explanation": "En Java, una clase **`abstract`** **no puede instanciarse** y sirve de base para otras: puede declarar **métodos abstractos** (sin cuerpo), que las subclases concretas deben implementar, junto con métodos y atributos normales; por eso puede estar **sin implementar o implementada de forma incompleta**. Se hereda con `extends`. Si una clase no debe poder extenderse, se declara **`final`**.",
+    "option_notes": [
+      null,
+      "Una clase abstracta no puede instanciarse con new; solo sus subclases concretas.",
+      "Al contrario: está pensada para ser extendida; lo que impide extender una clase es final.",
+      "abstract es un modificador de Java que se aplica a clases y a métodos."
+    ],
+    "topic": "III.4",
+    "references": [
+      "Java Language Specification, §8.1.1.1"
+    ],
+    "tags": [
+      "java",
+      "clases-abstractas",
+      "herencia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-041",
+    "explanation": "En Java, una clase declara las interfaces que implementa con la cláusula **`implements`**, y puede implementar **varias**, separadas por comas: `class Alumno extends Persona implements Comparable<Alumno>, Serializable`. Una clase solo puede **heredar de una clase** (`extends`), pero puede implementar múltiples interfaces: así Java ofrece herencia múltiple de tipo. Una interfaz, a su vez, puede extender varias interfaces con `extends`.",
+    "option_notes": [
+      "No existe la cláusula interfaces; se usa implements.",
+      "No existe la cláusula declares en Java.",
+      null,
+      "Falso: una clase puede implementar varias interfaces, separadas por comas."
+    ],
+    "topic": "III.4",
+    "references": [
+      "Java Language Specification, §8.1.5"
+    ],
+    "tags": [
+      "java",
+      "interfaces",
+      "poo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-042",
+    "explanation": "En SQL estándar, un disparador se define con `CREATE TRIGGER nombre {BEFORE | AFTER | INSTEAD OF} {INSERT | DELETE | UPDATE [OF columnas]} ON tabla …`: tras el **nombre** va el **momento**, después el **evento** (con `UPDATE OF Salario` se limita a los cambios de esa columna) y **`ON` con la tabla**. Luego se indican `REFERENCING OLD/NEW`, `FOR EACH ROW` o `FOR EACH STATEMENT`, una condición `WHEN` opcional y la acción.",
+    "option_notes": [
+      "La tabla se indica con ON, no con «OF TABLE».",
+      "Falta el nombre del disparador y «CREATE NEW TRIGGER» no es sintaxis válida.",
+      "La tabla no se indica con IN ni antes del evento: va después, con ON.",
+      null
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075 (SQL): CREATE TRIGGER"
+    ],
+    "tags": [
+      "sql",
+      "triggers"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-043",
+    "explanation": "**`SAVEPOINT nombre`** marca un **punto de salvaguarda** dentro de una transacción; después se puede deshacer solo lo hecho a partir de él con **`ROLLBACK TO SAVEPOINT nombre`**, sin anular toda la transacción. `COMMIT` confirma la transacción completa y `ROLLBACK`, sin más, la deshace entera. Es SQL estándar y funciona en Oracle, PostgreSQL o MySQL.",
+    "option_notes": [
+      null,
+      "ROLLBACK deshace cambios (toda la transacción o hasta un savepoint); no define el punto de salvaguarda.",
+      "GRANT concede privilegios; no tiene que ver con los puntos de recuperación de una transacción.",
+      "RECOVERPOINT no existe en Oracle (sí CREATE RESTORE POINT, pero para hacer Flashback de toda la base de datos)."
+    ],
+    "topic": "III.3",
+    "references": [
+      "Oracle Database SQL Language Reference: SAVEPOINT"
+    ],
+    "tags": [
+      "oracle",
+      "transacciones",
+      "savepoint"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-044",
+    "explanation": "El patrón estructural **Decorator** permite **añadir responsabilidades o funcionalidades a un objeto de forma dinámica**, envolviéndolo en otro objeto con la misma interfaz, como alternativa flexible a la herencia. Ejemplo clásico: los *streams* de Java (`new BufferedReader(new FileReader(...))`). Las demás definiciones corresponden a **Facade** (interfaz unificada de un subsistema), **Proxy** (sustituto que controla el acceso) e **Iterator** (recorrido secuencial).",
+    "option_notes": [
+      null,
+      "Proporcionar una interfaz unificada para un conjunto de interfaces de un subsistema es el patrón Facade.",
+      "Un sustituto o representante que controla el acceso a otro objeto es el patrón Proxy.",
+      "Acceder secuencialmente a los elementos de un agregado sin exponer su estructura es el patrón Iterator."
+    ],
+    "topic": "III.4",
+    "references": [
+      "Gamma et al., Design Patterns (1994)"
+    ],
+    "tags": [
+      "patrones-de-diseno",
+      "decorator",
+      "gof"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-045",
+    "explanation": "En UML, una **clase** se dibuja como un rectángulo con tres compartimentos (nombre, atributos y operaciones), y las **asociaciones** representan relaciones entre elementos estructurales. Entre las relaciones de UML están la **asociación** y sus variantes, la **agregación** (el todo agrupa partes que pueden existir por separado; rombo vacío) y la **composición** (rombo relleno), además de la **generalización**, la **dependencia** y la **realización**. La «dispersión» no es un tipo de asociación.",
+    "option_notes": [
+      "Es correcta: así se representa una clase en UML.",
+      "Es correcta: las asociaciones representan relaciones entre elementos estructurales.",
+      null,
+      "Es correcta: la agregación es una asociación en la que una clase es parte de otra (relación todo-parte débil)."
+    ],
+    "topic": "III.4",
+    "references": [
+      "OMG UML 2.5.1"
+    ],
+    "tags": [
+      "uml",
+      "relaciones",
+      "diagrama-de-clases"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-046",
+    "explanation": "En Java, el operador **`^`** sobre enteros es el **XOR bit a bit** (O exclusivo), no la potencia. 6 = `110` y 3 = `011`; el XOR pone a 1 los bits que difieren: `101` = **5**. Para elevar a una potencia se usa `Math.pow(6, 3)` (216.0, un `double`). Sobre `boolean`, `^` es el XOR lógico. Otros operadores de bits: `&` (AND), `|` (OR), `~` (NOT), y `<<` y `>>` (desplazamientos).",
+    "option_notes": [
+      "216 = 6³ sería la potencia, pero en Java ^ no eleva a una potencia (se usa Math.pow).",
+      "63 sería concatenar los dígitos como texto; ^ opera bit a bit.",
+      "3 no es el resultado: 110 XOR 011 = 101, es decir, 5.",
+      null
+    ],
+    "topic": "III.2",
+    "references": [
+      "Java Language Specification, §15.22"
+    ],
+    "tags": [
+      "java",
+      "operadores",
+      "operaciones-de-bits"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-047",
+    "explanation": "**NuGet** es el **gestor de paquetes** de .NET: permite publicar, descargar e instalar bibliotecas reutilizables (paquetes `.nupkg`) desde repositorios como **nuget.org**, y gestiona sus versiones y dependencias. Se usa desde Visual Studio, desde la CLI (`dotnet add package` o, desde .NET 10, `dotnet package add`) o con `nuget.exe`. Sus equivalentes: Maven en Java y npm en JavaScript.",
+    "option_notes": [
+      "La biblioteca de clases base de .NET es la BCL; NuGet sirve para distribuir paquetes.",
+      null,
+      "Las implementaciones de .NET son .NET Framework, .NET (antes .NET Core) o Mono; NuGet no lo es.",
+      "El entorno de ejecución de .NET es el CLR; NuGet es un gestor de paquetes."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Learn: An introduction to NuGet"
+    ],
+    "tags": [
+      "dotnet",
+      "nuget",
+      "gestion-de-paquetes"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-048",
+    "explanation": "**StAX** (*Streaming API for XML*, JSR 173, paquete `javax.xml.stream`) es una API de Java para procesar XML en modo **streaming de tipo *pull***: la aplicación pide los eventos (inicio de elemento, texto…) uno a uno, con poco consumo de memoria. Otras APIs de XML en Java: **DOM** (árbol completo en memoria), **SAX** (*push*, por eventos), **JAXB** (enlace entre XML y objetos) y **JAXP**, que las agrupa. JNA y JNI sirven para llamar a código nativo.",
+    "option_notes": [
+      "JNA (Java Native Access) permite llamar a bibliotecas nativas (C) desde Java; no procesa XML.",
+      null,
+      "JNI (Java Native Interface) es la interfaz para invocar código nativo desde Java.",
+      "JPaX no existe; la API general de procesamiento de XML de Java es JAXP."
+    ],
+    "topic": "III.5",
+    "references": [
+      "JSR 173 (StAX)"
+    ],
+    "tags": [
+      "java",
+      "xml",
+      "stax"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-049",
+    "explanation": "**UDDI** (*Universal Description, Discovery and Integration*) es un registro para **publicar y descubrir servicios web SOAP** descritos con WSDL; no es una característica de REST. Los servicios **REST** usan los **métodos HTTP de forma explícita** (GET, POST, PUT, DELETE…), son **sin estado** (cada petición lleva toda la información necesaria), identifican los recursos con URI y admiten varios formatos de representación, sobre todo **JSON** y XML.",
+    "option_notes": [
+      "Sí es característica de REST: usa los métodos HTTP de forma explícita según la operación.",
+      "Sí es característica de REST: es sin estado; el servidor no guarda el contexto entre peticiones.",
+      "Sí es característica de REST: admite distintas representaciones, como JSON o XML.",
+      null
+    ],
+    "topic": "III.6",
+    "references": [
+      "Fielding, R. (2000), tesis doctoral, cap. 5"
+    ],
+    "tags": [
+      "rest",
+      "uddi",
+      "servicios-web"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-050",
+    "explanation": "**Ruby on Rails** (RoR), creado por David Heinemeier Hansson en 2004, es un **framework de desarrollo de aplicaciones web** escrito en **Ruby** y basado en el patrón **MVC** (Modelo-Vista-Controlador). Sus principios: **«convención sobre configuración»** y **DRY** (*Don't Repeat Yourself*); su capa de modelo es el ORM **Active Record**. El lenguaje Ruby lo creó Yukihiro Matsumoto (1995).",
+    "option_notes": [
+      "RoR no es un lenguaje, sino un framework; el lenguaje Ruby lo creó Yukihiro «Matz» Matsumoto, no un tal «G. Ruby».",
+      "RoR no es un sistema de control de versiones (como Git), sino un framework web.",
+      null,
+      "RoR no tiene relación con .NET: está escrito en Ruby."
+    ],
+    "topic": "III.7",
+    "references": [],
+    "tags": [
+      "ruby-on-rails",
+      "frameworks-web",
+      "mvc"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-051",
+    "explanation": "En Python los bloques de código **no se delimitan con llaves**, sino con la **sangría**: tras los dos puntos de `if condición:`, todas las líneas del bloque deben tener **la misma indentación** (por convención, 4 espacios, según PEP 8). Una sangría incoherente produce un `IndentationError`. Las llaves `{}` sirven para diccionarios y conjuntos; los corchetes `[]`, para listas, y los paréntesis `()`, para tuplas y llamadas.",
+    "option_notes": [
+      "Las llaves delimitan bloques en C, Java o JavaScript; en Python definen diccionarios y conjuntos.",
+      "Los corchetes en Python definen listas o acceden a elementos; no delimitan bloques.",
+      "Los paréntesis agrupan expresiones, tuplas o argumentos; no delimitan bloques.",
+      null
+    ],
+    "topic": "III.2",
+    "references": [
+      "The Python Language Reference: Indentation",
+      "PEP 8"
+    ],
+    "tags": [
+      "python",
+      "sintaxis",
+      "indentacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-052",
+    "explanation": "En XML (igual que en HTML), un comentario se escribe **`<!-- comentario -->`**. Reglas de XML 1.0: dentro del comentario **no puede aparecer la cadena `--`**, el comentario no puede terminar en `--->` y no puede ir antes de la declaración XML. Los comentarios no forman parte de los datos del documento.",
+    "option_notes": [
+      "No es la sintaxis: el comentario empieza por <!-- y termina en -->.",
+      "No es la sintaxis de comentario de XML: faltan el <!-- inicial y el --> final.",
+      null,
+      "El orden de los caracteres de apertura es <!--, no <--!."
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C XML 1.0 (Fifth Edition), §2.5"
+    ],
+    "tags": [
+      "xml",
+      "comentarios"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-053",
+    "explanation": "El **RD 1112/2018** (accesibilidad de los sitios web y aplicaciones móviles del sector público) dispone en su **art. 17.6** que la primera revisión de accesibilidad debía hacerse **antes de dos años** desde su entrada en vigor para los **sitios web** y **antes de tres años** para las **aplicaciones móviles**; por eso C es incorrecta. Además, las entidades deben ofrecer un **mecanismo de comunicación** para sugerencias y quejas (art. 10) y responder en **veinte días hábiles** (art. 12.3).",
+    "option_notes": [
+      "Es correcta: el art. 10 exige un mecanismo de comunicación para presentar sugerencias y quejas.",
+      "Es correcta: para los sitios web, la primera revisión debía hacerse antes de dos años (art. 17.6).",
+      null,
+      "Es correcta: el art. 12.3 fija veinte días hábiles para responder."
+    ],
+    "topic": "III.8",
+    "references": [
+      "RD 1112/2018, arts. 10, 12 y 17"
+    ],
+    "tags": [
+      "accesibilidad",
+      "rd-1112-2018"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-054",
+    "explanation": "Las WCAG 2.1 organizan sus pautas en cuatro principios: **perceptible, operable, comprensible y robusto**. Dentro de **perceptible**, la pauta **1.4 Distinguible** busca **facilitar a los usuarios ver y oír el contenido, incluida la separación entre el primer plano y el fondo** (contraste, control del audio, cambio de tamaño del texto…). Las demás opciones describen otras pautas del mismo principio: 1.1 alternativas textuales, 1.2 medios tempodependientes y 1.3 adaptable.",
+    "option_notes": [
+      "Presentar el contenido de distintas formas sin perder información es la pauta 1.3, Adaptable.",
+      null,
+      "Las alternativas textuales para el contenido no textual son la pauta 1.1.",
+      "Las alternativas para los medios tempodependientes (audio y vídeo) son la pauta 1.2."
+    ],
+    "topic": "III.8",
+    "references": [
+      "WCAG 2.1, pauta 1.4"
+    ],
+    "tags": [
+      "accesibilidad",
+      "wcag"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-055",
+    "explanation": "Métrica v3 enumera varios tipos de **pruebas del sistema**: funcionales, de comunicaciones, de **rendimiento**, de volumen, de **sobrecarga**, de disponibilidad de datos, de facilidad de uso, de operación, de entorno y de seguridad. Las **pruebas de rendimiento** consisten en **determinar que los tiempos de respuesta están dentro de los intervalos establecidos** en las especificaciones; las de **sobrecarga** comprueban el funcionamiento en el umbral límite de los recursos.",
+    "option_notes": [
+      "«Pruebas de respuesta» no es un tipo de prueba de Métrica v3.",
+      "Las pruebas de sobrecarga comprueban el sistema en el umbral límite de los recursos, sometiéndolo a cargas masivas.",
+      null,
+      "«Pruebas de tiempo» no es un tipo de prueba de Métrica v3."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Métrica v3: Técnicas, Pruebas"
+    ],
+    "tags": [
+      "metrica-v3",
+      "pruebas",
+      "rendimiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-056",
+    "explanation": "En Git, un **commit** guarda una **instantánea (*snapshot*) del estado del proyecto** en el historial del repositorio local, con los cambios que se habían preparado (*staged*), un identificador SHA, autor, fecha y mensaje. Cada commit apunta a su commit padre, y así se forma el historial. Subir los commits al remoto es `git push`, y traerlos, `git fetch` o `git pull`.",
+    "option_notes": [
+      "Un commit no es un comentario entre versiones, aunque incluya un mensaje descriptivo.",
+      "No es un compromiso entre partes: aquí commit significa confirmar o consignar cambios.",
+      "Descargar la rama del repositorio central es git pull o git fetch, no commit.",
+      null
+    ],
+    "topic": "III.9",
+    "references": [
+      "Pro Git, cap. 2"
+    ],
+    "tags": [
+      "git",
+      "commit"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-057",
+    "explanation": "**Apache JMeter** es una herramienta de **software libre** (en Java) para **pruebas de carga y de estrés**: simula muchos usuarios concurrentes contra aplicaciones web, servicios REST/SOAP, bases de datos o FTP, y mide tiempos de respuesta y rendimiento. Alternativas: Gatling, Locust o k6. Las demás opciones son herramientas de otro tipo.",
+    "option_notes": [
+      "Cactus fue un framework de Apache para pruebas unitarias de código Java en el servidor, hoy retirado.",
+      "Mockito es un framework para crear objetos simulados (mocks) en pruebas unitarias de Java.",
+      null,
+      "Foglight (Quest) es una herramienta comercial de monitorización del rendimiento, no de software libre para pruebas de carga."
+    ],
+    "topic": "III.9",
+    "references": [
+      "Apache JMeter"
+    ],
+    "tags": [
+      "pruebas",
+      "pruebas-de-carga",
+      "jmeter"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-058",
+    "explanation": "**nmap** (*Network Mapper*) es la herramienta de referencia para **escanear puertos** y descubrir equipos y servicios de una red: `nmap 192.168.1.10` muestra los puertos abiertos, `-sV` detecta las versiones de los servicios y `-O`, el sistema operativo. Para ver los puertos en escucha **desde el propio servidor** se usan `ss -tuln` o `netstat -tuln`. Úsalo solo sobre sistemas propios o autorizados.",
+    "option_notes": [
+      "ntpq consulta servidores NTP (sincronización horaria).",
+      "ntport no es un comando de Linux.",
+      null,
+      "traceroute muestra los saltos (routers) hasta un destino, no los puertos abiertos."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "nmap.org: Reference Guide"
+    ],
+    "tags": [
+      "linux",
+      "nmap",
+      "puertos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-059",
+    "explanation": "En Debian y sus derivados, **`apt update`** descarga la **información actualizada de los paquetes** (los índices) desde todas las fuentes configuradas en `/etc/apt/sources.list` y `/etc/apt/sources.list.d/`; no instala nada. Después, **`apt upgrade`** instala las versiones nuevas de los paquetes instalados sin eliminar ninguno, y **`apt full-upgrade`** puede además instalar o eliminar paquetes para resolver dependencias.",
+    "option_notes": [
+      null,
+      "apt upgrade actualiza los paquetes instalados; antes hay que descargar los índices con apt update.",
+      "apt full-upgrade actualiza el sistema pudiendo añadir o eliminar paquetes; no descarga solo la información.",
+      "apt list muestra paquetes (instalados, actualizables…); no descarga información."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "man 8 apt"
+    ],
+    "tags": [
+      "linux",
+      "debian",
+      "gestion-de-paquetes"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-060",
+    "explanation": "El ***thin provisioning*** (aprovisionamiento ligero) es una técnica de **virtualización del almacenamiento** que **asigna el espacio físico a medida que se escribe** (*just in time*), aunque al volumen se le presente una capacidad mayor. Así se evita reservar de antemano espacio que no se usa y mejora el aprovechamiento, a cambio de vigilar la **sobresuscripción** para que no se agote el espacio real. Lo contrario es el ***thick provisioning***, que reserva todo el espacio al crear el volumen.",
+    "option_notes": [
+      "No tiene relación con los clientes ligeros (thin clients) ni con desplegar discos en red para ellos.",
+      null,
+      "Añadir discos en caliente a una cabina es otra funcionalidad, no el thin provisioning.",
+      "Describe lo contrario: asignar todo el espacio de antemano es el thick provisioning."
+    ],
+    "topic": "IV.2",
+    "references": [],
+    "tags": [
+      "almacenamiento",
+      "thin-provisioning",
+      "virtualizacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-061",
+    "explanation": "**RAID 5** reparte los datos en bloques (*striping*) entre todos los discos con **paridad distribuida** y **acceso independiente** a cada disco; necesita al menos 3 discos y tolera el fallo de uno. Compara: **RAID 3**, *striping* a nivel de byte con **disco de paridad dedicado** y acceso **sincronizado** (paralelo); **RAID 4**, bloques con disco de paridad dedicado y acceso independiente; **RAID 1**, espejo, sin paridad.",
+    "option_notes": [
+      "RAID 1 es espejo (duplicación de discos) y no usa paridad.",
+      "RAID 3 usa un disco de paridad dedicado y acceso sincronizado, no independiente.",
+      "RAID 4 tiene acceso independiente, pero con un disco de paridad dedicado, no distribuida.",
+      null
+    ],
+    "topic": "II.2",
+    "references": [],
+    "tags": [
+      "raid",
+      "almacenamiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-062",
+    "explanation": "En el correo electrónico, **SMTP** sirve para **enviar**: del cliente del remitente a su servidor y **entre servidores** (del de origen al de destino, que se localiza mediante el registro MX). **POP3 o IMAP** sirven para **acceder al buzón**: el destinatario los usa para descargar o leer su correo en su servidor. POP3 descarga los mensajes (y normalmente los borra del servidor); IMAP los gestiona en el servidor y los sincroniza entre dispositivos.",
+    "option_notes": [
+      "Entre servidores se usa SMTP, no POP3 ni IMAP; y el destinatario recupera el correo con POP3 o IMAP, no con SMTP.",
+      "POP3 e IMAP no se usan para enviar; el envío (del cliente al servidor y entre servidores) es SMTP.",
+      null,
+      "Invierte los papeles: el envío es SMTP y la recepción del destinatario, POP3 o IMAP."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "RFC 5321 (SMTP)",
+      "RFC 1939 (POP3)",
+      "RFC 9051 (IMAP4rev2)"
+    ],
+    "tags": [
+      "correo",
+      "smtp",
+      "pop3-imap"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-063",
+    "explanation": "La composición de microservicios se gestiona con dos estrategias: la **orquestación**, en la que un componente central (orquestador) dirige la secuencia de llamadas a los demás servicios, y la **coreografía**, en la que no hay coordinador central y cada servicio reacciona a los **eventos** que publican los demás (por ejemplo, mediante un bus de mensajes). La orquestación es más fácil de seguir; la coreografía, más desacoplada.",
+    "option_notes": [
+      null,
+      "«Coordinación» no es el nombre de la estrategia; las dos son coreografía y orquestación.",
+      "Falta la coreografía; «coordinación» no es una de las dos estrategias.",
+      "«Gestión» no es una estrategia de composición; la otra, junto a la orquestación, es la coreografía."
+    ],
+    "topic": "IV.3",
+    "references": [],
+    "tags": [
+      "microservicios",
+      "orquestacion",
+      "coreografia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-064",
+    "explanation": "En Windows, **`net start`** sin parámetros **lista los servicios que se están ejecutando**; con un nombre (`net start Spooler`) arranca ese servicio, y `net stop` lo detiene. Alternativas: `sc query` (estado de los servicios) y, en PowerShell, `Get-Service | Where-Object Status -eq 'Running'`.",
+    "option_notes": [
+      "net view lista equipos o recursos compartidos de la red; «services» no es un parámetro válido.",
+      "net start seguido de un nombre intenta arrancar un servicio llamado así («process»); no lista nada.",
+      null,
+      "net start no tiene un parámetro «all»: sin parámetros ya lista todos los servicios en ejecución."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Microsoft Learn: net start"
+    ],
+    "tags": [
+      "windows",
+      "servicios",
+      "comandos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-065",
+    "explanation": "La última versión de **SNMP** es la **v3** (RFC 3411 a 3418, 2002), que añade **seguridad**: autenticación e integridad de los mensajes y cifrado (modelo **USM**), y control de acceso a la MIB (**VACM**). **SNMPv1** y **v2c** solo usan *community strings* en claro a modo de contraseña. No existen SNMPv4 ni v5. Puertos: UDP **161** (consultas al agente) y **162** (*traps*).",
+    "option_notes": [
+      "SNMPv2 (v2c) es anterior y no aporta la seguridad de la v3.",
+      null,
+      "No existe SNMPv4.",
+      "No existe SNMPv5."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "RFC 3411",
+      "RFC 3414 (USM)",
+      "RFC 3415 (VACM)"
+    ],
+    "tags": [
+      "snmp",
+      "gestion-de-red"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-066",
+    "explanation": "La **firma digital** no cifra el documento: proporciona **autenticación, integridad y no repudio**, pero **no confidencialidad**. El proceso: se calcula un **resumen (*hash*)** del documento, se **cifra ese resumen con la clave privada** del firmante y el resultado es la firma, que acompaña al documento. El receptor descifra la firma con la **clave pública**, recalcula el *hash* y compara ambos. Para la confidencialidad habría que cifrar el documento con la clave pública del destinatario.",
+    "option_notes": [
+      "Es verdadera: primero se calcula un resumen del documento con una función hash.",
+      null,
+      "Es verdadera: la firma es el resumen cifrado.",
+      "Es verdadera: el resumen se cifra con la clave privada del firmante."
+    ],
+    "topic": "IV.5",
+    "references": [],
+    "tags": [
+      "firma-digital",
+      "criptografia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-067",
+    "explanation": "**ITIL** (*Information Technology Infrastructure Library*), creada por la agencia británica CCTA, es una **colección de buenas prácticas para la gestión de servicios de TI** (ITSM): gestión de incidencias, problemas, cambios, configuración, niveles de servicio… Su versión actual, **ITIL 4** (2019), organiza las prácticas en un sistema de valor del servicio. La norma certificable equivalente es la **ISO/IEC 20000**.",
+    "option_notes": [
+      "ITIL no procede de la metodología Kaizen ni es un marco del ciclo de vida del software.",
+      "ITIL no es una librería Java ni forma parte de Jakarta EE.",
+      null,
+      "Una metodología de análisis y gestión de riesgos es, por ejemplo, MAGERIT; ITIL es de gestión de servicios."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "ITIL 4 (AXELOS)",
+      "ISO/IEC 20000-1"
+    ],
+    "tags": [
+      "itil",
+      "gestion-de-servicios"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-068",
+    "explanation": "La última versión estable de **TLS** es la **1.3** (RFC 8446, agosto de 2018), y sigue siéndolo: no existe TLS 1.4. TLS 1.3 reduce el saludo a **1 RTT** (con 0-RTT opcional), elimina algoritmos inseguros (RSA estático, CBC, RC4, SHA-1…), cifra la mayor parte del *handshake* e impone el **secreto perfecto hacia adelante**. **SSL 3.0** está prohibido (RFC 7568), y TLS 1.0 y 1.1 están obsoletos (RFC 8996).",
+    "option_notes": [
+      "TLS 1.2 (RFC 5246, 2008) es la versión anterior; aún se admite, pero no es la última.",
+      null,
+      "No existe TLS 1.4.",
+      "SSL 3.0 es un protocolo antiguo e inseguro, prohibido desde 2015 (RFC 7568)."
+    ],
+    "topic": "IV.8",
+    "references": [
+      "RFC 8446",
+      "RFC 8996",
+      "RFC 7568"
+    ],
+    "tags": [
+      "tls",
+      "protocolos-seguros"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-069",
+    "explanation": "**GOST** (GOST 28147-89, también llamado Magma) es un **cifrado simétrico** por bloques de origen soviético: bloques de 64 bits y clave de 256 bits. Los demás son **asimétricos** (de clave pública): **RSA** (factorización), **ElGamal** (logaritmo discreto) y **ECDSA** (firma con curvas elípticas). Ojo: Rusia también tiene normas GOST de firma asimétrica (GOST R 34.10), pero «GOST» a secas suele referirse al cifrado por bloques.",
+    "option_notes": [
+      "RSA es asimétrico: se basa en la dificultad de factorizar números grandes.",
+      null,
+      "ECDSA es asimétrico: es el algoritmo de firma digital con curvas elípticas.",
+      "ElGamal es asimétrico: se basa en el problema del logaritmo discreto."
+    ],
+    "topic": "IV.5",
+    "references": [],
+    "tags": [
+      "criptografia",
+      "algoritmos-simetricos",
+      "algoritmos-asimetricos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-070",
+    "explanation": "La afirmación **incorrecta es la B**: **WEP** (1997) es muy inseguro (RC4 con vectores de inicialización cortos; se rompe en minutos) y está obsoleto, mientras que **WPA2** usa AES-CCMP. Las demás son correctas: la banda de **2,4 GHz** la comparten Bluetooth y otros dispositivos, que causan interferencias; **WPA3** (2018) llegó tras el ataque **KRACK** (2017) y sustituye la PSK por **SAE**; y la banda de **5 GHz** tiene **menos alcance** que la de 2,4 GHz, aunque más capacidad.",
+    "option_notes": [
+      "Es correcta: Bluetooth y Wi-Fi comparten la banda de 2,4 GHz y pueden interferir.",
+      null,
+      "Es correcta: WPA3 apareció tras KRACK y mejora la autenticación personal con SAE.",
+      "Es correcta: a mayor frecuencia, más atenuación y menos alcance."
+    ],
+    "topic": "IV.6",
+    "references": [],
+    "tags": [
+      "wifi",
+      "seguridad-inalambrica",
+      "wpa"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-071",
+    "explanation": "**Wi-Fi 6** es el nombre comercial de **IEEE 802.11ax**: introduce **OFDMA**, MU-MIMO en subida y bajada, la modulación 1024-QAM y *Target Wake Time*; **Wi-Fi 6E** lo extiende a la banda de 6 GHz. Equivalencias: Wi-Fi 4 = 802.11n, **Wi-Fi 5 = 802.11ac** (incluidas sus *waves* 1 y 2) y Wi-Fi 7 = 802.11be. **802.11az** trata del posicionamiento en interiores.",
+    "option_notes": [
+      null,
+      "802.11ac corresponde a Wi-Fi 5.",
+      "802.11ac Wave 2 es una segunda generación de Wi-Fi 5 (añade MU-MIMO de bajada), no Wi-Fi 6.",
+      "802.11az es la norma de posicionamiento en interiores de nueva generación, no Wi-Fi 6."
+    ],
+    "topic": "IV.6",
+    "references": [
+      "IEEE 802.11ax-2021"
+    ],
+    "tags": [
+      "wifi",
+      "ieee-802-11"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-072",
+    "explanation": "En IPv6, las direcciones **multicast** usan el prefijo **FF00::/8** (empiezan por FF); por ejemplo, `FF02::1` (todos los nodos del enlace) y `FF02::2` (todos los routers). Otros prefijos: **FE80::/10**, enlace local (*link-local*); **FC00::/7**, direcciones locales únicas (ULA), y **2000::/3**, unicast global. IPv6 no tiene *broadcast*: lo sustituye el multicast.",
+    "option_notes": [
+      "FF80::/10 no es un prefijo definido; el multicast es todo FF00::/8.",
+      null,
+      "FE00::/8 no es el prefijo de multicast (forma parte del espacio reservado por el IETF).",
+      "FE80::/10 son las direcciones de enlace local (link-local)."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 4291"
+    ],
+    "tags": [
+      "ipv6",
+      "multicast",
+      "direccionamiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-073",
+    "explanation": "**IGRP** (*Interior Gateway Routing Protocol*, de Cisco) es un protocolo de encaminamiento **por vector de distancia**, como RIP: cada router comparte su tabla con los vecinos y elige la ruta según la métrica (en IGRP, compuesta de ancho de banda y retardo, entre otros factores). Lo sustituyó EIGRP. **OSPF**, **IS-IS** y **OLSR** (redes *ad hoc*) son de **estado de enlace**: cada router conoce la topología y calcula las rutas con el algoritmo de Dijkstra.",
+    "option_notes": [
+      "OSPF es de estado de enlace (calcula las rutas con el algoritmo de Dijkstra).",
+      null,
+      "IS-IS es de estado de enlace, como OSPF.",
+      "OLSR (para redes móviles ad hoc) es un protocolo de estado de enlace optimizado."
+    ],
+    "topic": "IV.7",
+    "references": [],
+    "tags": [
+      "enrutamiento",
+      "vector-distancia"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-074",
+    "explanation": "**`503 Service Unavailable`** indica que el servidor **no puede atender temporalmente** la petición, por sobrecarga o mantenimiento; puede incluir la cabecera `Retry-After`. Los demás códigos 5xx: **500** Internal Server Error (error genérico del servidor), **501** Not Implemented (método no soportado) y **502** Bad Gateway (respuesta no válida del servidor de origen a una pasarela o *proxy*); el **504** es Gateway Timeout.",
+    "option_notes": [
+      "500 es un error interno genérico del servidor.",
+      "501 indica que el servidor no implementa el método o la funcionalidad solicitada.",
+      "502 indica que una pasarela o proxy recibió una respuesta no válida del servidor de origen.",
+      null
+    ],
+    "topic": "IV.8",
+    "references": [
+      "RFC 9110, §15.6"
+    ],
+    "tags": [
+      "http",
+      "codigos-de-estado"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-075",
+    "explanation": "El registro **SOA** (*Start of Authority*) es el primero de cada zona DNS e indica sus **datos básicos**: el servidor de nombres primario, el correo del responsable, el **número de serie** de la zona y los temporizadores de refresco, reintento, expiración y TTL mínimo que usan los servidores secundarios. Los demás: **AAAA** (nombre → IPv6), **PTR** (resolución inversa: IP → nombre) y **MX** (servidores de correo).",
+    "option_notes": [
+      "AAAA asocia un nombre a una dirección IPv6.",
+      "PTR se usa en la resolución inversa (de dirección IP a nombre).",
+      "MX indica los servidores de correo del dominio.",
+      null
+    ],
+    "topic": "IV.8",
+    "references": [
+      "RFC 1035, §3.3.13"
+    ],
+    "tags": [
+      "dns",
+      "registros-dns"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-076",
+    "explanation": "**BYOD** (*Bring Your Own Device*) permite al usuario **usar su propio dispositivo personal** para el trabajo o los estudios; exige separar los datos corporativos y gestionarlos con soluciones MDM/UEM. Otras modalidades: **COPE** (*Corporate Owned, Personally Enabled*: de la organización, con uso personal permitido), **COBO** (*Corporate Owned, Business Only*: de la organización y solo para trabajar) y **CYOD** (*Choose Your Own Device*: el usuario elige entre los modelos que ofrece la organización).",
+    "option_notes": [
+      "COPE: el dispositivo es de la organización, aunque se permite su uso personal.",
+      null,
+      "COBO: el dispositivo es de la organización y solo se usa para trabajar.",
+      "CYOD: el usuario elige el dispositivo de una lista, pero lo proporciona la organización."
+    ],
+    "topic": "IV.4",
+    "references": [],
+    "tags": [
+      "gestion-de-dispositivos",
+      "byod",
+      "mdm"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-077",
+    "explanation": "**MARIA** es la plataforma del **CCN-CERT** para el **análisis estático de código dañino** mediante **múltiples motores antivirus y antimalware**, para plataformas Windows y Linux. Otras herramientas del CCN-CERT: **PILAR** (análisis y gestión de riesgos según MAGERIT), **CLARA** (análisis del cumplimiento de la configuración de seguridad de Windows y Linux con el ENS) y **REYES** (intercambio de información sobre ciberamenazas).",
+    "option_notes": [
+      null,
+      "PILAR es la herramienta de análisis y gestión de riesgos del CCN (basada en MAGERIT).",
+      "CLARA analiza las características de seguridad técnicas (configuración) de los equipos según el ENS.",
+      "REYES es la herramienta del CCN-CERT para intercambiar información sobre ciberamenazas."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "CCN-CERT: herramientas (MARIA, PILAR, CLARA, REYES)"
+    ],
+    "tags": [
+      "ccn-cert",
+      "malware",
+      "herramientas-de-seguridad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-078",
+    "explanation": "Las VPN de **nivel de enlace (capa 2)** encapsulan tramas PPP en túneles y se implementan con: **PPTP** (*Point-to-Point Tunneling Protocol*, de Microsoft, hoy inseguro), **L2F** (*Layer 2 Forwarding*, de Cisco) y **L2TP** (*Layer 2 Tunneling Protocol*, RFC 2661 y 3931, que unió los dos anteriores y suele combinarse con IPsec para cifrar). «P2TP» no existe.",
+    "option_notes": [
+      "PPTP sí es un protocolo de túnel de capa 2 (aunque hoy se considera inseguro).",
+      "L2F sí es un protocolo de túnel de capa 2, de Cisco.",
+      "L2TP sí es un protocolo de túnel de capa 2 (normalmente con IPsec: L2TP/IPsec).",
+      null
+    ],
+    "topic": "IV.9",
+    "references": [
+      "RFC 2637 (PPTP)",
+      "RFC 2661 (L2TP)"
+    ],
+    "tags": [
+      "vpn",
+      "tunelizacion",
+      "capa-2"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-079",
+    "explanation": "En **Bluetooth**, una **piconet** es una red formada por un dispositivo **maestro** y hasta **7 esclavos activos**. Una **scatternet** es un **grupo de piconets interconectadas**: un dispositivo participa en varias piconets (por ejemplo, como esclavo en una y maestro en otra) y hace de puente entre ellas. Son redes de área personal (**WPAN**, IEEE 802.15.1).",
+    "option_notes": [
+      "Una scatternet es una red Bluetooth de área personal, no una red metropolitana (MAN).",
+      "No es una red Wi-Fi: el término pertenece a Bluetooth.",
+      null,
+      "No tiene relación con los CubeSat (pequeños satélites)."
+    ],
+    "topic": "IV.6",
+    "references": [
+      "Bluetooth Core Specification"
+    ],
+    "tags": [
+      "bluetooth",
+      "piconet",
+      "wpan"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-080",
+    "explanation": "La afirmación incorrecta es la B: **UDP** es un protocolo de transporte **no orientado a conexión y no fiable**: no confirma la entrega, no retransmite ni ordena (solo lleva una suma de comprobación) y **no obliga al nivel de red a verificar nada**; IP tampoco garantiza la entrega. Si la aplicación necesita fiabilidad, la implementa ella. **TCP**, en cambio, es fiable, orientado a conexión y trabaja con un **flujo de bytes** con números de secuencia, confirmaciones y control de flujo y de congestión.",
+    "option_notes": [
+      "Es correcta: TCP garantiza la entrega ordenada mediante confirmaciones y retransmisiones.",
+      null,
+      "Es correcta: TCP trata los datos como un flujo continuo de bytes numerados.",
+      "Es correcta: UDP no establece conexión antes de enviar."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 768 (UDP)",
+      "RFC 9293 (TCP)"
+    ],
+    "tags": [
+      "tcp",
+      "udp",
+      "capa-de-transporte"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-r1",
+    "explanation": "La **arquitectura Harvard** usa **dos memorias separadas** —una para las **instrucciones** y otra para los **datos**—, cada una con su propio bus, de modo que puede leer una instrucción y acceder a un dato a la vez. La **arquitectura von Neumann** usa **una única memoria** (y un bus) para ambos, lo que crea el llamado cuello de botella de von Neumann. Hoy se combinan: las CPU tienen cachés L1 separadas de instrucciones y datos (Harvard modificada) sobre una memoria principal común.",
+    "option_notes": [
+      "Una única memoria para datos e instrucciones es la arquitectura von Neumann.",
+      null,
+      "Es la alternativa a la arquitectura von Neumann, no un tipo de ella.",
+      "La arquitectura Harvard separa dos memorias (instrucciones y datos), no tres."
+    ],
+    "topic": "II.1",
+    "references": [],
+    "tags": [
+      "arquitectura-de-ordenadores",
+      "harvard",
+      "von-neumann"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-r2",
+    "explanation": "**FACILITA RGPD** es una herramienta gratuita de la **Agencia Española de Protección de Datos (AEPD)** para empresas y profesionales que realizan **tratamientos de datos personales de escaso riesgo** (por ejemplo, datos de clientes, proveedores o empleados): tras un breve cuestionario, genera los documentos mínimos para cumplir el RGPD (registro de actividades, cláusulas informativas, medidas de seguridad…). La AEPD ofrece también **FACILITA EMPRENDE**, para emprendedores y *startups*.",
+    "option_notes": [
+      null,
+      "FACILITA no tiene relación con la movilidad reducida; es una herramienta de la AEPD sobre protección de datos.",
+      "FACILITA no es un visor multimedia de la AGE; es una herramienta de la AEPD.",
+      "La aplicación de la Agencia Tributaria para la declaración de la renta no se llama FACILITA (es Renta WEB o la app de la AEAT)."
+    ],
+    "topic": "I.7",
+    "references": [
+      "AEPD: FACILITA RGPD"
+    ],
+    "tags": [
+      "proteccion-de-datos",
+      "aepd",
+      "herramientas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-r3",
+    "explanation": "En JDBC, **`PreparedStatement`** representa una sentencia SQL **precompilada** con parámetros (`?`), que se rellenan con métodos como `setInt` o `setString` y que puede **ejecutarse muchas veces** con distintos valores de forma eficiente. Además, al pasar los valores como parámetros, **evita la inyección SQL**. Se obtiene con `connection.prepareStatement(\"SELECT * FROM alumno WHERE id = ?\")`. Para procedimientos almacenados existe `CallableStatement`.",
+    "option_notes": [
+      "PreparedStatement no inicializa variables locales; prepara sentencias SQL con parámetros.",
+      "No sirve para escribir en ficheros de texto; trabaja con sentencias SQL a través de JDBC.",
+      null,
+      "La gestión de memoria la hace el recolector de basura de la JVM, no PreparedStatement."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Java SE API: java.sql.PreparedStatement"
+    ],
+    "tags": [
+      "java",
+      "jdbc",
+      "sql"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-r4",
+    "explanation": "La norma **TIA-942** clasifica la disponibilidad de un CPD en **cuatro niveles (Tier I a IV)**, de **menor a mayor**: **Tier I**, básico, sin redundancia (≈ 99,671 %); **Tier II**, con componentes redundantes (≈ 99,741 %); **Tier III**, mantenible sin parada (≈ 99,982 %); y **Tier IV**, tolerante a fallos (≈ 99,995 %). En las revisiones recientes de la norma se denominan **Rated-1 a Rated-4**, para distinguirlos de los Tier del Uptime Institute.",
+    "option_notes": [
+      "Son cuatro niveles, pero al revés: el Tier I es el de menor disponibilidad y el Tier IV, el de mayor.",
+      "Son cuatro niveles, no tres, y el Tier I es el de menor disponibilidad.",
+      "Son cuatro niveles, no tres (el máximo es el Tier IV).",
+      null
+    ],
+    "topic": "IV.5",
+    "references": [
+      "ANSI/TIA-942-B"
+    ],
+    "tags": [
+      "cpd",
+      "tia-942",
+      "disponibilidad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p1-r5",
+    "explanation": "La afirmación incorrecta es la B: en JavaScript las funciones son **de primera clase** (*first-class*): son objetos que pueden asignarse a variables, pasarse como argumentos, devolverse desde otras funciones y guardarse en estructuras, lo que permite funciones de orden superior y *callbacks*. Las demás características son ciertas: JavaScript es **imperativo y dinámico**, **débilmente tipado** (hace conversiones implícitas) y su herencia se **basa en prototipos** (las clases de ES2015 son una sintaxis sobre ellos).",
+    "option_notes": [
+      "Es correcta: JavaScript es imperativo y dinámico (y admite también el estilo funcional).",
+      null,
+      "Es correcta: es débilmente tipado y convierte tipos de forma implícita (p. ej., con ==).",
+      "Es correcta: la herencia en JavaScript se basa en prototipos."
+    ],
+    "topic": "III.7",
+    "references": [
+      "ECMA-262 (ECMAScript)"
+    ],
+    "tags": [
+      "javascript",
+      "funciones",
+      "lenguajes-de-programacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-001",
+    "explanation": "En una tabla HTML, **`<th>`** (*table header*) define una **celda de encabezado**; por defecto los navegadores la muestran en **negrita y centrada**, y para la accesibilidad conviene indicar su alcance con `scope=\"col\"` o `scope=\"row\"`. Las celdas normales son `<td>`, las filas `<tr>`, y los grupos de filas `<thead>`, `<tbody>` y `<tfoot>`. `<tableheader>`, `<theader>` y `<tableh>` no existen.",
+    "option_notes": [
+      null,
+      "No existe la etiqueta <tableheader>; el encabezado de columna es <th> (y el grupo de filas de cabecera, <thead>).",
+      "No existe <theader>; quizá se confunde con <thead>, que agrupa las filas de cabecera.",
+      "No existe la etiqueta <tableh>."
+    ],
+    "topic": "III.7",
+    "references": [
+      "WHATWG HTML Living Standard: the th element"
+    ],
+    "tags": [
+      "html5",
+      "tablas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-002",
+    "explanation": "Para anidar una lista, la lista interior (`<ul>`) debe ir **dentro del `<li>`** del elemento padre, antes de cerrarlo: `<ul><li>Opositor<ul><li>Nota 1</li><li>Nota 2</li></ul></li></ul>`. Un `<li>` solo puede ser hijo de `<ul>`, `<ol>` o `<menu>`, así que no puede contener otro `<li>` directamente.",
+    "option_notes": [
+      null,
+      "Son dos listas independientes, una detrás de otra: las notas no quedan anidadas bajo el opositor.",
+      "<li1> y <li2> no existen en HTML.",
+      "Un <li> no puede contener otro <li> directamente: falta la lista <ul> interior."
+    ],
+    "topic": "III.7",
+    "references": [
+      "WHATWG HTML Living Standard: the li element"
+    ],
+    "tags": [
+      "html5",
+      "listas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-003",
+    "explanation": "El atributo booleano **`required`** de HTML5 hace **obligatorio** un campo de formulario: el navegador no envía el formulario si está vacío y muestra un aviso. Forma parte de la **validación nativa** de HTML5, junto con `pattern`, `min`/`max`, `minlength`/`maxlength` y tipos como `type=\"email\"`. Aun así, hay que validar también en el servidor, porque la validación del cliente se puede saltar.",
+    "option_notes": [
+      null,
+      "enforced no es un atributo de HTML.",
+      "mandatory no es un atributo de HTML; el atributo es required.",
+      "compulsory no es un atributo de HTML."
+    ],
+    "topic": "III.7",
+    "references": [
+      "WHATWG HTML Living Standard: the required attribute"
+    ],
+    "tags": [
+      "html5",
+      "formularios",
+      "validacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-004",
+    "explanation": "El **combinador de hijo** `>` selecciona los elementos que son **hijos directos** de otro: **`li > a`** aplica el estilo a los `<a>` cuyo padre inmediato es un `<li>`. Con un espacio (`li a`), el **combinador descendiente** seleccionaría cualquier `<a>` contenido en un `<li>`, a cualquier profundidad. Otros selectores: `.clase`, `#id`, `+` (hermano adyacente) y `~` (hermanos siguientes).",
+    "option_notes": [
+      "li.a selecciona los <li> con class=\"a\", no los enlaces hijos.",
+      null,
+      "li#a selecciona el <li> con id=\"a\".",
+      "li_a buscaría un elemento llamado <li_a>, que no existe."
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C Selectors Level 3: child combinator"
+    ],
+    "tags": [
+      "css",
+      "selectores"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-005",
+    "explanation": "Para convertir un elemento en **contenedor flexible** se usa **`display: flex`** (o `inline-flex`, si debe comportarse como elemento en línea); sus hijos pasan a ser elementos flexibles, que se controlan con `flex-direction`, `justify-content`, `align-items`, `flex-wrap` o `gap`. Para maquetar en dos dimensiones existe `display: grid`.",
+    "option_notes": [
+      null,
+      "Flexbox es el nombre coloquial del modelo; el valor estándar es flex (display: flexbox solo existió en un borrador antiguo).",
+      "flex-container no es un valor de display; es el nombre que recibe el elemento contenedor.",
+      "flexible no es un valor válido de display."
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C CSS Flexible Box Layout Module Level 1"
+    ],
+    "tags": [
+      "css",
+      "flexbox",
+      "maquetacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-006",
+    "explanation": "Un XML está **bien formado** si tiene **un único elemento raíz**, cada etiqueta se cierra con **el mismo nombre** (XML distingue mayúsculas de minúsculas) y los elementos se **anidan correctamente**. La opción C cumple: `<Nota1/>` y `<Nota2/>` son **elementos vacíos** autocerrados y el texto puede mezclarse con ellos (contenido mixto). Otra cosa es que la información esté mal representada, porque las notas quedan fuera de sus elementos.",
+    "option_notes": [
+      "XML distingue mayúsculas: <Nota1> no se cierra con </nota1>, ni <Opositor> con </opositor>.",
+      "Anidamiento incorrecto: se cierra </Opositor> antes que </Nota2>.",
+      null,
+      "</> no es una etiqueta de cierre válida en XML; hay que repetir el nombre del elemento."
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C XML 1.0 (Fifth Edition), §2.1 y §3"
+    ],
+    "tags": [
+      "xml",
+      "bien-formado"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-007",
+    "explanation": "En **JSON** (RFC 8259), los nombres de los miembros de un objeto son **cadenas** y deben ir **entre comillas dobles**, igual que los valores de texto; los pares nombre/valor se separan con **comas**, y el nombre se separa del valor con **dos puntos**. Por eso `{\"nombre\": \"Juana\", \"apellido\": \"Ruiz\"}` es válido. Las comillas simples o los nombres sin comillas valen en un objeto literal de JavaScript, pero no en JSON.",
+    "option_notes": [
+      null,
+      "JSON no admite comillas simples: las cadenas van siempre entre comillas dobles.",
+      "En JSON los nombres van entre comillas dobles (sin comillas solo vale en un objeto literal de JavaScript).",
+      "Nombres sin comillas y separador «;»: los pares se separan con comas."
+    ],
+    "topic": "II.3",
+    "references": [
+      "RFC 8259"
+    ],
+    "tags": [
+      "json",
+      "formatos-de-datos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-008",
+    "explanation": "El bucle se recorre con i = 1, 3 y 5 (i aumenta de 2 en 2 mientras sea menor que 7): **j = 0 + 1 = 1**, luego **1 + 3 = 4** y luego **4 + 5 = 9**; con i = 7 la condición `i < 7` es falsa y la función devuelve **9**, la suma de los impares menores que 7. (El enunciado escribe `Function` con mayúscula; en JavaScript la palabra clave es `function`, en minúscula.)",
+    "option_notes": [
+      "2 es el incremento de i en cada vuelta, no el valor acumulado en j.",
+      null,
+      "6 no es el resultado: j acumula 1 + 3 + 5 = 9.",
+      "El bucle sí se ejecuta (1 < 7), así que j no se queda en 0."
+    ],
+    "topic": "III.7",
+    "references": [],
+    "tags": [
+      "javascript",
+      "bucles",
+      "traza-de-codigo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-009",
+    "explanation": "`opositor` es un **diccionario** de Python: se accede a sus valores por clave con corchetes, `opositor['notas']`, y ese valor es una **lista**, `[27, 36, 12]`, cuyos índices **empiezan en 0**. La nota del segundo ejercicio es, por tanto, `opositor['notas'][1]`, que vale 36. A los diccionarios no se accede con la notación de punto (`opositor.notas`).",
+    "option_notes": [
+      "Un diccionario no tiene atributos con el nombre de sus claves, y Value.Item2 no existe en Python.",
+      null,
+      "Key y Value no son atributos de los diccionarios de Python (recuerdan a C#).",
+      "Un diccionario no se invoca como una función, y el índice 2 sería el tercer elemento."
+    ],
+    "topic": "III.2",
+    "references": [
+      "The Python Tutorial: Data Structures"
+    ],
+    "tags": [
+      "python",
+      "diccionarios",
+      "listas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-010",
+    "explanation": "**Keras** es una biblioteca de Python de alto nivel para **aprendizaje automático y redes neuronales (*deep learning*)**; desde TensorFlow 2 es su API principal (`tf.keras`), y Keras 3 funciona también sobre JAX y PyTorch. Otras bibliotecas de *machine learning* en Python: scikit-learn, TensorFlow y PyTorch. Las demás opciones tienen otros fines.",
+    "option_notes": [
+      null,
+      "Yum es el gestor de paquetes de Red Hat y CentOS (hoy dnf), no una biblioteca de Python.",
+      "Mahotas es una biblioteca de visión por computador y procesamiento de imágenes, no de aprendizaje automático.",
+      "Openpyxl sirve para leer y escribir hojas de cálculo de Excel (.xlsx)."
+    ],
+    "topic": "III.2",
+    "references": [
+      "keras.io"
+    ],
+    "tags": [
+      "python",
+      "machine-learning",
+      "bibliotecas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-011",
+    "explanation": "En Java, `String` es **inmutable**: cada concatenación con `+` dentro de un bucle crea un objeto nuevo, lo que penaliza el rendimiento. **`StringBuilder`** (de `java.lang`) es una secuencia de caracteres **mutable**: con `append()` se van añadiendo trozos al mismo objeto y al final se obtiene la cadena con `toString()`. **`StringBuffer`** hace lo mismo, pero está sincronizado (es seguro entre hilos y algo más lento).",
+    "option_notes": [
+      "StringConcat no es una clase de java.lang.",
+      "StringConstruct no existe en Java.",
+      null,
+      "StringCreator no existe en Java."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Java SE API: java.lang.StringBuilder"
+    ],
+    "tags": [
+      "java",
+      "cadenas",
+      "rendimiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-012",
+    "explanation": "En Java, una clase declarada **`final`** **no puede tener subclases**: `final class Ejercicio { … }` impide que otra clase la extienda (como ocurre con `String`). `final` también se aplica a métodos (no pueden sobrescribirse) y a variables (no pueden reasignarse). Desde Java 17 existen además las clases **`sealed`**, que limitan la herencia a una lista de subclases permitidas (`permits`).",
+    "option_notes": [
+      "closed no es una palabra reservada de Java.",
+      null,
+      "Una clase de primer nivel no puede ser private (solo las anidadas), y private no impide la herencia.",
+      "immutable no es una palabra reservada de Java (la inmutabilidad se logra con el diseño: campos final, sin setters…)."
+    ],
+    "topic": "III.4",
+    "references": [
+      "Java Language Specification, §8.1.1.2"
+    ],
+    "tags": [
+      "java",
+      "herencia",
+      "final"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-013",
+    "explanation": "En C#, la instrucción **`using (recurso) { … }`** garantiza que, al salir del bloque —incluso si se produce una excepción—, se llame al método **`Dispose()`** del objeto, que debe implementar **`IDisposable`**; así se cierra la conexión y se liberan los recursos. Equivale a un `try`/`finally` con `Dispose()`. Desde C# 8 también existe la declaración `using var conn = new SqlConnection(cs);`, que libera el recurso al final del ámbito.",
+    "option_notes": [
+      null,
+      "scope no es una instrucción de C#.",
+      "dispose no es una instrucción; Dispose() es el método que using invoca automáticamente.",
+      "internal es un modificador de acceso (visible dentro del ensamblado), no una instrucción para liberar recursos."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Learn: using statement (C#)"
+    ],
+    "tags": [
+      "csharp",
+      "idisposable",
+      "recursos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-014",
+    "explanation": "En C#, los corchetes van **junto al tipo** (`int[] nombre`), no detrás del nombre de la variable como en C. Formas válidas de crear un array de enteros: `int[] a = new int[] {1, 2, 3};`, `int[] a = new[] {1, 2, 3};` (el tipo se infiere de los elementos), `int[] a = {1, 2, 3};` y, desde C# 12, `int[] a = [1, 2, 3];` (expresión de colección). La opción C es la única válida.",
+    "option_notes": [
+      "new {1, 2, 3} intentaría crear un tipo anónimo, que exige nombres de miembro: no compila.",
+      "En C# los corchetes van tras el tipo (int[]), no tras el nombre, y new() no admite así un inicializador de array.",
+      null,
+      "Es sintaxis de C: en C# se escribe int[] arrayEnteros, y new {…} no crea un array."
+    ],
+    "topic": "III.2",
+    "references": [
+      "Microsoft Learn: Arrays (C#)"
+    ],
+    "tags": [
+      "csharp",
+      "arrays"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-015",
+    "explanation": "La **primera forma normal (1FN)** exige que todos los atributos tomen **valores atómicos** (un solo valor por celda) y que no haya grupos repetitivos. El campo **Telefonos** guarda dos números en el mismo registro (`916666666;917777777`): es un **atributo multivaluado**, así que la tabla **no cumple la 1FN** ni, por tanto, ninguna otra forma normal (cada una exige la anterior). Solución: llevar los teléfonos a una tabla aparte, con el NIF como clave ajena.",
+    "option_notes": [
+      "No cumple la 1FN: el campo Telefonos contiene varios valores en una sola celda.",
+      "La 2FN exige estar en 1FN, y la tabla no lo está.",
+      "La 3FN exige estar en 2FN (y por tanto en 1FN), y la tabla ni siquiera está en 1FN.",
+      null
+    ],
+    "topic": "III.1",
+    "references": [],
+    "tags": [
+      "normalizacion",
+      "primera-forma-normal"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-016",
+    "explanation": "La expresión **`CASE`** de SQL estándar devuelve un valor u otro según una condición dentro de un `SELECT`. En su forma simple, `CASE IdFormaAcceso WHEN 'L' THEN 'Ingreso Libre' WHEN 'P' THEN 'Promocion Interna' END`, compara la columna con cada valor; en su forma buscada, `CASE WHEN condición THEN … ELSE … END`, evalúa condiciones. Funciona en Oracle, SQL Server, PostgreSQL o MySQL. `IIF` y `SWITCH` son funciones propias de algunos productos (SQL Server, Access).",
+    "option_notes": [
+      "IF … THEN … ENDIF es una instrucción de control de los lenguajes procedimentales, no una expresión del SELECT en SQL estándar.",
+      null,
+      "SWITCH no es SQL estándar (existe como función en Microsoft Access, con otra sintaxis).",
+      "IIF no es SQL estándar y su sintaxis es IIF(condición, valor_si_cierto, valor_si_falso)."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075 (SQL): CASE expression"
+    ],
+    "tags": [
+      "sql",
+      "case"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-017",
+    "explanation": "Para filtrar **grupos** según el resultado de una función de agregado se usa **`HAVING`**, que se evalúa **después de `GROUP BY`**: `SELECT IdOpositor, COUNT(IdSolicitud) FROM Solicitud GROUP BY IdOpositor HAVING COUNT(IdSolicitud) > 1`. **`WHERE`** filtra **filas** antes de agrupar y no admite funciones de agregado. Orden lógico: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY.",
+    "option_notes": [
+      "WHERE no puede ir detrás de GROUP BY ni usar el alias de un agregado; para filtrar grupos se usa HAVING.",
+      "Una función de agregado no puede ir en WHERE, y además falta el GROUP BY.",
+      "COUNT no puede usarse en WHERE: el filtro sobre los grupos va en HAVING, después de GROUP BY.",
+      null
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075 (SQL): HAVING"
+    ],
+    "tags": [
+      "sql",
+      "group-by",
+      "having"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-018",
+    "explanation": "La sintaxis estándar de modificación es **`UPDATE tabla SET columna = expresión [WHERE condición]`**. Sin `WHERE` se actualizan **todas las filas**, que es lo que se pide: `UPDATE Ejercicio SET Duracion = Duracion * 1.1` aumenta un 10 % la duración de todos los ejercicios. Antes de un `UPDATE` masivo conviene comprobar las filas afectadas con un `SELECT` equivalente o hacerlo dentro de una transacción.",
+    "option_notes": [
+      "Tras UPDATE va el nombre de la tabla y luego SET; la cláusula FROM no forma parte del UPDATE estándar.",
+      null,
+      "UPDATE TABLE y el operador 10% no son SQL; se escribe UPDATE Ejercicio SET Duracion = Duracion * 1.1.",
+      "El operador *= y el FROM son extensiones de Transact-SQL, no ANSI SQL, y falta la tabla tras UPDATE."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075 (SQL): UPDATE"
+    ],
+    "tags": [
+      "sql",
+      "update"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-019",
+    "explanation": "Para buscar por patrón se usa **`LIKE`** con comodines: **`%`** equivale a cualquier secuencia de caracteres (incluso vacía) y **`_`**, a un único carácter. `WHERE DNI LIKE '3%'` devuelve los registros cuyo DNI empieza por 3. Recuerda: `=` compara valores exactos, `IN` compara con una lista de valores y `*` no es comodín en SQL estándar (sí en algunos productos, como Access).",
+    "option_notes": [
+      "3* no es una expresión válida: el asterisco no es comodín en SQL estándar y falta LIKE.",
+      "IN compara con valores exactos: buscaría el DNI '3.' literal, sin comodines.",
+      null,
+      "DNI(3*) no es sintaxis SQL válida."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075 (SQL): LIKE"
+    ],
+    "tags": [
+      "sql",
+      "like"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-020",
+    "explanation": "**`git log`** muestra el **historial de commits** de la rama actual: identificador (*hash*), autor, fecha y mensaje, del más reciente al más antiguo. Opciones útiles: `--oneline` (una línea por commit), `--graph` (dibuja las ramas), `-n 5` (los cinco últimos) y `-p` (muestra los cambios). Los demás comandos tienen otras funciones.",
+    "option_notes": [
+      "git commit crea un commit nuevo; no muestra los anteriores.",
+      "git fetch descarga del remoto objetos y referencias, sin mostrar el historial.",
+      "git status muestra el estado del directorio de trabajo y del área de preparación.",
+      null
+    ],
+    "topic": "III.9",
+    "references": [
+      "git-scm.com: git-log"
+    ],
+    "tags": [
+      "git",
+      "historial"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-r1",
+    "explanation": "`document.getElementById(\"titulo\")` devuelve el elemento `<h1>`; su **primer hijo** (`firstChild`) es el **nodo de texto** «Primer ejercicio TAI», y la propiedad **`nodeValue`** de un nodo de texto contiene ese texto. Formas más habituales hoy: `.textContent`, `.innerText` o `.innerHTML`, sobre el propio elemento. Recuerda que JavaScript distingue mayúsculas: `innerHTML`, no `InnerHTML`.",
+    "option_notes": [
+      null,
+      "document.titulo no da acceso al elemento por su id, y la propiedad se escribe innerHTML (JavaScript distingue mayúsculas).",
+      "document.getElement no existe (sería getElementsByTagName(\"h1\")[0] o querySelector(\"h1\")) y la propiedad es innerText.",
+      "document.children[0] es el elemento <html>, y getValue() no existe en el DOM."
+    ],
+    "topic": "III.7",
+    "references": [
+      "MDN: Node.nodeValue",
+      "MDN: Document.getElementById"
+    ],
+    "tags": [
+      "javascript",
+      "dom"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-r2",
+    "explanation": "**Jest** es un *framework* de **pruebas para JavaScript** y TypeScript, creado por Meta: permite escribir pruebas unitarias con `describe`, `test`/`it` y `expect`, crear *mocks*, medir la cobertura de código y hacer pruebas de instantánea (*snapshot*). Se usa mucho con React y Node.js. Alternativas: Vitest, Mocha o Jasmine.",
+    "option_notes": [
+      null,
+      "Jest no es de machine learning (para eso existe, por ejemplo, TensorFlow.js).",
+      "Jest no es de animación ni de efectos gráficos (como GSAP o anime.js).",
+      "Jest no es una biblioteca de funciones matemáticas ni de cadenas (como Lodash)."
+    ],
+    "topic": "III.9",
+    "references": [
+      "jestjs.io"
+    ],
+    "tags": [
+      "javascript",
+      "pruebas-unitarias",
+      "jest"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-r3",
+    "explanation": "**Django** es un *framework* de **desarrollo web en Python**, de alto nivel y de código abierto: sigue el patrón **MTV** (Modelo-Plantilla-Vista, variante de MVC) e incluye ORM, panel de administración automático, autenticación, formularios y protección frente a ataques comunes (CSRF, XSS, inyección SQL). Otros *frameworks* web de Python: Flask y FastAPI. Las demás opciones tienen otros fines.",
+    "option_notes": [
+      null,
+      "Keras es una biblioteca de deep learning, no un framework web.",
+      "pip es el gestor de paquetes de Python.",
+      "NumPy es la biblioteca de cálculo numérico con arrays multidimensionales."
+    ],
+    "topic": "III.7",
+    "references": [
+      "djangoproject.com"
+    ],
+    "tags": [
+      "python",
+      "frameworks-web",
+      "django"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-r4",
+    "explanation": "Con varios **`<source>`** dentro de `<video>`, el navegador los recorre en orden y **reproduce el primero cuyo formato admite**: si soporta MP4, carga `movie.mp4` y no descarga el OGG. El texto interior («No soportado») solo lo muestran los navegadores que **no reconocen el elemento `<video>`**. El atributo `controls` añade los controles de reproducción, y `width` y `height` fijan el tamaño del reproductor.",
+    "option_notes": [
+      "No se muestran los dos: el navegador elige solo la primera fuente que puede reproducir.",
+      "El texto alternativo solo aparece en navegadores que no admiten el elemento video, no en todos los casos.",
+      null,
+      "El código es HTML5 válido: <source> es un elemento vacío que no necesita cierre."
+    ],
+    "topic": "III.7",
+    "references": [
+      "WHATWG HTML Living Standard: the video element"
+    ],
+    "tags": [
+      "html5",
+      "multimedia",
+      "video"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s1-r5",
+    "explanation": "Es una **inyección SQL**: si la aplicación concatena la entrada en la consulta (`… WHERE numero = ` + entrada), el texto `100 OR 1=1` la convierte en `WHERE numero = 100 OR 1=1`, una condición **siempre verdadera** que devuelve todos los registros. Se previene con **consultas parametrizadas** (sentencias preparadas), validación de las entradas, mínimos privilegios en la cuenta de base de datos y sin mostrar los errores SQL al usuario.",
+    "option_notes": [
+      "Una denegación de servicio busca agotar recursos para dejar el servicio inaccesible, no extraer datos con una consulta manipulada.",
+      "El phishing engaña al usuario (con correos o webs falsos) para robarle credenciales; aquí se manipula una consulta SQL.",
+      "No se instala ningún software malicioso: se inyecta código SQL en un campo del formulario.",
+      null
+    ],
+    "topic": "III.8",
+    "references": [
+      "OWASP SQL Injection Prevention Cheat Sheet"
+    ],
+    "tags": [
+      "inyeccion-sql",
+      "seguridad-web"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-001",
+    "explanation": "La máscara **255.255.255.128** tiene en binario 24 unos en los tres primeros octetos y 1 en el cuarto (128 = `10000000`): **25 bits**, es decir, **/25**. Equivalencias para memorizar en el último octeto: 128 → /25, 192 → /26, 224 → /27, 240 → /28, 248 → /29 y 252 → /30. Una /25 tiene 128 direcciones (126 hosts).",
+    "option_notes": [
+      "/24 sería 255.255.255.0.",
+      "/26 sería 255.255.255.192.",
+      null,
+      "/23 sería 255.255.254.0."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 4632"
+    ],
+    "tags": [
+      "subnetting",
+      "mascaras",
+      "ipv4"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-002",
+    "explanation": "En el direccionamiento con clases, la clase se determina por el **primer octeto**: **A = 1–126**, B = 128–191, C = 192–223, D = 224–239 (multidifusión) y E = 240–255. 10.0.4.0 empieza por 10, así que es de **clase A**; además, pertenece al rango **privado 10.0.0.0/8** (RFC 1918). Hoy se usa CIDR (aquí, una /25), pero la pregunta por la clase sigue cayendo.",
+    "option_notes": [
+      null,
+      "La clase B va de 128 a 191 en el primer octeto.",
+      "La clase C va de 192 a 223 en el primer octeto.",
+      "La clase D (224-239) es para multidifusión."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 791",
+      "RFC 1918"
+    ],
+    "tags": [
+      "ipv4",
+      "clases-de-direcciones"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-003",
+    "explanation": "Con **/21** quedan **32 − 21 = 11 bits de host**: 2¹¹ = 2048 direcciones, menos la de red y la de *broadcast*: **2046 hosts**. Para la CHT (5 áreas × 50 personas = 250 puestos) hay de sobra. Fórmula: **hosts = 2ⁿ − 2**, con n = bits de host.",
+    "option_notes": [
+      "1024 es 2^10 (y ni siquiera resta red y broadcast); con /21 hay 11 bits de host.",
+      null,
+      "32 son las direcciones de una /27.",
+      "256 son las direcciones de una /24."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 4632"
+    ],
+    "tags": [
+      "subnetting",
+      "ipv4"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-004",
+    "explanation": "Una **/21** abarca **8 bloques /24** consecutivos en el tercer octeto (2³ = 8): de 10.0.0.0 a **10.0.7.255**. La dirección de red es 10.0.0.0, la de *broadcast* 10.0.7.255 y el rango de hosts va de **10.0.0.1 a 10.0.7.254**. Truco: en el octeto que cambia, el bloque es 256 − 248 = 8 (máscara 255.255.248.0).",
+    "option_notes": [
+      "Es solo una parte del rango (10.0.3.x); la /21 llega hasta 10.0.7.254.",
+      "Ese sería el rango de una /24 (10.0.0.0/24), no el de la /21.",
+      "Es un bloque /24 (10.0.3.x) e incluye su red y su broadcast; no es el rango de hosts de la /21.",
+      null
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 4632"
+    ],
+    "tags": [
+      "subnetting",
+      "ipv4"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-005",
+    "explanation": "En RHEL y sus derivados, el fichero **`/etc/redhat-release`** contiene la versión del sistema (por ejemplo, «Red Hat Enterprise Linux release 8.8 (Ootpa)»), que se muestra con **`cat`**. Alternativas: `cat /etc/os-release` (estándar en las distribuciones con systemd), `hostnamectl` o `rpm -q redhat-release`. Ojo con las opciones peligrosas: `rm -f` borraría el fichero.",
+    "option_notes": [
+      "rm -f borraría el fichero /etc/redhat-release sin pedir confirmación; no muestra nada.",
+      "El fichero se llama redhat-release, no redhat-version.",
+      null,
+      "mv mueve o renombra ficheros (y aquí le falta el destino); no muestra su contenido."
+    ],
+    "topic": "IV.1",
+    "references": [],
+    "tags": [
+      "linux",
+      "rhel",
+      "version-del-sistema"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-006",
+    "explanation": "En **Solaris**, `route -p add -net <red>/<prefijo> -gateway <IP>` añade una ruta **persistente**: la opción **`-p`** hace que se guarde en `/etc/inet/static_routes` y se restaure en cada arranque. Sin `-p`, la ruta solo dura hasta el siguiente reinicio. En Linux, la ruta persistente se configura, por ejemplo, con NetworkManager (`nmcli`).",
+    "option_notes": [
+      null,
+      "route no tiene un subcomando new; la sintaxis es route -p add.",
+      "-static no es la opción de persistencia de Solaris; es -p.",
+      "-static no hace persistente la ruta en Solaris; la opción es -p, antes de add."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Oracle Solaris: route(1M)"
+    ],
+    "tags": [
+      "solaris",
+      "enrutamiento",
+      "rutas-estaticas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-007",
+    "explanation": "En Linux, los **hashes de las contraseñas** se guardan en **`/etc/shadow`**, legible solo por root, junto con los datos de caducidad (último cambio, días mínimos y máximos, aviso…). **`/etc/passwd`** es legible por todos y contiene las cuentas (usuario, UID, GID, directorio personal, *shell*), con una `x` en lugar de la contraseña. Los grupos están en `/etc/group`, y sus contraseñas, en `/etc/gshadow`.",
+    "option_notes": [
+      "/etc/passwd contiene las cuentas, pero en el campo de contraseña solo hay una x: el hash está en /etc/shadow.",
+      "/etc/users no existe en Linux.",
+      null,
+      "El fichero de grupos es /etc/group (sin s), y no guarda las contraseñas de los usuarios."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "man 5 shadow"
+    ],
+    "tags": [
+      "linux",
+      "usuarios",
+      "contrasenas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-008",
+    "explanation": "En Oracle, la vista dinámica **`V$VERSION`** muestra la versión de la base de datos y de sus componentes (`SELECT banner FROM v$version;`). Las vistas `V$` son vistas de rendimiento dinámico. Otras formas: `SELECT * FROM product_component_version;` o, desde la versión 18c, la columna `banner_full` de `v$version`. Las demás vistas no existen.",
+    "option_notes": [
+      null,
+      "V$VERSIONADO no existe en Oracle.",
+      "V$VERSIONDB no existe en Oracle.",
+      "V$VERSIONTABLE no existe en Oracle."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "Oracle Database Reference: V$VERSION"
+    ],
+    "tags": [
+      "oracle",
+      "administracion-de-bases-de-datos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-009",
+    "explanation": "Con **`tar`**: **`-c`** crea el archivo, **`-z`** lo comprime con **gzip** y **`-f`** indica el nombre del fichero de salida, que va justo detrás: `tar -czf TEMAS.tar.gz /home/opositor/temas/`. Primero se indica el archivo y después lo que se incluye. Para extraer: `tar -xzf TEMAS.tar.gz`. Con `-j` se comprime con bzip2 (`.tar.bz2`), y con `-J`, con xz.",
+    "option_notes": [
+      null,
+      "-x extrae; no crea la copia.",
+      "-x extrae y, además, el orden de los argumentos está invertido.",
+      "-j comprime con bzip2, no con gzip, y el orden de los argumentos está invertido."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "GNU tar manual"
+    ],
+    "tags": [
+      "linux",
+      "tar",
+      "backup"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-010",
+    "explanation": "**`net localgroup <grupo>`** muestra los miembros de un grupo local de Windows; sin argumentos lista todos los grupos locales. En un Windows en español el grupo se llama **Administradores** (en inglés, *Administrators*); de ahí `net localgroup administradores`. Para añadir un usuario: `net localgroup administradores usuario /add`. En PowerShell: `Get-LocalGroupMember -Group Administradores`.",
+    "option_notes": [
+      "net local no es un subcomando de net; el correcto es localgroup.",
+      "El grupo no se llama admin, sino Administradores (Administrators en inglés).",
+      "net local no existe y el grupo no se llama admin.",
+      null
+    ],
+    "topic": "IV.4",
+    "references": [
+      "Microsoft Learn: net localgroup"
+    ],
+    "tags": [
+      "windows",
+      "usuarios",
+      "grupos-locales"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-011",
+    "explanation": "**`net accounts`** muestra (y permite cambiar) la **política de cuentas y contraseñas** del equipo: duración mínima y máxima de la contraseña, longitud mínima, historial, umbral y duración del bloqueo, etc. Por ejemplo, `net accounts /minpwlen:12` fija la longitud mínima. En un dominio, estas políticas se definen con GPO.",
+    "option_notes": [
+      "net computer añade o quita equipos de la base de datos del dominio.",
+      "net localgroup muestra o gestiona los grupos locales y sus miembros.",
+      "net config muestra la configuración de los servicios Servidor o Estación de trabajo.",
+      null
+    ],
+    "topic": "IV.4",
+    "references": [
+      "Microsoft Learn: net accounts"
+    ],
+    "tags": [
+      "windows",
+      "politicas-de-contrasenas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-012",
+    "explanation": "**RAID 6** reserva el equivalente a **dos discos para la doble paridad**, así que la capacidad neta es **(n − 2) × tamaño**: (5 − 2) × 6 TB = **18 TB**, y tolera el fallo de dos discos. Con los mismos 5 discos: RAID 0 = 30 TB (sin protección) y RAID 5 = (n − 1) × 6 = 24 TB; en espejo (RAID 1 o 10) se obtiene la mitad de la capacidad, y RAID 10 necesita un número par de discos.",
+    "option_notes": [
+      "12 TB sería (n − 3) × 6; RAID 6 solo descuenta dos discos de paridad.",
+      null,
+      "24 TB es la capacidad de un RAID 5 con 5 discos (n − 1).",
+      "30 TB es la suma de todos los discos: sería un RAID 0, sin paridad."
+    ],
+    "topic": "IV.2",
+    "references": [],
+    "tags": [
+      "raid",
+      "almacenamiento",
+      "capacidad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-013",
+    "explanation": "**`docker run <imagen>`** **crea un contenedor nuevo a partir de una imagen y lo arranca** (y la descarga si no está en local). **`docker start`** solo arranca un contenedor que **ya existe** y está parado, indicando su nombre o ID, no una imagen. Matices prácticos: los nombres de imagen deben ir en minúsculas, y las imágenes de contenedores de Windows parten de Windows Server 2016, así que el escenario es solo ilustrativo.",
+    "option_notes": [
+      null,
+      "docker start arranca un contenedor existente; no crea uno a partir de una imagen.",
+      "La sintaxis es docker <subcomando>; «start docker» no es un comando de Docker.",
+      "No existe el subcomando «start run»: o run (crear y arrancar) o start (arrancar uno existente)."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "Docker Docs: docker container run"
+    ],
+    "tags": [
+      "docker",
+      "contenedores"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-014",
+    "explanation": "**`docker ps`** lista solo los contenedores **en ejecución**; con **`-a`** (`--all`) muestra **todos**, incluidos los parados o los que fallaron al arrancar, con su estado (`Exited (1)…`). Su equivalente moderno es `docker container ls -a`. Para ver por qué ha fallado uno: `docker logs <contenedor>`.",
+    "option_notes": [
+      "Sin -a, docker ps solo muestra los contenedores en ejecución.",
+      null,
+      "docker list no es un comando de Docker.",
+      "docker list-container no existe; la opción para ver todos es -a (--all) de docker ps."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "Docker Docs: docker container ls"
+    ],
+    "tags": [
+      "docker",
+      "contenedores"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-015",
+    "explanation": "Si la sonda se alimenta por **PoE** (*Power over Ethernet*), se puede **encender y apagar de forma remota activando o desactivando el puerto del switch**. Con unos 70 W hace falta **IEEE 802.3bt** (PoE++), cuyo tipo 4 entrega hasta **≈ 71 W** al dispositivo (90 W en el switch). Escala de PoE en el dispositivo: **802.3af** ≈ 13 W, **802.3at** (PoE+) ≈ 25,5 W y **802.3bt** ≈ 51 W (tipo 3) o ≈ 71 W (tipo 4).",
+    "option_notes": [
+      "Sí es posible: con PoE 802.3bt el switch alimenta el equipo y puede darle o cortarle la corriente de forma remota.",
+      "802.3ct no es una norma de PoE: trata de Ethernet a 100 Gb/s sobre sistemas DWDM.",
+      null,
+      "802.3dt no corresponde a ninguna norma de PoE publicada; la que llega a unos 70 W es la 802.3bt."
+    ],
+    "topic": "IV.10",
+    "references": [
+      "IEEE 802.3bt-2018"
+    ],
+    "tags": [
+      "poe",
+      "ethernet",
+      "alimentacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-016",
+    "explanation": "Para Ethernet de **25 o 40 Gbps sobre par trenzado** (25GBASE-T y 40GBASE-T), la norma ANSI/TIA-568 exige **Categoría 8** (hasta 2000 MHz), con una distancia máxima de unos **30 m**, pensada para los CPD. Escala: **Cat 5e** → 1 Gbps; **Cat 6** → 1 Gbps (10 Gbps hasta unos 55 m); **Cat 6A** → 10 Gbps a 100 m; **Cat 8** → 25/40 Gbps. Las categorías 7 y 7A no las reconoce TIA: son las clases F y FA de ISO/IEC 11801.",
+    "option_notes": [
+      "Cat 6 llega a 10 Gbps solo en tramos cortos (unos 55 m); no admite 30 Gbps.",
+      "Cat 7 (clase F de ISO) no está reconocida en TIA-568 y está pensada para 10 Gbps.",
+      "Cat 7A (clase FA de ISO) tampoco está en TIA-568 y no se usa para 25/40GBASE-T.",
+      null
+    ],
+    "topic": "IV.6",
+    "references": [
+      "ANSI/TIA-568.2-D",
+      "IEEE 802.3bq (25G/40GBASE-T)"
+    ],
+    "tags": [
+      "cableado",
+      "par-trenzado",
+      "categorias"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-017",
+    "explanation": "Para activar el Firewall de Windows Defender en **todos los perfiles** (dominio, privado y público): **`netsh advfirewall set allprofiles state on`**. La sintaxis es `set <perfil> state on|off`; con `currentprofile` solo se actuaría sobre el perfil activo. En PowerShell: `Set-NetFirewallProfile -Profile Domain,Private,Public -Enabled True`.",
+    "option_notes": [
+      "enable no es un valor válido: hay que escribir state on.",
+      null,
+      "El valor es on (u off), no online.",
+      "Falta el parámetro state: set allprofiles state on."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "Microsoft Learn: netsh advfirewall"
+    ],
+    "tags": [
+      "windows",
+      "firewall",
+      "netsh"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-018",
+    "explanation": "Según la guía **NIST SP 800-94**, hay cuatro tipos de IDPS: de **red** (NIDPS), **inalámbricos** (WIDPS), de **análisis del comportamiento de la red** (**NBA**, *Network Behavior Analysis*) y **de host** (HIDPS). El **NBA** examina el tráfico para detectar **flujos inusuales**: ataques de **denegación de servicio**, cierto **malware** (gusanos, *backdoors*) y violaciones de la política. Es justo lo que se pide.",
+    "option_notes": [
+      "«DIPS» no es uno de los tipos de IDPS de NIST SP 800-94.",
+      "Un WIPS vigila el tráfico de las redes inalámbricas y sus protocolos, no el comportamiento de toda la red.",
+      null,
+      "Un HIPS protege un solo equipo (host) vigilando su actividad, no el tráfico de la red."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "NIST SP 800-94"
+    ],
+    "tags": [
+      "ips",
+      "deteccion-de-intrusiones",
+      "seguridad-de-red"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-019",
+    "explanation": "**SMTPS** (SMTP sobre TLS implícito) usa el **puerto 465**, que la RFC 8314 (2018) recuperó como puerto de envío de correo con TLS desde el primer momento (*submissions*). Otras opciones: el **587** (*submission*) con STARTTLS y el **25** para la transferencia entre servidores. Correo seguro de lectura: IMAPS 993 y POP3S 995.",
+    "option_notes": [
+      "25 es el puerto de SMTP entre servidores, sin TLS implícito.",
+      null,
+      "443 es el puerto de HTTPS.",
+      "425 no es el puerto de SMTPS."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "RFC 8314"
+    ],
+    "tags": [
+      "correo",
+      "smtps",
+      "puertos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-020",
+    "explanation": "En Windows, **`ipconfig /flushdns`** vacía la **caché de resolución DNS** del cliente. Otras opciones de `ipconfig`: `/displaydns` (ver la caché), `/registerdns`, `/release` y `/renew` (DHCP) y `/all`. En PowerShell: `Clear-DnsClientCache`. **`ifconfig`** es el comando clásico de Unix y Linux para configurar interfaces y no tiene esas opciones.",
+    "option_notes": [
+      "ifconfig es un comando de Unix y Linux; en Windows se usa ipconfig.",
+      null,
+      "ipconfig no tiene la opción /cleardns; es /flushdns.",
+      "ifconfig no existe en Windows y /cleardns no es una opción válida."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "Microsoft Learn: ipconfig"
+    ],
+    "tags": [
+      "windows",
+      "dns",
+      "diagnostico-de-red"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-r1",
+    "explanation": "Las reglas del Firewall de Windows se crean con **`netsh advfirewall firewall add rule`**, indicando `name`, `dir` (`in`/`out`), **`action=allow`** (o `block`, `bypass`), `protocol` y `localport`: `netsh advfirewall firewall add rule name=\"Inventariado\" dir=in action=allow protocol=TCP localport=4433`. Para modificarla se usa `set rule … new …`, y para borrarla, `delete rule name=\"Inventariado\"`.",
+    "option_notes": [
+      "El verbo es add, no create.",
+      "La acción de permitir se escribe allow, no permit.",
+      null,
+      "El verbo es add, no new."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "Microsoft Learn: netsh advfirewall firewall"
+    ],
+    "tags": [
+      "windows",
+      "firewall",
+      "netsh"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-r2",
+    "explanation": "**`nc -v 10.0.4.22 422`** intenta abrir una conexión TCP con el puerto 422 del destino e informa (`-v`) de si se establece: si el puerto está abierto, verás un mensaje como «Connected to…». La sintaxis de netcat es **`nc [opciones] host puerto`**; con `-z` solo comprueba la conexión sin enviar datos y con `-w` fija un tiempo de espera.",
+    "option_notes": [
+      "netcat no usa opciones «- ip» ni «-port»: el host y el puerto se pasan como argumentos.",
+      null,
+      "El orden es primero el host y después el puerto.",
+      "netcat no acepta la notación host:puerto; se separan con un espacio."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "man 1 ncat"
+    ],
+    "tags": [
+      "linux",
+      "netcat",
+      "diagnostico-de-red"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-r3",
+    "explanation": "Los equipos Windows con el disco cifrado usan **BitLocker**. Para acceder a un volumen cifrado cuando no se dispone del desbloqueo habitual (TPM, PIN) —por ejemplo, al restaurar o recuperar el equipo— se necesita la **clave de recuperación de BitLocker**, de 48 dígitos, que puede estar guardada en Active Directory, en Microsoft Entra ID, en la cuenta Microsoft, en un fichero o impresa. Por eso conviene custodiarla antes de cualquier intervención.",
+    "option_notes": [
+      "Un certificado digital no desbloquea un volumen cifrado con BitLocker.",
+      null,
+      "«La clave privada» es un término genérico de la criptografía asimétrica; BitLocker necesita su clave de recuperación.",
+      "Una clave de sesión es temporal y cifra una comunicación, no un disco."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "Microsoft Learn: BitLocker recovery overview"
+    ],
+    "tags": [
+      "bitlocker",
+      "cifrado",
+      "windows"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-r4",
+    "explanation": "**RAID 10** (1+0) combina espejo y *striping*: los discos se agrupan **por pares en espejo (RAID 1)** y los datos se reparten entre los pares (RAID 0). Por eso necesita **al menos 4 discos**, y en número par. Ofrece buen rendimiento y tolera el fallo de un disco por cada par; su capacidad útil es la **mitad** del total.",
+    "option_notes": [
+      "Con 2 discos solo se puede montar un RAID 1 (espejo) o un RAID 0.",
+      "Con 3 discos no se pueden formar dos pares en espejo; RAID 10 necesita al menos 4.",
+      null,
+      "No es indiferente: RAID 10 exige un mínimo de 4 discos, en número par."
+    ],
+    "topic": "IV.2",
+    "references": [],
+    "tags": [
+      "raid",
+      "almacenamiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-li-2021-p2-s2-r5",
+    "explanation": "**SSH** (*Secure Shell*) usa por defecto el **puerto 22/TCP**: acceso remoto cifrado a la consola, transferencia de ficheros (SCP, SFTP) y túneles. De los otros puertos de la lista: el **21** es el de control de FTP y el **69**, el de TFTP (sobre UDP); el 63 no corresponde a ningún servicio habitual. Por seguridad, se recomienda autenticarse con claves y deshabilitar el acceso directo de root.",
+    "option_notes": [
+      "21 es el puerto de control de FTP.",
+      "63 no es el puerto de SSH ni de ningún servicio habitual.",
+      "69 es el puerto de TFTP (UDP).",
+      null
+    ],
+    "topic": "IV.9",
+    "references": [
+      "RFC 4253",
+      "IANA Service Name and Transport Protocol Port Number Registry"
+    ],
+    "tags": [
+      "ssh",
+      "puertos",
+      "acceso-remoto"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  }
+]

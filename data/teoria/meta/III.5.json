@@ -1,0 +1,63 @@
+{
+  "topic": "III.5",
+  "summary": "Plataformas Java/Jakarta EE y .NET comparadas: JVM y CLR, evolución hasta Jakarta EE 11 y .NET 10, arquitectura multicapa, contenedores y perfiles, especificaciones (Servlet, Faces, CDI, EJB, REST), MicroProfile y Spring Boot, persistencia (JDBC, Jakarta Persistence, ADO.NET, EF Core), seguridad, lenguajes (C#, F#, VB) y desarrollo de interfaces de escritorio, web y móviles.",
+  "key_points": [
+    "JVM ejecuta bytecode con JIT y recolector de basura; Java 25 es la LTS vigente y Java 27 salió en septiembre de 2026.",
+    "Java EE pasó a la Eclipse Foundation como Jakarta EE; EE 9 cambió javax.* por jakarta.*; Jakarta EE 11 (junio de 2025) exige Java 17 e incorpora Jakarta Data.",
+    "Capas de Jakarta EE: cliente, web (Servlet, Pages, Faces), negocio (EJB, CDI) y EIS; perfiles Platform, Web y Core; MicroProfile para microservicios.",
+    "JDBC: DataSource por JNDI (javax.naming, javax.sql), PreparedStatement precompilada y parametrizada; cuatro tipos de driver (el tipo 3 usa middleware).",
+    "Jakarta Persistence es una especificación que necesita proveedor (Hibernate, EclipseLink): @Entity, EntityManager y JPQL; su homólogo en .NET es Entity Framework Core.",
+    ".NET: .NET Framework (Windows) → .NET Core → .NET 5+; LTS en versiones pares (.NET 10, noviembre de 2025, C# 14); STS con 24 meses desde .NET 9.",
+    "CLR: JIT, recolección de basura y excepciones; CIL, CTS, CLS y BCL; ensamblados .dll cargados bajo demanda; NuGet es el gestor de paquetes (dotnet add package o dotnet package add).",
+    "Lenguajes de .NET: C#, F# (let, inmutable por defecto) y Visual Basic; ADO.NET para acceso a datos y EF Core como ORM con LINQ.",
+    "Modelos de aplicación .NET: ASP.NET Core (MVC, Razor Pages, Web API, Blazor), WinForms, WPF y .NET MAUI multiplataforma con C# y XAML.",
+    "Seguridad: @RolesAllowed, Jakarta Security y MicroProfile JWT en Java; [Authorize], ASP.NET Core Identity, JWT Bearer y Microsoft Entra ID en .NET."
+  ],
+  "sources": [
+    {
+      "title": "Jakarta EE Platform 11",
+      "url": "https://jakarta.ee/specifications/platform/11/"
+    },
+    {
+      "title": "Eclipse MicroProfile",
+      "url": "https://microprofile.io/"
+    },
+    {
+      "title": "Oracle · Java SE Specifications",
+      "url": "https://docs.oracle.com/javase/specs/"
+    },
+    {
+      "title": "Spring · Release highlights",
+      "url": "https://spring.io/projects/release-highlights/"
+    },
+    {
+      "title": "Microsoft Learn · Introducción a .NET",
+      "url": "https://learn.microsoft.com/es-es/dotnet/core/introduction"
+    },
+    {
+      "title": ".NET · Política de soporte",
+      "url": "https://dotnet.microsoft.com/es-es/platform/support/policy/dotnet-core"
+    },
+    {
+      "title": ".NET Blog · STS releases supported for 24 months",
+      "url": "https://devblogs.microsoft.com/dotnet/dotnet-sts-releases-supported-for-24-months/"
+    },
+    {
+      "title": "Microsoft Learn · Novedades de C# 14",
+      "url": "https://learn.microsoft.com/es-es/dotnet/csharp/whats-new/csharp-14"
+    },
+    {
+      "title": "Microsoft Learn · Ensamblados en .NET",
+      "url": "https://learn.microsoft.com/es-es/dotnet/standard/assembly/"
+    },
+    {
+      "title": "Microsoft Learn · Entity Framework Core",
+      "url": "https://learn.microsoft.com/es-es/ef/core/"
+    },
+    {
+      "title": "Ecma International · ECMA-335 Common Language Infrastructure",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-335/"
+    }
+  ],
+  "updated": "2026-10-11"
+}

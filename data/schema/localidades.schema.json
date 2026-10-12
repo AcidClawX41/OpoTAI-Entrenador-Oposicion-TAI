@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "opotai/localidades.schema.json",
+  "title": "OpoTAI · Clasificación de localidades (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source", "population_year", "tiers", "localities"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url"],
+      "properties": { "title": { "type": "string" }, "url": { "type": "string" } }
+    },
+    "population_year": { "type": "integer" },
+    "tiers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "order", "label", "description"],
+        "properties": {
+          "id": { "enum": ["gran_ciudad", "ciudad_media", "pueblo"] },
+          "order": { "type": "integer", "minimum": 1 },
+          "label": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "localities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "province", "population", "is_provincial_capital", "tier"],
+        "properties": {
+          "name": { "type": "string" },
+          "province": { "type": "string" },
+          "population": { "type": ["integer", "null"], "minimum": 0 },
+          "is_provincial_capital": { "type": "boolean" },
+          "tier": { "enum": ["gran_ciudad", "ciudad_media", "pueblo"] }
+        }
+      }
+    }
+  }
+}

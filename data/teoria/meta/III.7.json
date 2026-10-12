@@ -1,0 +1,59 @@
+{
+  "topic": "III.7",
+  "summary": "Aplicaciones web y sus modelos (MPA, SPA, SSR, PWA), desarrollo front-end con HTML, CSS (selectores, especificidad, Flexbox, Grid, unidades) y JavaScript/TypeScript (DOM, fetch, JSON, Angular), back-end (PHP, Python, Ruby on Rails, Node.js, Go), diseño responsivo y aplicaciones móviles, XML (bien formado, DTD, XSD, XPath, XSLT) y XHTML, JSON, navegadores y sus motores, y lenguajes de script.",
+  "key_points": [
+    "SSR genera el HTML en el servidor; SPA actualiza una sola página con JavaScript; PWA añade manifiesto y service worker para instalarse y funcionar sin conexión.",
+    "HTML Living Standard del WHATWG es la única especificación de HTML desde 2019; <!DOCTYPE html> va en la primera línea, antes de <html>.",
+    "Formularios HTML5: required hace obligatorio un campo y maxlength limita caracteres; <th> es la celda de encabezado; el vídeo reproduce la primera fuente soportada.",
+    "Especificidad CSS (a, b, c): identificadores; clases, atributos y pseudoclases; elementos y pseudoelementos (input:required = 0-1-1); li > a selecciona hijos directos.",
+    "Unidades CSS absolutas: px, cm, mm, Q, in, pt, pc; relativas: %, em, rem, ex, ch, vw, vh; Sass, Less y Stylus son preprocesadores.",
+    "JavaScript (ECMA-262, ECMAScript 2026): débilmente tipado, basado en prototipos y con funciones de primera clase; == convierte tipos y === no; let tiene ámbito de bloque.",
+    "Angular: interpolación {{ }}, propiedad [ ], evento ( ) y enlace bidireccional [(ngModel)]; pipe date con 'dd/MM/yyyy HH:mm'.",
+    "XML bien formado: un solo elemento raíz, cierres con la misma capitalización, atributos entre comillas y comentarios <!-- -->; válido si además cumple una DTD o un XSD.",
+    "XHTML exige cerrar todos los elementos, minúsculas, comillas y <head> y <body>; JSON (RFC 8259): objetos, arrays, cadenas con comillas dobles, números, true, false y null.",
+    "Motores: Blink/V8 (Chrome, Edge), Gecko/SpiderMonkey (Firefox), WebKit/JavaScriptCore (Safari); JavaScript y WebAssembly son los lenguajes nativos del navegador."
+  ],
+  "sources": [
+    {
+      "title": "WHATWG · HTML Living Standard",
+      "url": "https://html.spec.whatwg.org/multipage/"
+    },
+    {
+      "title": "WHATWG · DOM Living Standard",
+      "url": "https://dom.spec.whatwg.org/"
+    },
+    {
+      "title": "W3C · Selectors Level 4 (especificidad)",
+      "url": "https://www.w3.org/TR/selectors-4/#specificity-rules"
+    },
+    {
+      "title": "W3C · CSS Values and Units Module Level 4",
+      "url": "https://www.w3.org/TR/css-values-4/"
+    },
+    {
+      "title": "Ecma International · ECMA-262",
+      "url": "https://262.ecma-international.org/"
+    },
+    {
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/es/docs/Web"
+    },
+    {
+      "title": "W3C · XML 1.0 (Fifth Edition)",
+      "url": "https://www.w3.org/TR/xml/"
+    },
+    {
+      "title": "W3C · XML Schema 1.1 Part 1: Structures",
+      "url": "https://www.w3.org/TR/xmlschema11-1/"
+    },
+    {
+      "title": "RFC 8259, JSON",
+      "url": "https://www.rfc-editor.org/rfc/rfc8259"
+    },
+    {
+      "title": "Angular · Templates",
+      "url": "https://angular.dev/guide/templates"
+    }
+  ],
+  "updated": "2026-10-11"
+}

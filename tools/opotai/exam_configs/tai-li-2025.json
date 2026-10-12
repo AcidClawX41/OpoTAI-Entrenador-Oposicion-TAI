@@ -1,0 +1,205 @@
+{
+  "bank_id": "tai-li-2025",
+  "title": "TAI · Ingreso libre · Convocatoria 2025 (examen 23/05/2026)",
+  "description": "Ejercicio único del proceso selectivo de ingreso libre en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2025). Primera parte: cuestionario de 80 preguntas (+5 de reserva). Segunda parte: un supuesto práctico a elegir entre dos (bloques III y IV), de 20 preguntas (+5 de reserva) cada uno. Cuadernillo modelo A.",
+  "access": "libre",
+  "year": 2025,
+  "convocatoria": "li-2025",
+  "exam_date": "2026-05-23",
+  "model": "A",
+  "duration_minutes": 120,
+  "scoring_scheme": "tai-li-2025",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "provisional",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 18 de diciembre de 2025 de la Secretaría de Estado de Función Pública (BOE 22/12/2025). Transcripción del cuadernillo modelo A con la plantilla PROVISIONAL modelo A (versión «actualizada» publicada por el INAP); a 11/10/2026 no se ha publicado la plantilla definitiva: las respuestas pueden cambiar y deben revisarse cuando se publique. El bloque de cada supuesto se asigna por su contenido (bloque III: desarrollo de sistemas; bloque IV: sistemas y comunicaciones), de acuerdo con las normas de la convocatoria (se ofrecen dos supuestos, uno de cada bloque). Verificado contra el modelo B con su plantilla provisional.",
+    "documents": [
+      "cuadernillo-A.pdf",
+      "plantilla-provisional-A.pdf",
+      "criterios.pdf",
+      "cuadernillo-B.pdf",
+      "plantilla-provisional-B.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primera parte · Cuestionario",
+      "block": null,
+      "questions": 80,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto I",
+      "block": "III",
+      "questions": 20,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segunda parte · Supuesto II",
+      "block": "IV",
+      "questions": 20,
+      "reserve": 5
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo-A.pdf",
+      "bottom": 793,
+      "ignore": [
+        "^\\d{4} - TAI-L \\(MODELO A\\)$",
+        "^Página \\d+ de \\d+$"
+      ],
+      "markers": [
+        {
+          "pattern": "^PRIMERA PARTE$",
+          "section": "p1"
+        },
+        {
+          "pattern": "^SUPUESTO I$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "^SUPUESTO II$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "^Preguntas de reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "spot_checks": {
+    "p1-007": "D",
+    "p1-023": "A",
+    "p1-027": "B",
+    "p1-031": "C",
+    "p1-033": "D",
+    "p1-043": "C",
+    "p1-045": "B",
+    "p1-060": "B",
+    "p1-064": "A",
+    "p1-076": "C",
+    "p2-s1-002": "B",
+    "p2-s1-003": "C",
+    "p2-s1-007": "C",
+    "p2-s1-014": "A",
+    "p2-s1-016": "B",
+    "p2-s2-001": "D",
+    "p2-s2-002": "C",
+    "p2-s2-006": "A",
+    "p2-s2-008": "B",
+    "p2-s2-009": "D",
+    "p2-s2-017": "D"
+  },
+  "figures": {
+    "p2-s1-statement-1": {
+      "alt": "Modelo de datos de EDUCA-DATA 2030: entidades CENTRO_EDUCATIVO, PROGRAMA_FORMATIVO, ALUMNO, MATRICULA e INDICADOR con sus claves primarias (PK) y foráneas (FK), atributos y cardinalidades de las relaciones.",
+      "transcription": [
+        "*Transcripción del modelo de datos:*",
+        "",
+        "| Entidad | Atributos |",
+        "|---|---|",
+        "| CENTRO_EDUCATIVO | PK id_centro · codigo_centro · provincia · fecha_alta |",
+        "| PROGRAMA_FORMATIVO | PK id_programa · FK id_centro · fecha_inicio · fecha_fin |",
+        "| ALUMNO | PK id_alumno · dni · fecha_nacimiento · nombre · email |",
+        "| MATRICULA | PK id_matricula · FK id_alumno · FK id_programa · estado |",
+        "| INDICADOR | PK id_indicador · FK id_programa · FK id_centro · FK id_alumno · valor · fecha_calculo |",
+        "",
+        "| Relación | Cardinalidades rotuladas en cada extremo |",
+        "|---|---|",
+        "| CENTRO_EDUCATIVO – PROGRAMA_FORMATIVO | (1,1) junto a CENTRO_EDUCATIVO · (0,N) junto a PROGRAMA_FORMATIVO |",
+        "| PROGRAMA_FORMATIVO – MATRICULA | (1,1) junto a PROGRAMA_FORMATIVO · (0,N) junto a MATRICULA |",
+        "| ALUMNO – MATRICULA | (1,1) junto a ALUMNO · (1,N) junto a MATRICULA |",
+        "| PROGRAMA_FORMATIVO – INDICADOR | (0,1) junto a PROGRAMA_FORMATIVO · (0,N) junto a INDICADOR |",
+        "| CENTRO_EDUCATIVO – INDICADOR | (0,1) junto a CENTRO_EDUCATIVO · (0,N) junto a INDICADOR |",
+        "| ALUMNO – INDICADOR | (0,1) junto a ALUMNO · (0,N) junto a INDICADOR |"
+      ]
+    }
+  },
+  "answer_keys": [
+    {
+      "file": "plantilla-provisional-A.pdf",
+      "status": "provisional",
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto i$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto ii$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  ],
+  "crosscheck": {
+    "booklets": [
+      {
+        "file": "cuadernillo-B.pdf",
+        "bottom": 793,
+        "ignore": [
+          "^\\d{4} - TAI-L \\(MODELO B\\)$",
+          "^Página \\d+ de \\d+$"
+        ],
+        "markers": [
+          {
+            "pattern": "^PRIMERA PARTE$",
+            "section": "p1"
+          },
+          {
+            "pattern": "^SUPUESTO I$",
+            "section": "p2-s1"
+          },
+          {
+            "pattern": "^SUPUESTO II$",
+            "section": "p2-s2"
+          },
+          {
+            "pattern": "^Preguntas de reserva$",
+            "reserve": true
+          }
+        ]
+      }
+    ],
+    "answer_key": {
+      "file": "plantilla-provisional-B.pdf",
+      "markers": [
+        {
+          "pattern": "(?i)^primera parte$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^supuesto i$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^supuesto ii$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ]
+    }
+  }
+}

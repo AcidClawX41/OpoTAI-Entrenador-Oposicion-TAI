@@ -1,0 +1,3192 @@
+{
+  "schema_version": 1,
+  "convocatoria": "li-2021",
+  "source": {
+    "title": "Resolución de 31 de mayo de 2022, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre, en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado.",
+    "url": "https://www.boe.es/boe/dias/2022/06/02/pdfs/BOE-A-2022-9033.pdf",
+    "boe_id": "BOE-A-2022-9033"
+  },
+  "anonymized": true,
+  "total": 454,
+  "notes": "454 nombramientos con destino; NOPS máximo 455 (relación de aprobados: BOE-A-2022-4417). Faltan 1 números de orden (personas que renunciaron o no fueron nombradas): [287]. Anonimizado: solo NOPS, ministerio, centro directivo, provincia y localidad (municipio INE). Los textos de ministerio y centro directivo se conservan tal como figuran en el BOE (abreviados). Madrid capital: 398 destinos (87.7%). Algunas personas del cupo de discapacidad pudieron elegir destino alterando el orden de prelación (art. 9 del RD 2271/2004); conservan su NOPS.",
+  "assignments": [
+    {
+      "order": 1,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "CONFEDERACION HIDROGRAFICA DEL SEGURA, O.A",
+      "province": "Murcia",
+      "locality": "Murcia"
+    },
+    {
+      "order": 2,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "JEFATURA CENTRAL DE TRAFICO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 3,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Alicante",
+      "locality": "Alacant/Alicante"
+    },
+    {
+      "order": 4,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 5,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 6,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "DIRECCION GENERAL DE SALUD DIGITAL Y SISTEMAS DE INFORMACION PARA EL SISTEMA NACIONAL DE SALUD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 7,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 8,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Granada",
+      "locality": "Granada"
+    },
+    {
+      "order": 9,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Málaga",
+      "locality": "Málaga"
+    },
+    {
+      "order": 10,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Zaragoza",
+      "locality": "Zaragoza"
+    },
+    {
+      "order": 11,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 12,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Cádiz",
+      "locality": "Cádiz"
+    },
+    {
+      "order": 13,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 14,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Córdoba",
+      "locality": "Córdoba"
+    },
+    {
+      "order": 15,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 16,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Asturias",
+      "locality": "Oviedo"
+    },
+    {
+      "order": 17,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 18,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 19,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Jaén",
+      "locality": "Jaén"
+    },
+    {
+      "order": 20,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN ANDALUCIA",
+      "province": "Sevilla",
+      "locality": "Sevilla"
+    },
+    {
+      "order": 21,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 22,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Huelva",
+      "locality": "Huelva"
+    },
+    {
+      "order": 23,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Valladolid",
+      "locality": "Valladolid"
+    },
+    {
+      "order": 24,
+      "organism": "MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030",
+      "unit": "INSTITUTO DE LA JUVENTUD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 25,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. DE E. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 26,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 27,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 28,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "CONFEDERACION HIDROGRAFICA DEL SEGURA, O.A",
+      "province": "Murcia",
+      "locality": "Murcia"
+    },
+    {
+      "order": 29,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 30,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 31,
+      "organism": "MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030",
+      "unit": "INSTITUTO DE MAYORES Y SERVICIOS SOCIALES (IMSERSO)",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 32,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 33,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 34,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 35,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 36,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 37,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Valencia",
+      "locality": "València"
+    },
+    {
+      "order": 38,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Castellón",
+      "locality": "Castelló de la Plana/Castellón de la Plana"
+    },
+    {
+      "order": 39,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Ávila",
+      "locality": "Ávila"
+    },
+    {
+      "order": 40,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Tarragona",
+      "locality": "Tarragona"
+    },
+    {
+      "order": 41,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 42,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "MANCOMUNIDAD DE LOS CANALES DEL TAIBILLA, O.A",
+      "province": "Murcia",
+      "locality": "Cartagena"
+    },
+    {
+      "order": 43,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CASTILLA-LA MANCHA",
+      "province": "Guadalajara",
+      "locality": "Guadalajara"
+    },
+    {
+      "order": 44,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 45,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CASTILLA-LA MANCHA",
+      "province": "Ciudad Real",
+      "locality": "Ciudad Real"
+    },
+    {
+      "order": 46,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INSTITUTO NACIONAL DE ADMINISTRACION PUBLICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 47,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CANTABRIA",
+      "province": "Cantabria",
+      "locality": "Santander"
+    },
+    {
+      "order": 48,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 49,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Cantabria",
+      "locality": "Santander"
+    },
+    {
+      "order": 50,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 51,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "JEFATURA CENTRAL DE TRAFICO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 52,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CASTILLA Y LEON",
+      "province": "Soria",
+      "locality": "Soria"
+    },
+    {
+      "order": 53,
+      "organism": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACION",
+      "unit": "D.G. DE SERVICIOS E INSPECCION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 54,
+      "organism": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACION",
+      "unit": "D.G. DE SERVICIOS E INSPECCION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 55,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 56,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CASTILLA-LA MANCHA",
+      "province": "Toledo",
+      "locality": "Toledo"
+    },
+    {
+      "order": 57,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "JEFATURA CENTRAL DE TRAFICO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 58,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 59,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 60,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. DE E. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 61,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Santa Cruz de Tenerife",
+      "locality": "Santa Cruz de Tenerife"
+    },
+    {
+      "order": 62,
+      "organism": "CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS - CSIC",
+      "unit": "PRESIDENCIA DEL CSIC",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 63,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 64,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN ANDALUCIA",
+      "province": "Jaén",
+      "locality": "Jaén"
+    },
+    {
+      "order": 65,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 66,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "MUTUALIDAD GENERAL DE FUNCIONARIOS CIVILES DEL ESTADO (MUFACE)",
+      "province": "Valladolid",
+      "locality": "Valladolid"
+    },
+    {
+      "order": 67,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL CATASTRO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 68,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "SUBSECRETARIA DE SANIDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 69,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 70,
+      "organism": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+      "unit": "OFICINA ESPAÑOLA DE PATENTES Y MARCAS (OEPM), O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 71,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Badajoz",
+      "locality": "Badajoz"
+    },
+    {
+      "order": 72,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN ANDALUCIA",
+      "province": "Córdoba",
+      "locality": "Córdoba"
+    },
+    {
+      "order": 73,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 74,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 75,
+      "organism": "ENTES PUBLICOS",
+      "unit": "PRESIDENCIA DE LA AGENCIA ESPAÑOLA DE PROTECCION DE DATOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 76,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "TRIBUNAL ECONOMICO ADMINISTRATIVO CENTRAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 77,
+      "organism": "MINISTERIO DE PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRATICA",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 78,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 79,
+      "organism": "CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS - CSIC",
+      "unit": "PRESIDENCIA DEL CSIC",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 80,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN ANDALUCIA",
+      "province": "Huelva",
+      "locality": "Huelva"
+    },
+    {
+      "order": 81,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 82,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 83,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 84,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 85,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Navarra",
+      "locality": "Pamplona/Iruña"
+    },
+    {
+      "order": 86,
+      "organism": "CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS - CSIC",
+      "unit": "PRESIDENCIA DEL CSIC",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 87,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 88,
+      "organism": "CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS - CSIC",
+      "unit": "PRESIDENCIA DEL CSIC",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 89,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 90,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 91,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. DE E. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 92,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 93,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 94,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "MUSEO NACIONAL CENTRO DE ARTE REINA SOFIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 95,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 96,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 97,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Illes Balears",
+      "locality": "Palma"
+    },
+    {
+      "order": 98,
+      "organism": "CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS - CSIC",
+      "unit": "PRESIDENCIA DEL CSIC",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 99,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN EXTREMADURA",
+      "province": "Badajoz",
+      "locality": "Badajoz"
+    },
+    {
+      "order": 100,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Ceuta",
+      "locality": "Ceuta"
+    },
+    {
+      "order": 101,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Bizkaia",
+      "locality": "Bilbao"
+    },
+    {
+      "order": 102,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 103,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 104,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 105,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 106,
+      "organism": "CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS - CSIC",
+      "unit": "PRESIDENCIA DEL CSIC",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 107,
+      "organism": "CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS - CSIC",
+      "unit": "PRESIDENCIA DEL CSIC",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 108,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 109,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 110,
+      "organism": "CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS - CSIC",
+      "unit": "PRESIDENCIA DEL CSIC",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 111,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Girona",
+      "locality": "Girona"
+    },
+    {
+      "order": 112,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 113,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 114,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CANTABRIA",
+      "province": "Cantabria",
+      "locality": "Santander"
+    },
+    {
+      "order": 115,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 116,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 117,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CANARIAS",
+      "province": "Santa Cruz de Tenerife",
+      "locality": "San Sebastián de la Gomera"
+    },
+    {
+      "order": 118,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 119,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CATALUÑA",
+      "province": "Girona",
+      "locality": "Girona"
+    },
+    {
+      "order": 120,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 121,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 122,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 123,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 124,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CATALUÑA",
+      "province": "Lleida",
+      "locality": "Lleida"
+    },
+    {
+      "order": 125,
+      "organism": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACION",
+      "unit": "FONDO ESPAÑOL DE GARANTIA AGRARIA, O.A. (FEGA)",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 126,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "SUBSECRETARIA DE CULTURA Y DEPORTE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 127,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN CASTILLA Y LEON",
+      "province": "Burgos",
+      "locality": "Burgos"
+    },
+    {
+      "order": 128,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "INSTITUTO NACIONAL DE ESTADISTICA (INE), O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 129,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 130,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 131,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 132,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 133,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 134,
+      "organism": "MINISTERIO DE PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRATICA",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 135,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INSTITUTO NACIONAL DE ADMINISTRACION PUBLICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 136,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 137,
+      "organism": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACION",
+      "unit": "D.G. DE SERVICIOS E INSPECCION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 138,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "S. DE E. DE SEGURIDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 139,
+      "organism": "MINISTERIO DE EDUCACION Y FORMACION PROFESIONAL",
+      "unit": "DIRECCION PROVINCIAL",
+      "province": "Ceuta",
+      "locality": "Ceuta"
+    },
+    {
+      "order": 140,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 141,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 142,
+      "organism": "MINISTERIO DE PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRATICA",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 143,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "S. DE E. DE HACIENDA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 144,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 145,
+      "organism": "AGENCIA ESTATAL BOLETIN OFICIAL DEL ESTADO",
+      "unit": "DIRECCION DE LA AGENCIA ESTATAL BOLETIN OFICIAL DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 146,
+      "organism": "AGENCIA ESPAÑOLA DE MEDICAMENTOS Y PRODUCTOS SANITARIOS",
+      "unit": "SECRETARIA GENERAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 147,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 148,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "INSTITUTO NACIONAL DE ESTADISTICA (INE), O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 149,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 150,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 151,
+      "organism": "ENTES PUBLICOS",
+      "unit": "PRESIDENCIA DE LA AGENCIA ESPAÑOLA DE PROTECCION DE DATOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 152,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "ORGANISMO ESTATAL INSPECCION DE TRABAJO Y SEGURIDAD SOCIAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 153,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 154,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 155,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 156,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 157,
+      "organism": "MINISTERIO DE CONSUMO",
+      "unit": "AGENCIA ESPAÑOLA DE SEGURIDAD ALIMENTARIA Y NUTRICION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 158,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 159,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. DE E. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 160,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 161,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL CATASTRO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 162,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 163,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "TRIBUNAL ECONOMICO ADMINISTRATIVO CENTRAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 164,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 165,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 166,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "SUBSECRETARIA DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 167,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 168,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "ORGANISMO ESTATAL INSPECCION DE TRABAJO Y SEGURIDAD SOCIAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 169,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 170,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 171,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. DE E. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 172,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "INSTITUTO NACIONAL DE ESTADISTICA (INE), O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 173,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Gipuzkoa",
+      "locality": "Donostia/San Sebastián"
+    },
+    {
+      "order": 174,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 175,
+      "organism": "MINISTERIO DE CONSUMO",
+      "unit": "SUBSECRETARIA DE CONSUMO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 176,
+      "organism": "MINISTERIO DE EDUCACION Y FORMACION PROFESIONAL",
+      "unit": "SUBSECRETARIA DE EDUCACION Y FORMACION PROFESIONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 177,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SERVICIO PUBLICO DE EMPLEO ESTATAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 178,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 179,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "D.G. DE PERSONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 180,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 181,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 182,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 183,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "INSTITUTO DE LA CINEMATOGRAFIA Y DE LAS ARTES AUDIOVISUALES O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 184,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 185,
+      "organism": "AGENCIA ESPAÑOLA DE MEDICAMENTOS Y PRODUCTOS SANITARIOS",
+      "unit": "SECRETARIA GENERAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 186,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE INFORMATICA TRIBUTARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 187,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 188,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "SUBSECRETARIA DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 189,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 190,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "SUBSECRETARIA DE SANIDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 191,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 192,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN LA RIOJA",
+      "province": "La Rioja",
+      "locality": "Logroño"
+    },
+    {
+      "order": 193,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL CATASTRO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 194,
+      "organism": "AG. ESTATAL DE ADMON. TRIBUTARIA",
+      "unit": "DEPARTAMENTO DE RECURSOS HUMANOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 195,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN ILLES BALEARS",
+      "province": "Illes Balears",
+      "locality": "Palma"
+    },
+    {
+      "order": 196,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "S. DE E. DE LA SEGURIDAD SOCIAL Y PENSIONES",
+      "province": "Barcelona",
+      "locality": "Barcelona"
+    },
+    {
+      "order": 197,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SERVICIO PUBLICO DE EMPLEO ESTATAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 198,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "SUBSECRETARIA DE HACIENDA Y FUNCION PUBLICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 199,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "SUBSECRETARIA DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 200,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SERVICIO PUBLICO DE EMPLEO ESTATAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 201,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "D.G. DE PERSONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 202,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 203,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "ORGANISMO ESTATAL INSPECCION DE TRABAJO Y SEGURIDAD SOCIAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 204,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "ORGANISMO ESTATAL INSPECCION DE TRABAJO Y SEGURIDAD SOCIAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 205,
+      "organism": "MINISTERIO DE IGUALDAD",
+      "unit": "SUBSECRETARIA DE IGUALDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 206,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL CATASTRO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 207,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DE RACIONALIZACION Y CENTRALIZACION DE LA CONTRATACION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 208,
+      "organism": "MINISTERIO DE CIENCIA E INNOVACION",
+      "unit": "INSTITUTO DE SALUD CARLOS III (ISCIII)",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 209,
+      "organism": "MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030",
+      "unit": "SUBSECRETARIA DE DERECHOS SOCIALES Y AGENDA 2030",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 210,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "BIBLIOTECA NACIONAL DE ESPAÑA O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 211,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 212,
+      "organism": "MINISTERIO DE CIENCIA E INNOVACION",
+      "unit": "INSTITUTO DE SALUD CARLOS III (ISCIII)",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 213,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "DIRECCION GENERAL DE SALUD DIGITAL Y SISTEMAS DE INFORMACION PARA EL SISTEMA NACIONAL DE SALUD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 214,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SERVICIO PUBLICO DE EMPLEO ESTATAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 215,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN LA RIOJA",
+      "province": "La Rioja",
+      "locality": "Logroño"
+    },
+    {
+      "order": 216,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 217,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN LA CIUDAD DE MELILLA",
+      "province": "Melilla",
+      "locality": "Melilla"
+    },
+    {
+      "order": 218,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "INSTITUTO NACIONAL DE ESTADISTICA (INE), O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 219,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL CATASTRO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 220,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "COMISIONADO PARA EL MERCADO DE TABACOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 221,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 222,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SERVICIO PUBLICO DE EMPLEO ESTATAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 223,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE TRANSPORTE TERRESTRE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 224,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "PARQUE MOVIL DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 225,
+      "organism": "MINISTERIO DE IGUALDAD",
+      "unit": "SUBSECRETARIA DE IGUALDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 226,
+      "organism": "MINISTERIO DE EDUCACION Y FORMACION PROFESIONAL",
+      "unit": "SUBSECRETARIA DE EDUCACION Y FORMACION PROFESIONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 227,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 228,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 229,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN EL PAIS VASCO",
+      "province": "Gipuzkoa",
+      "locality": "Donostia/San Sebastián"
+    },
+    {
+      "order": 230,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SERVICIO PUBLICO DE EMPLEO ESTATAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 231,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SERVICIO PUBLICO DE EMPLEO ESTATAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 232,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "SUBSECRETARIA DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 233,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SERVICIO PUBLICO DE EMPLEO ESTATAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 234,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 235,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SERVICIO PUBLICO DE EMPLEO ESTATAL O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 236,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "SUBSECRETARIA DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 237,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 238,
+      "organism": "MINISTERIO DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "unit": "SUBSECRETARIA DE INCLUSION, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 239,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "MUTUALIDAD GENERAL DE FUNCIONARIOS CIVILES DEL ESTADO (MUFACE)",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 240,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "SUBSECRETARIA DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 241,
+      "organism": "MINISTERIO DE UNIVERSIDADES",
+      "unit": "SUBSECRETARIA DE UNIVERSIDADES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 242,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 243,
+      "organism": "MINISTERIO DE UNIVERSIDADES",
+      "unit": "SUBSECRETARIA DE UNIVERSIDADES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 244,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "INSTITUTO NACIONAL DE SEGURIDAD Y SALUD EN EL TRABAJO, O.A., M.P",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 245,
+      "organism": "AGENCIA ESTATAL DE SEGURIDAD FERROVIARIA",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 246,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "S. DE E. DE SEGURIDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 247,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "DIRECCION GENERAL DE SALUD DIGITAL Y SISTEMAS DE INFORMACION PARA EL SISTEMA NACIONAL DE SALUD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 248,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "SUBSECRETARIA DE HACIENDA Y FUNCION PUBLICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 249,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "INSTITUTO NACIONAL DE GESTION SANITARIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 250,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "CENTRO NACIONAL DE INFORMACION GEOGRAFICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 251,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "INSTITUTO NACIONAL DE SEGURIDAD Y SALUD EN EL TRABAJO, O.A., M.P",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 252,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 253,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INSTITUTO DE ESTUDIOS FISCALES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 254,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN ILLES BALEARS",
+      "province": "Illes Balears",
+      "locality": "Palma"
+    },
+    {
+      "order": 255,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL CATASTRO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 256,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 257,
+      "organism": "MINISTERIO DE ASUNTOS EXTERIORES, UNION EUROPEA Y COOPERACION",
+      "unit": "D.G. DEL SERVICIO EXTERIOR",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 258,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN LA COMUNIDAD FORAL DE NAVARRA",
+      "province": "Navarra",
+      "locality": "Pamplona/Iruña"
+    },
+    {
+      "order": 259,
+      "organism": "MINISTERIO DE CONSUMO",
+      "unit": "SUBSECRETARIA DE CONSUMO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 260,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "SUBSECRETARIA DE POLITICA TERRITORIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 261,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 262,
+      "organism": "MINISTERIO DE ASUNTOS EXTERIORES, UNION EUROPEA Y COOPERACION",
+      "unit": "D.G. DEL SERVICIO EXTERIOR",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 263,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN LA COMUNIDAD FORAL DE NAVARRA",
+      "province": "Navarra",
+      "locality": "Pamplona/Iruña"
+    },
+    {
+      "order": 264,
+      "organism": "AGENCIA ESTATAL DE SEGURIDAD FERROVIARIA",
+      "unit": null,
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 265,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL PATRIMONIO DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 266,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 267,
+      "organism": "MINISTERIO DE ASUNTOS EXTERIORES, UNION EUROPEA Y COOPERACION",
+      "unit": "D.G. DEL SERVICIO EXTERIOR",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 268,
+      "organism": "MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030",
+      "unit": "SUBSECRETARIA DE DERECHOS SOCIALES Y AGENDA 2030",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 269,
+      "organism": "MINISTERIO DE ASUNTOS EXTERIORES, UNION EUROPEA Y COOPERACION",
+      "unit": "D.G. DEL SERVICIO EXTERIOR",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 270,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL PATRIMONIO DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 271,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DE RACIONALIZACION Y CENTRALIZACION DE LA CONTRATACION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 272,
+      "organism": "MINISTERIO DE IGUALDAD",
+      "unit": "SUBSECRETARIA DE IGUALDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 273,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 274,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL PATRIMONIO DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 275,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "SUBSECRETARIA DE HACIENDA Y FUNCION PUBLICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 276,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 277,
+      "organism": "MINISTERIO DE EDUCACION Y FORMACION PROFESIONAL",
+      "unit": "SUBSECRETARIA DE EDUCACION Y FORMACION PROFESIONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 278,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 279,
+      "organism": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+      "unit": "SUBSECRETARIA DE INDUSTRIA, COMERCIO Y TURISMO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 280,
+      "organism": "MINISTERIO DE CIENCIA E INNOVACION",
+      "unit": "CENTRO DE INVESTGACIONES ENERGETICAS, MEDIOAMBIENTALES Y TECNOLOGICAS (CIEMAT)",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 281,
+      "organism": "MINISTERIO DE ASUNTOS EXTERIORES, UNION EUROPEA Y COOPERACION",
+      "unit": "D.G. DEL SERVICIO EXTERIOR",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 282,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "SUBSECRETARIA DE CULTURA Y DEPORTE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 283,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 284,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 285,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN LA CIUDAD DE MELILLA",
+      "province": "Melilla",
+      "locality": "Melilla"
+    },
+    {
+      "order": 286,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "S. DE E. DE SEGURIDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 288,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 289,
+      "organism": "MINISTERIO DE CIENCIA E INNOVACION",
+      "unit": "CENTRO DE INVESTGACIONES ENERGETICAS, MEDIOAMBIENTALES Y TECNOLOGICAS (CIEMAT)",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 290,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 291,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN MADRID",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 292,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "S. GRAL. DE FINANCIACION AUTONOMICA Y LOCAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 293,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DE TRIBUTOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 294,
+      "organism": "MINISTERIO DE ASUNTOS EXTERIORES, UNION EUROPEA Y COOPERACION",
+      "unit": "D.G. DEL SERVICIO EXTERIOR",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 295,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 296,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 297,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "SUBSECRETARIA DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 298,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 299,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE LA MARINA MERCANTE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 300,
+      "organism": "MINISTERIO DE ASUNTOS EXTERIORES, UNION EUROPEA Y COOPERACION",
+      "unit": "D.G. DEL SERVICIO EXTERIOR",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 301,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 302,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "INSTITUTO NACIONAL DE LAS ARTES ESCENICAS Y DE LA MUSICA O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 303,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 304,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 305,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 306,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "GERENCIA DE INFRAESTRUCTURAS Y EQUIPAMIENTOS DE CULTURA O.A",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 307,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 308,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 309,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "D.G. DEL PATRIMONIO DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 310,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 311,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "FONDO DE GARANTIA SALARIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 312,
+      "organism": "MINISTERIO DE PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRATICA",
+      "unit": "DEPARTAMENTO DE COORDINACION TECNICA Y JURIDICA A.P",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 313,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 314,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "DIRECCION GENERAL DE SALUD DIGITAL Y SISTEMAS DE INFORMACION PARA EL SISTEMA NACIONAL DE SALUD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 315,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 316,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "SUBSECRETARIA DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 317,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DEL INSTITUTO GEOGRAFICO NACIONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 318,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 319,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "DEL.GOB. EN MADRID",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 320,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "ORGANIZACION NACIONAL DE TRASPLANTES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 321,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "JEFATURAS PROVINCIALES DE INSPECCION DE TELECOMUNICACIONES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 322,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "DIRECCION GENERAL DE SALUD DIGITAL Y SISTEMAS DE INFORMACION PARA EL SISTEMA NACIONAL DE SALUD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 323,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "DIRECCION GENERAL DE SALUD DIGITAL Y SISTEMAS DE INFORMACION PARA EL SISTEMA NACIONAL DE SALUD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 324,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 325,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "S. GRAL. DE FINANCIACION AUTONOMICA Y LOCAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 326,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 327,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "SUBSECRETARIA DE HACIENDA Y FUNCION PUBLICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 328,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 329,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE ORGANIZACION E INSPECCION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 330,
+      "organism": "MINISTERIO DE CIENCIA E INNOVACION",
+      "unit": "SUBSECRETARIA DE CIENCIA E INNOVACION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 331,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "SUBSECRETARIA DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 332,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "S. DE E. DE SEGURIDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 333,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 334,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 335,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "SUBSECRETARIA DE CULTURA Y DEPORTE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 336,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 337,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 338,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 339,
+      "organism": "MINISTERIO DE CIENCIA E INNOVACION",
+      "unit": "SUBSECRETARIA DE CIENCIA E INNOVACION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 340,
+      "organism": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+      "unit": "SUBSECRETARIA DE INDUSTRIA, COMERCIO Y TURISMO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 341,
+      "organism": "MINISTERIO DE CIENCIA E INNOVACION",
+      "unit": "SUBSECRETARIA DE CIENCIA E INNOVACION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 342,
+      "organism": "MINISTERIO DE EDUCACION Y FORMACION PROFESIONAL",
+      "unit": "SUBSECRETARIA DE EDUCACION Y FORMACION PROFESIONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 343,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 344,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 345,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 346,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 347,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "SUBSECRETARIA DE POLITICA TERRITORIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 348,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 349,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "DIRECCION GENERAL DE SALUD DIGITAL Y SISTEMAS DE INFORMACION PARA EL SISTEMA NACIONAL DE SALUD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 350,
+      "organism": "MINISTERIO DE UNIVERSIDADES",
+      "unit": "UNIVERSIDAD INTERNACIONAL MENENDEZ PELAYO O.A., M.P. (UIMP)",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 351,
+      "organism": "MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030",
+      "unit": "SUBSECRETARIA DE DERECHOS SOCIALES Y AGENDA 2030",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 352,
+      "organism": "MINISTERIO DE SANIDAD",
+      "unit": "DIRECCION GENERAL DE SALUD DIGITAL Y SISTEMAS DE INFORMACION PARA EL SISTEMA NACIONAL DE SALUD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 353,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 354,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "SUBSECRETARIA DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 355,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 356,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 357,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE LA MARINA MERCANTE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 358,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "S. DE E. DE FUNCION PUBLICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 359,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "D.G. DE LA POLICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 360,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 361,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "SUBSECRETARIA DE CULTURA Y DEPORTE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 362,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "SUBSECRETARIA DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 363,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE TELECOMUNICACIONES Y ORDENACION DE LOS SERVICIOS DE COMUNICACION AUDIOVISUAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 364,
+      "organism": "MINISTERIO DE EDUCACION Y FORMACION PROFESIONAL",
+      "unit": "SUBSECRETARIA DE EDUCACION Y FORMACION PROFESIONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 365,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "S. DE E. DE FUNCION PUBLICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 366,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "SECRETARIA GENERAL TECNICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 367,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 368,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 369,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "SUBSECRETARIA DE POLITICA TERRITORIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 370,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 371,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 372,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "S. DE E. DE SEGURIDAD",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 373,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE LA MARINA MERCANTE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 374,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 375,
+      "organism": "MINISTERIO DE CULTURA Y DEPORTE",
+      "unit": "SUBSECRETARIA DE CULTURA Y DEPORTE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 376,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 377,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 378,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 379,
+      "organism": "MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030",
+      "unit": "SUBSECRETARIA DE DERECHOS SOCIALES Y AGENDA 2030",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 380,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 381,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 382,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE TRANSPORTE TERRESTRE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 383,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 384,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "S. GRAL. DE FONDOS EUROPEOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 385,
+      "organism": "MINISTERIO DE EDUCACION Y FORMACION PROFESIONAL",
+      "unit": "SUBSECRETARIA DE EDUCACION Y FORMACION PROFESIONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 386,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 387,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "D.G. DE LA POLICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 388,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 389,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 390,
+      "organism": "MINISTERIO DE EDUCACION Y FORMACION PROFESIONAL",
+      "unit": "SUBSECRETARIA DE EDUCACION Y FORMACION PROFESIONAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 391,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 392,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 393,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE LA MARINA MERCANTE",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 394,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 395,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 396,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 397,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 398,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 399,
+      "organism": "MINISTERIO DE POLITICA TERRITORIAL",
+      "unit": "SUBSECRETARIA DE POLITICA TERRITORIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 400,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 401,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 402,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 403,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 404,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 405,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 406,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 407,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "D.G. DE LA POLICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 408,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 409,
+      "organism": "MINISTERIO DE TRABAJO Y ECONOMIA SOCIAL",
+      "unit": "SUBSECRETARIA DE TRABAJO Y ECONOMIA SOCIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 410,
+      "organism": "MINISTERIO DEL INTERIOR",
+      "unit": "D.G. DE LA POLICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 411,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 412,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 413,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 414,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 415,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 416,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE ORGANIZACION E INSPECCION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 417,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "D.G. DE SERVICIOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 418,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 419,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 420,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 421,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 422,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 423,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "INTERVENCION GENERAL DE LA ADMINISTRACION DEL ESTADO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 424,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE TELECOMUNICACIONES Y ORDENACION DE LOS SERVICIOS DE COMUNICACION AUDIOVISUAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 425,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 426,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 427,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 428,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 429,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 430,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE ORGANIZACION E INSPECCION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 431,
+      "organism": "MINISTERIO DE DEFENSA",
+      "unit": "S. DE E. DE DEFENSA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 432,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 433,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "S. GRAL. DE FONDOS EUROPEOS",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 434,
+      "organism": "MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+      "unit": "SUBSECRETARIA DE HACIENDA Y FUNCION PUBLICA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 435,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE ORGANIZACION E INSPECCION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 436,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 437,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 438,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 439,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE ORGANIZACION E INSPECCION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 440,
+      "organism": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+      "unit": "SUBSECRETARIA DE INDUSTRIA, COMERCIO Y TURISMO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 441,
+      "organism": "MINISTERIO PARA LA TRANSICION ECOLOGICA Y EL RETO DEMOGRAFICO",
+      "unit": "DIRECCION DEL INSTITUTO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 442,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 443,
+      "organism": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+      "unit": "D.G. DE ORGANIZACION E INSPECCION",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 444,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 445,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 446,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. DE E. DE DIGITALIZACION E INTELIGENCIA ARTIFICIAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 447,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. GRAL. DE ADMINISTRACION DIGITAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 448,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 449,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE TELECOMUNICACIONES Y ORDENACION DE LOS SERVICIOS DE COMUNICACION AUDIOVISUAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 450,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 451,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "D.G. DE TELECOMUNICACIONES Y ORDENACION DE LOS SERVICIOS DE COMUNICACION AUDIOVISUAL",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 452,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 453,
+      "organism": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+      "unit": "SUBSECRETARIA DE INDUSTRIA, COMERCIO Y TURISMO",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 454,
+      "organism": "MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL",
+      "unit": "S. DE E. DE TELECOMUNICACIONES E INFRAESTRUCTURAS DIGITALES",
+      "province": "Madrid",
+      "locality": "Madrid"
+    },
+    {
+      "order": 455,
+      "organism": "MINISTERIO DE JUSTICIA",
+      "unit": "D.G. DE TRANSFORMACION DIGITAL DE LA ADMINISTRACION DE JUSTICIA",
+      "province": "Madrid",
+      "locality": "Madrid"
+    }
+  ]
+}

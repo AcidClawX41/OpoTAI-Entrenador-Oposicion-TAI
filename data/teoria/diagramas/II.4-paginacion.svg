@@ -1,0 +1,77 @@
+<!-- opotai.diagrams: tools/sources/diagramas/II.4/paginacion.svg sha256=0f9f1e1545022a9d -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 446" width="900" height="446" role="img" aria-labelledby="t d">
+  <title id="t">Traducción de direcciones con paginación</title>
+  <desc id="d">La CPU genera una dirección lógica con número de página p = 3 y desplazamiento d. La MMU busca p en la TLB; si acierta, obtiene el marco directamente. Si falla, consulta la tabla de páginas del proceso, donde la página 3 está en el marco 7 con el bit de validez a 1. La dirección física es el marco f = 7 con el mismo desplazamiento d. Una entrada con validez 0, como la página 2, provoca un fallo de página: el sistema operativo la trae del área de intercambio.</desc>
+  <rect x="0" y="0" width="900" height="446" fill="#ffffff"/>
+  <g font-family="Inter, system-ui, sans-serif" fill="#1f2937">
+    <defs><marker id="fp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#475569"/></marker></defs>
+    <text x="20" y="36" font-size="14" fill="#475569" text-anchor="start" font-weight="700">Dirección lógica (CPU)</text>
+    <rect x="20" y="48" width="110" height="44" rx="6" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="75" y="76" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700">p = 3</text>
+    <rect x="130" y="48" width="110" height="44" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="185" y="76" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700">d</text>
+    <text x="75" y="112" font-size="13" fill="#475569" text-anchor="middle">nº de página</text>
+    <text x="185" y="112" font-size="13" fill="#475569" text-anchor="middle">desplazamiento</text>
+    <text x="520" y="36" font-size="14" fill="#475569" text-anchor="start" font-weight="700">Dirección física</text>
+    <rect x="520" y="48" width="110" height="44" rx="6" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+    <text x="575" y="76" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700">f = 7</text>
+    <rect x="630" y="48" width="110" height="44" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="685" y="76" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700">d</text>
+    <text x="552" y="112" font-size="13" fill="#475569" text-anchor="start">nº de marco</text>
+    <path d="M185 48 L185 24 L685 24 L685 44" fill="none" stroke="#d97706" stroke-width="2" marker-end="url(#fp)"/>
+    <text x="435" y="18" font-size="13" fill="#b45309" text-anchor="middle">el desplazamiento no cambia</text>
+    <rect x="290" y="58" width="170" height="58" rx="8" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="375" y="83" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700">TLB</text>
+    <text x="375" y="104" font-size="13" fill="#475569" text-anchor="middle">caché de traducciones</text>
+    <path d="M240 76 L286 84" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#fp)"/>
+    <text x="265" y="52" font-size="13" fill="#475569" text-anchor="middle">busca p</text>
+    <path d="M460 80 L516 70" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#fp)"/>
+    <text x="486" y="64" font-size="13" fill="#475569" text-anchor="middle">acierto</text>
+    <text x="375" y="162" font-size="14" fill="#475569" text-anchor="middle" font-weight="700">Tabla de páginas del proceso</text>
+    <text x="320" y="190" font-size="13" fill="#475569" text-anchor="middle">p</text>
+    <text x="390" y="190" font-size="13" fill="#475569" text-anchor="middle">marco</text>
+    <text x="445" y="190" font-size="13" fill="#475569" text-anchor="middle">válida</text>
+    <rect x="296" y="198" width="180" height="30" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+    <text x="320" y="218" font-size="14" fill="#1f2937" text-anchor="middle">0</text>
+    <text x="390" y="218" font-size="14" fill="#1f2937" text-anchor="middle">5</text>
+    <text x="445" y="218" font-size="14" fill="#1f2937" text-anchor="middle">1</text>
+    <rect x="296" y="232" width="180" height="30" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+    <text x="320" y="252" font-size="14" fill="#1f2937" text-anchor="middle">1</text>
+    <text x="390" y="252" font-size="14" fill="#1f2937" text-anchor="middle">2</text>
+    <text x="445" y="252" font-size="14" fill="#1f2937" text-anchor="middle">1</text>
+    <rect x="296" y="266" width="180" height="30" rx="4" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
+    <text x="320" y="286" font-size="14" fill="#1f2937" text-anchor="middle">2</text>
+    <text x="390" y="286" font-size="14" fill="#1f2937" text-anchor="middle">—</text>
+    <text x="445" y="286" font-size="14" fill="#1f2937" text-anchor="middle">0</text>
+    <rect x="296" y="300" width="180" height="30" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+    <text x="320" y="320" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="700">3</text>
+    <text x="390" y="320" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="700">7</text>
+    <text x="445" y="320" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="700">1</text>
+    <path d="M75 92 L75 330 L292 330" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#fp)"/>
+    <text x="84" y="250" font-size="13" fill="#475569" text-anchor="start">si falla la TLB,</text>
+    <text x="84" y="268" font-size="13" fill="#475569" text-anchor="start">se consulta la tabla</text>
+    <path d="M476 330 L540 330 L540 96" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#fp)"/>
+    <text x="820" y="36" font-size="14" fill="#475569" text-anchor="middle" font-weight="700">Memoria física</text>
+    <rect x="770" y="48" width="100" height="32" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="820" y="69" font-size="13" fill="#1f2937" text-anchor="middle">marco 0</text>
+    <rect x="770" y="84" width="100" height="32" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="820" y="105" font-size="13" fill="#1f2937" text-anchor="middle">marco 1</text>
+    <rect x="770" y="120" width="100" height="32" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="820" y="141" font-size="13" fill="#1f2937" text-anchor="middle">marco 2</text>
+    <rect x="770" y="156" width="100" height="32" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="820" y="177" font-size="13" fill="#1f2937" text-anchor="middle">marco 3</text>
+    <rect x="770" y="192" width="100" height="32" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="820" y="213" font-size="13" fill="#1f2937" text-anchor="middle">marco 4</text>
+    <rect x="770" y="228" width="100" height="32" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="820" y="249" font-size="13" fill="#1f2937" text-anchor="middle">marco 5</text>
+    <rect x="770" y="264" width="100" height="32" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="820" y="285" font-size="13" fill="#1f2937" text-anchor="middle">marco 6</text>
+    <rect x="770" y="300" width="100" height="32" rx="4" fill="#d1fae5" stroke="#059669" stroke-width="2"/>
+    <text x="820" y="321" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="700">marco 7 · p3</text>
+    <path d="M740 70 L752 70 L752 312 L766 312" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#fp)"/>
+    <path d="M296 283 L230 380" fill="none" stroke="#e11d48" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#fp)"/>
+    <rect x="20" y="384" width="560" height="48" rx="8" fill="#fff1f2" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="36" y="404" font-size="13" fill="#9f1239" text-anchor="start">Válida = 0 → fallo de página: el SO trae la página del disco (área de</text>
+    <text x="36" y="422" font-size="13" fill="#9f1239" text-anchor="start">intercambio) a un marco libre o elige una víctima, y reintenta la instrucción.</text>
+  </g>
+</svg>

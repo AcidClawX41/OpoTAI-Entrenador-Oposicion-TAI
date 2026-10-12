@@ -1,0 +1,25 @@
+{
+  "topic": "I.7",
+  "summary": "Régimen jurídico de la protección de datos personales según el RGPD y la LO 3/2018 (conceptos, principios, bases de licitud, derechos, obligaciones de responsables y encargados, delegado de protección de datos, AEPD y régimen sancionador) y los derechos digitales del título X de la LOPDGDD, junto con la Carta de Derechos Digitales.",
+  "key_points": [
+    "RGPD aplicable desde el 25-5-2018; LOPDGDD en vigor el 7-12-2018; los tratamientos con fines penales se rigen por la LO 7/2021.",
+    "Principios del art. 5 RGPD: licitud, lealtad y transparencia; limitación de la finalidad; minimización (adecuados, pertinentes y limitados); exactitud; limitación de la conservación; integridad y confidencialidad; responsabilidad proactiva.",
+    "En España el menor puede consentir desde los 14 años (art. 7 LOPDGDD); el RGPD fija 16 y permite bajar hasta 13.",
+    "Derechos: acceso, rectificación, supresión, limitación, portabilidad, oposición y no ser objeto de decisiones automatizadas; respuesta en 1 mes prorrogable 2 meses.",
+    "Seguridad (art. 32 RGPD): confidencialidad, integridad, disponibilidad y resiliencia permanentes; brechas notificadas a la autoridad en 72 horas.",
+    "DPD: obligatorio en el sector público y en la lista del art. 34 LOPDGDD; su designación y cese se comunican a la AEPD en 10 días.",
+    "Prescripción de las sanciones (art. 78): 1 año hasta 40.000 euros, 2 años hasta 300.000 euros y 3 años por encima; las infracciones prescriben a los 3, 2 y 1 años.",
+    "Las Administraciones públicas no reciben multas: se declara la infracción y se ordenan medidas (art. 77, reformado por la Ley 11/2023).",
+    "Derechos digitales (arts. 79-97): plena aplicación de los derechos en Internet, desconexión digital, olvido en buscadores y redes sociales y testamento digital (acceso a contenidos de personas fallecidas).",
+    "La Carta de Derechos Digitales (2021) no es normativa; la igualdad y no discriminación en el entorno digital está en la Carta, no en el título X."
+  ],
+  "sources": [
+    { "title": "Reglamento (UE) 2016/679, general de protección de datos", "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679" },
+    { "title": "Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673" },
+    { "title": "Ley Orgánica 7/2021, de protección de datos tratados con fines penales", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806" },
+    { "title": "Real Decreto 389/2021, Estatuto de la Agencia Española de Protección de Datos", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-9175" },
+    { "title": "Agencia Española de Protección de Datos: herramientas", "url": "https://www.aepd.es/guias-y-herramientas/herramientas" },
+    { "title": "Carta de Derechos Digitales (2021)", "url": "https://digital.gob.es/content/dam/portal-mtdfp/avance-digital/ministerio/programas/programas-para-avance-digital/espana_digital/carta_derechos_digitales_redes_140721.pdf" }
+  ],
+  "updated": "2026-10-11"
+}

@@ -1,0 +1,1285 @@
+{
+  "bank_id": "tai-li-2015",
+  "global": {
+    "note": "Errores recurrentes del OCR (palabras pegadas, letras confundidas) detectados en la pasada ortográfica y comprobados contra la imagen.",
+    "replace": [
+      {
+        "old": "Enel",
+        "new": "En el",
+        "word": true
+      },
+      {
+        "old": "Enlos",
+        "new": "En los",
+        "word": true
+      },
+      {
+        "old": "Enuna",
+        "new": "En una",
+        "word": true
+      },
+      {
+        "old": "Esun",
+        "new": "Es un",
+        "word": true
+      },
+      {
+        "old": "Esuna",
+        "new": "Es una",
+        "word": true
+      },
+      {
+        "old": "esun",
+        "new": "es un",
+        "word": true
+      },
+      {
+        "old": "Seutiliza",
+        "new": "Se utiliza",
+        "word": true
+      },
+      {
+        "old": "Seencapsula",
+        "new": "Se encapsula",
+        "word": true
+      },
+      {
+        "old": "Sele",
+        "new": "Se le",
+        "word": true
+      },
+      {
+        "old": "Seyún",
+        "new": "Según",
+        "word": true
+      },
+      {
+        "old": "Latabla",
+        "new": "La tabla",
+        "word": true
+      },
+      {
+        "old": "Leindica",
+        "new": "Le indica",
+        "word": true
+      },
+      {
+        "old": "Eldiagrama",
+        "new": "El diagrama",
+        "word": true
+      },
+      {
+        "old": "Elregistro",
+        "new": "El registro",
+        "word": true
+      },
+      {
+        "old": "Elderechoa",
+        "new": "El derecho a",
+        "word": true
+      },
+      {
+        "old": "Atendiendoa",
+        "new": "Atendiendo a",
+        "word": true
+      },
+      {
+        "old": "Através",
+        "new": "A través",
+        "word": true
+      },
+      {
+        "old": "através",
+        "new": "a través",
+        "word": true
+      },
+      {
+        "old": "accesosa",
+        "new": "accesos a",
+        "word": true
+      },
+      {
+        "old": "cuantoa",
+        "new": "cuanto a",
+        "word": true
+      },
+      {
+        "old": "pertenecea",
+        "new": "pertenece a",
+        "word": true
+      },
+      {
+        "old": "reenviándosea",
+        "new": "reenviándose a",
+        "word": true
+      },
+      {
+        "old": "respondea",
+        "new": "responde a",
+        "word": true
+      },
+      {
+        "old": "funcióno",
+        "new": "función o",
+        "word": true
+      },
+      {
+        "old": "permanentey",
+        "new": "permanente y",
+        "word": true
+      },
+      {
+        "old": "RSAy",
+        "new": "RSA y",
+        "word": true
+      },
+      {
+        "old": "DSAy",
+        "new": "DSA y",
+        "word": true
+      },
+      {
+        "old": "Daun",
+        "new": "Da un",
+        "word": true
+      },
+      {
+        "old": "Delos",
+        "new": "De los",
+        "word": true
+      }
+    ]
+  },
+  "questions": {
+    "tai-li-2015-p1-001": {
+      "note": "Mancha del dorso leída como «.» (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "No .es",
+          "new": "No es"
+        }
+      ]
+    },
+    "tai-li-2015-p1-014": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "jurídica,",
+          "new": "jurídica."
+        }
+      ]
+    },
+    "tai-li-2015-p1-017": {
+      "note": "Dos puntos leídos como «;», tilde de «Ámbito» y punto final leído como coma (comprobado contra la imagen). Revisión de la respuesta: la b) también recoge un contenido mínimo del art. 3.2 b) del RD 1671/2009 («identificación de la dirección electrónica de referencia de la sede»); la plantilla provisional da A.",
+      "replace": [
+        {
+          "old": "mínimo;",
+          "new": "mínimo:"
+        },
+        {
+          "old": "Ambito",
+          "new": "Ámbito"
+        },
+        {
+          "old": "encuestas,",
+          "new": "encuestas."
+        }
+      ],
+      "set": {
+        "needs_review": true
+      }
+    },
+    "tai-li-2015-p1-021": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "kernel,",
+          "new": "kernel."
+        }
+      ]
+    },
+    "tai-li-2015-p1-023": {
+      "note": "Espacio y punto final del original («4 bits.», «12 bits.») mal leídos por el OCR.",
+      "replace": [
+        {
+          "old": "4bits.",
+          "new": "4 bits."
+        },
+        {
+          "old": "12 bits,",
+          "new": "12 bits."
+        }
+      ]
+    },
+    "tai-li-2015-p1-025": {
+      "note": "Espacio del original («0'5 TB») perdido en el OCR.",
+      "replace": [
+        {
+          "old": "0'5TB",
+          "new": "0'5 TB"
+        }
+      ]
+    },
+    "tai-li-2015-p1-028": {
+      "note": "«RAID 0» leído como «RAIDO» y espacio de «RAID 6» perdido en el OCR.",
+      "replace": [
+        {
+          "old": "RAIDO",
+          "new": "RAID 0"
+        },
+        {
+          "old": "RAID6",
+          "new": "RAID 6"
+        }
+      ]
+    },
+    "tai-li-2015-p1-029": {
+      "note": "Espacios del original («10 Gbps», «20 Gbps») perdidos en el OCR.",
+      "replace": [
+        {
+          "old": "10Gbps",
+          "new": "10 Gbps"
+        },
+        {
+          "old": "20Gbps",
+          "new": "20 Gbps"
+        }
+      ]
+    },
+    "tai-li-2015-p1-030": {
+      "note": "«Gen 2:» leído como «Gen Le» y espacio de «10 Gbps» perdido (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "Gen Le",
+          "new": "Gen 2:"
+        },
+        {
+          "old": "10Gbps",
+          "new": "10 Gbps"
+        }
+      ]
+    },
+    "tai-li-2015-p1-033": {
+      "note": "Mancha leída como « :» tras «.csv».",
+      "replace": [
+        {
+          "old": ".csv :",
+          "new": ".csv"
+        }
+      ]
+    },
+    "tai-li-2015-p1-037": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "\"time-slice\",",
+          "new": "\"time-slice\"."
+        }
+      ]
+    },
+    "tai-li-2015-p1-040": {
+      "note": "«Java» leído como «ava».",
+      "replace": [
+        {
+          "old": "(ava Virtual",
+          "new": "(Java Virtual"
+        }
+      ]
+    },
+    "tai-li-2015-p1-046": {
+      "note": "«:q!» leído como «:ql»; órdenes de vi como código.",
+      "replace": [
+        {
+          "old": ":ql",
+          "new": ":q!"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p1-047": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "Un administrador de Unix está preparando un sistema para su entrada en funcionamiento, pero por error, ha dejado el disco de más capacidad /dev/sd1 asignado a los usuarios /home, y el de menor capacidad /dev/sd2 asignado a los datos /data. Para modificar la configuración antes de la entrada en funcionamiento del sistema, asignando el de mayor capacidad a los datos y el de menor a los usuarios, ¿Qué comando o comandos tiene que utilizar?",
+        "options": [
+          "umount /dev/sd1/home; umount /dev/sd2 /data; mount /dev/sd2/home; mount /dev/sd1/data",
+          "mount –swap /home /data",
+          "mount --change /dev/sd1 /dev/sd2",
+          "swap –m /home /data; swap –d /dev/sd2 /dev/sd1"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p1-049": {
+      "note": "«MySQL» leído como «MySal».",
+      "replace": [
+        {
+          "old": "MySal.",
+          "new": "MySQL."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-002": {
+      "note": "«nivel 0» (cero) leído como «nivel O». Revisión de la respuesta: la c) también parece cierta (un flujo puede descomponerse en varios en los niveles inferiores manteniendo el balanceo); la plantilla provisional da A.",
+      "replace": [
+        {
+          "old": "nivel O",
+          "new": "nivel 0",
+          "count": 2
+        }
+      ],
+      "set": {
+        "needs_review": true
+      }
+    },
+    "tai-li-2015-p1-b3-003": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "Consulta,",
+          "new": "Consulta."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-014": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "¿Cuál de los siguientes bloques de código en PHP permite que se escriba al menos una vez el valor de la variable $i?",
+        "options": [
+          "<?php $i = 0; do { echo $i;} while ($i > 0); ?>",
+          "<?php $i = 1; while($i < 0) { echo $i;} ?>",
+          "<?php for ($i = 1; $i < 0; $i--) { echo $i;} ?>",
+          "<?php $i = 1;if ($i < 0) { echo $i;} ?>"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p1-b3-015": {
+      "note": "Mancha leída como « a» al final de la opción d). Revisión de la respuesta: la c) también es cierta (Java es un lenguaje imperativo orientado a objetos); la plantilla provisional da D.",
+      "replace": [
+        {
+          "old": "Prototipado. a",
+          "new": "Prototipado."
+        }
+      ],
+      "set": {
+        "needs_review": true
+      }
+    },
+    "tai-li-2015-p1-b3-016": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). El fragmento de código va en línea.",
+      "set": {
+        "text": "Cuál será la salida del siguiente fragmento de código en Java: `int x; double y=272.895; x=(int)(y - 0.9); System.out.println (x);`"
+      }
+    },
+    "tai-li-2015-p1-b3-018": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). La expresión va como código en línea.",
+      "set": {
+        "text": "En la expresión Java: `!(a==b) && ((b<c) || (a>b))`, siendo a=4 y b=6, ¿qué valor de los siguientes tendría que tener c para que el resultado de estas operaciones lógicas fuera true?"
+      }
+    },
+    "tai-li-2015-p1-b3-020": {
+      "note": "Espacios alrededor de «/» del original perdidos en el OCR (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "LEFT/ RIGHT",
+          "new": "LEFT / RIGHT",
+          "count": 3
+        },
+        {
+          "old": "RIGHT/ FULL",
+          "new": "RIGHT / FULL",
+          "count": 1
+        },
+        {
+          "old": "RIGHT/ BOTH",
+          "new": "RIGHT / BOTH",
+          "count": 1
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-021": {
+      "note": "Mancha leída como « á» tras «add column»; fragmentos SQL como código.",
+      "replace": [
+        {
+          "old": "add column á",
+          "new": "add column"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p1-b3-022": {
+      "note": "Manchas leídas como « E» y « '» al final de las opciones c) y d).",
+      "replace": [
+        {
+          "old": "lenguajes. E",
+          "new": "lenguajes."
+        },
+        {
+          "old": "Access. '",
+          "new": "Access."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-023": {
+      "note": "La consulta SQL del enunciado va como código en línea.",
+      "set": {
+        "text": "Indicar qué resultado se puede esperar de esta consulta SQL sobre una tabla 'COCHES_VENTA' que mantiene el inventario de automóviles en un pequeño concesionario: `SELECT Modelo, Color, COUNT(Bastidor) AS Num FROM COCHES_VENTA GROUP BY Modelo, Color HAVING COUNT(Bastidor) <= 1`"
+      }
+    },
+    "tai-li-2015-p1-b3-028": {
+      "note": "«(OO)» leído como «(00)».",
+      "replace": [
+        {
+          "old": "(00)",
+          "new": "(OO)"
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-029": {
+      "note": "«(OO)» leído como «(00)».",
+      "replace": [
+        {
+          "old": "(00)",
+          "new": "(OO)"
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-035": {
+      "note": "«Log4C#» leído como «Log4C+».",
+      "replace": [
+        {
+          "old": "Log4C+.",
+          "new": "Log4C#."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-036": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "/",
+          "#",
+          "-",
+          "!"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p1-b3-040": {
+      "note": "Espacio de «Axis2 es» perdido y punto final leído como coma.",
+      "replace": [
+        {
+          "old": "Axis2es:",
+          "new": "Axis2 es:"
+        },
+        {
+          "old": "web,",
+          "new": "web."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-042": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "W3C,",
+          "new": "W3C."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-045": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "(x <> 9)",
+          "(x <=> 9)",
+          "(x != 9)",
+          "(x !== 9)"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p1-b3-046": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "autor,",
+          "new": "autor."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b3-r3": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "Microsoft,",
+          "new": "Microsoft."
+        },
+        {
+          "old": "UML,",
+          "new": "UML."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-008": {
+      "note": "Espacios de «SENT TO» y «RCPT TO» perdidos en el OCR; órdenes SMTP como código.",
+      "replace": [
+        {
+          "old": "SENTTO",
+          "new": "SENT TO"
+        },
+        {
+          "old": "RCPTTO",
+          "new": "RCPT TO"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p1-b4-010": {
+      "note": "«De entre» leído como «Da entre» y punto final leído como coma.",
+      "replace": [
+        {
+          "old": "Da entre",
+          "new": "De entre"
+        },
+        {
+          "old": "Viewer,",
+          "new": "Viewer."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-011": {
+      "note": "«Si» leído como «Sí».",
+      "replace": [
+        {
+          "old": "Sí se utilizan",
+          "new": "Si se utilizan"
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-014": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "comandos,",
+          "new": "comandos."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-015": {
+      "note": "Espacios y puntos finales del original perdidos en el OCR.",
+      "set": {
+        "options": [
+          "3 tiers o niveles.",
+          "4 tiers o niveles.",
+          "5 tiers o niveles.",
+          "6 tiers o niveles."
+        ]
+      }
+    },
+    "tai-li-2015-p1-b4-024": {
+      "note": "«OM4» leído como «OMA4».",
+      "replace": [
+        {
+          "old": "OMA4",
+          "new": "OM4"
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-027": {
+      "note": "Manchas leídas como « Ñ» y « po».",
+      "replace": [
+        {
+          "old": "802.11n: Ñ",
+          "new": "802.11n:"
+        },
+        {
+          "old": "54 Mbps po",
+          "new": "54 Mbps"
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-028": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "802.11b",
+          "802.11ac",
+          "802.11n",
+          "802.11g"
+        ]
+      }
+    },
+    "tai-li-2015-p1-b4-029": {
+      "note": "«IPv6» leído como «1Pv6»; en las opciones («6.», «7.»…) se escapa el punto para que Markdown no las tome por listas numeradas.",
+      "replace": [
+        {
+          "old": "1Pv6",
+          "new": "IPv6"
+        }
+      ],
+      "set": {
+        "options": [
+          "6\\.",
+          "7\\.",
+          "8\\.",
+          "10\\."
+        ]
+      }
+    },
+    "tai-li-2015-p1-b4-032": {
+      "note": "«IP» leído como «1P».",
+      "replace": [
+        {
+          "old": "una 1P",
+          "new": "una IP"
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-034": {
+      "note": "«IP» leído como «1P».",
+      "replace": [
+        {
+          "old": "dirección 1P",
+          "new": "dirección IP"
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-038": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). La orden va como código en línea, pegada a «siguiente» como en el original.",
+      "set": {
+        "text": "Si en un entorno de red sobre un sistema operativo Windows nos encontramos con una sentencia como la siguiente`#> wget -r -l2 -i listado.txt` lo interpretaremos como la recuperación de una serie de documentos:"
+      },
+      "replace": [
+        {
+          "old": "listado.bxt",
+          "new": "listado.txt"
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-045": {
+      "note": "Manchas del margen leídas como texto al final de las opciones b), c) y d).",
+      "replace": [
+        {
+          "old": "Linux. pi",
+          "new": "Linux."
+        },
+        {
+          "old": "streaming. cia",
+          "new": "streaming."
+        },
+        {
+          "old": "domótica. -",
+          "new": "domótica."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-049": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "nodos,",
+          "new": "nodos."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-050": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "Ethernet,",
+          "new": "Ethernet."
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-r1": {
+      "note": "«802.11p» y «802.11v» mal leídos por el OCR.",
+      "replace": [
+        {
+          "old": "802,11p",
+          "new": "802.11p"
+        },
+        {
+          "old": "802.1iv",
+          "new": "802.11v"
+        }
+      ]
+    },
+    "tai-li-2015-p1-b4-r3": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "bidireccionales,",
+          "new": "bidireccionales.",
+          "count": 1
+        }
+      ]
+    },
+    "tai-li-2015-p2-s1-001": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). «museoCdlC» (Museo de Ciencia de la Ciudad) con ele minúscula, como «MUSEOCDLC».",
+      "set": {
+        "options": [
+          "CREATE SCHEMA MUSEOCDLC ON ROLE museo;",
+          "CREATE SCHEMA museoCdlC ON USER museo;",
+          "CREATE SCHEMA museoCdlC TO USER museo;",
+          "CREATE SCHEMA museoCdlC AUTHORIZATION museo;"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-002": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-004": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-005": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-006": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-009": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-012": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-015": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-019": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-023": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-024": {
+      "note": "Opciones de código (SQL, Java, HTML o svn) como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-003": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). La sentencia CREATE TABLE va como bloque de código. Revisión de la respuesta: la c) también es válida en PostgreSQL (añade la clave primaria sin nombrar la restricción); la plantilla provisional da D, la que usa CONSTRAINT.",
+      "set": {
+        "text": "La sentencia para crear la tabla ACTIV_ESPAC es la siguiente:\n\n```sql\nCREATE TABLE ACTIV_ESPAC\n(\n    idactividad bigint NOT NULL,\n    idespacio bigint NOT NULL\n)\n```\n\nSe quiere añadir una sentencia SQL constraint para habilitar los dos campos como clave primaria, para ello:",
+        "needs_review": true
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-007": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). La sentencia CREATE TABLE va como bloque de código; «seq_clientes» leído a veces como «seg_clientes».",
+      "set": {
+        "text": "La sentencia de creación de la tabla CLIENTE para el proyecto es la siguiente:\n\n```sql\nCREATE TABLE CLIENTE\n(\n    id bigint NOT NULL DEFAULT nextval(('seq_clientes'::text)::regclass),\n    nombre text NOT NULL,\n    cif text NOT NULL,\n    grupoedad text NOT NULL,\n    direccion text NOT NULL,\n    activo varchar(1) NOT NULL,\n    CONSTRAINT con_c_cli_activo CHECK (activo::text = 's'::text OR activo::text = 'n'::text)\n)\n```\n\nPreviamente se ha creado una secuencia de nombre seq_clientes. En este caso por motivos de funcionamiento interno se ha decidido que los valores del campo 'id' comiencen a partir del número 150, incrementando su valor en 1. La sentencia para crear dicha secuencia es:",
+        "options": [
+          "CREATE SEQUENCE seq_clientes INCREASE 1 INIT 150;",
+          "CREATE SEQUENCE seq_clientes INIT 150;",
+          "CREATE SEQUENCE seq_clientes START 150;",
+          "CREATE SEQUENCE seq_clientes INCREASE 1 BEGIN 150;"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-010": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "@Entity (table=\"actividades\")",
+          "@Table (table=\"actividades\")",
+          "@Entity (name=\"actividades\")",
+          "@Table (name=\"actividades\")"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-011": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). Opciones de código en varias líneas como bloques.",
+      "set": {
+        "options": [
+          "```java\nmivector.add(r1);\nmivector.contains(r1);\nmivector.indexOf(r1);\nmivector.length();\n```",
+          "```java\nmivector.add(r1);\nmivector.add(r2);\nmivector.setElement(0,r2);\n```",
+          "```java\nmivector.add(r1);\nmivector.delete(r1);\n```",
+          "```java\nmivector.add(r1);\nmivector.add(r2);\nmivector.set(1,r1);\nmivector.indexOf(5);\n```"
+        ]
+      }
+    },
+    "tai-li-2015-p2-s1-013": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). Las declaraciones van como bloque de código.",
+      "set": {
+        "text": "Se necesita utilizar un iterador para recorrer el ArrayList de objetos Reservas, se declara de la siguiente forma:\n\n```java\nArrayList<Reservas> museo = new ArrayList<Reservas>();\nIterator<Reservas> it_museo=museo.iterator();\n```\n\nEl método para preguntar al iterador si todavía tiene elementos por recorrer y que devuelve un booleano es:"
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-014": {
+      "note": "«En uno» leído como «En uuno»; nombres de atributo como código.",
+      "replace": [
+        {
+          "old": "En uuno",
+          "new": "En uno"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-016": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). Opciones de código en varias líneas como bloques.",
+      "set": {
+        "options": [
+          "```html\n<datalist name=\"campos\">\n    <option value=\"nombreactividad\">\n    <option value=\"llevacanon\">\n    <option value=\"fechainicio\">\n</datalist><input type=\"text\" name=\"filtro\" datalist=\"campos\">\n```",
+          "```html\n<datalist id=\"campos\">\n    <option for=\"nombreactividad\">\n    <option for=\"llevacanon\">\n    <option for=\"fechainicio\">\n</datalist><input type=\"text\" name=\"filtro\" datalist=\"campos\">\n```",
+          "```html\n<datalist id=\"campos\">\n    <id value=\"nombreactividad\">\n    <id value=\"llevacanon\">\n    <id value=\"fechainicio\">\n</datalist>\n<input type=\"text\" name=\"filtro\" datalist=\"campos\">\n```",
+          "```html\n<datalist id=\"campos\">\n    <option value=\"nombreactividad\">\n    <option value=\"llevacanon\">\n    <option value=\"fechainicio\">\n</datalist>\n<input type=\"text\" name=\"filtro\" list=\"campos\">\n```"
+        ]
+      }
+    },
+    "tai-li-2015-p2-s1-018": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "replace": [
+        {
+          "old": "\"reservasPorCliente”",
+          "new": "\"reservasPorCliente\""
+        }
+      ],
+      "set": {
+        "options": [
+          "@WebMethod",
+          "@PublicMethod",
+          "@PublicName",
+          "@WebResult"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-020": {
+      "note": "«activeInput» leído como «activelnput»; atributos del DOM como código.",
+      "replace": [
+        {
+          "old": "activelnput",
+          "new": "activeInput"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-021": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "<table><title>Título de la tabla</title> ... </table>",
+          "<table caption=\"título de la tabla\"> ... </table>",
+          "<table><caption>Título de la tabla</caption> ... </table>",
+          "<table title=\"título de la tabla\"> ... </table>"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-025": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). Los comentarios Javadoc de las opciones van como bloques de código.",
+      "set": {
+        "options": [
+          "```java\n/**\n * Indica si el cliente ha tenido o no reservas en algún momento\n * @param cif\n * @see utilidades.Reservas#verReserva(String)\n * @return <ul>\n * <li>true: el cliente ha tenido alguna reserva </li>\n * <li>false: el cliente no ha tenido reservas</li>\n * </ul>\n */\n```",
+          "```java\n/**\n * Indica si el cliente ha tenido o no reservas en algún momento\n * @parameter cif\n * @see utilidades#Reservas#verReserva(String)\n * @return <ul>\n * <li>true: el cliente ha tenido alguna reserva </li>\n * <li>false: el cliente no ha tenido reservas</li>\n * </ul>\n */\n```",
+          "```java\n/**\n * Indica si el cliente ha tenido o no reservas en algún momento\n * @parameter cif\n * @ref utilidades#Reservas#verReserva(String)\n * @value <ul>\n * <li>true: el cliente ha tenido alguna reserva </li>\n * <li>false: el cliente no ha tenido reservas</li>\n * </ul>\n */\n```",
+          "```java\n/*\n * Indica si el cliente ha tenido o no reservas en algún momento\n * @param cif\n * @ref utilidades#Reservas#verReserva(String)\n * @return <ul>\n * <li>true: el cliente ha tenido alguna reserva </li>\n * <li>false: el cliente no ha tenido reservas</li>\n * </ul>\n */\n```"
+        ]
+      }
+    },
+    "tai-li-2015-p2-s1-026": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). Las reglas CSS de las opciones van como bloques de código.",
+      "set": {
+        "text": "En uno de los formularios HTML5 de salida aparece un <div id=#caja> para el que se quiere aplicar la opción de bordes redondeados que tenemos en CSS3, se le especifica un radio de 15px y además se requiere que sea compatible con los navegadores Firefox . Para ello en la hoja de estilo se deberá tener:",
+        "options": [
+          "```css\n#caja\n{\n    -moz-border:15px 15px 15px 15px;\n    border:15px 15px 15px 15px;\n}\n```",
+          "```css\n#caja\n{\n    -moz-border:15px;15px;15px;15px;\n    border:15px;15px;15px;15px;\n}\n```",
+          "```css\n#caja\n{\n    -mozilla-border: 15px 15px 15px 15px;\n    border:15px 15px 15px 15px;\n}\n```",
+          "```css\n#caja\n{\n    -moz-border-radius: 15px 15px 15px 15px;\n    border-radius: 15px 15px 15px 15px;\n}\n```"
+        ]
+      }
+    },
+    "tai-li-2015-p2-s1-027": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "<script load=\"jquery\" src=\"ruta/jquery-1.8.2.min.js\"></script>",
+          "<link rel=\"jquery\" href=\"ruta/jquery-1.8.2.min.js\"/>",
+          "<script type=\"text/javascript\" src=\"ruta/jquery-1.8.2.min.js\" ></script>",
+          "<script type=\"text/jquery\" href=\"ruta/jquery-1.8.2.min.js\" ></script>"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-028": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "En una página aspx del proyecto se le quiere especificar que el control de los eventos se va a realizar en un archivo separado 'codigo.cs', para ello debe utilizar el siguiente atributo de la directiva @ Page:",
+        "options": [
+          "File",
+          "CodeFile",
+          "Code",
+          "EventFile"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-029": {
+      "note": "«C#» leído como «C%»; modificadores como código.",
+      "replace": [
+        {
+          "old": "lenguaje C%",
+          "new": "lenguaje C#"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-030": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "text": "En C# existen varias formas de crear un array, seleccione cuál de las siguientes dará un error de compilación:",
+        "options": [
+          "string[] miArray = new string[100];",
+          "string[] miArray={\"Coria\",\"del\",\"Rio\"};",
+          "string[] miArray= new string[]{\"Coria\",\"del\",\"Rio\"};",
+          "int unEntero=3; string [] unArray= new string[unEntero]{\"Coria\",\"del\",\"Rio\"};"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-031": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). El fragmento C# va como bloque de código y las salidas de las opciones, en bloques.",
+      "set": {
+        "text": "Seleccione la salida correcta para el siguiente fragmento de código C# del proyecto:\n\n```csharp\nstring[] nombres={\"Matilde\",\"Cristina\",\"Teresa\",\"Valle\"};\nArray.Sort(nombres);\nArray.Reverse(nombres);\nfor(int i=0;i<nombres.Length;i++)\n    Console.WriteLine(nombres[i]);\n```",
+        "options": [
+          "```\nValle\nTeresa\nCristina\nMatilde\n```",
+          "```\nCristina\nMatilde\nValle\nTeresa\n```",
+          "```\nValle\nTeresa\nMatilde\nCristina\n```",
+          "```\nTeresa\nMatilde\nValle\nCristina\n```"
+        ]
+      }
+    },
+    "tai-li-2015-p2-s1-032": {
+      "note": "«C#» leído como «Cif»; directivas como código.",
+      "replace": [
+        {
+          "old": "en Cif",
+          "new": "en C#"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-033": {
+      "note": "«C#» leído como «CA» y comilla de cierre normalizada; fragmentos de código como código.",
+      "replace": [
+        {
+          "old": "programa CA",
+          "new": "programa C#"
+        },
+        {
+          "old": "\"Cliente”",
+          "new": "\"Cliente\""
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-034": {
+      "note": "«C#» leído como «CXf»; modificadores como código.",
+      "replace": [
+        {
+          "old": "de CXf",
+          "new": "de C#"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-035": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). El objeto JSON del enunciado va como bloque de código.",
+      "set": {
+        "text": "Se pretende utilizar JSON para el intercambio de información de las reservas con otras aplicaciones, teniendo en cuenta el siguiente objeto JSON de intercambio:\n\n```json\n{\n\"Fecha\":\"20042016\",\n\"Asistentes\":18,\n\"importe_total\":\"4\",\n\"cliente\":{ \"nombre\":\"IES Rodrigo Caro\", \"cif\":\"q2818982\", \"pais\":\"España\" }\n}\n```\n\nSe quiere cambiar la sintaxis para que en lugar de aparecer un único objeto \"cliente\", sea un arreglo llamado \"listaclientes\" con los clientes que han reservado en un determinado día, para hacer esto en JSON utilizaremos:",
+        "options": [
+          "Crear un nuevo atributo `\"listaclientes\":list(\"cliente\":{…},\"cliente\":{…},\"cliente\":{…})`",
+          "Crear un nuevo atributo `\"listaclientes\":\"cliente\":{…} \"cliente\":{…} \"cliente\":{…}`",
+          "Crear un nuevo atributo `\"listaclientes\":\"cliente\":{…},\"cliente\":{…},\"cliente\":{…}`",
+          "Crear un nuevo atributo `\"listaclientes\":[\"cliente\":{…},\"cliente\":{…},\"cliente\":{…}]`"
+        ]
+      }
+    },
+    "tai-li-2015-p2-s1-038": {
+      "note": "Los marcadores «**P38**» del original llevan asteriscos literales: van como código en línea.",
+      "set": {
+        "text": "Seleccione la opción correcta para sustituir por `**P38**` teniendo en cuenta la descripción de lo que se quiere tener por cada entidad externa:"
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-039": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). Los marcadores «**P39**» del original llevan asteriscos literales: van como código en línea.",
+      "set": {
+        "text": "Teniendo en cuenta el enunciado anterior, sustituya `**P39**` por la opción que nos permita comparar que la fecha inicio de la actividad sea mayor o igual al 1 enero de 2016:",
+        "options": [
+          "TO_DATE('2016-01-01','YYYY-MM-DD')",
+          "DATE('2016-01-01','YYYY-MM-DD')",
+          "'2016-01-01':DATE",
+          "CONVERT('2016-01-01','YYYY-MM-DD')"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-040": {
+      "note": "Los marcadores «**P40**» del original llevan asteriscos literales: van como código en línea.",
+      "set": {
+        "text": "En `**P40**` debemos comparar que la fecha fin de la actividad sea inferior o igual a la fecha del momento de ejecución de la consulta, para ello utilizaremos:"
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-r2": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). La llamada $.ajax va como bloque de código (el OCR tomaba sus líneas por opciones).",
+      "set": {
+        "text": "Sea el siguiente fragmento con la llamada a jquery.ajax():\n\n```javascript\n$.ajax({\n    data: {\"parametro1\" : \"valor1\", \"parametro2\" : \"valor2\"},\n    type: \"GET\",\n    url: \"script.php\",\n})\n```\n\nPara especificarle que el formato de intercambio de datos es JSON utilizaremos el argumento:",
+        "options": [
+          "format:",
+          "datatype:",
+          "contentType:",
+          "processData:"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s1-r3": {
+      "note": "Opciones de jQuery como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-001": {
+      "note": "«S1» leído como «Si»; órdenes como código.",
+      "replace": [
+        {
+          "old": "servidor Si",
+          "new": "servidor S1"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-002": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "mysqldump --all-databases -u=u_mysql -p=xyz > /tmp/backup.sql",
+          "mysqldump --all-databases -u u_mysql -pxyz > /tmp/backup.sql",
+          "mysql --backup --all-databases -u=u_mysql -p=xyz > /tmp/backup.sql",
+          "mysql --backup --all-databases -u u_mysql -pxyz > /tmp/backup.sql"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-003": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "#",
+          "##",
+          "!!",
+          "!"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-004": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "vgcfgrestore",
+          "lvmgrestore",
+          "importlvm",
+          "lvmrestore"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-005": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "echo \"users soft nofile 1024\" >>/etc/security/filelimits.conf; echo \"users hard nofile 1024\" >> /etc/security/filelimits.conf",
+          "echo \"users soft nofile 1024\" >>/etc/security/files.conf; echo \"users hard nofile 1024\" >> /etc/security/files.conf",
+          "echo \"@users soft nofile 1024\" >>/etc/security/limits.conf; echo \"@users hard nofile 1024\" >> /etc/security/limits.conf",
+          "echo \"@users soft nofile 1024\" >>/etc/security/soft.conf"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-006": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-011": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-012": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-019": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-020": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-025": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-027": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-033": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-034": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-035": {
+      "note": "Opciones de órdenes o herramientas de línea de comandos como código en línea.",
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-007": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "La inicialización sólo se puede hacer para discos enteros, no particiones.",
+          "`lvm --create /dev/sdb1`",
+          "`pv --create /dev/sdb1`",
+          "`pvcreate /dev/sdb1`"
+        ]
+      }
+    },
+    "tai-li-2015-p2-s2-008": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "ifconfig eth0 -promisc",
+          "ifconfig eth0 promisc",
+          "ifconfig eth0 promiscuous",
+          "ifconfig eth0 --promiscuous"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-li-2015-p2-s2-009": {
+      "note": "«IPv4» leído como «1Pv4» y punto final leído como coma.",
+      "replace": [
+        {
+          "old": "1Pv4",
+          "new": "IPv4"
+        },
+        {
+          "old": "IPv4,",
+          "new": "IPv4."
+        }
+      ]
+    },
+    "tai-li-2015-p2-s2-017": {
+      "note": "Punto de la dirección IP leído como coma.",
+      "replace": [
+        {
+          "old": "192.168.168,129",
+          "new": "192.168.168.129"
+        }
+      ]
+    },
+    "tai-li-2015-p2-s2-021": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). La orden va como código en línea.",
+      "set": {
+        "text": "Indique qué ocurrirá si desde la shell bash en el servidor Linux, ejecuta lo siguiente: `false && echo \"Hola\"`"
+      },
+      "replace": [
+        {
+          "old": "al poner 8:8,,",
+          "new": "al poner &&,"
+        }
+      ]
+    },
+    "tai-li-2015-p2-s2-023": {
+      "note": "«eWallet» leído como «€Wallet».",
+      "replace": [
+        {
+          "old": "€Wallet",
+          "new": "eWallet"
+        }
+      ]
+    },
+    "tai-li-2015-p2-s2-028": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). La línea de crontab va como bloque de código.",
+      "set": {
+        "text": "Mediante la ejecución del comando crontab -e, usted añade la siguiente línea:\n\n```\n0 5 * * 1 tar -zcf /var/backups/home/home.tgz /home/\n```\n\n¿Cuál es el resultado una vez guardado dicho cambio?"
+      },
+      "replace": [
+        {
+          "old": "/home/a las",
+          "new": "/home/ a las"
+        }
+      ]
+    },
+    "tai-li-2015-p2-s2-029": {
+      "note": "Punto final leído por el OCR como coma (comprobado contra la imagen).",
+      "replace": [
+        {
+          "old": "RAID 10,",
+          "new": "RAID 10."
+        }
+      ]
+    },
+    "tai-li-2015-p2-s2-r1": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). El contenido del script va como bloque de código.",
+      "set": {
+        "text": "Tras ejecutar el fichero iptables.sh, si desde un ordenador situado en la misma red accede a la URL mencionada, ¿cuál de las siguientes afirmaciones es cierta?. Contenido de iptables.sh:\n\n```bash\n#!/bin/bash\niptables --flush\niptables -A INPUT -i eth0 -p tcp --dport 80 -j ACCEPT\niptables -A INPUT -i eth0 -p tcp --dport 80 -j DROP\niptables -A INPUT -i eth0 -p tcp --dport 8888 -j ACCEPT\n```"
+      }
+    },
+    "tai-li-2015-p2-s2-r2": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). El contenido del script va como bloque de código.",
+      "set": {
+        "text": "Tras ejecutar el fichero iptables2.sh, si desde un ordenador con navegador situado en la misma red accede a la URL mencionada pero al puerto 8888, ¿cuál de las siguientes afirmaciones es cierta?. Contenido de iptables2.sh:\n\n```bash\n#!/bin/bash\niptables --flush\niptables -A INPUT -i eth0 -p tcp --dport 80 -j ACCEPT\niptables -A INPUT -i eth0 -p tcp --dport 80 -j DROP\niptables -A INPUT -i eth0 -p tcp --dport 8888 -j ACCEPT\niptables -A PREROUTING -t nat -i eth0 -p tcp --dport 8888 -j REDIRECT --to-port 80\n```"
+      }
+    },
+    "tai-li-2015-p2-s2-r3": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). El contenido del script va como bloque de código.",
+      "set": {
+        "text": "Tras ejecutar el fichero iptables3.sh, si desde un ordenador con navegador situado en la misma red se accede a la URL mencionada, pero por el puerto 8888, ¿cuál de las siguientes afirmaciones es cierta?. Contenido de iptables3.sh:\n\n```bash\n#!/bin/bash\niptables --flush\niptables -A INPUT -i eth0 -p tcp --dport 80 -j ACCEPT\niptables -A INPUT -i eth0 -p tcp --dport 80 -j DROP\niptables -A INPUT -i eth0 -p tcp --dport 8888 -j ACCEPT\niptables -A PREROUTING -t nat -i eth0 -p tcp --dport 8888 -j REDIRECT --to-port 80\n```"
+      }
+    },
+    "tai-li-2015-p1-018": {
+      "note": "Revisión: las opciones a) y d) son idénticas en el cuadernillo original (comprobado contra la imagen; errata conservada por ser transcripción literal); la respuesta B no se ve afectada.",
+      "set": {
+        "needs_review": true
+      }
+    },
+    "tai-li-2015-p1-032": {
+      "note": "Revisión de la respuesta: «Diccionario» y «Mapa» son el mismo TAD asociativo y ninguno tiene un orden definido; la plantilla provisional da D.",
+      "set": {
+        "needs_review": true
+      }
+    }
+  },
+  "sections": {
+    "p2-s1": {
+      "note": "Enunciado transcrito de la imagen: viñetas y negrita del original, modelo de datos recortado como figura (con transcripción) y consulta SQL del texto previo a la pregunta 38 como bloque de código.",
+      "set": {
+        "statement": "Usted trabaja como analista programador en un Museo de Ciencia vinculado a un organismo público y le asignan la construcción de un sistema de información para gestionar las reservas que hacen los grupos escolares en determinadas actividades que se organizan en el Museo. La arquitectura de la aplicación será un modelo en tres capas siguiendo el patrón MVC y se utilizará la siguiente tecnología para su desarrollo:\n\n- Java EE 7\n- IDE NetBeans 8.1\n- Servidor GlassFish Server 4.1.\n- Motor de Base de Datos PostgreSQL 9.5\n\nEl modelo de datos de la aplicación se resume en:\n\n⟦FIG:0⟧\n\nA modo de resumen:\n\n- **Espacios**: son las diferentes salas del Museo donde se organizan actividades, en una sala se pueden impartir diferentes actividades.\n- **Actividades**: Son las diferentes actividades que se organizan en los espacios del Museo y pueden ser reservadas por grupos escolares (clientes). La mayoría de veces son organizadas por alguna entidad externa. Una entidad externa puede estar organizando varias actividades en un determinado momento. Las actividades pueden tener una o varias sesiones sobre las que se realizan las reservas.\n- **Entidades Externas**: son empresas externas al Museo y se encargan de organizar actividades para los grupos escolares.\n- **Clientes**: representan todos los grupos escolares que hacen reservas en alguna sesión de alguna actividad.\n- **Reservas**: Los clientes reservan las actividades en una sesión. Nunca existe solapamiento de reservas.\n\n*Texto que precede a la pregunta 38:*\n\n**PREGUNTAS 38-40:** Algunas actividades organizadas por entidades externas llevan un canon que luego el Museo le cobra a la entidad, para registrar esto, en la tabla ACTIVIDADES existe el campo \"llevacanon\" que en caso de tener el valor 'S' significará que todas las reservas existentes de esa actividad se tendrán en cuenta para calcular el canon final a la entidad externa. El importe total de cada reserva se calcula multiplicando el importe unitario al total de asistentes. Le piden hacer una consulta para saber cuánto hay que cobrarle a cada empresa externa teniendo en cuenta que se le cobra el 20% de la suma de los importes de las reservas en actividades organizadas por ellas (que llevan canon) y que se han organizado desde el 1 enero de 2016 hasta la fecha actual:\n\n```sql\nSELECT E.id,E.razonsocial, **P38** CANON\n    FROM ACTIVIDADES A, ENTIDADES_EXTERNAS E, SESIONES S,RESERVAS R\n    WHERE A.identidadexterna=E.id\n    AND S.idactividad = A.id\n    AND S.idreserva = R.id\n    AND  A.llevacanon='S'\n    AND A.fecha_inicio >= **P39**\n    AND A.fecha_fin<= **P40**\n    GROUP BY E.id,E.razonsocial\n```"
+      }
+    },
+    "p2-s2": {
+      "note": "Enunciado transcrito de la imagen: esquema de red recortado como figura, salida de la consola como bloque de código y textos previos a la pregunta 21 y a las de reserva.",
+      "set": {
+        "statement": "**PREGUNTAS 1-20:** Se ha incorporado recientemente al departamento de sistemas de un Ministerio y con motivo de determinar cuál sería el plan de formación más adecuado para que pueda desempeñar su trabajo de forma óptima, el responsable le plantea una serie de cuestiones con el fin de determinar sus habilidades técnicas y conocimiento previo. En uno de los departamentos se dispone de un servidor Linux, un servidor Windows, y 10 puestos de trabajo que usan una aplicación cliente/servidor, con estas características:\n\nServidor Linux (llamado S1): la distribución instalada es la versión estable de Debian y está instalado un servidor de bases de datos MySQL (la versión de MySQL instalada es la 5.5.47). Para la administración del servidor de base de datos, existe un usuario con todos los permisos pertinentes:\n\n**usuario: u_mysql**\n\n**contraseña: xyz**\n\nEl anterior administrador de sistemas, dotó al servidor de volúmenes lógicos LVM para una gestión más eficiente del almacenamiento. Para solucionar los problemas de espacio disponible existente, recientemente se ha dotado de un nuevo disco SATA, /dev/sdb y con una única partición. El servidor dispone de dos tarjetas de red, reconocidas en el sistema por eth0 y eth1.\n\nServidor Windows: La versión del sistema operativo es Windows 2008 Server R2.\n\nPuestos de trabajo: tienen una aplicación cliente, desarrollada en Java, que se conecta al servidor y a su base de datos de la aplicación a través de JDBC.\n\n*Texto que precede a la pregunta 21:*\n\n**PREGUNTAS 21-40:** En la imagen siguiente se muestra un diagrama de la red e infraestructura de un organismo perteneciente a la Administración General del Estado (AGE):\n\n⟦FIG:0⟧\n\nSe está realizando un proceso de mejora de la infraestructura actual, así como la puesta en marcha de nuevos servicios. En lo referente a servidores, en el CPD se dispone de un servidor Linux, un servidor de base de datos y está prevista la adquisición de un sistema de virtualización clusterizado, de manera que permita garantizar la disponibilidad de los servicios que se alojarán en él.\n\nServidor Linux: la última versión estable de Debian, realiza diversas funciones, entre ellas la de servidor Web. A continuación, se le muestra la información de dicho servidor:\n\n```\nusuario@cervantes:~$ uname -a\nLinux debian 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt20-1+deb8u4 (2016-02-29) x86_64\nGNU/Linux\nusuario@cervantes:~$ cat /etc/debian_version\n8.3\n```\n\nEn lo referente a Apache, la versión instalada es \"Apache/2.4.10 (Debian)\". El servidor tiene instalado LVM y, además, recientemente se le ha instalado 4 discos adicionales disponibles para empezar a usar para las necesidades que se desee cubrir.\n\nServidor Oracle: El sistema operativo es Oracle Enterprise Linux y la versión de Oracle es 10G Release 2.\n\nRespecto a los recursos humanos, los técnicos que daban servicio ya no están y se cuenta con nuevo personal que debe formarse. Usted se ha incorporado recientemente como administrador de sistemas senior, y entre sus cometidos está la introducción de todas las mejoras técnicas posibles, así como orientar y dar soporte al resto del equipo para que puedan asumir en un plazo razonable de tiempo sus respectivas tareas.\n\n*Texto que precede a la pregunta de reserva 1:*\n\n**PREGUNTAS 1-3 de RESERVA:** En el servidor Linux (con ip 192.168.1.111) hay un servidor web configurado para servir páginas accediendo a la URL http://192.168.1.111 a través del interfaz eth0:"
+      }
+    }
+  }
+}

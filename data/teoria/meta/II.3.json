@@ -1,0 +1,25 @@
+{
+  "topic": "II.3",
+  "summary": "Tipos abstractos de datos y estructuras que los implementan (vectores, listas, pilas, colas, árboles, grafos y tablas hash), organizaciones de ficheros (secuencial, directa, secuencial indexada e indexada), algoritmos (complejidad, técnicas de diseño, búsqueda, ordenación y grafos) y formatos de información y ficheros (CSV, JSON, XML, ODF, OOXML, familia PDF, imagen, audio, vídeo y compresión).",
+  "key_points": [
+    "Un TAD es un conjunto de valores y operaciones con una especificación independiente de su implementación; en Java el TAD es la interface y la estructura de datos, la class que la implementa.",
+    "Pila LIFO (push, pop, cima) y cola FIFO (entra por el final y sale por la cabecera); ambas se implementan con vectores o con estructuras dinámicas; la bicola de entrada restringida inserta por un extremo y borra por los dos.",
+    "Lista simple (un enlace), doble (dos enlaces, recorrido en ambos sentidos) y circular (el último enlaza con el primero); el vector es contiguo con acceso por índice en O(1).",
+    "Árbol binario de h niveles: como máximo 2^h - 1 nodos (4 niveles = 15); recorridos preorden (raíz-izquierdo-derecho), inorden (izquierdo-raíz-derecho, ordenado en un ABB) y postorden; los árboles 2-3-4 tienen todas las hojas al mismo nivel.",
+    "Grafos: grado de un nodo = aristas incidentes; Dijkstra (caminos mínimos desde un origen, pesos no negativos), Floyd-Warshall (todos los pares), Kruskal y Prim (árbol recubridor mínimo, voraces).",
+    "Ordenación: burbuja, selección e inserción O(n^2); mergesort y heapsort O(n log n); quicksort O(n log n) de media y O(n^2) en el peor caso; radix y conteo lineales porque no comparan. La búsqueda binaria exige vector ordenado y es O(log n).",
+    "Ficheros: secuencial (lotes, cinta), directa o hash (área de desbordamiento), secuencial indexada ISAM (área primaria, índice y desbordamiento) e indexada con árboles B+.",
+    "JSON (RFC 8259): objeto no ordenado de pares nombre/valor, array ordenado, valores objeto, array, número, cadena, true, false o null, sin comentarios. CSV (RFC 4180): registros separados por CRLF y comillas dobles para campos con comas, comillas o saltos de línea.",
+    "PDF es ISO 32000: PDF/A archivo, PDF/UA accesibilidad, PDF/E ingeniería, PDF/X imprenta y PDF/VT datos variables; «PDF/I» no existe. ODF es ISO/IEC 26300:2006 y OOXML, ISO/IEC 29500.",
+    "JPEG con pérdida (DCT) y compresión ajustable; PNG sin pérdida y con transparencia; SVG vectorial; AV1 es un códec de vídeo abierto de la Alliance for Open Media; OGM, un contenedor libre de audio y vídeo."
+  ],
+  "sources": [
+    { "title": "RFC 8259, The JavaScript Object Notation (JSON) Data Interchange Format", "url": "https://www.rfc-editor.org/rfc/rfc8259" },
+    { "title": "RFC 4180, Common Format and MIME Type for CSV Files", "url": "https://www.rfc-editor.org/rfc/rfc4180" },
+    { "title": "ECMA-404, The JSON Data Interchange Syntax", "url": "https://ecma-international.org/publications-and-standards/standards/ecma-404/" },
+    { "title": "ISO 32000-2, PDF 2.0", "url": "https://www.iso.org/standard/75839.html" },
+    { "title": "ISO/IEC 26300, OpenDocument", "url": "https://www.iso.org/standard/66363.html" },
+    { "title": "NTI de Catálogo de estándares (BOE)", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-13501" }
+  ],
+  "updated": "2026-10-11"
+}

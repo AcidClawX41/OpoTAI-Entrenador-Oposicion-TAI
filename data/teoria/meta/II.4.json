@@ -1,0 +1,30 @@
+{
+  "topic": "II.4",
+  "summary": "Sistemas operativos: concepto, funciones, tipos y elementos constitutivos (núcleo, llamadas al sistema, interrupciones, arquitecturas monolítica, micronúcleo e híbrida), gestión de procesos e hilos con planificación, sincronización e interbloqueo, memoria virtual, ficheros, E/S y protección con ejercicios resueltos; Windows (arquitectura NT, registro, NTFS/ReFS, seguridad, 64 bits, Server y AD DS), Unix, Linux y macOS (núcleo 7.0, distribuciones, permisos y órdenes) y sistemas móviles (Android e iOS: arquitectura, versiones, desarrollo y seguridad).",
+  "key_points": [
+    "El SO gestiona los recursos del hardware y ofrece servicios; sus funciones son gestionar procesos, memoria, ficheros, E/S y seguridad; el núcleo trabaja en modo privilegiado y no es el núcleo del procesador.",
+    "Arquitecturas: monolítica modular (Linux), micronúcleo (Mach, QNX, L4) e híbrida (Windows NT, XNU de macOS e iOS).",
+    "Proceso = programa en ejecución descrito por su BCP (PID, PPID, UID, estado, contexto); fork() devuelve al padre el PID del hijo y al hijo 0; zombi = terminado y aún en la tabla de procesos; init/systemd es el PID 1.",
+    "Planificadores a largo, medio y corto plazo (el de corto plazo elige qué proceso entra en la CPU); algoritmos FCFS, SJF, SRTF, prioridades y Round Robin con quantum; los hilos permiten concurrencia dentro de un proceso.",
+    "Interbloqueo: exclusión mutua, retención y espera, no expropiación y espera circular; el algoritmo del banquero evita estados inseguros.",
+    "Memoria virtual con paginación bajo demanda, TLB y reemplazo FIFO (anomalía de Belady), óptimo y LRU; hiperpaginación cuando faltan marcos.",
+    "Windows: arquitectura NT con HAL, núcleo y ejecutivo; registro; NTFS y ReFS (35 PB); SID, tokens, UAC y BitLocker; en 64 bits no se mezclan DLL de 32 y 64 bits, pero RPC sí funciona entre ellas; AD DS es el servicio de directorio.",
+    "Linux: núcleo de Torvalds (1991, GPLv2) en la versión 7.0 desde abril de 2026; distribuciones Debian 13 «trixie», Ubuntu 26.04 LTS, RHEL 10; /etc configuración, /bin ejecutables, /boot arranque.",
+    "Permisos rwx (4, 2, 1): chmod 640 = rw-r-----; tipos de fichero - d l c b; órdenes du, df, tar tvf, grep -c, mv, tac, tail, pwd, renice y dd en vi.",
+    "Android: núcleo Linux, HAL, ART (antes Dalvik) con bytecode .dex, paquetes .apk/.aab, Kotlin y NDK con JNI; iOS: XNU, Xcode, Swift (Apache 2.0), SwiftUI y sandboxing; Android ≈ 69 % e iOS ≈ 31 % del mercado en 2026."
+  ],
+  "sources": [
+    { "title": "POSIX.1-2024 (IEEE Std 1003.1-2024)", "url": "https://pubs.opengroup.org/onlinepubs/9799919799/" },
+    { "title": "Filesystem Hierarchy Standard 3.0", "url": "https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html" },
+    { "title": "The Linux Kernel Archives", "url": "https://www.kernel.org/" },
+    { "title": "Debian · versiones", "url": "https://www.debian.org/releases/" },
+    { "title": "Microsoft · información de versiones de Windows 11", "url": "https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information" },
+    { "title": "Microsoft · Process Interoperability (32 y 64 bits)", "url": "https://learn.microsoft.com/en-us/windows/win32/winprog64/process-interoperability" },
+    { "title": "Microsoft · ReFS overview", "url": "https://learn.microsoft.com/en-us/windows-server/storage/refs/refs-overview" },
+    { "title": "AOSP · Arquitectura de Android", "url": "https://source.android.com/docs/core/architecture" },
+    { "title": "Android Developers · NDK", "url": "https://developer.android.com/ndk/guides" },
+    { "title": "Apple · Platform Security Guide", "url": "https://support.apple.com/guide/security/welcome/web" },
+    { "title": "StatCounter · cuota de SO móviles", "url": "https://gs.statcounter.com/os-market-share/mobile/worldwide" }
+  ],
+  "updated": "2026-10-11"
+}

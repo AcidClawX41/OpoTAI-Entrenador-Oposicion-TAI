@@ -1,0 +1,361 @@
+{
+  "bank_id": "tai-pi-2015",
+  "global": {
+    "note": "Errores recurrentes del OCR (palabras pegadas, «1P» por «IP») detectados en la pasada ortográfica y comprobados contra la imagen.",
+    "replace": [
+      {
+        "old": "Enel",
+        "new": "En el",
+        "word": true
+      },
+      {
+        "old": "Esun",
+        "new": "Es un",
+        "word": true
+      },
+      {
+        "old": "Esuna",
+        "new": "Es una",
+        "word": true
+      },
+      {
+        "old": "Esel",
+        "new": "Es el",
+        "word": true
+      },
+      {
+        "old": "Seutilizan",
+        "new": "Se utilizan",
+        "word": true
+      },
+      {
+        "old": "Larecogida",
+        "new": "La recogida",
+        "word": true
+      },
+      {
+        "old": "Atendiendoa",
+        "new": "Atendiendo a",
+        "word": true
+      },
+      {
+        "old": "entidadesy",
+        "new": "entidades y",
+        "word": true
+      },
+      {
+        "old": "accedera",
+        "new": "acceder a",
+        "word": true
+      },
+      {
+        "old": "elintérprete",
+        "new": "el intérprete",
+        "word": true
+      },
+      {
+        "old": "relacióna",
+        "new": "relación a",
+        "word": true
+      },
+      {
+        "old": "nmy",
+        "new": "nm y",
+        "word": true
+      },
+      {
+        "old": "TTLrespondea",
+        "new": "TTL responde a",
+        "word": true
+      },
+      {
+        "old": "encadenadaa",
+        "new": "encadenada a",
+        "word": true
+      },
+      {
+        "old": "Aexcepción",
+        "new": "A excepción",
+        "word": true
+      },
+      {
+        "old": "contenidoo",
+        "new": "contenido o",
+        "word": true
+      },
+      {
+        "old": "quea",
+        "new": "que a",
+        "word": true
+      },
+      {
+        "old": "debidoa",
+        "new": "debido a",
+        "word": true
+      },
+      {
+        "old": "1P",
+        "new": "IP",
+        "word": true
+      }
+    ]
+  },
+  "questions": {
+    "tai-pi-2015-p1-004": {
+      "note": "«o» minúscula leída como «O».",
+      "replace": [
+        {
+          "old": "acceso O interconexión",
+          "new": "acceso o interconexión"
+        }
+      ]
+    },
+    "tai-pi-2015-p1-007": {
+      "note": "Mancha leída como « +» al final de la opción a).",
+      "replace": [
+        {
+          "old": "racial. +",
+          "new": "racial."
+        }
+      ]
+    },
+    "tai-pi-2015-p1-014": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). Comillas rectas del original y «i» leída como «¡».",
+      "set": {
+        "options": [
+          "1920 x 1080, el \"i\" actualiza todos los puntos de la imagen 60 veces por segundo, mientras el \"p\" refresca 30 veces las líneas pares y otras 30 veces las impares por segundo.",
+          "1920 x 1080, el \"p\" actualiza todos los puntos de la imagen 60 veces por segundo, mientras el \"i\" refresca 30 veces las líneas pares y otras 30 veces las impares por segundo.",
+          "1640 x 1080, el \"i\" actualiza todos los puntos de la imagen 60 veces por segundo, mientras el \"p\" refresca 30 veces las líneas pares y otras 30 veces las impares por segundo.",
+          "1640 x 1080, el \"p\" actualiza todos los puntos de la imagen 60 veces por segundo, mientras el \"i\" refresca 30 veces las líneas pares y otras 30 veces las impares por segundo."
+        ]
+      }
+    },
+    "tai-pi-2015-p1-017": {
+      "note": "Tilde de «Árbol» perdida en el OCR.",
+      "replace": [
+        {
+          "old": "Arbol.",
+          "new": "Árbol."
+        }
+      ]
+    },
+    "tai-pi-2015-p1-024": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). Rutas como código.",
+      "set": {
+        "options": [
+          "/etc",
+          "/bin",
+          "/boot",
+          "/root"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2015-p1-b3-007": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). El bucle va como código en línea.",
+      "set": {
+        "text": "¿Cuántas veces se recorrería el siguiente bucle Java: `for (int i=1; i <= 120; ++i)`?"
+      }
+    },
+    "tai-pi-2015-p1-b3-010": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "!((a>b) && (a<b))",
+          "((a==b) || (a<b)) && (b>a)",
+          "(a>b) && (!(a>b))",
+          "(a<b) && ((a==b) || (b>a))"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2015-p1-b3-018": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "/",
+          "#",
+          "-",
+          "!"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2015-p1-b3-019": {
+      "note": "«C» leído como «€».",
+      "set": {
+        "options": [
+          "Pascal",
+          "SQL",
+          "C",
+          "Ada"
+        ]
+      }
+    },
+    "tai-pi-2015-p1-b3-021": {
+      "note": "Espacio sobrante del OCR en «cliente/servidor».",
+      "replace": [
+        {
+          "old": "cliente /servidor",
+          "new": "cliente/servidor"
+        }
+      ]
+    },
+    "tai-pi-2015-p1-b3-r3": {
+      "note": "«Log4C#» leído como «Log4C4».",
+      "replace": [
+        {
+          "old": "Log4C4.",
+          "new": "Log4C#."
+        }
+      ]
+    },
+    "tai-pi-2015-p1-b4-011": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "37 GB.",
+          "40 GB.",
+          "20 GB.",
+          "47 GB."
+        ]
+      }
+    },
+    "tai-pi-2015-p1-b4-013": {
+      "note": "Tilde de «Óptica» perdida en el OCR.",
+      "replace": [
+        {
+          "old": "Fibra Optica",
+          "new": "Fibra Óptica"
+        }
+      ]
+    },
+    "tai-pi-2015-p1-b4-016": {
+      "note": "Ordinal «4ª» leído como «4?».",
+      "replace": [
+        {
+          "old": "4? generación",
+          "new": "4ª generación"
+        }
+      ]
+    },
+    "tai-pi-2015-p2-s1-004": {
+      "note": "El OCR desplazó la última línea («ajena.») de la opción c) a la d) (comprobado contra la imagen).",
+      "set": {
+        "options": [
+          "La clave primaria de la tabla “Auxiliar” debe ser clave ajena en la tabla “Interventor”.",
+          "La clave primaria de la tabla “Interventor” debe ser clave ajena en la tabla “Auxiliar”.",
+          "La tabla “Interventor” hereda la clave primaria de la tabla “Auxiliar” y junto con su propia clave primaria forman la clave ajena.",
+          "la tabla “Auxiliar” hereda la clave primaria de la tabla “Interventor” y junto con su propia clave primaria forman la clave ajena."
+        ]
+      }
+    },
+    "tai-pi-2015-p2-s1-005": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). La consulta SQL va como bloque de código. Revisión de la respuesta: la a) también es correcta; con la clave (idAyuntamiento, idAcreedor, ejercicio) del modelo, en 2015 COUNT(*) y COUNT(DISTINCT idAcreedor) coinciden; la plantilla provisional da B.",
+      "set": {
+        "text": "Para sacar un listado con la deuda total de los ayuntamientos que tienen al menos 2 acreedores en el ejercicio de 2015, ¿cómo habría que modificar la consulta siguiente para sacar lo que se pretende?:\n\n```sql\nSELECT idAyuntamiento, sum(Deuda.importeDeuda)\nFROM Ayuntamiento inner join Deuda On Ayuntamiento. idAyuntamiento = Deuda.idAyuntamiento\nWHERE Deuda.ejercicio=2015 GROUP BY Ayuntamiento.idAyuntamiento\n```",
+        "options": [
+          "Añadir al final “HAVING count(DISTINCT Deuda.idAcreedor)>1“",
+          "Añadir al final “HAVING COUNT(*)>1”",
+          "Añadir después de la cláusula FROM esto: “ WHERE count (*)>1”",
+          "No se puede resolver mediante SQL únicamente, se necesita un lenguaje 4GL."
+        ],
+        "needs_review": true
+      }
+    },
+    "tai-pi-2015-p2-s1-008": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos).",
+      "set": {
+        "options": [
+          "//ayuntamiento /codigo/28001",
+          "//ayuntamiento[@codigo =\"28001\"]",
+          "/ayuntamiento /nombre/codigo/28001",
+          "/ayuntamiento /nombre[@codigo =\"28001\"]"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2015-p2-s1-009": {
+      "note": "Transcrito de la imagen del cuadernillo (el OCR no leía bien el código o los símbolos). El esquema XML va como bloque de código.",
+      "set": {
+        "text": "En el siguiente fragmento de esquema XML:\n\n```xml\n<xs:element name=\"ayuntamiento\" maxOccurs=\"unbounded\" minOccurs=\"0\">\n<xs:complexType>\n        <xs:sequence>\n            <xs:element name=\"nombre\" type=\"xs:string\" />\n\n            <xs:element name=\"datos\" maxOccurs=\"unbounded\" minOccurs=\"0\">\n            <xs:complexType>\n                <xs:sequence>\n                    <xs:element name=\"ejercicio\" type=\"xs:integer\" />\n                    <xs:element name=\"poblacion\" type=\"xs:integer\" />\n                    <xs:element name=\"deuda\" type=\"xs:decimal\" />\n                </xs:sequence>\n            </xs:complexType>\n            </xs:element>\n        </xs:sequence>\n        //*//\n    </xs:complexType>\n</xs:element>\n```\n\n¿cuál de las siguientes instrucciones pondría en la posición marcada con `//*//` para validar correctamente el XML de intercambio de datos?",
+        "options": [
+          "<xs:attribute name=\"codigo\" type=\"xs:integer\" use=\"required\" />",
+          "<xs:element name=\"codigo\" type=\"xs:integer\" use=\"required\" />",
+          "<xs:attribute name=\"codigo\" type=\"xs:integer\" use=\"mandatory\" />",
+          "<xs:element name=\"codigo\" type=\"xs:integer\" use=\"mandatory\" />"
+        ]
+      },
+      "options_code": true
+    },
+    "tai-pi-2015-p2-s1-r1": {
+      "note": "«C#» leído como «C+f».",
+      "replace": [
+        {
+          "old": "en C+f?",
+          "new": "en C#?"
+        }
+      ]
+    },
+    "tai-pi-2015-p2-s1-r2": {
+      "note": "«emailInterventor» leído con minúscula.",
+      "replace": [
+        {
+          "old": "emailinterventor",
+          "new": "emailInterventor"
+        }
+      ]
+    },
+    "tai-pi-2015-p2-s1-r3": {
+      "note": "Opciones de código como código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2015-p2-s2-001": {
+      "note": "Signo de cierre de interrogación leído como «7»; líneas de resolv.conf como código.",
+      "replace": [
+        {
+          "old": "82.0.0.907",
+          "new": "82.0.0.90?"
+        }
+      ],
+      "options_code": true
+    },
+    "tai-pi-2015-p2-s2-002": {
+      "note": "Opciones de órdenes, ficheros o rutas como código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2015-p2-s2-003": {
+      "note": "Opciones de órdenes, ficheros o rutas como código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2015-p2-s2-006": {
+      "note": "Opciones de órdenes, ficheros o rutas como código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2015-p2-s2-007": {
+      "note": "Opciones de órdenes, ficheros o rutas como código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2015-p2-s2-r1": {
+      "note": "Opciones de órdenes, ficheros o rutas como código en línea.",
+      "options_code": true
+    },
+    "tai-pi-2015-p2-s2-r3": {
+      "note": "«iTOP» leído como «¡TOP».",
+      "replace": [
+        {
+          "old": "¡TOP",
+          "new": "iTOP"
+        }
+      ]
+    }
+  },
+  "sections": {
+    "p2-s1": {
+      "note": "Enunciado transcrito de la imagen: diagramas de contexto y de datos recortados como figura (con transcripción) y listado XML (excluido del OCR) como bloque de código.",
+      "set": {
+        "statement": "En la ley 10/2015 se recogen medidas en materia de estímulo a la economía para mejorar la liquidez de los ayuntamientos que tienen problemas financieros. Estas medidas deberán destinarse a la cancelación de la deuda pendiente de los ayuntamientos, principalmente con la AEAT y con la Tesorería General de la Seguridad Social. La deuda solicitada podrá corresponder sólo a los 5 ejercicios anteriores. Para ello, el Ministerio de Hacienda y Administraciones Públicas (MINHAP) quiere llevar a cabo un desarrollo que cubra todo este proceso de captura de datos. Esta información deberá ser enviada por el Interventor de cada ayuntamiento de acuerdo con medidas que garanticen la confidencialidad y la integridad de la misma. En el caso de ayuntamientos de gran tamaño y de interventores que lleven la gestión de varios ayuntamientos se deberá dar la posibilidad de tener uno o más usuarios auxiliares para ayudarle en esta tarea.\n\nUna vez finalizado el proceso se enviarán las solicitudes de préstamo al ICO (Instituto de Crédito Oficial) para su formalización. A continuación se muestran algunos de los diagramas que se han obtenido tras un análisis inicial.\n\n⟦FIG:0⟧\n\n⟦FIG:1⟧\n\n```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Deudas>\n<ayuntamiento codigo=\"28001\">\n  <nombre>Ayuntamiento 1</nombre>\n  <datos>\n        <ejercicio>2015</ejercicio>\n        <poblacion>12400</poblacion>\n        <deuda>400000</deuda>\n  </datos>\n\n</ayuntamiento>\n\n<ayuntamiento codigo=\"28002\">\n  <nombre>Ayuntamiento 2</nombre>\n  <datos>\n        <ejercicio>2015</ejercicio>\n        <poblacion>112400</poblacion>\n        <deuda>100000</deuda>\n  </datos>\n  <datos>\n        <ejercicio>2014</ejercicio>\n        <poblacion>112230</poblacion>\n        <deuda>18000</deuda>\n  </datos>\n</ayuntamiento>\n…\n</Deudas>\n```"
+      }
+    }
+  }
+}

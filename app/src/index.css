@@ -1,0 +1,780 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later
+ * Copyright (C) 2026 Eric Valls Gramunt */
+@import "tailwindcss";
+
+/*
+ * OpoTAI · sistema de diseño
+ * --------------------------------------------------------------------------
+ * - Tokens semánticos como variables CSS (--app-*) con valores para tema claro
+ *   (:root) y oscuro ([data-theme="dark"]). El tema lo fija ThemeController en
+ *   <html data-theme="…"> a partir de los ajustes («Sistema» sigue al SO).
+ * - El color de acento es configurable: ThemeController escribe --app-accent
+ *   (hex) y --app-accent-fg; el resto de matices se derivan con color-mix().
+ * - @theme inline expone los tokens a Tailwind: bg-surface, text-fg-muted,
+ *   border-border, bg-accent/10, text-success-text, shadow-card…
+ * Autor: Eric Valls Gramunt.
+ */
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  --font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Code", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  --text-2xs: 0.6875rem;
+  --text-2xs--line-height: 1rem;
+
+  --animate-fade-in: fade-in 0.25s ease-out both;
+  --animate-pulse-soft: pulse-soft 1.6s ease-in-out infinite;
+  --animate-shimmer: shimmer 1.6s linear infinite;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes pulse-soft {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.55;
+    }
+  }
+  @keyframes shimmer {
+    from {
+      background-position: -200% 0;
+    }
+    to {
+      background-position: 200% 0;
+    }
+  }
+}
+
+@theme inline {
+  --color-bg: var(--app-bg);
+  --color-panel: var(--app-panel);
+  --color-surface: var(--app-surface);
+  --color-surface-2: var(--app-surface-2);
+  --color-surface-3: var(--app-surface-3);
+  --color-border: var(--app-border);
+  --color-border-strong: var(--app-border-strong);
+  --color-fg: var(--app-fg);
+  --color-fg-muted: var(--app-fg-muted);
+  --color-fg-subtle: var(--app-fg-subtle);
+
+  --color-accent: var(--app-accent);
+  --color-accent-fg: var(--app-accent-fg);
+  --color-accent-text: var(--app-accent-text);
+  --color-accent-soft: var(--app-accent-soft);
+  --color-accent-hover: var(--app-accent-hover);
+
+  --color-success: var(--app-success);
+  --color-success-text: var(--app-success-text);
+  --color-success-soft: var(--app-success-soft);
+  --color-danger: var(--app-danger);
+  --color-danger-text: var(--app-danger-text);
+  --color-danger-soft: var(--app-danger-soft);
+  --color-warning: var(--app-warning);
+  --color-warning-text: var(--app-warning-text);
+  --color-warning-soft: var(--app-warning-soft);
+  --color-info: var(--app-info);
+  --color-info-text: var(--app-info-text);
+  --color-info-soft: var(--app-info-soft);
+
+  --shadow-card: var(--app-shadow-card);
+  --shadow-pop: var(--app-shadow-pop);
+  --shadow-glow: var(--app-shadow-glow);
+}
+
+/* ─────────────── Tema claro (por defecto) ─────────────── */
+:root {
+  color-scheme: light;
+
+  --app-bg: #f4f4f7;
+  --app-panel: #fafafc;
+  --app-surface: #ffffff;
+  --app-surface-2: #f4f4f7;
+  --app-surface-3: #e7e7ed;
+  --app-border: #e3e3e9;
+  --app-border-strong: #cfcfd8;
+  --app-fg: #111116;
+  --app-fg-muted: #50505b;
+  --app-fg-subtle: #6f6f7b;
+
+  --app-accent: #7c3aed;
+  --app-accent-fg: #ffffff;
+  --app-accent-text: color-mix(in oklab, var(--app-accent) 84%, black);
+  --app-accent-soft: color-mix(in oklab, var(--app-accent) 9%, transparent);
+  --app-accent-hover: color-mix(in oklab, var(--app-accent) 86%, black);
+
+  --app-success: #059669;
+  --app-success-text: #047857;
+  --app-success-soft: color-mix(in oklab, #059669 10%, transparent);
+  --app-danger: #e11d48;
+  --app-danger-text: #be123c;
+  --app-danger-soft: color-mix(in oklab, #e11d48 9%, transparent);
+  --app-warning: #d97706;
+  --app-warning-text: #a16207;
+  --app-warning-soft: color-mix(in oklab, #f59e0b 13%, transparent);
+  --app-info: #0284c7;
+  --app-info-text: #0369a1;
+  --app-info-soft: color-mix(in oklab, #0284c7 9%, transparent);
+
+  --app-shadow-card: 0 1px 2px rgb(17 17 26 / 0.04), 0 1px 3px rgb(17 17 26 / 0.05);
+  --app-shadow-pop: 0 18px 40px -16px rgb(17 17 26 / 0.28), 0 4px 12px -4px rgb(17 17 26 / 0.1);
+  --app-shadow-glow: 0 8px 24px -10px color-mix(in oklab, var(--app-accent) 55%, transparent);
+
+  --app-glow: color-mix(in oklab, var(--app-accent) 8%, transparent);
+  --app-glow-2: color-mix(in oklab, #06b6d4 6%, transparent);
+  --app-brand-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 55%, #06b6d4 100%);
+}
+
+/* ─────────────── Tema oscuro ─────────────── */
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --app-bg: #09090b;
+  --app-panel: #0c0c10;
+  --app-surface: #111115;
+  --app-surface-2: #18181d;
+  --app-surface-3: #222229;
+  --app-border: #222229;
+  --app-border-strong: #31313a;
+  --app-fg: #f4f4f6;
+  --app-fg-muted: #a3a3ae;
+  --app-fg-subtle: #80808c;
+
+  --app-accent-text: color-mix(in oklab, var(--app-accent) 58%, white);
+  --app-accent-soft: color-mix(in oklab, var(--app-accent) 17%, transparent);
+  --app-accent-hover: color-mix(in oklab, var(--app-accent) 88%, white);
+
+  --app-success: #10b981;
+  --app-success-text: #34d399;
+  --app-success-soft: color-mix(in oklab, #10b981 15%, transparent);
+  --app-danger: #f43f5e;
+  --app-danger-text: #fb7185;
+  --app-danger-soft: color-mix(in oklab, #f43f5e 15%, transparent);
+  --app-warning: #f59e0b;
+  --app-warning-text: #fbbf24;
+  --app-warning-soft: color-mix(in oklab, #f59e0b 15%, transparent);
+  --app-info: #0ea5e9;
+  --app-info-text: #38bdf8;
+  --app-info-soft: color-mix(in oklab, #0ea5e9 15%, transparent);
+
+  --app-shadow-card: inset 0 1px 0 0 rgb(255 255 255 / 0.03), 0 1px 2px rgb(0 0 0 / 0.5);
+  --app-shadow-pop: 0 24px 60px -20px rgb(0 0 0 / 0.85), 0 0 0 1px rgb(255 255 255 / 0.05);
+  --app-shadow-glow: 0 10px 30px -12px color-mix(in oklab, var(--app-accent) 70%, transparent);
+
+  --app-glow: color-mix(in oklab, var(--app-accent) 15%, transparent);
+  --app-glow-2: color-mix(in oklab, #06b6d4 8%, transparent);
+}
+
+/* ─────────────── Base ─────────────── */
+@layer base {
+  *,
+  ::before,
+  ::after {
+    border-color: var(--app-border);
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  html {
+    background: var(--app-bg);
+    color: var(--app-fg);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11" 0, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    margin: 0;
+    background: var(--app-bg);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    overflow: hidden;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--app-accent) 30%, transparent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--app-accent);
+    outline-offset: 2px;
+  }
+
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  /* Barras de desplazamiento discretas */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--app-surface-3) transparent;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--app-surface-3);
+    border-radius: 999px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--app-border-strong);
+    background-clip: content-box;
+    border: 3px solid transparent;
+  }
+}
+
+/* ─────────────── Utilidades propias ─────────────── */
+@utility app-backdrop {
+  background:
+    radial-gradient(900px 480px at 12% -8%, var(--app-glow), transparent 70%),
+    radial-gradient(700px 420px at 100% 0%, var(--app-glow-2), transparent 70%),
+    var(--app-bg);
+}
+
+@utility brand-gradient {
+  background-image: var(--app-brand-gradient);
+}
+
+@utility brand-text {
+  background-image: var(--app-brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility card-surface {
+  background: var(--app-surface);
+  border: 1px solid var(--app-border);
+  box-shadow: var(--app-shadow-card);
+}
+
+@utility skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--app-surface-2) 0%,
+    var(--app-surface-3) 50%,
+    var(--app-surface-2) 100%
+  );
+  background-size: 200% 100%;
+  animation: var(--animate-shimmer);
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+/* Contenido Markdown (enunciados, opciones y explicaciones) */
+.prose-opo {
+  color: inherit;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.prose-opo > :first-child {
+  margin-top: 0;
+}
+.prose-opo > :last-child {
+  margin-bottom: 0;
+}
+.prose-opo p {
+  margin: 0.6em 0;
+}
+.prose-opo strong {
+  font-weight: 650;
+  color: var(--app-fg);
+}
+.prose-opo ul,
+.prose-opo ol {
+  margin: 0.6em 0;
+  padding-left: 1.35em;
+}
+.prose-opo ul {
+  list-style: disc;
+}
+.prose-opo ol {
+  list-style: decimal;
+}
+.prose-opo li {
+  margin: 0.2em 0;
+}
+.prose-opo li::marker {
+  color: var(--app-fg-subtle);
+}
+.prose-opo h1,
+.prose-opo h2,
+.prose-opo h3,
+.prose-opo h4 {
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  margin: 1em 0 0.4em;
+  line-height: 1.3;
+}
+.prose-opo h1 {
+  font-size: 1.2em;
+}
+.prose-opo h2 {
+  font-size: 1.1em;
+}
+.prose-opo h3,
+.prose-opo h4 {
+  font-size: 1em;
+}
+.prose-opo blockquote {
+  margin: 0.8em 0;
+  padding: 0.2em 0 0.2em 1em;
+  border-left: 3px solid var(--app-border-strong);
+  color: var(--app-fg-muted);
+}
+.prose-opo :not(pre) > code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  padding: 0.12em 0.38em;
+  border-radius: 0.375rem;
+  background: var(--app-surface-2);
+  border: 1px solid var(--app-border);
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.prose-opo pre {
+  margin: 0.85em 0;
+  padding: 0.9em 1.05em;
+  border-radius: 0.75rem;
+  background: var(--app-surface-2);
+  border: 1px solid var(--app-border);
+  overflow-x: auto;
+  font-size: 0.86em;
+  line-height: 1.6;
+}
+.prose-opo pre code {
+  font-family: var(--font-mono);
+  white-space: pre;
+}
+.prose-opo .table-wrap {
+  margin: 0.85em 0;
+  overflow-x: auto;
+  border: 1px solid var(--app-border);
+  border-radius: 0.75rem;
+}
+.prose-opo table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92em;
+}
+.prose-opo thead {
+  background: var(--app-surface-2);
+}
+.prose-opo th,
+.prose-opo td {
+  padding: 0.5em 0.8em;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--app-border);
+  /* Las celdas no parten palabras: si no caben, la tabla se desplaza en horizontal. */
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: manual;
+}
+.prose-opo th {
+  font-weight: 600;
+  color: var(--app-fg);
+}
+.prose-opo tr:last-child td {
+  border-bottom: 0;
+}
+.prose-opo a {
+  color: var(--app-accent-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-opo hr {
+  margin: 1.2em 0;
+  border: 0;
+  border-top: 1px solid var(--app-border);
+}
+
+/* Resaltado sintáctico ligero (lib/highlight.ts) */
+.tok-k {
+  color: color-mix(in oklab, var(--app-accent) 70%, var(--app-fg));
+  font-weight: 600;
+}
+.tok-s {
+  color: var(--app-success-text);
+}
+.tok-n {
+  color: var(--app-warning-text);
+}
+.tok-c {
+  color: var(--app-fg-subtle);
+  font-style: italic;
+}
+.tok-f {
+  color: var(--app-info-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Deslizador (input range) con relleno de acento */
+.opo-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 22px;
+  background: transparent;
+  cursor: pointer;
+}
+.opo-range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--app-accent) 0 var(--fill, 0%), var(--app-surface-3) var(--fill, 0%) 100%);
+}
+.opo-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  margin-top: -6px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 2px solid var(--app-accent);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.3);
+  transition: box-shadow 0.15s;
+}
+.opo-range::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--app-surface-3);
+}
+.opo-range::-moz-range-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--app-accent);
+}
+.opo-range::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 2px solid var(--app-accent);
+}
+.opo-range:focus-visible {
+  outline: none;
+}
+.opo-range:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 4px color-mix(in oklab, var(--app-accent) 35%, transparent);
+}
+
+/* ─────────────── Apoyo: pastilla «☕ Invítame a un café o dona» ─────────────── */
+.support-pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2.5rem;
+  padding: 0 1rem 0 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgb(180 83 9 / 0.35);
+  background: linear-gradient(135deg, #fde68a 0%, #fbbf24 45%, #f59e0b 100%);
+  color: #3b1206;
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.55),
+    0 8px 22px -10px rgb(234 88 12 / 0.65);
+  transition:
+    transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.2s,
+    filter 0.2s;
+  cursor: pointer;
+}
+.support-pill:hover {
+  filter: brightness(1.04) saturate(1.05);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.6),
+    0 0 0 3px rgb(245 158 11 / 0.22),
+    0 12px 26px -10px rgb(234 88 12 / 0.75);
+}
+.support-pill:focus-visible {
+  outline: 2px solid var(--app-fg);
+  outline-offset: 3px;
+}
+.support-pill--icon {
+  width: 2.5rem;
+  padding: 0;
+  justify-content: center;
+}
+.support-pill__emoji {
+  display: inline-block;
+  font-size: 1.05rem;
+  line-height: 1;
+  transform-origin: 50% 85%;
+}
+.support-pill__label {
+  line-height: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .support-pill:hover,
+  .support-pill:focus-visible {
+    transform: translateY(-1px);
+  }
+  .support-pill:hover .support-pill__emoji,
+  .support-pill:focus-visible .support-pill__emoji {
+    animation: clink 0.75s ease-in-out;
+  }
+}
+@keyframes clink {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(14deg);
+  }
+  75% {
+    transform: rotate(-6deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* ─────────────── Apoyo: botones de donación (colores de cada marca) ─────────────── */
+.donate-btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border-radius: 1rem;
+  padding: 0.9rem 1rem 1rem;
+  background: linear-gradient(135deg, var(--from) 0%, var(--to) 100%);
+  border: 1px solid color-mix(in oklab, var(--to) 70%, black);
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.22),
+    0 10px 26px -14px color-mix(in oklab, var(--from) 85%, transparent);
+  transition:
+    transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.2s,
+    filter 0.2s;
+}
+.donate-btn:hover {
+  filter: brightness(1.08);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.28),
+    0 0 0 3px color-mix(in oklab, var(--from) 28%, transparent),
+    0 18px 34px -14px color-mix(in oklab, var(--from) 90%, transparent);
+}
+.donate-btn:focus-visible {
+  outline: 3px solid var(--app-fg);
+  outline-offset: 3px;
+}
+.donate-btn__logo {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.18);
+}
+.donate-btn__logo svg {
+  fill: var(--brand);
+}
+.donate-btn__arrow {
+  position: absolute;
+  right: 0.85rem;
+  top: 0.85rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  color: #ffffff;
+  opacity: 0.9;
+  transition: transform 0.2s;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .donate-btn:hover {
+    transform: translateY(-2px);
+  }
+  .donate-btn:hover .donate-btn__arrow {
+    transform: translate(3px, -3px);
+  }
+}
+
+/* Enlace al perfil de LinkedIn del autor (bajo su nombre) */
+.linkedin-link {
+  display: inline-flex;
+  max-width: 100%;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 0.375rem;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--app-fg-muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.linkedin-link:hover {
+  color: #0a66c2;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+[data-theme="dark"] .linkedin-link:hover {
+  color: #70b5f9;
+}
+.linkedin-link:focus-visible {
+  outline: 2px solid #0a66c2;
+  outline-offset: 2px;
+}
+[data-theme="dark"] .linkedin-link:focus-visible {
+  outline-color: #70b5f9;
+}
+
+/* ─────────────── Apoyo: tarjetas de donación ─────────────── */
+.donate-panel {
+  border-radius: 1rem;
+  border: 1px solid var(--app-border);
+  padding: 0.875rem;
+  background: linear-gradient(
+    135deg,
+    color-mix(in oklab, #f59e0b 10%, transparent),
+    color-mix(in oklab, var(--app-accent) 8%, transparent)
+  );
+}
+.donate-card {
+  --brand-line: color-mix(in oklab, var(--brand) 70%, var(--app-fg));
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  border-radius: 0.9rem;
+  border: 1px solid var(--app-border);
+  background: var(--app-surface);
+  padding: 1rem 2.5rem 1rem 1rem;
+  text-decoration: none;
+  box-shadow: var(--app-shadow-card);
+  transition:
+    transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1),
+    border-color 0.2s,
+    box-shadow 0.2s,
+    background-color 0.2s;
+}
+.donate-card:hover,
+.donate-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--brand-line);
+  background: color-mix(in oklab, var(--brand) 10%, var(--app-surface));
+  box-shadow:
+    0 0 0 3px color-mix(in oklab, var(--brand) 16%, transparent),
+    0 16px 34px -16px color-mix(in oklab, var(--brand) 75%, transparent);
+}
+.donate-card:active {
+  transform: translateY(-1px);
+}
+.donate-card:focus-visible {
+  outline: 2px solid var(--brand-line);
+  outline-offset: 2px;
+}
+.donate-card__logo {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  border: 1px solid rgb(0 0 0 / 0.07);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.08);
+  transition: background-color 0.2s;
+}
+.donate-card__logo svg {
+  fill: var(--brand);
+  transition: fill 0.2s;
+}
+.donate-card:hover .donate-card__logo,
+.donate-card:focus-visible .donate-card__logo {
+  background: var(--brand);
+}
+.donate-card:hover .donate-card__logo svg,
+.donate-card:focus-visible .donate-card__logo svg {
+  fill: #ffffff;
+}
+.donate-card__arrow {
+  position: absolute;
+  right: 0.9rem;
+  top: 0.95rem;
+  width: 1rem;
+  height: 1rem;
+  color: var(--app-fg-subtle);
+  transition:
+    transform 0.2s,
+    color 0.2s;
+}
+.donate-card:hover .donate-card__arrow,
+.donate-card:focus-visible .donate-card__arrow {
+  transform: translate(4px, -3px);
+  color: var(--brand-line);
+}
+
+/* Vista previa de la imagen de perfil: damero para ver la transparencia */
+.avatar-stage {
+  background-color: var(--app-surface-2);
+  background-image:
+    linear-gradient(45deg, var(--app-surface-3) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--app-surface-3) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--app-surface-3) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--app-surface-3) 75%);
+  background-size: 18px 18px;
+  background-position:
+    0 0,
+    0 9px,
+    9px -9px,
+    -9px 0;
+}

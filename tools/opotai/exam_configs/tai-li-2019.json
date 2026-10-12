@@ -1,0 +1,269 @@
+{
+  "bank_id": "tai-li-2019",
+  "title": "TAI · Ingreso libre · Convocatoria 2019 [INAP: «Convocatoria 2018», OEP 2018] (ejercicios 19/10/2019 y 25/01/2020)",
+  "description": "Proceso selectivo de ingreso libre en el Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (OEP 2018), con dos ejercicios en días distintos. Primer ejercicio: cuestionario de 100 preguntas (+5 de reserva), 90 minutos. Segundo ejercicio: un supuesto práctico a elegir entre dos (bloques III y IV), de 30 preguntas (+5 de reserva) cada uno, 70 minutos. Cuadernillos escaneados: transcritos por OCR y revisados a mano contra la imagen de cada página.",
+  "access": "libre",
+  "year": 2019,
+  "convocatoria": "li-2019",
+  "exam_date": "2019-10-19",
+  "model": null,
+  "duration_minutes": 160,
+  "scoring_scheme": "tai-li-2019",
+  "source": {
+    "publisher": "INAP · Comisión Permanente de Selección",
+    "answer_key": "definitiva",
+    "retrieved": "2026-10-11",
+    "notes": "Convocatoria: Resolución de 14 de junio de 2019 de la Secretaría de Estado de Función Pública (BOE 17/06/2019), rotulada por el INAP como «Convocatoria 2018» (OEP 2018); el id usa el año de la resolución (2019). Dos ejercicios eliminatorios: el primero (cuestionario, sección p1) el 19/10/2019 y el segundo (supuesto práctico, secciones p2-s1 y p2-s2) el 25/01/2020; exam_date es la fecha del primero y duration_minutes suma ambos (90 + 70). Los cuadernillos publicados son escaneos sin capa de texto: el texto procede de OCR (Tesseract, caché versionada en tools/sources/ocr/) corregido tras revisar cada página contra su imagen; las preguntas con dudas de lectura llevan needs_review. Se pierde la negrita del original. Se omiten las portadas de instrucciones. Respuestas según las plantillas definitivas de cada ejercicio.",
+    "documents": [
+      "cuadernillo-1.pdf",
+      "plantilla-definitiva-1.pdf",
+      "plantilla-provisional-1.pdf",
+      "criterios-1.pdf",
+      "cuadernillo-2.pdf",
+      "plantilla-definitiva-2.pdf",
+      "plantilla-provisional-2.pdf",
+      "criterios-2.pdf",
+      "fecha-lugar.pdf",
+      "nota-25-enero-2020.pdf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "part": 1,
+      "kind": "theory",
+      "title": "Primer ejercicio · Cuestionario",
+      "block": null,
+      "questions": 100,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s1",
+      "part": 2,
+      "kind": "case",
+      "title": "Segundo ejercicio · Supuesto del bloque III",
+      "block": "III",
+      "questions": 30,
+      "reserve": 5
+    },
+    {
+      "id": "p2-s2",
+      "part": 2,
+      "kind": "case",
+      "title": "Segundo ejercicio · Supuesto del bloque IV",
+      "block": "IV",
+      "questions": 30,
+      "reserve": 5
+    }
+  ],
+  "booklets": [
+    {
+      "file": "cuadernillo-1.pdf",
+      "ocr": true,
+      "skip_pages": [
+        1
+      ],
+      "ignore": [
+        "P[áa]gina ?\\d+ ?de ?\\d+$"
+      ],
+      "markers": [
+        {
+          "pattern": "^[ÚU]NICA$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^preguntas de reserva$",
+          "reserve": true
+        }
+      ],
+      "start_section": "p1",
+      "ocr_word_fixes": [
+        {
+          "page": 4,
+          "old": "¡A",
+          "new": "b) 2",
+          "note": "Pregunta 30: «b) 2» leído por OCR como «¡A»."
+        },
+        {
+          "page": 4,
+          "old": "d",
+          "new": "d)",
+          "y": 476.2,
+          "note": "Pregunta 30: etiqueta d) leída por OCR sin paréntesis."
+        }
+      ],
+      "para_gap": 5.0
+    },
+    {
+      "file": "cuadernillo-2.pdf",
+      "ocr": true,
+      "skip_pages": [
+        1,
+        10
+      ],
+      "ignore": [
+        "P[áa]gina ?\\d+ ?de ?\\d+$"
+      ],
+      "markers": [
+        {
+          "pattern": "(?i)^bloque [il1|]{3}$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^bloque [il1|]v$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^preguntas de reserva$",
+          "reserve": true
+        }
+      ],
+      "ocr_word_fixes": [
+        {
+          "page": 2,
+          "old": "d,",
+          "new": "1.",
+          "note": "Bloque III, pregunta 1: número leído por OCR como «d,»."
+        },
+        {
+          "page": 5,
+          "old": "d",
+          "new": "d)",
+          "y": 725.1,
+          "note": "Reserva 3 del bloque III: etiqueta d) leída sin paréntesis."
+        },
+        {
+          "page": 8,
+          "old": "a",
+          "new": "a)",
+          "y": 722.0,
+          "note": "Bloque IV, pregunta 21: etiqueta a) leída sin paréntesis."
+        }
+      ],
+      "para_gap": 5.0,
+      "figures": [
+        {
+          "page": 2,
+          "rect": [
+            100,
+            398,
+            492,
+            556
+          ]
+        }
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "file": "plantilla-definitiva-1.pdf",
+      "status": "definitiva",
+      "markers": [
+        {
+          "pattern": "(?i)^[úu]nica$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ],
+      "segment_gap": 35.0
+    },
+    {
+      "file": "plantilla-definitiva-2.pdf",
+      "status": "definitiva",
+      "markers": [
+        {
+          "pattern": "(?i)^bloque iii$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^bloque iv$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ],
+      "segment_gap": 35.0
+    },
+    {
+      "file": "plantilla-provisional-1.pdf",
+      "status": "provisional",
+      "compare_only": true,
+      "markers": [
+        {
+          "pattern": "(?i)^[úu]nica$",
+          "section": "p1"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ],
+      "segment_gap": 35.0
+    },
+    {
+      "file": "plantilla-provisional-2.pdf",
+      "status": "provisional",
+      "compare_only": true,
+      "markers": [
+        {
+          "pattern": "(?i)^bloque iii$",
+          "section": "p2-s1"
+        },
+        {
+          "pattern": "(?i)^bloque iv$",
+          "section": "p2-s2"
+        },
+        {
+          "pattern": "(?i)^(preguntas de )?reserva$",
+          "reserve": true
+        }
+      ],
+      "segment_gap": 35.0
+    }
+  ],
+  "verify_text": false,
+  "spot_checks": {
+    "p1-006": "A",
+    "p1-023": "D",
+    "p1-030": "B",
+    "p1-037": "C",
+    "p1-062": "D",
+    "p1-077": "D",
+    "p1-079": "A",
+    "p1-089": "C",
+    "p2-s1-002": "A",
+    "p2-s1-020": "C",
+    "p2-s1-021": "C",
+    "p2-s2-001": "B",
+    "p2-s2-002": "D",
+    "p2-s2-003": "A",
+    "p2-s2-015": "D",
+    "p2-s2-021": "B",
+    "p2-s2-r2": "C"
+  },
+  "figures": {
+    "p2-s1-statement-1": {
+      "redraw": "p2-s1-statement-1.svg",
+      "enhance": true,
+      "alt": "Modelo Entidad-Relación extendido inacabado: Ciudadano (NIF) relacionado con AccionFormativa (idAccionFormativa, denominacion, numAlumnos), que se relaciona con Aula (idAula, nomAula, numplazas) y se especializa en Curso (horasTeoricas, horasPracticas) y Taller (especialidad, material).",
+      "transcription": [
+        "*Transcripción del modelo (los atributos identificadores aparecen con el círculo relleno):*",
+        "",
+        "| Entidad | Atributos |",
+        "|---|---|",
+        "| Ciudadano | NIF (identificador) |",
+        "| AccionFormativa | idAccionFormativa (identificador) · denominacion · numAlumnos |",
+        "| Aula | idAula (identificador) · nomAula · numplazas |",
+        "| Curso | horasTeoricas · horasPracticas |",
+        "| Taller | especialidad · material |",
+        "",
+        "Relaciones, sin nombre ni cardinalidades (el modelo está inacabado): Ciudadano – AccionFormativa y AccionFormativa – Aula. AccionFormativa es la entidad general de una jerarquía (triángulo unido a ella con doble línea) cuyos subtipos son Curso y Taller."
+      ]
+    }
+  }
+}

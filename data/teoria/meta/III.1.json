@@ -1,0 +1,55 @@
+{
+  "topic": "III.1",
+  "summary": "Modelado de datos con el modelo entidad-relación extendido de Métrica v3, arquitectura ANSI/SPARC, fases del diseño de bases de datos (conceptual, lógico y físico), transformación al modelo relacional de Codd con sus claves, reglas de integridad y reglas de Codd, y normalización hasta FNBC/4FN con un ejercicio resuelto, desnormalización y modelado dimensional.",
+  "key_points": [
+    "Diseño conceptual (E-R, independiente del SGBD) → lógico (relacional normalizado) → físico (SGBD concreto: índices, particiones, almacenamiento).",
+    "ANSI/SPARC: niveles externo, conceptual e interno (físico); independencia lógica (externo/conceptual) y física (conceptual/interno).",
+    "Métrica v3: ASI 6 elabora el modelo conceptual y lógico y lo normaliza al menos hasta 3FN; DSI 6 diseña el modelo físico, caminos de acceso, optimización y distribución.",
+    "Tipo de correspondencia = máximo de ocurrencias (1:1, 1:N, M:N); cardinalidad = participación mínima y máxima (0,1), (1,1), (0,n), (1,n).",
+    "E-R extendido: generalización (supertipo a partir de subtipos), especialización (subtipos que heredan), categoría, agregación y asociación (dominios independientes que se asocian coyunturalmente).",
+    "Relacional (Codd, 1970): grado = número de atributos; cardinalidad = número de tuplas; integridad de entidad (clave primaria no nula) e integridad referencial (clave ajena no nula existente en la referenciada).",
+    "Reglas de Codd 0-12: información, acceso garantizado, nulos, catálogo en línea, independencia física, lógica, de integridad y de distribución, y no subversión.",
+    "1FN valores atómicos; 2FN sin dependencias parciales; 3FN sin transitivas; FNBC todo determinante es clave candidata; 4FN sin multivaluadas; 5FN sin dependencias de combinación.",
+    "La optimización de Métrica es una desnormalización controlada para reducir accesos: introducir redundancia, dividir o combinar entidades (accesos en la misma transacción), redefinir relaciones e índices.",
+    "Modelado dimensional de Kimball: hechos y dimensiones, estrella frente a copo de nieve; una dimensión outrigger es una dimensión enlazada desde otra dimensión."
+  ],
+  "sources": [
+    {
+      "title": "Portal de Administración Electrónica · Métrica v3",
+      "url": "https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html"
+    },
+    {
+      "title": "Métrica v3 · Técnicas y prácticas (PDF)",
+      "url": "https://administracionelectronica.gob.es/pae_Home/va/dam/jcr:da7d91fa-d6bd-467c-be32-a72e27c603b3/METRICA_V3_Tecnicas.pdf"
+    },
+    {
+      "title": "E. F. Codd (1970), A relational model of data for large shared data banks",
+      "url": "https://doi.org/10.1145/362384.362685"
+    },
+    {
+      "title": "P. P. Chen (1976), The entity-relationship model — toward a unified view of data",
+      "url": "https://doi.org/10.1145/320434.320440"
+    },
+    {
+      "title": "R. Fagin (1977), Multivalued dependencies and a new normal form for relational databases",
+      "url": "https://doi.org/10.1145/320557.320571"
+    },
+    {
+      "title": "ISO/IEC 9075-1:2023, SQL/Framework",
+      "url": "https://www.iso.org/standard/76583.html"
+    },
+    {
+      "title": "NIST FIPS PUB 184, IDEF1X",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf"
+    },
+    {
+      "title": "NTI de Relación de modelos de datos (BOE-A-2012-10050)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-10050"
+    },
+    {
+      "title": "Kimball Group · Outrigger dimension",
+      "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/outrigger-dimension/"
+    }
+  ],
+  "updated": "2026-10-11"
+}

@@ -1,0 +1,1739 @@
+[
+  {
+    "id": "tai-pi-2019-p1-001",
+    "explanation": "Según el **art. 11.2 de la Ley 39/2015**, las Administraciones **solo** exigen **firma** para: **formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos**. Para cualquier otra actuación basta con **acreditar la identidad** (art. 11.1). Consultar datos fiscales es una consulta: solo exige identificarse (por ejemplo, con Cl@ve). Regla mnemotécnica: hay firma cuando *pides, declaras, recurres, desistes o renuncias*.",
+    "option_notes": [
+      "Sí exige firma: formular solicitudes es la letra a) del art. 11.2.",
+      "Sí exige firma: interponer recursos es la letra c) del art. 11.2.",
+      "Sí exige firma: desistir de acciones es la letra d) del art. 11.2.",
+      null
+    ],
+    "topic": "I.6",
+    "references": [
+      "Ley 39/2015, art. 11"
+    ],
+    "tags": [
+      "firma-electronica",
+      "procedimiento-administrativo",
+      "ley-39-2015"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-002",
+    "explanation": "**STORK** (*Secure idenTity acrOss boRders linKed*, 2008-2011, y STORK 2.0, 2012-2015) fue el proyecto piloto europeo que creó una **plataforma de interoperabilidad de identidades electrónicas**: permitía usar el eID de un país (por ejemplo, el DNIe) en servicios de otro Estado miembro. Sus resultados sirvieron de base a los **nodos eIDAS** del Reglamento (UE) 910/2014, que en España se integran a través de Cl@ve.",
+    "option_notes": [
+      "sTESTA es la red telemática segura que interconecta las administraciones europeas, no una plataforma de identidades.",
+      "InSide es la solución de la AGE para gestionar documentos y expedientes electrónicos conforme al ENI.",
+      null,
+      "INSPIRE es la Directiva 2007/2/CE sobre infraestructura de información espacial (datos geográficos)."
+    ],
+    "topic": "I.6",
+    "references": [
+      "Proyecto STORK (programa CIP ICT-PSP de la Comisión Europea)",
+      "Reglamento (UE) 910/2014 (eIDAS)"
+    ],
+    "tags": [
+      "stork",
+      "identidad-electronica",
+      "eidas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-003",
+    "explanation": "El **RGPD**, aplicable desde el **25 de mayo de 2018**, suprimió la obligación de **notificar e inscribir ficheros** en la AEPD que exigía la LOPD 15/1999. Se sustituye por la **responsabilidad proactiva**: el responsable y el encargado llevan su propio **registro de actividades de tratamiento** (art. 30 RGPD; art. 31 LOPDGDD), que deben poner a disposición de la autoridad de control si se lo pide. Además, las entidades públicas del art. 77.1 LOPDGDD deben **publicar** un inventario de sus actividades de tratamiento, pero no inscribirlo.",
+    "option_notes": [
+      "La inscripción de ficheros era propia de la LOPD 15/1999 y desapareció con el RGPD.",
+      null,
+      "Los responsables públicos tampoco inscriben ficheros: publican un inventario de actividades de tratamiento (art. 31.2 LOPDGDD).",
+      "Los responsables privados solo llevan su registro de actividades de tratamiento, sin inscribirlo en la AEPD."
+    ],
+    "topic": "I.7",
+    "references": [
+      "Reglamento (UE) 2016/679 (RGPD), art. 30",
+      "LO 3/2018 (LOPDGDD), art. 31"
+    ],
+    "tags": [
+      "rgpd",
+      "registro-de-actividades",
+      "responsabilidad-proactiva"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-004",
+    "explanation": "**Art. 43.1 de la Ley 39/2015**: las notificaciones electrónicas se practican «mediante **comparecencia en la sede electrónica** de la Administración u Organismo actuante, a través de la **dirección electrónica habilitada única** o mediante **ambos sistemas**». En la AGE la dirección habilitada única es la **DEHú**. El móvil o el correo electrónico que comunica el interesado solo reciben un **aviso** de puesta a disposición (art. 41.6), y la falta de aviso no invalida la notificación.",
+    "option_notes": [
+      null,
+      "Al dispositivo electrónico solo se envía el aviso de puesta a disposición (art. 41.6); no es un medio de práctica.",
+      "El correo electrónico del interesado solo recibe el aviso (art. 41.6), no la notificación.",
+      "Dispositivo y correo sirven para avisar de la puesta a disposición, no para practicar la notificación."
+    ],
+    "topic": "I.8",
+    "references": [
+      "Ley 39/2015, arts. 41.6 y 43.1",
+      "RD 203/2021, art. 42"
+    ],
+    "tags": [
+      "notificaciones",
+      "ley-39-2015",
+      "dehu"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-006",
+    "explanation": "El **art. 11 de la Ley 19/2013** («Principios técnicos») exige que la información del **Portal de la Transparencia** se ajuste a tres principios: **accesibilidad** (información estructurada que facilite su identificación y búsqueda), **interoperabilidad** (conforme al Esquema Nacional de Interoperabilidad y sus normas técnicas) y **reutilización** (formatos reutilizables, según la Ley 37/2007). Mnemotecnia: **A-I-R**. Integridad y disponibilidad son dimensiones de seguridad del ENS, no principios del Portal.",
+    "option_notes": [
+      "La integridad es una dimensión de seguridad del ENS; falta la reutilización.",
+      null,
+      "Falta la interoperabilidad; la disponibilidad no figura entre los principios del art. 11.",
+      "Disponibilidad e integridad son dimensiones de seguridad, no principios técnicos del art. 11."
+    ],
+    "topic": "I.4",
+    "references": [
+      "Ley 19/2013, art. 11"
+    ],
+    "tags": [
+      "transparencia",
+      "portal-de-transparencia",
+      "ley-19-2013"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-009",
+    "explanation": "La opción A reproduce el **art. 2.2 de la Ley 39/2006** en su redacción original: dependencia es el **estado de carácter permanente** de quienes, por la falta o pérdida de autonomía física, mental, intelectual o sensorial, **precisan de la atención de otra u otras personas o ayudas importantes** para realizar **actividades básicas de la vida diaria**. Las claves: **permanente** y **necesidad de ayuda de terceros**. La Ley 4/2026 la reformula como «situación de dependencia», con las mismas claves.",
+    "option_notes": [
+      null,
+      "Mezcla «temporal» y «cuidados no profesionales» con el acceso a información: la dependencia es permanente y requiere ayuda para las actividades de la vida diaria.",
+      "Se parece a la definición de persona con discapacidad (art. 4.1 TRLGDPD), no a la de dependencia.",
+      "Es la definición de incapacidad temporal de la Ley General de la Seguridad Social, no la de dependencia."
+    ],
+    "topic": "I.5",
+    "references": [
+      "Ley 39/2006, art. 2.2",
+      "Ley 4/2026, de 1 de octubre"
+    ],
+    "tags": [
+      "dependencia",
+      "ley-39-2006",
+      "definiciones"
+    ],
+    "outdated": true,
+    "outdated_note": "La Ley 4/2026, de 1 de octubre (en vigor desde el 23-10-2026), reescribe el art. 2.2: «Situación de dependencia: el estado de carácter permanente en el que las personas, debido a dificultades que afectan a su autonomía, precisan de cuidados y apoyos de otra u otras personas o ayudas importantes para realizar actividades de la vida diaria» (ya no «básicas»), y añade que puede asociarse a la edad, la discapacidad o la enfermedad y agravarse por factores sociales o contextuales. La A sigue siendo la opción correcta.",
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-010",
+    "explanation": "En la **jerarquía de memoria**, cuanto más cerca de la CPU, más rápida, más cara y de menor capacidad: **registros** (dentro del procesador) → **caché** (L1, L2, L3) → **memoria principal (RAM)** → almacenamiento secundario (**SSD** y, aún más lento, **discos magnéticos**) → cintas. La caché es mucho más rápida que cualquier SSD y la RAM nunca supera a los registros.",
+    "option_notes": [
+      null,
+      "Coloca el SSD por delante de la caché: un SSD es almacenamiento secundario, más lento que la caché y la RAM.",
+      "Los registros de la CPU son la memoria más rápida; la RAM no puede ir delante de ellos ni de la caché.",
+      "Sitúa la RAM y el SSD por delante de la caché, que es más rápida que ambos."
+    ],
+    "topic": "II.1",
+    "references": [
+      "Arquitectura de computadores: jerarquía de memoria"
+    ],
+    "tags": [
+      "jerarquia-de-memoria",
+      "memoria-cache",
+      "arquitectura-de-ordenadores"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-011",
+    "explanation": "**USB 3.2** (USB-IF, 2017) introduce el funcionamiento **multicarril** sobre el conector **USB-C**: el modo **Gen 2x2** alcanza **20 Gbit/s**, el doble de los 10 Gbit/s de USB 3.1 Gen 2. Por eso **aumenta la velocidad** respecto a la versión anterior. Los **40 Gbit/s** llegaron con **USB4** (2019), y USB4 versión 2.0 (2022) llega a 80 Gbit/s. Denominaciones: Gen 1 = 5, Gen 2 = 10 y Gen 2x2 = 20 Gbit/s.",
+    "option_notes": [
+      "Al contrario: el modo de 20 Gbit/s (Gen 2x2) exige USB Tipo C, que usa los dos carriles del cable.",
+      "USB 3.2 existe desde 2017 y sustituye a USB 3.1.",
+      null,
+      "El máximo de USB 3.2 son 20 Gbit/s; los 40 Gbit/s son de USB4 (y de Thunderbolt 3)."
+    ],
+    "topic": "II.2",
+    "references": [
+      "USB-IF: Universal Serial Bus 3.2 Specification (2017)",
+      "USB-IF: USB4 Specification (2019)"
+    ],
+    "tags": [
+      "usb",
+      "perifericos",
+      "conectividad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-012",
+    "explanation": "Con **a = 1** y **b = 1**: **XNOR** (equivalencia) vale 1 cuando las entradas son **iguales**, así que **a XNOR b = 1**. Las demás valen 0: **XOR** = 0 (solo da 1 si las entradas son distintas); **NOR** = NOT(1 OR 1) = **0**; **NAND** = NOT(1 AND 1) = **0**. Truco: NAND solo da 0 si todas las entradas son 1; NOR solo da 1 si todas son 0.",
+    "option_notes": [
+      null,
+      "Con entradas iguales XOR vale 0.",
+      "NOR = NOT(1 OR 1) = NOT 1 = 0; NOR solo vale 1 si todas las entradas son 0.",
+      "NAND = NOT(1 AND 1) = NOT 1 = 0; es el único caso en que NAND vale 0."
+    ],
+    "topic": "II.1",
+    "references": [
+      "Álgebra de Boole: puertas lógicas"
+    ],
+    "tags": [
+      "algebra-de-boole",
+      "puertas-logicas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-013",
+    "explanation": "El **grado** de un nodo (vértice) es el **número de aristas que inciden en él** (en grafos no dirigidos, un bucle cuenta dos veces; en los dirigidos se distingue grado de entrada y de salida). Conviene no confundir: grafo **conexo** = existe un camino entre cualquier par de nodos; grafo **completo** = cada nodo es adyacente a todos los demás; grafo **simple** = sin bucles ni aristas múltiples; grafo **dirigido** = aristas como pares **ordenados** (arcos).",
+    "option_notes": [
+      null,
+      "Esa es la definición de grafo completo; conexo solo exige un camino entre cada par de nodos.",
+      "Un grafo sin bucles ni aristas múltiples es un grafo simple, no completo.",
+      "En un grafo dirigido la arista es un par ordenado; el par no ordenado define el grafo no dirigido."
+    ],
+    "topic": "II.3",
+    "references": [
+      "Teoría de grafos: definiciones básicas"
+    ],
+    "tags": [
+      "grafos",
+      "estructuras-de-datos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-014",
+    "explanation": "**Quicksort** (C. A. R. Hoare, 1961) elige un elemento **pivote** y **particiona** el vector: a un lado los menores y al otro los mayores; después ordena cada parte **recursivamente** (divide y vencerás). Coste medio **O(n log n)** y peor caso **O(n²)** con una mala elección del pivote. La selección directa y la burbuja son algoritmos **O(n²)** sin pivote.",
+    "option_notes": [
+      "La selección directa busca en cada pasada el mínimo y lo intercambia con la primera posición; no usa pivote.",
+      "La burbuja compara e intercambia elementos adyacentes; no usa pivote.",
+      null,
+      "Backtracking (vuelta atrás) es una técnica de diseño para explorar soluciones, no un algoritmo de ordenación."
+    ],
+    "topic": "II.3",
+    "references": [
+      "C. A. R. Hoare, «Quicksort», The Computer Journal 5(1), 1962"
+    ],
+    "tags": [
+      "algoritmos-de-ordenacion",
+      "quicksort"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-015",
+    "explanation": "Los ficheros **.ini** (*initialization*) son el formato clásico de **configuración de inicialización de Windows**: texto plano con **secciones** entre corchetes y pares **clave=valor** (por ejemplo, `desktop.ini`, `win.ini` o `system.ini`). Desde Windows 95/NT el **Registro** asumió casi toda la configuración del sistema, pero Windows 10 y muchas aplicaciones siguen usando ficheros .ini. La extensión **.conf** es la convención de Unix/Linux (`/etc/*.conf`).",
+    "option_notes": [
+      null,
+      ".conf es la convención de los ficheros de configuración en Unix/Linux, no el formato de inicialización de Windows.",
+      ".msi es un paquete de instalación de Windows Installer, no un fichero de configuración.",
+      "No existe ningún formato .wconf en Windows."
+    ],
+    "topic": "II.4",
+    "references": [
+      "Microsoft Learn: archivos de inicialización (.ini) y Registro de Windows"
+    ],
+    "tags": [
+      "windows",
+      "ficheros-de-configuracion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-016",
+    "explanation": "Según el **FHS** (*Filesystem Hierarchy Standard*), **/boot** contiene los **ficheros estáticos del cargador de arranque** y todo lo necesario para el arranque: la imagen del **núcleo** (`vmlinuz`), el **initramfs**/initrd, `System.map` y la configuración de **GRUB** (`/boot/grub`). Otros directorios clave: **/etc** (configuración), **/root** (hogar del superusuario), **/proc** (sistema de ficheros virtual con información de procesos y del núcleo), **/bin** y **/sbin** (ejecutables).",
+    "option_notes": [
+      "Describe /etc, donde se guardan los ficheros de configuración del sistema y de las aplicaciones.",
+      null,
+      "El directorio personal del superusuario es /root.",
+      "Describe /proc, sistema de ficheros virtual con información sobre los procesos en ejecución."
+    ],
+    "topic": "II.4",
+    "references": [
+      "Filesystem Hierarchy Standard 3.0 (Linux Foundation), /boot"
+    ],
+    "tags": [
+      "linux",
+      "fhs",
+      "directorios"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-017",
+    "explanation": "**`tail`** muestra las **últimas líneas** de un fichero: **10 por defecto**, `-n N` para elegir cuántas y **`-f`** para seguir el fichero en tiempo real (muy usado con logs: `tail -f /var/log/syslog`). Su pareja es **`head`**, que muestra las primeras. Para buscar un patrón se usa **`grep`** (por ejemplo, `tail -n 10 fichero | grep patrón`) y para buscar recursivamente en un árbol de directorios, **`find`**.",
+    "option_notes": [
+      null,
+      "Buscar un patrón es tarea de grep; tail solo muestra el final del fichero.",
+      "Listar por fecha de modificación se hace con ls -t; tail no lista archivos.",
+      "Describe find, que busca recursivamente a partir de un directorio."
+    ],
+    "topic": "II.4",
+    "references": [
+      "POSIX.1-2017: tail",
+      "GNU coreutils: tail"
+    ],
+    "tags": [
+      "unix",
+      "comandos",
+      "tail"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-019",
+    "explanation": "En **Métrica v3** los DFD se descomponen **de arriba abajo** (*top-down*): **diagrama de contexto (nivel 0)** → **diagrama 0 (nivel 1)** → diagramas de nivel 2 → los **niveles intermedios** necesarios → **procesos primitivos**. El **diagrama de contexto** es el nivel más alto: tiene un único proceso (el sistema) y sus entidades externas, y sirve para **delimitar el ámbito del sistema con el mundo exterior**, definiendo sus interfaces.",
+    "option_notes": [
+      "La descomposición es top-down (de lo general a lo detallado), no bottom-up.",
+      "Omite el diagrama 0 (nivel 1) y los niveles intermedios entre el contexto y los procesos primitivos.",
+      null,
+      "Eso define el flujo de datos; el almacén representa información en reposo."
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: Diagrama de Flujo de Datos (descomposición por niveles)"
+    ],
+    "tags": [
+      "dfd",
+      "metrica-v3",
+      "descomposicion-en-niveles"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-021",
+    "explanation": "Métrica v3 define la **entidad externa** como «un **ente ajeno al sistema** que **proporciona o recibe información** del mismo. Puede hacer referencia a departamentos, personas, máquinas, recursos u otros sistemas». Las relaciones entre entidades externas no forman parte del modelo, y una misma entidad puede dibujarse varias veces para dar claridad al diagrama. Las demás opciones copian las definiciones de **almacén de datos**, **proceso** y **proceso de control**.",
+    "option_notes": [
+      "Es la definición de almacén de datos: información en reposo.",
+      "Es la definición de proceso: transforma o manipula datos.",
+      "Es la definición de proceso de control, extensión del DFD para sistemas que requieren control.",
+      null
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: Diagrama de Flujo de Datos (elementos)"
+    ],
+    "tags": [
+      "dfd",
+      "metrica-v3",
+      "entidad-externa"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-022",
+    "explanation": "En el **modelo E/R extendido de Métrica v3**, una jerarquía se dibuja con un **triángulo invertido** entre el supertipo y los subtipos. Dentro se indica: **d** si los subtipos son **disjuntos**, **un círculo o una O** si **pueden solaparse** y **U** para las **uniones por categorías**. La **jerarquía total** se marca con una **doble línea** entre el supertipo y el triángulo. «Es_un» es la etiqueta genérica de la relación de jerarquía.",
+    "option_notes": [
+      "La d indica subtipos disjuntos (exclusivos), no solapados.",
+      null,
+      "La U representa una categoría (unión de varios supertipos en un subtipo).",
+      "«Es_un» rotula la relación de jerarquía, pero no indica si los subtipos se solapan."
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: Modelo Entidad/Relación extendido (jerarquías)"
+    ],
+    "tags": [
+      "modelo-entidad-relacion",
+      "metrica-v3",
+      "jerarquias"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-023",
+    "explanation": "**Pascal** (Niklaus Wirth, 1970) es un lenguaje **imperativo y estructurado** (procedimental), pensado para enseñar programación; la orientación a objetos llegó con sus derivados **Object Pascal** y **Delphi**. **C++** (Stroustrup) y **Objective-C** (base de las aplicaciones de Apple antes de Swift) son orientados a objetos, y **Oz** (sistema Mozart) es **multiparadigma**: funcional, lógico, concurrente y orientado a objetos.",
+    "option_notes": [
+      "C++ añade a C clases, herencia y polimorfismo: es orientado a objetos.",
+      "Objective-C (en el cuadernillo, «Objetive-C») añade objetos y mensajes al estilo Smalltalk a C.",
+      "Oz es multiparadigma e incluye la programación orientada a objetos.",
+      null
+    ],
+    "topic": "III.4",
+    "references": [
+      "N. Wirth, «The Programming Language Pascal», 1971"
+    ],
+    "tags": [
+      "lenguajes-de-programacion",
+      "orientacion-a-objetos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-024",
+    "explanation": "En PHP, **`===`** es el operador **idéntico**: devuelve `true` si los valores son **iguales y del mismo tipo**, sin conversión. **`==`** (igual) compara **tras la conversión de tipos** (*type juggling*), por eso `1 == \"1\"` es `true`, pero `1 === \"1\"` es `false`. Sus negaciones son `!=` (o `<>`) y **`!==`** (no idéntico).",
+    "option_notes": [
+      "Ignora el tipo: dos valores iguales de distinto tipo (1 y \"1\") no son idénticos.",
+      "Describe el operador ==, que compara tras la conversión de tipos.",
+      null,
+      "Exige las dos condiciones a la vez (valor y tipo), no una u otra."
+    ],
+    "topic": "III.7",
+    "references": [
+      "Manual de PHP: operadores de comparación"
+    ],
+    "tags": [
+      "php",
+      "operadores-de-comparacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-025",
+    "explanation": "El bucle multiplica `s` por `i` para i = 1, 2, 3, 4 y 5: s = 1·1·2·3·4·5 = **120** (5!, el factorial de n). Tras la última iteración se ejecuta `i++` y `i` vale **6**; la condición `i<=n` (6 ≤ 5) es falsa y el bucle termina. Por tanto, **i = 6 y s = 120**. Error típico: pensar que `i` se queda en 5 o calcular 6! = 720.",
+    "option_notes": [
+      "i termina en 6 (el incremento se hace antes de la comprobación que sale), y 720 sería 6!.",
+      "i = 6 es correcto, pero 720 = 6!: el bucle solo multiplica hasta 5.",
+      null,
+      "s = 120 es correcto, pero i vale 6 al salir del bucle, no 5."
+    ],
+    "topic": "III.2",
+    "references": [
+      "ISO/IEC 9899 (C): sentencia for"
+    ],
+    "tags": [
+      "lenguaje-c",
+      "bucles",
+      "traza-de-codigo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-026",
+    "explanation": "**HAVING** aplica condiciones a los **grupos** formados con **GROUP BY**, normalmente sobre funciones de agregado: `SELECT dpto, COUNT(*) FROM empleado GROUP BY dpto HAVING COUNT(*) > 5`. Diferencia clave: **WHERE filtra filas antes de agrupar** y no admite agregados; **HAVING filtra grupos después de agrupar**. Orden lógico: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY.",
+    "option_notes": [
+      "Eliminar duplicados es tarea de DISTINCT.",
+      "Emparejar filas de distintas tablas es tarea de JOIN; HAVING no mejora la eficiencia de la combinación.",
+      "HAVING no equivale a WHERE en ningún tipo de JOIN: filtra grupos, no filas.",
+      null
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075-2 (SQL): <having clause>"
+    ],
+    "tags": [
+      "sql",
+      "having",
+      "group-by"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-027",
+    "explanation": "En el estándar SQL, **GRANT** concede **privilegios sobre objetos**: **SELECT, INSERT, UPDATE, DELETE, REFERENCES** (crear claves ajenas que apunten a la tabla), **USAGE, TRIGGER, UNDER** y **EXECUTE** (ejecutar rutinas y procedimientos). **RESOURCES** no es un privilegio: recuerda a **RESOURCE**, un **rol predefinido de Oracle** (junto a CONNECT y DBA), no al estándar. Sintaxis: `GRANT privilegios ON objeto TO usuario [WITH GRANT OPTION]`.",
+    "option_notes": [
+      "EXECUTE es un privilegio estándar para ejecutar rutinas (procedimientos y funciones).",
+      "UPDATE es un privilegio estándar, incluso limitado a columnas concretas.",
+      null,
+      "REFERENCES es un privilegio estándar para definir claves ajenas que referencien la tabla."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075-2 (SQL): <grant statement> y <privileges>"
+    ],
+    "tags": [
+      "sql",
+      "grant",
+      "privilegios"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-028",
+    "explanation": "**Strategy** (patrón de comportamiento GoF) define una **familia de algoritmos**, encapsula cada uno en su propia clase y los hace **intercambiables**: el cliente elige en **tiempo de ejecución** cuál usar sin cambiar su código (por ejemplo, distintas formas de calcular un precio o de ordenar). Favorece la composición frente a la herencia y evita condicionales del tipo `if/switch` para elegir el algoritmo.",
+    "option_notes": [
+      "Builder (creacional) separa la construcción de un objeto complejo de su representación, paso a paso.",
+      "Interpreter representa la gramática de un lenguaje y ofrece un intérprete para sus sentencias.",
+      "Observer notifica automáticamente a los objetos dependientes cuando cambia el estado de otro (relación uno a muchos).",
+      null
+    ],
+    "topic": "III.4",
+    "references": [
+      "Gamma, Helm, Johnson y Vlissides, «Design Patterns» (1994): Strategy"
+    ],
+    "tags": [
+      "patrones-de-diseno",
+      "strategy",
+      "gof"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-029",
+    "explanation": "En .NET, el **ensamblado** (*assembly*, un .dll o .exe) es la **unidad fundamental de implementación, versionado, reutilización y seguridad**, y la unidad mínima que carga y ejecuta el **CLR**. Contiene el código en **MSIL/CIL**, los **metadatos** de los tipos, los recursos y un **manifiesto** que lo describe (nombre, versión, referencias…). El compilador JIT traduce el CIL a código nativo al ejecutarlo.",
+    "option_notes": [
+      null,
+      "MSIL (CIL) es el lenguaje intermedio que contiene el ensamblado, no la unidad de ejecución.",
+      "El manifiesto es la parte del ensamblado que lo describe (nombre, versión, referencias), no una unidad ejecutable.",
+      "«Entity» remite a Entity Framework, el ORM de .NET, no a una unidad de ejecución del CLR."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Learn: Assemblies in .NET"
+    ],
+    "tags": [
+      "dotnet",
+      "clr",
+      "ensamblados"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-030",
+    "explanation": "**JAX-RS** (*Java API for RESTful Web Services*, JSR 311/339/370; hoy **Jakarta RESTful Web Services**) define cómo exponer recursos REST con anotaciones como `@Path`, `@GET`, `@POST`, `@Produces` o `@PathParam`. Implementaciones: Jersey, RESTEasy o Apache CXF. Para servicios **SOAP** la API equivalente es **JAX-WS**.",
+    "option_notes": [
+      null,
+      "JTA (Java Transaction API, hoy Jakarta Transactions) gestiona transacciones distribuidas.",
+      "JPA (Java Persistence API, hoy Jakarta Persistence) es la API de persistencia y mapeo objeto-relacional.",
+      "JSTL es la biblioteca estándar de etiquetas para páginas JSP."
+    ],
+    "topic": "III.5",
+    "references": [
+      "JSR 370: JAX-RS 2.1",
+      "Jakarta RESTful Web Services"
+    ],
+    "tags": [
+      "java",
+      "jax-rs",
+      "rest"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-031",
+    "explanation": "**WSDL** (*Web Services Description Language*, W3C) es el lenguaje XML que **describe un servicio web**: sus **operaciones**, los **mensajes** de entrada y salida, los **tipos** de datos, el **binding** (protocolo y formato) y la **dirección** del punto final. En la pila clásica: **SOAP** = protocolo de mensajes, **WSDL** = descripción y **UDDI** = registro para publicar y descubrir servicios.",
+    "option_notes": [
+      "WSIJ no existe; quizá recuerda a WS-I, la organización que publicaba perfiles de interoperabilidad.",
+      null,
+      "SOAP es el protocolo de intercambio de mensajes XML, no el lenguaje de descripción.",
+      "UDDI es el registro o directorio para publicar y descubrir servicios web."
+    ],
+    "topic": "III.6",
+    "references": [
+      "W3C: Web Services Description Language (WSDL) 1.1 y 2.0"
+    ],
+    "tags": [
+      "servicios-web",
+      "wsdl",
+      "soap"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-032",
+    "explanation": "**Xamarin**, adquirida por **Microsoft** en 2016, permitía crear apps nativas para Android, iOS y Windows en **C#/.NET** compartiendo la mayor parte del código. Las demás opciones no eran de Microsoft: **PhoneGap** (Adobe, sobre Apache Cordova), **Titanium** (Appcelerator, JavaScript) e **Ionic** (tecnologías web sobre Cordova/Capacitor). Hoy su sucesor es **.NET MAUI**.",
+    "option_notes": [
+      null,
+      "PhoneGap era de Adobe (basado en Apache Cordova) y Adobe lo abandonó en 2020.",
+      "Titanium es de Appcelerator (luego Axway) y usa JavaScript.",
+      "Ionic es de la empresa Ionic (antes Drifty) y usa HTML, CSS y JavaScript."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft: Xamarin support policy",
+      "Microsoft Learn: .NET MAUI"
+    ],
+    "tags": [
+      "xamarin",
+      "desarrollo-multiplataforma",
+      "dotnet"
+    ],
+    "outdated": true,
+    "outdated_note": "Microsoft dejó de dar soporte a Xamarin el 1 de mayo de 2024. Su sucesor es .NET MAUI (Multi-platform App UI), incluido en .NET desde la versión 6, que es hoy la plataforma multiplataforma de Microsoft.",
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-033",
+    "explanation": "En PowerShell, **`Set-Alias`** **crea o cambia** un alias de un cmdlet u otro comando en la sesión actual: `Set-Alias -Name lista -Value Get-ChildItem`. También existe **`New-Alias`**, que solo crea alias nuevos. Para consultarlos se usa **`Get-Alias`**, y para guardarlos o cargarlos, `Export-Alias` e `Import-Alias`. Los cmdlets siguen el patrón **Verbo-Sustantivo** con verbos aprobados (Get, Set, New, Add, Remove…).",
+    "option_notes": [
+      "No existe Create-Alias: «Create» no es un verbo aprobado de PowerShell; se usa New-Alias.",
+      "No existe Show-Alias; para ver los alias se usa Get-Alias.",
+      "No existe Add-Alias; los alias se crean con Set-Alias o New-Alias.",
+      null
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Microsoft Learn: Set-Alias (Microsoft.PowerShell.Utility)"
+    ],
+    "tags": [
+      "powershell",
+      "cmdlets",
+      "alias"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-034",
+    "explanation": "La **confidencialidad** (que solo accedan a la información las personas autorizadas) se garantiza con el **cifrado**. Cada herramienta protege una dimensión distinta: la **función hash** garantiza la **integridad** (detecta cambios); la **firma electrónica** aporta **autenticidad, integridad y no repudio**, pero el documento firmado sigue siendo legible; y el **CSV** (código seguro de verificación) permite **comprobar la integridad y autenticidad** de un documento en la sede electrónica.",
+    "option_notes": [
+      "La firma garantiza autenticidad, integridad y no repudio, pero no oculta el contenido.",
+      "El CSV sirve para cotejar un documento en la sede electrónica (integridad y autenticidad), no para ocultarlo.",
+      "El hash garantiza la integridad: cualquier cambio altera el resumen, pero no oculta la información.",
+      null
+    ],
+    "topic": "IV.5",
+    "references": [
+      "RD 311/2022 (ENS), dimensiones de seguridad",
+      "Ley 40/2015, art. 42.b) (CSV)"
+    ],
+    "tags": [
+      "confidencialidad",
+      "cifrado",
+      "dimensiones-de-seguridad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-035",
+    "explanation": "**`getfacl`** muestra, para cada fichero, su **nombre, propietario y grupo** y su **lista de control de acceso (ACL)**; si un directorio tiene ACL por defecto, también la muestra. Las ACL se modifican con **`setfacl`** (por ejemplo, `setfacl -m u:ana:rw fichero`) y amplían los permisos clásicos de `chmod`, que solo distinguen propietario, grupo y otros.",
+    "option_notes": [
+      "file determina el tipo de contenido de un fichero (texto, ELF, imagen…), no su propietario ni su grupo.",
+      "gawk es la versión GNU de awk, para procesar texto por patrones y campos.",
+      null,
+      "modprobe carga o descarga módulos del núcleo de Linux."
+    ],
+    "topic": "II.4",
+    "references": [
+      "Página de manual getfacl(1)"
+    ],
+    "tags": [
+      "linux",
+      "acl",
+      "comandos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-036",
+    "explanation": "**WSUS** (*Windows Server Update Services*) es el rol de Windows Server que permite a los administradores **descargar, aprobar y distribuir de forma centralizada las actualizaciones de productos Microsoft** en su red. En septiembre de 2024 Microsoft lo declaró **obsoleto** (*deprecated*): sigue disponible en Windows Server 2025, pero sin nuevas funciones, y recomienda Windows Autopatch, Intune y Azure Update Manager.",
+    "option_notes": [
+      "apt-get es el gestor de paquetes de Debian y Ubuntu, no un servicio de actualizaciones de Microsoft.",
+      "YUM es el gestor de paquetes de Red Hat y derivadas (hoy sustituido por DNF).",
+      null,
+      "Mojave es la versión 10.14 de macOS (2018), no un servicio de actualizaciones."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Microsoft Learn: Windows Server Update Services (WSUS) overview",
+      "Microsoft Tech Community: WSUS deprecation (20-9-2024)"
+    ],
+    "tags": [
+      "wsus",
+      "actualizaciones",
+      "windows-server"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-037",
+    "explanation": "El **hipervisor de tipo 2** (*hosted*, alojado) se instala **como una aplicación más sobre un sistema operativo anfitrión**: VirtualBox, VMware Workstation o Parallels. El **de tipo 1** (*bare-metal*, nativo o *unhosted*) se ejecuta **directamente sobre el hardware**, sin SO anfitrión, y es el habitual en servidores: VMware ESXi, Microsoft Hyper-V, Xen o KVM. Las opciones B, C y D son tres nombres del tipo 1.",
+    "option_notes": [
+      null,
+      "Bare-metal es el tipo 1: se ejecuta directamente sobre el hardware.",
+      "Unhosted (no alojado) es otro nombre del tipo 1, sin sistema operativo anfitrión.",
+      "Nativo es otro nombre del tipo 1, que corre directamente sobre el hardware."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "Clasificación de hipervisores: tipo 1 (bare-metal) y tipo 2 (hosted)"
+    ],
+    "tags": [
+      "virtualizacion",
+      "hipervisores"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-038",
+    "explanation": "**IMAP** = *Internet Message Access Protocol*. Permite al cliente **acceder al buzón en el servidor** (carpetas, marcas de leído, búsquedas) sin descargar y borrar los mensajes, a diferencia de POP3. Puertos: **143** (en claro o con STARTTLS) y **993** (IMAPS, TLS implícito). La versión actual es **IMAP4rev2** (RFC 9051, 2021), que sustituye a IMAP4rev1 (RFC 3501).",
+    "option_notes": [
+      "Es «Message», no «Mail» (aunque sus primeras versiones, en los años ochenta, sí usaban «Mail»).",
+      "Ni «Mail» ni «Auth»: la A es de Access.",
+      "La M es de Message, pero la A es de Access, no de Auth.",
+      null
+    ],
+    "topic": "IV.3",
+    "references": [
+      "RFC 9051 (IMAP4rev2)",
+      "RFC 3501 (IMAP4rev1)"
+    ],
+    "tags": [
+      "imap",
+      "correo-electronico",
+      "siglas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-039",
+    "explanation": "**SMTP** (*Simple Mail Transfer Protocol*, RFC 5321) transfiere el correo **entre servidores** (MTA a MTA, puerto **25**) y también se usa para el **envío** desde el cliente al servidor (*submission*, puerto **587** o **465** con TLS). **POP3** e **IMAP** sirven al cliente para **recuperar o consultar** el correo de su buzón. Los servidores localizan el servidor de destino de un dominio mediante el registro DNS **MX**.",
+    "option_notes": [
+      "POP3 lo usa el cliente para descargar el correo de su buzón, no para enviarlo entre servidores.",
+      null,
+      "IMAP lo usa el cliente para acceder a su buzón en el servidor.",
+      "MX es un tipo de registro DNS que indica el servidor de correo de un dominio, no un protocolo."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "RFC 5321 (SMTP)",
+      "RFC 6409 (Message Submission)"
+    ],
+    "tags": [
+      "smtp",
+      "correo-electronico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-041",
+    "explanation": "**ElGamal** (Taher ElGamal, 1985) es un algoritmo de **cifrado asimétrico** (de clave pública) basado en el **problema del logaritmo discreto**, como Diffie-Hellman; también existe un esquema de firma ElGamal, base del DSA. Otros asimétricos: **RSA**, **DSA** y los de **curva elíptica** (ECC). **AES, Blowfish y 3DES** son **simétricos**: usan la misma clave para cifrar y descifrar.",
+    "option_notes": [
+      "AES (Rijndael) es el estándar de cifrado simétrico por bloques del NIST.",
+      "Blowfish (Schneier, 1993) es un cifrado simétrico por bloques.",
+      null,
+      "TDES (Triple DES) es simétrico: aplica DES tres veces; el NIST ya no lo admite para cifrar."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "T. ElGamal, «A public key cryptosystem and a signature scheme based on discrete logarithms», IEEE Trans. IT, 1985"
+    ],
+    "tags": [
+      "criptografia",
+      "cifrado-asimetrico",
+      "elgamal"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-042",
+    "explanation": "La **fibra monomodo** trabaja en las ventanas de **1310 nm** (2.ª ventana, mínima dispersión) y **1550 nm** (3.ª ventana, mínima atenuación), con láser, y sirve para largas distancias. La **fibra multimodo** usa **850 nm** y **1300 nm** (con LED o VCSEL) en distancias cortas. Los **650 nm** (luz roja) son propios de la **fibra óptica de plástico** (POF).",
+    "option_notes": [
+      null,
+      "850 nm es una ventana de la fibra multimodo, no de la monomodo.",
+      "850 y 1300 nm son las ventanas típicas de la fibra multimodo.",
+      "650 nm se usa en fibra óptica de plástico y 850 nm en multimodo."
+    ],
+    "topic": "IV.6",
+    "references": [
+      "ITU-T G.652 (fibra monomodo)",
+      "ITU-T G.651.1 (fibra multimodo)"
+    ],
+    "tags": [
+      "fibra-optica",
+      "medios-de-transmision",
+      "ventanas-de-transmision"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-044",
+    "explanation": "**Bluetooth** opera en la banda **ISM de 2,4 GHz** (2,402-2,480 GHz) con saltos de frecuencia; los **5 GHz** son una banda de **Wi-Fi** (802.11a/n/ac/ax). El resto es cierto: es una tecnología **WPAN** (IEEE 802.15.1); un maestro y hasta **7 esclavos activos** forman una **piconet**, y varias piconets enlazadas, una **scatternet**; su pila incluye **LMP**, **L2CAP**, RFCOMM y SDP.",
+    "option_notes": [
+      "Es cierta: Bluetooth es una red de área personal inalámbrica (WPAN, IEEE 802.15.1).",
+      "Es cierta: una piconet la forman un maestro y hasta 7 esclavos activos.",
+      "Es cierta: LMP (gestor de enlace) y L2CAP (adaptación y control del enlace lógico) son protocolos de la pila.",
+      null
+    ],
+    "topic": "IV.6",
+    "references": [
+      "Bluetooth Core Specification (Bluetooth SIG)",
+      "IEEE 802.15.1"
+    ],
+    "tags": [
+      "bluetooth",
+      "wpan",
+      "redes-inalambricas"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-045",
+    "explanation": "La cabecera fija de **IPv6** (RFC 8200) mide **40 bytes**: **Versión (4 bits)**, **Clase de tráfico (8 bits)**, **Etiqueta de flujo (20 bits)**, Longitud de la carga útil (16), Siguiente cabecera (8), Límite de saltos (8) y las direcciones de origen y destino (128 bits cada una). Los 8 bits de clase de tráfico se dividen en **DSCP (6 bits)** y **ECN (2 bits)**, como el antiguo campo ToS de IPv4.",
+    "option_notes": [
+      "6 bits es el subcampo DSCP; la clase de tráfico completa suma 8 bits con los 2 de ECN.",
+      null,
+      "Ningún campo de la cabecera IPv6 mide 10 bits; la clase de tráfico tiene 8.",
+      "La clase de tráfico tiene 8 bits; el campo de 20 bits es la etiqueta de flujo."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 8200 (IPv6), sección 3",
+      "RFC 2474 (DSCP) y RFC 3168 (ECN)"
+    ],
+    "tags": [
+      "ipv6",
+      "cabecera-ip"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-046",
+    "explanation": "En el modelo **OSI**, **RPC** (*Remote Procedure Call*) se sitúa en la **capa de sesión (nivel 5)**: establece y gestiona el diálogo entre procesos remotos para que un programa invoque un procedimiento en otra máquina como si fuera local. En las clasificaciones habituales, la representación de los datos (por ejemplo, XDR en ONC RPC) es de **presentación (nivel 6)**, y el transporte lo aportan TCP o UDP (nivel 4). Otros ejemplos de sesión: NetBIOS y SOCKS.",
+    "option_notes": [
+      "La capa de red (nivel 3) se ocupa del direccionamiento y el encaminamiento (IP).",
+      "La capa de transporte (nivel 4) corresponde a TCP y UDP, sobre los que se apoya RPC.",
+      null,
+      "La capa de presentación se ocupa de la representación de los datos (por ejemplo, XDR), no de la llamada remota."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "ISO/IEC 7498-1 (modelo OSI)",
+      "RFC 5531 (ONC RPC v2)"
+    ],
+    "tags": [
+      "modelo-osi",
+      "rpc",
+      "capa-de-sesion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-047",
+    "explanation": "La **clase B** abarca de **128.0.0.0 a 191.255.255.255** (primer octeto 128-191; bits iniciales `10`). **183.45.33.12** está en ese rango, es pública y es una dirección de host válida. Repaso: **clase A** 1-126, **clase B** 128-191, **clase C** 192-223, **D** (multidifusión) 224-239 y **E** 240-255. Privadas (RFC 1918): 10.0.0.0/8, **172.16.0.0/12** y 192.168.0.0/16. Y ningún octeto puede superar 255.",
+    "option_notes": [
+      "10.16.7.2 es de clase A (primer octeto 10) y además privada.",
+      "192.168.25.34 es de clase C (primer octeto 192) y además privada.",
+      "Dirección inválida: el tercer octeto (256) supera el máximo de 255.",
+      null
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 791 (IPv4)",
+      "RFC 1918 (direcciones privadas)"
+    ],
+    "tags": [
+      "ipv4",
+      "clases-de-direcciones",
+      "direccionamiento-ip"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-048",
+    "explanation": "**HTTPS** (HTTP sobre TLS) usa por defecto el **puerto TCP 443**. Puertos que conviene memorizar: **25** SMTP, **80** HTTP, **110** POP3, **143** IMAP, **465/587** envío de correo (SMTPS/*submission*), **993** IMAPS, **995** POP3S, **22** SSH y **53** DNS. HTTP/3 también usa el 443, pero sobre **UDP** (QUIC).",
+    "option_notes": [
+      "El 25 es el puerto de SMTP (transferencia de correo entre servidores).",
+      "El 80 es el puerto por defecto de HTTP sin cifrar.",
+      "El 143 es el puerto de IMAP.",
+      null
+    ],
+    "topic": "IV.8",
+    "references": [
+      "RFC 9110 (HTTP Semantics), esquema https",
+      "IANA Service Name and Transport Protocol Port Number Registry"
+    ],
+    "tags": [
+      "https",
+      "puertos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-049",
+    "explanation": "HTML5 declaró **obsoletos** los elementos puramente **presentacionales**, cuyo papel pasa a CSS: **`<big>`**, `<center>`, `<font>`, `<basefont>`, `<strike>` y `<tt>`, además de `<frame>`, `<frameset>`, `<noframes>`, `<applet>`, `<acronym>` y `<dir>`. En su lugar se usa CSS (por ejemplo, `font-size`) o elementos con significado. **`<div>`** y **`<a>`** se mantienen, y **`<article>`** es precisamente **nuevo** en HTML5.",
+    "option_notes": [
+      null,
+      "<div> sigue vigente como contenedor genérico de bloque.",
+      "<article> no se eliminó: es uno de los elementos semánticos que introdujo HTML5.",
+      "<a> (enlace) sigue siendo un elemento básico de HTML5."
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C: HTML5 Differences from HTML4 (elementos obsoletos)",
+      "WHATWG HTML Living Standard: Obsolete features"
+    ],
+    "tags": [
+      "html5",
+      "elementos-obsoletos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-050",
+    "explanation": "En **TLS 1.3** (RFC 8446), el *handshake* **siempre lo inicia el cliente** con un mensaje **ClientHello** (versiones, suites de cifrado y su parte del intercambio de claves, `key_share`). El servidor responde con **ServerHello** y, ya cifrados, sus extensiones, su certificado, CertificateVerify y Finished. Gracias a ello el *handshake* completo dura **1 RTT** (o 0-RTT al reanudar una sesión). El servidor solo puede pedir al cliente que repita el saludo (**HelloRetryRequest**).",
+    "option_notes": [
+      "El servidor nunca inicia el handshake: responde al ClientHello con ServerHello.",
+      null,
+      "En TLS el handshake siempre lo inicia el cliente; el servidor solo responde.",
+      "Quién inicia no depende del certificado: lo suele presentar el servidor, pero el handshake lo abre el cliente."
+    ],
+    "topic": "IV.8",
+    "references": [
+      "RFC 8446 (TLS 1.3), sección 2"
+    ],
+    "tags": [
+      "tls",
+      "handshake",
+      "protocolos-seguros"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-r1",
+    "explanation": "El **art. 34.1 LOPDGDD** enumera las entidades que deben designar **delegado de protección de datos (DPD)** además de los casos del art. 37.1 RGPD. Entre ellas: **colegios profesionales** (a), **establecimientos financieros de crédito** (f), **centros sanitarios** obligados a mantener historias clínicas (l) y **federaciones deportivas cuando traten datos de menores** (o). Pero la letra l) **exceptúa a los profesionales de la salud que ejerzan a título individual**, aunque deban llevar historias clínicas.",
+    "option_notes": [
+      "Están obligados: los establecimientos financieros de crédito son la letra f) del art. 34.1.",
+      "Están obligados: los colegios profesionales y sus consejos generales son la letra a).",
+      "Están obligadas: las federaciones deportivas que traten datos de menores son la letra o).",
+      null
+    ],
+    "topic": "I.7",
+    "references": [
+      "LO 3/2018 (LOPDGDD), art. 34.1",
+      "Reglamento (UE) 2016/679 (RGPD), art. 37.1"
+    ],
+    "tags": [
+      "lopdgdd",
+      "delegado-de-proteccion-de-datos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-r2",
+    "explanation": "**RAID 2** reparte los datos **a nivel de bit** entre los discos y dedica varios discos a un **código Hamming** que permite **detectar y corregir errores**. Hoy no se usa, porque los discos ya llevan su propia corrección de errores (ECC). Repaso: **RAID 1** = espejo; **RAID 3** = bandas de bytes con paridad en un disco dedicado; **RAID 4** = bandas de bloques con **paridad dedicada**; **RAID 5** = **paridad distribuida**; **RAID 6** = doble paridad.",
+    "option_notes": [
+      "RAID 1 duplica los datos en discos espejo; no usa códigos Hamming.",
+      null,
+      "RAID 4 usa bloques con paridad XOR en un disco dedicado, no códigos Hamming.",
+      "RAID 5 usa paridad XOR distribuida entre todos los discos, no códigos Hamming."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "Patterson, Gibson y Katz, «A Case for Redundant Arrays of Inexpensive Disks (RAID)», 1988"
+    ],
+    "tags": [
+      "raid",
+      "almacenamiento",
+      "codigo-hamming"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-r4",
+    "explanation": "**APFS** (*Apple File System*) sustituyó a **HFS+** en 2017 (iOS 10.3 y macOS High Sierra). Está **optimizado para memorias flash y SSD** e incorpora **clones** de ficheros, **instantáneas** (*snapshots*), **cifrado nativo**, uso compartido del espacio entre volúmenes y protección de metadatos ante caídas (*copy-on-write*). **NTFS** es de Windows, **ext4** de Linux y **exFAT** es el formato de Microsoft para memorias USB y tarjetas SDXC.",
+    "option_notes": [
+      "NTFS es el sistema de archivos de Windows (desde Windows NT), no sucesor de HFS+.",
+      null,
+      "Ext4 es el sistema de archivos habitual de Linux, sucesor de ext3.",
+      "exFAT es el formato de Microsoft para memorias flash extraíbles, sucesor de FAT32."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Apple Platform Security / Apple File System Guide"
+    ],
+    "tags": [
+      "sistemas-de-archivos",
+      "apfs",
+      "macos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p1-r5",
+    "explanation": "La norma **ANSI/TIA-942** clasifica los CPD en cuatro niveles de disponibilidad: **Tier I** ≈ **99,671 %** (básico, sin redundancia; unas 28,8 h de parada al año), **Tier II ≈ 99,741 %** (componentes redundantes; unas 22 h), **Tier III** ≈ **99,982 %** (mantenimiento sin parada; 1,6 h) y **Tier IV** ≈ **99,995 %** (tolerante a fallos; unos 26 min). En las revisiones recientes de la norma los niveles se llaman **Rated-1 a Rated-4**, para distinguirlos de los Tier del Uptime Institute.",
+    "option_notes": [
+      "El Tier I corresponde a ≈ 99,671 %, sin componentes redundantes.",
+      null,
+      "El Tier III corresponde a ≈ 99,982 % (mantenible sin parada).",
+      "El Tier IV corresponde a ≈ 99,995 % (tolerante a fallos)."
+    ],
+    "topic": "IV.5",
+    "references": [
+      "ANSI/TIA-942 (Telecommunications Infrastructure Standard for Data Centers)",
+      "Uptime Institute: Tier Classification System"
+    ],
+    "tags": [
+      "cpd",
+      "tia-942",
+      "disponibilidad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-001",
+    "explanation": "Según el enunciado, cada ayuntamiento indica **para cada tramo de calle qué tipo de zona le corresponde**: un tramo tiene **un único** tipo de zona (verde, azul…), y un mismo tipo de zona se aplica a **muchos** tramos. Es una correspondencia **1:N entre TipoZona y TramoCalle**. Al pasar al modelo relacional, la clave de TipoZona (`idZona`) se propagará como **clave ajena** a TramoCalle, el lado N.",
+    "option_notes": [
+      "0:1 no es un tipo de correspondencia: el 0 expresa una cardinalidad mínima (participación opcional).",
+      "N:M exigiría que un tramo pudiera tener varios tipos de zona a la vez, y el enunciado asigna uno por tramo.",
+      "1:1 obligaría a que cada tipo de zona se aplicara a un solo tramo, y la zona azul abarca muchos.",
+      null
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: Modelo Entidad/Relación extendido (tipo de correspondencia)"
+    ],
+    "tags": [
+      "modelo-entidad-relacion",
+      "tipo-de-correspondencia",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-002",
+    "explanation": "Si la zona azul se define con **dos franjas** (9:00-15:00 y 17:00-20:00), un mismo **TipoZona** se relaciona con **varias** FranjaHoraria, y cada franja pertenece a un tipo de zona concreto: correspondencia **1:N entre TipoZona y FranjaHoraria**, con el lado N en FranjaHoraria. Al pasar a tablas, `idZona` irá como clave ajena en FranjaHoraria. Ojo al orden: «1:N entre X e Y» significa un X con muchos Y.",
+    "option_notes": [
+      null,
+      "Invierte el sentido: significaría que una franja tiene muchos tipos de zona y cada zona una sola franja, pero la zona azul tiene dos.",
+      "1:1 solo admitiría una franja por tipo de zona, y la zona azul tiene dos.",
+      "1:0 no es un tipo de correspondencia; el 0 solo expresa participación opcional."
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: Modelo Entidad/Relación extendido (tipo de correspondencia)"
+    ],
+    "tags": [
+      "modelo-entidad-relacion",
+      "tipo-de-correspondencia",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-003",
+    "explanation": "En una relación **1:N**, la clave primaria del lado **1** se propaga como **clave ajena** al lado **N**. Calle participa en dos relaciones: **Municipio (1) – Calle (N)**, por lo que Calle recibe **`idMunicipio` (FK)**; y **Calle (1) – TramoCalle (N)**, por lo que es **TramoCalle** quien recibe `idCalle` como FK. Resultado: `calle(idCalle (PK), idMunicipio (FK), nombre)`.",
+    "option_notes": [
+      "Falta la clave ajena idMunicipio: sin ella no se sabe a qué municipio pertenece cada calle.",
+      "La FK va en el lado N: es TramoCalle quien recibe idCalle, no Calle quien recibe idTramoCalle.",
+      null,
+      "idMunicipio es correcta, pero idTramoCalle sobra: una calle tiene muchos tramos y no cabe en una sola columna."
+    ],
+    "topic": "III.1",
+    "references": [
+      "Métrica v3, Técnicas: transformación del modelo E/R al modelo relacional"
+    ],
+    "tags": [
+      "modelo-relacional",
+      "clave-ajena",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-004",
+    "explanation": "`TramoCalle RIGHT JOIN Calle` conserva **todas las filas de la tabla de la derecha (Calle)**; las calles sin tramos aparecen con NULL en las columnas de TramoCalle. Al agrupar por `Calle.idCalle, Calle.nombre` sale **una fila por calle**, y **`COUNT(TramoCalle.idTramoCalle)`** cuenta solo los valores no nulos: da el número de tramos y **0** en las calles sin tramos. `COUNT(*)` contaría 1 para ellas.",
+    "option_notes": [
+      "Al agrupar por calle sale una fila por calle, no por tramo.",
+      "La agrupación es por calle; además, el RIGHT JOIN conserva las calles, no los tramos sin calle.",
+      null,
+      "Así se comportaría un INNER JOIN; el RIGHT JOIN incluye también las calles sin tramos (con recuento 0)."
+    ],
+    "topic": "III.3",
+    "references": [
+      "Microsoft Learn: FROM (Transact-SQL), RIGHT OUTER JOIN",
+      "Microsoft Learn: COUNT (Transact-SQL)"
+    ],
+    "tags": [
+      "sql",
+      "right-join",
+      "count",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-005",
+    "explanation": "En **Transact-SQL** (SQL Server) un procedimiento se crea con **`CREATE PROCEDURE`** (o su abreviatura **`CREATE PROC`**), y cada parámetro se declara con **`@nombre tipo`**, separados por comas: `CREATE PROCEDURE calcularTarifa @idZona int, @Minutos int AS ...`. Los paréntesis alrededor de la lista de parámetros son opcionales, y pueden añadirse un valor por defecto (`= 0`) u `OUTPUT`.",
+    "option_notes": [
+      null,
+      "Falta el tipo de dato de cada parámetro, que es obligatorio en T-SQL.",
+      "«PROCED» no es una palabra reservada: se escribe PROCEDURE o PROC (los paréntesis sí serían válidos).",
+      "«PROCED» no es válido y el parámetro debe llamarse @idZona, como pide el enunciado."
+    ],
+    "topic": "III.3",
+    "references": [
+      "Microsoft Learn: CREATE PROCEDURE (Transact-SQL)"
+    ],
+    "tags": [
+      "sql-server",
+      "procedimientos-almacenados",
+      "transact-sql",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-006",
+    "explanation": "En **`EXECUTE`** los parámetros pueden pasarse **por posición** (en el orden en que se declararon: `EXECUTE calcularTarifa 1, 50`) o **por nombre** (`@parametro = valor`), y en este caso **en cualquier orden**. Pero, según la documentación de SQL Server, **en cuanto se usa la forma `@parametro = valor` en un parámetro, todos los siguientes deben pasarse también por nombre**. Por eso `@Minutos = 50, 1` es incorrecta.",
+    "option_notes": [
+      "Correcta: todos los parámetros se pasan por nombre.",
+      "Correcta: por nombre, el orden de los parámetros es indiferente.",
+      "Correcta: por posición, en el orden de declaración (@idZona y después @Minutos).",
+      null
+    ],
+    "topic": "III.3",
+    "references": [
+      "Microsoft Learn: EXECUTE (Transact-SQL)"
+    ],
+    "tags": [
+      "sql-server",
+      "procedimientos-almacenados",
+      "execute",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-007",
+    "explanation": "El controlador JDBC de Microsoft usa URL del tipo **`jdbc:sqlserver://servidor[\\instancia][:puerto][;propiedad=valor…]`**: siempre empieza por el protocolo **`jdbc:`**, seguido del subprotocolo del controlador (**`sqlserver`**). La D sigue ese formato. Ojo: el puerto por defecto de SQL Server es el **1433**; el **3306** es el de **MySQL**, pero el enunciado lo fija así y lo que se pregunta es el formato.",
+    "option_notes": [
+      "«sql» no es el subprotocolo del controlador de SQL Server: debe ser jdbc:sqlserver://.",
+      "El orden está invertido: la URL empieza siempre por «jdbc:».",
+      "Formato inexistente («sqlserver:ansi:») y además la IP está mal escrita: 10.10.124 solo tiene tres octetos.",
+      null
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Learn: Building the connection URL (Microsoft JDBC Driver for SQL Server)"
+    ],
+    "tags": [
+      "jdbc",
+      "sql-server",
+      "java",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-008",
+    "explanation": "En **XML Schema (XSD)**, el compositor **`xsd:sequence`** obliga a que los elementos hijos aparezcan **en el mismo orden en que se declaran**. Los otros compositores son **`xsd:all`** (cualquier orden, cada elemento como mucho una vez) y **`xsd:choice`** (solo uno de los elementos). Los prefijos `xs:` y `xsd:` son equivalentes si se asocian al espacio de nombres de XML Schema.",
+    "option_notes": [
+      "No existe xsd:grouptype; xsd:group sirve para definir grupos de elementos con nombre y reutilizarlos.",
+      null,
+      "No existe ningún elemento xsd:elementLocation en XML Schema.",
+      "No existe xsd:elementOrder; el orden se impone con xsd:sequence."
+    ],
+    "topic": "III.7",
+    "references": [
+      "W3C XML Schema 1.1 Part 1: Structures (model groups: sequence, choice, all)"
+    ],
+    "tags": [
+      "xml-schema",
+      "xsd",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-009",
+    "explanation": "La **sobrecarga** (*overloading*) consiste en definir **varios métodos con el mismo nombre y distinta lista de parámetros** (número o tipo) en la misma clase; el compilador elige cuál llamar según los argumentos. Así se añade la versión con matrícula **sin romper las llamadas existentes**. La **sobrescritura** (*overriding*) es otra cosa: una subclase **redefine** un método heredado con la **misma firma**.",
+    "option_notes": [
+      null,
+      "Sobrescribir es redefinir en una subclase un método con la misma firma; añadir un parámetro es sobrecargar.",
+      "Crear una clase abstracta con un evento complica el diseño y no añade el parámetro al método.",
+      "Reutilizar un parámetro con otro significado es una mala práctica: oculta la intención y genera errores."
+    ],
+    "topic": "III.4",
+    "references": [
+      "The Java Language Specification, §8.4.9 (Overloading)"
+    ],
+    "tags": [
+      "sobrecarga",
+      "programacion-orientada-a-objetos",
+      "java",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-010",
+    "explanation": "En **Subversion** el repositorio se organiza por convenio en **`trunk`** (línea principal), **`branches`** (ramas) y **`tags`** (instantáneas). Para aislar un evolutivo sin interferir en el desarrollo principal se crea una **rama** (`svn copy` del trunk a `branches/evolutivo`, una copia barata), se trabaja en ella y, al terminar, se **fusiona** con el trunk (`svn merge`).",
+    "option_notes": [
+      "Las transacciones de SVN garantizan que cada commit sea atómico; no sirven para aislar desarrollos paralelos.",
+      "SVN no tiene etiquetas «modified»; los tags son instantáneas fijas, no líneas de desarrollo.",
+      "SVN no tiene ningún concepto «dependency»; las dependencias externas se gestionan con svn:externals.",
+      null
+    ],
+    "topic": "III.9",
+    "references": [
+      "Version Control with Subversion (Red Bean): Branching and Merging"
+    ],
+    "tags": [
+      "subversion",
+      "control-de-versiones",
+      "ramas",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-011",
+    "explanation": "Pregunta **anulada** en la plantilla definitiva (la provisional daba la **A**). La etiqueta habitual para adaptar una página a la pantalla de cada dispositivo es `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">`: ajusta el ancho del *viewport* al del dispositivo y fija el zoom inicial. El tribunal no publicó el motivo; uno plausible es que el viewport por sí solo no «ajusta el contenido»: el diseño adaptable (*responsive*) necesita además CSS con *media queries*.",
+    "option_notes": [
+      "Era la respuesta provisional: el meta viewport es la etiqueta estándar del diseño adaptable.",
+      "Enlaza una hoja de estilos para pantallas (media=screen), pero no adapta el viewport al dispositivo.",
+      "Content-Style-Type indicaba el lenguaje de estilos por defecto (HTML 4.01); no adapta la página al dispositivo.",
+      "No existe rel=\"responsive icon\"; un elemento link no lleva atributo content."
+    ],
+    "topic": "III.7",
+    "references": [
+      "CSS Viewport Module Level 1 (W3C), meta viewport",
+      "MDN: Viewport meta tag"
+    ],
+    "tags": [
+      "html5",
+      "viewport",
+      "diseno-adaptable",
+      "anulada"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-012",
+    "explanation": "**WS-Security** (OASIS) protege los mensajes SOAP de extremo a extremo: firma XML (integridad), cifrado XML (confidencialidad) y **tokens de seguridad** para acreditar la **identidad**. Para tokens binarios define el elemento **`BinarySecurityToken`**, que codifica **certificados X.509** y **tickets Kerberos** (además de permitir incluir claves cifradas opacas). Para usuario y contraseña existe el **`UsernameToken`**, y los perfiles de token cubren también SAML.",
+    "option_notes": [
+      null,
+      "No existe «CriptToken»: el token de usuario y contraseña de WS-Security es UsernameToken.",
+      "Una VPN protege la red, no el mensaje; WS-Security actúa a nivel de mensaje SOAP.",
+      "Nunca se dispone de la clave privada de otro actor: es secreta; su identidad se verifica con su certificado y su clave pública."
+    ],
+    "topic": "III.6",
+    "references": [
+      "OASIS Web Services Security: SOAP Message Security 1.1",
+      "OASIS WSS X.509 Certificate Token Profile"
+    ],
+    "tags": [
+      "ws-security",
+      "servicios-web",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-r1",
+    "explanation": "**EclipseLink** (proyecto de la Eclipse Foundation, derivado de Oracle TopLink) es la **implementación de referencia de JPA** desde la versión 2.0 y de **Jakarta Persistence**. Otras implementaciones de JPA son **Hibernate ORM**, **Apache OpenJPA** y DataNucleus. La especificación define la API (`EntityManager`, anotaciones `@Entity`, JPQL) y cada proveedor la implementa.",
+    "option_notes": [
+      "DataSource es una interfaz de JDBC (javax.sql.DataSource) para obtener conexiones, no un proveedor JPA.",
+      "No existe «Top ORM»; recuerda a Oracle TopLink, del que procede EclipseLink.",
+      "«Java persistence implementation» no es ningún framework: es una descripción genérica.",
+      null
+    ],
+    "topic": "III.5",
+    "references": [
+      "Jakarta Persistence (JPA) specification",
+      "Eclipse Foundation: EclipseLink"
+    ],
+    "tags": [
+      "jpa",
+      "eclipselink",
+      "persistencia",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-r2",
+    "explanation": "El **DTO** (*Data Transfer Object*; en Java EE, *Transfer Object*) es un objeto sin lógica de negocio que **agrupa datos para transferirlos entre capas** o procesos (por ejemplo, de la lógica de negocio a la presentación), reduciendo el número de llamadas. No confundir con el **DAO** (*Data Access Object*), que **encapsula el acceso a la base de datos** dentro de la capa de persistencia.",
+    "option_notes": [
+      "No existe «POJOO»: el término es POJO (Plain Old Java Object), un objeto Java simple.",
+      null,
+      "El DAO encapsula el acceso a los datos (persistencia), no transporta datos entre capas.",
+      "«DCA (Data Connected Architecture)» no es ningún patrón conocido."
+    ],
+    "topic": "III.6",
+    "references": [
+      "M. Fowler, «Patterns of Enterprise Application Architecture» (2002): Data Transfer Object",
+      "Core J2EE Patterns: Transfer Object y Data Access Object"
+    ],
+    "tags": [
+      "dto",
+      "arquitectura-multicapa",
+      "patrones-de-diseno",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s1-r3",
+    "explanation": "En **UML**, un **actor** es un **rol externo al sistema** que interactúa con él: una persona, una organización u otro sistema. Según el enunciado, el **ayuntamiento** publica su normativa de estacionamiento, el **ciudadano** la consulta y el **administrador del sistema** lo gestiona. La base de datos y las librerías son **partes internas** del sistema, y el hardware (antenas, parquímetros) no interactúa con este registro.",
+    "option_notes": [
+      "La base de datos forma parte del propio sistema, no es un actor; «sistemas móviles» no aparece en el enunciado.",
+      "Antenas, terminales y parquímetros son infraestructura ajena a este registro, no actores de sus casos de uso.",
+      null,
+      "Las librerías internas son parte del sistema, y ni la geolocalización ni el INE aparecen en el enunciado."
+    ],
+    "topic": "III.4",
+    "references": [
+      "OMG UML 2.5.1: Use Cases (Actor)",
+      "Métrica v3, Técnicas: Casos de uso"
+    ],
+    "tags": [
+      "uml",
+      "casos-de-uso",
+      "actores",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-001",
+    "explanation": "La sintaxis es **`useradd [opciones] LOGIN`**, con el nombre de usuario **al final**. Opciones: **`-d`** directorio personal (`/traslado/respaldo`), **`-g`** grupo principal, que debe existir (`migracion`), y **`-p`** contraseña. Ojo: `-p` espera la contraseña **ya cifrada** con crypt(3); en la práctica se crea el usuario y se le asigna la contraseña con `passwd traslado` o `chpasswd`. Para crear además el directorio se añade `-m`.",
+    "option_notes": [
+      "Intercambia los valores: -p recibe el grupo y -g la contraseña.",
+      null,
+      "Intercambia los valores: -g recibe la ruta y -d el grupo.",
+      "Intercambia los valores: -p recibe la ruta y -d la contraseña."
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Página de manual useradd(8) (shadow-utils)"
+    ],
+    "tags": [
+      "linux",
+      "useradd",
+      "gestion-de-usuarios",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-002",
+    "explanation": "`ssh` admite el usuario remoto con **`-l usuario`** (equivale a `usuario@servidor`) y, tras el destino, **la orden que se ejecutará en el equipo remoto**. OpenSSH acepta opciones también detrás del destino. **`id`** sin argumentos muestra el **uid**, el **gid** y los grupos del usuario con el que se ha entrado, por ejemplo `uid=1001(traslado) gid=1002(migracion) grupos=1002(migracion)`. Forma equivalente: `ssh traslado@servidor_del_traslado id`.",
+    "option_notes": [
+      "id no admite «uid gid» como argumentos: los tomaría como nombres de usuario y daría error.",
+      "-host no es una opción de ssh: el destino se escribe sin opción.",
+      "Sin -l, «traslado» se interpretaría como la orden remota, no como el usuario.",
+      null
+    ],
+    "topic": "IV.1",
+    "references": [
+      "Página de manual ssh(1) (OpenSSH)",
+      "Página de manual id(1) (GNU coreutils)"
+    ],
+    "tags": [
+      "ssh",
+      "linux",
+      "comandos",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-003",
+    "explanation": "Con el clásico `route` (net-tools) se añade una ruta con **`route add -net <red> netmask <máscara> gw <pasarela>`**: la D es la única con la sintaxis correcta. Matiz: con `-net` y máscara /24 la dirección debería ser la de **red** (`10.254.252.0`); con `10.254.252.4`, `route` responde «netmask doesn't match route address». Para un único equipo se usaría `route add -host 10.254.252.4 gw 10.253.1.254`. Hoy se prefiere iproute2: `ip route add 10.254.252.0/24 via 10.253.1.254`.",
+    "option_notes": [
+      "new-net no existe: se usa route add -net.",
+      "«gw via» mezcla dos sintaxis: via es de ip route; route solo usa gw.",
+      "«gw add» no es válido: tras gw va directamente la dirección de la pasarela.",
+      null
+    ],
+    "topic": "IV.4",
+    "references": [
+      "Página de manual route(8) (net-tools)",
+      "Página de manual ip-route(8) (iproute2)"
+    ],
+    "tags": [
+      "linux",
+      "enrutamiento",
+      "route",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": true
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-004",
+    "explanation": "Con **iproute2** la sintaxis es **`ip [opciones] OBJETO COMANDO`**: primero el objeto (`route`, `addr`, `link`, `neigh`) y después la acción. **`ip route list`** muestra la tabla de rutas; **`list`** es sinónimo de **`show`** (`ip route show`, abreviado `ip r`). Con net-tools se obtenía lo mismo con `route -n` o `netstat -rn`.",
+    "option_notes": [
+      "path no es un comando de ip route; para listar se usa list o show.",
+      null,
+      "Orden incorrecto: primero va el objeto (route) y después el comando (show).",
+      "view no es un comando de ip; se usa list o show."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "Página de manual ip-route(8) (iproute2)"
+    ],
+    "tags": [
+      "linux",
+      "iproute2",
+      "enrutamiento",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-005",
+    "explanation": "Un prefijo **/21** equivale a la máscara **255.255.248.0**: en el tercer octeto quedan 3 bits de host, así que las redes van de **8 en 8** (…, 240, 248). La red **10.1.248.0/21** abarca los terceros octetos **248 a 255** (248 + 7). La **difusión** pone a 1 todos los bits de host: **10.1.255.255**. Hosts útiles: de 10.1.248.1 a 10.1.255.254 (2¹¹ − 2 = 2046).",
+    "option_notes": [
+      "10.255.255.255 sería la difusión de toda la red 10.0.0.0/8, no la de una /21.",
+      null,
+      "10.1.254.255 sería la difusión de 10.1.254.0/23, no de una /21 que empieza en 248.",
+      "10.1.248.255 sería la difusión de una /24 (10.1.248.0/24)."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 4632 (CIDR)",
+      "RFC 950 (subredes IPv4)"
+    ],
+    "tags": [
+      "subredes",
+      "cidr",
+      "difusion",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-006",
+    "explanation": "**`arp -a`** muestra la **tabla (caché) ARP** con las correspondencias IP-MAC, y funciona en Linux, Windows y BSD/macOS. En Linux, `arp` sin opciones también la muestra, y `arp -d` borra una entrada (útil con MAC antiguas). Discrepancia: en **Windows, `arp -g` funciona igual que `-a`**, así que la D también mostraría la tabla. Como el supuesto trata de servidores Linux, donde `-g` no existe, la plantilla da la C.",
+    "option_notes": [
+      "-all no es una opción de arp.",
+      "En Linux -i solo filtra por interfaz y exige su nombre (-i eth0); no es la opción para mostrar la tabla.",
+      null,
+      "En Linux no existe; en Windows, -g es idéntica a -a, por lo que esta opción sería defendible allí."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "Página de manual arp(8) (net-tools)",
+      "Microsoft Learn: arp (Windows commands)"
+    ],
+    "tags": [
+      "arp",
+      "comandos",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": true
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-007",
+    "explanation": "**SMTP** usa por defecto el **puerto TCP 25** para la transferencia de correo entre servidores; es el que hay que abrir para recibir correo de Internet. Para el envío desde clientes autenticados se usan el **587** (*submission*, con STARTTLS) y el **465** (SMTPS, TLS implícito). Repaso: **53** DNS, **110** POP3, **143** IMAP y **137-139** NetBIOS.",
+    "option_notes": [
+      "El 53 es el puerto de DNS.",
+      "El 110 es el puerto de POP3, para descargar el correo del buzón.",
+      null,
+      "El 138 es el servicio de datagramas de NetBIOS (UDP), propio de las redes Windows."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "RFC 5321 (SMTP)",
+      "RFC 8314 (uso de TLS en el correo)"
+    ],
+    "tags": [
+      "smtp",
+      "puertos",
+      "cortafuegos",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-008",
+    "explanation": "**OpenStack** es una plataforma de **software libre** (licencia **Apache 2.0**) para crear **nubes privadas o públicas** de tipo **IaaS** en el propio CPD. Nació en 2010, impulsada por Rackspace y la NASA, y se organiza en servicios: **Nova** (cómputo), **Neutron** (red), **Cinder** (bloques), **Swift** (objetos), **Keystone** (identidad), **Glance** (imágenes) y **Horizon** (panel web). Azure, AWS y Salesforce son **servicios comerciales propietarios** de nube pública.",
+    "option_notes": [
+      null,
+      "Azure es la nube pública propietaria de Microsoft.",
+      "Salesforce es un proveedor comercial de software como servicio (SaaS), sobre todo de CRM.",
+      "AWS es la nube pública propietaria de Amazon."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "OpenStack: documentación oficial (openstack.org)"
+    ],
+    "tags": [
+      "cloud-computing",
+      "openstack",
+      "software-libre",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-009",
+    "explanation": "**VDI** = *Virtual Desktop Infrastructure* (**infraestructura de escritorios virtuales**). Los escritorios de los usuarios se ejecutan como **máquinas virtuales en servidores del CPD**, y el usuario accede a ellos en remoto desde un PC, un cliente ligero o una tableta mediante un protocolo de visualización (RDP, ICA/HDX, PCoIP, Blast). Ventajas: gestión centralizada, seguridad (los datos no salen del CPD) y movilidad.",
+    "option_notes": [
+      "La D es de Desktop (escritorio), no de Disk.",
+      "No existe «Virtual Definition Infrastructure».",
+      null,
+      "La I es de Infrastructure, no de Interface."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "Microsoft Azure: What is virtual desktop infrastructure (VDI)?"
+    ],
+    "tags": [
+      "vdi",
+      "virtualizacion-de-escritorios",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-010",
+    "explanation": "En **mod_ssl** de Apache, la directiva **`SSLSessionCacheTimeout`** fija el «número de segundos antes de que una sesión SSL expire en la caché de sesiones» (por defecto, **300**). Para el caso: `SSLSessionCacheTimeout 500`. La caché se configura con `SSLSessionCache` (por ejemplo, `shmcb:`) y permite **reanudar sesiones TLS** sin repetir el *handshake* completo, lo que reduce la latencia.",
+    "option_notes": [
+      null,
+      "No existe SSLOCSessionCacheTimeout; las directivas OCSP de mod_ssl son SSLOCSPEnable, SSLOCSPResponderTimeout, etc.",
+      "No existe SSLSessionTimeoutCache: el orden correcto es SSLSessionCacheTimeout.",
+      "SSLStaplingErrorCacheTimeout existe, pero fija cuánto se guardan las respuestas OCSP erróneas en la caché de stapling."
+    ],
+    "topic": "IV.8",
+    "references": [
+      "Apache HTTP Server 2.4: mod_ssl, SSLSessionCacheTimeout"
+    ],
+    "tags": [
+      "apache",
+      "mod-ssl",
+      "tls",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-011",
+    "explanation": "**405 Method Not Allowed** (RFC 9110, §15.5.6): el servidor **conoce el método** de la petición (por ejemplo, PUT o DELETE), pero **el recurso no lo admite**. La respuesta debe incluir la cabecera **`Allow`** con los métodos permitidos. En una migración suele aparecer cuando el nuevo servidor no tiene habilitado un método que el servicio usaba. No confundir con **400** (sintaxis inválida), **403** (sin permiso) o **412** (precondición fallida).",
+    "option_notes": [
+      "Es el 400 Bad Request: la petición tiene una sintaxis inválida.",
+      "Es el 403 Forbidden: el cliente no tiene permiso para ese contenido.",
+      null,
+      "Es el 412 Precondition Failed: no se cumple una precondición de las cabeceras (If-Match…)."
+    ],
+    "topic": "IV.8",
+    "references": [
+      "RFC 9110 (HTTP Semantics), §15.5.6"
+    ],
+    "tags": [
+      "http",
+      "codigos-de-estado",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-012",
+    "explanation": "El ataque **Fraggle** es una **denegación de servicio por amplificación**, variante del **Smurf**: el atacante envía mucho tráfico **UDP** a los servicios **echo (puerto 7)** y **chargen (19)** de una **dirección de difusión**, falseando como origen la IP de la víctima. Todos los equipos de la red responden a la víctima y la saturan. El Smurf hace lo mismo con **ICMP echo** (ping). Defensa: no reenviar difusiones dirigidas y deshabilitar echo y chargen.",
+    "option_notes": [
+      "No describe Fraggle; saturar la pila TCP con peticiones de conexión es propio del SYN flood.",
+      "Las «peticiones RCK» no existen: la opción describe un ataque inventado.",
+      null,
+      "No existe ese ataque: Fraggle satura la red con tráfico UDP a una difusión, no afecta al reloj de la placa."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "RFC 2644 (no reenviar difusiones dirigidas)",
+      "RFC 4732 (denegación de servicio en Internet)"
+    ],
+    "tags": [
+      "fraggle",
+      "denegacion-de-servicio",
+      "ataques-de-red",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-r1",
+    "explanation": "`tar -czvf configuraciones.tar.gz /backup/tomcat/` empaqueta y comprime la carpeta: **`-c`** crea el archivo, **`-z`** lo comprime con gzip, **`-v`** muestra los ficheros procesados y **`-f`** indica el **nombre del archivo**, que debe ir **justo detrás** y antes de lo que se empaqueta. Para extraer se usa **`-x`** (`tar -xzvf configuraciones.tar.gz`) y para ver el contenido, **`-t`**.",
+    "option_notes": [
+      "tar.gz no es un comando: el programa es tar, con -z para comprimir con gzip.",
+      "Orden incorrecto: tras -f va el nombre del archivo; aquí se intentaría crear un archivo llamado /backup/tomcat/.",
+      null,
+      "-x extrae el contenido de un archivo; no crea la copia (y faltaría -z para el gzip)."
+    ],
+    "topic": "IV.2",
+    "references": [
+      "GNU tar manual"
+    ],
+    "tags": [
+      "tar",
+      "backup",
+      "linux",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-r2",
+    "explanation": "**`lsof -i :777`** lista los procesos que tienen **sockets de red abiertos en el puerto 777**; si aparece uno en estado **LISTEN**, el servidor está escuchando (ejecútalo como root para ver todos los procesos). Alternativas habituales: **`ss -ltnp | grep :777`** o `netstat -ltnp | grep 777` (net-tools). `lsof` (*list open files*) aprovecha que en Unix los sockets también son ficheros.",
+    "option_notes": [
+      "netstat -i muestra estadísticas de las interfaces de red; para puertos se usa netstat -ltn.",
+      "ip no tiene ningún objeto «port»; para ver sockets se usa ss.",
+      null,
+      "listen no es un comando de Linux."
+    ],
+    "topic": "IV.4",
+    "references": [
+      "Página de manual lsof(8)",
+      "Página de manual ss(8) (iproute2)"
+    ],
+    "tags": [
+      "lsof",
+      "puertos",
+      "linux",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2019-p2-s2-r3",
+    "explanation": "Para **filtrar conexiones por IP y puerto** se necesita un **cortafuegos de filtrado de paquetes** (de capa de red): examina las cabeceras IP (origen y destino) y TCP/UDP (puertos) de cada paquete y lo **acepta o descarta** según sus reglas. Los de **inspección de estado** (*stateful*) además siguen las conexiones. Los **IDS** solo **detectan** y alertan, y un **honeypot** es un señuelo para atraer y estudiar a los atacantes.",
+    "option_notes": [
+      "Un HIDS detecta intrusiones en un equipo concreto, pero no filtra el tráfico por IP y puerto.",
+      null,
+      "Un sistema de detección de intrusiones vigila y alerta; no filtra conexiones por IP y puerto.",
+      "Un honeypot es un sistema señuelo para atraer atacantes, no un filtro de conexiones."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "NIST SP 800-41 Rev. 1 (Guidelines on Firewalls and Firewall Policy)"
+    ],
+    "tags": [
+      "cortafuegos",
+      "seguridad-perimetral",
+      "supuesto-practico"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  }
+]

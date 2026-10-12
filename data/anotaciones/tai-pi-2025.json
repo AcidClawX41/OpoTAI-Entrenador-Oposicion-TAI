@@ -1,0 +1,556 @@
+[
+  {
+    "id": "tai-pi-2025-p1-003",
+    "explanation": "El **art. 7.1 de la LOPDGDD** permite que un menor consienta por sí solo el tratamiento de sus datos personales **cuando sea mayor de 14 años**, salvo que la ley exija la asistencia de los titulares de la patria potestad o tutela. Para los **menores de 14 años**, el consentimiento solo es lícito si lo prestan esos titulares (art. 7.2). El **RGPD (art. 8)** fija 16 años por defecto para los servicios de la sociedad de la información, pero permite a los Estados bajarla hasta **13**; España eligió 14. Ojo: un proyecto de ley de 2025 sobre menores en entornos digitales propone subirla a 16.",
+    "option_notes": [
+      "13 años es el mínimo que el art. 8 del RGPD permite fijar a los Estados; España optó por 14.",
+      null,
+      "15 años no es la edad fijada ni en la LOPDGDD (14) ni en el RGPD (16 por defecto, mínimo 13).",
+      "16 años es la regla por defecto del art. 8 del RGPD, que España rebajó a 14 en la LOPDGDD."
+    ],
+    "topic": "I.7",
+    "references": [
+      "LO 3/2018, art. 7",
+      "RGPD, art. 8"
+    ],
+    "tags": [
+      "proteccion-de-datos",
+      "menores",
+      "consentimiento"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-004",
+    "explanation": "En el **anexo II del ENS (RD 311/2022)** cada medida indica a qué dimensiones de seguridad afecta: **C**onfidencialidad, **I**ntegridad, **T**razabilidad, **A**utenticidad y **D**isponibilidad. El **análisis de impacto [op.cont.1]** pertenece al grupo de **continuidad del servicio** y afecta a la **disponibilidad**: determina los requisitos de disponibilidad de cada servicio y los elementos críticos para prestarlo. Las demás: registro de la actividad [op.exp.8] → T; requisitos de acceso [op.acc.2] → C, I, T, A; bloqueo de puesto de trabajo [mp.eq.2] → A.",
+    "option_notes": [
+      "El registro de la actividad [op.exp.8] afecta a la trazabilidad (T), no a la disponibilidad.",
+      null,
+      "Los requisitos de acceso [op.acc.2] afectan a confidencialidad, integridad, trazabilidad y autenticidad, no a la disponibilidad.",
+      "El bloqueo de puesto de trabajo [mp.eq.2] afecta a la autenticidad (A)."
+    ],
+    "topic": "I.8",
+    "references": [
+      "RD 311/2022, anexo II (op.cont.1)"
+    ],
+    "tags": [
+      "ens",
+      "dimensiones-de-seguridad",
+      "disponibilidad"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-006",
+    "explanation": "El **art. 17 del RD 772/1999**, en la redacción que le dio el **RD 209/2003**, establecía que la presentación de solicitudes, escritos y comunicaciones en los registros telemáticos **podía realizarse durante las 24 horas de todos los días del año**, según la fecha y hora oficial española; solo podía interrumpirse por razones justificadas de mantenimiento. Los días inhábiles no impedían presentar: solo afectaban al **cómputo de plazos** (art. 18). Hoy rige lo mismo en el **art. 31.2.a) de la Ley 39/2015**: el registro electrónico admite documentos todos los días del año, durante las 24 horas.",
+    "option_notes": [
+      null,
+      "Los registros telemáticos no cierran sábados ni domingos: admiten presentaciones todos los días del año.",
+      "Los días inhábiles no impiden presentar; solo influyen en el cómputo de plazos (lo presentado se entiende hecho el primer día hábil siguiente).",
+      "Mezcla la regla de los días inhábiles para el cómputo (nacionales y del ámbito territorial) con la de presentación, que es 24 horas todos los días."
+    ],
+    "topic": "I.8",
+    "references": [
+      "RD 209/2003",
+      "RD 772/1999, art. 17 (derogado)",
+      "Ley 39/2015, art. 31.2"
+    ],
+    "tags": [
+      "registro-electronico",
+      "computo-de-plazos"
+    ],
+    "outdated": true,
+    "outdated_note": "El RD 772/1999, cuyos arts. 14 a 18 sobre registros telemáticos introdujo el RD 209/2003, quedó derogado por la Ley 39/2015 (disposición derogatoria única, apdo. 2.f; derogación efectiva el 2-10-2016). La regla actual está en el art. 31.2 de la Ley 39/2015, que mantiene la presentación 24 horas todos los días del año.",
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-010",
+    "explanation": "El **art. 6.1 de la LO 3/2007** define la **discriminación directa** por razón de sexo: la situación de una persona que sea, haya sido o pudiera ser tratada, **en atención a su sexo**, de manera **menos favorable que otra en situación comparable**. La **indirecta** (art. 6.2) nace de una disposición, criterio o práctica **aparentemente neutros** que pone a las personas de un sexo en desventaja particular, salvo justificación objetiva. El **acoso sexual** y el **acoso por razón de sexo** se definen en el art. 7 como comportamientos que atentan contra la dignidad de la persona.",
+    "option_notes": [
+      null,
+      "La discriminación indirecta deriva de una disposición, criterio o práctica aparentemente neutros que perjudica a un sexo (art. 6.2), no de un trato directo menos favorable.",
+      "El acoso por razón de sexo (art. 7.2) es un comportamiento en función del sexo que atenta contra la dignidad y crea un entorno intimidatorio, degradante u ofensivo.",
+      "El acoso sexual (art. 7.1) es un comportamiento verbal o físico de naturaleza sexual que atenta contra la dignidad de la persona."
+    ],
+    "topic": "I.5",
+    "references": [
+      "LO 3/2007, arts. 6 y 7"
+    ],
+    "tags": [
+      "igualdad",
+      "discriminacion",
+      "lo-3-2007"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-016",
+    "explanation": "**`chmod`** (*change mode*) cambia los **permisos de acceso** (lectura `r`, escritura `w`, ejecución `x`) de un fichero o directorio para el propietario, el grupo y los demás. Admite notación **octal** (`chmod 754 fichero`: `rwx` para el propietario, `r-x` para el grupo y `r--` para el resto) y **simbólica** (`chmod u+x,g-w fichero`). No confundas: `chown` cambia el propietario, `chgrp` el grupo de un fichero y `usermod -aG` los grupos de un usuario.",
+    "option_notes": [
+      "Cambiar el propietario de un archivo es tarea de chown.",
+      "Los enlaces simbólicos se crean con ln -s.",
+      "El grupo de un usuario se modifica con usermod (-g o -aG) o gpasswd; chgrp cambia el grupo de un fichero.",
+      null
+    ],
+    "topic": "II.4",
+    "references": [
+      "man 1 chmod"
+    ],
+    "tags": [
+      "linux",
+      "permisos",
+      "comandos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-019",
+    "explanation": "En la estructura clásica de un programa se distinguen la **cabecera** (nombre y parámetros), las **declaraciones** (constantes, tipos y variables) y el **cuerpo de instrucciones**: de asignación, de entrada/salida y **de control**. Las **instrucciones de control** alteran el flujo secuencial e incluyen las **alternativas o condicionales** (`if`, `switch`) y las **repetitivas o iterativas** (`while`, `for`, `do-while`). Por eso los bucles pertenecen al bloque de control.",
+    "option_notes": [
+      "La cabecera solo identifica el programa (nombre y, en su caso, parámetros); no contiene instrucciones.",
+      "En las declaraciones se definen constantes, tipos y variables; no hay instrucciones iterativas.",
+      "Las asignaciones dan valor a las variables (x ← 5); no controlan la repetición de instrucciones.",
+      null
+    ],
+    "topic": "III.2",
+    "references": [],
+    "tags": [
+      "programacion",
+      "estructura-de-un-programa",
+      "bucles"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-020",
+    "explanation": "Un **slice** («rebanada») es una **subestructura de un array**: una porción contigua de sus elementos, delimitada por un índice inicial y otro final. Ejemplos: en Python, `a[1:4]` devuelve los elementos de las posiciones 1 a 3; en Go, un *slice* es una vista sobre un segmento de un array, con longitud y capacidad. Según el lenguaje, puede ser una copia (listas de Python) o una vista que comparte memoria con el original (Go, NumPy).",
+    "option_notes": [
+      "La longitud es el número de elementos (len(a), a.length…), no un slice.",
+      null,
+      "El primer elemento es a[0]; un slice es una porción del array, que puede contener varios elementos.",
+      "El último elemento es a[n-1] (en Python, a[-1]); no es un slice."
+    ],
+    "topic": "III.2",
+    "references": [],
+    "tags": [
+      "arrays",
+      "estructuras-de-datos",
+      "slices"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-021",
+    "explanation": "Una **cola** es un tipo abstracto de datos **FIFO** (*first in, first out*): los elementos se insertan por un extremo, el **final** (*tail*), y se extraen por el otro, la **cabecera** o frente (*head*). Sus operaciones básicas son encolar (*enqueue*) y desencolar (*dequeue*). La estructura **LIFO** (*last in, first out*) es la **pila**, y la que permite insertar o extraer en cualquier posición es la **lista**.",
+    "option_notes": [
+      null,
+      "LIFO es la política de la pila (stack); la cola sigue FIFO.",
+      "En una cola solo se extrae por la cabecera, el elemento más antiguo; extraer de cualquier posición es propio de una lista.",
+      "En una cola solo se inserta por el final; insertar en cualquier posición es propio de una lista."
+    ],
+    "topic": "II.3",
+    "references": [],
+    "tags": [
+      "estructuras-de-datos",
+      "colas",
+      "fifo"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-022",
+    "explanation": "**`GRANT`** es la sentencia del lenguaje de control de datos (**DCL**) que **concede privilegios** sobre objetos, como las tablas, a usuarios o roles: `GRANT SELECT, INSERT ON empleados TO usuario1;`. Con `WITH GRANT OPTION`, el receptor puede a su vez concederlos a otros. Los privilegios se retiran con **`REVOKE`**. Recuerda los sublenguajes: DDL (`CREATE`, `ALTER`, `DROP`), DML (`SELECT`, `INSERT`, `UPDATE`, `DELETE`), DCL (`GRANT`, `REVOKE`) y TCL (`COMMIT`, `ROLLBACK`).",
+    "option_notes": [
+      "ALTER TABLE es DDL: modifica la estructura de una tabla (columnas, restricciones), no los permisos.",
+      null,
+      "PERMISSION no es una sentencia SQL.",
+      "ALLOW no es una sentencia SQL; en Transact-SQL, además de GRANT y REVOKE, existe DENY."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075 (SQL): GRANT"
+    ],
+    "tags": [
+      "sql",
+      "dcl",
+      "permisos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-025",
+    "explanation": "Una **instancia** es un **objeto concreto creado a partir de una clase**: tiene su **propio estado** (los valores de sus atributos) y su propia **identidad**, y comparte el comportamiento (los métodos) que define la clase. La **clase** es el molde o plantilla; la instancia, cada ejemplar creado con ella, por ejemplo con `new Alumno()` en Java. *Instanciar* es crear un objeto de una clase.",
+    "option_notes": [
+      "El código que define los atributos y métodos es la clase, no una instancia.",
+      null,
+      "Un método estático pertenece a la clase y se invoca sin crear objetos; no es una instancia.",
+      "El conjunto de clases de un mismo paquete o espacio de nombres es eso, un paquete o espacio de nombres."
+    ],
+    "topic": "III.4",
+    "references": [],
+    "tags": [
+      "poo",
+      "clases-y-objetos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-026",
+    "explanation": "El **CLR (*Common Language Runtime*)** es el entorno de ejecución de .NET, el equivalente a la JVM. Compila el código intermedio CIL con su JIT y gestiona la **memoria con la recolección de basura**, el **manejo de excepciones**, la seguridad de tipos y los hilos.",
+    "option_notes": [
+      "MSBuild es el motor de compilación de proyectos (.csproj), no el entorno de ejecución.",
+      "Kestrel es el servidor web multiplataforma de ASP.NET Core.",
+      null,
+      "NuGet es el gestor de paquetes de .NET."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Microsoft Learn: Common Language Runtime (CLR)"
+    ],
+    "tags": [
+      "dotnet",
+      "clr"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-027",
+    "explanation": "**Jakarta RESTful Web Services** (antes **JAX-RS**) es la especificación de Jakarta EE para crear servicios **REST** mediante anotaciones: `@Path` (ruta del recurso), `@GET`, `@POST`, `@PUT`, `@DELETE`, `@Produces`/`@Consumes` (tipos de contenido) y `@PathParam`/`@QueryParam`. Es la base de los microservicios en Jakarta EE y MicroProfile. Implementaciones conocidas: Jersey, RESTEasy y Apache CXF.",
+    "option_notes": [
+      "Jakarta Mail (antes JavaMail) es la API para enviar y recibir correo electrónico.",
+      null,
+      "Jakarta Web Services Metadata define anotaciones (@WebService, @WebMethod) para servicios web SOAP, no REST.",
+      "Jakarta Pages (antes JSP) genera vistas web dinámicas en el servidor; no define servicios REST."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Jakarta RESTful Web Services (Jakarta EE)"
+    ],
+    "tags": [
+      "jakarta-ee",
+      "rest",
+      "microservicios"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-030",
+    "explanation": "Un **repositorio** es el espacio donde el sistema de control de versiones guarda **los ficheros del proyecto y el historial completo de sus cambios** (commits, ramas, etiquetas), lo que permite consultar versiones anteriores, compararlas y recuperarlas. En Git cada clon es un repositorio completo (sistema **distribuido**) y la información interna se guarda en el directorio `.git`; los repositorios remotos (GitHub, GitLab…) sirven para compartir el trabajo.",
+    "option_notes": [
+      "Compilar y distribuir ejecutables es tarea de un servidor de integración o despliegue continuos (CI/CD), no de un repositorio.",
+      null,
+      "Un entorno aislado de ejecución y monitorización describe un entorno de producción o un contenedor, no un repositorio.",
+      "Un archivo comprimido con una versión concreta es un paquete o una release; un release candidate es una versión previa a la definitiva."
+    ],
+    "topic": "III.9",
+    "references": [
+      "git-scm.com: Pro Git, cap. 2"
+    ],
+    "tags": [
+      "git",
+      "control-de-versiones",
+      "repositorios"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-035",
+    "explanation": "Las propiedades **ACID** de una transacción son: **Atomicidad** (todo o nada), **Consistencia** (lleva la base de datos de un estado válido a otro, respetando las restricciones), **Aislamiento** (*Isolation*: las transacciones concurrentes **no interfieren entre sí**, como si se ejecutaran una tras otra) y **Durabilidad** (lo confirmado persiste aunque falle el sistema). El aislamiento se gradúa con los niveles de SQL: READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ y SERIALIZABLE.",
+    "option_notes": [
+      "Ejecutarse completamente o no ejecutarse en absoluto es la atomicidad.",
+      "Que los cambios confirmados sobrevivan a los fallos es la durabilidad.",
+      null,
+      "Que los datos cumplan todas las restricciones al terminar es la consistencia."
+    ],
+    "topic": "III.3",
+    "references": [
+      "ISO/IEC 9075 (SQL): SET TRANSACTION"
+    ],
+    "tags": [
+      "transacciones",
+      "acid",
+      "bases-de-datos"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-036",
+    "explanation": "La **regla de integridad referencial** del modelo relacional exige que **todo valor no nulo de una clave ajena coincida con un valor existente de la clave referenciada** (normalmente, la clave primaria de la otra tabla). Así no hay «huérfanos»: una matrícula no puede apuntar a un alumno inexistente. La clave ajena **sí puede repetirse** (relaciones 1:N) y **puede ser nula** si el diseño lo permite. Su complemento es la **integridad de entidad**: la clave primaria no admite nulos.",
+    "option_notes": [
+      null,
+      "La clave ajena puede repetirse (varias filas pueden apuntar a la misma fila referenciada); la unicidad es propia de la clave primaria o de UNIQUE.",
+      "Invierte la relación: son los valores de la clave ajena los que deben existir en la tabla referenciada.",
+      "Que una clave no contenga nulos es la regla de integridad de entidad (clave primaria), no la referencial."
+    ],
+    "topic": "III.1",
+    "references": [],
+    "tags": [
+      "modelo-relacional",
+      "integridad-referencial",
+      "claves"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-038",
+    "explanation": "**DKIM** (*DomainKeys Identified Mail*, RFC 6376) permite que el servidor de correo del dominio **firme criptográficamente** los mensajes salientes; el receptor verifica la firma con la **clave pública publicada en el DNS**, como registro TXT en `selector._domainkey.dominio`. Se complementa con **SPF** (qué servidores pueden enviar correo del dominio) y **DMARC** (qué hacer con los mensajes que no superan SPF o DKIM y a quién enviar informes).",
+    "option_notes": [
+      null,
+      "SPF publica en el DNS qué servidores (IP) están autorizados a enviar correo del dominio; no firma los mensajes.",
+      "DMARC indica qué hacer con los correos que fallan SPF o DKIM y adónde enviar informes; no firma nada.",
+      "CNAME es un alias que apunta un nombre a otro nombre canónico; nada tiene que ver con firmar correos."
+    ],
+    "topic": "IV.3",
+    "references": [
+      "RFC 6376 (DKIM)",
+      "RFC 7208 (SPF)"
+    ],
+    "tags": [
+      "correo",
+      "dns",
+      "dkim"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-039",
+    "explanation": "El modelo **IEEE 802** divide la capa de enlace en dos subcapas. **LLC** (*Logical Link Control*, IEEE 802.2) es la superior e **independiente del medio**: se ocupa de la sincronización de tramas, del **control de flujo y de errores** y de ofrecer una interfaz común a la capa de red. **MAC** (*Medium Access Control*) es la inferior y **depende del medio**: controla el acceso al medio compartido (CSMA/CD, CSMA/CA…) y usa las direcciones MAC.",
+    "option_notes": [
+      "La subcapa MAC depende del medio: controla el acceso al medio compartido y el direccionamiento físico.",
+      "No existe una «subcapa de convergencia de datos» en el modelo IEEE 802; las subcapas de enlace son LLC y MAC.",
+      null,
+      "La MDI (Medium Dependent Interface) es la interfaz física con el medio (el conector), propia de la capa física, no una subcapa de enlace."
+    ],
+    "topic": "IV.10",
+    "references": [
+      "IEEE 802.2 (LLC)"
+    ],
+    "tags": [
+      "ieee-802",
+      "llc",
+      "capa-de-enlace"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-042",
+    "explanation": "La **atenuación** es la **pérdida de potencia de la señal** a medida que recorre el medio de transmisión; aumenta con la distancia y con la frecuencia y se mide en **decibelios** (dB). Se compensa con **amplificadores** (señal analógica) o **repetidores** (señal digital). Otras perturbaciones: **distorsión de retardo** (las componentes de distintas frecuencias llegan en momentos distintos), **diafonía** (acoplamiento entre conductores cercanos) y **ruido térmico** (agitación térmica de los electrones).",
+    "option_notes": [
+      "La distorsión de retardo se debe a que las componentes de distintas frecuencias viajan a distinta velocidad y llegan desfasadas.",
+      "La diafonía (crosstalk) es la interferencia por acoplamiento entre pares o conductores cercanos.",
+      "El ruido térmico lo produce la agitación térmica de los electrones y afecta a todas las frecuencias por igual (ruido blanco).",
+      null
+    ],
+    "topic": "IV.6",
+    "references": [],
+    "tags": [
+      "medios-de-transmision",
+      "perturbaciones",
+      "atenuacion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-043",
+    "explanation": "Un **switch** (capa 2) crea un **dominio de colisión por puerto**, porque cada puerto es un segmento independiente (y en *full duplex* no hay colisiones), pero **reenvía los *broadcast* por todos los puertos**, así que mantiene **un único dominio de difusión** (salvo que se configuren VLAN). El **router** (capa 3) separa también los dominios de difusión. El **hub** (capa 1) repite la señal por todos los puertos: un único dominio de colisión y de difusión.",
+    "option_notes": [
+      "El router (capa 3) segmenta los dominios de colisión y también los de difusión: no reenvía broadcast entre interfaces.",
+      null,
+      "El hub repite la señal por todos los puertos: no segmenta nada (un único dominio de colisión y de difusión).",
+      "Una pasarela (gateway) trabaja en niveles superiores y traduce protocolos; también separa los dominios de difusión."
+    ],
+    "topic": "IV.10",
+    "references": [],
+    "tags": [
+      "switch",
+      "dominios-de-colision",
+      "dominios-de-difusion"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-045",
+    "explanation": "El **establecimiento de una conexión TCP** (*three-way handshake*) tiene tres pasos: 1) el cliente envía un segmento con **SYN** y su número de secuencia inicial; 2) el servidor responde con **SYN + ACK**, que confirma el SYN recibido y propone su propio número de secuencia; 3) el cliente contesta con **ACK**. El cierre ordenado usa **FIN** y ACK en cada sentido, y **RST** aborta la conexión.",
+    "option_notes": [
+      "TCP no tiene ningún flag INIT (INIT es un tipo de chunk de SCTP, que establece la asociación en cuatro pasos).",
+      "Solo ACK es el tercer paso, el del cliente; en el segundo, el servidor envía SYN y ACK a la vez.",
+      null,
+      "FIN sirve para cerrar la conexión; no se combina con SYN en el establecimiento."
+    ],
+    "topic": "IV.7",
+    "references": [
+      "RFC 9293 (TCP), §3.5"
+    ],
+    "tags": [
+      "tcp",
+      "three-way-handshake"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-047",
+    "explanation": "El **DNS** (*Domain Name System*) es el servicio de nombres de Internet: una base de datos **distribuida y jerárquica** que **traduce nombres de dominio legibles** (`www.boe.es`) en **direcciones IP** (registros A para IPv4 y AAAA para IPv6) y ofrece otros registros (MX, CNAME, NS, TXT y PTR para la resolución inversa…). Usa el puerto **53**, sobre UDP y también sobre TCP.",
+    "option_notes": [
+      "Elegir la ruta de los paquetes es tarea de los routers y de los protocolos de encaminamiento (OSPF, BGP…).",
+      "El cifrado del correo lo aportan S/MIME, OpenPGP o TLS (STARTTLS) en el transporte; el DNS no cifra mensajes.",
+      "Traducir direcciones IP a direcciones MAC es función de ARP en IPv4 (y de NDP en IPv6).",
+      null
+    ],
+    "topic": "IV.8",
+    "references": [
+      "RFC 1034",
+      "RFC 1035"
+    ],
+    "tags": [
+      "dns",
+      "servicios-de-internet"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p1-049",
+    "explanation": "El **art. 20 del ENS (RD 311/2022)** exige diseñar y configurar los sistemas **otorgando los mínimos privilegios necesarios** para su correcto desempeño, y la medida **op.acc.4** (gestión de derechos de acceso) concreta que los privilegios de cada usuario o proceso **se reducirán al mínimo imprescindible** para sus funciones. Se complementa con la **necesidad de conocer** y la **segregación de funciones**. Las cuentas deben ser **personales** e intransferibles, para garantizar la trazabilidad.",
+    "option_notes": [
+      "Las cuentas genéricas impiden saber quién hizo cada acción: el ENS exige identificación personal para garantizar la trazabilidad.",
+      null,
+      "El control de acceso se basa en la identidad y las funciones del usuario; limitarlo a la ubicación física no es mínimo privilegio.",
+      "Compartir credenciales está prohibido: son personales e intransferibles, y compartirlas rompe la autenticación y la trazabilidad."
+    ],
+    "topic": "IV.9",
+    "references": [
+      "RD 311/2022, art. 20 y anexo II (op.acc.4)"
+    ],
+    "tags": [
+      "ens",
+      "minimo-privilegio",
+      "puesto-de-usuario"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p2-s1-003",
+    "explanation": "En Oracle una secuencia se crea con **`CREATE SEQUENCE nombre START WITH n INCREMENT BY m;`** y se consume con `seq_matricula.NEXTVAL` (por ejemplo, en el `INSERT` o como valor por defecto de la columna). Una secuencia genera números únicos **sin bloqueos entre sesiones**, por lo que evita conflictos de concurrencia; `CACHE` mejora el rendimiento, aunque puede dejar huecos. Desde Oracle 12c existe también la alternativa de las columnas `GENERATED … AS IDENTITY`.",
+    "option_notes": [
+      "Faltan WITH y BY: Oracle exige START WITH e INCREMENT BY (PostgreSQL sí permite omitirlos).",
+      "BEGIN WITH y STEP no son cláusulas de CREATE SEQUENCE.",
+      null,
+      "INIT y NEXT no son cláusulas de CREATE SEQUENCE; NEXTVAL es la pseudocolumna que da el siguiente valor."
+    ],
+    "topic": "III.3",
+    "references": [
+      "Oracle Database 19c SQL Language Reference: CREATE SEQUENCE"
+    ],
+    "tags": [
+      "oracle",
+      "secuencias",
+      "sql"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p2-s1-004",
+    "explanation": "En **Jakarta Persistence** (JPA), la anotación **`@Entity`** (`jakarta.persistence.Entity`) declara que una clase es una **entidad persistente** gestionada por el proveedor (Hibernate, en Spring Boot 3). Toda entidad necesita además una clave primaria marcada con **`@Id`** (con `@GeneratedValue` si se genera automáticamente). `@Table` es opcional: sirve para indicar el nombre de la tabla cuando no coincide con el de la clase.",
+    "option_notes": [
+      null,
+      "@Table es opcional y solo personaliza la tabla asociada (nombre, esquema); por sí sola no convierte la clase en entidad.",
+      "@Persistent no es una anotación de Jakarta Persistence (existe en JDO, otra API de persistencia).",
+      "@DatabaseEntity no existe en Jakarta Persistence."
+    ],
+    "topic": "III.5",
+    "references": [
+      "Jakarta Persistence 3.1, §2.1"
+    ],
+    "tags": [
+      "jakarta-persistence",
+      "jpa",
+      "hibernate"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p2-s1-005",
+    "explanation": "**`assertEquals(esperado, real)`** comprueba que el valor obtenido es igual al esperado: se crea el objeto que se prueba (`new AlumnoService()`), se invoca el método y se compara su resultado con 3. Recuerda el orden de los argumentos en JUnit: **primero el valor esperado y después el real**. JUnit 6 (2025) mantiene la API Jupiter de JUnit 5 (`org.junit.jupiter.api.Assertions`).",
+    "option_notes": [
+      null,
+      "assertTrue espera un boolean y calcularMatriculas devuelve un int: no compila.",
+      "calcularMatriculas es un método de instancia de AlumnoService: hay que invocarlo sobre un objeto; así no compila.",
+      "service es null: al invocar el método se lanza NullPointerException y la prueba acaba en error."
+    ],
+    "topic": "III.9",
+    "references": [
+      "JUnit User Guide: Assertions"
+    ],
+    "tags": [
+      "junit",
+      "pruebas-unitarias",
+      "java"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  },
+  {
+    "id": "tai-pi-2025-p2-s1-r1",
+    "explanation": "**Pregunta anulada** en la plantilla definitiva (la provisional daba **C**); el tribunal no publica el motivo. Un posible defecto: la opción C escribe `<server>` en minúsculas, cuando en `server.xml` el elemento es `<Server>` y XML distingue mayúsculas. El concepto sigue siendo útil: un **`LifecycleListener`** registrado en `<Server>` recibe el evento **`after_stop`** cuando Catalina se ha detenido por completo, todavía dentro de la JVM. Un *shutdown hook* no garantiza ese orden, `@PreDestroy` actúa al parar cada aplicación y las *Valves* procesan peticiones.",
+    "option_notes": null,
+    "topic": "III.5",
+    "references": [
+      "Apache Tomcat 10.1 Configuration Reference: Lifecycle Listeners"
+    ],
+    "tags": [
+      "tomcat",
+      "java",
+      "ciclo-de-vida",
+      "anulada"
+    ],
+    "outdated": false,
+    "outdated_note": null,
+    "needs_review": false
+  }
+]
