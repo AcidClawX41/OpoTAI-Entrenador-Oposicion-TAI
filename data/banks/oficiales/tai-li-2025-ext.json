@@ -611,7 +611,7 @@
           "answer": "A",
           "annulled": false,
           "topic": "I.9",
-          "explanation": "El **art. 31.3 del RD 203/2021** dispone que el **Registro de Funcionarios Habilitados** de la AGE deberá ser **plenamente interoperable con los registros u otros sistemas equivalentes de las comunidades autónomas y de las entidades locales**, a los efectos de comprobar la validez de las habilitaciones. Desarrolla el **art. 12.3 de la Ley 39/2015**: los funcionarios habilitados pueden identificar y firmar electrónicamente en nombre de las personas que no disponen de medios electrónicos, con su consentimiento expreso.",
+          "explanation": "El **art. 31.3 del RD 203/2021** dispone que el **Registro de Funcionarios Habilitados** de la AGE deberá ser **plenamente interoperable con los registros u otros sistemas equivalentes que se creen por las comunidades autónomas y las entidades locales**, a los efectos de comprobar la validez de las habilitaciones. Desarrolla el **art. 12.3 de la Ley 39/2015**, que obliga a cada Administración a mantener ese registro interoperable. Recuerda que, según el **art. 12.2**, un funcionario habilitado puede identificar y firmar electrónicamente en nombre de un interesado que no disponga de medios electrónicos, si este se identifica y presta su consentimiento expreso.",
           "option_notes": [
             null,
             "La interoperabilidad exigida es con los registros de las comunidades autónomas y entidades locales, no con los de otros países de la UE.",
@@ -620,7 +620,7 @@
           ],
           "references": [
             "RD 203/2021, art. 31",
-            "Ley 39/2015, art. 12"
+            "Ley 39/2015, art. 12.2 y 12.3"
           ],
           "tags": [
             "funcionarios-habilitados",

@@ -153,10 +153,14 @@ export function gradeUnits(
     const { cutoff, source } = unitCutoff(scheme, unit, maxDirect, overrideRatio);
     let grade = transformGrade(direct, cutoff, maxDirect, unit.pass_grade, unit.max_grade);
     let passed = maxDirect > 0 && direct + EPS >= cutoff;
+    let ungraded = false;
+    let wouldBe: number | null = null;
     if (eliminatedBy) {
       notes.push(
         `La ${partsLabel(unit.parts)} no se corrige porque no se ha superado la ${partsLabel(eliminatedBy)} (como en el examen real).`,
       );
+      wouldBe = round(grade);
+      ungraded = true;
       grade = 0;
       passed = false;
     } else if (multi && !passed) {
@@ -173,6 +177,8 @@ export function gradeUnits(
       max_grade: unit.max_grade,
       passed,
       margin_direct: round(direct - cutoff),
+      ungraded,
+      would_be_grade: wouldBe,
     });
   }
   const total = units.reduce((s, u) => s + u.grade, 0);

@@ -250,7 +250,7 @@
           "answer": "B",
           "annulled": false,
           "topic": "I.2",
-          "explanation": "El TC conoce del recurso de inconstitucionalidad contra **leyes y disposiciones normativas con fuerza de ley**, del recurso de amparo y de los conflictos de competencia (art. 161.1 CE), y de las impugnaciones del Gobierno contra disposiciones y resoluciones autonómicas (art. 161.2). **Los reglamentos no se recurren ante el TC**: su control corresponde a los **tribunales ordinarios**, sobre todo a la jurisdicción contencioso-administrativa (art. 106.1 CE).",
+          "explanation": "El TC conoce del recurso de inconstitucionalidad contra **leyes y disposiciones normativas con fuerza de ley**, del recurso de amparo y de los conflictos de competencia (art. 161.1 CE), y de las impugnaciones del Gobierno contra disposiciones y resoluciones autonómicas (art. 161.2). **No existe ante el TC un recurso general contra disposiciones reglamentarias**: su control corresponde a los **tribunales ordinarios**, sobre todo a la jurisdicción contencioso-administrativa (art. 106.1 CE). Un reglamento solo llega al TC por vías concretas: la impugnación del art. 161.2 contra disposiciones autonómicas (opción D) o un conflicto de competencia (arts. 62 a 67 LOTC).",
           "option_notes": [
             "Sí es competencia del TC: la LOTC (art. 79) regula el recurso previo contra proyectos de Estatuto de Autonomía o de su reforma.",
             null,
@@ -259,7 +259,7 @@
           ],
           "references": [
             "CE, arts. 106.1 y 161",
-            "LO 2/1979, del Tribunal Constitucional, art. 79"
+            "LO 2/1979, del Tribunal Constitucional, arts. 62 a 67, 76, 77 y 79"
           ],
           "tags": [
             "tribunal-constitucional",
@@ -543,7 +543,7 @@
           "answer": "C",
           "annulled": false,
           "topic": "I.8",
-          "explanation": "En el ENS la conformidad se acredita según la **categoría del sistema**. Los de categoría **BÁSICA** solo requieren una **autoevaluación** que culmina en una **Declaración de Conformidad**; los de categoría **MEDIA o ALTA** necesitan una **auditoría para la Certificación de Conformidad**. Hoy lo regula el **art. 38 del RD 311/2022**, que mantiene la regla del RD 3/2010; declaraciones y certificaciones se publican en la sede o el portal del organismo.",
+          "explanation": "En el ENS la conformidad se acredita según la **categoría del sistema**. Los de categoría **BÁSICA** solo requieren una **autoevaluación** que culmina en una **Declaración de Conformidad**; los de categoría **MEDIA o ALTA** necesitan una **auditoría para la Certificación de Conformidad**. En 2018 lo regulaban el **RD 3/2010** (auditoría según la categoría, art. 34 y anexo III; publicidad de las declaraciones de conformidad en la sede, art. 41) y la **ITS de conformidad con el ENS** (Resolución de 13 de octubre de 2016, de la SEAP). Hoy lo dice expresamente el **art. 38.1 del RD 311/2022**, y el 38.2 obliga a publicar declaraciones y certificaciones en el portal o la sede del organismo.",
           "option_notes": [
             "La categoría ALTA exige una Certificación de Conformidad mediante auditoría, no una simple declaración.",
             "La categoría MEDIA exige una Certificación de Conformidad mediante auditoría.",
@@ -551,6 +551,8 @@
             "Media y alta son justo el ámbito de la certificación; la declaración es solo para la categoría básica."
           ],
           "references": [
+            "RD 3/2010 (ENS), arts. 34 y 41 y anexo III (derogado)",
+            "Resolución de 13/10/2016 (ITS de conformidad con el ENS)",
             "RD 311/2022 (ENS), art. 38"
           ],
           "tags": [

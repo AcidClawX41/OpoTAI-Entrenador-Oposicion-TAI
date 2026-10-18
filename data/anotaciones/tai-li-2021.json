@@ -265,14 +265,15 @@
     ],
     "topic": "I.5",
     "references": [
-      "Ley 39/2006, art. 26"
+      "Ley 39/2006, art. 26",
+      "Ley 4/2026, art. 2.25 y disp. adic. 3.ª"
     ],
     "tags": [
       "dependencia",
       "ley-39-2006"
     ],
-    "outdated": false,
-    "outdated_note": null,
+    "outdated": true,
+    "outdated_note": "La **Ley 4/2026, de 1 de octubre** (BOE 3-10-2026, en vigor el **23-10-2026**), reforma el art. 26 de la Ley 39/2006: sustituye «actividades **básicas** de la vida diaria» por «actividades de la vida diaria» en los tres grados y, en el grado II, dice «no **requiere** el apoyo permanente de una **persona cuidadora**». Los tres grados (I moderada, II severa, III gran dependencia) y sus frecuencias no cambian, así que la respuesta A sigue siendo la correcta en lo sustancial, aunque ya no es literal.",
     "needs_review": false
   },
   {

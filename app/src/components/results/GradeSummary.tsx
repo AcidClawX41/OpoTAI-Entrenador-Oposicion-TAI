@@ -78,21 +78,39 @@ function UnitGauge({ unit, label, sublabel, size, single }: { unit: UnitGrade; l
         </p>
       ) : null}
       <RadialGauge
-        value={unit.grade}
+        value={unit.ungraded ? 0 : unit.grade}
         max={unit.max_grade}
         marker={unit.pass_grade}
         size={size}
         thickness={single ? 16 : 13}
         tone={unit.passed ? "success" : "danger"}
-        label={`${label}: ${formatGrade(unit.grade)} de ${formatInt(unit.max_grade)}; se aprueba con ${formatInt(unit.pass_grade)}`}
+        label={
+          unit.ungraded
+            ? `${label}: sin corregir porque no se superó la parte anterior${unit.would_be_grade != null ? `; orientativa ${formatGrade(unit.would_be_grade)}` : ""}`
+            : `${label}: ${formatGrade(unit.grade)} de ${formatInt(unit.max_grade)}; se aprueba con ${formatInt(unit.pass_grade)}`
+        }
       >
-        <div className="leading-none">
-          {single ? <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-fg-subtle">Nota real</p> : null}
-          <p className={cn("font-semibold tracking-tight text-fg tabular-nums", single ? "text-[44px]" : "text-[30px]")}>{formatGrade(unit.grade)}</p>
-          <p className={cn("text-fg-muted", single ? "mt-2 text-xs" : "mt-1.5 text-[11px]")}>
-            de {formatInt(unit.max_grade)} · aprueba {formatInt(unit.pass_grade)}
-          </p>
-        </div>
+        {unit.ungraded ? (
+          // Partes eliminatorias: no se corrige, pero se enseña lo que habría sacado (no cuenta).
+          <div className="px-3 leading-none">
+            <p className="text-[15px] font-semibold text-fg">Sin corregir</p>
+            {unit.would_be_grade != null ? (
+              <p className="mt-2 text-[11px] text-fg-muted">
+                Orientativa <span className="font-semibold tabular-nums text-fg">{formatGrade(unit.would_be_grade)}</span>
+                <br />
+                no cuenta
+              </p>
+            ) : null}
+          </div>
+        ) : (
+          <div className="leading-none">
+            {single ? <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-fg-subtle">Nota real</p> : null}
+            <p className={cn("font-semibold tracking-tight text-fg tabular-nums", single ? "text-[44px]" : "text-[30px]")}>{formatGrade(unit.grade)}</p>
+            <p className={cn("text-fg-muted", single ? "mt-2 text-xs" : "mt-1.5 text-[11px]")}>
+              de {formatInt(unit.max_grade)} · aprueba {formatInt(unit.pass_grade)}
+            </p>
+          </div>
+        )}
       </RadialGauge>
       {!single ? (
         <span
@@ -102,7 +120,7 @@ function UnitGauge({ unit, label, sublabel, size, single }: { unit: UnitGrade; l
           )}
         >
           {unit.passed ? <CircleCheck className="size-3" aria-hidden /> : <CircleX className="size-3" aria-hidden />}
-          {unit.passed ? "Superada" : "No superada"}
+          {unit.passed ? "Superada" : unit.ungraded ? "No se corrige" : "No superada"}
         </span>
       ) : null}
     </div>
@@ -132,7 +150,11 @@ function UnitBar({ unit, label, scheme, showLabel }: { unit: UnitGrade; label: s
         label={`${label}: puntuación directa ${formatDirect(unit.direct)} de ${formatDirect(unit.max_direct)}, corte ${formatDirect(unit.cutoff_direct)}`}
       />
       <p className={cn("mt-1.5 text-xs", unit.passed ? "text-success-text" : "text-danger-text")}>
-        {unit.margin_direct >= 0
+        {unit.ungraded
+          ? `No se corrige porque no superaste la parte anterior (como en el examen real), así que cuenta 0.${
+              unit.would_be_grade != null ? ` Con esta directa te habría correspondido un ${formatGrade(unit.would_be_grade)} (orientativo).` : ""
+            }`
+          : unit.margin_direct >= 0
           ? `Superas el corte por ${formatDirect(unit.margin_direct)} ${Math.abs(unit.margin_direct - 1) < 1e-9 ? "punto" : "puntos"} directos.`
           : `Te faltan ${formatDirect(-unit.margin_direct)} puntos directos para el corte${missing ? ` (≈ ${formatInt(missing)} ${missing === 1 ? "acierto" : "aciertos"} más)` : ""}.`}
       </p>

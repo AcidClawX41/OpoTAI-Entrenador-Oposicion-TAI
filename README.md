@@ -28,6 +28,10 @@ Desarrollada por **[Eric Valls Gramunt](https://www.linkedin.com/in/eric-valls-g
 
 </div>
 
+> **🆕 Novedades de la 1.0.1:** el supuesto se muestra «Sin corregir» (con su nota orientativa) cuando
+> no se supera la 1.ª parte, y el **Bloque I se ha revisado pregunta a pregunta contra el BOE**
+> (24 explicaciones corregidas o actualizadas). Detalles en el [CHANGELOG](CHANGELOG.md).
+
 ---
 
 ## Índice

@@ -1088,3 +1088,54 @@ fn ranking_for_2025_uses_the_2025_grade_by_parts() {
         ra.p50
     );
 }
+
+#[test]
+fn failed_first_part_leaves_the_case_ungraded_with_an_indicative_grade() {
+    let dir = data_dir();
+    if !has_banks(&dir) {
+        eprintln!("sin bancos reales: se omite");
+        return;
+    }
+    let catalog = Catalog::load_dir(&dir).expect("data/");
+    let (mut engine, _) = engine_with(catalog);
+    // Caso real de un usuario (formato 2025): 32 A / 48 E en la 1.ª parte → 16 directos de 80,
+    // por debajo del corte; 10 A / 10 E en el supuesto → 6,67 directos, que no se corrigen.
+    let result = engine
+        .calculate_grade(
+            None,
+            &tai_core::api::ManualGradeInput {
+                scheme_id: "tai-li-2025".into(),
+                parts: vec![
+                    tai_core::api::ManualPartInput {
+                        part: 1,
+                        correct: 32,
+                        wrong: 48,
+                        blank: 0,
+                    },
+                    tai_core::api::ManualPartInput {
+                        part: 2,
+                        correct: 10,
+                        wrong: 10,
+                        blank: 0,
+                    },
+                ],
+                cutoff_override_ratio: None,
+            },
+        )
+        .expect("calculadora");
+    let g = &result.grade;
+    assert!((g.parts[0].direct - 16.0).abs() < 1e-9);
+    assert!((g.parts[1].direct - 20.0 / 3.0).abs() < 1e-9);
+    assert!(!g.units[0].passed && !g.units[0].ungraded);
+    assert!(
+        (g.units[0].grade - 25.0 * 16.0 / 24.0).abs() < 1e-6,
+        "{}",
+        g.units[0].grade
+    );
+    assert!(g.units[1].ungraded);
+    assert_eq!(g.units[1].grade, 0.0);
+    let orientativa = g.units[1].would_be_grade.expect("orientativa");
+    assert!(orientativa > 0.0 && orientativa < 25.0, "{orientativa}");
+    assert!((g.total_grade - g.units[0].grade).abs() < 1e-9);
+    assert!(!g.passed);
+}

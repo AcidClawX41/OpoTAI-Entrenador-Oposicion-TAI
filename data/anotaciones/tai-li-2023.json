@@ -172,7 +172,7 @@
   },
   {
     "id": "tai-li-2023-p1-009",
-    "explanation": "Según el **art. 30 de la Ley 39/2006**, el grado de dependencia es revisable **a instancia del interesado, de sus representantes o de oficio** por las Administraciones públicas competentes, por **mejoría o empeoramiento** de la situación de dependencia o por **error de diagnóstico** o en la aplicación del baremo. Por eso todas las opciones son correctas.",
+    "explanation": "Según el **art. 30.1 de la Ley 39/2006**, el grado de dependencia es revisable **a instancia del interesado, de sus representantes o de oficio** por las Administraciones públicas competentes, por **mejoría o empeoramiento** de la situación de dependencia o por **error de diagnóstico** o en la aplicación del baremo. Por eso todas las opciones son correctas. La **Ley 4/2026** (en vigor el 23-10-2026) reescribe el artículo («a instancia de la persona interesada…») sin cambiar la regla, y suprime el antiguo apartado 2 sobre la modificación de las prestaciones.",
     "option_notes": [
       "Es correcta, pero incompleta: también pueden instarlo los representantes y la Administración de oficio.",
       "Es correcta, pero incompleta: también el propio interesado y la Administración de oficio.",
@@ -181,7 +181,8 @@
     ],
     "topic": "I.5",
     "references": [
-      "Ley 39/2006, art. 30"
+      "Ley 39/2006, art. 30",
+      "Ley 4/2026, art. 2.29"
     ],
     "tags": [
       "dependencia",
@@ -386,7 +387,7 @@
   },
   {
     "id": "tai-li-2023-p1-019",
-    "explanation": "El **art. 54 CE** configura el **Defensor del Pueblo** como **alto comisionado de las Cortes Generales**, designado por ellas para defender los derechos del Título I; puede supervisar la actividad de la Administración dando cuenta a las Cortes. Lo regula la **LO 3/1981**: elección por tres quintos de cada Cámara para **cinco años**.",
+    "explanation": "El **art. 54 CE** configura el **Defensor del Pueblo** como **alto comisionado de las Cortes Generales**, designado por ellas para defender los derechos del Título I; puede supervisar la actividad de la Administración dando cuenta a las Cortes. Lo regula la **LO 3/1981**: lo eligen las Cortes Generales para **cinco años**, por **tres quintos del Congreso** ratificados por la misma mayoría del **Senado** (art. 2; si no se alcanzan, basta después la mayoría absoluta del Senado una vez obtenidos los tres quintos en el Congreso).",
     "option_notes": [
       "Es comisionado de las Cortes Generales (ambas Cámaras), no solo del Congreso.",
       null,
@@ -396,7 +397,7 @@
     "topic": "I.2",
     "references": [
       "CE, art. 54",
-      "LO 3/1981, del Defensor del Pueblo"
+      "LO 3/1981, del Defensor del Pueblo, art. 2"
     ],
     "tags": [
       "defensor-del-pueblo",

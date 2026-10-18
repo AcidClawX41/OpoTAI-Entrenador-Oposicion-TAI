@@ -5,7 +5,9 @@ name: Instaladores (Windows x64 · Linux x64 · macOS Apple Silicon)
 #   - Linux x64: .deb, .rpm y .AppImage.
 #   - macOS Apple Silicon (arm64): .dmg con la app (firma ad-hoc, sin cuenta de Apple).
 # Cuándo se ejecuta:
-#   - Al empujar una etiqueta vX.Y.Z[-rc.N]: crea un BORRADOR de release con todo adjunto.
+#   - Al empujar una etiqueta vX.Y.Z[-rc.N]: crea la release (texto de docs/notas-version/vX.Y.Z.md si
+#     existe), adjunta los instaladores de los tres sistemas y la PUBLICA al terminar los tres (las
+#     vX.Y.Z-rc.N quedan como pre-release). Si alguna compilación falla, se queda en borrador.
 #   - Al cambiar `.github/compilar-instaladores` en cualquier rama: solo compila y deja los
 #     ejecutables como artefactos privados del workflow (para probar sin publicar nada).
 #   - A mano (workflow_dispatch, cuando el workflow esté en la rama principal): igual que el
@@ -35,8 +37,42 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
+  # Solo con etiqueta: crea la release (borrador) antes de compilar, para que los tres sistemas
+  # adjunten sus ficheros a la MISMA release (sin duplicados).
+  crear-release:
+    name: Crear la release
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    outputs:
+      id: ${{ steps.crear.outputs.id }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Crear borrador con las notas de la versión
+        id: crear
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          notas="docs/notas-version/${TAG}.md"
+          if [ ! -f "$notas" ]; then
+            notas="$RUNNER_TEMP/notas.md"
+            printf '%s\n' "OpoTAI ${TAG} · entrenador de la oposición TAI (AGE) · por Eric Valls Gramunt." \
+              "" "Instaladores para Windows x64, Linux x64 y macOS Apple Silicon adjuntos más abajo." > "$notas"
+          fi
+          pre=""
+          case "$TAG" in *-*) pre="--prerelease";; esac
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --draft=true --notes-file "$notas"
+          else
+            gh release create "$TAG" --draft $pre --verify-tag --title "OpoTAI ${TAG#v}" --notes-file "$notas"
+          fi
+          echo "id=$(gh release view "$TAG" --json databaseId -q .databaseId)" >> "$GITHUB_OUTPUT"
+
   build:
     name: ${{ matrix.name }}
+    needs: crear-release
+    # Sin etiqueta, «crear-release» se omite y los instaladores se compilan igualmente.
+    if: ${{ !cancelled() && (needs.crear-release.result == 'success' || needs.crear-release.result == 'skipped') }}
     strategy:
       fail-fast: false
       matrix:
@@ -82,7 +118,7 @@ jobs:
         working-directory: app
         run: pnpm install --frozen-lockfile
 
-      - name: Compilar y publicar borrador de release
+      - name: Compilar y adjuntar a la release
         if: startsWith(github.ref, 'refs/tags/') || inputs.publish
         uses: tauri-apps/tauri-action@v1
         env:
@@ -90,16 +126,11 @@ jobs:
         with:
           projectPath: app
           args: ${{ matrix.args }}
-          # La etiqueta empujada manda (v1.0.0-rc.1 → borrador «OpoTAI v1.0.0-rc.1», marcado como
-          # pre-release); lanzado a mano, se usa la versión de la app.
+          # Con etiqueta, se adjunta a la release que creó «crear-release»; lanzado a mano con
+          # «publish», tauri-action crea un borrador con la versión de la app.
+          releaseId: ${{ needs.crear-release.outputs.id }}
           tagName: ${{ github.ref_type == 'tag' && github.ref_name || 'v__VERSION__' }}
           releaseName: "OpoTAI ${{ github.ref_type == 'tag' && github.ref_name || 'v__VERSION__' }}"
-          releaseBody: |
-            Entrenador de tests y simulacros para la oposición TAI (AGE) · por Eric Valls Gramunt.
-
-            - **Windows 10/11 (x64)**: instalador `-setup.exe` (recomendado) o `.msi`; también el `.exe` portable. Es una app sin firma comercial: si SmartScreen avisa, «Más información» → «Ejecutar de todas formas».
-            - **Linux (x64)**: `.deb` (Ubuntu/Debian, recomendado), `.rpm` (Fedora/openSUSE) o `.AppImage` (portable; en Ubuntu 24.04 o posterior necesita `sudo apt install libfuse2t64`).
-            - **macOS (Apple Silicon, M1 o posterior)**: `.dmg`. Tiene firma ad-hoc, no de Apple: la primera vez, abre la app, ve a Ajustes del Sistema → Privacidad y seguridad → «Abrir igualmente» (en macOS 14 o anterior también vale clic derecho → Abrir).
           releaseDraft: true
           prerelease: ${{ contains(github.ref_name, '-') }}
           # En Windows se publica también el .exe portable (los datos van embebidos en el binario).
@@ -118,3 +149,21 @@ jobs:
           uploadPlainBinary: ${{ runner.os == 'Windows' }}
           uploadWorkflowArtifacts: true
           workflowArtifactNamePattern: "OpoTAI-[platform]-[arch]-[bundle]"
+
+  # Solo con etiqueta y si los tres sistemas compilaron: publica la release (deja de ser borrador).
+  publicar:
+    name: Publicar la release
+    needs: [crear-release, build]
+    if: startsWith(github.ref, 'refs/tags/') && needs.build.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publicar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          case "$TAG" in
+            *-*) gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --draft=false --prerelease ;;
+            *)   gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --draft=false --latest ;;
+          esac
+          gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json assets -q '.assets[].name'

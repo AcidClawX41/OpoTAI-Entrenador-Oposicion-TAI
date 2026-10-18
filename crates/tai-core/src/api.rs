@@ -653,6 +653,12 @@ pub struct UnitGrade {
     pub max_grade: f64,
     pub passed: bool,
     pub margin_direct: f64,
+    /// Parte eliminada: no se corrige porque no se superó la anterior (nota 0 en el total).
+    #[serde(default)]
+    pub ungraded: bool,
+    /// Si `ungraded`, la nota que le habría correspondido por su directa (orientativa; no cuenta).
+    #[serde(default)]
+    pub would_be_grade: Option<f64>,
 }
 
 /// `GradeResult`.

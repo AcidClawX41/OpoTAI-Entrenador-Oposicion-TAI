@@ -146,6 +146,10 @@ describe("corrección oficial (mock)", () => {
     expect(g.units[0]!.passed).toBe(false);
     expect(g.units[1]!.grade).toBe(0);
     expect(g.units[1]!.passed).toBe(false);
+    // «Sin corregir», con la nota que habría sacado (orientativa, no suma).
+    expect(g.units[0]!.ungraded).toBe(false);
+    expect(g.units[1]!.ungraded).toBe(true);
+    expect(g.units[1]!.would_be_grade).toBe(50);
     expect(g.total).toBe(0);
     expect(g.notes.join(" ")).toMatch(/no se corrige/);
   });

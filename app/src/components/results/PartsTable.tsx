@@ -12,7 +12,7 @@ import { formatDirect, formatGrade, formatInt, formatNumber, formatPenalty, ordi
 import { partName } from "@/lib/exam/structure";
 import { totals } from "./GradeSummary";
 
-function Verdict({ passed, final = false }: { passed: boolean; final?: boolean }) {
+function Verdict({ passed, final = false, ungraded = false }: { passed: boolean; final?: boolean; ungraded?: boolean }) {
   return (
     <span
       className={cn(
@@ -21,7 +21,7 @@ function Verdict({ passed, final = false }: { passed: boolean; final?: boolean }
       )}
     >
       {passed ? <CircleCheck className="size-3.5" aria-hidden /> : <CircleX className="size-3.5" aria-hidden />}
-      {final ? (passed ? "APTO" : "NO APTO") : passed ? "Superada" : "No superada"}
+      {final ? (passed ? "APTO" : "NO APTO") : passed ? "Superada" : ungraded ? "No se corrige" : "No superada"}
     </span>
   );
 }
@@ -114,8 +114,19 @@ export function PartsTable({ grade, scheme, className }: { grade: GradeResult; s
                 {unit && first ? (
                   <>
                     <td className={cn(td, shared && "border-l border-border bg-surface-2/30")} rowSpan={span}>
-                      <span className="font-semibold text-fg">{formatGrade(unit.grade)}</span>
-                      <span className="text-fg-subtle"> / {formatInt(unit.max_grade)}</span>
+                      {unit.ungraded ? (
+                        <>
+                          <span className="font-semibold text-fg">Sin corregir</span>
+                          {unit.would_be_grade != null ? (
+                            <span className="mt-0.5 block text-[11px] text-fg-subtle">orientativa {formatGrade(unit.would_be_grade)} · no cuenta</span>
+                          ) : null}
+                        </>
+                      ) : (
+                        <>
+                          <span className="font-semibold text-fg">{formatGrade(unit.grade)}</span>
+                          <span className="text-fg-subtle"> / {formatInt(unit.max_grade)}</span>
+                        </>
+                      )}
                       {shared ? <span className="mt-0.5 block text-[11px] text-fg-subtle">nota conjunta</span> : null}
                     </td>
                     <td className={cn(td, shared && "bg-surface-2/30")} rowSpan={span}>
@@ -123,7 +134,7 @@ export function PartsTable({ grade, scheme, className }: { grade: GradeResult; s
                       <span className="mt-0.5 block text-[11px] text-fg-subtle">corte {formatDirect(unit.cutoff_direct)} dir.</span>
                     </td>
                     <td className={cn(td, "text-center", shared && "bg-surface-2/30")} rowSpan={span}>
-                      <Verdict passed={unit.passed} />
+                      <Verdict passed={unit.passed} ungraded={unit.ungraded} />
                     </td>
                   </>
                 ) : !unit ? (

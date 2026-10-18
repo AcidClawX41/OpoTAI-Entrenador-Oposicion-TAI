@@ -295,6 +295,10 @@ fn per_part_scheme_is_eliminatory() {
     assert!(!units[1].passed);
     assert_eq!(units[1].grade, 0.0);
     assert!(close(units[1].direct, 4.0));
+    // Se marca como «sin corregir» y se informa de lo que habría sacado (sin sumarlo).
+    assert!(!units[0].ungraded && units[0].would_be_grade.is_none());
+    assert!(units[1].ungraded);
+    assert!(close(units[1].would_be_grade.expect("orientativa"), 50.0));
     assert!(!result.grade.passed);
     assert!(
         result

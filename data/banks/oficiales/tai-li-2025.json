@@ -328,11 +328,11 @@
           "answer": "A",
           "annulled": false,
           "topic": "I.4",
-          "explanation": "El **art. 36.2 de la Ley 19/2013** compone la Comisión de Transparencia y Buen Gobierno con: su Presidente, un Diputado, un Senador y un representante de cada uno de estos órganos: **Tribunal de Cuentas, Defensor del Pueblo**, Agencia Española de Protección de Datos, la Secretaría de Estado competente en Función Pública y la Autoridad Independiente de Responsabilidad Fiscal.",
+          "explanation": "El **art. 36.2 de la Ley 19/2013** compone la Comisión de Transparencia y Buen Gobierno con: a) su Presidente, b) un Diputado, c) un Senador y un representante de cada uno de estos órganos: d) **Tribunal de Cuentas**, e) **Defensor del Pueblo**, f) Agencia Española de Protección de Datos, g) **Secretaría de Estado de Administraciones Públicas** (así sigue diciéndolo la ley; hoy sus funciones corresponden a la Secretaría de Estado de Función Pública) y h) Autoridad Independiente de Responsabilidad Fiscal.",
           "option_notes": [
             null,
-            "No hay representante de Hacienda: el de la Administración es de la Secretaría de Estado de Función Pública (antes de Administraciones Públicas).",
-            "Confunde Tribunal Constitucional con Tribunal de Cuentas, que es el que sí está representado.",
+            "No hay representante de Hacienda: el de la Administración es de la Secretaría de Estado de Administraciones Públicas (art. 36.2.g).",
+            "Confunde el Tribunal Constitucional con el Tribunal de Cuentas, que es el que sí está representado (art. 36.2.d).",
             "La AEAT no forma parte de la Comisión."
           ],
           "references": [
@@ -392,7 +392,7 @@
           "answer": "B",
           "annulled": false,
           "topic": "I.5",
-          "explanation": "Según el **art. 4.2 del RDLeg 1/2013** (Ley General de derechos de las personas con discapacidad), tienen a todos los efectos la consideración de personas con discapacidad aquellas a las que se haya reconocido un **grado de discapacidad igual o superior al 33 %**. Cifra muy preguntada: también es la reserva de referencia para el cupo de discapacidad en el empleo público.",
+          "explanation": "Según el **art. 4.2 del RDLeg 1/2013** (Ley General de derechos de las personas con discapacidad), **a los efectos de esta ley** tienen la consideración de personas con discapacidad aquellas a las que se haya reconocido un **grado de discapacidad igual o superior al 33 %**. Cifra muy preguntada: es también la que da acceso al **cupo de reserva** del empleo público, que se remite a este art. 4.2 (art. 59.1 TREBEP). La **Ley 4/2026** (en vigor el 23-10-2026) mantiene el 33 % y añade que el grado I de dependencia equivale a un 33 % de discapacidad y los grados II y III a un 65 %.",
           "option_notes": [
             "El umbral legal no es el 30 %, sino el 33 %.",
             null,
@@ -400,7 +400,9 @@
             "El umbral legal no es el 38 %, sino el 33 %."
           ],
           "references": [
-            "RDLeg 1/2013, art. 4.2"
+            "RDLeg 1/2013, art. 4.2",
+            "RDLeg 5/2015 (TREBEP), art. 59.1",
+            "Ley 4/2026, art. 1.2"
           ],
           "tags": [
             "discapacidad",
@@ -456,12 +458,12 @@
           "answer": "B",
           "annulled": false,
           "topic": "I.6",
-          "explanation": "Cada anexo de **eIDAS** regula un tipo de certificado cualificado: **I, firma electrónica**; **III, sello electrónico**; **IV, autenticación de sitios web**. El anexo III.c) exige **al menos el nombre del creador del sello** y, cuando proceda, su número de registro tal como figure en los registros oficiales. Las demás opciones son requisitos reales, pero de otros anexos.",
+          "explanation": "Cada anexo de **eIDAS** regula un tipo de certificado cualificado: **I, firma electrónica**; **III, sello electrónico**; **IV, autenticación de sitios web**. El **anexo III, letra c)**, exige que el certificado de sello contenga «**al menos, el nombre del creador del sello y, cuando proceda, el número de registro**, tal como se recojan en los registros oficiales». Las otras tres opciones son literales del **anexo IV** (sitios web): la D es su letra c), la C su letra d) y la A su letra e).",
           "option_notes": [
-            "Los nombres de dominio son propios de los certificados de autenticación de sitios web (anexo IV).",
-            "La dirección con, al menos, ciudad y Estado es requisito de los certificados de sitio web (anexo IV).",
+            "Los nombres de dominio son requisito de los certificados de autenticación de sitios web (anexo IV, letra e).",
             null,
-            "El nombre o seudónimo de la persona física es requisito de los certificados de firma electrónica (anexo I)."
+            "La dirección con, al menos, la ciudad y el Estado es requisito de los certificados de sitio web (anexo IV, letra d).",
+            "Es literal del anexo IV, letra c) (sitios web); el anexo I (firma) exige «al menos el nombre del firmante o un seudónimo», y el III no admite seudónimo."
           ],
           "references": [
             "Reglamento (UE) 910/2014 (eIDAS), anexos I, III y IV"
@@ -488,7 +490,7 @@
           "answer": "C",
           "annulled": false,
           "topic": "I.6",
-          "explanation": "La **Ley 6/2020** admite seudónimos en los certificados cualificados (art. 6.1.a). Por su **art. 8.2**, el prestador debe constatar la verdadera identidad del titular y conservar la documentación que la acredite. Por el **art. 8.3**, está **obligado a revelar esa identidad cuando lo soliciten los órganos judiciales y otras autoridades públicas** en el ejercicio de sus funciones. No hacerlo es infracción grave (art. 18.3).",
+          "explanation": "La **Ley 6/2020** admite seudónimos en los certificados cualificados de firma y de autenticación de sitio web expedidos a personas físicas, siempre que conste como tal de manera inequívoca (art. 6.1.a). Según el **art. 8.2**, el prestador que consigne un seudónimo debe constatar la verdadera identidad del titular y conservar la documentación que la acredite, y, según el **art. 8.3**, está **obligado a revelar esa identidad cuando lo soliciten los órganos judiciales y otras autoridades públicas** en el ejercicio de funciones legalmente atribuidas. No constatar la identidad ni conservar esa documentación es infracción grave (art. 18.3.l).",
           "option_notes": [
             "El seudónimo está permitido, siempre que conste como tal de forma inequívoca (art. 6.1.a).",
             "La revelación no depende del consentimiento del titular: es obligatoria ante jueces y autoridades.",
@@ -496,7 +498,7 @@
             "El seudónimo se admite en certificados de personas físicas (firma y sitio web), no solo en los de sello."
           ],
           "references": [
-            "Ley 6/2020, arts. 6.1.a) y 8.2–8.3"
+            "Ley 6/2020, arts. 6.1.a), 8.2–8.3 y 18.3.l)"
           ],
           "tags": [
             "servicios-de-confianza",
@@ -523,8 +525,8 @@
           "explanation": "El **art. 96 de la LOPDGDD** regula el **testamento digital**: el acceso a los contenidos gestionados por los prestadores de servicios de la sociedad de la información sobre **personas fallecidas**. Las personas vinculadas al fallecido y sus herederos pueden acceder a ellos y dar instrucciones sobre su utilización, destino o supresión, salvo que el fallecido lo hubiera prohibido o lo establezca una ley.",
           "option_notes": [
             "No regula la transmisión de activos financieros, que sigue el Derecho de sucesiones.",
-            "No trata de bienes físicos: se refiere a contenidos en servicios de la sociedad de la información.",
             null,
+            "No trata de bienes físicos: se refiere a contenidos en servicios de la sociedad de la información.",
             "La supresión no es automática ni obligatoria: la pueden solicitar los legitimados."
           ],
           "references": [
@@ -618,7 +620,7 @@
           "topic": "I.8",
           "explanation": "El glosario del **anexo IV del ENS (RD 311/2022)** define el **compromiso de la seguridad** como el incidente de seguridad en el que, por una violación de las medidas técnicas u organizativas, una información o un servicio quedan expuestos, o potencialmente expuestos, a un acceso no autorizado. Un incidente de seguridad (o ciberincidente) es, en general, cualquier suceso inesperado o no deseado que perjudica la seguridad de las redes y sistemas.",
           "option_notes": [
-            "Ciberincidente es el término genérico (sinónimo de incidente de seguridad), no exige exposición a un acceso no autorizado.",
+            "El glosario define el ciberincidente como el incidente relacionado con la seguridad de las TIC que se produce en el ciberespacio; no exige exposición a un acceso no autorizado.",
             "Un ciberataque es un intento deliberado de dañar un sistema; no es la definición que da el glosario.",
             null,
             "La categoría (básica, media o alta) es el grado con el que se califica un sistema para elegir sus medidas, no un incidente."
@@ -680,7 +682,7 @@
           "answer": "C",
           "annulled": false,
           "topic": "I.8",
-          "explanation": "El **art. 18 del RD 772/1999**, añadido por el **RD 209/2003**, regula el cómputo de plazos de los registros telemáticos. Solo son inhábiles los días declarados para todo el territorio nacional, más los del ámbito territorial cuando el órgano tenga competencia delimitada. Lo recibido en día inhábil se entiende presentado en la primera hora del primer día hábil siguiente. Además, **los registros telemáticos no realizan ni anotan salidas en días inhábiles**: por eso C es la incorrecta. Hoy la regla general está en el **art. 31.2 de la Ley 39/2015**.",
+          "explanation": "El precepto citado es en realidad el **art. 18 del RD 772/1999**, que **añadió el RD 209/2003** (art. 3.1); el RD 209/2003 no tiene art. 18. Regulaba el cómputo de plazos de los registros telemáticos: a) solo son inhábiles los días declarados para todo el territorio nacional, más los del ámbito territorial cuando el órgano tenga competencia delimitada a una comunidad autónoma, provincia o municipio; b) lo recibido en día inhábil se entiende presentado en la primera hora del primer día hábil siguiente; y c) «los registros telemáticos **no realizarán ni anotarán salidas** de escritos y comunicaciones en días inhábiles». Por eso **C** es la incorrecta. Ojo: la pregunta (examen de 2026) cita una norma que **ya no estaba vigente**: el RD 1671/2009 derogó ese artículo en 2009. Hoy la regla está en el **art. 31.2 de la Ley 39/2015**.",
           "option_notes": [
             "Es correcta: así lo dispone el art. 18 del RD 772/1999.",
             "Es correcta: así lo dispone el art. 18 del RD 772/1999 (y hoy el art. 31.2 de la Ley 39/2015).",
@@ -688,17 +690,17 @@
             "Es correcta: para los órganos de ámbito territorial delimitado se añaden los inhábiles de ese ámbito."
           ],
           "references": [
-            "RD 209/2003",
-            "RD 772/1999, art. 18",
-            "Ley 39/2015, art. 31"
+            "RD 772/1999, art. 18, añadido por el art. 3.1 del RD 209/2003 (derogado)",
+            "RD 1671/2009, disposición derogatoria única.b)",
+            "Ley 39/2015, art. 31.2"
           ],
           "tags": [
             "registro-electronico",
             "computo-de-plazos"
           ],
           "media": [],
-          "outdated": false,
-          "outdated_note": null,
+          "outdated": true,
+          "outdated_note": "Los arts. 14 a 18 del RD 772/1999 (registros telemáticos, introducidos por el RD 209/2003) fueron derogados por el **RD 1671/2009** (disposición derogatoria única, letra b; en vigor el 19-11-2009), y el resto del RD 772/1999 por la Ley 39/2015 (con efectos de 2-10-2016). La norma que cita la pregunta ya no estaba vigente en la fecha del examen. Hoy, según el **art. 31.2 de la Ley 39/2015**, el registro electrónico admite presentaciones todos los días del año durante las 24 horas, y lo presentado en día inhábil se entiende hecho en la primera hora del primer día hábil siguiente (letra b).",
           "needs_review": false
         },
         {

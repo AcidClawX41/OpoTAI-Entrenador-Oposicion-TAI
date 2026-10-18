@@ -2386,7 +2386,7 @@ dependencies = [
 
 [[package]]
 name = "opotai"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "include_dir",
  "log",
@@ -3408,7 +3408,7 @@ dependencies = [
 
 [[package]]
 name = "tai-core"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "base64 0.22.1",
  "chrono",

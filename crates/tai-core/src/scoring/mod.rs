@@ -231,6 +231,8 @@ pub fn grade(
             unit.pass_grade,
             unit.max_grade,
         );
+        let mut ungraded = false;
+        let mut would_be_grade = None;
         if let Some(failed) = &eliminated_by {
             // Partes eliminatorias: esta no se corrige.
             notes.push(format!(
@@ -238,6 +240,8 @@ pub fn grade(
                 parts_label(&unit.parts),
                 parts_label(failed)
             ));
+            would_be_grade = Some(grade);
+            ungraded = true;
             grade = 0.0;
             passed = false;
         } else if multi && !passed {
@@ -283,6 +287,8 @@ pub fn grade(
             max_grade: unit.max_grade,
             passed,
             margin_direct: direct - cutoff_direct,
+            ungraded,
+            would_be_grade,
         });
     }
 

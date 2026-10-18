@@ -458,6 +458,10 @@ export interface UnitGrade {
   max_grade: number;
   passed: boolean;
   margin_direct: number; // direct − cutoff (negativo si no llega)
+  /** Parte eliminada: no se corrige porque no se superó la anterior (cuenta 0). */
+  ungraded?: boolean;
+  /** Si `ungraded`: nota que le habría correspondido por su directa (orientativa, no cuenta). */
+  would_be_grade?: number | null;
 }
 
 export interface GradeResult {

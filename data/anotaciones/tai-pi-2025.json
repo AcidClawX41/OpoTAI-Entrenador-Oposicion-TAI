@@ -1,7 +1,7 @@
 [
   {
     "id": "tai-pi-2025-p1-003",
-    "explanation": "El **art. 7.1 de la LOPDGDD** permite que un menor consienta por sí solo el tratamiento de sus datos personales **cuando sea mayor de 14 años**, salvo que la ley exija la asistencia de los titulares de la patria potestad o tutela. Para los **menores de 14 años**, el consentimiento solo es lícito si lo prestan esos titulares (art. 7.2). El **RGPD (art. 8)** fija 16 años por defecto para los servicios de la sociedad de la información, pero permite a los Estados bajarla hasta **13**; España eligió 14. Ojo: un proyecto de ley de 2025 sobre menores en entornos digitales propone subirla a 16.",
+    "explanation": "El **art. 7.1 de la LOPDGDD** permite que un menor consienta por sí solo el tratamiento de sus datos personales **cuando sea mayor de 14 años**, salvo que la ley exija la asistencia de los titulares de la patria potestad o tutela. Para los **menores de 14 años**, el consentimiento solo es lícito si lo prestan esos titulares (art. 7.2). El **RGPD (art. 8)** fija 16 años por defecto para los servicios de la sociedad de la información, pero permite a los Estados bajarla hasta **13**; España eligió 14. Ojo: el proyecto de ley orgánica de protección de los menores en los entornos digitales (aprobado por el Consejo de Ministros en marzo de 2025) propone subirla a 16, pero, según el texto consolidado del BOE, el art. 7 sigue fijando los 14 años.",
     "option_notes": [
       "13 años es el mínimo que el art. 8 del RGPD permite fijar a los Estados; España optó por 14.",
       null,
@@ -46,7 +46,7 @@
   },
   {
     "id": "tai-pi-2025-p1-006",
-    "explanation": "El **art. 17 del RD 772/1999**, en la redacción que le dio el **RD 209/2003**, establecía que la presentación de solicitudes, escritos y comunicaciones en los registros telemáticos **podía realizarse durante las 24 horas de todos los días del año**, según la fecha y hora oficial española; solo podía interrumpirse por razones justificadas de mantenimiento. Los días inhábiles no impedían presentar: solo afectaban al **cómputo de plazos** (art. 18). Hoy rige lo mismo en el **art. 31.2.a) de la Ley 39/2015**: el registro electrónico admite documentos todos los días del año, durante las 24 horas.",
+    "explanation": "El **art. 17 del RD 772/1999**, en la redacción que le dio el **RD 209/2003** (que añadió al RD 772/1999 el capítulo de los registros telemáticos, arts. 14 a 18), establecía que la presentación de solicitudes, escritos y comunicaciones en los registros telemáticos **podía realizarse durante las 24 horas de todos los días del año**, según la fecha y hora oficial española; solo podía interrumpirse por razones justificadas de mantenimiento. Los días inhábiles no impedían presentar: solo afectaban al **cómputo de plazos** (art. 18). Ojo: la pregunta (examen de 2025) cita una norma que **ya no estaba vigente**: los arts. 14 a 18 del RD 772/1999 los derogó el **RD 1671/2009** (disposición derogatoria única, letra b; en vigor el 19-11-2009). La respuesta no cambia, porque la regla se mantuvo en el art. 30.1 del RD 1671/2009 y hoy está en el **art. 31.2.a) de la Ley 39/2015**: el registro electrónico permite presentar documentos todos los días del año, durante las 24 horas.",
     "option_notes": [
       null,
       "Los registros telemáticos no cierran sábados ni domingos: admiten presentaciones todos los días del año.",
@@ -55,16 +55,16 @@
     ],
     "topic": "I.8",
     "references": [
-      "RD 209/2003",
-      "RD 772/1999, art. 17 (derogado)",
-      "Ley 39/2015, art. 31.2"
+      "RD 772/1999, art. 17, en la redacción del RD 209/2003 (derogado)",
+      "RD 1671/2009, disposición derogatoria única.b) y art. 30.1 (derogado)",
+      "Ley 39/2015, art. 31.2.a)"
     ],
     "tags": [
       "registro-electronico",
       "computo-de-plazos"
     ],
     "outdated": true,
-    "outdated_note": "El RD 772/1999, cuyos arts. 14 a 18 sobre registros telemáticos introdujo el RD 209/2003, quedó derogado por la Ley 39/2015 (disposición derogatoria única, apdo. 2.f; derogación efectiva el 2-10-2016). La regla actual está en el art. 31.2 de la Ley 39/2015, que mantiene la presentación 24 horas todos los días del año.",
+    "outdated_note": "Los arts. 14 a 18 del RD 772/1999 (registros telemáticos, introducidos por el RD 209/2003) fueron derogados por el **RD 1671/2009** (disposición derogatoria única, letra b; en vigor el 19-11-2009), y el resto del RD 772/1999 por la Ley 39/2015 (con efectos de 2-10-2016). Por tanto, la norma que cita la pregunta ya no estaba vigente en la fecha del examen. La regla actual está en el **art. 31.2.a) de la Ley 39/2015**: presentación 24 horas todos los días del año.",
     "needs_review": false
   },
   {

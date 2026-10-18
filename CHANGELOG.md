@@ -6,6 +6,18 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y
 
 © 2026 Eric Valls Gramunt · Licencia GPL-3.0-or-later.
 
+## [1.0.1] · 2026-10-18
+
+### Cambiado
+- Resultados: cuando no se supera la 1.ª parte, el supuesto aparece como **«Sin corregir»** (cuenta 0,
+  como en el examen real) y muestra la nota orientativa que le habría correspondido, en lugar de un
+  0,00 que parecía un error.
+- Bloque I revisado contra el BOE consolidado (263 preguntas, ninguna respuesta oficial errónea):
+  24 preguntas corregidas (explicaciones de opciones desplazadas, normas derogadas el día del
+  examen, desactualizadas por la Ley 4/2026 y artículos precisados); las copias de promoción
+  interna, sincronizadas con las de libre.
+- Instaladores: la etiqueta crea la release con sus notas, adjunta los tres sistemas y la publica sola.
+
 ## [1.0.0] · 2026-10-12
 
 Primera versión de **OpoTAI**, entrenador de escritorio para la oposición TAI (AGE).
